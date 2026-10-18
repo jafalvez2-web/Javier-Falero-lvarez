@@ -1,0 +1,35 @@
+# Tema 5 – Clase 1 (parte b): Cargas formales en el HNO₃ y selección de formas resonantes
+
+> Transcripción original del profesor. Este fragmento va DENTRO de la clase 1: encaja justo después de «Entonces, esto me lleva a la estructura:» y antes de «Es lo que se llama una estructura resonante» (ver tema05_clase01_introduccion_lewis_resonancia.md). Algunas fórmulas de la pizarra no quedaron recogidas (marcadas como [fórmula en pizarra]).
+
+...con el otro oxígeno abajo con enlace simple. Sigue teniendo exactamente el mismo número de electrones. Y si queréis lo comprobáis: 1, 2; 3, 4; 5, 6; 7, 8; 9, 10; 11, 12; 13, 14; 15, 16; 17, 18; 19, 20; 21, 22; 23, 24. Tiene lo mismo. Lo que pasa es que ahora este nitrógeno ya tiene el octeto completo.
+Esa es una posibilidad. La otra posibilidad: moverlo de aquí abajo. En este caso tengo una estructura con doble enlace en el oxígeno inferior. Y la tercera posibilidad es moverlo del oxígeno que tiene el hidrógeno.
+
+En principio, todas estas estructuras podrían ser equivalentes... podrían representar a la molécula. Eso se representa con estas flechas con doble punta.
+Lo siguiente: calcular cargas formales. Cargas formales os suena, ¿no?
+— Alumno: ¿Lo de calcular los palitos como...?
+— Profesor: Sí, algo por el estilo.
+A ver: cargas formales se calcula para determinar de cada átomo cuántos electrones de más o de menos respecto a los que tenía originalmente ha cedido. Entonces, ¿cómo se calcula? Pues la fórmula es:
+
+[fórmula en pizarra: CF = V − L − B/2]
+
+donde V es el número de electrones de valencia que tenía en un principio, menos el número de electrones que se quedan para él solo (los electrones solitarios, L), menos el número de enlaces (B/2). Así te vas calculando la carga formal.
+La manera más rápida de hacerlo es: por ejemplo, para este oxígeno de aquí, ¿cuál sería la valencia del oxígeno? 6. Vamos a poner que es 6. Cuando yo monté la molécula yo le quité sus 6 electrones, con lo cual se quedó con 6 positivos. Y ahora, cuando he montado la molécula le he devuelto: 1, 2; 3, 4, que son solo para él; pero aquí tiene dos enlaces, pero solamente uno de ellos es suyo (el otro lo pone el otro átomo) y de aquí tiene dos, solamente uno de ellos es suyo. Es decir: 1, 2; 3, 4; 5 y 6. De los 6 que dio le han devuelto 6, con lo cual su carga formal es cero.
+El hidrógeno: tenía 1, se lo quité y le he devuelto 1; su carga formal es cero.
+Este oxígeno: este oxígeno tenía igualmente 6; y le he devuelto: 1, 2; 3, 4; y de estos dos enlaces le he devuelto 2; 5 y 6. Su carga formal es cero.
+Este de aquí: tiene 1, 2; 3, 4; 5, 6 solitarios, más 1 del enlace. Su carga formal sería: los 6 iniciales, 6 positivos; y ahora de esos 6 positivos le han vuelto 1, 2, 3, 4, 5, 6 electrones más uno de más. ¿Cuál es su carga formal? −1. Porque tiene un electrón de más. Si tiene un electrón de más y la molécula es neutra, significa que alguien de alrededor tiene que perder un electrón. Y tiene toda la papeleta de que va a ser el nitrógeno.
+Porque si yo calculo la carga formal del nitrógeno, la carga formal del nitrógeno sería: 5 positivos; y le han vuelto 1, 2, 3 y 4 electrones de los enlaces. Con lo cual me queda un positivo: Aquí está la carga formal del nitrógeno.
+— Alumna: ¿Puedes repetir la dos?
+— Profesor: Voy a hacerlo otra vez. Estoy diciendo: ¿cuál es la valencia de cada átomo? Por ejemplo, el oxígeno: son 6. Y ahora, cuando he vuelto a montar la molécula le he devuelto: este electrón, este electrón, este electrón y este electrón completamente son suyos, no los está compartiendo, son pares solitarios, son 4. Aquí sí los está compartiendo, con lo cual de estos dos enlaces: 1 y 1; han vuelto 6 electrones y él había perdido 6 electrones, su carga formal es cero.
+Hago lo mismo aquí, me va a dar lo mismo. Y aquí tengo: se quedaría con 6 positivos y le han vuelto 1, 2, 3, 4, 5, 6 y 7 electrones; es decir, una carga negativa (−1). Este nitrógeno tenía 5 y le han vuelto 1, 2, 3 y 4; tiene una carga positiva (+1).
+Hay que hacerlo en la tercera. En la tercera: el hidrógeno sigue teniendo dos electrones de valencia compartidos, ningún problema. Este oxígeno tiene 1, 2 solitarios más 3 enlaces (uno al H y dos al N), tiene 5 electrones; con lo cual tiene una carga positiva (+1). Tenía que tener 6 para neutralizar. Este oxígeno tiene 1, 2, 3, 4, 5, 6 solitarios más 1 del enlace simple: 7 electrones, tiene una carga negativa (−1). Este pasa exactamente igual (−1). Y este nitrógeno tiene 1, 2, 3, 4 enlaces, tiene una carga positiva (+1).
+Si yo en lugar de colocar los dos electrones... los dos pares de electrones aquí, parto de la otra molécula en que dos están aquí y dos están aquí, llego prácticamente a lo mismo. Así que solamente lo he hecho con esta porque es más fácil. Si queréis hacerlo en casa, ensayadlo desde la otra y sale lo mismo.
+Entonces: de estas tres posibilidades tengo, teóricamente, tres formas de explicar la estructura de la molécula de ácido nítrico.
+— Alumna: En el oxígeno de la segunda molécula... ¿por qué es positivo?
+— Profesor: Porque tendría 6 cargas... 6 cargas positivas porque le quité 6 electrones. Y ahora le han vuelto: 1, 2; 3; 4 y 5. Entonces, de esas 6 cargas positivas solamente se han neutralizado 5, me queda una positiva.
+Vale. Entonces me encuentro que tengo varias formas de expresar la misma molécula. Pero de esas formas, esta y esta son muy parecidas, ¿lo veis? Pero esta no, esta es muy distinta. Y no solo es muy distinta, sino que además me encuentro que tengo la misma carga formal a ambos lados de la molécula, y me encuentro con que tengo muchas más cargas: aquí tengo cuatro cargas (+, +, −, −), mientras que aquí tengo dos (+ y −).
+Entonces: cuando yo me encuentre ese... y haya otras posibilidades, que son otras posibilidades distintas de esta, esta estructura la rechazo. Las cargas formales te permiten hacer eso: esta estructura, porque tiene mucha más carga formal y sobre todo porque tiene la misma carga a ambos lados de un enlace, te dice: "esta estructura, si no hay otra posibilidad me la tengo que comer; pero como hay otras posibilidades, esa la obvio".
+Y me quedo con que la estructura del ácido nítrico serían estas dos. ¿Cuál de las dos? No podría decir. De hecho hay un movimiento de electrones que me permite cambiar una por otra. Yo puedo coger este par de electrones, devolverlo aquí, y hacer que este venga para acá. Y eso convertiría esa estructura en esta estructura. O lo mismo: este mandarlo para acá y este mandarlo aquí, es exactamente lo mismo. ¿Lo veis?
+Cuando yo llego hasta aquí, he calculado las cargas formales, he descartado aquellas que no son estables, entonces lo que me quede es la estructura de la molécula. ¿Qué pasa? Que en este caso tengo una estructura que se tiene que expresar como una combinación de dos posibles estructuras. ¿Qué me está diciendo esto realmente? Pues me estoy encontrando con que es una estructura especial en la que esta parte está bien definida hasta el nitrógeno, pero hay una estructura poco definida con un enlace intermedio entre simple y doble y una carga que se va desplazando:
+
+[estructura en pizarra — la transcripción se corta aquí]
