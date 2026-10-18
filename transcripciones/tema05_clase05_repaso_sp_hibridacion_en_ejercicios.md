@@ -1,0 +1,20 @@
+# Tema 5 – Clase 5 (inicio): Repaso de la hibridación sp (BeH₂) y vuelta a los ejercicios añadiendo la hibridación
+
+> Transcripción original del profesor. Retoma lo de la clase 4 y vuelve a los ejercicios de la clase 3, pidiendo ahora también la hibridación del átomo central.
+
+A ver... Todo lo que quedaba... que yo he ido contando, tiene su lógica. Si yo necesito poder explicar la molécula, poder entender el enlace, porque al final lo que quiero es poder hacer el cálculo... Si ahora con mi teoría de orbitales atómicos resulta que ninguna molécula la puedo explicar porque sale mal, pues vaya mierda de teoría.
+Entonces, necesito algo que me permita explicar el enlace, pero que coincida con la parte experimental. ¿Vale?
+Entonces, lo que hago es: me invento una cosa, que es un truco matemático, que es combinaciones de los orbitales atómicos. Ya que los orbitales atómicos son simplemente funciones matemáticas, pues las rehago, las combino entre sí para obtener nuevas funciones matemáticas. ¿Vale? Pero esas funciones matemáticas van dirigidas en las direcciones que a mí me interesan.
+Y he puesto el cálculo del hidruro de berilio. Aquí, como necesito una distribución de grupos de electrones lineal, la combinación matemática que me da esa dirección es lo que se llama una hibridación sp. ¿Vale? ¿En qué consiste una hibridación sp? En coger un s y un p, sumarlos y restarlos. Y ya está. Las funciones matemáticas que salen de ahí son dos, que cada una tiene un lóbulo dirigido en... a los 180 grados. ¿Vale?
+Y ahora yo puedo utilizar este orbital híbrido sp y este orbital híbrido sp para explicar el enlace en la molécula, en este caso el hidruro de berilio. ¿Vale?
+¿Cómo sería el enlace en este tipo de moléculas? Pues sería: este lóbulo sp... el 1s de hidrógeno. ¿Vale? El solapamiento de ese orbital sp con este lóbulo del hidrógeno lo que va a crear es más densidad electrónica aquí, justo en el centro, justo en medio de donde están los dos núcleos, es donde más densidad electrónica hay. Ese tipo de solapamiento es lo que se llama un enlace sigma. ¿Vale?
+Y puedo describir entonces los dos orbital... los dos enlaces entre el hidrógeno y el berilio, los puedo describir como orbitales... enlaces de tipo sigma, tipo sigma, formado por el solapamiento del orbital 1s del hidrógeno y el berilio... el sp. Le pongo un 2sp para decir que este 2 es porque es el 2s con el 2p. ¿Vale?
+
+[pizarra: σ(H 1s – Be 2sp) × 2]
+
+Esto de aquí es la explicación del enlace hidrógeno-berilio en aquella molécula. ¿Vale? Y si quisiera hacer cálculos, pues me cojo el orbital 1s del hidrógeno, el orbital este... en este caso el s y el p, los mezclo, se hace el sp, calculo... hago un montón de cosas, pero podría utilizar esos orbitales atómicos si quisiera hacer cálculos. ¿Vale?
+Nosotros no lo vamos a hacer, pero nos vamos a quedar a nivel cualitativo, es decir: cuál es la hibridación del átomo central y cuál es la explicación, si podemos, de los enlaces que forman esa molécula. ¿Lo veis?
+Entonces, ya he llegado a algo que es un poquito más allá de las estructuras de Lewis. La estructura de Lewis: rayitas y puntitos. Ahora no, ahora es solapamiento entre orbitales atómicos y, cuando hace falta, orbitales híbridos. ¿Vale? Hemos aumentado un poquito el nivel. ¿Sí? ¿Os suena de algo? ¿Vale? Bien por aquí.
+¿Vale? Ahora vamos a volver para atrás. ¿Te has quedado atrapada o no? ¿Te has quedado atrapada? (Risas) Sí, más o menos. Ahora volvemos para atrás y volvemos a los problemas.
+Entonces... ahora, visto lo que acabamos de ver: ayer simplemente os pedía la hibrid... la estructura de Lewis, la distribución tridimensional, y en la estructura tridimensional os pedía la distribución de grupos de electrones y la geometría molecular. Bueno, pues ahora, ya que tenéis la distribución de grupos de electrones, decidme cuál es la hibridación del átomo central que me da esa distribución de grupos de electrones. ¿Vale?
+Intentadlo, terminad de hacer... si no lo tenéis hecho, terminad de hacerlo, y yo voy a empezar a resolverlo. ¿Vale? En cinco... diez minutos. ¿Diez minutos o empezamos a resolverlo ya directamente?
