@@ -1,0 +1,68 @@
+Tema 4. Nomenclatura
+             química
+Tema 4. Nomenclatura química
+4.1. Formulación y nomenclatura de los compuestos
+     inorgánicos
+4.2. Formulación y nomenclatura de los compuestos
+     orgánicos
+1. Formulación y nomenclatura de los compuestos inorgánicos
+Estados de oxidación (EO)
+•   También conocido como número de oxidación es el número de electrones que un
+    átomo pierde, gana o utiliza para unirse a otro átomos y formar compuestos.
+     o Los metales son fuentes de electrones (EO positivos).
+     o Los no metales son receptores de electrones (EO generalmente negativos).
+
+Reglas
+    • El número de oxidación de todos los elementos es cero.
+    • El número de oxidación de cualquier ión monoatómico es su carga eléctrica.
+    • El número de oxidación del H es +1, excepto en los hidruros de elementos de los
+      Grupos 1 y 2 que es -1.
+    • El número de oxidación del oxígeno en los óxidos es -2, excepto frente al flúor,
+      en los peróxidos (O2=) y superóxidos (O2-).
+    • El número de oxidación del F en sus compuestos es -1.
+    • La suma algebraica de los números de oxidación de un compuesto es cero si éste
+      es neutro y si es un ión es igual a la carga del mismo.
+1. Formulación y nomenclatura de los compuestos inorgánicos
+1. Compuestos binarios entre metales y no metales
+    Se nombra primero el anión y luego el metal.
+    Si tiene más de un estado de oxidación, se especifica entre paréntesis:
+1. Formulación y nomenclatura de los compuestos inorgánicos
+2. Compuestos binarios dos no metales
+    Se nombra primero el de EO negativo.
+    Si tiene más de un estado de oxidación, se especifica la relación con prefijos :
+
+
+
+
+• Ácidos binarios: Se forman por disolución acuosa de los hidruros de
+  algunos no metales. Se nombran como ácidos y se cambia “-uro” por
+  “hídrico”: HCl (cloruro de hidrógeno)→ HCl (aq) (ácido clorhídrico).
+1. Formulación y nomenclatura de los compuestos inorgánicos
+3. Oxoácidos
+    La mayoría son compuestos ternarios formados por hidrógeno, oxígeno y
+    otro no metal.
+    El estado de oxidación del no metal se indica por los prefijos y sufijos:
+                       hipo– … –oso < –oso < –ico < per–…–ico.
+
+       ¿H2CO3, H3PO4, HNO2, HClO, HIO4?
+
+4. Aniones poliatómicos
+    Los oxoácidos generan oxoaniones por pérdida de átomos de H.
+    Se sustituyen las terminaciones –oso por –ito e –ico por –ato.
+
+           ¿CrO42–, NO2–, HPO42–, OH–, MnO4–?
+   El prefijo tio indica que se ha sustituido un oxígeno por un azufre.
+
+                       S2O32– (tiosulfato)
+1. Formulación y nomenclatura de los compuestos inorgánicos
+5. Compuestos más complejos
+    Pueden estar formados por más de un catión o un anión, o contener
+    moléculas de agua que forman parte de la estructura (hidratos).
+    Los distintos componentes se pueden separar por un punto:
+
+   Cloruro de cobalto (anhidro): CoCl2
+   Cloruro de cobalto hexahidratado: CoCl2 · 6H2O
+   (Cloruro de cobalto(II)-agua (1/6) )
+
+   Dihidróxido carbonato de cobre (II): CuCO3 · Cu(OH)2
+

@@ -1,0 +1,1020 @@
+  Tema 5. El Enlace
+Químico: Moléculas
+
+
+
+
+[Tema 5. Enlace químico: moléculas]
+Tema 5. El Enlace Químico: Moléculas
+1. Estructuras de Lewis. Polaridad y electronegatividad. Cargas
+   formales.
+2. Excepciones a la regla del octeto.
+3. Método de la resonancia.
+4. Geometría molecular: modelo RPECV.
+5. Forma de las moléculas y momentos dipolares.
+6. Orden, longitud y energía de enlace.
+7. Teoría del Enlace Valencia.
+8. Teoría de Orbitales Moleculares.
+
+
+
+                     [Tema 5. Enlace químico: moléculas]
+  1. Estructuras de Lewis. Polaridad y electronegatividad. Cargas formales
+                                          orden de enlace          longitud de enlace
+
+                        naturaleza del enlace                              entalpía de enlace
+
+                                                                                          TEV y
+                                                                          Se estudian
+                        estructura Lewis          enlaces químicos                        TOM
+
+                  se representan                    forman
+                       mediante
+
+                                       comparten                                        capa de
+Molécula está formada por átomos        un par de      electrones
+                                                                       proceden de
+                                                                                        valencia
+                  se distribuyen
+                   en el espacio           la compartición                        determina
+                                               depende de
+
+                          geometría                                                      valencia
+                          molecular              electronegatividad                     del átomo
+
+
+
+                             [Tema 5. Enlace químico: moléculas]
+1. Estructuras de Lewis. Polaridad y electronegatividad. Cargas formales
+
+Entre 1916-19, G. N. Lewis, I. Langmuir y W. Kossel formularon una propuesta sobre el enlace
+químico: Teoría de Lewis.
+
+               «Los átomos se combinan para alcanzar una configuración
+                               electrónica más estable»
+
+
+
+Conceptos fundamentales de la Teoría de Lewis
+
+1. Los electrones más externos (capa de valencia) son los
+que participan en el enlace químico.
+2. La transferencia de electrones conduce a los enlaces
+iónicos.
+3. La compartición de electrones lleva a los enlaces                  G. N. Lewis.
+                                                                      http://chemwiki.ucdavis.edu/Wikitexts/Simon_Fraser
+covalentes.                                                           _Chem1%3A_Lower/Chemical_Bonding_and_Molecul
+                                                                      ar_Structure/The_Shared-Electron_Covalent_Bond
+
+4. Los electrones se transfieren o se comparten de manera
+que los átomos adquieren una configuración de gas noble:
+octeto.
+
+                               [Tema 5. Enlace químico: moléculas]
+1. Estructuras de Lewis. Polaridad y electronegatividad. Cargas formales
+
+Cada átomo se representa con su símbolo químico que representa el núcleo y los
+electrones internos de un átomo y unos puntos situados alrededor del símbolo
+representan los electrones de valencia o electrones más externos.
+
+
+                  B        C            N           O          F                Ne
+Los enlaces se forman por compartición de electrones entre los átomos en distinto grado.
+
+                                                                            +            -
+        Enlace iónico    Na         +       F                        Na              F
+                         [Ne]3s1        [He]2s2p5                    [Ne]         [Ne]
+
+
+      Enlace covalente     H        +       Cl                        H Cl
+                         1s1            [Ne]3s2p5                    [He]       [Ar]
+
+
+
+                               [Tema 5. Enlace químico: moléculas]
+1. Estructuras de Lewis. Polaridad y electronegatividad. Cargas formales
+
+Regla del octeto        «Un átomo diferente del hidrógeno tiende a formar enlaces
+                           hasta que se rodea de ocho electrones de valencia»
+
+La compartición de un par de electrones entre átomos enlazados da lugar a un enlace
+covalente simple.
+
+
+
+                   H H                      H H (H                 H)
+                                               par enlazante
+
+
+
+                 Cl     Cl                  Cl       Cl             par solitario / par libre
+
+
+
+
+                             [Tema 5. Enlace químico: moléculas]
+1. Estructuras de Lewis. Polaridad y electronegatividad. Cargas formales
+Enlaces covalentes coordinados
+Se forman cuando uno de los átomos contribuye con ambos electrones del par
+compartido. No se puede distinguir entre un enlace covalente coordinado y uno
+normal.
+            H                                        H+               -
+          H N          H Cl                        H N H         Cl
+            H                                        H
+Enlaces covalentes múltiples
+Los átomos enlazados comparten entre sí dos o tres pares de electrones,
+constituyendo un enlace covalente doble o triple (múltiple).
+
+
+      O     C      O                      O        C       O    (O        C   O)
+
+
+                          [Tema 5. Enlace químico: moléculas]
+1. Estructuras de Lewis. Polaridad y electronegatividad. Cargas formales
+
+Polaridad y electronegatividad
+Un enlace en el que dos átomos no comparten por igual los electrones se llama enlace
+covalente polar. El enlace formado es un enlace polar. En estos enlaces, los electrones
+se desplazan hacia el elemento de mayor electronegatividad.
+
+
+                    −                                   «Water-elpot-transparent-3D-balls». Publicado bajo la
+                                                          licencia Public domain vía Wikimedia Commons -
+           +               +                            http://commons.wikimedia.org/wiki/File:Water-elpot-
+
+                H O H                                     transparent-3D-balls.png#mediaviewer/File:Water-
+                                                          elpot-transparent-3D-balls.png.
+
+
+
+
+Se puede representar mediante una estructura de Lewis en la que el par de electrones
+enlazante está más próximo al átomo más electronegativo. En el caso del H2O, se dice
+que hay una separación de carga con una carga parcial positiva (δ+) sobre el H y una
+carga parcial negativa (δ–) sobre el O.
+
+
+
+                             [Tema 5. Enlace químico: moléculas]
+    1. Estructuras de Lewis. Polaridad y electronegatividad. Cargas formales
+   Electronegatividad (EN)
+   Describe la capacidad que tiene un átomo para competir por los electrones con otros
+   átomos a los que está unido. La electronegatividad está relacionada con la energía de
+   Ionización (I) y la afinidad electrónica (AE).
+
+
+                                            Una escala de electronegatividad muy utilizada fue
+                                            diseñada por Pauling:
+                                            1.   Los valores van desde 0,7 (Cs y Fr) hasta 4,0 (F).
+                                            2.   Cuanto más pequeño es el valor de EN, más
+                                                 metálico es el elemento.
+"Linus Pauling" by Jubair Sayeed Linas -
+Own work. Licensed under Creative
+                                            3.   Cuanto más grande es el valor de EN, menos
+Commons Attribution-Share Alike 4.0 via
+Wikimedia           Commons             -
+                                                 metálico es el elemento.
+http://commons.wikimedia.org/wiki/File:
+Linas_pauling.jpg#mediaviewer/File:Linas
+_pauling.jpg
+
+
+
+
+                                                 [Tema 5. Enlace químico: moléculas]
+ 1. Estructuras de Lewis. Polaridad y electronegatividad. Cargas formales
+Escala de electronegatividad de Pauling
+
+
+
+
+                 Pauling Scale. Http://en.wikipedia.org/wiki/Electronegativities_of_the_elements_%28data_page%29
+
+
+
+
+                                        [Tema 5. Enlace químico: moléculas]
+1. Estructuras de Lewis. Polaridad y electronegatividad. Cargas formales
+La diferencia de electronegatividad en valor absoluto de EN de dos átomos enlazados
+(ΔEN) puede usarse para describir la polaridad de un enlace covalente.
+1. Si ΔEN es muy pequeño, el enlace es esencialmente covalente.
+2. Si ΔEN es grande, el enlace es esencialmente iónico.
+3. Para valores intermedios de ΔEN, el enlace se considera covalente polar.
+
+                         100
+       Carácter iónico
+
+
+
+
+                         50
+
+
+
+
+                               0    1                2              3
+                                               Diferencia electronegatividad
+
+                                   [Tema 5. Enlace químico: moléculas]
+1. Estructuras de Lewis. Polaridad y electronegatividad. Cargas formales
+ PASOS PARA DIBUJAR LA
+                                        Contar el número total de electrones de valencia de
+ESTRUCTURA DE LEWIS DE                              los átomos de la estructura
+  UNA MOLÉCULA O ION
+       Identificar los átomos
+                                                 Dibujar un esqueleto de la estructura
+            terminales
+
+
+                                Colocar dos electrones en cada enlace del esqueleto de la estructura
+
+
+                                           Completar los octetos de los átomos terminales
+
+   Situar los electrones restantes          SÍ
+                                                  ¿Queda algún electrón sin colocar?
+       sobre el átomo central
+                                                                       NO
+
+  Formar enlaces múltiples hasta            NO         ¿Tienen los H un par y un
+       completar octetes                               octete los demás átomos?
+
+                                                                       SÍ
+
+                                                      Calcular las cargas formales
+
+                                                   Estructura de Lewis ¿satisfactoria?
+                                 [Tema 5. Enlace químico: moléculas]
+1. Estructuras de Lewis. Polaridad y electronegatividad. Cargas formales
+
+Cargas formales (CF)
+Son cargas aparentes que aparecen en los átomos de una estructura molecular
+cuando los electrones no contribuyen de igual forma al enlace covalente que los une.
+Las cargas formales se calculan a partir de la fórmula:
+
+                                                             𝑛º𝑒𝑒𝑛𝑙𝑎𝑐𝑒
+               𝐶𝐹 = (𝑛º 𝑒𝑣𝑎𝑙𝑒𝑛𝑐𝑖𝑎 ) − (𝑛º𝑒𝑝𝑎𝑟 𝑠𝑜𝑙𝑖𝑡𝑎𝑟𝑖𝑜 ) − (          )
+                                                                2
+
+Si una especie dada puede tener varias estructuras de Lewis, se debe tener en cuenta
+que son más estables aquellas que proporcionan:
+          1. moléculas neutras
+          2. cargas formales pequeñas
+          3. cargas formales negativas sobre átomos electronegativos
+
+Las estructuras con cargas formales del mismo tipo a ambos lados de un enlace se
+descartan si hay otras posibilidades
+Las cargas formales solo indican la contribución a los enlaces de cada átomo, no son
+cargas reales.
+La distribución de cargas en la molécula está más próxima a los estados de oxidación.
+                             [Tema 5. Enlace químico: moléculas]
+ 1. Estructuras de Lewis. Polaridad y electronegatividad. Cargas formales
+Escritura de las estructuras de Lewis
+Para escribir la estructura de Lewis de una molécula hay que tener en cuenta:
+                                                                            HNO3
+    1. Determinar la conectividad entre los átomos. Los átomos
+    menos electronegativos suelen ser los átomos centrales. El          O       N O   H
+    hidrógeno suele ser un átomo terminal.                                      O
+
+    2. Cada átomo aporta los electrones de valencia que                 O       N O   H
+    constituyen los electrones de enlace (simple o múltiple) y los              O
+    electrones solitarios.
+                                                                        O       N O   H
+    3. Cada átomo (excepto el hidrógeno) requiere generalmente
+    un octeto.                                                                  O
+                                                                                +
+    4. Incluir las cargas formales (CF) sobre los átomos                O       N O   H
+    correspondientes.                                                           O
+                                                                            -
+
+
+                              [Tema 5. Enlace químico: moléculas]
+2. Excepciones a la regla del octeto
+
+Octetos incompletos
+En algunos casos puede observarse que el átomo central tiene un número inferior a ocho. Estas
+especies tienen tendencia a formar enlaces covalentes coordinados (enlace dativo).
+
+                                                          F       B    F
+                            H       Be        H
+                                  (BeH2)                              (BF3)
+                                                                  F
+Octetos expandidos:
+Se observa con elementos a partir del tercer periodo debido a la presencia de orbitales próximos
+en energía (3p y 3d) que pueden albergar estos electrones.
+
+
+                                     F       F
+                                                     F
+                                             S            (SF6)
+
+                                     F               F
+                                             F
+                                [Tema 5. Enlace químico: moléculas]
+2. Excepciones a la regla del octeto
+
+Moléculas con número impar de electrones
+En algunos casos puede observarse que el átomo central tiene un número impar inferior a ocho.
+Estas especies, denominadas radicales, no pueden completar el octeto,
+
+                                                             -               +
+                    N          O                                 O       N               O
+               (óxido nítrico, NO)                      (dióxido de nitrógeno, NO2)
+
+
+Los radicales son especies altamente reactivas ya que el electrón desapareado tiene a formar un
+enlace covalente con un electrón desapareado de otra molécula.
+
+                       -                 -                       -
+                                                                             O
+                   O                         O               O
+
+
+
+                                                                         +
+                                                                         N
+                           N   +     N                               N
+                           +
+
+
+                                   +
+
+
+
+
+                                                                     +               O
+                    O                    O                       O               -
+
+                                   [Tema 5. Enlace químico: moléculas]
+3. Método de resonancia
+
+Cuando una estructura molecular se representa mediante dos o más estructuras de
+Lewis, se llama a cada una de ellas «estructura de resonancia». Se puede pasar de una
+estructura resonante a otra mediante el movimiento de un par de electrones.
+
+                        O   O O                     O   O O
+                            +   -               -       +
+
+         «La verdadera estructura de Lewis no es ninguna de las dos sino un
+              híbrido de resonancia de las estructuras contribuyentes»
+
+
+Las estructuras resonantes son importantes en sistemas orgánicos como es el caso del
+benceno.
+
+
+
+
+                            [Tema 5. Enlace químico: moléculas]
+4. Geometría Molecular: modelo RPECV
+
+La geometría molecular se refiere a la estructura tridimensional de las moléculas. Esta propiedad
+afecta a sus propiedades físicas y químicas (punto fusión, ebullición, densidad). La geometría de
+las moléculas se puede determinar a partir de las distancias y ángulos de enlace.
+
+                                                                          H
+                                                                                   =104,45º
+
+                                                                              O        H
+                                                                                  d = 95,84 pm
+
+El modelo de la repulsión de los pares electrónicos de la capa de valencia (RPECV) permite
+predecir la distribución de los átomos en una molécula (geometría molecular) a partir de la
+distribución de pares de electrones (geometría de grupos de electrones) en toda estructura de
+Lewis.
+            «Los pares de electrones se disponen alrededor de un átomo
+                 con orientaciones que minimicen las repulsiones»
+
+Los electrones de los pares solitarios ocupan un mayor volumen por lo que generan una mayor
+repulsión entre electrones.
+
+                                 [Tema 5. Enlace químico: moléculas]
+4. Geometría Molecular: modelo RPECV
+
+Tipos de estructura molecular
+
+
+
+
+                                                                  Trigonal plana (X+E=3)
+
+              Lineal (X+E=2)
+
+
+
+
+  Tetraédrica (X+E=4)                                             Octaédrica (X+E=6)
+                                Bipiramidal trigonal (X+E=5)
+
+                            [Tema 5. Enlace químico: moléculas]
+4. Geometría Molecular: modelo RPECV
+
+Aplicación de la teoría RPECV
+                                                                     Formaldehído, CH2O
+1.   Escriba una estructura de Lewis aceptable.
+2.   Determine el número de grupos de electrones que hay
+     alrededor del átomo central (A) y establezca si son
+     grupos enlazantes (X) o pares solitarios (E).
+3.   Los enlaces múltiples cuentan como un solo grupo de
+     electrones.
+4.   La notación será AXnEm                                                  AX3E0
+
+5.   Establezca la geometría de grupos de electrones: lineal
+     (n + m = 2), trigonal-plana (n + m = 3), tetraédrica (n +           trigonal-plana
+     m = 4), bipiramidal-trigonal (n + m = 5) u octaédrica (n +
+     m = 6).                                                             trigonal-plana
+6.   Determine la geometría molecular.
+
+
+
+
+                               [Tema 5. Enlace químico: moléculas]
+4. Geometría Molecular: modelo RPECV
+La presencia de pares de electrones solitarios hace diferente la geometría de los pares de
+electrones entorno al átomo central y la geometría molecular. También modifica los ángulos de
+enlace debido a la repulsión eléctrica diferente entre electrones compartidos y solitarios.
+
+
+                 H2O
+                 AX2E2        Disposición electrónica            Geometría molecular
+                                   tetraédrica                             angular
+
+                 CH4                               NH3                               H2O
+                                                                   repulsión                        repulsión
+                 repulsión
+
+
+
+
+    geometría          tetraédrica                   pirámide trigonal                     angular
+   ángulo enlace             109,5°                         107,3°                          104,5°
+
+                repulsión                            repulsión                         repulsión
+       par solitario - par solitario   >   par solitario - par enlazante
+                                                                            > par enlazante - par enlazante
+
+                                       [Tema 5. Enlace químico: moléculas]
+4. Geometría Molecular: modelo RPECV
+En moléculas que contienen más de un átomo central hay que establecer la distribución
+geométrica de átomos terminales alrededor de cada átomo central y después combinar los
+resultados en una única descripción de la forma molecular.
+
+                                                H
+
+            Isocianato de metilo           H    C    N       C    O
+                  (CH3NCO)
+                                                H
+
+
+                                                                             C (lineal)
+                                                                    180º
+
+
+                                               N (trigonal
+            Geometría molecular                  plana)
+                                                             120º
+
+
+                                                                      109º
+                                                                 C (tetraédrica)
+
+
+
+
+                             [Tema 5. Enlace químico: moléculas]
+5. Forma de las moléculas y momentos dipolares
+
+El momento dipolar es una medida de la polaridad de un enlace. Los momentos dipolares
+moleculares son una consecuencia de la geometría de la molécula y la presencia de enlaces
+polares.
+
+
+
+                                                                    Q cargas
+                                           𝜇𝐴−𝐵 (𝐷) = 𝑄 · 𝑑
+                                                                    d distancia entre átomos
+
+
+Las moléculas con un momento dipolar molecular diferente de cero se denominan moléculas
+polares, y aquella que su momento dipolar molecular es cero son denominadas moléculas
+apolares.
+
+                                                          𝜇𝐶𝑂2 = 𝜇𝐶𝑂 + 𝜇𝐶𝑂 = 0 𝐷
+
+
+
+
+                                                          𝜇𝐻2𝑂 = 𝜇𝐻𝑂 + 𝜇𝐻𝑂 = 1,87 𝐷
+
+
+
+                              [Tema 5. Enlace químico: moléculas]
+ 6. Orden, longitud y energía de enlace
+
+ La entalpía de una reacción química puede aproximarse con la variación de entalpías de enlace
+ promedio de los enlaces que se rompen y se forman en el curso de una reacción química.
+
+
+                    Δ𝐻0 = ෍ 𝐻𝑒𝑛𝑙𝑎𝑐𝑒𝑠 𝑟𝑜𝑡𝑜𝑠 − ෍ 𝐻𝑒𝑛𝑙𝑎𝑐𝑒𝑠 𝑓𝑜𝑟𝑚𝑎𝑑𝑜𝑠
+
+
+
+Cloración del metano:
+
+
+
+
+Entalpías
+de enlace:
+             414 KJ/mol       243 KJ/mol                 339 KJ/mol       431 KJ/mol
+
+                 Δ𝐻0 = 414 + 243 − 339 + 431 = −113 𝐾𝐽/𝑚𝑜𝑙
+
+
+                                [Tema 5. Enlace químico: moléculas]
+6. Orden, longitud y energía de enlace
+
+La entalpía de enlace es el cambio de entalpía necesario para romper un enlace específico de un
+mol de moléculas en estado gaseoso. Este valor depende del orden de enlace (número de
+enlaces) entre dos átomos. A mayor orden de enlace la entalpía de enlace será mayor. También la
+longitud de enlace depende del orden de enlace, a mayor orden de enlace, menor es la longitud
+de este enlace.
+
+
+
+              Enlace     Orden de     Longitud de enlace       Entalpía de enlace
+                          enlace             (pm)                   (KJ/mol)
+                             1                154                     347
+                             2                134                     611
+                             3                120                     837
+                             1                147                     305
+                             1                143                     360
+                             1                178                     339
+
+
+
+Una energía de enlace media es el valor medio de las energías de disociación de enlace de varias
+especies distintas que tienen determinados enlaces.
+
+                                [Tema 5. Enlace químico: moléculas]
+7. Teoría de enlace de valencia
+Una explicación más completa del enlace químico utiliza teorías mecánico-cuánticas para
+describir la formación del enlace covalente. La teoría de enlace de valencia (TEV) supone los
+electrones que forman una molécula ocupan orbitales atómicos. El enlace se da por
+solapamiento de orbitales atómicos.
+
+Cuando se acercan dos átomos que
+inicialmente se encuentran muy alejados uno
+de otro:
+                                                                               repulsión
+
+
+
+
+                                                           Energía potencial
+1. Los electrones son atraídos por los dos
+   núcleos.
+2. Los electrones se repelen unos a otros.
+3. Los dos núcleos se repelen entre sí.                                         distancia enlace        r
+
+Si se representa la energía potencial en función                                                   atracción
+de la distancia entre los núcleos atómicos nos
+proporciona una distancia a la cual la energía
+del sistema es mínima (se forma el enlace):
+                                              energía enlace
+
+
+                                 [Tema 5. Enlace químico: moléculas]
+7. Teoría de enlace de valencia
+
+Según la teoría de enlace de valencia, los electrones que se involucran en la formación del enlace
+son los electrones de valencia. Estos electrones se encuentran en orbitales atómicos, el
+solapamiento de los mismos describe el enlace covalente. Para que haya enlace, el área de
+solapamiento de los orbitales debe estar en fase.
+
+                   H
+                  (+)
+                  1s1
+                                  H
+
+                                  (+)
+                  2p1
+                                  1s1
+                  (+)   (-)
+
+(-)                     (+) 2p1
+            (+)                      Formación de enlace
+      2p2                          covalente H-O mediante
+                  (-)             solapamiento de orbitales
+                                           1s y 2p
+                  O                                                         “H2O”
+                                      [Tema 5. Enlace químico: moléculas]
+7. Teoría de enlace de valencia
+
+En la teoría de enlace de valencia aparece el concepto de hibridación para explicar la geometría
+de las moléculas poliatómicas.
+
+La hibridación es el proceso matemático de suma de orbitales atómicos para dar un nuevo
+conjunto de orbitales híbridos. Se nombran indicando los tipos de orbitales atómicos iniciales y el
+número de orbitales involucrados.
+
+                     «El número de orbitales híbridos resultante es igual al
+                     número total de orbitales atómicos que se combinan»
+
+
+             Orbitales híbridos       Geometría                 Ejemplo
+             sp                       Lineal                           BeCl2
+             sp2                      Trigonal plana                    BF3
+             sp3                      Tetraédrica                       CH4
+             sp3d                     Bipirámide trigonal               PCl5
+             sp3d2                    Octaédrica                          SF6
+
+
+                                 [Tema 5. Enlace químico: moléculas]
+7. Teoría de enlace de valencia
+
+Orbitales híbridos sp
+Se obtienen por 2 orbitales híbridos sp por combinación de un orbital s y 1 orbital p.
+
+
+                                                  E                                                E
+                                                                           p         hibridación                      p
+                                                                                                            sp
+                                                             s
+
+
+
+
+                                                   s                  px                               sp        sp
+
+                                                                                                                          sp
+
+ «AE2h» de Jfmelero - Trabajo propio. Disponible bajo la licencia
+ Creative Commons Attribution-Share Alike 3.0 vía Wikimedia
+ Commons                                                        -
+ http://commons.wikimedia.org/wiki/File:AE2h.svg#mediaviewer/Fi
+ le:AE2h.svg
+                                                                                                                      BeH2
+                                                                               Geometría lineal
+
+                                                                    [Tema 5. Enlace químico: moléculas]
+7. Teoría de enlace de valencia
+
+Orbitales híbridos sp2
+Se obtienen 3 orbitales híbridos sp2 por combinación de un orbital s y 2 orbitales p.
+
+
+                                     E                                           E
+                                                         p         hibridación                       p
+                                                                                          sp2
+                                              s
+
+
+                                   s                px          py
+                                                                                   sp2         sp2       sp2
+
+
+ «Sp3-Orbital», Disponible bajo la licencia Creative                                                     sp2
+ Commons Attribution-Share Alike 3.0 vía Wikimedia
+ Commons - http://commons.wikimedia.org/wiki/File:Sp3-
+ Orbital.svg#mediaviewer/File:Sp3-Orbital.svg
+
+
+
+
+                                                         Geometría triangular                    BF3
+
+                                                         [Tema 5. Enlace químico: moléculas]
+7. Teoría de enlace de valencia
+
+Orbitales híbridos sp3
+Se obtienen 4 orbitales híbridos sp3 por combinación de un orbital s y 3 orbitales p.
+
+                                         E                                       E
+                                                      p         hibridación
+                                                                                           sp3
+                                             s
+
+
+
+
+                                     s       pz     px        py           sp3       sp3   sp3    sp3
+
+
+
+      «Sp3-Orbital»     Disponible
+                                                                                     sp3                sp3
+      bajo la licencia Creative
+      Commons Attribution-Share
+      Alike 3.0 vía Wikimedia
+      Commons                    -
+      http://commons.wikimedia.o
+      rg/wiki/File:Sp3-
+      Orbital.svg#mediaviewer/File
+      :Sp3-Orbital.svg
+
+
+
+                                 Geometría tetraédrica
+                                                                          CH4                    NH3
+
+                                                  [Tema 5. Enlace químico: moléculas]
+7. Teoría de enlace de valencia
+
+Orbitales híbridos sp3d
+Se obtienen 5 orbitales híbridos sp3d por combinación de un orbital s, 3 orbitales p y 1 orbital d.
+
+  E                                                           E
+                                  d                                                        d
+               p                               hibridación
+                                                                       sp3d
+      s
+
+
+
+
+                                                                                PCl5
+
+
+                                Geometría Bipirámide trigonal
+
+                                 [Tema 5. Enlace químico: moléculas]
+7. Teoría de enlace de valencia
+
+Orbitales híbridos sp3d2
+Se obtienen 5 orbitales híbridos sp3d por combinación de un orbital s, 3 orbitales p y 1 orbital d.
+
+  E                                                           E
+                                  d                                                             d
+               p                               hibridación
+                                                                          sp3d2
+      s
+
+
+
+
+                                                                                  SF6
+
+
+                                      Geometría octaédrica
+
+                                 [Tema 5. Enlace químico: moléculas]
+  7. Teoría de enlace de valencia
+
+  Hibridación y enlaces múltiples.
+  Los enlaces dobles y triples se forman por combinación de enlaces  y enlaces . Los
+  primeros se forman por solapamiento en la dirección del enlace y los segundos por
+  solapamiento lateral, generalmente de orbitales p.
+
+                                                                                 
+Enlace doble                   +                                                 
+                                                                                 
+                 átomos con orbitales híbridos                            enlace  y 
+                           sp2 y p
+
+
+
+                                                                                        
+Enlace triple                                                                  
+                                                                              
+                                                                             
+                átomos con orbitales híbridos
+                          sp y 2 p                                        enlace  y 
+
+
+                                    [Tema 5. Enlace químico: moléculas]
+7. Teoría de enlace de valencia
+
+La teoría de EV necesita conocer la geometría de la molécula que se obtiene
+normalmente a partir de la teoría RPECV.
+
+
+El proceso de obtención de la geometría molecular
+consiste en:                                                      Molécula: SF4
+
+1. Escribir una estructura de Lewis aceptable.
+
+2. Utilizar la teoría RPECV para predecir la
+                                                                                  AX4E1
+   geometría probable de grupos de electrones.
+
+3. Seleccionar el esquema de hibridación
+   correspondiente a la geometría de grupos de
+   electrones.                                                 Hibridación sp3d
+
+4. Describir cada enlace indicando qué orbitales se
+   solapan y el tipo de enlace.                                σ: S(3sp3d)-F(2px)
+
+
+                                [Tema 5. Enlace químico: moléculas]
+8. Teoría de orbitales moleculares
+La teoría EV no explica satisfactoriamente todas las propiedades observadas de las moléculas
+como es el magnetismo. Por ejemplo, no explica por qué el oxígeno es paramagnético.
+Una teoría más general y más correcta es la teoría de orbitales moleculares.
+Describe los enlaces covalentes en términos de orbitales moleculares análogos a los orbitales
+atómicos, obtenidos buscando soluciones a la ecuación de Schrödinger para la molécula entera.
+
+
+La teoría de orbitales moleculares se basa en:
+
+1. Los orbitales atómicos están aislados en los
+   átomos.                                                   Ψ1 = φ1 + φ2          Ψ2 = φ 1 - φ 2
+2. Los orbitales moleculares abarcan dos o más
+   átomos y tienen en cuenta los electrones de los                    Ψ = orbital molecular
+   orbitales atómicos que se solapan.                                  φ =orbital atómico
+3. Los orbitales moleculares se expresan como
+   combinación lineal de orbitales atómicos.
+
+
+
+
+                                [Tema 5. Enlace químico: moléculas]
+8. Teoría de orbitales moleculares
+Orbitales moleculares para el H2.
+                                                                 E              Orbital
+                                            ·         ·               *1s
+                                                                              molecular
+                                                                             antienlazante
+         ·    -      ·
+        1s1         1s1                     plano nodal
+
+
+         · + ·                                                                  Orbital
+                                                                               molecular
+        1s1         1s1
+                                            ·         ·               1s      enlazante
+
+
+
+
+                   Diagrama de orbitales
+                  moleculares para el H2.
+
+
+
+
+                                [Tema 5. Enlace químico: moléculas]
+  8. Teoría de orbitales moleculares
+Orbitales moleculares para orbitales atómicos p.
+                                                                        E            Orbital
+
+                                                      ·       ·             *p
+                                                                                   molecular
+
+       ·      +       ·                                                           antienlazante
+
+      px              px                          plano nodal
+
+
+      ·       -       ·                                                             Orbital
+                                                                                   molecular
+      px              px
+                                                  ·            ·            p     enlazante
+
+
+
+                                                                        E            Orbital
+
+                  -                               ·           ·             *p
+                                                                                   molecular
+                                                                                  antienlazante
+
+       pz              pz                             plano nodal
+
+
+       ·          +
+                                                                                     Orbital
+                                                                                    molecular
+
+       pz              pz
+                                              ·                     ·       p      enlazante
+
+
+                               [Tema 5. Enlace químico: moléculas]
+8. Teoría de orbitales moleculares
+Cuando dos orbitales atómicos se combinan forman dos OM de enlaces /antienlaces. Se pueden
+formar dos tipos de enlace por combinación de orbitales p, OM sigma () y pi ().
+
+        «Número de orbitales moleculares (OM) = número de orbitales atómicos»
+
+
+
+
+Los electrones se colocan en los OM disponibles de energía más baja. Se cumple el principio de
+exclusión de Pauli y se sigue la regla de Hund. Las especies estables tienen más electrones en los
+orbitales de enlace que en los de antienlace. Se define el orden de enlace como:
+
+
+                         𝑒𝑙𝑒𝑐𝑡𝑟𝑜𝑛𝑒𝑠 𝑒𝑛 𝑂𝑀 𝑒𝑛𝑙𝑎𝑐𝑒 − 𝑒𝑙𝑒𝑐𝑡𝑟𝑜𝑛𝑒𝑠 𝑒𝑛 𝑂𝑀 𝑎𝑛𝑡𝑖𝑒𝑛𝑙𝑎𝑐𝑒
+    𝑂𝑟𝑑𝑒𝑛 𝑒𝑛𝑙𝑎𝑐𝑒 =
+                                                   2
+
+
+                                 [Tema 5. Enlace químico: moléculas]
+8. Teoría de orbitales moleculares
+            Niveles de energía de orbitales moleculares para moléculas
+                  diatómicas de elementos del segundo período
+
+
+
+
+                  Z≤7                                           Z>7
+
+                          [Tema 5. Enlace químico: moléculas]
+8. Teoría de orbitales moleculares
+
+
+Para la molécula de O2 la teoría de
+OM predice que la molécula será
+paramagnética.
+
+   orden de enlace (O2) = 2
+
+
+
+
+              Video
+
+
+
+
+                              [Tema 5. Enlace químico: moléculas]
+  8. Teoría de orbitales moleculares
+ Moléculas diatómicas heteronucleares
+
+                 E vs Z                                                   E vs Z
+   0                                      0
+ -100
+ -200                                   -10
+ -300
+ -400                                   -20
+ -500
+ -600                                   -30
+ -700
+ -800                                   -40
+ -900
+-1000                                   -50
+        H He Li Be B C N O F Ne                 H    He    Li    Be        B        C    N   O   F   Ne
+            1s      2s    2p                                         1s        2s       2p
+
+
+
+
+                               [Tema 5. Enlace químico: moléculas]
+8. Teoría de orbitales moleculares
+Moléculas diatómicas heteronucleares
+En este tipo de molécula, los orbitales de los diferentes átomos tienen diferentes energías. Los
+electrones del enlace estarán más próximo al átomo más electronegativo (y por tanto será más
+probable encontrarlo cerca de este átomo).
+
+
+  «La energía del orbital enlazante
+estará más próxima a la del elemento                          C
+                                                                                        O
+ más electronegativo y la energía del
+orbital antienlazante al del elemento
+       menos electronegativo»
+
+
+
+
+      Diagrama de orbitales moleculares para CO
+             2s2 *2s2 2p42p2
+
+
+
+                                   [Tema 5. Enlace químico: moléculas]
+  8. Teoría de orbitales moleculares
+
+Orbitales moleculares deslocalizados
+Los OM están deslocalizados cuando se encuentran dispersos sobre tres o más átomos y por lo
+tanto no están confinados entre dos átomos enlazados adyacentes.
+
+Se forman generalmente por las combinaciones de orbitales p paralelos y en átomos contiguos.
+
+                                                                    Molécula O3
+Utilizando enlaces deslocalizados
+podemos escribir las estructuras
+de resonancia que se requieren
+en la Teoría de Lewis.
+
+
+
+En la molécula de O3, los
+orbitales moleculares se forman
+por combinación de los orbitales
+p perpendiculares a los enlaces
+formados por solapamiento de
+orbitales sp2.
+
+                        Orbitales       atómicos       moleculares
+                                    [Tema 5. Enlace químico: moléculas]
+  8. Teoría de orbitales moleculares
+
+Orbitales moleculares deslocalizados
+
+
+
+
+                              [Tema 5. Enlace químico: moléculas]
+

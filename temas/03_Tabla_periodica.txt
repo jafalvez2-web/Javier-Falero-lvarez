@@ -1,0 +1,682 @@
+Tema 3. Tabla periódica
+y propiedades periódicas
+
+
+
+
+[Tema 3. Tabla periódica y propiedades periódicas]
+Tema 3. Tabla periódica y propiedades periódicas
+
+    3.1. Clasificación de los elementos y tabla periódica
+    3.2. Ley de Moseley
+    3.3. Metales, no metales y sus iones
+    3.3. Propiedades periódicas de los elementos
+
+
+
+
+             [Tema 3. Tabla periódica y propiedades periódicas]
+    1. Clasificación de los elementos y tabla periódica
+•    Triadas de Döbereiner (1817): notable parecido existente en las propiedades de
+     ciertos grupos de tres elementos.
+                                                                                                                                                                       «Johann Wolfgang
+                                                                                                                                                                       Döbereiner» de Carl
+                                                                                                                                                                       August Schwerdgeburth,
+                                                                                                                                                                       1785-1878 (engraver),
+                                                                                                                                                                       and Fritz Ries, 1826-
+                                                                                                                                                                       1857 (painter) -
+                                                                                                                                                                       http://www.sil.si.edu/digi
+                                                                                                                                                                       talcollections/hst/scientifi
+                                                                                                                                                                       c-identity/explore.htm
+                                                                                                                                                                       (reworked). Disponible
+                                                                                                                                                                       bajo la licencia Public
+                                                                                                                                                                       domain vía Wikimedia
+                                                                                                                                                                       Commons -
+                                                                                                                                                                       http://commons.wikimedi
+                                                                                                                                                                       a.org/wiki/File:Johann_
+                                                                                                                                                                       Wolfgang_D%C3%B6be
+                                                                                                                                                                       reiner.jpg#mediaviewer/
+                                                                                                                                                                       File:Johann_Wolfgang_D
+                                                                                                                                                                       %C3%B6bereiner.jpg
+
+
+
+
+•    J. A. R. Newlands (1864): Ordena los elementos por sus masas atómicas. después
+     de cada 7, aparecen las mismas propiedades: Ley de las octavas
+
+    «John Alexander
+    Reina Newlands»
+    de Original
+    uploader was
+    DALIBRI at
+    de.wikipedia -
+    Originally from
+    de.wikipedia;
+    description page
+    is/was here..
+    Disponible bajo la
+    licencia Public
+    domain vía
+    Wikimedia
+    Commons -
+    http://commons.wik
+    imedia.org/wiki/Fil
+    e:John_Alexander_
+    Reina_Newlands.jp
+    g#mediaviewer/Fil
+    e:John_Alexander_
+    Reina_Newlands.jp                     "Newlands periodiska system 1866" by John Alexander Reina Newlands - John Alexander Reina Newlands (1838–1898). Licensed under Public domain via
+    g                                     Wikimedia Commons -
+                                          http://commons.wikimedia.org/wiki/File:Newlands_periodiska_system_1866.png#mediaviewer/File:Newlands_periodiska_system_1866.png
+
+
+                          [Tema 3. Tabla periódica y propiedades periódicas]
+ 1. Clasificación de los elementos y tabla periódica
+En 1869, Dimitri Mendeleev y Lothar Meyer establecieron: “Cuando los elementos se
+organizan en orden creciente de sus masas atómicas, algunos conjuntos de propiedades
+se repiten periódicamente”.
+
+Meyer basó su ley periódica en la propiedad denominada volumen atómico, la masa
+atómica de un elemento dividida por la densidad de su forma sólida.
+                        Julius Lothar Meyer .
+                        Reproduced courtesy of
+                        the Library and
+                                                                             80
+                        Information Centre,                                                                                                                                  Cs
+                        Royal Society of
+                        Chemistry.
+                                                                             70
+
+                                                                             60                                                          Rb
+
+
+
+                                                 Volumen atómico (cm3/mol)
+                                                                             50                       K
+
+                                                                                                                                                                                  Ba
+                                                                             40                                                           Sr
+
+                                                                             30                       Ca                            Br                                   I
+                                                                                             Na
+                                                                                                                                              Y                     Sb
+                                                                                                  P                                 Se                             Sn
+                                                                             20
+                                                                                      Li     Mg S          Sc
+                                                                                                                               As              Zr             Cd
+                                                                                               Si            Ti                                             Ag
+                                                                                              Al                        Zn
+                                                                                                                  V Fe Cu                           Mo Ru
+                                                                             10       BeC
+
+                                                                              0
+                                                                                  0         20        40             60          80                  100           120            140   160
+                                                                                                                             Masa atómica
+
+
+Después analizó otras propiedades físicas como: la dureza, compresibilidad, punto de
+fusión y encontró que muchas de ellas también adoptan valores que se repiten
+periódicamente.
+                      [Tema 3. Tabla periódica y propiedades periódicas]
+   1. Clasificación de los elementos y tabla periódica
+
+
+
+
+                                                                                                                                                                                      «DIMendeleevCab» de -. Original uploader was Serge
+                                                                                                                                                                                      Lachinov at ru.wikipedia - Transferred from
+                                                                                                                                                                                      ru.wikipedia(Original text : кабинет академика
+                                                                                                                                                                                      Михаила Михайловича Шульца - фото любезно
+                                                                                                                                                                                      передано мне в собственность вдовой М.М.Шульца
+"Mendelejevs periodiska system 1871" by Original uploader was Den fjättrade ankan at sv.wikipedia - Källa:Dmitrij Ivanovitj Mendelejev (1834 - 1907). Originally from sv.wikipedia;   Ниной Дмитриевной Шульц.). Disponible bajo la
+description page is/was here.. Licensed under Public domain via Wikimedia Commons -                                                                                                   licencia Public domain vía Wikimedia Commons -
+http://commons.wikimedia.org/wiki/File:Mendelejevs_periodiska_system_1871.png#mediaviewer/File:Mendelejevs_periodiska_system_1871.png                                                 http://commons.wikimedia.org/wiki/File:DIMendeleevCa
+                                                                                                                                                                                      b.jpg#mediaviewer/File:DIMendeleevCab.jpg
+
+
+• En la tabla de Mendeleev, los elementos similares están en grupos verticales y sus
+  propiedades cambian gradualmente de arriba a abajo.
+• Corrigió algunos valores de masa atómica (In y U).
+• Dejó espacios en blanco para elementos todavía por descubrir y predijo sus propiedades
+  (Sc, Ga, Ge, Tc).
+• Cambió el orden de algunos elementos para que coincidiesen las propiedades: el peso
+  atómico no era siempre el determinante del orden.
+
+                                                                 [Tema 3. Tabla periódica y propiedades periódicas]
+2. Ley de Moseley
+
+
+Moseley obtuvo fotografías de los espectros de rayos
+X de varios elementos.
+
+Cada elemento daba lugar a un espectro de emisión
+compuesto por algunas líneas, cuyas frecuencias eran
+características de cada elemento.
+
+Las líneas seguían la relación:
+
+                      ν = a(Z – b)2
+
+ν es la frecuencia de una serie determinada,
+a y b son constantes y Z el número atómico.
+
+                                                                 «Henry Moseley». Publicado bajo la licencia Public domain vía Wikimedia
+                                                                 Commons -
+                                                                 http://commons.wikimedia.org/wiki/File:Henry_Moseley.jpg#mediaviewer/File:He
+                                                                 nry_Moseley.jpg.
+
+
+
+
+                      [Tema 3. Tabla periódica y propiedades periódicas]
+    2. Ley de Moseley
+
+Espectros de Rayos X
+
+
+
+
+Armando Martínez Téllez, “La mecánica
+cuántica”.
+http://2.bp.blogspot.com/_js6wgtUcfdQ
+/TLdGbAaqjnI/AAAAAAAAOeo/TTeg4k
+ahAY0/s1600/tubo_de_rayos-X.png
+
+
+
+
+                    Determinación de la
+                   frecuencia de los R-X
+
+
+                                                                 "Moseley step ladder" by Henry Moseley (1887 - 1915) - http://www.geology.wisc.edu/~johnf/g777/EPMA-history.html. Licensed
+                                                                 under Public domain via Wikimedia Commons -
+                                                                 http://commons.wikimedia.org/wiki/File:Moseley_step_ladder.jpg#mediaviewer/File:Moseley_step_ladder.jpg
+
+
+                                        [Tema 3. Tabla periódica y propiedades periódicas]
+2. Ley de Moseley
+
+    Líneas de tipo Kα
+    Líneas de tipo Kβ
+
+
+
+
+                    [Tema 3. Tabla periódica y propiedades periódicas]
+2. Ley de Moseley
+• Esta relación se utilizó para predecir tres nuevos elementos (43, 61, 75).
+• También demostró que no podían aparecer nuevos elementos en la zona de la tabla
+  que él estudiaba (entre Z=13 y Z=79).
+                                                                                Armando
+
+• La emisión de rayos X se explica:
+                                                                                Martínez Téllez,
+                                                                                “La mecánica
+                                                                                cuántica”.
+                                                                                http://3.bp.blo
+                                                                                gspot.com/_js6
+    1. En la colisión con electrones de alta                                    wgtUcfdQ/TLiST
+                                                                                zk-
+                                                                                _dI/AAAAAAAA
+       energía se arrancan electrones de las                                    Ofk/VaLHmfz5
+                                                                                w9I/s1600/pro
+                                                                                ceso_de_genera
+       órbitas internas de los átomos.                                          cion_de_rayos-
+                                                                                X.PNG
+
+
+    2. Los electrones de las órbitas vecinas
+       rellenan los huecos liberando energía.
+    3. La energía emitida corresponde a la
+       diferencia en energía entre los dos
+       niveles.
+
+
+
+• Las frecuencias de los rayos X emitidos deberían depender de las cargas de los
+  núcleos en los átomos del blanco.
+• Se determinó que era el número atómico el que daba lugar al orden de los elementos
+  en la tabla periódica.
+                     [Tema 3. Tabla periódica y propiedades periódicas]
+  3. Metales, no metales y sus iones                                              Gases nobles
+
+         Metales alcalinos                                                  Halógenos
+                                                       Grupo principal
+
+               Alcalinotérreos
+                                               Grupo del Zn
+
+                         Metales de transición
+
+
+
+
+    Grupo
+   principal
+
+Lantánidos y actínidos [Tema 3. Tabla periódica y propiedades periódicas]
+3. Metales, no metales y sus iones
+La tabla periódica permite dividir los elementos en dos grandes grupos:
+• Metales:
+   o Buenos conductores del calor y la electricidad.
+   o Son maleables y dúctiles.
+   o Sus puntos de fusión tienen valores moderados o altos.
+   o La mayoría de los elementos son metales.
+• No metales:
+    o No conducen el calor ni la electricidad.
+    o Son frágiles.
+    o Muchos son gases a temperatura ambiente.
+    o Se encuentran en la parte derecha de la tabla
+ 5     6    7     8      9
+ B     C    N     O      F
+ 13   14    15    16    17
+ Al   Si    P     S     Cl           Entre estos dos grupos se encuentran los Metaloides:
+ 31
+ Ga
+      32
+      Ge
+            33
+            As
+                  34
+                  Se
+                        35
+                        Br
+                                     Tienen aspecto de metales y se comportan como ellos,
+ 49   50    51    52    53
+                                     aunque tienen algunas propiedades no metálicas.
+ In   Sn    Sb    Te     I
+ 81   82    83    84    85
+ Tl   Pb    Bi    Po    At
+
+113   114   115   116   117
+Uut   Uuq   Uup   Uuh   Uus
+
+                              [Tema 3. Tabla periódica y propiedades periódicas]
+3. Metales, no metales y sus iones
+Los gases nobles tienen la capa más externa (capa de valencia) con el número máximo
+de electrones y son especialmente estables.
+Los metales del grupo principal tienden a perder electrones y formar la configuración
+electrónica del gas noble del periodo anterior.
+
+            18          Grupo      1    2         13    14    15     16   17
+                         Periodo
+             2                     1
+                            1
+            He                     H
+
+            10                     3     4         5     6     7     8     9
+                            2
+            Ne                     Li   Be         B     C     N     O     F
+
+            18                     11   12        13    14    15     16   17
+                            3
+            Ar                     Na   Mg        Al    Si    P      S    Cl
+
+            36                     19   20        31    32    33     34   35
+                            4
+            Kr                     K    Ca        Ga    Ge    As     Se   Br
+
+            54                     37   38        49    50    51     52   53
+                            5
+            Xe                     Rb   Sr        In    Sn    Sb     Te    I
+
+            86                     55   56        81    82    83    84    85
+                            6
+            Rn                     Cs   Ba        Tl    Pb    Bi    Po    At
+
+            118                    87   88        113   114   115   116   117
+                            7
+            Uuo                    Fr   Ra        Uut   Uuq   Uup   Uuh   Uus
+
+
+                    [Tema 3. Tabla periódica y propiedades periódicas]
+3. Metales, no metales y sus iones
+
+ Los no metales tienden a ganar electrones y formar la configuración electrónica del gas
+ noble del mismo periodo.
+
+            Grupo       1      2          13     14    15     16     17     18
+             Periodo
+                        1                                                    2
+               1
+                        H                                                   He
+
+                        3      4           5     6      7      8      9     10
+                2
+                        Li    Be           B     C      N      O      F     Ne
+
+                       11     12          13     14    15     16     17     18
+                3
+                       Na     Mg          Al     Si     P      S     Cl     Ar
+
+                        19    20          31     32     33    34     35     36
+                4
+                        K     Ca          Ga     Ge     As    Se     Br     Kr
+
+                       37     38          49     50    51     52     53     54
+                5
+                       Rb     Sr          In     Sn    Sb     Te      I     Xe
+
+                        55    56          81     82     83    84     85     86
+                6
+                        Cs    Ba          Tl     Pb     Bi    Po     At     Rn
+
+                        87    88          113   114    115    116   117     118
+                7
+                        Fr    Ra          Uut   Uuq    Uup    Uuh   Uus     Uuo
+
+
+
+                       [Tema 3. Tabla periódica y propiedades periódicas]
+3. Metales, no metales y sus iones
+
+
+Configuraciones electrónicas de algunos iones de metales
+     Gas noble            Pseudo-gas noble                 18+2                Otros
+   Li+          Be2+             Ga3+                       In+              Cr2+, Cr3+
+   Na+          Mg2+             Tl3+                       Tl+              Mn2+, Fe2+
+   K+           Ca2+             Cu+                       Sn2+              Fe3+, Co2+
+   Rb+          Sr2+             Ag+                       Pb2+              Ni2+, Cu2+
+   Cs+          Ba2+             Au+                       Sb3+
+         Al3+                    Zn2+                      Bi3+
+
+También es posible que formen la configuración de pseudo-gas noble, en la que se han
+perdido todos los electrones de la capa de valencia y queda la capa anterior llena:
+                       Ga: [Ne] 3s23p63d104s24p1 → Ga3+: [Ne] 3s23p63d10
+Otra posibilidad es la configuración 18+2, en la que se han perdido todos los electrones de
+la capa de valencia excepto los electrones s y queda la capa anterior llena:
+                        Pb: [Xe] 4f145d106s26p2 → Pb2+: [Xe] 4f145d106s2
+
+
+
+                        [Tema 3. Tabla periódica y propiedades periódicas]
+3. Metales, no metales y sus iones
+
+
+Configuraciones electrónicas de algunos iones de metales
+     Gas noble            Pseudo-gas noble                 18+2                Otros
+   Li+          Be2+             Ga3+                       In+              Cr2+, Cr3+
+   Na+          Mg2+             Tl3+                       Tl+              Mn2+, Fe2+
+   K+           Ca2+             Cu+                       Sn2+              Fe3+, Co2+
+   Rb+          Sr2+             Ag+                       Pb2+              Ni2+, Cu2+
+   Cs+          Ba2+             Au+                       Sb3+
+         Al3+                    Zn2+                      Bi3+
+
+En los metales de transición, las capas ns y (n-1)d tienen energías muy parecidas.
+Cuando se ionizan, se suelen perder los electrones de la capa ns.
+                                 Ti: [Ar] 3d24s2 → Ti2+: [Ar] 3d2
+
+También se pueden perder de la capa (n-1)d, sobre todo si se forma una capa semillena.
+                       Fe: [Ar] 3d64s2 → Fe2+: [Ar] 3d6 → Fe3+: [Ar] 3d5
+
+La configuración electrónica puede explicar los estados de oxidación de los distintos
+elementos.
+                        [Tema 3. Tabla periódica y propiedades periódicas]
+4. Propiedades periódicas de los elementos
+
+Radios atómico e iónico
+• Los orbitales atómicos se extienden hasta el infinito, por lo que, teóricamente, no se
+  puede hablar de un radio atómico.
+• Se podría definir un radio atómico efectivo (probabilidad = 95%), pero son cálculos
+  teóricos.
+• Experimentalmente, lo único que se puede medir es la distancia entre núcleos de
+  átomos adyacentes (distancia internuclear).
+• Esta distancia varía en función del tipo de enlace existente.
+
+
+
+
+                      [Tema 3. Tabla periódica y propiedades periódicas]
+4. Propiedades periódicas de los elementos
+
+Radios atómico e iónico                                      Radio covalente
+
+• El radio covalente es la mitad de la distancia
+  existente entre los núcleos de dos átomos idénticos                 157 pm
+
+  unidos mediante enlace covalente simple.
+• En SI, 1 nm = 103 pm = 10-9 m. No se usa Å (10-10 m)
+                                                                              Na2
+
+• Para los metales se define un radio metálico, como         Radio metálico
+  la mitad de la distancia existente entre los núcleos
+  de dos átomos contiguos del metal sólido.                          186 pm
+
+
+
+
+                                                                              Na(s)
+• El radio iónico está basado en la distancia existente
+  entre los núcleos de iones unidos mediante enlace          Radio iónico
+  iónico.                                                    NaCl
+• Como los iones no tienen el mismo tamaño, esta                    99 pm
+  distancia debe repartirse entre el anión y el catión.
+
+                     [Tema 3. Tabla periódica y propiedades periódicas]
+4. Propiedades periódicas de los elementos
+
+                       250                                                             Cs
+                                                                Rb
+                                                 K
+                       200
+Radio covalente (pm)
+
+
+
+
+                                      Na
+                                                                                                           At
+                       150                                                         I
+                                 Li
+                                                              Br
+                                            Cl
+                       100
+                                      F
+
+                       50
+
+
+                        0
+                             0        10         20      30          40       50            60   70   80        90
+                                                                          Z
+                                             Variación del radio covalente frente al número atómico
+                                                       (No se incluyen los gases nobles)
+
+
+
+                                           [Tema 3. Tabla periódica y propiedades periódicas]
+ 4. Propiedades periódicas de los elementos
+
+El apantallamiento y la carga nuclear efectiva
+En núcleos polielectrónicos se utiliza el concepto de carga nuclear efectiva:
+                                       Zef = Z – S
+Los electrones de valencia se encuentran apantallados por el resto de los electrones
+internos.
+
+
+
+
+                                                                            +Zef
+                 +Z
+
+
+
+
+                       [Tema 3. Tabla periódica y propiedades periódicas]
+4. Propiedades periódicas de los elementos
+
+Este apantallamiento no es completo, sino que la efectividad del apantallamiento
+depende del tipo de orbital (de su penetración):
+
+1) El apantallamiento es menos efectivo a medida que n aumenta.
+2) Los electrones que están en la misma capa apantallan sólo 1/3 de la carga.
+3) El apantallamiento es menos efectivo a medida que l aumenta: s > p > d > f
+
+
+
+
+                     [Tema 3. Tabla periódica y propiedades periódicas]
+ 4. Propiedades periódicas de los elementos
+
+En un grupo, a medida que aumenta el periodo los orbitales de la capa de valencia están
+cada vez en capas superiores: el radio atómico aumenta al aumentar Z.
+
+En un periodo, a medida que Z aumenta se van añadiendo electrones a la misma capa o a
+capas donde el apantallamiento es menos efectivo:
+• S se mantiene prácticamente constante
+• Zef aumenta
+Al aumentar la carga efectiva, el radio atómico disminuye.
+
+En el caso de los metales de transición, la capa que se va llenando es la capa (n-1)d, que no
+es la más externa (ns). El apantallamiento (S) aumenta aproximadamente lo mismo que lo
+hace Z, con lo que Zef es prácticamente la misma: el radio atómico tiende a permanecer
+constante.
+
+
+
+
+                      [Tema 3. Tabla periódica y propiedades periódicas]
+  4. Propiedades periódicas de los elementos
+
+Cuando el átomo forma un catión perdiendo        Cuando el átomo forma un anión ganando
+electrones de la capa de valencia, Zef           electrones en la capa de valencia, Zef
+aumenta y hay una disminución del radio          disminuye y hay un aumento del radio
+atómico: el radio iónico de los cationes es      atómico: el radio iónico de los aniones es
+menor que el del los átomos neutros.             mayor que el del los átomos neutros.
+
+
+
+                                                                            Cl—
+             Na             Mg
+
+                                                        Cl      Cl
+
+                                     El aumento o la                        Cl—
+                                     disminución es
+                                     mayor a medida
+             Na           Mg2+       que aumenta la
+             +
+                                          carga.
+
+
+
+                      [Tema 3. Tabla periódica y propiedades periódicas]
+4. Propiedades periódicas de los elementos
+
+Energía de ionización
+• La energía de ionización es la energía mínima (kJ/mol) necesaria para poder
+  arrancar un electrón de un átomo en estado gaseoso en su estado fundamental.
+• El electrón que se pierde es el que está unido más débilmente al núcleo.
+• Se puede aproximar: I = RH(Zef/n)2
+
+
+Las energías de ionización disminuyen al aumentar los radios atómicos
+
+
+                                                                          Los gases nobles son
+                                                                          los más complicados
+                                                                          de ionizar.
+                                                                          Los metales alcalinos
+                                                                          constituyen el grupo
+                                                                          que mejor se ioniza.
+
+
+
+
+                     [Tema 3. Tabla periódica y propiedades periódicas]
+4. Propiedades periódicas de los elementos
+
+   EI
+             Na        Mg        Al         Si         P          S         Cl      Ar
+(kJ/mol)
+   I1      495.8     737.7      577.6     786.5      1012       999.6     1251.1   1520.5
+   I2      4562       1451      1817       1577      1903       2251      2297     2666
+   I3                 7733      2745       3232      2912       3361      3822     3931
+   I4                          11580       4356      4957       4564      5158     5771
+   I5                                     16090      6274       7013      6542     7238
+   I6                                                21270      8496      9362     8781
+   I7                                                          27110      11020    12000
+
+• La primera energía de ionización es la más pequeña.
+
+• La eliminación del tercer electrón del Mg provoca un gran salto en I.
+• Hay pequeñas alteraciones en el orden:
+     o El valor de I1 para el Al es menor que para el Mg porque el electrón s se elimina de
+       Mg y el electrón p se elimina de Al.
+     o El valor de I1 para el S es menor que para el P. Esto se debe a la repulsión e-/e- del
+       cuarto electrón.
+                     [Tema 3. Tabla periódica y propiedades periódicas]
+ 4. Propiedades periódicas de los elementos
+
+Afinidad electrónica
+La afinidad electrónica, AE es la variación de energía (kJ/mol) que tiene lugar cuando un
+átomo en estado gaseoso acepta un electrón para formar un anión.
+Suelen ser procesos exotérmicos (AE < 0).
+F(g) + e- → F-(g)     AE = -328 kJ             F(1s22s22p5) + e- → F- (1s22s22p6)
+Li(g) + e- → Li-(g)   AE = -59,6 kJ
+
+• Los halógenos ganan fácilmente electrones, con lo que su AE es grande.
+• Incluso los metales alcalinos pueden formar iones negativos en estado gaseoso.
+• Algunos átomos no tienen tendencia a ganar electrones, por ejemplo, los gases nobles.
+• El proceso de aceptar un segundo electrón siempre es desfavorable porque hay que
+  vencer la repulsión entre el anión y el electrón.
+
+En general:
+• AE disminuye (en valor absoluto) al aumentar Z en un grupo (el nivel que ocupa el
+  nuevo electrón es menos energético).
+• AE aumenta (en valor absoluto) al aumentar Z en un periodo (la Zef es cada vez mayor).
+• Hay irregularidades debidas al orbital donde se sitúa el nuevo electrón.
+                                     AE(Na) > AE (Mg)
+                                      AE(C) > AE (N)
+                      [Tema 3. Tabla periódica y propiedades periódicas]
+ 4. Propiedades periódicas de los elementos
+
+Algunas propiedades físicas de los elementos se pueden deducir del comportamiento de
+otros miembros del mismo grupo.
+Por ejemplo, el punto de fusión o de ebullición, la dureza, la densidad…
+               “Chlorine ampoule”. W.
+               Oelen (from
+               http://woelen.homescien
+               ce.net/science/index.htm
+               l
+
+
+
+
+                                          “Bromine” http://images-of-elements.com/bromine.php
+
+                                                                                                       “Iodine” http://images-of-elements.com/iodine.php
+
+
+
+
+                                                                                                ~280                          ~349                  266 y 332 K
+
+                                [Tema 3. Tabla periódica y propiedades periódicas]
+   4. Propiedades periódicas de los elementos
+
+• La variación de algunas propiedades a lo largo de un periodo depende en gran medida del balance
+  entre energía de ionización y afinidad electrónica.
+• Por ejemplo, la fusión o la dureza requieren la destrucción de la disposición ordenada de átomos y
+  moléculas existente en el sólido: dependen de la intensidad de las fuerzas atractivas existentes entre
+  los átomos o moléculas del sólido.                  1600
+
+• Para los metales Na, Mg y Al estas fuerzas son       1400
+  enlaces metálicos y aumentan al aumentar el          1200
+  número de electrones cedidos (disminución de         1000
+  la energía de ionización).                           800
+• En el caso del Si, el enlace cambia a covalente y    600
+  se crea una red tridimensional de enlaces muy        400
+  fuertes.                                             200
+• En el P, S y Cl los enlaces covalentes son entre       0
+  pocos átomos (P4, S8 y Cl2). Los enlaces entre los   -200
+  átomos que forman las moléculas son fuertes,                Na   Mg    Al     Si     P      S     Cl     Ar
+
+  pero las fuerzas intermoleculares, se hacen cada     Punto de fusión (°C) de los elementos del 3er periodo
+  vez más débiles y los puntos de fusión
+  disminuyen.
+• El Ar ni siquiera forma enlaces covalentes.
+                          [Tema 3. Tabla periódica y propiedades periódicas]
+
