@@ -22,4 +22,5 @@ Profesor: Rafael J. Montoro. Dpto. de Fisiología Médica y Biofísica.
 - La «otra forma» que busca casi siempre es **en términos de permeabilidad y de la ecuación de Goldman**: «aumenta la permeabilidad a X → el potencial se acerca al potencial de equilibrio de X». No le basta con «sale potasio».
 - Razona las corrientes con `I = g·(V_m − E_ion)`: separa siempre lo que hace la conductancia (cuántos canales abiertos) de lo que hace la fuerza impulsora (distancia al potencial de equilibrio).
 - Usa ejemplos numéricos inventados sobre la marcha (−55, −50, −45, −40 mV; λ = 0,1 vs 1 mm; pulso de 10 mV ×6).
+- **Cómo quiere Javier las explicaciones**: por bloques, uno cada vez, esperando a que diga que lo tiene. Escritas en **párrafos seguidos y tranquilos, con el tono y la manera de razonar del profesor** (hilando una idea con la siguiente: «de forma que…», «¿vale?», ejemplos con números). Nada de listas de frases sueltas, viñetas o tablas para explicar.
 - Dijo explícitamente que **en el examen hay que dibujar bien los pulsos de voltaje y las familias de corrientes** (curvas I/V, conductancias).
