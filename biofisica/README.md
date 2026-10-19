@@ -25,4 +25,5 @@ Profesor: Rafael J. Montoro. Dpto. de Fisiología Médica y Biofísica.
 - Razona las corrientes con `I = g·(V_m − E_ion)`: separa siempre lo que hace la conductancia (cuántos canales abiertos) de lo que hace la fuerza impulsora (distancia al potencial de equilibrio).
 - Usa ejemplos numéricos inventados sobre la marcha (−55, −50, −45, −40 mV; λ = 0,1 vs 1 mm; pulso de 10 mV ×6).
 - **Cómo quiere Javier las explicaciones**: por bloques, uno cada vez, esperando a que diga que lo tiene. Cada bloque dividido en **apartados numerados (2, 2.1, 2.2…) con título y emoticono**, y en cada apartado **un párrafo pequeño (2-4 frases)** con el tono del profesor. Ni listas de frases sueltas ni parrafadas largas.
+- **Apuntes**: que se lean como sus clases (tono hablado: «fijaos», «¿vale?», «de forma que…», preguntas que se responden, ejemplos con números) y que **expliquen cada gráfica/figura** (qué hay en los ejes, qué curva es cada una, en qué fijarse y qué demuestra).
 - Dijo explícitamente que **en el examen hay que dibujar bien los pulsos de voltaje y las familias de corrientes** (curvas I/V, conductancias).
