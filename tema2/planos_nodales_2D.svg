@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1260 760" font-family="Arial, sans-serif" font-size="16">
+<rect width="1260" height="760" fill="#fff"/>
+<text x="630" y="38" text-anchor="middle" font-size="25" font-weight="bold">Sin 3D: el p<tspan baseline-shift="sub" font-size="16">z</tspan> se mira DE LADO; el p<tspan baseline-shift="sub" font-size="16">x</tspan> y el p<tspan baseline-shift="sub" font-size="16">y</tspan> se miran DESDE ARRIBA, como una pizza</text>
+<text x="630" y="66" text-anchor="middle" fill="#555">Naranja = lóbulo (+) · Azul = lóbulo (−) · Línea roja = el corte (nodo). Mirado de frente, un plano se ve como una LÍNEA.</text>
+<rect x="20" y="90" width="400" height="510" rx="14" fill="#fafafa" stroke="#ddd"/>
+<text x="220" y="128" text-anchor="middle" font-size="22" font-weight="bold">p<tspan baseline-shift="sub" font-size="15">z</tspan>  (visto DE LADO)</text>
+<text x="220" y="152" text-anchor="middle" fill="#555" font-size="15">como mirar la Tierra en un mapa normal</text>
+<circle cx="220" cy="330" r="120" fill="#eaf3ff" stroke="#3b6fb6" stroke-width="2"/>
+<ellipse cx="220" cy="268" rx="34" ry="58" fill="#f4a261" stroke="#c76a1d" stroke-width="1.5" opacity="0.9"/>
+<text x="220" y="277" text-anchor="middle" font-size="28" font-weight="bold">+</text>
+<ellipse cx="220" cy="392" rx="34" ry="58" fill="#8ecae6" stroke="#2c7da0" stroke-width="1.5" opacity="0.9"/>
+<text x="220" y="401" text-anchor="middle" font-size="28" font-weight="bold">−</text>
+<line x1="70" y1="330" x2="370" y2="330" stroke="#d62828" stroke-width="4"/>
+<text x="220" y="198" text-anchor="middle" fill="#1d3557" font-size="15" font-weight="bold">θ = 0° · Polo Norte (arriba)</text>
+<text x="220" y="476" text-anchor="middle" fill="#1d3557" font-size="15" font-weight="bold">θ = 180° · Polo Sur (abajo)</text>
+<text x="368" y="320" text-anchor="end" fill="#d62828" font-size="16" font-weight="bold">θ = 90°</text>
+<text x="220" y="530" text-anchor="middle" fill="#d62828" font-size="18" font-weight="bold">Corte = ECUADOR = θ = 90°</text>
+<text x="220" y="560" text-anchor="middle" fill="#d62828" font-size="17" font-weight="normal">cos θ = 0  →  plano xy</text>
+<rect x="430" y="90" width="400" height="510" rx="14" fill="#fafafa" stroke="#ddd"/>
+<text x="630" y="128" text-anchor="middle" font-size="22" font-weight="bold">p<tspan baseline-shift="sub" font-size="15">x</tspan></text>
+<text x="630" y="152" text-anchor="middle" fill="#555" font-size="15">visto DESDE ARRIBA (desde el Polo Norte)</text>
+<circle cx="630" cy="330" r="120" fill="#fff3d6" stroke="#c08a2c" stroke-width="2"/>
+<ellipse cx="692" cy="330" rx="58" ry="34" fill="#f4a261" stroke="#c76a1d" stroke-width="1.5" opacity="0.9"/>
+<text x="692" y="339" text-anchor="middle" font-size="28" font-weight="bold">+</text>
+<ellipse cx="568" cy="330" rx="58" ry="34" fill="#8ecae6" stroke="#2c7da0" stroke-width="1.5" opacity="0.9"/>
+<text x="568" y="339" text-anchor="middle" font-size="28" font-weight="bold">−</text>
+<line x1="630" y1="185" x2="630" y2="475" stroke="#d62828" stroke-width="4"/>
+<text x="758" y="335" text-anchor="start" fill="#333" font-size="15" font-weight="bold">0°</text>
+<text x="630" y="180" text-anchor="middle" fill="#333" font-size="15" font-weight="bold">90°</text>
+<text x="502" y="335" text-anchor="end" fill="#333" font-size="15" font-weight="bold">180°</text>
+<text x="630" y="492" text-anchor="middle" fill="#333" font-size="15" font-weight="bold">270°</text>
+<circle cx="630" cy="330" r="4" fill="#000"/>
+<text x="630" y="530" text-anchor="middle" fill="#d62828" font-size="18" font-weight="bold">Corte por φ = 90° y φ = 270°</text>
+<text x="630" y="560" text-anchor="middle" fill="#d62828" font-size="17" font-weight="normal">cos φ = 0  →  plano yz</text>
+<rect x="840" y="90" width="400" height="510" rx="14" fill="#fafafa" stroke="#ddd"/>
+<text x="1040" y="128" text-anchor="middle" font-size="22" font-weight="bold">p<tspan baseline-shift="sub" font-size="15">y</tspan></text>
+<text x="1040" y="152" text-anchor="middle" fill="#555" font-size="15">visto DESDE ARRIBA (desde el Polo Norte)</text>
+<circle cx="1040" cy="330" r="120" fill="#fff3d6" stroke="#c08a2c" stroke-width="2"/>
+<ellipse cx="1040" cy="268" rx="34" ry="58" fill="#f4a261" stroke="#c76a1d" stroke-width="1.5" opacity="0.9"/>
+<text x="1040" y="277" text-anchor="middle" font-size="28" font-weight="bold">+</text>
+<ellipse cx="1040" cy="392" rx="34" ry="58" fill="#8ecae6" stroke="#2c7da0" stroke-width="1.5" opacity="0.9"/>
+<text x="1040" y="401" text-anchor="middle" font-size="28" font-weight="bold">−</text>
+<line x1="918" y1="330" x2="1162" y2="330" stroke="#d62828" stroke-width="4"/>
+<text x="1168" y="335" text-anchor="start" fill="#333" font-size="15" font-weight="bold">0°</text>
+<text x="1040" y="180" text-anchor="middle" fill="#333" font-size="15" font-weight="bold">90°</text>
+<text x="912" y="335" text-anchor="end" fill="#333" font-size="15" font-weight="bold">180°</text>
+<text x="1040" y="492" text-anchor="middle" fill="#333" font-size="15" font-weight="bold">270°</text>
+<circle cx="1040" cy="330" r="4" fill="#000"/>
+<text x="1040" y="530" text-anchor="middle" fill="#d62828" font-size="18" font-weight="bold">Corte por φ = 0° y φ = 180°</text>
+<text x="1040" y="560" text-anchor="middle" fill="#d62828" font-size="17" font-weight="normal">sen φ = 0  →  plano xz</text>
+<rect x="20" y="620" width="1220" height="125" rx="14" fill="#eef5ff" stroke="#9cc0ec"/>
+<text x="45" y="652" text-anchor="start" fill="#000" font-size="15" font-weight="normal">Cómo leer los de arriba (p<tspan baseline-shift='sub' font-size='11'>x</tspan>, p<tspan baseline-shift='sub' font-size='11'>y</tspan>): el ángulo φ va alrededor como un reloj que empieza a la DERECHA (0°) y gira hacia arriba (90°), izquierda (180°), abajo (270°).</text>
+<text x="45" y="682" text-anchor="start" fill="#000" font-size="15" font-weight="normal">• p<tspan baseline-shift='sub' font-size='11'>x</tspan>: lóbulos a la derecha (0°) y a la izquierda (180°) → la línea que los separa pasa por arriba y abajo: 90° y 270°.</text>
+<text x="45" y="710" text-anchor="start" fill="#000" font-size="15" font-weight="normal">• p<tspan baseline-shift='sub' font-size='11'>y</tspan>: lóbulos arriba (90°) y abajo (270°) → la línea que los separa pasa por derecha e izquierda: 0° y 180°.</text>
+<text x="45" y="736" text-anchor="start" fill="#555" font-size="14" font-weight="normal">La línea roja de arriba es en realidad una PARED vertical que atraviesa la pizza de lado a lado (como el cuchillo al cortarla).</text>
+</svg>
