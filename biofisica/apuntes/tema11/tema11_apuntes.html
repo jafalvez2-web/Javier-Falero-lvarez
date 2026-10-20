@@ -218,7 +218,7 @@
 <h2>3.CARACTERÍSTICAS GENERALES DEL POTENCIAL DE ACCIÓN</h2>
 
 <h3>Umbral de activación</h3>
-<p>El <b>umbral</b> es el voltaje al que hay que llevar la membrana para que se genere un potencial de acción. Para ser finos, es el potencial al que <b>el 50 % de las veces</b> se genera un potencial de acción, porque justo en el umbral no siempre se dispara. La pregunta que hizo el profesor fue: si el umbral es que se abran los canales de sodio, ¿basta con que se abra uno? No: tienen que abrirse «muchos». La cuestión es cuántos.</p>
+<p>El <b>umbral</b> es el voltaje al que hay que llevar la membrana para que se genere un potencial de acción; en el repaso corrigió que basta con <b>llegar</b> a ese valor, no hace falta superarlo. Para ser finos, es el potencial al que <b>el 50 % de las veces</b> se genera un potencial de acción, porque justo en el umbral no siempre se dispara. La pregunta que hizo el profesor fue: si el umbral es que se abran los canales de sodio, ¿basta con que se abra uno? No: tienen que abrirse «muchos». La cuestión es cuántos.</p>
 <p>Para explicarlo partió de las <b>corrientes de fuga</b>, que no son voltaje-dependientes: la de potasio hacia fuera y la de sodio hacia dentro. En reposo, por ejemplo a <b>−60 mV</b>, el potencial está estable porque <b>la corriente de potasio hacia fuera es igual a la de sodio hacia dentro</b>. No es que no haya flujo, que lo hay, sino que los dos son iguales.</p>
 <p>Esto es lo que muestra la gráfica de flujos. En el eje horizontal está el potencial de membrana; hacia arriba es salida (<i>efflux</i>) y hacia abajo entrada (<i>influx</i>). El flujo de potasio cruza el cero en su potencial de equilibrio, <b>−75 mV</b>, y el de sodio en el suyo, <b>+55 mV</b>. La línea gruesa es la suma de los dos, el flujo neto, y cruza el cero en <b>−60 mV</b>: ese es el potencial de reposo, el sitio donde lo que sale y lo que entra se compensan.</p>
 
@@ -248,6 +248,16 @@
 <h3>Por qué el pico llega a +30 mV</h3>
 <p>Un compañero preguntó por qué la despolarización se para justo en +30 mV. Lo primero que aclaró el profesor es que <b>+30 no es ningún número mágico</b>: lo puso porque venía en la figura, pero el pico puede estar en +25 o en +35.</p>
 <p>Lo que pasa en el pico es que se han abierto <b>prácticamente todos los canales de sodio</b>. Como la compuerta de activación es mucho más rápida que la de inactivación, a todos les da tiempo a abrirse antes de que empiecen a inactivarse. En ese momento la permeabilidad al sodio es la de todos los voltaje-dependientes más los de fuga, pero los canales de potasio de fuga siguen abiertos (y alguno de potasio voltaje-dependiente, aunque muy pocos). Según <b>Goldman</b>, con esas permeabilidades el potencial llega a un valor intermedio entre E<sub>K</sub> y E<sub>Na</sub>, y ese valor es más o menos +30. Es lo mismo que se hizo en clase al cambiar las permeabilidades en la ecuación de Goldman y pasar de −55 a +32 mV.</p>
+<p>Al día siguiente el profesor volvió a preguntarlo, y avisó de que le interesa mucho (es decir, que entra en el examen). No vale con decir «porque se inactivan los canales de sodio», porque eso explica por qué <b>baja</b>, no por qué el pico está justo ahí. Tampoco vale con decir «porque está cerca de E<sub>Na</sub>», porque +20 o +40 también lo están. La respuesta buena fue la de un compañero: <b>por la ecuación de Goldman</b>. En el pico casi no se han abierto todavía los canales de potasio voltaje-dependientes, pero los <b>canales de potasio de fuga están siempre abiertos</b>. Con una permeabilidad al sodio muy alta, pero sin que la del potasio sea despreciable, la membrana se acerca a E<sub>Na</sub> sin llegar a él, porque la proporción de permeabilidades no es «100 contra 1». Quedándonos solo con el sodio y el potasio, Goldman se reduce a:</p>
+
+<div class="formula">V<sub>m</sub> = (RT/F) · ln [ ( P<sub>K</sub>[K<sup>+</sup>]<sub>o</sub> + P<sub>Na</sub>[Na<sup>+</sup>]<sub>o</sub> ) / ( P<sub>K</sub>[K<sup>+</sup>]<sub>i</sub> + P<sub>Na</sub>[Na<sup>+</sup>]<sub>i</sub> ) ]</div>
+
+<p>Si P<sub>Na</sub> se hace enorme, los sumandos del potasio se vuelven despreciables, la ecuación se queda en [Na<sup>+</sup>]<sub>e</sub>/[Na<sup>+</sup>]<sub>i</sub> y V<sub>m</sub> se acerca a <b>E<sub>Na</sub></b>. Si la que domina es P<sub>K</sub>, se acerca a <b>E<sub>K</sub></b>. Y si las dos pesan, el potencial queda <b>entre E<sub>K</sub> y E<sub>Na</sub></b>. El pico del potencial de acción es justo eso. En el ejercicio de clase se llegaba a unos +53 mV, que el profesor reconoció que es una exageración, poniendo una permeabilidad al sodio mucho mayor que la del cloruro y la del potasio. (Es la ecuación de Goldman del tema 6 quitando el cloruro, que es como la escribió en la pizarra.)</p>
+
+<div class="caja">
+<div class="tit">Canales de fuga y voltaje-dependientes: cuándo se abre cada uno</div>
+<p>Una alumna preguntó esto en clase. Los <b>canales de fuga están siempre abiertos</b>, les da igual el voltaje. Son fundamentalmente <b>de potasio</b>, aunque también hay algunos de sodio y algo de cloruro (en algunas células, bastantes de cloruro). Los <b>voltaje-dependientes</b>, tanto de sodio como de potasio, se abren <b>cuando se despolariza</b> la membrana. Lo que pasa es que quien despolariza es el sodio, así que hace falta que el sodio haya despolarizado para que se abran los de potasio. Y además, aunque notaran la despolarización a la vez, los de potasio se abrirían más tarde porque su <b>cinética es más lenta</b>.</p>
+</div>
 <p>Y después los canales de sodio se inactivan, porque están diseñados para eso, dejan de conducir y la membrana vuelve al reposo.</p>
 <p>El profesor añadió un detalle: si en vez de un pulso brusco se despolariza <b>muy lentamente</b> (de −80 a −75, a −70…), se pueden llegar a inactivar los canales incluso antes de conseguir abrirlos.</p>
 
@@ -291,10 +301,28 @@
 <h3>Propagación sin decremento</h3>
 <p>Para cerrar el tema el profesor comparó dos cosas. Si se inyecta un pulso de corriente en un punto, el potencial que se registra cada vez más lejos es <b>cada vez menor</b>, porque se disipa según la constante de longitud <b>λ</b> (tema 10). En cambio, el potencial de acción <b>no disminuye</b> al propagarse, sino que mantiene su amplitud. La razón, que dio un compañero, es que en cada punto <b>se abren los mismos canales de sodio</b>: la membrana es homogénea y el potencial de acción se regenera igual en todas partes.</p>
 
+<h3>De qué depende la amplitud del potencial de acción</h3>
+<p>Al final de esa clase el profesor dejó una pregunta en el aire: <b>¿qué tendría que ocurrir para que el potencial de acción, al propagarse, no tuviera la misma amplitud?</b> La resolvió al día siguiente, y avisó de cómo puede caer en el examen: «la amplitud del potencial de acción ha disminuido porque…», con opciones del tipo «ha aumentado la densidad de canales de sodio», «ha aumentado la densidad de canales de potasio»… Si se ha entendido, sale solo.</p>
+<p>La clave es que el pico del potencial de acción es un valor <b>intermedio entre E<sub>K</sub> y E<sub>Na</sub></b>, fijado por Goldman según las permeabilidades. El profesor lo dibujó como una línea con E<sub>Na</sub> (por ejemplo +55 mV) arriba y E<sub>K</sub> (por ejemplo −70 mV) abajo, con el pico en medio. Todo lo que mueva alguno de los dos extremos, o cambie el peso de cada permeabilidad, cambia la amplitud:</p>
+<ul>
+<li><b>Densidad de canales de sodio voltaje-dependientes.</b> Si en una zona hay <b>menos</b> canales, la <b>permeabilidad al sodio</b> es menor, la membrana no se acerca tanto a E<sub>Na</sub> y la amplitud es <b>menor</b>. Si hay <b>más</b>, la amplitud es <b>mayor</b>.</li>
+<li><b>Inhibidores de los canales de sodio</b> (como la TTX): es lo mismo que bajar la densidad de canales.</li>
+<li><b>Concentración de sodio fuera.</b> Si aumenta, E<sub>Na</sub> se hace <b>más positivo</b> y el pico sube; si disminuye, E<sub>Na</sub> baja y el pico baja. Una compañera lo razonó con la fuerza impulsora, y el profesor dijo que era correcto pero un poco complicado. Lo fácil es: si baja el numerador de la ecuación, baja E<sub>Na</sub>, y como el pico está entre E<sub>Na</sub> y E<sub>K</sub>, también baja.</li>
+<li><b>Densidad de canales de potasio de fuga.</b> Si hay más, la <b>permeabilidad al potasio</b> es mayor y el pico se acerca más a E<sub>K</sub>, así que es <b>menor</b>. Fue la respuesta de un compañero, y el profesor dijo que había que sacarla haciendo «la misma jugada que con el sodio».</li>
+<li><b>Concentración de potasio.</b> Si cambia, cambia E<sub>K</sub> y, por Goldman, cambia el pico. El profesor matizó que experimentalmente lo fácil es cambiar el líquido <b>extracelular</b>, incluso en una zona muy pequeña de membrana con pipetitas que cambian la solución que la baña. El intracelular se puede cambiar en todo el axón con una pipeta, pero no en una zona concreta de pocos milímetros.</li>
+<li><b>La temperatura.</b> La propuso un compañero y al profesor le gustó («yo lo de la temperatura no lo había pensado en la vida»), aunque no lo desarrolló.</li>
+</ul>
+
+<p>También salieron en clase otras respuestas que el profesor comentó aparte:</p>
+<ul>
+<li><b>Un doble estímulo en el período refractario relativo.</b> Es cierto que el segundo potencial de acción sería más pequeño, porque hay canales de sodio aún inactivados. De hecho, en un registro a cierta frecuencia el segundo potencial de acción suele ser menor. Pero la pregunta era sobre <b>un único</b> potencial de acción que se propaga.</li>
+<li><b>Aumento de la resistencia axial</b>, por ejemplo por un estrechamiento del axón. En un <b>potencial local</b>, que se propaga de forma pasiva, sí: λ disminuiría muchísimo y el potencial moriría muy cerca. Pero el potencial de acción <b>se regenera continuamente</b> gracias a los canales de sodio que se van abriendo, así que no cae la amplitud: lo que sí se reduce es la <b>velocidad de propagación</b>. Solo cambiaría la amplitud si al estrecharse el axón cambiara también la densidad de canales de sodio.</li>
+<li><b>Una zona con menos mielina, donde se pierda corriente.</b> Lo propuso Javier en clase. El profesor le dijo que lo recordara para cuando se vea en el tema 12, «porque no va a ser así», aunque la idea de que la mielina influye está bien encaminada.</li>
+</ul>
+
 <div class="caja">
-<div class="tit">Pregunta pendiente para la siguiente clase</div>
-<p>El profesor dejó planteado qué tendría que ocurrir para que el potencial de acción, al propagarse, <b>no tuviera la misma amplitud</b>. Dijo que lo vería al día siguiente y que lo preguntaría.</p>
-<p><i>(Esto no lo dijo en clase.)</i> Siguiendo el razonamiento del tema, una pista: que la membrana dejara de ser homogénea, por ejemplo una zona con menos canales de sodio disponibles, con canales bloqueados (TTX) o inactivados, o una zona donde la corriente se pierda, como un axón desmielinizado, que sale en el tema 12.</p>
+<div class="tit">Conclusión del profesor</div>
+<p>Como normalmente, al propagarse el potencial de acción, <b>no cambian</b> ni las concentraciones de sodio y potasio (dentro y fuera) ni la densidad de canales de sodio voltaje-dependientes ni la de potasio de fuga, <b>la amplitud no cambia</b>. Ya no es «me lo creo porque lo dicen los libros»: se sabe qué tendría que cambiar para que cambiara, y como eso no ocurre, no cambia.</p>
 </div>
 
 </body>

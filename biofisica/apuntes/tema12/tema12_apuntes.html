@@ -4,261 +4,191 @@
 <meta charset="utf-8">
 <title>Tema 12 · Conducción del potencial de acción</title>
 <style>
-  @page { size: A4; margin: 18mm 17mm 18mm 17mm; }
-  :root { --azul:#1f4e9c; --azulclaro:#eaf0fb; --gris:#555; --amarillo:#fff6d6; --verde:#e8f6ec; --morado:#f3eefb; }
-  body { font-family: "DejaVu Sans", "Noto Sans", Arial, sans-serif; font-size: 10.6pt; line-height: 1.5; color:#222; background:#fff; }
-  h1 { color: var(--azul); font-size: 20pt; margin: 0 0 4px; }
-  .sub { color: var(--gris); margin: 0 0 14px; font-size: 10pt; }
-  h2 { color:#fff; background: var(--azul); font-size: 13.5pt; padding: 5px 10px; border-radius: 6px; margin: 22px 0 10px; break-after: avoid; }
-  h3 { color: var(--azul); font-size: 11.5pt; margin: 14px 0 3px; break-after: avoid; }
-  p { margin: 0 0 7px; text-align: justify; }
-  .nota { background: var(--azulclaro); border-left: 4px solid var(--azul); padding: 8px 12px; border-radius: 4px; margin: 8px 0 12px; }
-  .clave { background: var(--amarillo); border-left: 4px solid #e0a800; padding: 8px 12px; border-radius: 4px; margin: 8px 0 12px; break-inside: avoid; }
-  .examen { background: var(--verde); border-left: 4px solid #2e8b57; padding: 8px 12px; border-radius: 4px; margin: 8px 0 12px; }
-  .grafica { background: var(--morado); border-left: 4px solid #7a4fc0; padding: 8px 12px 4px; border-radius: 4px; margin: 6px 0 14px; }
-  .grafica .tit { font-weight: bold; color: #5a3299; margin-bottom: 4px; }
-  figure { margin: 8px auto 6px; text-align: center; break-inside: avoid; }
-  figure img { max-width: 78%; max-height: 82mm; border: 1px solid #ddd; border-radius: 4px; }
-  figure.peq img { max-width: 50%; }
-  figcaption { font-size: 8.8pt; color: var(--gris); margin-top: 3px; }
-  .formula { text-align: center; font-size: 12pt; margin: 6px 0 9px; font-family: "DejaVu Serif", serif; }
-  table { border-collapse: collapse; width: 100%; font-size: 9.6pt; margin: 6px 0 12px; break-inside: avoid; }
-  th, td { border: 1px solid #c9d3e6; padding: 4px 6px; text-align: center; }
-  th { background: var(--azulclaro); color: var(--azul); }
-  .indice { font-size: 10pt; margin: 4px 0 6px; }
+  @page {
+    size: A4;
+    margin: 22mm 20mm 22mm 20mm;
+    @top-left { content: ""; border-bottom: 2.5px solid #c3a27a; width: 100%; vertical-align: bottom; margin-bottom: 6mm; }
+    @bottom-left { content: counter(page); border-top: 2.5px solid #c3a27a; width: 100%; vertical-align: top; padding-top: 3mm; font-family: Carlito, sans-serif; font-size: 10pt; color: #333; }
+  }
+  body { font-family: Carlito, "Liberation Sans", sans-serif; font-size: 11.5pt; line-height: 1.75; color: #222; background: #fff; }
+  h1 { font-family: "Inter Display", sans-serif; font-weight: 900; font-size: 33pt; line-height: 1.08; letter-spacing: .3px; transform: scaleX(.84); transform-origin: left; width: 119%; margin: 4mm 0 5mm; color: #111; }
+  .regla { border: 0; border-top: 3px solid #c3a27a; margin: 0 0 8mm; }
+  h2 { font-family: Carlito, sans-serif; font-weight: 700; font-size: 16.5pt; margin: 9mm 0 3mm; color: #111; break-after: avoid; }
+  h3 { font-family: Carlito, sans-serif; font-weight: 700; font-size: 13.5pt; color: #9b7b55; margin: 6mm 0 2mm; break-after: avoid; }
+  .pend { font-size: 9.5pt; font-style: italic; color: #9b7b55; margin: -1mm 0 2mm; }
+  p { margin: 0 0 3.2mm; }
+  ul, ol { margin: 0 0 3.2mm; padding-left: 7mm; }
+  li { margin-bottom: 1.6mm; }
+  .formula { background: #f7f3ec; border-top: 1px solid #e3d8c6; border-bottom: 1px solid #e3d8c6; text-align: center; padding: 3.5mm 4mm; margin: 3mm 0 4mm; font-family: "DejaVu Serif", "Liberation Serif", serif; font-size: 12.5pt; line-height: 1.6; break-inside: avoid; }
+  .caja { background: #f7f3ec; border-left: 5px solid #b0906a; padding: 3.5mm 5mm 1.5mm; margin: 4mm 0 5mm; break-inside: avoid; font-size: 11pt; }
+  .caja .tit { font-size: 9.5pt; font-weight: 700; letter-spacing: .8px; color: #9b7b55; text-transform: uppercase; margin-bottom: 1.5mm; }
+  figure { margin: 3mm auto 5mm; text-align: center; break-inside: avoid; }
+  figure img { max-width: 82%; max-height: 95mm; }
+  figure.peq img { max-width: 58%; }
+  table { border-collapse: collapse; width: 100%; font-size: 10.5pt; margin: 3mm 0 5mm; break-inside: avoid; }
+  th, td { border: 1px solid #e3d8c6; padding: 1.5mm 2mm; text-align: center; }
+  th { background: #f7f3ec; color: #7a5f3f; }
+  sub, sup { line-height: 0; }
 </style>
 </head>
 <body>
 
-<h1>⚡ Tema 12 · Conducción del potencial de acción</h1>
-<p class="sub">Tipos de fibras nerviosas · Biofísica, Grado en Bioquímica (US) · Prof. Rafael J. Montoro</p>
+<h1>TEMA 12 : CONDUCCIÓN DEL<br>POTENCIAL DE ACCIÓN</h1>
+<hr class="regla">
 
-<div class="nota">
-<b>📌 Versión 2.</b> Escrita imitando cómo explica el profesor en clase, con cada gráfica explicada paso a paso. Todavía no tengo la transcripción de este tema: cuando me la pases, cambio lo que haga falta por lo que diga él de verdad.<br>
-<b>Leyenda:</b> 📊 = cómo leer la gráfica · 🔗 = algo que el profesor ya explicó en los Temas 10 u 11 · 📝 = añadido mío, no aparece en las diapositivas.
+<div class="caja">
+<div class="tit">Cómo están hechos estos apuntes</div>
+<p>De este tema solo se ha dado en clase el principio: el concepto de conducción, el sentido de la propagación y el cono axónico. Esa parte sigue lo que dijo el profesor. El resto está escrito a partir de las diapositivas, razonando como lo hace él, para poder seguir la clase. Esos apartados llevan debajo del título la nota <i>(Aún no explicado en clase)</i> y se cambiarán cuando se den.</p>
 </div>
 
-<div class="indice">
-<b>1.</b> Concepto de conducción &nbsp;·&nbsp;
-<b>2.</b> Fibras amielínicas (cono axónico, circuitos locales, sentido único, velocidad) &nbsp;·&nbsp;
-<b>3.</b> Fibras mielínicas (mielina, nodo de Ranvier, conducción saltatoria, capacidad, diámetro, distancia internodal, desmielinización) &nbsp;·&nbsp;
-<b>4.</b> Tipos de fibras &nbsp;·&nbsp;
-<b>5.</b> Potencial de acción compuesto &nbsp;·&nbsp;
-<b>6.</b> Resumen para el examen
+<h2>1.CONDUCCIÓN DEL POTENCIAL DE ACCIÓN</h2>
+
+<p>En el tema 11 se vio cómo se genera un potencial de acción en un trozo de membrana. Este tema va de cómo <b>viaja</b> ese potencial de acción a lo largo de la fibra, y de por qué unas fibras conducen mucho más rápido que otras. Tiene tres partes:</p>
+<ol>
+<li><b>Fibras amielínicas:</b> dónde nace el potencial de acción (el cono axónico) y cómo pasa de un trozo de membrana al siguiente (los circuitos locales de corriente).</li>
+<li><b>Fibras mielínicas:</b> qué cambia cuando el axón tiene mielina, y de qué depende la velocidad: la capacidad eléctrica del axón, el diámetro y la distancia internodal.</li>
+<li><b>Potencial de acción compuesto</b> y <b>tipos de fibras</b>.</li>
+</ol>
+
+<h3>Concepto</h3>
+<p>El profesor lo presentó diciendo que, en el fondo, la conducción ya se había visto al final del tema anterior: el potencial de acción <b>se va propagando por una fibra mientras haya canales de sodio voltaje-dependientes</b>. Se genera en una zona que se llama <b>cono axónico</b> o <b>segmento inicial del axón</b>, y desde ahí se propaga por el axón hasta los terminales.</p>
+<p>Y lo hace <b>sin decremento</b>. Un potencial pasivo se va haciendo más pequeño con la distancia según λ, pero el potencial de acción mantiene su amplitud porque en cada punto se abren los mismos canales de sodio y se regenera. Como se vio al final del tema 11, la amplitud solo cambiaría si cambiaran las concentraciones de sodio o potasio, la densidad de canales de sodio voltaje-dependientes o la de canales de potasio de fuga, y normalmente nada de eso cambia a lo largo del axón.</p>
+<p>La diapositiva lo muestra con la misma neurona en tres momentos, a 1, 5 y 10 ms. La franja verde es el sitio donde está entrando sodio en ese momento, es decir, donde está el potencial de acción. Va avanzando por el axón, y el registro de encima de cada franja es siempre <b>igual</b>, con el mismo tamaño y la misma forma.</p>
+
+<figure class="peq"><img src="img/diap03.png"></figure>
+
+<h3>Sentido de la propagación</h3>
+<p>El profesor preguntó si el potencial de acción podría volverse hacia atrás. No, por dos motivos que ya se conocen del tema 11: los canales de sodio del trozo que acaba de disparar están <b>inactivados</b>, y además ese trozo está en <b>período refractario</b>, absoluto y luego relativo.</p>
+<p>Luego planteó algo «más difícil todavía»: ¿podría un potencial de acción viajar <b>a la vez hacia delante y hacia atrás</b>? Sí. Un axón puede medir un metro, desde la médula hasta el pie. Si en un axón en reposo («tranquilo en la playa», en sus palabras) se estimula con corriente <b>en el centro</b>, se genera un potencial de acción que se va <b>hacia los dos lados</b>, sin ningún problema. Los canales de los dos lados están en reposo y ninguno está refractario.</p>
+<p>Esto se usa en el laboratorio. Se puede estimular cerca del final del axón y registrar en la médula para ver cuánto tarda en llegar, porque a lo mejor es más fácil estimular en un sitio y registrar en otro. Y si se estimula en el <b>terminal axónico</b>, el potencial de acción viaja hacia el soma; se hace, por ejemplo, para estudiar el <b>campo receptivo</b>.</p>
+
+<p>En la diapositiva hay una neurona sensorial (a la izquierda) y una motora (a la derecha), y en rojo el recorrido del potencial de acción con flechas que indican el sentido. En la sensorial, el sitio de inicio está abajo, junto a las <b>terminaciones sensoriales</b>, y el potencial de acción sube hacia la médula. En la motora, el sitio de inicio está en el <b>cono axónico</b> (<i>axon hillock</i>) y el potencial de acción baja hacia los terminales del músculo.</p>
+
+<figure class="peq"><img src="img/diap04.png"></figure>
+
+<h3>Por qué importa la velocidad</h3>
+<p>El profesor lo planteó con un ejemplo. Una neurona sensorial del pie detecta que te has clavado una chincheta, y su axón tiene que recorrer <b>un metro</b> hasta la médula. Desde allí, una motoneurona manda la orden a un músculo del pie para encogerlo, y eso es <b>otro metro</b>. Si el potencial de acción fuera a <b>2 m/s</b>, que es una velocidad típica de una fibra amielínica, tardaría <b>un segundo</b> en hacer el recorrido. Y en un segundo uno se clava la chincheta del todo.</p>
+<p>Así que en algunos casos, los urgentes, interesa que la conducción sea muchísimo más rápida. La pregunta con la que dejó la clase es: <b>¿cómo se consigue?</b> La respuesta va a ser la mielina, en el apartado 3.</p>
+
+<h2>2.FIBRAS AMIELÍNICAS</h2>
+
+<h3>Cono axónico</h3>
+<p>En la diapositiva, arriba, hay una dendrita con una sinapsis a la izquierda y tres franjas grises verticales, que son los tres sitios donde se registra: en la dendrita, en el soma y en la zona gatillo (el cono axónico). El potencial postsináptico nace en la dendrita, se va haciendo más pequeño al viajar de forma pasiva hacia el soma y, al llegar a la zona gatillo, dispara un potencial de acción. La línea discontinua de ese último registro es lo que habría hecho el potencial postsináptico si no se hubiera disparado: seguir cayendo.</p>
+<p>La gráfica de abajo es la clave. En el eje X está la <b>distancia desde la sinapsis</b> y en el eje Y el voltaje. La línea granate es la amplitud del <b>potencial postsináptico</b>: los potenciales postsinápticos se han sumado y han creado una amplitud que va bajando poco a poco con la distancia. La línea negra es el <b>umbral</b>: en la dendrita y en el soma está muy por encima del potencial postsináptico, pero al llegar al cono axónico <b>baja de golpe</b>. El profesor lo situó en unos <b>−50 mV</b>. Justo ahí la línea granate queda por encima de la negra y se genera el potencial de acción.</p>
+
+<figure><img src="img/diap05.png"></figure>
+
+<p>¿Por qué el umbral es tan bajo en el cono axónico? El profesor lo preguntó así: en el soma también hay canales de sodio voltaje-dependientes, y sin embargo el potencial de acción no nace ahí, ni un poco más adelante, sino justo en el cono axónico. La respuesta, que dio una compañera, es que ahí hay <b>mayor densidad de canales de sodio</b>.</p>
+<p>Para entender por qué eso baja el umbral hay que volver a la definición del tema 11: el umbral es cuando la corriente de sodio hacia dentro supera a la de potasio hacia fuera. El profesor lo explicó con números. Supongamos que hacen falta <b>10 canales</b> de sodio voltaje-dependientes abiertos para que la entrada de sodio gane a la salida de potasio. Si en una zona hay <b>100 canales</b> y una cierta despolarización abre el 10 %, se abren justo 10 y se llega al umbral. Pero si en otra zona hay <b>200 canales</b>, con esa misma despolarización se abrirían 20, y solo hacen falta 10. Así que basta con abrir una <b>proporción menor</b>, es decir, basta con <b>menos despolarización</b>. Donde hay más densidad de canales de sodio, el umbral es más bajo, y por eso el potencial de acción nace en el cono axónico.</p>
+
+<div class="caja">
+<div class="tit">Idea clave</div>
+<p>El cono axónico es el <b>punto de integración</b> de la neurona. Ahí llegan sumados todos los potenciales postsinápticos (la sumación temporal y espacial del tema 10), y como es la zona de umbral más bajo, ahí se decide si se dispara o no el potencial de acción.</p>
 </div>
 
-<!-- ============================================================ -->
-<h2>1. Concepto de conducción 🚀</h2>
+<h3>Circuitos locales de corriente</h3>
+<p class="pend">(Aún no explicado en clase)</p>
+<p>Una vez que hay un potencial de acción en el cono axónico, ¿cómo pasa al trozo de al lado? En el trozo que está disparando, el interior se ha puesto <b>positivo</b>, a unos +45 mV. El trozo de al lado sigue en reposo, con el interior <b>negativo</b>, a unos −60 mV. Son dos puntos a distinto voltaje unidos por un conductor, el citoplasma, así que <b>fluye corriente</b>: las cargas positivas van por dentro del axón hacia el trozo vecino, salen por su membrana y vuelven por el líquido extracelular, cerrando un <b>circuito local de corriente</b>.</p>
+<p>Esa corriente <b>despolariza</b> al trozo vecino. Cuando llega al umbral, se abren allí los canales de sodio y se genera un potencial de acción nuevo, que hace lo mismo con el siguiente trozo, y así sucesivamente. Por eso el potencial de acción se regenera a lo largo de toda la fibra.</p>
+<p>En la diapositiva, a la izquierda, la franja morada es la región despolarizada (positiva dentro y negativa fuera), y en B las flechas rojas muestran cómo la carga se va hacia los lados. A la derecha está el mismo fenómeno con el circuito del tema 10: cada trozo de membrana tiene su r<sub>m</sub>, su pila E y su condensador C<sub>m</sub>, y están unidos por dentro por la <b>resistencia axial r<sub>a</sub></b>. En A los dos trozos están a −60 mV y no circula nada. En B el de la izquierda está a +45 mV (su condensador está cargado al revés) y el de la derecha va por −40 mV: la corriente pasa por r<sub>a</sub> al vecino, descarga su condensador (eso es despolarizarlo) y vuelve por fuera.</p>
 
-<h3>1.1 🧠 ¿De qué va este tema?</h3>
-<p>En el tema anterior vimos cómo se genera un potencial de acción en un trocito de membrana, ¿vale? Pero claro, una neurona no se lo queda para ella. Ese potencial de acción tiene que llegar hasta el final del axón, a los terminales, que es donde se liberan los neurotransmisores. A eso es a lo que llamamos <b>conducción</b>: cómo viaja el potencial de acción a lo largo de la fibra.</p>
+<figure><img src="img/diap07.png"></figure>
 
-<h3>1.2 📏 Viaja sin hacerse más pequeño</h3>
-<p>Aquí está la gracia. 🔗 Acordaos del Tema 10: un potencial pasivo, por ejemplo un potencial postsináptico, se iba haciendo cada vez más chiquito según se alejaba, con esa caída exponencial que marcaba λ. Pues el potencial de acción no. Llega al final <b>igual de grande que al principio</b>. Es lo que llamamos <b>propagación sin decremento</b>.</p>
-<p>¿Y cómo puede ser? Porque no es el mismo potencial de acción el que viaja, sino que <b>se va regenerando</b> en cada trozo de membrana. Cada trozo dispara el suyo propio, con su todo o nada, y por eso siempre sale del mismo tamaño.</p>
+<p>La corriente local sale hacia los dos lados, pero el potencial de acción solo avanza hacia delante, porque el trozo de detrás está refractario, como se dijo en clase. Se ve en la diapositiva de la propagación: en amarillo el reposo, en azul la despolarización (entra sodio) y en rojo la repolarización (sale potasio). En los tres fotogramas la zona azul avanza y la roja <b>siempre va detrás</b>: esa zona roja es la refractaria.</p>
 
-<figure class="peq"><img src="img/diap03.png"><figcaption>Diapositiva «El potencial de acción como unidad de información».</figcaption></figure>
-<div class="grafica">
-<div class="tit">📊 Cómo leer esta figura</div>
-<p>Es la misma neurona dibujada tres veces, en tres momentos: a 1, a 5 y a 10 milisegundos. La franja verde marca el sitio donde está entrando Na⁺ en ese momento, es decir, donde se está produciendo el potencial de acción.</p>
-<p>Fijaos en dos cosas. Primero, que la franja verde <b>va avanzando</b> por el axón: a 1 ms está pegada al soma, en la zona gatillo, y a 10 ms ya está bastante más lejos. Segundo, que el registro que hay encima de cada una es <b>exactamente igual</b>. Mismo tamaño, misma forma. Eso es la propagación sin decremento.</p>
+<figure><img src="img/diap06.png"></figure>
+
+<h3>Velocidad de conducción en las fibras amielínicas</h3>
+<p class="pend">(Aún no explicado en clase)</p>
+<p>La velocidad depende de <b>hasta dónde llega la corriente local</b> por delante del potencial de acción: cuanto más lejos llegue, más membrana se lleva al umbral a la vez y más rápido se avanza. Y lo lejos que llega una corriente lo marca la constante de longitud del tema 10:</p>
+
+<div class="formula">λ = √( r<sub>m</sub> / r<sub>a</sub> )</div>
+
+<p>En el tema 10 el profesor preguntó de qué depende la resistencia axial, y la respuesta era la <b>sección</b>. Cuanto más gordo es el axón, menor es r<sub>a</sub>, mayor es λ y mayor es la velocidad. En el repaso del tema 11 añadió que un aumento de la resistencia axial no cambia la amplitud del potencial de acción, porque se regenera, pero sí <b>reduce la velocidad de propagación</b>. Por eso el calamar tiene un axón gigante, de hasta 800 µm, y aun así no pasa de unos 20–25 m/s. No se pueden hacer todos los axones así de gordos, porque no cabrían; la solución de los vertebrados es la mielina.</p>
+
+<h2>3.FIBRAS MIELÍNICAS</h2>
+
+<h3>Características estructurales</h3>
+<p class="pend">(Aún no explicado en clase)</p>
+<p>La mielina son muchas capas de membrana de una célula glial enrolladas alrededor del axón. En el <b>sistema nervioso central</b> la forman los <b>oligodendrocitos</b>: en la diapositiva se ve uno en el centro mandando prolongaciones a <b>varios axones</b> a la vez. En el <b>sistema nervioso periférico</b> la forman las <b>células de Schwann</b>: cada una se enrolla en espiral (las <i>layers of myelin</i> del dibujo) sobre <b>un solo trozo</b> de un solo axón, y entre una y la siguiente queda un hueco, el nodo de Ranvier.</p>
+
+<figure><img src="img/diap08.png"></figure>
+
+<p>Así que la mielina va a trozos. Entre trozo y trozo queda un hueco donde el axón está al descubierto, el <b>nodo de Ranvier</b>, y el trozo mielinizado entre dos nodos es el <b>internodo</b>. Lo importante es cómo se reparten los canales. En la foto de fluorescencia y en el dibujo de debajo (la escala es de 5 µm), los <b>canales de sodio (Na<sub>v</sub>)</b>, en verde, están <b>concentrados en el nodo</b>. A los lados, en rojo, está la <i>caspr</i>, donde se ancla la mielina. Y más hacia fuera, ya <b>debajo de la mielina</b>, en azul, están los <b>canales de potasio (K<sub>v</sub>)</b>.</p>
+
+<figure><img src="img/diap09.png"></figure>
+
+<h3>Circuitos internodales de corriente</h3>
+<p class="pend">(Aún no explicado en clase)</p>
+<p>Si los canales de sodio solo están en los nodos, el potencial de acción <b>solo se puede regenerar en los nodos</b>. En un nodo se dispara el potencial de acción, y la corriente local viaja por dentro del internodo hasta el nodo siguiente. Como la mielina aísla, esa corriente casi no se pierde y llega con fuerza suficiente para llevar el siguiente nodo al umbral. El potencial de acción parece ir <b>saltando de nodo en nodo</b>: es la <b>conducción saltatoria</b>.</p>
+<p>La gráfica de abajo de la diapositiva tiene los ejes cambiados respecto a lo habitual: en el eje X está la <b>distancia</b> y en el eje Y el <b>tiempo</b>. Las flechas verticales marcan los nodos. Los tramos <b>empinados</b> coinciden con los nodos: ahí pasa mucho tiempo y se avanza poco, porque hay que abrir canales y regenerar el potencial de acción. Los tramos <b>casi planos</b> son los internodos: se avanza mucha distancia casi sin gastar tiempo. Es decir, el tiempo se gasta en los nodos.</p>
+
+<figure><img src="img/diap11.png"></figure>
+
+<p>Según el índice del tema, la velocidad en las fibras mielínicas depende de tres factores: la <b>capacidad eléctrica del axón</b>, el <b>diámetro</b> y la <b>distancia internodal</b>.</p>
+
+<h3>Capacidad eléctrica del axón</h3>
+<p class="pend">(Aún no explicado en clase)</p>
+<p>La membrana es un condensador, y su capacidad es:</p>
+
+<div class="formula">c<sub>m</sub> = ε · S / d</div>
+
+<p>La mielina pone muchas capas de membrana una encima de otra, así que la separación <b>d</b> entre el interior y el exterior se hace muchísimo más grande y <b>la capacidad disminuye</b>. Y eso importa por esta otra relación:</p>
+
+<div class="formula">ΔV = ΔQ / C</div>
+
+<p>Con una C pequeña, <b>la misma carga produce un cambio de voltaje mayor</b>. Es lo que se veía en el tema 10 con el pulso cuadrado: parte de la corriente se iba en cargar el condensador y solo el resto cambiaba el voltaje. Con la mielina el internodo apenas «se traga» carga y casi toda la corriente llega al nodo siguiente para despolarizarlo. Además, la mielina hace que se escape muy poca corriente hacia fuera, es decir, <b>aumenta r<sub>m</sub></b>, y con r<sub>m</sub> grande λ es grande. En la diapositiva están el modelo de axón del tema 10 (parches con r<sub>m</sub> y c<sub>m</sub> unidos por r<sub>a</sub>) y el circuito local (+45 mV mandando corriente al vecino a −40 mV), con las dos fórmulas debajo.</p>
+
+<figure><img src="img/diap12.png"></figure>
+
+<h3>Diámetro</h3>
+<p class="pend">(Aún no explicado en clase)</p>
+<p>Igual que en las amielínicas: <b>más diámetro, menos r<sub>a</sub>, más λ y más velocidad</b>. Lo interesante es la comparación de la gráfica. En el eje Y está la velocidad de conducción (m/s) y en el eje X el diámetro, pero con <b>dos escalas distintas</b>: la de arriba va de 0 a 12 µm y es para los axones mielinizados, y la de abajo, en rojo, va de 0 a 800 µm y es para los amielínicos, unas 70 veces más grande.</p>
+<p>Los axones mielinizados de gato (azul) van de unos 15 m/s con 2 µm a casi 95 m/s con 11 µm, y lo hacen en una línea casi <b>recta</b>: la velocidad es proporcional al diámetro. Los amielínicos de calamar (rojo), con 800 µm, apenas llegan a unos 25 m/s. Es decir, un axón mielinizado de 3 o 4 µm ya conduce más rápido que el axón gigante del calamar, que es unas 200 veces más gordo.</p>
+
+<figure><img src="img/diap10.png"></figure>
+
+<h3>Distancia internodal</h3>
+<p class="pend">(Aún no explicado en clase)</p>
+<p>Como el tiempo se gasta en los nodos, <b>cuanto más separados estén</b>, menos paradas hay que hacer para recorrer la misma distancia y más rápido va el potencial de acción. En la gráfica tiempo-distancia, internodos más largos serían tramos planos más largos y menos escalones por metro de axón.</p>
+<p>Pero no se pueden separar todo lo que se quiera, y por eso la diapositiva vuelve a poner λ al lado. La corriente se atenúa algo por el internodo, y si el nodo siguiente estuviera demasiado lejos le llegaría tan debilitada que no alcanzaría el umbral, y la conducción fallaría. La distancia entre nodos tiene que quedar dentro de lo que alcanza la corriente.</p>
+
+<figure><img src="img/diap14.png"></figure>
+
+<h3>Consecuencias de la desmielinización</h3>
+<p class="pend">(Aún no explicado en clase)</p>
+<p>En el axón normal (A), el grosor de las flechas indica la densidad de corriente: las flechas gruesas salen en los <b>nodos</b> y en los internodos apenas sale nada. Debajo está el reparto de canales: los de sodio amontonados en los nodos y los de potasio bajo la mielina.</p>
+<p>Si una zona pierde la mielina (B), la <b>capacidad aumenta</b> y la corriente local se gasta en cargarla; <b>r<sub>m</sub> baja</b>, así que la corriente se escapa y <b>λ se acorta</b>; y además en esa zona hay <b>muy pocos canales de sodio</b>, repartidos y separados, porque estaban concentrados en los nodos. En el dibujo las flechas se amontonan al entrar en la zona sin mielina y no consiguen ir más allá. Según la diapositiva, la conducción <b>se enlentece o se bloquea</b>.</p>
+
+<figure><img src="img/diap13.png"></figure>
+
+<div class="caja">
+<div class="tit">Pendiente de la clase del tema 11</div>
+<p>En el repaso de la amplitud del potencial de acción, Javier propuso que en una zona con menos mielina se perdería corriente y la amplitud sería un poco menor. El profesor le dijo que lo recordara para cuando se viera la desmielinización, «porque no va a ser así». Viendo la diapositiva, lo que se espera es que la conducción se enlentezca o se bloquee, más que un potencial de acción algo más pequeño. Habrá que ver cómo lo explica.</p>
 </div>
 
-<h3>1.3 ↔️ ¿Dónde empieza?</h3>
-<p>Depende de la neurona. En una <b>motoneurona</b>, el potencial de acción se inicia en el <b>cono axónico</b>, justo donde el axón sale del soma. En una <b>neurona sensorial</b>, en cambio, se inicia allá en la periferia, cerca de las <b>terminaciones sensoriales</b> que reciben el estímulo. Y desde ahí viaja hacia la médula.</p>
-
-<figure class="peq"><img src="img/diap04.png"><figcaption>Diapositiva «Conducción del potencial de acción».</figcaption></figure>
-<div class="grafica">
-<div class="tit">📊 Cómo leer esta figura</div>
-<p>A la izquierda tenéis una neurona sensorial y a la derecha una motora, conectadas entre sí. En rojo está pintado el recorrido por donde viaja el potencial de acción, y las flechitas indican el sentido.</p>
-<p>En la sensorial, el rótulo <i>site of action potential initiation</i> está abajo, junto a las terminaciones de la piel, y la flecha sube. En la motora, ese rótulo está en el <i>axon hillock</i>, el cono axónico, y la flecha baja hacia los terminales del músculo.</p>
-</div>
-
-<!-- ============================================================ -->
-<h2>2. Fibras amielínicas 🧵</h2>
-
-<h3>2.1 🎯 El cono axónico</h3>
-<p>Imaginaos que llega una sinapsis excitadora a una dendrita. Se genera un potencial postsináptico que viaja de forma pasiva hacia el soma, y como es pasivo, se va haciendo más pequeño por el camino. 🔗 Esto es λ, lo del Tema 10. Entonces, ¿cómo es posible que acabe disparando un potencial de acción?</p>
-<p>Pues porque no hace falta que dispare en la dendrita ni en el soma. Dispara en el <b>segmento inicial del axón</b>, el cono axónico, que tiene una <b>densidad de canales de Na⁺ muchísimo mayor</b>. Con tantos canales de Na⁺, basta muy poca despolarización para que la entrada de Na⁺ gane a la salida de K⁺. Dicho de otra forma, <b>el umbral ahí es más bajo</b>.</p>
-
-<figure><img src="img/diap05.png"><figcaption>Diapositiva «Cono axónico» (Kandel).</figcaption></figure>
-<div class="grafica">
-<div class="tit">📊 Cómo leer esta figura</div>
-<p><b>Parte A, el dibujo.</b> La sinapsis está a la izquierda, en la dendrita. Hay tres franjas grises verticales, que son los tres sitios donde se registra: en la dendrita, en el soma y en la zona gatillo. En la dendrita el potencial sináptico es grande; en el soma ya es más chiquito; y en la zona gatillo, de repente, aparece un potencial de acción enorme. La línea discontinua de ese último registro os dice lo que habría pasado si no se hubiera disparado: el potencial sináptico habría seguido cayendo.</p>
-<p><b>Parte B, la gráfica.</b> En el eje X está la <b>distancia desde la sinapsis</b> y en el eje Y el <b>voltaje</b>. Hay dos líneas que tenéis que comparar. La <b>negra es el umbral</b>: está en unos −35 mV a lo largo de la dendrita y el soma, y al llegar a la zona gatillo <b>cae de golpe</b> hasta casi −58 mV. La <b>granate es el pico del potencial sináptico</b>: empieza en −40 y pico y va bajando poco a poco con la distancia, porque es pasivo.</p>
-<p>Ahora fijaos dónde se cruzan. Mientras la granate está por debajo de la negra, no pasa nada. Pero justo en la zona gatillo el umbral baja tanto que el potencial sináptico <b>queda por encima</b>, y ahí se dispara el potencial de acción, que se sale de la gráfica por arriba. La discontinua es, otra vez, lo que habría hecho sin disparar. Abajo del todo, la línea de puntos en −65 mV es el potencial de reposo.</p>
-</div>
-
-<div class="clave">💡 <b>Idea clave:</b> el cono axónico es el <b>punto de integración</b> de la neurona. 🔗 Ahí llegan sumados todos los potenciales postsinápticos, con su sumación temporal y espacial del Tema 10, y ahí se decide si se dispara o no.</div>
-
-<h3>2.2 🔁 Los circuitos locales de corriente</h3>
-<p>Vale, ya tenemos un potencial de acción en el cono axónico. ¿Cómo pasa al trozo de al lado? Pensad en lo que tenemos: en el trozo que está disparando, el interior se ha puesto <b>positivo</b>, a unos +45 mV. El trozo de al lado sigue en reposo, con el interior <b>negativo</b>, a unos −60. Tenemos dos sitios a distinto voltaje unidos por un conductor, que es el citoplasma. ¿Qué pasa? Pues que <b>fluye corriente</b>.</p>
-<p>Las cargas positivas van por dentro del axón hacia el trozo vecino, salen a través de su membrana y vuelven por fuera, por el líquido extracelular, cerrando el circuito. Por eso se llama <b>circuito local de corriente</b>. Esa corriente que llega al vecino <b>lo despolariza</b>, y en cuanto llega al umbral se abren sus canales de Na⁺ y dispara su propio potencial de acción. Y ese, a su vez, hace lo mismo con el siguiente. Así, trocito a trocito.</p>
-
-<figure><img src="img/diap07.png"><figcaption>Diapositiva «Circuitos locales de corriente».</figcaption></figure>
-<div class="grafica">
-<div class="tit">📊 Cómo leer esta figura</div>
-<p><b>Izquierda.</b> Es un trozo de membrana visto de lado. En A, la franja morada es la región despolarizada: ahí las cargas están al revés, positivas dentro y negativas fuera, mientras que a los lados todo sigue normal. En B, las flechas rojas os enseñan cómo la carga se va hacia los lados, por dentro y por fuera, y empieza a despolarizar a los vecinos.</p>
-<p><b>Derecha, A.</b> 🔗 Esto ya lo conocéis del Tema 10. Son dos trozos de membrana, cada uno con su <b>r<sub>m</sub></b> (los canales), su pila <b>E</b> y su condensador <b>C<sub>m</sub></b>. Están unidos por abajo, por dentro del axón, a través de la <b>resistencia axial r<sub>a</sub></b>. En reposo los dos están a −60 mV, así que no hay diferencia entre ellos y no circula nada.</p>
-<p><b>Derecha, B.</b> El de la izquierda está disparando: su condensador está cargado al revés y marca +45 mV. El de la derecha va por −40 mV, porque ya se le ha empezado a despolarizar. Las flechas discontinuas son el circuito local: la corriente sale del trozo activo, pasa por r<sub>a</sub> al vecino, descarga su condensador (eso es despolarizarlo) y vuelve por el lado extracelular.</p>
-</div>
-
-<h3>2.3 ⛔ ¿Por qué no se vuelve hacia atrás?</h3>
-<p>Aquí viene una pregunta que os puede caer: si la corriente local sale hacia los dos lados, ¿por qué el potencial de acción no se da la vuelta? Pues porque el trozo que acaba de disparar, el que queda detrás, está <b>repolarizándose</b>. Sus canales de Na⁺ están <b>inactivados</b>, con la compuerta de inactivación puesta, y además tiene los de K⁺ abiertos.</p>
-<p>🔗 Es el <b>período refractario</b> del Tema 11. Ese trozo, por mucha corriente que le llegue, no puede disparar todavía. Así que el potencial de acción solo puede avanzar hacia delante.</p>
-
-<figure><img src="img/diap06.png"><figcaption>Diapositiva «Propagación del potencial de acción en fibras amielínicas» (Fox).</figcaption></figure>
-<div class="grafica">
-<div class="tit">📊 Cómo leer esta figura</div>
-<p>Hay tres dibujos del mismo axón, uno debajo de otro, como si fueran fotogramas. Los colores son la clave: <b>amarillo</b> es reposo, <b>azul</b> es despolarización (está entrando Na⁺) y <b>rojo</b> es repolarización (está saliendo K⁺).</p>
-<p>En el ①, el primer potencial de acción está al principio del axón, en azul. En el ②, la zona azul se ha movido a la derecha y donde antes estaba ahora hay rojo: está repolarizando. En el ③, el azul ha avanzado otra vez y el rojo le sigue detrás, mientras que el principio del axón ya ha vuelto al amarillo. Fijaos en que el rojo siempre va <b>detrás</b> del azul: ese rojo es la zona refractaria, la que impide que el potencial de acción vuelva hacia atrás.</p>
-</div>
-
-<h3>2.4 🐢 ¿Y de qué depende la velocidad?</h3>
-<p>Pensadlo así: cuanto más lejos llegue la corriente local por delante, más trozo de membrana despolarizo de una vez, y más rápido avanzo. ¿Y quién nos decía hasta dónde llegaba una corriente? 🔗 La constante de longitud del Tema 10:</p>
-<p class="formula">λ = √( r<sub>m</sub> / r<sub>a</sub> )</p>
-<p>🔗 Y acordaos de lo que preguntó en clase: ¿de qué depende r<sub>a</sub>? De la <b>sección</b>. Cuanto más gordo el axón, menos r<sub>a</sub>, más λ y <b>más velocidad</b>. Por eso el calamar tiene un axón gigante, de hasta 800 µm, para poder escapar rápido. Y aun así, con todo ese tamaño, solo llega a unos 20–25 m/s.</p>
-<p>📝 Pero claro, eso no lo podemos hacer nosotros con todos los axones, porque no nos cabrían en el cuerpo. Así que los vertebrados usamos otro truco: la <b>mielina</b>.</p>
-
-<!-- ============================================================ -->
-<h2>3. Fibras mielínicas ⚡</h2>
-
-<h3>3.1 🧈 ¿Quién pone la mielina?</h3>
-<p>La mielina no la fabrica la neurona. Son células gliales que se enrollan alrededor del axón muchas veces, como quien enrolla cinta aislante, de forma que el axón queda envuelto en <b>muchas capas de membrana</b>. Hay dos tipos según dónde estemos. En el <b>sistema nervioso central</b> son los <b>oligodendrocitos</b>. En el <b>periférico</b> son las <b>células de Schwann</b>.</p>
-
-<figure><img src="img/diap08.png"><figcaption>Diapositiva «Células gliales que forman la vaina de mielina».</figcaption></figure>
-<div class="grafica">
-<div class="tit">📊 Cómo leer esta figura</div>
-<p>A la izquierda, el <b>oligodendrocito</b> está en el centro y manda prolongaciones a <b>varios axones a la vez</b>: uno solo mieliniza trocitos de muchos axones distintos. A la derecha, la <b>célula de Schwann</b> está cortada para que veáis las capas en espiral (<i>layers of myelin</i>), con el axón en el centro y el núcleo de la célula fuera. Cada célula de Schwann cubre <b>un solo trozo</b> de un solo axón. Arriba se ve que entre una célula de Schwann y la siguiente queda un hueco: el <b>nodo de Ranvier</b>.</p>
-</div>
-
-<h3>3.2 🔘 El nodo de Ranvier</h3>
-<p>La mielina, por tanto, no es continua. Va a trozos, y entre trozo y trozo queda un hueco donde el axón está al descubierto: el <b>nodo de Ranvier</b>. Al trozo mielinizado entre dos nodos lo llamamos <b>internodo</b>.</p>
-<p>¿Y qué tiene de especial el nodo? Que ahí es donde están <b>concentrados los canales de Na⁺</b> voltaje-dependientes. Debajo de la mielina casi no hay. Y los de K⁺ están escondidos justo al lado del nodo, pero tapados por la mielina.</p>
-
-<figure><img src="img/diap09.png"><figcaption>Diapositiva «Nodo de Ranvier» (Hille).</figcaption></figure>
-<div class="grafica">
-<div class="tit">📊 Cómo leer esta figura</div>
-<p><b>Arriba</b> hay una foto de microscopía con fluorescencia de un nodo real, donde cada color es una proteína distinta. <b>Abajo</b> está el mismo nodo dibujado: el axón en amarillo y la célula de Schwann en lila, que se va pegando al axón por los dos lados hasta dejar un huequito en el centro. La barra de escala es de 5 µm: fijaos en lo pequeñísimo que es el nodo.</p>
-<p>Ahora los colores. En <b>verde</b>, justo en el hueco, están los <b>canales de Na⁺ (Na<sub>v</sub>)</b>. En <b>rojo</b>, a los dos lados, está la <i>caspr</i>, que es una proteína donde la mielina se ancla al axón. Y en <b>azul</b>, más hacia fuera y ya debajo de la mielina, están los <b>canales de K⁺ (K<sub>v</sub>)</b>.</p>
-</div>
-
-<h3>3.3 🦘 Los circuitos internodales: la conducción saltatoria</h3>
-<p>Entonces, si los canales de Na⁺ solo están en los nodos, ¿dónde se puede regenerar el potencial de acción? Pues <b>solo en los nodos</b>. En un nodo se dispara el potencial de acción, y la corriente local viaja por dentro del internodo hasta el siguiente nodo. Como la mielina aísla, esa corriente casi no se pierde por el camino y llega con fuerza para llevar al siguiente nodo al umbral.</p>
-<p>De forma que el potencial de acción parece ir <b>saltando de nodo en nodo</b>. Por eso a esto se le llama <b>conducción saltatoria</b>. Y es muchísimo más rápida.</p>
-
-<figure><img src="img/diap11.png"><figcaption>Diapositiva «Circuitos internodales de corriente».</figcaption></figure>
-<div class="grafica">
-<div class="tit">📊 Cómo leer esta figura</div>
-<p><b>Arriba</b> está el axón mielinizado con dos nódulos de Ranvier. En el de la izquierda hay un potencial de acción: fuera hay cargas negativas y dentro positivas. La flecha de dentro, «corrientes locales rápidas», va por el internodo hasta el nodo de la derecha, y la flecha de arriba es la vuelta por fuera. Encima de cada nodo veis su potencial de acción, iguales los dos.</p>
-<p><b>Abajo</b> viene la gráfica importante. Ojo, que los ejes son raros: en el <b>eje X está la distancia</b> y en el <b>eje Y el tiempo</b>. Las flechas verticales os indican dónde están los nodos. Fijaos en que la línea roja tiene dos tipos de tramos:</p>
-<p>Los tramos <b>empinados</b> coinciden con los <b>nodos</b>: ahí pasa mucho tiempo y se avanza poca distancia, porque es donde hay que abrir canales y regenerar el potencial de acción. Los tramos <b>casi planos</b> son los <b>internodos</b>: se avanza mucha distancia casi sin gastar tiempo, porque la corriente pasa volando. O sea, el tiempo se gasta en los nodos y los internodos son casi gratis.</p>
-</div>
-
-<div class="clave">💡 La velocidad en las fibras mielínicas depende de <b>tres factores</b>, así viene en el índice del tema: la <b>capacidad eléctrica del axón</b>, el <b>diámetro</b> y la <b>distancia internodal</b>. Vamos uno a uno.</div>
-
-<h3>3.4 🔋 Factor 1: la capacidad eléctrica</h3>
-<p>🔗 Acordaos del Tema 10: la membrana es un condensador, y su capacidad era</p>
-<p class="formula">c<sub>m</sub> = ε · S / d</p>
-<p>¿Qué hace la mielina? Pone muchas capas de membrana una encima de otra, de forma que la separación <b>d</b> entre el interior y el exterior se hace muchísimo más grande. Y si d va abajo dividiendo y aumenta, <b>la capacidad disminuye</b>.</p>
-<p>¿Y eso para qué sirve? Mirad esta otra fórmula:</p>
-<p class="formula">ΔV = ΔQ / C</p>
-<p>Si C es pequeña, con <b>la misma carga consigo un cambio de voltaje mucho mayor</b>. 🔗 Es lo mismo que veíamos con el pulso cuadrado: una parte de la corriente se iba en cargar el condensador y solo la otra cambiaba el voltaje. Con la mielina, el internodo apenas se "traga" carga, y casi toda la corriente llega para despolarizar el nodo siguiente.</p>
-<p>📝 Y hay un efecto extra: la mielina también hace que se escape muy poca corriente hacia fuera, o sea, que <b>r<sub>m</sub> aumenta</b> mucho. Con r<sub>m</sub> grande, λ es grande y la corriente llega más lejos. Doble ganancia.</p>
-
-<figure><img src="img/diap12.png"><figcaption>Diapositiva «Efecto de la disminución de la capacidad en fibras mielínicas».</figcaption></figure>
-<div class="grafica">
-<div class="tit">📊 Cómo leer esta figura</div>
-<p>A la izquierda está el modelo de axón del Tema 10: la membrana dividida en parches, cada uno con su r<sub>m</sub> y su c<sub>m</sub> en paralelo, unidos por dentro por r<sub>a</sub>. A la derecha está el circuito local de antes: un trozo activo a +45 mV que manda corriente al vecino, que va por −40 mV.</p>
-<p>Debajo tenéis las dos fórmulas que lo explican todo. La de la izquierda dice que la mielina, al aumentar d, baja c<sub>m</sub>. La de la derecha dice que con menos C, la misma carga produce más ΔV. Juntándolas: el condensador del vecino se carga antes y el vecino llega antes al umbral.</p>
-</div>
-
-<h3>3.5 📐 Factor 2: el diámetro</h3>
-<p>Esto funciona igual que en las amielínicas: <b>más diámetro, menos r<sub>a</sub>, más λ, más velocidad</b>. Lo bonito es comparar cuánto se gana con la mielina, y para eso está la gráfica de abajo.</p>
-
-<figure><img src="img/diap10.png"><figcaption>Diapositiva «Velocidad de conducción del potencial de acción» (Berne).</figcaption></figure>
-<div class="grafica">
-<div class="tit">📊 Cómo leer esta figura</div>
-<p>En el <b>eje Y</b> está la <b>velocidad de conducción</b>, en m/s. En el <b>eje X</b> está el <b>diámetro</b>, pero cuidado, porque hay <b>dos escalas</b>. La de arriba, en negro, va de 0 a 12 micras y es para los axones mielinizados. La de abajo, en rojo, va de 0 a 800 micras y es para los amielínicos. ¡La roja es unas 70 veces más grande!</p>
-<p>La línea <b>azul</b> son axones mielinizados de gato: con unas 2 micras ya van a unos 15 m/s, y con 11 micras llegan a casi 95 m/s. Además, es prácticamente una <b>línea recta</b>: la velocidad es proporcional al diámetro. La línea <b>roja</b> son axones amielínicos de calamar: con 800 micras, que es una barbaridad, apenas llegan a unos 25 m/s.</p>
-<p>La conclusión es para quedársela: un axón mielinizado de solo <b>3 o 4 micras</b> ya va más rápido que el axón gigante del calamar, que es <b>200 veces más gordo</b>. Eso es lo que nos ahorra la mielina.</p>
-</div>
-
-<h3>3.6 📏 Factor 3: la distancia internodal</h3>
-<p>Ya hemos visto que el tiempo se gasta en los nodos. Entonces, si los nodos están <b>más separados</b>, hay que hacer menos paradas para recorrer la misma distancia, y el potencial de acción va <b>más rápido</b>.</p>
-<p>Pero, ¿los podemos separar todo lo que queramos? No. Fijaos en que la diapositiva vuelve a poner λ al lado. 📝 La corriente se va atenuando por el internodo, aunque poco, y si el siguiente nodo está demasiado lejos le llegará tan debilitada que no alcanzará el umbral, y la conducción se para. Así que hay un equilibrio: los nodos tienen que estar lo más separados posible, pero siempre dentro de lo que alcanza la corriente.</p>
-
-<figure><img src="img/diap14.png"><figcaption>Diapositiva «Distancia internodal» (Kandel).</figcaption></figure>
-<div class="grafica">
-<div class="tit">📊 Cómo leer esta figura</div>
-<p>Es el mismo dibujo que el de los circuitos internodales, pero ahora fijaos en otra cosa: en la <b>longitud de los tramos planos</b> de la gráfica tiempo-distancia. Cada tramo plano es un internodo. Si los internodos fuesen más largos, los tramos planos serían más largos y habría menos escalones por metro de axón, así que se recorrería más distancia en menos tiempo.</p>
-</div>
-
-<h3>3.7 🩹 ¿Qué pasa si se pierde la mielina?</h3>
-<p>Ahora ya podéis deducirlo vosotros. Si una zona del axón pierde la mielina, en primer lugar <b>la capacidad aumenta</b>, porque d vuelve a ser pequeña, y la corriente local se gasta en cargar ese condensador. En segundo lugar, <b>r<sub>m</sub> baja</b>, porque ya no hay aislante, así que la corriente se escapa, <b>λ se acorta</b> y no llega lejos.</p>
-<p>Y encima hay un tercer problema: en esa zona <b>hay muy pocos canales de Na⁺</b>, porque estaban concentrados en los nodos. Así que aunque la corriente llegue, cuesta regenerar el potencial de acción. Resultado: la conducción <b>se enlentece o directamente se bloquea</b>. 📝 Esto es lo que pasa en enfermedades desmielinizantes como la esclerosis múltiple.</p>
-
-<figure><img src="img/diap13.png"><figcaption>Diapositiva «Consecuencias de la desmielinización de fibras» (Kandel).</figcaption></figure>
-<div class="grafica">
-<div class="tit">📊 Cómo leer esta figura</div>
-<p><b>A, axón normal.</b> Las flechas moradas son la corriente, y su <b>grosor</b> indica la densidad de corriente. Fijaos en que las flechas gruesas salen en los <b>nodos</b> y en los internodos apenas sale nada, porque la corriente va por dentro sin perderse. Debajo está la distribución de canales: los de Na⁺ amontonados en los nodos y los de K⁺ debajo de la mielina.</p>
-<p><b>B, axón desmielinizado.</b> A la izquierda todo va bien, pero al entrar en la región sin mielina (<i>demyelinated region</i>) las flechas se amontonan y se quedan ahí. La corriente se escapa toda en esa zona y no consigue llegar más allá. Y mirad los canales de abajo: en la zona sin mielina están <b>repartidos y muy separados</b>, así que no hay suficientes juntos para regenerar el potencial de acción.</p>
-</div>
-
-<!-- ============================================================ -->
-<h2>4. Tipos de fibras nerviosas 🗂️</h2>
-
-<h3>4.1 🏷️ Dos nomenclaturas para lo mismo</h3>
-<p>Con todo lo que hemos visto, ya entendéis por qué no todas las fibras van igual de rápido. Las fibras de los nervios periféricos se clasifican según su diámetro y su mielina, y hay dos nomenclaturas. En los <b>nervios musculares</b> se usan <b>números romanos</b> (I, II, III, IV) y se clasifican por el <b>diámetro</b>. En los <b>nervios cutáneos</b> se usan <b>letras</b> (Aα, Aβ, Aδ, C) y se clasifican por la <b>velocidad de conducción</b>. Pero se corresponden una a una.</p>
+<h2>4.TIPOS DE FIBRAS</h2>
+<p class="pend">(Aún no explicado en clase)</p>
+<p>Las fibras de los nervios periféricos se clasifican de dos maneras. En los <b>nervios musculares</b> se usan números romanos (I, II, III, IV) y se clasifican por el <b>diámetro</b>. En los <b>nervios cutáneos</b> se usan letras (Aα, Aβ, Aδ, C) y se clasifican por la <b>velocidad de conducción</b>. Se corresponden una a una:</p>
 
 <table>
 <tr><th></th><th>Nervio muscular</th><th>Nervio cutáneo</th><th>Diámetro (µm)</th><th>Velocidad (m/s)</th></tr>
-<tr><td><b>Mielinizada grande</b></td><td>I</td><td>Aα</td><td>12–20</td><td>72–120</td></tr>
-<tr><td><b>Mielinizada mediana</b></td><td>II</td><td>Aβ</td><td>6–12</td><td>36–72</td></tr>
-<tr><td><b>Mielinizada pequeña</b></td><td>III</td><td>Aδ</td><td>1–6</td><td>4–36</td></tr>
-<tr><td><b>Amielínica</b></td><td>IV</td><td>C</td><td>0,2–1,5</td><td>0,4–2,0</td></tr>
+<tr><td>Mielinizada grande</td><td>I</td><td>Aα</td><td>12–20</td><td>72–120</td></tr>
+<tr><td>Mielinizada mediana</td><td>II</td><td>Aβ</td><td>6–12</td><td>36–72</td></tr>
+<tr><td>Mielinizada pequeña</td><td>III</td><td>Aδ</td><td>1–6</td><td>4–36</td></tr>
+<tr><td>Amielínica</td><td>IV</td><td>C</td><td>0,2–1,5</td><td>0,4–2,0</td></tr>
 </table>
 
-<div class="grafica">
-<div class="tit">📊 Cómo leer la tabla</div>
-<p>Leedla de arriba abajo: cada fila es más fina que la anterior, y cada fila es más lenta. Las tres primeras tienen mielina; la última, la de las fibras C, no tiene. Fijaos en el salto: una Aα de 15 micras va a unos 100 m/s, mientras que una C de 1 micra va a 1 m/s. Cien veces más lenta. Es todo lo que hemos visto, puesto en números: <b>más gruesa y con mielina, más rápida</b>.</p>
-</div>
+<p>Cada fila es más fina y más lenta que la anterior, y solo la última no tiene mielina. Una Aα de unas 15 µm conduce a unos 100 m/s y una C de 1 µm a 1 m/s. Volviendo al ejemplo de la chincheta: con fibras C, a 1–2 m/s, los dos metros de recorrido costarían entre uno y dos segundos; con fibras Aα, a unos 100 m/s, costarían unos 20 ms.</p>
 
-<!-- ============================================================ -->
-<h2>5. Potencial de acción compuesto 📈</h2>
+<h2>5.POTENCIAL DE ACCIÓN COMPUESTO</h2>
+<p class="pend">(Aún no explicado en clase)</p>
+<p>Un nervio no es un axón, sino un haz con miles de fibras de distintos tipos. Si se estimula el nervio entero en un punto y se registra desde fuera un poco más lejos, lo que se ve es la <b>suma</b> de los potenciales de acción de todas esas fibras: el <b>potencial de acción compuesto</b>.</p>
+<p>Todas las fibras salen a la vez, cuando se da el estímulo, pero cada tipo conduce a su velocidad, así que al electrodo llegan por orden. En la gráfica, el eje X es el tiempo desde el estímulo (0–40 ms) y el eje Y el voltaje (mV). Primero, en 1–2 ms, aparece un pico enorme de casi 6,5 mV: las fibras <b>Aα y Aβ</b>. Hacia los 3 ms sale un pico de algo más de 1 mV: las <b>Aδ</b>. Y hay que esperar hasta los <b>35–40 ms</b> para ver una pequeña onda de unos 0,2 mV: las fibras <b>C</b>. Las fibras gruesas dan una señal extracelular mucho mayor, y por eso los picos tienen alturas tan distintas.</p>
 
-<h3>5.1 🧶 ¿Qué es?</h3>
-<p>Hasta ahora hemos hablado de un axón. Pero un <b>nervio</b> no es un axón: es un haz con miles de fibras, y de distintos tipos, mezcladas. Si yo estimulo el nervio entero en un punto y registro con un electrodo desde fuera, un poco más lejos, lo que veo es la <b>suma</b> de los potenciales de acción de todas esas fibras. A eso se le llama <b>potencial de acción compuesto</b>.</p>
+<figure class="peq"><img src="img/diap16.png"></figure>
 
-<h3>5.2 ⏱️ ¿Por qué salen varios picos?</h3>
-<p>Pensadlo como una carrera. Todas las fibras salen a la vez, cuando doy el estímulo, pero cada tipo corre a su velocidad. De forma que al electrodo <b>llegan por orden</b>: primero las más rápidas, luego las intermedias y al final las más lentas. Cada grupo da su pico.</p>
-
-<figure class="peq"><img src="img/diap16.png"><figcaption>Diapositiva «Potencial de acción compuesto».</figcaption></figure>
-<div class="grafica">
-<div class="tit">📊 Cómo leer esta figura</div>
-<p>En el <b>eje X</b> está el <b>tiempo</b> desde el estímulo, de 0 a 40 ms, y en el <b>eje Y</b> el <b>voltaje</b> registrado, en mV. Primero, al milisegundo o dos, aparece un pico enorme de casi <b>6,5 mV</b>: son las fibras <b>Aα y Aβ</b>, las rápidas y gruesas. Justo después, hacia los 3 ms, sale un pico más pequeño, de algo más de 1 mV: las <b>Aδ</b>. Y luego hay que esperar muchísimo, hasta los <b>35–40 ms</b>, para ver una ondita chiquitita, de apenas 0,2 mV: las fibras <b>C</b>, las amielínicas.</p>
-<p>¿Por qué los picos tienen alturas tan distintas? 📝 Porque las fibras gruesas generan una corriente extracelular mucho más grande, así que se registran mejor desde fuera. Las C son tan finas que, aunque haya muchas, dan una señal pequeñita.</p>
-</div>
-
-<h3>5.3 ⚠️ Ojo con el todo o nada</h3>
-<p>📝 Una cosa que os puede liar. El potencial de acción de <b>una sola fibra</b> es <b>todo o nada</b>: o se dispara entero o no se dispara. Pero el potencial de acción compuesto <b>sí es graduable</b>. Si estimulo más fuerte, recluto más fibras, y el registro se hace más grande. No es que cada fibra dispare más, es que se suman más fibras.</p>
-<p>📝 Y un truco: si sabéis la distancia entre el estimulador y el electrodo y el tiempo al que llega cada pico, podéis sacar la velocidad de cada tipo de fibra con v = distancia / tiempo.</p>
-
-<!-- ============================================================ -->
-<h2>6. Resumen para el examen 🎓</h2>
-
-<div class="examen">
-<p>✅ <b>El potencial de acción se conduce sin decremento</b> porque se regenera en cada trozo: los <b>circuitos locales de corriente</b> despolarizan al vecino hasta el umbral.</p>
-<p>✅ <b>Se inicia en el cono axónico</b> porque ahí hay más canales de Na⁺ y el umbral es más bajo. Es el punto de integración.</p>
-<p>✅ <b>No vuelve hacia atrás</b> porque lo que queda detrás está en período refractario: Na⁺ inactivado y K⁺ abierto.</p>
-<p>✅ <b>La velocidad depende de λ = √(r<sub>m</sub>/r<sub>a</sub>)</b>: más diámetro, menos r<sub>a</sub>, más λ, más velocidad.</p>
-<p>✅ <b>La mielina</b> baja la capacidad (c<sub>m</sub> = εS/d, porque aumenta d) y sube r<sub>m</sub>. El potencial de acción solo se regenera en los nodos de Ranvier, donde están los canales de Na⁺: es la <b>conducción saltatoria</b>.</p>
-<p>✅ <b>Tres factores en las fibras mielínicas</b>: capacidad, diámetro y distancia internodal.</p>
-<p>✅ <b>La desmielinización</b> sube la capacidad, baja r<sub>m</sub> y λ, y deja pocos canales de Na⁺: la conducción se enlentece o se bloquea.</p>
-<p>✅ <b>Tipos de fibras</b>: Aα/I, Aβ/II, Aδ/III y C/IV, de más gruesa y rápida a más fina y lenta.</p>
-<p>✅ <b>Potencial de acción compuesto</b>: suma de todas las fibras de un nervio. Los picos llegan separados según la velocidad, y es graduable.</p>
-<p>📊 <b>Gráficas que tenéis que saber explicar</b>: el umbral frente al potencial sináptico en el cono axónico, la de tiempo frente a distancia en la conducción saltatoria, la de velocidad frente a diámetro (con sus dos escalas) y el potencial de acción compuesto.</p>
-</div>
+<p>Hay que tener cuidado con una cosa. El potencial de acción de <b>una sola fibra</b> es todo o nada, pero el potencial de acción compuesto es <b>graduable</b>: si se estimula más fuerte se reclutan más fibras y el registro es mayor, aunque cada fibra siga disparando igual. Y si se conoce la distancia entre el estimulador y el electrodo, con el tiempo de llegada de cada pico se puede calcular la velocidad de cada tipo de fibra (v = distancia / tiempo).</p>
 
 </body>
 </html>

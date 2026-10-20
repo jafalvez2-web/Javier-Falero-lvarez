@@ -9,9 +9,10 @@ Profesor: Rafael J. Montoro. Dpto. de Fisiología Médica y Biofísica.
 | `temas/Tema_10_propiedades_pasivas_membrana.pdf` | Tema 10: modelo eléctrico de la membrana, propiedades pasivas (circuito RC, τ, λ, sumación) |
 | `temas/Tema_11_potencial_de_accion.pdf` | Tema 11: potencial de acción (fases, bases iónicas, voltage/patch clamp, separación de corrientes, curvas I/V, umbral, todo o nada, período refractario) |
 | `temas/Tema_12_conduccion_potencial_accion.pdf` | Tema 12: conducción del potencial de acción (cono axónico, circuitos locales, mielina, nodos de Ranvier, tipos de fibras, potencial de acción compuesto). Sin transcripción todavía |
-| `apuntes/tema12/` | Apuntes del Tema 12 en PDF (`Tema12_…pdf`), generados desde `tema12_apuntes.html` con Chromium headless (`--print-to-pdf`). Para modificarlos: editar el HTML y regenerar |
+| `apuntes/tema12/` | Apuntes del Tema 12 en PDF con el modelo de Javier. Lo explicado en clase (clase04) sigue al profesor; el resto lleva «(Aún no explicado en clase)». Generados desde `tema12_apuntes.html` con Chromium headless (`--print-to-pdf`) |
 | `apuntes/tema11/` | Apuntes completos del Tema 11 en PDF con el modelo de Javier (`Tema11_Potencial_de_accion_apuntes.pdf`), generados desde `tema11_apuntes.html` |
 | `transcripciones/clase03_…` | Última clase del Tema 11: repaso I/V y compuerta, umbral, respuesta regenerativa, todo o nada, período refractario, propagación sin decremento (deja pregunta pendiente para la clase siguiente) |
+| `transcripciones/clase04_…` | Repaso del umbral y del pico (+30 mV, Goldman), de qué depende la amplitud del potencial de acción (respuesta a la pregunta pendiente) e inicio del Tema 12 (concepto, sentido de propagación, cono axónico) |
 | `transcripciones/clase01_…` | Final del Tema 10 (repaso: RC, τ, sumación temporal, λ, sumación espacial) + inicio del Tema 11 (fases, experimento de Na⁺ externo, canales de Na⁺ y K⁺) |
 | `transcripciones/clase02_…` | Tema 11: voltage clamp, patch clamp (configuraciones), eliminación de corrientes pasivas, separación de I_Na e I_K, curvas I/V, conductancias, corriente de compuerta, pregunta sobre el umbral |
 
