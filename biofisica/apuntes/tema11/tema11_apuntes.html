@@ -1,0 +1,301 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Tema 11 · Potencial de acción</title>
+<style>
+  @page {
+    size: A4;
+    margin: 22mm 20mm 22mm 20mm;
+    @top-left { content: ""; border-bottom: 2.5px solid #c3a27a; width: 100%; vertical-align: bottom; margin-bottom: 6mm; }
+    @bottom-left { content: counter(page); border-top: 2.5px solid #c3a27a; width: 100%; vertical-align: top; padding-top: 3mm; font-family: Carlito, sans-serif; font-size: 10pt; color: #333; }
+  }
+  body { font-family: Carlito, "Liberation Sans", sans-serif; font-size: 11.5pt; line-height: 1.75; color: #222; background: #fff; }
+  h1 { font-family: "Inter Display", sans-serif; font-weight: 900; font-size: 33pt; line-height: 1.08; letter-spacing: .3px; transform: scaleX(.84); transform-origin: left; width: 119%; margin: 4mm 0 5mm; color: #111; }
+  .regla { border: 0; border-top: 3px solid #c3a27a; margin: 0 0 8mm; }
+  h2 { font-family: Carlito, sans-serif; font-weight: 700; font-size: 16.5pt; margin: 9mm 0 3mm; color: #111; break-after: avoid; }
+  h3 { font-family: Carlito, sans-serif; font-weight: 700; font-size: 13.5pt; color: #9b7b55; margin: 6mm 0 2mm; break-after: avoid; }
+  p { margin: 0 0 3.2mm; }
+  ul, ol { margin: 0 0 3.2mm; padding-left: 7mm; }
+  li { margin-bottom: 1.6mm; }
+  .formula { background: #f7f3ec; border-top: 1px solid #e3d8c6; border-bottom: 1px solid #e3d8c6; text-align: center; padding: 3.5mm 4mm; margin: 3mm 0 4mm; font-family: "DejaVu Serif", "Liberation Serif", serif; font-size: 12.5pt; line-height: 1.6; break-inside: avoid; }
+  .caja { background: #f7f3ec; border-left: 5px solid #b0906a; padding: 3.5mm 5mm 1.5mm; margin: 4mm 0 5mm; break-inside: avoid; font-size: 11pt; }
+  .caja .tit { font-size: 9.5pt; font-weight: 700; letter-spacing: .8px; color: #9b7b55; text-transform: uppercase; margin-bottom: 1.5mm; }
+  figure { margin: 3mm auto 5mm; text-align: center; break-inside: avoid; }
+  figure img { max-width: 82%; max-height: 95mm; }
+  figure.peq img { max-width: 58%; }
+  sub, sup { line-height: 0; }
+</style>
+</head>
+<body>
+
+<h1>TEMA 11 : POTENCIAL DE ACCIÓN<br>DE LAS FIBRAS NERVIOSAS</h1>
+<hr class="regla">
+
+<h2>1.POTENCIAL DE ACCIÓN</h2>
+
+<p>En el tema 10 vimos qué pasa con el potencial de membrana cuando entra corriente y la célula responde de forma pasiva. Este tema va de la respuesta activa: el <b>potencial de acción</b>. Tiene tres partes, y conviene tenerlas claras para no perderse:</p>
+<ol>
+<li><b>El potencial de acción:</b> qué es, sus fases y sus bases iónicas y moleculares, es decir, qué canales lo producen.</li>
+<li><b>El registro de las corrientes iónicas:</b> cómo se supo todo eso. Aquí entran el <b>voltage clamp</b>, el <b>patch clamp</b> y el análisis de las corrientes, que es la parte que más pregunta.</li>
+<li><b>Las características generales:</b> el <b>umbral</b>, la <b>ley del todo o nada</b>, el <b>período refractario</b> y la <b>propagación sin decremento</b>.</li>
+</ol>
+
+<h3>Concepto</h3>
+<p>Un potencial de acción es un <b>cambio muy rápido del potencial de membrana</b>. La membrana está más o menos a <b>−60 mV</b>, de repente se va a unos <b>+30 mV</b>, luego se hace muy negativa y vuelve al reposo, y todo eso pasa en más o menos <b>un milisegundo</b>. Es la señal con la que se comunican las neuronas y el músculo. El profesor lo resumió diciendo que es la razón por la que él habla y nosotros le escuchamos, por la que andamos o movemos los dedos.</p>
+<p>No es igual en todas las células. En la diapositiva se comparan cuatro: en el axón de calamar y en el nodo de Ranvier de conejo dura unos pocos milisegundos, en el músculo esquelético de rana algo más, y en la aurícula de cobaya dura cientos de milisegundos. (Esta comparación viene en la diapositiva, en clase no la comentó.)</p>
+
+<figure><img src="img/diap03.png"></figure>
+
+<h3>El primer registro</h3>
+<p>El primer potencial de acción registrado lo publicaron <b>Hodgkin y Huxley en 1939</b>, en el <b>axón gigante del calamar</b>. Usaron este axón porque mide hasta <b>1 mm de diámetro</b> y se le puede meter un electrodo dentro sin problema. Más tarde, aprovechando la técnica de <b>voltage clamp</b> que había desarrollado <b>Cole</b>, consiguieron saber qué corrientes iónicas había detrás del potencial de acción y modelarlo.</p>
+<p>En el registro el eje vertical va de −70 a +40 mV, y se ve el potencial de acción saliendo del reposo, pasando por encima de cero y volviendo por debajo del reposo. Las ondas de abajo son solo la marca de tiempo (500 Hz).</p>
+
+<figure class="peq"><img src="img/diap04.png"></figure>
+
+<h3>Fases del potencial de acción</h3>
+<p>Partiendo del potencial de reposo, el profesor distinguió estas fases:</p>
+<ol>
+<li><b>Umbral:</b> el punto a partir del cual ya se dispara el potencial de acción.</li>
+<li><b>Despolarización:</b> despolarizar quiere decir que se quita la polarización, y se quita hasta llegar a <b>0 mV</b>.</li>
+<li><b>Potencial invertido</b> (<i>overshoot</i>): a partir de 0 mV la membrana vuelve a polarizarse, pero ahora en sentido positivo. Por eso ya no se llama despolarizar, sino potencial invertido: es positivo cuando lo normal es que el potencial de membrana sea negativo.</li>
+<li><b>Repolarización:</b> el potencial se va haciendo más negativo hasta volver al reposo.</li>
+<li><b>Poshiperpolarización</b> (<i>undershoot</i>): si sigue haciéndose más negativo que el reposo, se llama así.</li>
+</ol>
+
+<figure class="peq"><img src="img/diap05.png"></figure>
+
+<h3>Dependencia del sodio extracelular</h3>
+<p>Uno de los primeros experimentos fue quitar sodio de fuera y ver qué le pasaba al potencial de acción. En la gráfica de arriba el registro <b>1</b> es el normal, el <b>2</b> es con solo el <b>33 %</b> del sodio extracelular (todo lo demás igual) y el <b>3</b> es al volver a poner el sodio normal, para comprobar que se recupera. Abajo es lo mismo con el <b>50 %</b>.</p>
+<p>El profesor lo preguntó en clase y la respuesta fue que con menos sodio el potencial de acción <b>es más pequeño y sube más despacio</b>. Lo de que sea más lento dijo que se entendería más adelante. Lo interesante es por qué no llega tan arriba.</p>
+<p>Un compañero respondió que, al acercarse al potencial de equilibrio del sodio, el sodio entra más despacio. El profesor dijo que estaba bien tirado, pero que la clave es otra: <b>lo que hemos cambiado es el propio potencial de equilibrio del sodio</b>. Si hay menos sodio fuera, el gradiente es menor y <b>E<sub>Na</sub> es menos positivo</b>. Cuando aumenta la permeabilidad al sodio la membrana se acerca a E<sub>Na</sub>, como dice Goldman, pero es que ese E<sub>Na</sub> ya no es tan positivo. Así que se acerca a un E<sub>Na</sub> nuevo, más bajo, y el pico es menor.</p>
+
+<figure><img src="img/diap06.png"></figure>
+
+<div class="caja">
+<div class="tit">Cómo quiere el profesor que se razone</div>
+<p>En clase, cuando alguien contestaba «se hace más negativo porque sale potasio», él preguntaba «¿otra forma de decirlo?». Lo que busca es el razonamiento con Goldman: <b>aumenta la permeabilidad a un ion y por eso la membrana se acerca al potencial de equilibrio de ese ion</b>. Conviene explicar todo el potencial de acción así.</p>
+</div>
+
+<h3>Compuertas de activación e inactivación</h3>
+<p>El protagonista es el <b>canal de sodio voltaje-dependiente</b>. Tiene un <b>poro hidrofílico</b>, bordeado por los segmentos <b>S5 y S6</b>, por donde pasan los iones. Tiene además una <b>compuerta de activación</b>, una zona estrecha de la que forma parte el segmento <b>S4</b>, que tiene aminoácidos con carga. Cuando la membrana se despolariza, el S4 se mueve, el canal cambia de conformación y pasa de cerrado a abierto: es una <b>compuerta de activación dependiente de voltaje</b>.</p>
+<p>Con el canal abierto entra sodio y la membrana se acerca al potencial de equilibrio del sodio, que suele estar en unos <b>+60 mV</b>. Nunca llega del todo, porque los canales de potasio de fuga siguen abiertos.</p>
+<p>Pero cuando pasa típicamente <b>un milisegundo</b>, el lazo que hay <b>entre los dominios III y IV</b>, que es la <b>compuerta de inactivación</b>, encuentra un sitio que reconoce dentro del canal y lo tapona. Inactivar es tanto como bloquear: el canal sigue «abierto» pero ya no pasa sodio.</p>
+<p>La figura lo cuenta en cinco pasos:</p>
+<ul>
+<li><b>(a)</b> En reposo, a −70 mV, la compuerta de activación cierra el canal.</li>
+<li><b>(b)</b> Llega el estímulo despolarizante.</li>
+<li><b>(c)</b> Se abre la compuerta de activación, entra sodio y el voltaje sube.</li>
+<li><b>(d)</b> La compuerta de inactivación (la bola) cierra el canal y se para la entrada de sodio.</li>
+<li><b>(e)</b> Durante la repolarización, producida por la salida de potasio, las dos compuertas vuelven a su posición inicial.</li>
+</ul>
+
+<figure><img src="img/diap07.png"></figure>
+
+<h3>Bases iónicas y moleculares</h3>
+<p>Si solo hubiera canales de sodio, al inactivarse el potencial bajaría y volvería al reposo gracias a los canales de potasio de fuga. Pero en el axón de calamar y en la mayoría de axones hay además <b>canales de potasio voltaje-dependientes</b>, que se diferencian de los de sodio en dos cosas:</p>
+<ul>
+<li><b>No se inactivan:</b> solo se abren y se cierran, no tienen compuerta de inactivación.</li>
+<li><b>Son más lentos:</b> su cinética para abrirse y para cerrarse es más lenta que la del sodio.</li>
+</ul>
+<p>En la figura, el canal de sodio pasa por cerrado (1), abierto con sodio entrando (2), inactivado con la bola puesta (3) y de nuevo cerrado (4). El de potasio solo tiene poro cerrado y poro abierto, con las cargas del sensor de voltaje moviéndose.</p>
+
+<figure><img src="img/diap08.png"></figure>
+
+<h3>La secuencia completa</h3>
+<p>Juntando los dos canales, el profesor lo explicó así:</p>
+<ol>
+<li>Se abren los canales de sodio, <b>aumenta la permeabilidad al sodio</b> y la membrana se despolariza, acercándose a E<sub>Na</sub>.</li>
+<li>Al cabo de un milisegundo los canales de sodio se <b>inactivan</b>, la permeabilidad al sodio vuelve a ser la de antes y el potencial tiende a volver al reposo.</li>
+<li>La despolarización ha abierto, aunque más despacio, los <b>canales de potasio voltaje-dependientes</b>.</li>
+<li>Cuando se llega al potencial de reposo, los de potasio <b>todavía no se han cerrado</b>. Están abiertos los de fuga más los voltaje-dependientes, así que la permeabilidad al potasio es mayor que en reposo y la membrana se acerca más a <b>E<sub>K</sub></b> (unos −80 mV). Esa es la <b>poshiperpolarización</b>.</li>
+<li>Como estamos a un potencial negativo, los de potasio se van cerrando con su cinética lenta, y según se cierran el potencial vuelve al reposo.</li>
+</ol>
+<p>La gráfica de la izquierda lo muestra con las conductancias. La <b>conductancia al sodio</b> (amarilla) sube muy deprisa y cae enseguida, justo a la vez que la subida del potencial (negro). La <b>conductancia al potasio</b> (roja) empieza a subir más tarde, alcanza su máximo cuando el potencial ya está bajando y tarda mucho en desaparecer; por eso coincide con la poshiperpolarización. La figura de la derecha añade las corrientes y, abajo, el estado de las compuertas de activación e inactivación de cada canal en cada momento.</p>
+
+<figure><img src="img/diap09.png"></figure>
+
+<h2>2.REGISTRO DE LAS CORRIENTES IÓNICAS</h2>
+
+<h3>Técnica de fijación de voltaje o voltage clamp</h3>
+<p>La idea del voltage clamp es ser capaces de <b>mantener el voltaje fijo el tiempo que haga falta</b> y medir la corriente que hace falta para mantenerlo. Se consigue con un <b>amplificador de retroalimentación</b> (<i>feedback amplifier</i>, FBA), que se llama así por el lazo que tiene. El secreto está en que el amplificador se encarga de que sus dos entradas estén siempre al mismo voltaje. Como la pipeta está llena de líquido conductor y en comunicación con la célula, el interior de la célula queda al voltaje que tú le pongas.</p>
+<p>El profesor lo explicó con un pulso de −70 a −20 mV. A −20 se abren canales de sodio y entra sodio, de forma que la membrana tendería a despolarizarse por encima de −20. Pero el amplificador no lo deja: <b>inyecta instantáneamente la misma corriente que está entrando por la membrana, pero de sentido contrario</b>, para que siga en −20 durante todo el pulso. Midiendo lo que inyecta el amplificador sabemos exactamente lo que pasa por la membrana, con el signo cambiado.</p>
+<p>Si el pulso no abre ningún canal voltaje-dependiente, por ejemplo de −70 a −60, no hay nada que contrarrestar (salvo las corrientes pasivas que se verán después).</p>
+<p>En el axón de calamar Hodgkin y Huxley usaban <b>dos electrodos</b>: uno mide el potencial y el otro inyecta la corriente. Lo hacían así porque el axón genera mucha corriente, pero el principio es el mismo. En la figura se ven el electrodo de voltaje (E′), el de corriente (I′) y el amplificador FBA.</p>
+
+<figure><img src="img/diap10.png"></figure>
+
+<div class="caja">
+<div class="tit">Qué es lo que se inyecta</div>
+<p>Una alumna preguntó si lo que se inyecta son electrones o iones. Por el cable van <b>electrones</b>. En el paso del electrodo al líquido el electrodo es de <b>plata con cloruro de plata (Ag/AgCl)</b>, que según haga falta suelta o coge <b>cloruro</b>. Se usa el cloruro porque es el anión más abundante fuera de la célula, así que unos cuantos cloruros de más o de menos no cambian la concentración.</p>
+</div>
+
+<h3>Técnica de patch clamp o fijación de sello</h3>
+<p>El profesor lo resumió así en el repaso: <b>voltage clamp es tener un voltaje fijo</b> el tiempo que haga falta, y <b>patch clamp es eso mismo pero además con la membrana sellada</b>. En el axón con el electrodo metido dentro también había algo de sello, pero de una resistencia muchísimo menor que la que se consigue cuando se unen el vidrio y la membrana.</p>
+<p>La técnica la desarrollaron <b>Neher y Sakmann</b>, y la descubrieron un poco por casualidad. Estaban registrando corrientes en una célula muscular, presionando mucho con la pipeta, y la pipeta se les quedó pegada; vieron que así se registraba muchísimo mejor, con mucho menos ruido. Les pasó una vez, les pasó dos, y lo perfeccionaron: un poco de <b>succión</b> para limpiar, y como el vidrio tiene una afinidad enorme por la bicapa, se forma un sello de muy alta resistencia, de <b>gigaohmios</b>. Lo que queda dentro de la pipeta se registra muy bien.</p>
+<p>En la diapositiva se ve el recorrido. Primero hay un sello de baja resistencia (50 MΩ); con la succión se consigue el sello de gigaohmios, y esa es la configuración <b>cell-attached</b>. A partir de ahí:</p>
+<ul>
+<li><b>Whole-cell (célula completa):</b> se da una succión fuerte y se rompe el trozo de membrana. Ahora la pipeta está en comunicación con todo el citoplasma y se registra la corriente de <b>toda la membrana</b> de la célula.</li>
+<li><b>Inside-out:</b> desde cell-attached se <b>tira</b> de la pipeta. La membrana se estira, se rompe, y queda el parche con la cara que daba al <b>citoplasma mirando hacia fuera</b>, al baño. Sirve para aplicar cosas que actúan <b>por dentro</b> del canal: <b>calcio</b> para un canal de potasio dependiente de calcio, <b>AMPc</b> para un canal del corazón que se verá más adelante, o <b>ATP</b> para el de la célula beta. Y ver si se abre, si se cierra, cuánto tiempo y con qué concentración.</li>
+<li><b>Outside-out:</b> desde whole-cell se tira hacia atrás; la membrana se rompe y con cierta frecuencia se vuelve a sellar, pero ahora con la <b>cara externa hacia fuera</b>. Sirve para canales <b>dependientes de ligando</b>: acetilcolina, GABA, un agonista, un antagonista…</li>
+</ul>
+
+<figure><img src="img/diap11.png"></figure>
+
+<p>Inside-out y outside-out son registros de <b>canal único</b>. El profesor insistió en lo que eso significa: es <b>la única forma de estudiar una sola proteína</b>. En bioquímica se estudia una solución y se saca una media; aquí se ve cómo conmuta una única molécula en el tejido. Por eso a Neher y Sakmann les dieron el <b>Premio Nobel</b>.</p>
+
+<figure><img src="img/diap12.png"></figure>
+
+<h3>Corrientes capacitiva y de fuga</h3>
+<p>En el tema anterior se daban pulsos de corriente; ahora se dan <b>pulsos de voltaje</b>. Cada vez que se da un pulso aparecen dos corrientes <b>pasivas</b> que no se pueden evitar:</p>
+<ul>
+<li><b>Corriente de fuga (I<sub>l</sub>):</b> es la ley de Ohm pura y dura. Si cambia el voltaje, cambia la corriente por los canales de fuga, y se mantiene mientras dura el pulso.</li>
+<li><b>Corriente capacitiva (I<sub>c</sub>):</b> al cambiar el voltaje del condensador, este se carga, y al terminar el pulso se descarga. Es <b>transitoria</b>: un pico al principio y otro, en sentido contrario, al final.</li>
+</ul>
+<p>En la gráfica <b>A</b> el pulso es pequeño, de −60 a −50 mV, y no abre canales voltaje-dependientes: solo se ve el pico de I<sub>c</sub> al principio, la I<sub>l</sub> pequeña y constante durante el pulso, y el pico de I<sub>c</sub> hacia abajo al final. En la <b>B</b> el pulso es de −60 a 0 mV: primero el pico capacitivo, luego la fuga (línea discontinua), y además una corriente <b>hacia dentro</b> y después otra <b>hacia fuera</b>, que son las voltaje-dependientes.</p>
+
+<figure><img src="img/diap13.png"></figure>
+
+<h3>Eliminación de los componentes pasivos</h3>
+<p>Cuando se estudian los canales voltaje-dependientes no interesan ni la capacitiva ni la de fuga (la capacitiva servirá más adelante para calcular la superficie de la célula, y la de fuga interesaría si se estudiaran los canales de fuga). Como son pasivas, son <b>proporcionales al tamaño del pulso</b>, y eso permite quitarlas:</p>
+<ol>
+<li>Se da un pulso que no abra canales voltaje-dependientes, por ejemplo de −60 a −50 mV (10 mV), y se registran solo la capacitiva y la de fuga.</li>
+<li>El ordenador multiplica ese registro por 6, porque el pulso de verdad (de −60 a 0) es de 60 mV, seis veces mayor. Así se obtienen la capacitiva y la de fuga que tendría el pulso grande.</li>
+<li>Se da el pulso de verdad y se le <b>resta</b> lo anterior. Desaparecen la capacitiva y la fuga y quedan solo las corrientes voltaje-dependientes.</li>
+</ol>
+<p>En la práctica se suele dar un pulso <b>cuatro veces más pequeño y en sentido contrario</b> (de −60 a −75), multiplicarlo por 4 y <b>sumarlo</b>. El profesor insistió en que da igual cómo se haga: lo importante es generar un pulso sin respuesta voltaje-dependiente y escalarlo en el ordenador. En la diapositiva, a la izquierda está el registro bruto y a la derecha el limpio: una corriente hacia dentro seguida de otra hacia fuera, que es lo que se encontraban Hodgkin y Huxley y también Neher y Sakmann en whole-cell.</p>
+
+<figure><img src="img/diap14.png"></figure>
+
+<h3>Separación de corrientes</h3>
+<p>Ya limpia, la corriente tiene una parte hacia dentro y otra hacia fuera, pero no se sabe cuánto dura el sodio ni dónde empieza el potasio. El profesor explicó tres formas de separarlas.</p>
+<p><b>1. Llevar el sodio a su potencial de equilibrio.</b> Se baja el sodio de fuera al <b>10 %</b>, de forma que su potencial de equilibrio pasa a ser unos <b>−9 mV</b>, y se da el pulso justo a −9 mV. Los canales de sodio se abren, pero como estamos en su potencial de equilibrio, <b>el sodio ni entra ni sale</b>. Lo que se registra es solo potasio. En la gráfica de la izquierda, la curva <b>(A)</b> es con el 100 % de sodio, la <b>(B)</b> con el 10 % (solo potasio), y la <b>(C)</b> es la resta A − B, que es la <b>corriente de sodio</b>.</p>
+<p><b>2. Tetrodotoxina (TTX).</b> Bloquea el canal de sodio: se abre pero no permea. Con TTX queda <b>solo la corriente de potasio</b>. Es la forma más común.</p>
+<p><b>3. Tetraetilamonio (TEA).</b> Bloquea el canal de potasio, así que queda <b>solo la corriente de sodio</b>, la que va hacia dentro. En la gráfica de la derecha se ven las dos: I<sub>K</sub> con TTX e I<sub>Na</sub> con TEA, para un pulso de −60 a 0 mV.</p>
+
+<figure><img src="img/diap15.png"></figure>
+
+<p>Claro, no se da un solo pulso sino muchos, cada vez mayores (de −80 a −70, a −60, a −50…), y así se obtienen <b>familias de corrientes</b>. En la figura, (A) y (C) son los controles, con las dos corrientes mezcladas. En (B), con TTX, solo quedan las corrientes de potasio hacia fuera, cada vez más grandes. En (D), con TEA, solo quedan las de sodio hacia dentro.</p>
+<p>Con la familia de sodio el profesor hizo una pregunta: según los pulsos son más positivos, la corriente se hace <b>más pequeña</b>, y llega un momento en que va <b>hacia fuera</b>. ¿Por qué, si el potasio está bloqueado? Porque nos <b>pasamos</b> del potencial de equilibrio del sodio. Si E<sub>Na</sub> es +55 y el pulso va a +60 o a +80, los canales de sodio se abren, pero como estamos por encima de su potencial de equilibrio, <b>el sodio sale</b>.</p>
+
+<figure><img src="img/diap16.png"></figure>
+
+<h3>Curvas I/V</h3>
+<p>Si se representa la amplitud de cada corriente frente al voltaje del pulso se obtienen las <b>curvas I/V</b>. Las <b>abscisas</b> son el voltaje al que se ha llevado la membrana con cada pulso, siempre partiendo de un potencial bastante negativo que se llama <b>potencial de mantenimiento</b> (<i>holding</i>, E<sub>H</sub> en la gráfica). En el caso del potasio se mide la amplitud al final del pulso.</p>
+<p>En clase una alumna preguntó por los puntos de la gráfica. El profesor explicó que, como querían saber muy bien a qué voltaje empezaba a abrirse cada canal, al principio daban <b>pulsos de poca amplitud</b> (de 5 en 5 mV) y luego, cuando ya estaba claro, más grandes. Y donde hay <b>dos puntos</b> es porque se dieron <b>dos pulsos</b> al mismo voltaje para comprobar que era estable.</p>
+<p>Para entender la forma de las curvas el profesor partió de la fórmula de siempre, aplicada a cada ion:</p>
+
+<div class="formula">I<sub>K</sub> = g<sub>K</sub> · (V<sub>m</sub> − E<sub>K</sub>)<br>I<sub>Na</sub> = g<sub>Na</sub> · (V<sub>m</sub> − E<sub>Na</sub>)</div>
+
+<p>La corriente es el producto de dos factores: la <b>conductancia</b> (cuántos canales hay abiertos) y la <b>fuerza impulsora</b> (V<sub>m</sub> − E, lo lejos que está la membrana del potencial de equilibrio).</p>
+<p><b>Potasio.</b> En casi todos los canales voltaje-dependientes, según se despolariza <b>aumenta la probabilidad de apertura</b>, es decir, hay más canales abiertos y más conductancia. Por ejemplo, de −80 a −20 se abren algunos, y a +20 ya prácticamente todos; si a +20 ya se han abierto todos, a +30 no se abren más. La conductancia llega a un máximo. Pero el otro factor, V<sub>m</sub> − E<sub>K</sub>, no para de crecer, porque E<sub>K</sub> (unos −80) está a la izquierda y nos alejamos de él. Por eso la corriente de potasio <b>siempre aumenta</b>: al principio con un poco de curva, mientras se van abriendo canales, y en cuanto se han abierto todos se convierte en una <b>línea recta</b>, porque ya solo depende de la diferencia de voltaje.</p>
+<p><b>Sodio.</b> Al principio pasa lo mismo: se abren más canales y entra más corriente, aquí <b>hacia dentro</b>. Hasta −60 o −50 casi no hay nada, a −45 aparece un poco y a −40 mucho más, porque la conductancia aumenta muy deprisa. Pero E<sub>Na</sub> está a la <b>derecha</b>, así que según despolarizamos nos <b>acercamos</b> a él y el factor V<sub>m</sub> − E<sub>Na</sub> se hace cada vez más pequeño. El profesor puso números: si E<sub>Na</sub> es +45, a 0 mV la fuerza impulsora es 0 − 45 = −45, y a +10 ya es −35. A partir de más o menos <b>−25 mV</b> ya se han abierto bastantes canales y la conductancia crece menos de lo que disminuye la fuerza impulsora, así que <b>la corriente empieza a disminuir</b>. En E<sub>Na</sub> la fuerza impulsora es cero y <b>la corriente es cero</b>, aunque estén abiertos todos los canales. Y por encima, por ejemplo a +60 con E<sub>Na</sub> = +55, queda +60 − 55 = +5: la corriente se hace <b>positiva</b> y crece.</p>
+<p>Así que el potasio aumenta siempre porque <b>nos alejamos</b> de su potencial de equilibrio, y el sodio no porque <b>nos acercamos</b> al suyo.</p>
+
+<figure><img src="img/diap17.png"></figure>
+
+<div class="caja">
+<div class="tit">La pregunta difícil</div>
+<p>Si a +20 mV ya se han abierto todos los canales de potasio, ¿por qué a +40 hay más corriente? Porque la conductancia ya no sube, pero <b>la diferencia de potencial</b> V<sub>m</sub> − E<sub>K</sub> sí. El profesor también avisó de que en la pregunta del examen lo importante es la <b>familia de corrientes</b>, y de que los pulsos hay que dibujarlos bien.</p>
+</div>
+
+<h3>Conductancias voltaje-dependientes</h3>
+<p>Despejando de la fórmula se obtienen las conductancias:</p>
+
+<div class="formula">g<sub>K</sub> = I<sub>K</sub> / (V<sub>m</sub> − E<sub>K</sub>) &nbsp;&nbsp;&nbsp;&nbsp; g<sub>Na</sub> = I<sub>Na</sub> / (V<sub>m</sub> − E<sub>Na</sub>)</div>
+
+<p>En la gráfica se dan pulsos desde −60 mV a −40, −20, 0 y +20 mV. La <b>g<sub>K</sub></b> sube con forma de S, despacio, y se mantiene mientras dura el pulso, porque no se inactiva; cuando acaba el pulso, baja. La <b>g<sub>Na</sub></b> sube muy deprisa y luego cae aunque el pulso siga, porque se inactiva. En las dos, cuanto más despolarizante es el pulso, mayor es la conductancia.</p>
+<p>Aquí está la trampa: entre 0 y +20 mV la <b>corriente</b> de sodio es más pequeña, pero la <b>conductancia</b> ha seguido aumentando. La corriente es menor solo porque la fuerza impulsora ha disminuido todavía más. A +20 casi se ha conseguido todo: tanto en un canal como en otro, a +40 pasaría casi lo mismo, porque ya no quedan canales por abrirse.</p>
+
+<figure><img src="img/diap18.png"></figure>
+
+<h3>Corrientes de compuerta</h3>
+<p>El segmento S4 tiene aminoácidos con carga, y cuando se despolariza se mueven hacia arriba. Ese movimiento de carga genera una corriente, la <b>corriente de compuerta</b> (<i>gating current</i>). No es una corriente a través de la membrana, sino <b>dentro de la propia membrana</b>, pero se puede registrar si se amplifica mucho y se bloquea todo lo demás. En un registro normal también aparece, pero parece un artefacto. En la figura se ve que es diminuta: la I<sub>g</sub> se mide en <b>µA/cm²</b> y la corriente de sodio en <b>mA/cm²</b>.</p>
+<p>Es una prueba más de que el sensor de voltaje se mueve de verdad, y sirve para estudiar los canales. Si no aparece corriente de compuerta, la compuerta está bloqueada y no se puede mover. Si aparece corriente de compuerta pero no hay corriente iónica, la compuerta se mueve y el problema es otro.</p>
+
+<figure class="peq"><img src="img/diap19.png"></figure>
+
+<h2>3.CARACTERÍSTICAS GENERALES DEL POTENCIAL DE ACCIÓN</h2>
+
+<h3>Umbral de activación</h3>
+<p>El <b>umbral</b> es el voltaje al que hay que llevar la membrana para que se genere un potencial de acción. Para ser finos, es el potencial al que <b>el 50 % de las veces</b> se genera un potencial de acción, porque justo en el umbral no siempre se dispara. La pregunta que hizo el profesor fue: si el umbral es que se abran los canales de sodio, ¿basta con que se abra uno? No: tienen que abrirse «muchos». La cuestión es cuántos.</p>
+<p>Para explicarlo partió de las <b>corrientes de fuga</b>, que no son voltaje-dependientes: la de potasio hacia fuera y la de sodio hacia dentro. En reposo, por ejemplo a <b>−60 mV</b>, el potencial está estable porque <b>la corriente de potasio hacia fuera es igual a la de sodio hacia dentro</b>. No es que no haya flujo, que lo hay, sino que los dos son iguales.</p>
+<p>Esto es lo que muestra la gráfica de flujos. En el eje horizontal está el potencial de membrana; hacia arriba es salida (<i>efflux</i>) y hacia abajo entrada (<i>influx</i>). El flujo de potasio cruza el cero en su potencial de equilibrio, <b>−75 mV</b>, y el de sodio en el suyo, <b>+55 mV</b>. La línea gruesa es la suma de los dos, el flujo neto, y cruza el cero en <b>−60 mV</b>: ese es el potencial de reposo, el sitio donde lo que sale y lo que entra se compensan.</p>
+
+<figure><img src="img/diap20.png"></figure>
+
+<p>Entonces el profesor fue llevando la membrana a distintos voltajes:</p>
+<ul>
+<li><b>Sin canales de sodio voltaje-dependientes.</b> Si con un pulso se lleva la membrana de −60 a −55 mV, la corriente de potasio hacia fuera aumenta y la de sodio hacia dentro disminuye. En cuanto se deja de inyectar corriente, la membrana <b>vuelve al reposo</b>.</li>
+<li><b>Con canales de sodio voltaje-dependientes, a −55 mV.</b> Se abren unos pocos canales de sodio. La corriente de potasio sigue siendo mayor que la de sodio (la de fuga más la de esos pocos canales), así que la membrana vuelve al reposo y no pasa nada.</li>
+<li><b>A −45 mV.</b> Ahora se han abierto bastantes canales de sodio. Sumando la corriente de fuga de sodio y la de los voltaje-dependientes, <b>la corriente que entra es mayor que la que sale</b>. Como dijo un compañero en clase, entran más cargas positivas de las que salen, así que la membrana se despolariza.</li>
+</ul>
+<p>Y aquí está la clave: al despolarizarse se abren <b>más</b> canales de sodio. Si antes había abiertos, por decir algo, un 20 %, al irse a −40 mV a lo mejor ya hay un 30 %, así que entra aún más corriente y se va aún más a la derecha. A partir de ese momento lo único que puede pasar es que se abran todos los canales de sodio: <b>se ha generado un potencial de acción</b>.</p>
+<p>Un compañero preguntó por qué, si la flecha del potasio seguía siendo más grande que la de sodio, se despolarizaba. La respuesta es que hay que sumar dos flechas de sodio: los <b>canales de fuga</b>, que según el profesor «se compraron la casa, no están de alquiler», más los <b>voltaje-dependientes</b> que se acaban de abrir justo por llegar a −45 mV.</p>
+<p>En una <b>célula no excitable</b>, cada vez que algo la despolariza (corriente por un canal dependiente de ligando, o corriente inyectada), en cuanto deja de entrar esa corriente vuelve al reposo. Lo que cambia en una <b>célula excitable</b> es que tiene canales voltaje-dependientes que despolarizan (de sodio o de calcio), y eso permite el disparo.</p>
+
+<figure><img src="img/diap21.png"></figure>
+
+<div class="caja">
+<div class="tit">Definición del umbral (la de la diapositiva)</div>
+<p>El umbral es el punto en el que <b>el movimiento de sodio hacia dentro supera al movimiento de potasio hacia fuera</b>. En cuanto ocurre eso, lo único que puede pasar es un potencial de acción. El profesor avisó: «como esto os lo voy a preguntar en el examen, voy a ir lento».</p>
+</div>
+
+<p>En la gráfica de la derecha de la siguiente diapositiva se ven cuatro pulsos de corriente. El <b>a</b> es negativo e hiperpolariza. El <b>b</b> y el <b>c</b> despolarizan algo, pero se quedan por debajo del umbral: son <b>respuestas locales</b>, pasivas, que vuelven al reposo cuando acaba el pulso. El <b>d</b> llega al umbral y se dispara el potencial de acción.</p>
+
+<figure><img src="img/diap22.png"></figure>
+
+<h3>Por qué el pico llega a +30 mV</h3>
+<p>Un compañero preguntó por qué la despolarización se para justo en +30 mV. Lo primero que aclaró el profesor es que <b>+30 no es ningún número mágico</b>: lo puso porque venía en la figura, pero el pico puede estar en +25 o en +35.</p>
+<p>Lo que pasa en el pico es que se han abierto <b>prácticamente todos los canales de sodio</b>. Como la compuerta de activación es mucho más rápida que la de inactivación, a todos les da tiempo a abrirse antes de que empiecen a inactivarse. En ese momento la permeabilidad al sodio es la de todos los voltaje-dependientes más los de fuga, pero los canales de potasio de fuga siguen abiertos (y alguno de potasio voltaje-dependiente, aunque muy pocos). Según <b>Goldman</b>, con esas permeabilidades el potencial llega a un valor intermedio entre E<sub>K</sub> y E<sub>Na</sub>, y ese valor es más o menos +30. Es lo mismo que se hizo en clase al cambiar las permeabilidades en la ecuación de Goldman y pasar de −55 a +32 mV.</p>
+<p>Y después los canales de sodio se inactivan, porque están diseñados para eso, dejan de conducir y la membrana vuelve al reposo.</p>
+<p>El profesor añadió un detalle: si en vez de un pulso brusco se despolariza <b>muy lentamente</b> (de −80 a −75, a −70…), se pueden llegar a inactivar los canales incluso antes de conseguir abrirlos.</p>
+
+<h3>Respuesta autorregenerativa y ley del todo o nada</h3>
+<p>El potencial de acción es una <b>respuesta autorregenerativa</b>: llega un momento en que se abren suficientes canales de sodio como para producir una despolarización que abre más canales, que despolarizan más, y así hasta que se abren todos. Es el ciclo de la diapositiva: estímulo, despolarización, apertura de canales de sodio, entrada de sodio, más despolarización.</p>
+
+<figure class="peq"><img src="img/diap23.png"></figure>
+
+<p>Y precisamente porque al final se abren todos, se cumple la <b>ley del todo o nada</b>: o se produce o no se produce, y cuando se produce tiene siempre la misma amplitud. Es justo lo contrario de los <b>potenciales locales</b>, que son graduados: con un estímulo sináptico se puede despolarizar 5, 10, 15 o 20 mV. En la figura, los estímulos pequeños dan respuestas locales cada vez mayores; a partir del <b>estímulo umbral</b> aparece el potencial de acción, y aunque los estímulos sigan creciendo, todos los potenciales de acción tienen la <b>misma amplitud</b>.</p>
+
+<figure class="peq"><img src="img/diap24.png"></figure>
+
+<div class="caja">
+<div class="tit">¿Puede un segundo potencial de acción ser más pequeño?</div>
+<p>El profesor lo preguntó en clase. Una respuesta fue poner <b>TTX</b>. Si había 100 canales y una concentración muy pequeña de TTX bloquea el 10 %, quedan 90: la <b>permeabilidad al sodio</b> es el 90 % de la que había, así que según Goldman la membrana no puede acercarse tanto a E<sub>Na</sub> (+55) y el pico es menor. La otra respuesta, que algunos canales sigan inactivados, lleva al período refractario.</p>
+</div>
+
+<h3>Período refractario</h3>
+<p>Después de un potencial de acción hay dos períodos refractarios:</p>
+<ul>
+<li><b>Absoluto:</b> no se puede producir otro potencial de acción, se estimule lo que se estimule. Dura más o menos hasta que el potencial ha bajado dos terceras partes de su amplitud. La razón es que <b>los canales de sodio están inactivados</b>.</li>
+<li><b>Relativo:</b> sí se puede producir otro potencial de acción, pero con un <b>estímulo de mayor intensidad</b>. Ya hay canales de sodio <b>desinactivados</b>, es decir, cerrados pero capaces de abrirse.</li>
+</ul>
+<p>En clase salieron <b>tres razones</b> por las que en el período relativo hace falta más estímulo:</p>
+<ol>
+<li>La membrana está <b>hiperpolarizada</b>: aunque todo lo demás fuera igual, parte de más abajo y hay que darle más para llegar al mismo sitio.</li>
+<li>Siguen abiertos <b>canales de potasio voltaje-dependientes</b> que en reposo no estaban, y que son precisamente los que producen la hiperpolarización.</li>
+<li>Todavía <b>no se han desinactivado todos los canales de sodio</b>: tardan un tiempo, del orden de milisegundos (el profesor dijo que podrían ser hasta 10).</li>
+</ol>
+<p>Para la tercera razón el profesor puso un ejemplo con números. Hay <b>100 canales</b> de sodio, y en condiciones normales a −45 mV se abre el 10 %, es decir, <b>10 canales</b>, que es justo lo que hace falta para llegar al umbral. Si ahora el 50 % está inactivado, solo quedan 50 disponibles, y a −45 mV se abren 5: no se llega al umbral. Pero si se despolariza hasta <b>−20 mV</b>, a lo mejor se abre el 50 % de los disponibles, que son 25, más que los 10 que hacían falta. Aunque haya menos canales, la proporción que se abre aumenta: se puede disparar, pero dando una despolarización mayor.</p>
+
+<figure><img src="img/diap25.png"></figure>
+
+<p>La gráfica de la derecha lo demuestra midiendo la conductancia al sodio con <b>dos pulsos</b> seguidos (P<sub>1</sub> y P<sub>2</sub>), de −60 a 0 mV, cada vez más separados. Si P<sub>2</sub> llega muy pronto, la g<sub>Na</sub> que produce es muy pequeña porque los canales siguen inactivados. Cuanto más se separan los pulsos, más se recupera, hasta que, cuando ya se han desinactivado todos los canales, P<sub>2</sub> da la misma g<sub>Na</sub> que P<sub>1</sub>.</p>
+
+<h3>La amplitud en el período refractario relativo</h3>
+<p>En clase se discutió si el potencial de acción del período relativo tiene la misma amplitud que el primero. La respuesta de una compañera, que el profesor celebró, fue que <b>es menor</b>, porque <b>todavía hay canales de sodio inactivados</b>.</p>
+<p>Un compañero planteó que con un estímulo más fuerte quizá sí se llegaría a la misma amplitud. El profesor razonó que no, por dos motivos. Si la mitad de los canales de sodio no están disponibles, cuando se abran todos los que quedan <b>la permeabilidad al sodio será menor</b> que antes, y según Goldman la membrana no puede acercarse tanto a E<sub>Na</sub>. Y además hay una <b>permeabilidad al potasio aumentada</b>, la de los voltaje-dependientes que siguen abiertos. Con menos permeabilidad al sodio y más al potasio, el pico no puede llegar al mismo valor <b>por mucha intensidad que se meta</b>. Da igual de dónde se parta: el pico lo fija Goldman.</p>
+<p>Un detalle sobre la figura: el profesor dijo que el <b>+50 mV</b> del pico es una exageración. Para llegar ahí E<sub>Na</sub> tendría que estar en unos +70, y como el pico es un valor intermedio según Goldman, nunca llega al potencial de equilibrio del sodio.</p>
+
+<h3>Propagación sin decremento</h3>
+<p>Para cerrar el tema el profesor comparó dos cosas. Si se inyecta un pulso de corriente en un punto, el potencial que se registra cada vez más lejos es <b>cada vez menor</b>, porque se disipa según la constante de longitud <b>λ</b> (tema 10). En cambio, el potencial de acción <b>no disminuye</b> al propagarse, sino que mantiene su amplitud. La razón, que dio un compañero, es que en cada punto <b>se abren los mismos canales de sodio</b>: la membrana es homogénea y el potencial de acción se regenera igual en todas partes.</p>
+
+<div class="caja">
+<div class="tit">Pregunta pendiente para la siguiente clase</div>
+<p>El profesor dejó planteado qué tendría que ocurrir para que el potencial de acción, al propagarse, <b>no tuviera la misma amplitud</b>. Dijo que lo vería al día siguiente y que lo preguntaría.</p>
+<p><i>(Esto no lo dijo en clase.)</i> Siguiendo el razonamiento del tema, una pista: que la membrana dejara de ser homogénea, por ejemplo una zona con menos canales de sodio disponibles, con canales bloqueados (TTX) o inactivados, o una zona donde la corriente se pierda, como un axón desmielinizado, que sale en el tema 12.</p>
+</div>
+
+</body>
+</html>
