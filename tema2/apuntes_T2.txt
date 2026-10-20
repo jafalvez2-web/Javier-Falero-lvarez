@@ -1,0 +1,874 @@
+TEMA 2 : ESTRUCTURA ATÓMICA
+
+1. TEORÍA CUÁNTICA
+
+Para explicar la radiación de un cuerpo negro, Planck propuso que la energía se transmitía
+en paquetes denominados cuantos, la energía de cada uno de ellos es proporcional a su
+frecuencia. Esa cte de proporcionalidad es la constante de Planck.
+
+
+
+
+Lo que significa es que la energía se emite como paquetes que cuando llegan a la materia,
+todo el paquete se gasta de golpe, no se puede recibir a medias. Todo esto ni el propio
+Planck se lo creía, esta idea la llamó un recurso matemático, nada más.
+
+El que si la tomó en serio, fue Einstein, que la usó para explicar el efecto fotoeléctrico.
+
+
+
+
+Efecto fotoeléctrico
+
+Hertz descubrió en 1888 que algunos metales emiten electrones cuando reciben luz, a esto
+se le llama efecto fotoeléctrico.
+
+El experimento consta de un cátodo, un ánodo, una diferencia de potencial y un
+medidor.Entre las dos placas hay vacío, así que no hay circuito cerrado — el medidor
+marca cero. Si irradias con una luz determinada, de repente el circuito se completa y
+aparece corriente: es la luz la que provoca que se cierre el circuito, al arrancar electrones
+de la placa iluminada que viajan hasta la otra.
+
+
+
+
+1
+Lo que daba dolor de cabeza a los físicos era que no valía cualquier luz, ya que tiene que
+superar una frecuencia umbral. Ya que por debajo de esa frecuencia, por mucho que
+irradies, el circuito nunca se completa. Por encima, cuanto mayor es la frecuencia, más
+rápido salen los electrones.
+
+
+
+
+En la física clásica, la energía es contínua, así que da igual pasarla toda de golpe (un julio
+entero) que repartida (medio julio + medio julio), ya que la energía transferida total es la
+misma, por lo que el efecto debería ser idéntico, pero no lo es.
+
+
+
+
+Entonces Einstein aplicó la idea de los cuantos de Planck. Propuso que la energía llega en
+paquetitos (fotones) y cuando este llega, toda su energía se gasta de golpe. Esta se reparte
+en arrancar el electrón de donde está (función trabajo, W) y lo que sobra se gasta como
+energía cinética del electrón que sale disparado.
+
+
+
+
+Básicamente, este efecto no sirve para nada de cara a explicar el átomo en sí, pero da
+validez a la propuesta de Planck y “valida” la física cuántica.
+
+
+
+
+2
+Entonces sigue el problema real de explicar la estructura del átomo y de explicar los
+espectros de emisión y absorción , que hasta ahora no se sabían justificar
+
+
+
+
+2.MODELO ATÓMICO DE BOHR
+
+De esta manera, algo tiene que estar pasando igual en el átomo, ya que todavía había dos
+cosas pendientes que faltaban por explicar:
+
+-El átomo de Rutherford aplicando física clásica tendría que durar 10⁻¹² segundos, ya que
+los electrones al ir perdiendo energía caerían al núcleo.
+
+-Los espectros de emisión atómica: por qué aparecen rayas y no todo el espectro
+continuo.
+
+Antes de nada, saber que el momento angular define la inercia de un objeto que sigue un
+movimiento circular. Depende de la masa, velocidad y radio. Mientras menos radio, más
+rápido gira. Si el momento angular se mantiene constante, reducir el radio aumenta
+la velocidad, y aumentar el radio la disminuye.
+
+
+
+
+Por qué el átomo de Rutherford no funcionaba
+
+
+
+
+3
+Un electrón girando es una carga acelerada que genera un campo eléctrico variable, que
+genera radiación electromagnética, y esto frena al propio electrón provocando la espiral
+hacia el núcleo.
+
+Lo que si se salva, es su planteamiento de órbita circular en la que hay dos fuerzas en
+juego, la fuerza de atracción electrón núcleo (calculable con la ley de Coulomb) y la fuerza
+centrífuga aparente que depende de la velocidad del electrón y que es lo que impide que
+caiga al núcleo. Estas fuerzas son calculables si conoces el radio, de ahí que, en principio,
+se pueda calcular el radio de estas órbitas con física clásica pura.
+
+
+
+
+Modelo de Bohr
+
+El electrón se mueve tal y como decía Rutherford (formando órbitas) , pero ahora
+aplicando la cuantización. No todas las órbitas están permitidas, sólo ciertas órbitas, en
+las que el momento angular también está cuantizado. Solo son posibles las órbitas en
+las que el momento angular sea un número natural multiplicado por h/2π:
+
+
+
+
+4
+Como el momento angular ya no puede tomar cualquier valor, solo ciertas órbitas pueden
+existir. Entre esas órbitas hay huecos donde el momento angular no podría existir,
+entonces estas órbitas intermedias tampoco pueden existir.
+
+
+
+
+La consecuencia es que el electrón no puede pasar de una órbita a otra haciendo una
+espiral gradual porque eso le obligaría a pasar por sitios prohibidos. Asique se queda en su
+órbita dando vueltas sin perder energía, a lo que se llama estado estacionario.La única
+forma de pasar de una órbita a otra es cambiando su momento angular (es decir, dando un
+salto cuántico).
+
+
+
+
+De esta única condición (momento angular cuantizado) se pueden calcular tanto los radios
+de las órbitas permitidas como la energía del electrón en cada una.
+
+
+
+
+A mayor n, mayor energía (ya que la cte es negativa entonces se va haciendo menos
+negativa poco a poco).
+
+
+
+
+Explicación espectros atómicos
+
+El electrón sí puede pasar de una órbita permitida a otra, pero solo si recibe o cede
+exactamente la diferencia de energía entre el estado final y el inicial, ya que si la energía
+no coincide exactamente, el electrón acabaría en una órbita intermedia donde puede
+puede existir.
+
+
+
+
+5
+Esa diferencia de energía, solo la puede aportar un fotón concreto, que tenga una longitud
+de onda específica que le haga tener exactamente esa energía. Entonces de todas las
+longitudes de onda posibles, el átomo solo puede “coger” fotones con la longitud de onda
+precisa para cada salto concreto. De ahí las rayas que aparecen en los espectros.
+
+
+
+
+Al hacer los cálculos de la diferencia de energía entre los niveles (de los saltos), sale
+exactamente la misma fórmula empírica que ya había encontrado Balmer, solo que ahora
+se explica de dónde viene.
+
+
+
+
+6
+3.DUALIDAD ONDA PARTÍCULA. PRINCIPIO
+INCERTIDUMBRE
+
+Comportamiento de onda: las partículas muy pequeñas pueden comportarse como
+ondas. De Broglie
+
+Principio de incertidumbre: no se pueden determinar a la vez varias propiedades (entre
+otras, posición y velocidad). Si precisas una, pierdes información de la otra, así que hay que
+llegar a "una especie de compromiso". Bohr y Heisenberg
+
+El átomo de Bohr está mal: explica perfectamente los espectros de emisión y absorción
+(al menos los del hidrógeno), pero está construido "a base de retales". Hay que empezar
+desde el principio.
+
+Ondas estacionarias: ondas que se mantienen indefinidamente en el tiempo, sin
+desplazarse, pueden estar confinadas, y se representan con una función que dice cómo
+varía su amplitud y una frecuencia.
+
+
+
+
+4.SCHRODINGER. MECÁNICA ONDULATORIA
+
+Ondas estacionarias
+
+Se estudian porque el electrón se comporta como una onda (De Broglie) y dentro del
+átomo está confinado. Las ondas confinadas son ondas estacionarias, así que hay que
+entenderlas antes de describir el átomo.
+
+
+
+
+7
+Una onda viajera se desplaza: tiene velocidad y sentido. Una onda estacionaria no avanza
+ni retrocede, se mantiene en el mismo sitio indefinidamente en el tiempo
+
+Se forman si una onda choca con un obstáculo y rebota. Si la onda reflejada tiene la misma
+longitud de onda que la que llega, interfieren constructivamente y la onda resultante se
+queda quieta.
+
+Estas ondas se describen únicamente con la frecuencia y una función de la amplitud
+según la posición, que no depende del tiempo y dice cuánto sube en cada punto.
+
+Por eso todos los puntos oscilan con la misma frecuencia pero con distinta amplitud.
+Estos puntos donde la amplitud vale 0 son los nodos.
+
+Entonces, solo ciertas longitudes de onda forman estacionarias, de forma que la
+cuantización aparece de forma natural, y cuanto más rápido vibre la onda (más E),más
+ciclos completa y más nodos tiene.
+
+
+
+
+Órbita de Bohr como onda estacionaria
+
+El modelo de Bohr era un parche, ya que usaba física clásica para calcular el radio y física
+cuántica para cuantizar el momento angular. Entonces su postulado de L = n·h/2π no tenía
+justificación Funcionaba, pero no se sabía por qué.
+
+Entonces, el electrón es una onda que recorre la órbita (ya no es una bolita dando vueltas).
+Si la onda da la vuelta la completa y vuelve al mismo punto con el mismo valor , puede
+pasar una y otra vez sin destruirse, ya que coincide consigo misma y forma una onda
+estacionaria estable. Es una órbita permitida. Si no coincide, interfiere de forma
+destructiva siendo una órbita no permitida.
+
+Para que esto ocurra, en la circunferencia de la órbita debe caber un número entero de
+longitudes de onda. En las órbitas que esto se cumple son justo las órbitas permitidas de
+Bohr.
+
+
+
+
+8
+    Deducción del postulado de Bohr (el profesor dijo "lo vais a hacer vosotros"):
+
+    1.​ Condición de onda estacionaria: 2π·r = n·λ.
+    2.​ Longitud de onda de De Broglie del electrón: λ = h/(m·v).
+    3.​ Se sustituye la segunda en la primera: 2π·r = n·h/(m·v).
+    4.​ Se despeja: m·v·r = n·h/2π.
+    5.​ El producto m·v·r es el momento angular L del electrón en su órbita, así que L =
+       n·h/2π: exactamente el postulado de Bohr.
+
+
+
+
+La ecuación de Schrödinger: Ĥψ = E·ψ
+
+Heisenberg (1925) formuló la mecánica cuántica con matrices: funcionaba, pero era "muy
+farragosa" y no daba una idea intuitiva de lo que se hacía.
+
+Schrödinger (la diapositiva pone 1927; su ecuación se publicó en 1926) propuso otra
+formulación equivalente, la más usada todavía hoy..
+
+Hay que saber que un operador es un conjunto de operaciones matemáticas que se
+aplica a una función (derivar, elevar al cuadrado, multiplicar por un número…).
+
+La propuesta de Schrödinger se basaba en que existe una función de onda, ψ (psi), que
+describe el comportamiento de la partícula (o de todo el sistema) como onda y como
+partícula a la vez. Para obtener cualquier propiedad (energía, velocidad, momento lineal o
+
+
+
+
+9
+angular, posición) se aplica a ψ el operador correspondiente. Es decir, se sustituye la
+partícula por una función que describe su comportamiento.
+
+No es una definición, sino una condición que permite despejar las incógnitas. Las
+incógnitas son la función de onda ψ y la energía E.
+
+Una ecuación de las de siempre: 2x + 3 = 11. ¿Qué te pide? Un número x que cumpla esa
+igualdad. Despejas y x = 4. Una incógnita, un número, se acabó.
+
+La ecuación de Schrödinger es de otro tipo. No te pide un número que cumpla una
+igualdad. Te hace una pregunta distinta, y esa pregunta la vamos a ver primero con algo
+de andar por casa.
+
+Imaginaos una máquina que estira las cosas en horizontal al doble, como cuando
+estiráis una goma elástica o deformáis una foto en el móvil tirando de los lados. Le
+metemos flechas dibujadas y vemos qué sale:
+
+     ●​ Metemos una flecha horizontal → sale una flecha horizontal, la misma, pero el
+        doble de larga.
+     ●​ Metemos una flecha vertical → sale la misma flecha, igual de larga (multiplicada
+        por 1).
+     ●​ Metemos una flecha inclinada → sale torcida, apuntando a otro sitio. Ya no es la
+        misma flecha.
+
+Ahora la pregunta clave: ¿qué flechas salen de la máquina siendo la misma flecha, solo
+que multiplicada por un número? La horizontal sí, con número 2. La vertical sí, con
+número 1. La inclinada no. Fijaos en que esa pregunta tiene dos incógnitas: qué flecha
+cumple la condición y por cuánto sale multiplicada. Y no son dos incógnitas independientes,
+¿vale? Tú no eliges el número por un lado y la flecha por otro: en cuanto encuentras una
+flecha que cumple la condición, el número sale solo. Por eso una ecuación con dos
+incógnitas se puede resolver: la condición es tan exigente que casi nada la cumple, y lo que
+la cumple trae su número pegado.
+
+Pues la ecuación de Schrödinger es exactamente esto:
+
+
+
+
+10
+     ●​ la máquina es el hamiltoniano Ĥ (las operaciones que calculan la energía);
+     ●​ lo que metes en la máquina no es una flecha, sino una función, ψ;
+     ●​ la condición es que salga la misma función multiplicada por un número: Ĥψ =
+        E·ψ;
+     ●​ y ese número, E, es la energía.
+
+Así que "despejar una función" significa encontrar qué funciones aguantan pasar por la
+máquina sin cambiar de forma, solo multiplicadas por un número.
+
+Entonces esta ecuación tiene una condición que obliga que las soluciones sean
+estacionarias. Acordaos de la máquina que estiraba. La flecha horizontal salía igual pero el
+doble de larga, la vertical salía igual, y la inclinada salía torcida. ¿Y qué es una flecha
+inclinada? Pues un trocito de horizontal más un trocito de vertical: una mezcla. Las
+mezclas son las que no cumplen la condición.
+
+Con la ecuación de Schrödinger pasa lo mismo. Cuando exijo que al aplicar Ĥ salga la
+misma función multiplicada por un solo número E, estoy exigiendo que esa función
+tenga una sola energía bien definida, no una mezcla de varias. Y una onda con una sola
+energía es como la cuerda con una sola nota: tiene una sola frecuencia, y acordaos de
+Planck, E = h·ν. Así que solo sube y baja en su sitio, con su forma fija.
+
+La ecuación es siempre Ĥψ = E·ψ, pero cada sistema tiene su propio hamiltoniano,
+porque cada sistema tiene sus propias fuentes de energía y sus propias fuerzas. Si cambia
+el sistema, cambian el hamiltoniano, la ecuación y las soluciones (no es lo mismo estudiar
+una partícula en una caja -> solo energía cinética que un átomo de hidrógeno que
+tiene energía cinética del electrón y energía potencial de atracción entre el protón y el
+electrón.)
+
+La ecuación de Schrödinger es una ecuación diferencial, porque contiene derivadas de la
+función incógnita (mirar forma desarrollada). Entonces como solución de una ecuación
+diferencial es una familia infinita de funciones, y uno o varios parámetros ,permiten
+elegir una función concreta de la familia. En la ecuación de Schrödinger ocurre lo mismo:
+
+
+
+
+11
+salen infinitas funciones de onda, y los parámetros que las eligen son los números
+cuánticos.
+
+
+
+
+La ecuación de Schrödinger aplicada a sistema sencillo
+
+Para qué sirve: es el sistema más sencillo al que se puede aplicar la ecuación de
+Schrödinger. "No tiene nada que ver con un átomo", pero sirve para entender el método y
+luego extrapolarlo.
+
+El sistema: una caja de una sola dimensión (solo la coordenada x, de 0 a L) con paredes
+infinitas; dentro, una partícula sin carga, sin campos eléctricos ni magnéticos y tan
+pequeña que no le afecta la gravedad;lo único que puede hacer es moverse, así que su
+única energía es la cinética y el hamiltoniano solo contiene energía cinética.
+
+Al resolverla obtenemos funciones de onda y las energías, donde m es la masa de la
+partícula y L el tamaño de la caja, también obtenemos un parámetro, n, que debe ser un
+número natural (1, 2, 3…) y elige qué función y qué energía tiene la partícula.
+
+
+
+
+12
+La leectura de la fórmula de la energía es que la energía está cuantizada (solo ciertos
+valores), crece con n² y es menor cuanto mayor es la masa o la caja. El nivel más bajo es n
+= 1, y su energía no es cero: es la energía residual o del punto cero, ya que si la partícula
+estuviera en reposo, se conocería a la vez su velocidad (cero) y su posición, lo que viola el
+principio de incertidumbre. La consecuencia es que cualquier partícula o molécula,
+incluso en el cero absoluto, tiene una energía mínima.
+
+
+
+
+Densidad de probabilidad ψ²
+
+La función de onda ψ no tiene significado físico directo, y su signo positivo o negativo
+solo indica la fase de la onda. ψ² es la densidad de probabilidad de encontrar la
+partícula en un pequeño volumen del espacio: probabilidad por unidad de volumen. En
+una caja de una dimensión da directamente la probabilidad.
+
+Los puntos donde ψ vale cero son nodos, y en ellos la probabilidad de encontrar la
+partícula es cero.
+
+
+
+
+Schrödinger para el átomo de hidrógeno
+
+
+
+
+13
+Ahora sí, el átomo. Para él me hace falta otra herramienta: las coordenadas polares
+esféricas. En lugar de x, y, z, doy una distancia r y dos ángulos, uno horizontal (φ) y otro
+vertical (θ) .
+
+En el átomo de H hay dos energías, la cinética, porque el electrón se mueve, y la
+potencial, porque hay una carga positiva y una negativa que se atraen. Lo meto todo en el
+hamiltoniano, planteo Ĥψ = E·ψ y lo resuelvo, saliendo una ecuación muy larga.
+
+
+
+
+Pero tiene una ventaja enorme: la solución se separa en dos partes, ψ(r, θ, φ) = R(r)·Y(θ,
+φ). R es la parte radial, que solo depende de la distancia, e Y es la parte angular, que solo
+depende de los ángulos.
+
+Cada parte se estudia por separado, y la parte angular es la misma para todos los
+orbitales del mismo tipo. Para construir un orbital se multiplican la parte radial y la parte
+angular correspondientes a sus números cuánticos.
+
+Al resolver la ecuación de Schrödinger para el átomo aparecen tres números cuánticos,
+n, l y mₗ, uno por cada coordenada (r, θ y φ), igual que en la caja de una dimensión
+aparecía uno solo, n.
+
+Al dar valores a n, l y mₗ se elige una única función de onda de la familia infinita de
+soluciones, es decir, un orbital.
+
+Entonces, un orbital atómico es una de las funciones de onda que se obtienen al resolver
+la ecuación de Schrödinger para un átomo con un solo electrón. Cada orbital queda
+identificado por un valor concreto de n, l y mₗ.
+
+
+
+
+14
+5.NÚMEROS CUÁNTICOS.ORBITALES ATÓMICOS
+
+Al resolver la ecuación se obtiene una familia infinita de funciones de onda; cada una de
+ellas es un orbital, y el conjunto de todas son los orbitales del átomo. Al resolver la
+ecuación del átomo, igual que en la caja, salen parámetros. En la caja salía uno, n, porque
+había una sola dimensión y al obligar a la onda a valer cero en las paredes solo quedaban
+ciertas soluciones. En el átomo hay tres coordenadas (r, θ y φ), así que salen tres
+parámetros: n, l y m. Y no pueden valer cualquier cosa, porque en la solución aparecen
+dentro de factoriales, en concreto (n − l − 1)! y (n + l)!. El factorial solo existe para 0 y para
+los números naturales: no existe el factorial de −1 ni el de 1,5. Así que n tiene que ser un
+número natural, 1, 2, 3, 4…: es el número cuántico principal.
+
+Ahora fijaos en (n − l − 1)!. Si l valiera n, saldría el factorial de −1, que no existe; como
+mucho, l = n − 1, y entonces sale 0!, que sí existe y vale 1. Así que el número cuántico del
+momento angular orbital, l, va de 0 hasta n − 1. Y el número cuántico magnético, m (o
+mₗ), es "tres cuartos de lo mismo": entero, pero puede ser negativo, de −l a +l. Cada uno es
+
+
+
+
+15
+libre dentro de sus reglas, pero en cuanto les doy valores, elijo una única función de la
+familia infinita, es decir, un orbital. Por ejemplo, n = 1, l = 0, m = 0 es el orbital 1s.
+
+
+
+
+Capas y subcapas electrónicas
+
+La ecuación de Schrödinger da para el hidrógeno la energía:
+
+
+
+
+Es la misma expresión que obtuvo Bohr, pero ahora sale de resolver la ecuación, a partir
+de principios fundamentales, y no de un postulado inventado.Por eso sigue explicando
+los espectros atómicos igual que antes, pero ahora además se conoce la función de onda
+del electrón: mucha más información.
+
+Entonces los orbitales con el mismo n forman una capa y los orbitales con mismo n y l
+forman una subcapa
+
+En el hidrógeno la energía solo depende de n, así que todos los orbitales de una misma
+capa tienen la misma energía: se dice que son degenerados. Por ejemplo, el 2s y los tres
+2p.
+
+Esto solo ocurre en átomos con un solo electrón. En los átomos con varios electrones la
+degeneración se rompe
+
+
+
+
+16
+6.ÁTOMO DE HIDRÓGENO
+
+Orbitales s
+
+La forma del orbital la determina la parte angular, Y(θ, φ), que depende solo de l y mₗ, no
+de n. Por eso todos los orbitales con el mismo l tienen la misma forma: todos los s iguales,
+todos los p iguales… La parte radial, R(r), indica cómo cambia la función con la distancia
+al núcleo, y depende de n y l. En el 1s la parte angular es Y = 1/√(4π): una constante, sin
+ningún ángulo. Por tanto, el valor de la función solo depende de la distancia al núcleo:
+todos los puntos a la misma distancia valen lo mismo, y esos puntos forman una esfera. El
+orbital tiene simetría esférica. Esto vale para todos los orbitales s (todos los de l = 0).
+
+Recordamos que la densidad de probabilidad es como “la probabilidad”/volumen. Entonces
+mientras más pequeño sea el volumen (r=0) mayor será la probabilidad de encontrar el
+electrón. Solo vale cero cuando r tiende a infinito: en teoría el electrón podría estar en
+cualquier parte del universo, pero la función cae tan rápido que prácticamente siempre
+está cerca del núcleo.
+
+El 2s tiene la misma parte angular que el 1s, así que también es esférico. Lo que cambia
+es la parte radial:
+
+
+
+
+17
+Ahora tiene un término nuevo, (2 − r/a₀). Ese término sí puede hacerse cero: cuando r =
+2a₀, el doble del radio de Bohr. A esa distancia la función vale cero y la probabilidad de
+encontrar el electrón es cero: es un nodo radial, una esfera donde el electrón no está
+nunca . Este nodo aparece por que el 2s tiene más energía que el 1s, así que la onda
+vibra más rápido y le da tiempo a completar un ciclo.
+
+Por dentro del nodo la onda tiene una fase y por fuera la fase opuesta: mientras la parte
+interna se expande, la externa se contrae.
+
+En la frontera entre las dos fases la amplitud es cero: el nodo. Es lo mismo que en la
+partícula en la caja al subir de n.
+
+
+
+
+Orbitales p
+
+
+
+
+18
+La parte angular sí depende de los ángulos, así que los orbitales p no tienen simetría
+esférica: la densidad depende de la dirección. Tienen dos lóbulos de fases opuestas:
+mientras uno se expande, el otro se contrae, como un tambor en el que una mitad sube
+mientras la otra baja.
+
+Entre ellos, pasando por el núcleo, hay un plano nodal donde la función vale cero: un
+nodo angular, porque depende del ángulo y no de la distancia. Su función radial también
+vale cero en el núcleo.
+
+Como mₗ = −1, 0, +1, hay tres orbitales p, orientados según los tres ejes: pₓ, p_y y p_z.
+
+En el hidrógeno los tres tienen la misma energía (son degenerados): solo cambia su
+orientación en el espacio.
+
+Regla de los nodos (sirve para cualquier orbital):
+
+          ○​ nodos angulares = l;
+          ○​ nodos radiales = n − l − 1;
+          ○​ nodos totales = n − 1.
+
+
+
+
+19
+7. EL ESPÍN ELECTRÓNICO
+
+Ya teníamos el modelo cerrado: tres números cuánticos, n, l y m, que salen solos de la
+ecuación. Muy bonito. Pero resulta que cuando miráis el espectro del hidrógeno con un
+aparato de muchísima resolución, la línea roja de 656 nm no es una línea: son dos líneas
+pegaditas, un doblete. Eso se llama estructura fina, y con n, l y m no hay manera de
+explicarlo. Algo falla .
+
+El experimento de Stern-Gerlach se basa en que se calientan átomos de plata en un
+horno y se hace pasar el chorro de átomos entre los polos de un imán cuyo campo no es
+igual en todas partes (un campo no homogéneo, más intenso en unos sitios que en otros).
+¿Por qué plata? Porque tiene un solo electrón desapareado (5s¹), así que se ve el efecto
+de un único electrón. Si el electrón fuera un imancito que puede apuntar en cualquier
+dirección, en la placa veríais una mancha alargada y continua. Pues no: salen dos
+manchas, y solo dos. O sea, que el electrón se comporta como un pequeño imán que solo
+puede orientarse de dos maneras
+
+Conclusión: cada electrón tiene un momento angular intrínseco (propio) y un momento
+magnético que solo pueden orientarse de dos formas. Esta propiedad se llama espín
+porque se comportaría así una bola cargada girando sobre sí misma, pero el electrón no
+gira de verdad: es una propiedad propia del electrón. Se describe con el número
+cuántico de espín, mₛ, que solo puede valer +½ o −½. El espín no sale de la ecuación de
+Schrödinger estudiada; se añade como cuarto número cuántico.
+
+
+
+
+20
+Átomo de H
+
+Cada electrón queda descrito por cuatro números cuánticos: n, l y mₗ, que indican el
+orbital, y mₛ, que indica el espín. Vamos al caso más sencillo, el hidrógeno: Z = 1, un solo
+electrón. ¿Dónde va a estar? En el orbital de menor energía, el 1s, porque acordaos de que
+los sistemas buscan siempre el mínimo de energía. Eso es el estado fundamental, y se
+escribe 1s¹
+
+Ahora bien, si le doy energía, con un fotón que tenga la energía justa (acordaos de la
+escalera: ni un fotón y pico ni un fotón y poco), el electrón salta a un orbital con mayor n,
+por ejemplo al 2s o al 2p. Eso es un estado excitado: 2s¹ o 2p¹. Y cuando vuelve a caer al
+1s, suelta un fotón con exactamente esa diferencia de energía. Es lo mismo que contaba
+Bohr con sus órbitas, solo que ahora el electrón no salta de una órbita a otra: pasa de
+vibrar de una manera a vibrar de otra (orbital).
+
+
+
+
+8. ÁTOMOS POLIELECTRÓNICOS
+
+Hasta ahora todo era hidrógeno: un núcleo y un electrón, y la ecuación de Schrödinger se
+resuelve de forma exacta. ¿Qué pasa cuando pongo dos, tres, veinte electrones? Que
+aparece una energía nueva en el hamiltoniano: la repulsión entre electrones, porque
+todos son negativos y se repelen. Y con eso la ecuación ya no se puede resolver de forma
+exacta, solo con aproximaciones. Acordaos de lo que os dije: cada sistema tiene su
+hamiltoniano. Cambias el sistema y cambia todo. Y os dije también que lo de que todos los
+orbitales de una capa tuvieran la misma energía cambiaría al meter más electrones. Pues
+aquí empieza.
+
+
+
+
+21
+¿Y qué efecto tiene esa repulsión? Pensad en un electrón de fuera, uno de la capa n. Entre
+él y el núcleo hay electrones de capas más internas, de la n − 1, que le estorban: al
+repelerlo, contrarrestan parte de la atracción del núcleo. Es como si le taparan parte de la
+carga del núcleo, como cuando alguien se pone delante de una estufa y te llega menos
+calor. Eso se llama apantallamiento (S): los electrones internos hacen de "pantalla". Así
+que el electrón externo no siente toda la carga Z del núcleo, sino una carga menor, la carga
+nuclear efectiva: Z_ef = Z − S. Por ejemplo, en el litio (Z = 3), el electrón 2s tiene delante
+dos electrones 1s que le tapan casi dos cargas, así que siente una Z_ef de alrededor de 1,3.
+Y la energía del nivel se parece a la de Bohr, pero cambiando la carga real por la efectiva: Eₙ
+∝ −Z_ef²/n² (el símbolo ∝ significa "es proporcional a").
+
+
+
+
+Densidad de probabilidad vs distribución radial
+
+La densidad de probabilidad, ψ², es la probabilidad de encontrar el electrón por unidad
+de volumen en un punto concreto del espacio. Responde a la pregunta de en qué punto es
+más probable encontrar el electrón. En un orbital s, como el 1s, ψ² es máxima en el
+núcleo (r = 0) y disminuye de forma exponencial al alejarse, sin llegar a anularse hasta el
+infinito.
+
+La distribución radial de probabilidad, R²(r)·4πr², es la probabilidad de encontrar el
+electrón a una distancia r del núcleo, considerando todos los puntos de una capa esférica
+de radio r. Responde a la pregunta de a qué distancia del núcleo es más probable
+encontrar el electrón. Se obtiene multiplicando la densidad de probabilidad por la
+superficie de la capa esférica, 4πr².
+
+
+
+
+22
+Las dos son distintas porque la probabilidad a una distancia r depende de dos efectos
+opuestos. Por un lado, el volumen de la capa esférica aumenta con r². Por otro, la
+densidad de probabilidad disminuye exponencialmente con r, mucho más deprisa.
+Cerca del núcleo las capas son muy pequeñas, por lo que la distribución radial vale cero
+en r = 0 y crece al aumentar el volumen. Lejos del núcleo las capas son muy grandes, pero
+la densidad es prácticamente nula, y la distribución radial disminuye. El equilibrio entre
+ambos efectos produce un máximo a una distancia intermedia. Por eso la distancia más
+probable no es la más próxima al núcleo ni la más lejana. Hay que tener en cuenta además
+que en el hidrógeno hay un solo electrón: al aumentar r no hay más electrones, sino más
+volumen donde podría encontrarse.
+
+Por ejemplo, en el orbital 1s del hidrógeno la densidad de probabilidad es máxima en el
+núcleo, pero la distancia más probable a la que se encuentra el electrón es el radio de
+Bohr, a₀ = 52,9 pm, que es donde está el máximo de la distribución radial.
+
+
+
+
+Penetración de los orbitales
+
+El apantallamiento (S) que sufre un electrón depende de lo cerca del núcleo que pueda
+llegar a estar, es decir, de la penetración de su orbital. La penetración se ve en la
+distribución radial de probabilidad, R²(r)·4πr². La penetración es la capacidad de un
+orbital de tener probabilidad muy cerca del núcleo, por dentro de los electrones
+internos. Mismo l, distinto n (1s, 2s, 3s): cuanto mayor es n, más lejos del núcleo está el
+máximo principal. Un electrón 1s está más cerca del núcleo que uno 2s, y este más que
+uno 3s. Los pequeños máximos internos de las gráficas están separados por los nodos
+radiales: un orbital con k nodos radiales tiene k + 1 máximos. El 2s tiene 1 nodo y 2
+máximos; el 3s, 2 nodos y 3 máximos.
+
+
+
+
+23
+Misma n, distinto l (3s, 3p, 3d):
+
+           ○​ el 3s tiene dos máximos pequeños cerca del núcleo;
+           ○​ el 3p tiene uno;
+           ○​ el 3d ninguno.
+           ○​   Por tanto, cuanto menor es l, más penetra el orbital: s > p > d > f.
+
+Consecuencia: un electrón que penetra más pasa parte del tiempo por dentro de los
+electrones internos, donde siente casi toda la carga del núcleo. Por eso está menos
+apantallado, siente una Z_ef mayor y está más fuertemente atraído. Ejemplo: un
+electrón 2s penetra más que uno 2p, así que está menos apantallado.
+
+La penetración no depende de dónde está el máximo principal: el máximo grande del 3d
+está más cerca del núcleo que el del 3s, pero el 3d no tiene probabilidad junto al núcleo y el
+3s sí. Lo que cuenta son los máximos pequeños internos.
+
+
+
+
+Hidrógeno: como solo tiene un electrón, no hay apantallamiento y la energía solo
+depende de n (Eₙ = −R_H/n²). Todos los orbitales de una misma capa son degenerados: el
+2s y los 2p tienen la misma energía, y lo mismo el 3s, los 3p y los 3d.
+
+Pero en átomos polielectrónicos: el apantallamiento hace que la energía dependa
+también de l. Los orbitales de una misma capa se separan en energía: se produce la
+ruptura de la degeneración.
+
+
+
+
+24
+El orden de energía dentro de una capa es ns < np < nd < nf. Los orbitales con menor l
+penetran más, están menos apantallados, sienten más Z_ef, están más atraídos por el
+núcleo y tienen menor energía.Los orbitales con el mismo n y el mismo l (por ejemplo, los
+tres 2p) siguen siendo degenerados entre sí.
+
+Al aumentar el número de electrones internos, la separación es mayor:
+
+En el Na el 3s baja mucho, porque penetra y siente buena parte de la carga del núcleo.
+
+El 3d apenas cambia respecto al hidrógeno: no penetra, está apantallado por los 10
+electrones internos y siente una Z_ef cercana a 1, como el electrón del hidrógeno.
+
+Consecuencias:
+
+En átomos con varios electrones, el 2p tiene más energía que el 2s por el
+apantallamiento, no por el número de nodos.
+
+La separación puede ser tan grande que algunos orbitales de una capa superior quedan
+por debajo de otros de la capa anterior, como el 4s por debajo del 3d. Esto determina el
+orden de llenado en las configuraciones electrónicas.
+
+
+
+
+25
+26
+TEMA 2 : ESTRUCTURA ATÓMICA
+
+1. TEORÍA CUÁNTICA
+
+Para explicar la radiación de un cuerpo negro, Planck propuso que la energía se transmite
+en paquetes, y que la energía de cada paquete es proporcional a su frecuencia. Esa
+constante de proporcionalidad es la constante de Planck (h = 6,62607 × 10⁻³⁴ J·s) — y el
+propio Planck fue quien le puso el nombre.
+
+
+
+
+Lo que significa en la práctica: la energía se emite como un "paquetito" que viaja así, y
+cuando llega a la materia, todo el paquete se gasta de golpe — no se puede recibir a
+medias.
+
+El que sí que la tomó en serio fue Einstein, que la usó para explicar el efecto fotoeléctrico y
+otro efecto (Compton) que no le dio tiempo a rematarlo, efecto que se ve más adelante.
+
+
+El efecto fotoeléctrico
+
+Hertz descubrió que algunos metales emiten electrones cuando reciben luz, a esto se le
+llama efecto fotoeléctrico.
+
+El experimento consiste en que tienes un cátodo, un ánodo, una diferencia de potencial y
+un medidor. Entre las dos placas hay vacío, así que no hay circuito cerrado — el medidor
+marca cero. Si irradias con una luz determinada, de repente el circuito se completa y
+aparece corriente: es la luz la que provoca que se cierre el circuito, al arrancar electrones
+de la placa iluminada que viajan hasta la otra.
+
+
+
+
+1
+Lo que traía dolores de cabeza a los físicos es que no valía cualquier luz, esta tenía que
+superar una frecuencia umbral. Por debajo de esa frecuencia, por mucho tiempo que
+irradies, el circuito nunca se completa. Por encima, cuanto mayor es la frecuencia, más
+rápido salen los electrones.
+
+En la física clásica la energía es contínua, asique da igual pasarla toda de golpiza que
+repartida ( medio julio + medio julio ) ya que la energía transferida total es la misma, asique
+el efecto debería ser idéntico, pero no lo es.
+
+Einstein aplicó entonces la idea de los cuantos de Planck (energía llega en fotones) y
+cuando el paquete llega, toda su energía se tiene que gastar de golpe. Esta energía se gasta
+en arrancar el electrón de donde está , que es la función trabajo W, y lo que sobra se
+gasta como energía cinética del electrón que sale despedido del metal.
+
+
+
+
+La única manera de explicar este efecto es aceptar que la luz se comporta como estos
+paquetitos de luz, que pasaron a llamarse fotones.
+
+
+Como la cte de Planck es del orden 10⁻³⁴ la energía de un solo fotón es muy pequeña, pero
+la luz tiene millones y millones de fotones, entonces la energía transmitida es la suma de
+todos ellos.
+
+
+La implicación importante es que la energía ya no puede tomar cualquier valor ni
+transmitirse en cualquier cantidad, solo ciertos valores determinados ( los que cumplen
+E=h·ν) son válidos.
+
+
+Entonces algo tiene que estar pasando igual en el átomo. Había dos cosas pendientes:
+
+
+-El átomo de Rutherford si le aplicas física clásica tendría que durar 10⁻¹² segundos. Y el
+universo tendría que haber colapsado en menos de un segundo. Entonces algo estaba
+fallando.
+-Los espectros de emisión atómica: por qué aparecen rayas y no todo el espectro
+contínuo.
+
+
+2
+2. MODELO ATÓMICO DE BOHR
+
+El electrón se mueve tal y como decía Rutherford (formando órbitas), pero ahora aplica la
+cuantización. Es decir, no todas las órbitas están permitidas, solo ciertas órbitas, con una
+condición : que el momento angular también esté cuantizado (solo puede tener ciertos
+valores).
+
+Como el momento angular no puede tomar cualquier valor, solo ciertas órbitas pueden
+existir. Entre estas órbitas permitidas hay huecos donde el momento angular no podría
+existir, entonces esas órbitas intermedias no pueden existir.
+
+
+
+
+Entonces el electrón no puede pasar de una órbita a otra haciendo una espiral gradual, ya
+que eso le obligaría a pasar por sitios prohibidos. Entonces se queda en su órbita y sigue
+dando vueltas sin perder energía, a esto se le llama estado estacionario.
+
+
+Física clásica → el electrón debería perder energía (espiral hacia el núcleo)
+Física cuántica → el electrón no puede perder energía así, porque le llevaría a órbitas no
+permitidas
+
+
+Aunque el electrón no puede moverse gradualmente entre órbitas, si puede dar un salto
+de una órbita permitida a otra. Para dar ese salto necesita recibir ( o ceder) exactamente la
+diferencia de energía entre la órbita de partida y la de llegada.
+
+
+3
+Entonces esto solo lo puede aportar un fotón concreto, un fotón que tenga una cierta
+longitud de onda que provoque que tenga exactamente esa energía. Ya que un fotón con
+más energía de la necesaria le llevaría a un sitio intermedio que no existe por ejemplo.
+
+
+De esta forma se explican los espectros. De todas las longitudes de onda posibles, el átomo
+solo puede “coger” la longitud de onda precisas para cada salto concreto. Esa longitud de
+onda se gasta y ya no aparece en el espectro, de ahí las rayas negras en un espectro de
+absorción. Las demás longitudes de onda no se pueden usar porque no llevaría a ninguna
+órbita permitida.
+
+
+
+
+4
+5
+

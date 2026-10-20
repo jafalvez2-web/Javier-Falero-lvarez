@@ -1,0 +1,1087 @@
+    Tema 2. Estructura
+                               atómica
+
+
+
+
+[Tema 2. Estructura atómica]
+Tema 2. Estructura atómica
+1.    Descubrimientos científicos que impulsaron la teoría atómica.
+2.    El átomo y los elementos químicos.
+3.    Espectros atómicos. Radiación electromagnética.
+4.    Teoría cuántica.
+5.    Modelo atómico de Bohr.
+6.    Dualidad Onda-Partícula. El principio de incertidumbre.
+7.    Mecánica ondulatoria. Ecuación de Onda de Schrödinger.
+8.    Números cuánticos. Orbitales atómicos.
+9.    El átomo de hidrógeno.
+10.   El espín electrónico.
+11.   Átomos polielectrónicos.
+12.   Carga nuclear efectiva. Apantallamiento y penetración de orbitales.
+13.   Configuraciones electrónicas.
+
+
+
+                                 [Tema 2. Estructura atómica]
+1. Descubrimientos científicos que impulsaron la teoría atómica
+
+¿De qué está compuesta la materia?
+Ley de conservación de la masa
+(Lavoisier, 1744)
+La masa total de las sustancias presentes después                  Reacción química
+de una reacción química es la misma que la masa
+de las sustancias antes de la reacción.
+
+
+Ley de la proporción definida
+(Proust, 1799)
+Todas las muestras de un compuesto tienen la misma composición, es decir, las mismas proporciones
+en masa de los elementos constituyentes.
+
+Ley de las proporciones múltiples
+(Dalton, 1808)
+Si dos compuestos pueden combinarse para formar más de un compuesto, la masa de uno de los
+elementos que se combina con una masa fija del otro mantiene una relación de números enteros
+pequeños.
+
+
+
+                                    [Tema 2. Estructura atómica]
+1. Descubrimientos científicos que impulsaron la teoría atómica
+
+¿De qué está compuesta la materia?
+Teoría atómica (J. Dalton, 1808)
+
+1. Cada elemento se compone de partículas diminutas denominadas
+   átomos.
+2. Los átomos no pueden ni crearse ni destruirse durante una
+   transformación química (ley de la conservación de la masa).
+3. Todos los átomos de un elemento son semejantes en masa y otras       «Daltons symbols». Publicado bajo la licencia Public
+                                                                        domain vía Wikimedia Commons -
+   propiedades, pero diferentes a los átomos de cualquier otro          http://commons.wikimedia.org/wiki/File:Daltons_sym
+                                                                        bols.gif#mediaviewer/File:Daltons_symbols.gif.
+   elemento.
+4. Los compuestos se forman cuando los átomos de diferentes
+   elementos se combinan en una proporción numérica sencilla (ley
+   de las proporción definida y ley de las proporciones múltiples).
+
+Modelo atómico de Dalton
+
+                                                    Reacción química
+
+
+                  átomos elemento A átomos elemento B
+                                                                       Compuesto AB2
+                                   [Tema 2. Estructura atómica]
+1. Descubrimientos científicos que impulsaron la teoría atómica
+
+¿De qué están compuestos los átomos?
+Tubo de rayos catódicos. Descubrimiento del electrón.
+
+
+                      Cátodo (-)
+
+  tubo alto vacío                                                            pantalla
+                                                                             fluorescente
+                                           Ánodo (+)
+
+
+
+                              Alto
+                             voltaje
+                                                                                Video
+
+En 1897, J. J. Thomson estableció la relación entre la masa y la carga de los rayos catódicos.
+                                    m/e = -5,6857 × 10-9 g·C-1
+En 1904, R. A. Millikan estableció la carga de los electrones: Ce = - 1,6022 × 10-19 C
+                                       [Tema 2. Estructura atómica]
+1. Descubrimientos científicos que impulsaron la teoría atómica
+
+¿De qué están compuestos los átomos?
+
+
+  Modelo atómico de J. J. Thomson
+
+
+
+
+                                           «Plum pudding atom». Publicado bajo la licencia Public domain vía Wikimedia Commons -
+                                           http://commons.wikimedia.org/wiki/File:Plum_pudding_atom.svg#mediaviewer/File:Plum_pud
+                                           ding_atom.svg.
+
+
+
+
+                             [Tema 2. Estructura atómica]
+1. Descubrimientos científicos que impulsaron la teoría atómica
+
+¿De qué están compuestos los átomos?
+Experimento de Rutherford. Descubrimiento del protón.
+
+
+En 1904, E. Rutherford estableció la masa de
+los protones: m = 1,67262 × 10-24 g                      Emisor de
+                                                                                                              Lámina de oro
+                                                        partículas 
+
+En 1932, J. Chadwick estableció la masa de
+                                                                                                         Pantalla de detección
+los neutrones: m = 1,67493 × 10-24 g
+
+                                                electrón
+
+                                                                                                              núcleo                   protón
+                                                                                                                                          neutrón
+
+
+
+               Modelo atómico de E. Rutherford
+                                                «Rutherford atom». Publicado bajo la licencia Creative Commons Attribution-Share Alike 3.0 vía Wikimedia Commons -
+                                                http://commons.wikimedia.org/wiki/File:Rutherford_atom.svg#mediaviewer/File:Rutherford_atom.svg.
+
+
+
+                                   [Tema 2. Estructura atómica]
+2. El átomo y los elementos químicos
+
+Propiedades de las partículas subatómicas.
+                                      Masa                                Carga
+          Partícula
+                              kg                uma                 C             e
+           Electrón      9,1094 × 10-31      0,00054858       -1,6022× 10-19      -1
+           Protón        1,6726 × 10-27        1,0073         1,6022× 10-19       +1
+           Neutrón       1,6749 × 10-27        1,0087               0             0
+
+
+
+Todos los átomos de un mismo elemento químico son iguales y están definidos por el número de
+partículas subatómicas que lo componen y a su vez determina el número atómico y el número de
+masa. La masa atómica, es la cantidad de un átomo y se mide en uma (unidad de masa atómica).
+
+
+                          Número de masa
+                                              A ±       Carga atómica
+                          Número atómico      ZE
+
+
+
+
+                                    [Tema 2. Estructura atómica]
+3. Espectros atómicos. Radiación electromagnética
+
+La Radiación Electromagnética es una forma de transmisión de energía en la que los campos
+eléctrico y magnético, oscilantes y perpendiculares entre sí, se propagan como ondas a través
+de un medio o espacio vacío.
+                                                      Se caracteriza:
+                                                      Velocidad (c): 2,997925 × 108 m·s-1
+                                                      Frecuencia (f o ): Hz o s-1
+                                                      Longitud de onda (λ): nm o pm
+
+
+                                                                               c=·
+
+                                                                                               onda
+
+                                                                                   
+
+                                                                                                                                  A
+
+
+
+
+                                               «Wave». Publicado bajo la licencia Creative Commons Attribution-Share Alike 3.0 vía Wikimedia Commons -
+                                               http://commons.wikimedia.org/wiki/File:Wave.png#mediaviewer/File:Wave.png.
+
+
+
+                                   [Tema 2. Estructura atómica]
+3. Espectros atómicos. Radiación electromagnética
+
+Espectro electromagnético.
+    De todo el espectro electromagnético, el ojo humano solo puede percibir el espectro visible, pero
+    puede sentir otra parte en forma de calor, el infrarrojo.
+
+
+
+
+                            «Electromagnetic spectrum-es». Publicado bajo la licencia Creative Commons Attribution-Share Alike 3.0
+                            vía Wikimedia Commons - http://commons.wikimedia.org/wiki/File:Electromagnetic_spectrum-
+                            es.svg#mediaviewer/File:Electromagnetic_spectrum-es.svg.
+
+
+
+
+                                                 [Tema 2. Estructura atómica]
+3. Espectros atómicos. Radiación electromagnética
+
+La Radiación Electromagnética presenta una serie de propiedades.
+
+Refracción: Un cambio en la dirección de un rayo de luz al
+pasar de un medio a otro (p. ej. del aire a un vidrio).
+
+
+
+
+                                                                   «Prism rainbow schema». Publicado bajo la licencia Creative
+                                                                   Commons Attribution-Share Alike 3.0 vía Wikimedia Commons -
+                                                                   http://commons.wikimedia.org/wiki/File:Prism_rainbow_schema.p
+                                                                   ng#mediaviewer/File:Prism_rainbow_schema.png.
+Interferencia y difracción: El solapamiento de ondas puede
+producir interferencias constructivas o destructivas que
+generan un patrón de difracción.
+
+
+
+
+                                    [Tema 2. Estructura atómica]
+3. Espectros atómicos. Radiación electromagnética
+
+
+
+
+                           [Tema 2. Estructura atómica]
+3. Espectros atómicos. Radiación electromagnética
+
+
+
+
+                           [Tema 2. Estructura atómica]
+3. Espectros atómicos. Radiación electromagnética
+                                         tubo descarga
+Espectros atómicos                                          rendija                                   Video
+Cuando se somete a una descarga                                               prisma
+eléctrica un gas, éste emite luz
+discontinua característica de cada
+elemento conocido como espectro de                                                           placa fotográfica
+emisión.
+
+
+
+                                      Alto          410,1 434,1       486,1                   656,3
+                                     voltaje
+
+                                                     400                500            600                700 nm
+                                                                  Espectro emisión del H
+                       La serie de Balmer (1885) se correspondía bien con la ecuación experimental:
+
+                                                                          1   1
+                                     𝜈 𝑠 −1    = 3,2881 𝑥 1015 𝑥            −   𝑐𝑜𝑛 𝑛 > 2
+                                                                          22 𝑛2
+
+
+
+                                      [Tema 2. Estructura atómica]
+3. Espectros atómicos. Radiación electromagnética
+
+Espectros atómicos                                             rendija
+Cuando a una muestra de una              luz blanca
+                                                                           prisma
+sustancia se ilumina con una luz
+blanca, se obtiene luz discontinua,
+característica de cada elemento                                                           placa fotográfica
+conocido      como  espectro    de
+absorción.
+
+
+
+
+                                                      400            500            600             700 nm
+                                                                Espectro absorción del H2
+
+
+
+
+                                      [Tema 2. Estructura atómica]
+4. Teoría cuántica
+
+                   LOS CUERPOS EMITEN Y ABSORBEN RADIACION
+
+Todos los cuerpos emiten radiación a temperatura
+superior a 0 K. Esta radiación tiene un máximo que se
+desplaza a menores longitudes de onda a temperaturas
+superiores.
+
+
+
+           Hierro a distintas temperaturas
+
+
+
+
+                                                            Intensidad
+  300 K       800 K        1200 K        1700 K
+                                                              «Wiens law» de 4C - Own work, based on JPG version. Disponible bajo la licencia
+                                                              Creative Commons Attribution-Share Alike 3.0 vía Wikimedia Commons -
+                                                              http://commons.wikimedia.org/wiki/File:Wiens_law.svg#mediaviewer/File:Wiens_
+                                                              law.svg
+
+
+
+
+                                  [Tema 2. Estructura atómica]
+4. Teoría cuántica
+
+                     LOS CUERPOS EMITEN Y ABSORBEN RADIACION
+En 1900, Max Planck hizo una propuesta revolucionaria:
+la energía, como la materia, es discontinua. El postulado
+de Planck puede enunciarse de una forma más general:
+                                                                                                            Física clásica
+    «la energía de un cuanto de radiación es
+          proporcional a la frecuencia»
+
+
+                    𝐸 =ℎ·𝑣
+    h = 6,62607 × 10-34 J s (Constante de Planck)
+
+
+                                                               «Wiens law» de 4C - Own work, based on JPG version. Disponible bajo la licencia
+                                                               Creative Commons Attribution-Share Alike 3.0 vía Wikimedia Commons -
+                                                               http://commons.wikimedia.org/wiki/File:Wiens_law.svg#mediaviewer/File:Wiens_
+                                                               law.svg
+
+
+
+
+                                     [Tema 2. Estructura atómica]
+4. Teoría cuántica
+
+                                  EFECTO FOTOELECTRICO
+
+Hertz descubrió en 1888 que algunos metales emitían
+electrones cuando recibían luz: efecto fotoeléctrico.
+                                                                       -
+                                                                   +
+
+
+
+
+                                                                           voltímetro
+
+
+                                                                   A
+
+
+
+
+                                    [Tema 2. Estructura atómica]
+4. Teoría cuántica
+
+                                  EFECTO FOTOELECTRICO
+
+Hertz descubrió en 1888 que algunos metales emitían
+electrones cuando recibían luz: efecto fotoeléctrico.
+                                                                       e- -
+1. La luz tenía que tener una frecuencia mayor que
+   una cierta frecuencia umbral.                                   +
+2. Por encima de esa frecuencia umbral, la velocidad
+   de los electrones aumentaba proporcionalmente
+   a la frecuencia de la radiación.
+3. La intensidad de la corriente generada                                     voltímetro
+   aumentaba con la intensidad de la radiación.
+                                                                   A
+
+
+
+
+                                    [Tema 2. Estructura atómica]
+4. Teoría cuántica
+
+                                EFECTO FOTOELECTRICO
+
+En 1905, Einstein propuso que la radiación tiene
+                                                                 fotón
+propiedades corpusculares y las “partículas de luz”
+(fotones) transmiten su energía al electrón.                          e- -
+Si la energía del fotón es mayor que la energía de                +
+unión (W, función trabajo) del electrón a la
+superficie, se libera un electrón con una energía
+cinética.
+
+                                                                             voltímetro
+        𝐸𝑓𝑜𝑡ó𝑛 = 𝑊 + 𝐸𝐶 𝑒𝑙𝑒𝑐𝑡𝑟ó𝑛
+                                                                 A
+
+
+
+
+                                  [Tema 2. Estructura atómica]
+5. Modelo atómico de Bohr
+
+El átomo de Rutherford no podía explicarse usando física clásica: los electrones caerían al núcleo.
+En 1913, N. Bohr utilizó la hipótesis cuántica de Planck para explicar el átomo de hidrógeno:
+1. El electrón se mueve en órbitas circulares alrededor del núcleo con el movimiento descrito
+   por la física clásica.
+2. El electrón sólo tiene un conjunto de órbitas permitidas, denominadas estados estacionarios,
+   en las que el momento angular es igual a n·h/2π, siendo n el número cuántico. Mientras un e
+   permanece en una órbita, su energía es constante y no emite energía.
+3. Un electrón sólo puede pasar de una órbita permitida a otra. En estas transiciones están
+   implicadas cantidades discretas y fijas de energía absorbida o emitida.
+
+
+
+                                                         𝑟𝑛 = 𝑛2 · 𝑎0 (𝑛 = 1, 2, 3…)
+                                                                    𝑅
+                                                         𝐸𝑛 = − 𝐻2
+                                                                    𝑛
+
+                                   n=1                   a0 = 52,9 pm (Radio de Bohr)
+                                                         RH = 2,179 x 10-18 J
+                                   n=2
+
+                                     [Tema 2. Estructura atómica]
+ 5. Modelo atómico de Bohr
+                    El modelo atómico de Bohr permite explicar los espectros atómicos
+                              n = ∞, E = 0                                          n = ∞, E = 0
+
+
+                              n=4                                                  n=4
+
+                              n=3                                                  n=3
+
+
+      E                       n=2                            E                     n=2
+
+
+
+                              n = 1, E = − 𝑅𝐻                                      n = 1, E = − 𝑅𝐻
+           absorción                                                  emisión
+
+
+                                                      410,1 434,1     486,1               656,3
+
+
+
+400           500              600           700 nm    400              500         600            700 nm
+          Espectro absorción del H                                  Espectro emisión del H
+
+                                       [Tema 2. Estructura atómica]
+6. Dualidad onda-partícula. Principio de incertidumbre
+
+                               DUALIDAD ONDA-PARTÍCULA
+De Broglie en 1924 sugirió que todas las partículas                                                        ℎ
+tienen una naturaleza dual, de tal forma que su                                             𝜆=
+comportamiento global presenta dos aspectos                                                               𝑚· 𝑣
+complementarios: ondulatorio y corpuscular.                       h es la constante de Planck, m la masa de
+Dependiendo del experimento predomina uno de                              la partícula y v su velocidad
+estos dos aspectos.
+
+El comportamiento ondulatorio de partículas con
+masa se denominan ondas de materia.
+
+
+
+
+                              Analogía de la dualidad onda-
+                               partícula. Según se ilumine el
+                              cilindro podemos ver sombras
+                                      cuadradas o circulares.
+                                                                «Dualite» de fr:User:edward elrick - Trabajo propio. Disponible bajo la licencia
+                                                                Creative   Commons      Attribution    2.5     vía   Wikimedia     Commons      -
+                                                                http://commons.wikimedia.org/wiki/File:Dualite.jpg#mediaviewer/File:Dualite.jpg
+       Rayos X                Electrones
+
+                                    [Tema 2. Estructura atómica]
+6. Dualidad onda-partícula. Principio de incertidumbre
+
+                              PRINCIPIO DE INCERTIDUMBRE
+
+En torno a 1920, Bohr y Heisenberg enunciaron no se
+puede determinar, en términos de la física cuántica,
+simultáneamente y con cualquier precisión, ciertos pares                                      ℎ
+de variables físicas, como son, la posición y el momento                 Δ𝑥 · Δ𝑝 ≥
+                                                                                             4· 𝜋
+lineal (cantidad de movimiento) de un objeto dado. En
+                                                                   x es la posición de una partícula, p su
+otras palabras, cuanta mayor certeza se busca en                               momento lineal
+determinar la posición de una partícula, menos se conoce
+su cantidad de movimientos lineales y, por tanto, su masa
+y velocidad.
+
+
+
+
+                                    [Tema 2. Estructura atómica]
+[Tema 2. Estructura atómica]
+7. Modelo atómico de Schrödinger. Mecánica ondulatoria
+
+                          Ondas estacionarias: Los valles y crestas se producen en
+                          posiciones fijas y la amplitud de la onda en los extremos fijos es
+                          cero.
+                          La amplitud de las oscilaciones difiere de un punto a otro y en los
+                          nodos no hay desplazamiento ninguno.
+
+
+                                                         Video
+
+
+
+                          Por ejemplo, en el caso de ondas entre dos puntos separados por
+                          una distancia L, sólo son posibles aquellas ondas en las que se
+                          cumple:
+
+                                                𝜆    2𝐿
+                                             𝐿=𝑛 →𝜆=
+                                                2    𝑛
+
+                           donde n= 1,2,3... y el número de nodos en este caso es n+1
+
+                          [Tema 2. Estructura atómica]
+7. Modelo atómico de Schrödinger. Mecánica ondulatoria
+
+En 1927, Schrödinger sugirió que el comportamiento                                   
+y la energía de cualquier partícula subatómica (p. ej.
+un electrón) podrían ser descritos mediante una
+función matemática denominada función de onda
+(ψ).                                                                            +                            +
+                                                                                      r
+En este modelo los electrones se contemplaban
+originalmente como una onda estacionaria de
+materia en un potencial electrostático de simetría
+esférica.                                                            2· 𝜋·𝑟 =𝑛· 𝜆                  2· 𝜋·𝑟 ≠𝑛· 𝜆
+                                                                     Orbital permitido           Orbital no permitido
+ Ecuación de Schrödinger
+Un electrón no puede estar en cualquier lugar. Todas las posibles ondas estacionarias de
+electrones en un átomo deben cumplir la ecuación de Schrödinger: Hψ=Eψ
+En el caso de un electrón orbitando alrededor de un núcleo, tiene la forma:
+
+                            𝛿2𝜓    𝛿2𝜓    𝛿2𝜓   8𝜋2 𝑚𝑒
+                                 + 𝛿𝑦 2 + 𝛿𝑧 2 + ℎ2 ·              𝐸−𝑉 𝜓=0
+                            𝛿𝑥 2
+      E es el valor de la energía total del electrón; V es la energía potencial del electrón un punto (x, y, z).
+
+
+                                            [Tema 2. Estructura atómica]
+7. Modelo atómico de Schrödinger. Mecánica ondulatoria
+
+La ecuación de Schrödinger es una ecuación diferencial.
+
+Una de las ecuaciones diferenciales más simples es:
+
+                                              𝒅𝒇(𝒙)                        𝒅𝒚
+            𝒇′ 𝒙 = 𝒇 𝒙            𝒐                 =𝒇 𝒙               𝒐      =𝒚
+                                               𝒅𝒙                          𝒅𝒙
+Una solución de esta ecuación es ex :
+
+                                   𝒇′ 𝒆𝒙 = 𝒆𝒙 = 𝒇 𝒙
+
+Pero también lo son 2·ex , 3·ex… n·ex
+
+Las soluciones de esta ecuación forman una familia de funciones en la que cada miembro viene
+determinado por el parámetro n.
+
+
+En este caso, sobre la función f(x) se está aplicando el operador f’ (“hallar la derivada”).
+Otros operadores pueden ser “elevar al cuadrado” o “multiplicar por m y sumar 1”, etc.
+
+
+
+
+                                        [Tema 2. Estructura atómica]
+   7. Modelo atómico de Schrödinger. Mecánica ondulatoria
+
+El sistema más sencillo para el que se puede escribir una
+función de onda es un sistema unidimensional de una
+partícula en una caja que se mueve en una única dirección.                        Ψ(x)
+
+Se obtiene el siguiente conjunto de funciones de                            n=4
+onda:
+                          2     nπ x 
+            ψ(x) =          sen      
+                          L     L                                         n=3
+
+
+
+
+                                                                  Energía
+Cada función de onda está definida por un número
+cuántico n, que también define la energía del sistema.
+                                                                            n=2
+
+
+
+                                                                            n=1
+                               2 2
+                         ℎ 𝑛
+                    𝐸𝐶 =
+                         8𝑚𝐿2                                        0              x              L
+
+
+
+
+La energía más baja posible (n=1) se denomina energía residual o energía del punto cero. La partícula no
+puede estar en reposo porque se violaría el principio de incertidumbre, por lo que la energía no puede
+ser cero.                               [Tema 2. Estructura atómica]
+ 7. Modelo atómico de Schrödinger. Mecánica ondulatoria
+ Los valores positivos o negativos de la función de onda no tienen un significado físico directo.
+ Sin embargo, ψ2 es la densidad de probabilidad de encontrar una partícula en un pequeño
+ volumen de espacio.
+ Pueden aparecer puntos donde la probabilidad es cero: nodos.
+
+                                                                                 Ψ2(x)
+                               Ψ(x,t)
+                     (+)                       (+)
+                                                                           n=4
+     Función de
+       onda de                   (-)
+        materia
+
+                                                                           n=3
+
+
+
+
+                                                                 Energía
+                               Ψ2(x,t)
+   Densidad de
+   Probabilidad
+  de la onda de                                                            n=2
+        materia
+
+                                                                           n=1
+Si se estudia una partícula en una caja tridimensional,
+aparecen tres números cuánticos: nx, ny y nz, uno por               0               x        L
+cada variable ψ(x,y,z).
+                                       [Tema 2. Estructura atómica]
+7. Modelo atómico de Schrödinger. Mecánica ondulatoria
+Para aplicar la ecuación de Schrödinger al átomo de
+hidrógeno se usan coordenadas polares esféricas ψ(r,θ,φ)
+                                                                       𝜓 𝑟, 𝜃, 𝜙 = 𝑅 𝑟 · Υ(𝜃, 𝜙)
+en lugar de cartesianas ψ(x,y,z).
+                                                                        𝑅 𝑟 𝑒𝑠 𝑙𝑎 𝑓𝑢𝑛𝑐𝑖ó𝑛 𝑑𝑒 𝑜𝑛𝑑𝑎 𝑟𝑎𝑑𝑖𝑎𝑙
+Las soluciones de la ecuación se denominan orbitales.                  Υ 𝜃, 𝜙 𝑒𝑠 𝑙𝑎𝑓𝑢𝑛𝑐𝑖ó𝑛 𝑑𝑒 𝑜𝑛𝑑𝑎 𝑎𝑛𝑔𝑢𝑙𝑎𝑟
+
+Los orbitales se describen en función de coordenadas
+polares con lo que toda orbital tiene una componente
+(función) radial y otra angular.
+
+
+ Las soluciones estacionarias de la ecuación de Schrödinger en un campo central electrostático
+ están caracterizadas por tres números cuánticos (n, l, m). Estas soluciones o funciones de onda
+ normalizadas vienen dadas en coordenadas esféricas por:
+
+
+                              3                          𝑟
+                         2           𝑛−𝑙−1 !          −
+                                                        𝑛𝑎
+                                                                2𝑟 𝑙 2𝑙+1         2𝑟
+   𝜓𝑛𝑙𝑚 𝑟, 𝜃, 𝜙 =                 ·              · 2𝑒      0 ·(    ) · 𝐿𝑛−𝑙−1 · [     ] · 𝑌𝑙,𝑚 (𝜃, 𝜙)
+                        𝑛𝑎0         2𝑛[ 𝑛 + 𝑙 !]               𝑛𝑎0                𝑛𝑎0
+
+                                         a0 es radio atómico de Bohr
+
+
+
+                                       [Tema 2. Estructura atómica]
+8. Números cuánticos. Orbitales atómicos
+
+                                    Números cuánticos
+
+La solución de la ecuación de Schrödinger para el átomo de hidrógenos da a lugar a tres números
+cuánticos.
+
+1) El número cuántico principal, n, que puede tener sólo un valor entero positivo, distinto de
+   cero.
+                                          n = 1, 2, 3, 4…
+
+2) El número cuántico del momento angular orbital, l, que puede ser 0 ó un número entero
+   positivo, pero no mayor que n-1.
+                                     l = 0, 1, 2,…, n-1
+
+3) El número cuántico magnético, m o ml, que puede ser un número entero positivo o negativo,
+   incluyendo el 0 que se encuentra entre –l y +l
+                                          ml = -l, -l+1, -l+2,…, l-1, l
+
+
+
+
+                                   [Tema 2. Estructura atómica]
+8. Números cuánticos. Orbitales atómicos
+
+                               Capas y subcapas electrónicas
+
+La combinación de todos los orbitales atómicos dan lugar a la corteza electrónica, representada
+por el modelo de capas. Todos los orbitales con el mismo valor de n se encuentran en la misma
+capa electrónica principal o nivel principal y todos los orbitales con el mismo valor de l y m se
+encuentran en la misma subcapa o subnivel a los cuales se le asigna una letra en función del valor
+de l.
+                                 3s       3p               3d
+                 Capa                                                   n=3
+                                               Subcapas
+                                2s        2p
+                 Capa                                                  n=2
+                        E
+
+                                1s                                     n=1
+                 Capa
+                               l=0       l =1              l =2
+Para el átomo de hidrógeno, la energía de los orbitales sólo
+                                                                                     𝑅
+depende del valor de n tal y como aparecía en el modelo atómico de         𝐸𝑛 = − 𝐻2
+                                                                                     𝑛
+Bohr. Los orbitales en una misma capa son degenerados.
+
+
+                                     [Tema 2. Estructura atómica]
+9. El átomo de hidrógeno
+
+                                                        Forma de los orbitales: orbitales s
+La forma de un orbital viene determinada por la función radial de la función de onda. El
+contorno de esa forma corresponde a la superficie que rodea el 90% de la probabilidad
+electrónica. Para un orbital 1s:
+                                                     2𝑒 −𝑟/𝑎0                                                            1         𝑒 −𝑟/𝑎0
+                     𝜓 1,0,0 = 𝜓 1𝑠 = 𝑅 𝑟 · 𝑌 𝜃, 𝜙 =          ·                                                               =
+                                                      𝑎0 3/2                                                             4𝜋         𝜋𝑎0 3
+
+Para un valor de l = 0, el valor de la función de onda sólo
+depende de r, la distancia al núcleo. Esto da a lugar a una
+simetría esférica. Todos los orbitales s son esféricos.                                                                                 𝑒 −2𝑟/𝑎0
+                                                                                                                              𝜓2   1𝑠 =
+                                                                                                                                          𝜋𝑎0 3
+        Densidad de probabilidad                     Contorno de 90% probabilidad                                   𝜓2
+                                                                                                                               𝑟 → ∞; 𝜓 2 = 0
+
+
+
+
+                                                                                                                                             𝑟
+
+  «Es-Orbital s». Publicado bajo la licencia Creative Commons Attribution-Share Alike 3.0 vía Wikimedia Commons -
+  http://commons.wikimedia.org/wiki/File:Es-Orbital_s.png#mediaviewer/File:Es-Orbital_s.png.
+
+
+                                                                        [Tema 2. Estructura atómica]
+9. El átomo de hidrógeno
+
+                                  Forma de los orbitales: orbitales s
+
+Para 2s la función de onda:
+                                                                    1                  𝑟 −𝑟/2𝑎           1
+          𝜓 2,0,0 = 𝜓 2𝑠 = 𝑅 𝑟 · 𝑌 𝜃, 𝜙 =                                   3/2
+                                                                                (2 −      )𝑒   0 ·
+
+                                                              2 2𝑎0                    𝑎0                4𝜋
+                              𝑟 = 2𝑎0 ; 𝜓 2 = 0 (en un orbital ns hay n-1 nodos radiales)
+               z                                         z                                   z
+      2                                    2                                      2
+  𝜓                   y               𝜓                         y             𝜓                      y
+ 1s                       x                                         x         3s                         x
+                                      2s
+
+
+
+                              𝑟                                         𝑟                                    𝑟
+                               probabilidad relativa del electrón en orbitales 1s, 2s, 3s
+
+  Al aumentar el número cuántico n, los orbitales son mas difusos. Esto quiere decir:
+  1. El electrón se encuentra en una zona del espacio más amplia.
+  2. La densidad electrónica está mas repartida.
+  3. El orbital es cada vez más voluminoso.                                                              Video
+  4. Aparecen más nodos.
+                                           [Tema 2. Estructura atómica]
+9. El átomo de hidrógeno
+
+                                Forma de los orbitales: orbitales p
+
+Los orbitales p presentan una función radial dependiente de  y  presentando un nodo en el
+núcleo. En función de los valores que puede tomar el número cuántico ml (-1, 0 y 1) se obtienen
+los tres orbitales p simétricos respecto a los ejes x, z e y. La parte angular de la función de onda
+posee un plano nodal.
+                    z                   Hay l nodos angulares, n-l-1 nodos radiales
+                                        y n-1 nodos totales.
+                            y
+Plano nodal
+                                   x
+
+
+
+
+                                                «Es-Orbitales p». Publicado bajo la licencia Creative Commons Attribution-Share Alike 3.0 vía Wikimedia Commons -
+                                                http://commons.wikimedia.org/wiki/File:Es-Orbitales_p.png#mediaviewer/File:Es-Orbitales_p.png.
+
+
+
+                                       [Tema 2. Estructura atómica]
+9. El átomo de hidrógeno
+
+                             Forma de los orbitales: orbitales d
+
+Los orbitales d tienen formas más diversas. Cuatro de ellos tienen forma de 4 lóbulos de signos
+alternados (dos planos nodales, en diferentes orientaciones del espacio), y el último es un doble
+lóbulo rodeado por un anillo (un doble cono nodal).
+
+
+
+
+        Video
+                                              «Orbitales d» de de:Benutzer:Extrawurst original upload at de:Bild:D_orbitale.jpg - Trabajo propio. Disponible bajo la
+                                              licencia Public domain vía Wikimedia Commons -
+                                              http://commons.wikimedia.org/wiki/File:Orbitales_d.jpg#mediaviewer/File:Orbitales_d.jpg
+
+
+
+                                    [Tema 2. Estructura atómica]
+9. El átomo de hidrógeno
+
+
+
+
+                           [Tema 2. Estructura atómica]
+11. El espín atómico
+                                                                       Espectro emisión del H2
+Cuando se examinan las líneas del espectro del          410,1 434,1        486,1                 656,3
+hidrógeno a una resolución muy alta, se
+encuentran que son dobletes poco espaciados
+entre sí. Esta división se llama estructura fina y        400                500           600               700 nm
+fue una de las primeras evidencias
+experimentales del espín electrónico.
+
+
+Experimento de Stern-Gerlach (1920)
+                              rendija                                              650                       660 nm
+                                                       placa fotográfica
+              horno
+                                                 (+)
+                                                                                                 1       1
+                                                                                         ms = + , −
+                                                                                                 2       2
+                      haz de
+                   átomos de Ag
+                                                 (-)
+                                                Imán
+                                           (campo magnético
+                                             no homogéneo)
+
+Ambos experimentos indicaban la posesión por cada electrón individual, de un momento angular
+intrínseco y un momento magnético. Clásicamente esto podría ocurrir si el electrón fuera una bola
+giratoria de carga. Por ello, esta propiedad fue llamada espín del electrón (ms).
+
+                                        [Tema 2. Estructura atómica]
+10. El espín atómico
+
+Átomo de hidrógeno
+
+El hidrógeno Z = 1 posee un único electrón. Este electrón se encuentra en el orbital de
+más baja energía, 1s, que corresponde al estado fundamental del hidrógeno.
+
+
+Este electrón se define por sus          n= 1
+números cuánticos:                       l=0
+                                         ml = 0                   =       1s1
+                                         ms = +1/2 ó -1/2
+
+
+
+En un estado excitado, el e ocupa orbitales con mayores valores de n, por ej. n = 2
+2s1 ó 2p1
+
+                             1s  1 absorción (h)          1     2s
+                                         emisión (h)
+
+
+
+                                  [Tema 2. Estructura atómica]
+  11. Átomos polielectrónicos
+
+  Átomos con Z > 1 en su estado fundamental presentan más de un electrón con lo que
+  aparecen fuerzas de repulsión entre ellos.
+  La ecuación de Schrödinger no puede resolverse de manera exacta para átomos
+  polielectrónicos: sólo mediante aproximaciones.
+
+
+    Átomos         presentan       Repulsión      provoca    Atracción núcleo-       genera   Apantallamiento (S)
+polielectrónicos                   electrones                 electrón menor                   entre electrones
+
+                                                                          se aproxima como
+
+                                                               Carga nuclear
+                                      2
+                                     𝑍𝑒𝑓                          efectiva
+                          𝐸𝑛 ∝ −
+                                      𝑛2                         Zef = Z - S
+ atracción                     repulsión
+
+
+                    n-1        n
+
+
+                                           [Tema 2. Estructura atómica]
+  11. Átomos polielectrónicos
+                                       Equivalente a ψ2                                        Distribución radial
+                                       Puntos/área                                             Nº puntos
+                                 2.5                                                   6
+                                  2                                                    5
+
+
+
+
+                     Nº puntos
+
+
+
+
+                                                                           Nº puntos
+                                                                                       4
+                                 1.5
+                                                                                       3
+                                  1
+                                                                                       2
+                                 0.5                                                   1
+                                  0                                                    0
+                                       1      2     3    4       5                         1      2     3     4      5
+                                            Lado del cuadrado                                    Lado del cuadrado
+
+
+Cuadrado     Lado          Nº puntos                         Nº puntos                         Área           Puntos/área
+                        (En el cuadrado)                      (dentro)
+Rojo           1                       2                             2                         12=1               2/1 = 2
+Naranja        2                       3                        2+3=5                          22=4            5/4 = 1,25
+Verde          3                       5                     5 + 5 = 10                        32=9            10/9=1,11
+Azul           4                       4                     10 + 4 = 14                       42=16          14/16=0,875
+Morado         5                       3                     14 + 3 = 17                       52=25          17/25=0,68
+
+
+                                           [Tema 2. Estructura atómica]
+11. Átomos polielectrónicos
+
+El apantallamiento (S) que sufre un electrón depende de su cercanía al núcleo que
+viene determinado por la penetración del orbital que está relacionado con la
+distribución de probabilidad radial [R2(r) · 4r2].
+
+
+
+
+                                                                    probabilidad radial
+ probabilidad radial
+
+
+
+
+                       1s
+                                                                                                         3s
+
+
+
+
+                                                                                                         3p
+                                  2s
+
+                                              3s                                                         3d
+
+                            5a0        15a0    20a0                                       5a0   15a0   20a0
+
+Cuanto menor es el valor de l, los e- están más próximos al núcleo. Un electrón 1s está más cerca
+del núcleo que uno 2s y éste más cerca que un e 2p. Un e- 2s muestra mayor penetración que un e-
+2p y, por tanto, está menos apantallado.
+
+                                                   [Tema 2. Estructura atómica]
+    11. Átomos polielectrónicos
+
+    El apantallamiento (S) tiene como consecuencia la ruptura de la degeneración de los
+    orbitales en una capa tal y como se daba en el átomo de hidrógeno.
+
+
+                                                          3d                         3d
+       3s     3p           3d               3p
+                                     3s                                 3p
+                                                                  3s
+       2s      2p                            2p
+                                     2s                                 2p
+E
+                                                                  2s
+       1s
+                                    1s
+                                                                  1s
+
+
+               H (Z = 1)                    Li (Z = 3)                 Na (Z = 11)
+
+
+
+
+                                   [Tema 2. Estructura atómica]
+12. Configuraciones electrónicas
+
+La colocación de los electrones en los orbitales en orden creciente de energía es lo que se
+denomina configuración electrónica de un átomo.
+
+
+    «sólo se pueden ocupar los orbitales con un
+    máximo de dos electrones, en orden creciente
+    de energía orbital: los orbitales de menor
+    energía se llenan antes que los de mayor
+    energía»
+
+                                                                    Diagrama de Moeller
+
+El Principio de construcción progresiva (principio de Aufbau) establece un orden de llenado en
+forma diagonal desde arriba hacia abajo y de derecha a izquierda siguiendo el principio de
+exclusión de Pauli y la regla de Hund:
+1) Principio de exclusión de Pauli: Dos electrones de un átomo no pueden tener los cuatro
+números cuánticos iguales.
+2) Regla de Hund: Los electrones ocupan inicialmente los orbitales de idéntica energía de forma
+desapareada.
+
+
+                                   [Tema 2. Estructura atómica]
+12. Configuraciones electrónicas
+
+La configuración electrónica de un átomo (p. ej. C (Z= 6)) se puede expresar de tres
+formas distintas:
+
+
+1) Notación spdf condensada: 1s22s22p2
+
+2) Notación spdf desarrollada: 1s22s22px12py1
+
+3) Diagrama de orbitales:
+                              1s    2s           2p
+
+
+
+
+                               [Tema 2. Estructura atómica]
+12. Configuraciones electrónicas
+
+                Configuraciones electrónicas especialmente estables
+Las configuraciones de capa cerrada son especialmente estables como la de los gases
+nobles. Por ello con la excepción del hidrógeno y el helio, las configuraciones
+electrónicas de todos los elementos se representan a partir del gas noble que
+antecede al elemento a considerar.
+
+
+                   He, Z = 2                                   He: 1s2
+                               1s
+
+
+                   C, Z = 6                                    C: [He] 2s2 2p2
+                               1s    2s           2p
+
+
+
+
+                                [Tema 2. Estructura atómica]
+12. Configuraciones electrónicas
+
+                    Anomalías de configuración electrónica
+Las configuraciones semillenas presentan una estabilidad extra lo que provoca
+anomalías en el llenado de orbitales. Es más estable llenar dos medios orbitales que
+completar uno y dejar el otro a uno o dos electrones de estar completado a la mitad.
+
+
+                        24Cr:[Ar]4s23d4 : es incorrecto.
+
+
+                        24Cr: [Ar]4s13d5 : es correcto.
+
+
+
+                        29Cu: [Ar]4s23d9 : es incorrecto.
+
+
+                        29Cu: [Ar]4s13d10 : es correcto.
+
+
+
+
+                                [Tema 2. Estructura atómica]
+
