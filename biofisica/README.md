@@ -13,6 +13,8 @@ Profesor: Rafael J. Montoro. Dpto. de Fisiología Médica y Biofísica.
 | `apuntes/tema11/` | Apuntes completos del Tema 11 en PDF con el modelo de Javier (`Tema11_Potencial_de_accion_apuntes.pdf`), generados desde `tema11_apuntes.html` |
 | `transcripciones/clase03_…` | Última clase del Tema 11: repaso I/V y compuerta, umbral, respuesta regenerativa, todo o nada, período refractario, propagación sin decremento (deja pregunta pendiente para la clase siguiente) |
 | `transcripciones/clase04_…` | Repaso del umbral y del pico (+30 mV, Goldman), de qué depende la amplitud del potencial de acción (respuesta a la pregunta pendiente) e inicio del Tema 12 (concepto, sentido de propagación, cono axónico) |
+| `temas/Tema_13_integracion_neuronal.pdf` | Tema 13: integración neuronal (aferencias, Gray I/II, potencial de reversión, compartimentos, reflejos, coactivación α-γ, localización, plasticidad NMDA) y propiedades intrínsecas (conductancias, patrones de disparo). Sin transcripción todavía |
+| `apuntes/tema13/` | Apuntes del Tema 13 en PDF con el modelo de Javier, escritos solo con las diapositivas («aún no explicado en clase») |
 | `transcripciones/clase01_…` | Final del Tema 10 (repaso: RC, τ, sumación temporal, λ, sumación espacial) + inicio del Tema 11 (fases, experimento de Na⁺ externo, canales de Na⁺ y K⁺) |
 | `transcripciones/clase02_…` | Tema 11: voltage clamp, patch clamp (configuraciones), eliminación de corrientes pasivas, separación de I_Na e I_K, curvas I/V, conductancias, corriente de compuerta, pregunta sobre el umbral |
 

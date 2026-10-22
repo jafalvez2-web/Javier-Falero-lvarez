@@ -1,0 +1,255 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Tema 13 · Integración neuronal</title>
+<style>
+  @page {
+    size: A4;
+    margin: 22mm 20mm 22mm 20mm;
+    @top-left { content: ""; border-bottom: 2.5px solid #c3a27a; width: 100%; vertical-align: bottom; margin-bottom: 6mm; }
+    @bottom-left { content: counter(page); border-top: 2.5px solid #c3a27a; width: 100%; vertical-align: top; padding-top: 3mm; font-family: Carlito, sans-serif; font-size: 10pt; color: #333; }
+  }
+  body { font-family: Carlito, "Liberation Sans", sans-serif; font-size: 11.5pt; line-height: 1.75; color: #222; background: #fff; }
+  h1 { font-family: "Inter Display", sans-serif; font-weight: 900; font-size: 33pt; line-height: 1.08; letter-spacing: .3px; transform: scaleX(.84); transform-origin: left; width: 119%; margin: 4mm 0 5mm; color: #111; }
+  .regla { border: 0; border-top: 3px solid #c3a27a; margin: 0 0 8mm; }
+  h2 { font-family: Carlito, sans-serif; font-weight: 700; font-size: 16.5pt; margin: 9mm 0 3mm; color: #111; break-after: avoid; }
+  h3 { font-family: Carlito, sans-serif; font-weight: 700; font-size: 13.5pt; color: #9b7b55; margin: 6mm 0 2mm; break-after: avoid; }
+  p { margin: 0 0 3.2mm; }
+  ul, ol { margin: 0 0 3.2mm; padding-left: 7mm; }
+  li { margin-bottom: 1.6mm; }
+  .formula { background: #f7f3ec; border-top: 1px solid #e3d8c6; border-bottom: 1px solid #e3d8c6; text-align: center; padding: 3.5mm 4mm; margin: 3mm 0 4mm; font-family: "DejaVu Serif", "Liberation Serif", serif; font-size: 12.5pt; line-height: 1.6; break-inside: avoid; }
+  .caja { background: #f7f3ec; border-left: 5px solid #b0906a; padding: 3.5mm 5mm 1.5mm; margin: 4mm 0 5mm; break-inside: avoid; font-size: 11pt; }
+  .caja .tit { font-size: 9.5pt; font-weight: 700; letter-spacing: .8px; color: #9b7b55; text-transform: uppercase; margin-bottom: 1.5mm; }
+  figure { margin: 3mm auto 5mm; text-align: center; break-inside: avoid; }
+  figure img { max-width: 82%; max-height: 95mm; }
+  figure.peq img { max-width: 60%; }
+  table { border-collapse: collapse; width: 100%; font-size: 10.5pt; margin: 3mm 0 5mm; break-inside: avoid; }
+  th, td { border: 1px solid #e3d8c6; padding: 1.5mm 2mm; text-align: left; vertical-align: top; }
+  th { background: #f7f3ec; color: #7a5f3f; }
+  sub, sup { line-height: 0; }
+</style>
+</head>
+<body>
+
+<h1>TEMA 13 : INTEGRACIÓN<br>NEURONAL</h1>
+<hr class="regla">
+
+<div class="caja">
+<div class="tit">Cómo están hechos estos apuntes</div>
+<p>Este tema <b>aún no se ha explicado en clase</b>. Está escrito a partir de las diapositivas, razonando como lo hace el profesor (con Goldman, con I = g·(V<sub>m</sub> − E), con λ y τ, y con ejemplos con números), para poder seguir la clase. Lo que no viene en las diapositivas va marcado entre paréntesis. Cuando lleguen las transcripciones, se cambiará por lo que diga él.</p>
+</div>
+
+<p>Este tema junta todo lo anterior. En el tema 10 vimos cómo se comportan pasivamente los potenciales en el tiempo y en el espacio (τ y λ), en el 11 cómo se genera un potencial de acción y en el 12 cómo se conduce. Ahora la pregunta es: si a una neurona le llegan miles de señales, <b>¿cómo decide si dispara o no, y cómo dispara?</b> Tiene dos partes:</p>
+<ol>
+<li><b>Integración neuronal:</b> cómo se suman las aferencias excitatorias e inhibitorias que llegan a una neurona, y de qué depende el resultado (el tipo de aferencia, dónde llega, el circuito del que forma parte y el aprendizaje).</li>
+<li><b>Propiedades eléctricas intrínsecas:</b> qué canales tiene cada neurona y cómo eso hace que unas disparen de una manera y otras de otra (los patrones de disparo).</li>
+</ol>
+
+<h2>1.INTEGRACIÓN NEURONAL</h2>
+
+<h3>Concepto</h3>
+<p>La diapositiva empieza con Cajal y uno de sus dibujos de la corteza. La idea es que el sistema nervioso basa su capacidad, y también su dificultad para entenderlo, en dos cosas: el <b>número de células</b> y la <b>individualidad de cada una</b>. Ninguna neurona es igual a otra.</p>
+<p>¿Y de dónde sale esa individualidad? De dos cosas, que son justo las dos partes del tema:</p>
+<ul>
+<li>De sus <b>conexiones</b>: qué aferencias le llegan, de qué tipo y dónde.</li>
+<li>De sus <b>propiedades intrínsecas</b>: qué canales tiene, que deciden cómo responde a lo que le llega.</li>
+</ul>
+<p>Integrar es eso: sumar todo lo que le llega a una neurona en un momento dado y, según el resultado, generar o no potenciales de acción.</p>
+
+<figure><img src="img/diap03.png"></figure>
+
+<h3>Tipos de aferencias sinápticas</h3>
+<p>Hay dos tipos de aferencias:</p>
+<ul>
+<li><b>Excitatorias:</b> producen un <b>potencial postsináptico excitador (PPSE, o EPSP en inglés)</b>, que despolariza y <b>facilita</b> que se genere un potencial de acción.</li>
+<li><b>Inhibitorias:</b> producen un <b>potencial postsináptico inhibidor (PPSI, o IPSP)</b>, que <b>disminuye</b> la posibilidad de generar un potencial de acción.</li>
+</ul>
+<p>En la diapositiva, arriba (A), está el montaje: una interneurona inhibitoria que hace sinapsis sobre una motoneurona, cada una con su electrodo para inyectar corriente y su electrodo para registrar. Abajo (B) hay tres registros de la motoneurona, todos con el reposo en −65 mV y el umbral en −55 mV:</p>
+<ol>
+<li><b>PPSE solo:</b> el potencial sube desde −65 mV, <b>llega al umbral</b> (−55 mV) y se dispara un potencial de acción que llega a +40 mV. La línea que sigue por debajo es lo que habría hecho el PPSE si no hubiera disparado. Fíjate en que la gráfica marca E<sub>EPSP</sub> en <b>0 mV</b>: es el potencial hacia el que tira la sinapsis excitatoria (esto se explica en el registro electrofisiológico).</li>
+<li><b>PPSI solo:</b> el potencial baja de −65 a unos −70 mV. Se aleja del umbral.</li>
+<li><b>PPSE + PPSI a la vez:</b> el potencial apenas sube un poquito y <b>no llega al umbral</b>. La inhibición ha anulado a la excitación, y no hay potencial de acción.</li>
+</ol>
+
+<figure><img src="img/diap04.png"></figure>
+
+<h3>Morfología de las aferencias sinápticas</h3>
+<p>Al microscopio electrónico las sinapsis se distinguen en dos tipos, descritos por Gray:</p>
+
+<table>
+<tr><th></th><th>Gray tipo I</th><th>Gray tipo II</th></tr>
+<tr><td><b>Neurotransmisor</b></td><td>Glutamatérgicas (excitatorias)</td><td>GABAérgicas (inhibitorias)</td></tr>
+<tr><td><b>Zona activa</b></td><td>Grande, de 1–2 µm²</td><td>Pequeña, menor de 1 µm²</td></tr>
+<tr><td><b>Hendidura sináptica</b></td><td>Ancha, unos 30 nm</td><td>Estrecha, unos 20 nm</td></tr>
+<tr><td><b>Vesículas</b></td><td>Redondeadas</td><td>Ovaladas o aplanadas</td></tr>
+<tr><td><b>Localización</b></td><td>Sobre todo en dendritas</td><td>Sobre todo en el soma</td></tr>
+</table>
+
+<p>En el dibujo de la neurona se ven las sinapsis tipo I en la dendrita, tanto sobre una espina (<i>spine synapse</i>) como directamente sobre el tronco de la dendrita (<i>shaft synapse</i>): son <b>axodendríticas</b>. La tipo II está sobre el soma: es <b>axosomática</b>. A la derecha está cada una ampliada, con la zona activa, las vesículas y la densidad postsináptica.</p>
+<p>(Esto no viene en la diapositiva.) Que las inhibitorias estén sobre todo en el soma tiene sentido con lo del tema 10 y el 12: el soma está pegado al cono axónico, que es donde se decide si se dispara. Una inhibición ahí pierde muy poco por el camino y es muy eficaz. Se verá mejor en «Importancia de la localización de la aferencia».</p>
+
+<figure><img src="img/diap05.png"></figure>
+
+<h3>Registro electrofisiológico: el potencial de reversión</h3>
+<p>Para saber qué iones mueve una sinapsis se hace un experimento parecido a las curvas I/V del tema 11. Se fija el potencial de membrana de la neurona postsináptica a distintos valores y, a cada uno, se estimula la presináptica y se registra qué pasa. En la columna C se registra el <b>potencial postsináptico</b> y en la D la <b>corriente postsináptica</b>, con voltage clamp.</p>
+<p>Empezando por abajo en la sinapsis <b>excitatoria</b>:</p>
+<ul>
+<li>A <b>−80 mV</b> (E<sub>K</sub>) el potencial postsináptico es una despolarización grande y la corriente es grande y <b>hacia dentro</b>.</li>
+<li>A −70 y a −65 mV (el reposo) sigue siendo una despolarización con corriente hacia dentro, pero algo menor.</li>
+<li>A −20 mV es ya pequeña.</li>
+<li>A <b>0 mV no pasa nada</b>: ni potencial ni corriente.</li>
+<li>A +20 y a +55 mV (E<sub>Na</sub>) se <b>invierte</b>: la sinapsis hiperpolariza y la corriente va <b>hacia fuera</b>.</li>
+</ul>
+<p>Ese voltaje al que no pasa nada y a partir del cual se invierte es el <b>potencial de reversión</b>, aquí <b>E<sub>EPSP</sub> = 0 mV</b>. Es la misma idea de siempre:</p>
+
+<div class="formula">I<sub>sináptica</sub> = g<sub>sináptica</sub> · (V<sub>m</sub> − E<sub>reversión</sub>)</div>
+
+<p>Cuanto más lejos esté V<sub>m</sub> del potencial de reversión, más corriente. Si V<sub>m</sub> está por debajo, la corriente es hacia dentro y despolariza; si está por encima, hacia fuera e hiperpolariza; y si coincide, no hay corriente aunque los canales estén abiertos. Es lo mismo que pasaba con la corriente de sodio al llegar a E<sub>Na</sub> en el tema 11.</p>
+<p>Las columnas de la derecha dicen qué iones se mueven. El <b>sodio</b> (flechas rojas) entra, y entra más cuanto más negativo es el potencial, porque más lejos estamos de E<sub>Na</sub>. El <b>potasio</b> (flechas moradas) sale, y sale más cuanto más positivo es el potencial, porque más lejos estamos de E<sub>K</sub>. A 0 mV la entrada de sodio y la salida de potasio son iguales y se compensan. O sea, el canal deja pasar <b>sodio y potasio a la vez</b>, y su potencial de reversión queda <b>entre E<sub>K</sub> y E<sub>Na</sub></b>, en 0 mV.</p>
+<p>(Esto no viene en la diapositiva.) Es el mismo razonamiento de Goldman que explicaba el pico del potencial de acción: cuando una membrana es permeable a dos iones, el potencial va a un valor intermedio entre sus potenciales de equilibrio. Este tipo de canal catiónico no selectivo es, por ejemplo, el receptor de glutamato AMPA o el receptor nicotínico.</p>
+<p>La diapositiva añade que, <b>para saber la especificidad iónica</b>, se cambian las concentraciones iónicas. Si al cambiar el sodio de fuera se desplaza el potencial de reversión, el canal deja pasar sodio; si no se mueve, no. Es la misma estrategia que la de bajar el sodio al 10 % en el tema 11.</p>
+
+<figure><img src="img/diap06.png"></figure>
+
+<p>En la sinapsis <b>inhibitoria</b> (receptor GABA<sub>A</sub> o de glicina), el potencial de reversión coincide con <b>E<sub>Cl</sub> = −70 mV</b>, porque el canal deja pasar <b>cloruro</b>:</p>
+<ul>
+<li>A <b>−40 mV</b> el potencial postsináptico es una hiperpolarización clara. Entra cloruro (flecha hacia abajo), y como es una carga negativa entrando, en la convención eléctrica es una corriente <b>hacia fuera</b>.</li>
+<li>En el reposo, a <b>−65 mV</b>, la hiperpolarización es muy pequeña, porque estamos muy cerca de E<sub>Cl</sub>.</li>
+<li>A <b>−70 mV</b> (E<sub>Cl</sub>) no pasa nada.</li>
+<li>A −80 y a −100 mV se invierte: <b>sale</b> cloruro y la sinapsis <b>despolariza</b> un poco, con corriente hacia dentro.</li>
+</ul>
+
+<figure><img src="img/diap07.png"></figure>
+
+<div class="caja">
+<div class="tit">Por qué inhibe aunque casi no se note</div>
+<p>(Esto no viene en la diapositiva.) En reposo el PPSI apenas mueve el potencial, porque −65 está muy cerca de −70. Su efecto está en que, al abrirse los canales de cloruro, la membrana <b>se queda «sujeta» cerca de −70 mV</b>, que está por debajo del umbral. Si a la vez llega un PPSE que intenta subir el potencial, la corriente de cloruro tira en contra, como se veía en el registro de PPSE + PPSI. Lo que decide si una sinapsis es inhibitoria no es si baja o sube el potencial, sino si su potencial de reversión está <b>por debajo del umbral</b>.</p>
+</div>
+
+<h3>Suma de aferencias sinápticas</h3>
+<p>En la realidad a una neurona no le llega una sola aferencia, sino <b>muchas, más o menos sincronizadas</b>, excitatorias e inhibitorias a la vez. La suma de todas ellas es lo que determina si se genera o no un potencial de acción. Es la misma figura de antes: una PPSE sola dispara, pero con una PPSI a la vez ya no.</p>
+<p>Esa suma es la <b>sumación temporal</b> (una misma aferencia que llega varias veces seguidas, y que depende de τ) y la <b>sumación espacial</b> (aferencias distintas que llegan a la vez a sitios distintos, y que depende de λ), del tema 10.</p>
+
+<figure><img src="img/diap08.png"></figure>
+
+<h3>Compartimentos neuronales de integración</h3>
+<p>La neurona no es igual en todas partes. Cada zona tiene <b>canales distintos</b> y, por tanto, una función distinta:</p>
+<ul>
+<li><b>Compartimento somatodendrítico</b> (azul): canales <b>activados por ligando</b>, los receptores de los neurotransmisores. Ahí llegan los potenciales sinápticos y se <b>integran</b>, con sumación espacial y temporal, a través de receptores ionotrópicos y metabotrópicos.</li>
+<li><b>Segmento inicial del axón</b>: donde se <b>inicia el potencial de acción</b>. Del tema 12 sabemos que es porque ahí hay más densidad de canales de sodio y el umbral es más bajo.</li>
+<li><b>Axón</b> (verde): canales de <b>Na<sup>+</sup> y K<sup>+</sup> activados por voltaje</b>, que <b>conducen</b> el potencial de acción.</li>
+<li><b>Terminal axónico</b> (rojo): canales de <b>Ca<sup>2+</sup> activados por voltaje</b>. Cuando llega el potencial de acción entra calcio y se libera el neurotransmisor (el acoplamiento estímulo-secreción del tema 6).</li>
+</ul>
+
+<figure class="peq"><img src="img/diap09.png"></figure>
+
+<p>La segunda figura lo resume en una neurona con mielina. Arriba, las dendritas y el soma con los potenciales sinápticos (PPSE y PPSI), donde está la <b>integración</b>. La flecha marca el <b>inicio de los potenciales de acción</b> en el segmento inicial. A lo largo del axón mielinizado, con sus nódulos de Ranvier, está la <b>conducción del impulso</b>. Y abajo del todo, la <b>liberación del neurotransmisor</b>.</p>
+
+<figure><img src="img/diap10.png"></figure>
+
+<h3>Integración en reflejos</h3>
+<p>El ejemplo más sencillo de integración es un <b>reflejo</b>. Tiene tres elementos:</p>
+<ul>
+<li><b>Sensor:</b> detecta el estímulo.</li>
+<li><b>Integrador:</b> recibe la información y decide la respuesta. En un reflejo espinal, la médula.</li>
+<li><b>Efector:</b> ejecuta la respuesta, por ejemplo un músculo.</li>
+</ul>
+<p>El de la diapositiva es el <b>reflejo rotuliano</b> (A). Se golpea el tendón bajo la rodilla y se estira el cuádriceps, que es el músculo extensor. El <b>sensor</b> es el <b>huso muscular</b> del cuádriceps, que detecta el estiramiento. Su neurona sensorial manda potenciales de acción a la médula, el <b>integrador</b>, donde hace dos cosas a la vez:</p>
+<ol>
+<li>Hace sinapsis <b>directamente</b> sobre la motoneurona del extensor y la <b>excita</b>: el cuádriceps se contrae y la pierna se estira.</li>
+<li>Excita a una <b>interneurona inhibitoria</b>, que a su vez <b>inhibe</b> a la motoneurona del flexor (los isquiotibiales). Así el músculo contrario se relaja y no se opone al movimiento.</li>
+</ol>
+<p>Los <b>efectores</b> son los dos músculos. (El nombre de este reparto excitar-inhibir es inervación recíproca; no viene en la diapositiva.)</p>
+<p>En B está el montaje para comprobarlo. Se estimulan las fibras aferentes Ia de los husos del cuádriceps con electrodos extracelulares. Arriba, el registro de la derecha muestra el potencial de acción de la neurona sensorial y, un poco después, un <b>PPSE</b> en la motoneurona del extensor. Abajo, el potencial de acción de la interneurona y, después, un <b>PPSI</b> en la motoneurona del flexor. La misma aferencia produce excitación en un sitio e inhibición en otro, según el circuito.</p>
+
+<figure><img src="img/diap11.png"></figure>
+
+<h3>Respuesta condicionada: coactivación alfa-gamma</h3>
+<p>En un reflejo la respuesta está <b>condicionada</b>: la decide el propio circuito. La diapositiva lo muestra con la <b>coactivación alfa-gamma</b>, que sirve para mantener un músculo a la longitud deseada aunque cambie la carga.</p>
+<p>En el músculo hay dos tipos de fibras, cada una con su motoneurona. Las <b>fibras normales</b> (extrafusales) las mueven las <b>motoneuronas alfa</b>. Las <b>fibras del huso</b> las mueven las <b>motoneuronas gamma</b> (<i>gamma bias</i>), que ajustan la tensión del huso para que siga siendo sensible. El huso informa a la médula por la fibra <b>Ia</b>, que es la que se registra arriba (R).</p>
+<ul>
+<li><b>A, longitud deseada:</b> el huso está tenso gracias a la gamma y la fibra Ia descarga a un ritmo constante (las rayitas de arriba).</li>
+<li><b>B, más carga:</b> el peso estira el músculo y el huso, y la Ia <b>descarga mucho más</b>. En la médula eso excita más a la motoneurona alfa (<i>increased output</i>), el músculo se contrae y vuelve a la longitud deseada.</li>
+<li><b>C, menos carga:</b> el músculo se acorta, el huso se afloja y la Ia <b>se queda en silencio</b>. No hay excitación de la alfa (<i>no output</i>).</li>
+</ul>
+
+<figure><img src="img/diap12.png"></figure>
+
+<h3>Integración general</h3>
+<p>Pero los reflejos son lo sencillo. En general, una neurona recibe <b>miles de aferencias</b> y forma parte de muchos circuitos distintos a la vez. De todo eso, en un momento determinado, saldrá o no una respuesta.</p>
+<p>En la figura (A) el soma y las dendritas están literalmente cubiertos de terminales presinápticos, y se ve el segmento inicial y el axón con su vaina de mielina. La escala es de 0,1 mm. En la foto (B), con fluorescencia, la neurona está en verde y los puntos rojos sobre ella son terminales sinápticos.</p>
+
+<figure><img src="img/diap13.png"></figure>
+
+<h3>Importancia de la localización de la aferencia sináptica</h3>
+<p>La integración se hace finalmente en el <b>soma y el cono axónico</b>, así que <b>la distancia a la que llega cada aferencia es fundamental</b>. En la figura hay una neurona con dos electrodos de registro: V<sub>2</sub> en la dendrita, lejos, y V<sub>1</sub> en el soma. Y hay dos aferencias inhibitorias:</p>
+<ul>
+<li><b>Célula A, axodendrítica</b> (llega a la dendrita, lejos del soma). En V<sub>2</sub>, junto a ella, el PPSI es grande. En V<sub>1</sub>, en el soma, llega <b>muy pequeño</b>.</li>
+<li><b>Célula B, axosomática</b> (llega al soma). En V<sub>1</sub> es grande, y en V<sub>2</sub>, lejos, pequeño.</li>
+</ul>
+<p>Es λ otra vez: un potencial sináptico es pasivo y se va haciendo más pequeño con la distancia. Una aferencia en el soma, al lado de la zona gatillo, influye mucho más en si se dispara o no que una en la punta de una dendrita. Esto encaja con que las sinapsis inhibitorias, las tipo II de Gray, estén sobre todo en el soma.</p>
+<p>La diapositiva lo compara con golpear un balón: la respuesta <b>no está definida de antemano</b>, sino que se puede <b>modular</b>, igual que el resultado de un golpe depende de la fuerza, la dirección y el lugar donde se golpea. Es una respuesta <b>no condicionada</b>, al contrario que la de un reflejo. Y además esa respuesta es <b>susceptible de aprendizaje</b>.</p>
+
+<figure><img src="img/diap14.png"></figure>
+
+<h3>Plasticidad neuronal</h3>
+<p>Con el aprendizaje se puede modificar <b>la importancia que tienen las aferencias</b>, es decir, hacer que una misma sinapsis tenga más efecto que antes. El ejemplo de la diapositiva es el del <b>receptor NMDA</b>, y va en cuatro pasos:</p>
+<ol>
+<li><b>En reposo:</b> la membrana postsináptica está polarizada. Hay dos receptores de glutamato: el <b>AMPA</b> (azul) y el <b>NMDA</b> (verde), que tiene el poro <b>tapado por un ion de Mg<sup>2+</sup></b>.</li>
+<li><b>Llega el glutamato:</b> se une a los dos, pero solo se abre de verdad el AMPA. Entra <b>Na<sup>+</sup></b> y la membrana se despolariza.</li>
+<li><b>La despolarización expulsa el Mg<sup>2+</sup></b> del NMDA. Con el glutamato unido y el poro ya libre, el NMDA deja entrar <b>Ca<sup>2+</sup></b>.</li>
+<li><b>El calcio que ha entrado</b> hace que la célula postsináptica <b>inserte nuevos receptores AMPA</b> en la membrana. A partir de ahí, el mismo glutamato produce más corriente: la sinapsis se ha <b>potenciado</b>.</li>
+</ol>
+<p>Lo importante, como dice la diapositiva, es que en el NMDA <b>importa el potencial de membrana de la postsináptica cuando llega el neurotransmisor</b>. Si llega el glutamato pero la membrana está en reposo, el magnesio sigue tapando y no entra calcio. Solo se potencia la sinapsis si coinciden las dos cosas: que llegue el glutamato y que la membrana esté despolarizada. (A esto se le suele llamar detector de coincidencia, y al refuerzo de la sinapsis, potenciación a largo plazo; no viene en la diapositiva.)</p>
+
+<figure><img src="img/diap15.png"></figure>
+
+<h2>2.PROPIEDADES ELÉCTRICAS INTRÍNSECAS DE LAS NEURONAS</h2>
+
+<h3>Conductancias iónicas subyacentes</h3>
+<p>En el tema 11 el potencial de acción se explicó con dos corrientes: la de sodio que se activa y se inactiva rápido, y la de potasio retardada. Pero las neuronas tienen <b>muchas más corrientes</b>, cada una con su propia cinética. Gracias a esa <b>diversidad de cinéticas</b>, y a que algunas dependen de otras, se puede modular el <b>número y la frecuencia de potenciales de acción</b> que genera una neurona.</p>
+<p>La figura muestra la forma de cada corriente ante un pulso de voltaje, de −100 a −10 mV. A la izquierda están las <b>corrientes hacia dentro</b>:</p>
+<ul>
+<li><b>I<sub>Nat</sub></b> (sodio transitoria): un pico rapidísimo que desaparece enseguida. Es la del potencial de acción del tema 11, que se inactiva en un milisegundo.</li>
+<li><b>I<sub>Nap</sub></b> (sodio persistente): se activa y se queda, no se inactiva.</li>
+<li><b>I<sub>L</sub></b> (calcio tipo L): entra calcio, y se va reduciendo muy lentamente.</li>
+<li><b>I<sub>T</sub></b> (calcio tipo T, de transitoria): sube rápido y se inactiva bastante deprisa.</li>
+<li><b>I<sub>N</sub></b> (calcio tipo N): parecida, también se inactiva.</li>
+<li><b>I<sub>h</sub></b>: es especial, porque se activa al <b>hiperpolarizar</b>, no al despolarizar. Por eso su pulso es al revés, de −10 a −100 mV. Deja pasar Na<sup>+</sup> y K<sup>+</sup>, y se activa lentamente.</li>
+</ul>
+<p>A la derecha están las <b>corrientes hacia fuera</b>, todas de potasio:</p>
+<ul>
+<li><b>I<sub>K</sub></b>: la retardada del tema 11, que sube y se mantiene.</li>
+<li><b>I<sub>C</sub></b>: de potasio activada por calcio (por eso la C). Es un ejemplo de interdependencia: depende de que antes haya entrado calcio.</li>
+<li><b>I<sub>A</sub></b>: de potasio transitoria, que sube y se inactiva.</li>
+<li><b>I<sub>M</sub></b>: de potasio muy lenta, que va subiendo poco a poco.</li>
+</ul>
+<p>(Lo que sigue no viene en la diapositiva.) Con la misma regla de Goldman se puede intuir qué hace cada una. Las hacia dentro (sodio y calcio) acercan la membrana a sus potenciales de equilibrio positivos y facilitan el disparo. Las hacia fuera de potasio la acercan a E<sub>K</sub> y lo frenan. Por ejemplo, una corriente lenta de potasio como la I<sub>M</sub>, o la I<sub>C</sub> que se va acumulando según entra calcio, hace que los potenciales de acción se vayan espaciando durante un estímulo largo. Y la I<sub>T</sub> de calcio, si la neurona está hiperpolarizada (con sus canales desinactivados), puede producir una despolarización que dispare una ráfaga.</p>
+
+<figure><img src="img/diap16.png"></figure>
+
+<h3>Patrones de disparo</h3>
+<p>Ese número y frecuencia de potenciales de acción es lo que se llama el <b>patrón de disparo</b>. La diapositiva muestra el corte de un cerebro con el registro de distintas neuronas, cada una ante un pulso de corriente (el escalón de arriba):</p>
+<ul>
+<li><b>A, célula piramidal de la corteza</b>: <b>disparo regular</b>. Durante el pulso dispara potenciales de acción separados de forma regular.</li>
+<li><b>B, otra célula de la corteza</b>: <b>disparo en ráfaga</b> (<i>burst</i>). Dispara varios potenciales de acción muy seguidos al principio y luego para.</li>
+<li><b>C, célula de Purkinje del cerebelo</b>: un patrón complejo, con disparo muy rápido que se interrumpe y se recupera.</li>
+<li><b>D y E, la misma célula del tálamo</b>: si parte de <b>−75 mV</b>, dispara en <b>ráfaga</b> (<i>burst mode</i>); si parte de <b>−65 mV</b>, dispara potenciales de acción sueltos y regulares (<i>transfer mode</i>). (No viene en la diapositiva: la diferencia probablemente está en la I<sub>T</sub> de calcio, que solo está disponible si la célula parte de un potencial negativo.)</li>
+<li><b>F, célula de la habénula medial</b>: dispara potenciales de acción espaciados de forma regular, del orden de uno por segundo (fíjate en la escala de 1 s).</li>
+</ul>
+<p>El ejemplo del tálamo es el más interesante: <b>la misma neurona</b> responde de forma distinta al mismo estímulo según el potencial de membrana del que parta, porque eso cambia qué canales tiene disponibles.</p>
+
+<figure><img src="img/diap17.png"></figure>
+
+<h3>Patrones fundamentales de disparo</h3>
+<p>Al final todo se resume en dos patrones básicos ante una corriente despolarizante mantenida (la barra azul):</p>
+<ul>
+<li><b>Disparo tónico:</b> la neurona dispara potenciales de acción <b>de forma continua</b> mientras dura el estímulo. En (a) muy deprisa y muy regular, a lo largo de unos 100 ms. En (b) también continuo, pero más espaciado (fíjate en que la escala ahora es de 50 ms).</li>
+<li><b>Disparo fásico:</b> la neurona dispara <b>a ráfagas</b>. En (c) se ven grupos de varios potenciales de acción muy juntos, separados por periodos sin disparo, aunque el estímulo sigue presente.</li>
+</ul>
+
+<figure><img src="img/diap18.png"></figure>
+
+</body>
+</html>
