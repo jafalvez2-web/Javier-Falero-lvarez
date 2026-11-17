@@ -1,0 +1,15 @@
+CÓMO MONTAR EL PROYECTO EN CLAUDE
+1. claude.ai → Proyectos → Crear proyecto.
+2. Pega 0_INSTRUCCIONES_PROYECTO.txt en "Instrucciones del proyecto".
+3. Sube al "Conocimiento" el archivo *_TODO_en_uno.md (el más importante) y los PDF/DOCX de conocimiento/ (si hay demasiados, prioriza los temas que estés estudiando).
+4. Ajustes → Funciones: activa crear y editar archivos.
+5. En el iPad: app de Claude → Proyectos → el mismo proyecto.
+
+PDF COMPRIMIDOS (los originales pesaban más de 30 MB, el límite por archivo de un proyecto; están en conocimiento/material_clase con el sufijo "_comprimido", con todas sus páginas):
+- TEMA 1_comprimido.pdf (5.4 MB)
+- TEMA 2 y 3_comprimido.pdf (9.7 MB)
+- Tema 11 y 12 Complemento 2025-26_comprimido.pdf (8.8 MB)
+- Tema 19 RI adaptativa_comprimido.pdf (6.9 MB)
+- Tema 6 INM FINAL_comprimido.pdf (19.7 MB)
+- Tema 9 y 10 MHC final_comprimido.pdf (10.0 MB)
+- wuolah-premium-Inmunologia.-Segundo-parcial_comprimido.pdf (5.3 MB)
