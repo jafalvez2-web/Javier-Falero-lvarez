@@ -1,0 +1,955 @@
+TEMA 7 : RECEPTOR DE ANTÍGENO DEL
+LINFOCITO T (TCR)
+
+1. LOS LINFOCITOS T: ORIGEN Y TIPOS
+
+1.1 El linaje T
+
+Todos los linfocitos salen de la médula ósea, a partir de la célula madre hematopoyética
+
+(HSC), que da lugar al progenitor linfoide común (CLP). Del CLP salen dos caminos: el
+
+linaje B y el linaje T. La decisión la toman reguladores transcripcionales, proteínas que
+
+entran en el núcleo y encienden los genes propios de cada linaje.
+
+Hacia el linaje B empujan EBF, E2A y Pax5 (Tema 6). Hacia el linaje T empuja Notch-1: es
+
+un receptor de membrana cuyo dominio intracelular, cuando recibe la señal, viaja al núcleo
+
+y activa los genes del linaje T junto con otros factores de transcripción como GATA-3. Del
+
+precursor común de los linfocitos T y las ILC salen también las ILC, dirigidas por Id2. El
+
+precursor T da lugar a la célula pro-T, de la que salen los dos tipos de linfocitos T maduros:
+
+los Hα    y los Hα   (apartado 3.5).
+
+
+1.2 Desarrollo, maduración y recirculación
+
+Los linfocitos B y T se generan en los órganos linfoides primarios y actúan en los
+
+secundarios:
+
+    Ɣ    Médula ósea: maduración de los linfocitos B.
+
+    Ɣ    Timo: maduración de los linfocitos T.
+
+    Ɣ    Sangre y linfa: recirculación, es decir, los linfocitos maduros vírgenes viajan sin
+
+         parar de un órgano linfoide a otro buscando su antígeno.
+
+
+
+
+1
+    Ɣ   Órganos linfoides secundarios (ganglios, bazo y tejidos linfoides de mucosas y
+
+        piel): encuentro con el antígeno y activación.
+
+El TCR (*T cell receptor*, receptor del linfocito T) se genera durante la maduración en el
+
+timo, mediante recombinación V(D)J, igual que el BCR (Tema 8). El camino completo es:
+
+precursor linfoide, llegada al timo, compromiso con el linaje T (Notch-1 y GATA-3),
+
+reordenamiento del TCR por las enzimas RAG1 y RAG2 (que generan un receptor único en
+
+cada linfocito), selección positiva y negativa (se eliminan o se desvían los clones que
+
+reconocen mal lo propio: es la tolerancia central), y salida como linfocito T CD4+ o CD8+
+
+virgen (naive).
+
+ͧ En clase: Una vez generados en el timo, los linfocitos T van a la circulación sanguínea y
+
+migran a los órganos linfoides secundarios, tanto al nódulo linfático como al bazo, para
+
+encontrarse con su antígeno específico, que les presenta la célula dendrítica en una
+
+molécula MHC de clase I o de clase II.
+
+
+1.3 Tipos de linfocitos T
+
+Hay tres tipos principales de linfocitos T efectores (los que hacen el trabajo):
+
+    Ɣ   Linfocitos T citotóxicos (Tc o CTL): son T CD8. Liberan gránulos citotóxicos y
+
+        matan células infectadas y células tumorales.
+
+    Ɣ   Linfocitos T cooperadores (TH, *helper*): son T CD4. Expresan CD154 (CD40L),
+
+        con el que activan a los linfocitos B (para que produzcan anticuerpos, Tema 6) y a
+
+        los macrófagos. También ayudan a los T CD8.
+
+    Ɣ   Linfocitos T reguladores (Treg): pueden ser CD4 o CD8 y expresan CD25, que es la
+
+        Vxzé xd dzé dreceptor de IL-2 (IL-2R). Su función es frenar la respuesta
+
+        inmunitaria para que no se descontrole ni ataque a lo propio.
+
+Junto a los linfocitos T, la diapositiva recuerda los linfocitos de la respuesta innata (ILC):
+
+ILC1, ILC2, ILC3 y las células NK (apartado 2.4).
+
+
+
+
+2
+ͧ En clase: Los citotóxicos eliminan células infectadas o tumorales; los cooperadores
+
+ayudan a los linfocitos B a producir anticuerpos y, de forma indirecta, a los T CD8 para que
+
+ejerzan su función citotóxica; y los reguladores inhiben la respuesta inmunitaria. Ojo: en
+
+clase dijo que las reguladoras "producen citoquinas como Th1, Th2, Th17"; no es así: Th1,
+
+Th2 y Th17 son otros tipos de linfocito T CD4, y las Treg producen citoquinas que frenan,
+
+como IL-10 y TGF- dpx x xz d73+r3
+
+
+1.4 Linfocitos T de memoria y subpoblaciones
+
+Los linfocitos T de memoria son de vida larga y permiten responder más rápido y más
+
+fuerte en un segundo contacto con el antígeno. Se caracterizan por expresar:
+
+    Ɣ   CD127 (receptor de IL-7), igual que los vírgenes.
+
+    Ɣ   Receptores de migración, que les permiten circular por los tejidos.
+
+    Ɣ   CD45RO, igual que los efectores.
+
+Las subpoblaciones de linfocitos T se identifican con marcadores de superficie. Todos son
+
+CD3+, y se dividen en CD4+ y CD8+. Dentro de cada grupo se distinguen cuatro
+
+subpoblaciones combinando dos marcadores: CCR7 (receptor de quimioquina que lleva a
+
+los linfocitos a los ganglios) y CD45RA (una forma de CD45, glucoproteína transmembrana
+
+con actividad tirosina fosfatasa, es decir, que quita fosfatos a las proteínas):
+
+    Ɣ   Vírgenes (naive): CCR7+ y CD45RA+.
+
+    Ɣ   Memoria central: GGN5od dGFyDNi 3
+
+    Ɣ   Efectores: GGN5 d dGFyDNio3
+
+    Ɣ   Memoria efectora: GGN5 d dGFyDNi 3
+
+ͧ En clase: Dentro de los linfocitos T CD8 hay subpoblaciones vírgenes (naive), efectoras,
+
+de memoria central y de memoria efectora, y lo mismo en los CD4. Los de memoria son
+
+células de larga vida con receptores de coestimulación y CD45RO.
+
+
+
+
+3
+2. ACTIVACIÓN Y DIFERENCIACIÓN DEL LINFOCITO T
+
+2.1 Reconocimiento del antígeno por el linfocito T
+
+El TCR no ve el antígeno libre: solo reconoce péptidos (trocitos de proteína) presentados
+
+en moléculas MHC de otra célula. El proceso tiene cuatro pasos: procesamiento del
+
+antígeno (la célula lo corta en péptidos), carga en el MHC, presentación en la superficie
+
+de la célula presentadora de antígeno (APC) y reconocimiento por el TCR. La principal
+
+APC es la célula dendrítica (DC).
+
+Hay dos clases de moléculas de presentación, y cada una habla con un tipo de linfocito T:
+
+    Ɣ   MHC de clase II: presenta péptidos a los linfocitos T CD4+.
+
+    Ɣ   MHC de clase I: presenta péptidos a los linfocitos T CD8+.
+
+
+
+
+4
+Una forma de recordarlo: 2 × 4 = 8 (MHC II con CD4) y 1 × 8 = 8 (MHC I con CD8). Los
+
+linfocitos T que reconocen así los péptidos tienen un H)éα     α         α α α .
+
+
+2.2 Las tres señales de activación IMP
+
+࠹ Examen: "Las 3 señales de las APC para la expansión clonal y la diferenciación del
+
+linfocito T" aparece en las recopilaciones (PT1 y PT2).
+
+A partir del encuentro entre la célula dendrítica y el linfocito T virgen se forma la sinapsis
+
+inmunológica (apartado 6), el linfocito se diferencia en célula T efectora y comienza la
+
+respuesta adaptativa. Para activarse, el linfocito T necesita tres señales:
+
+    Ɣ   Señal 1: reconocimiento. El TCR reconoce el complejo péptido-MHC de la célula
+
+        dendrítica. Da la especificidad.
+
+    Ɣ   Señal 2: coestimulación. La molécula CD28 del linfocito T se une a CD80/CD86 (B7)
+
+        de la célula dendrítica. Confirma que el antígeno viene de una situación de peligro, y
+
+        sin ella el linfocito no se activa bien.
+
+    Ɣ   Señal 3: citoquinas. Las citoquinas del ambiente, producidas por la célula
+
+        dendrítica y otras células, se unen a sus receptores en el linfocito T y deciden en
+
+        qué tipo de linfocito T efector se diferencia.
+
+Es necesario, por tanto, facilitar el encuentro entre la célula dendrítica, que ha atrapado el
+
+antígeno, y el linfocito T que lo reconoce específicamente.
+
+
+
+
+5
+2.3 Tipos de linfocitos T efectores y su diferenciación
+
+El linfocito T CD4 virgen (Thp, precursor) se diferencia en un tipo u otro según las
+
+citoquinas de la tercera señal. Cada citoquina activa en el linfocito una proteína STAT (se
+
+fosforila al unirse la citoquina a su receptor) y un factor de transcripción maestro, que
+
+define el linaje:
+
+    Ɣ   Th1: inducido por IL-12 (de la célula dendrítica o el macrófago). Usa STAT4 y el
+
+        factor T-bet. Produce IFN- . Función: inmunidad celular y eliminación de
+
+        patógenos intracelulares.
+
+    Ɣ   Th2: inducido por IL-4. Usa STAT6 y el factor GATA-3. Produce IL-4, IL-5 e IL-13.
+
+        Función: inmunidad humoral, eliminación de algunos patógenos extracelulares
+
+        (parásitos) y alergia.
+
+
+
+
+6
+    Ɣ   Th17: inducido por IL-6, IL-21, IL-23 y TGF- . Usa STAT3 y el factor é0é         . Produce
+
+        IL-17, IL-17F, IL-22 e IL-21. Función: inflamación de los tejidos, eliminación de
+
+        algunos patógenos extracelulares; también participa en la autoinmunidad.
+
+    Ɣ   Treg: inducido por IL-2 y TGF- . Usa STAT5 y el factor FOXP3. Produce IL-10 y TGF-
+
+         . Función: tolerancia y supresión de la respuesta inmunitaria.
+
+Además de estos linfocitos que se diferencian en la periferia, en el timo, los timocitos
+
+dobles positivos (CD4+ CD8+) pasan por la selección negativa, que elimina los
+
+autorreactivos, y la selección positiva, tras la cual quedan como CD4 o como CD8.
+
+Alrededor de un 5 % se convierte en linfocitos T reguladores naturales al reconocer
+
+antígenos propios con afinidad intermedia (Tema 8).
+
+ͧ En clase: Cada linaje tiene "su color": Th1 con T-bet y STAT4 inducido por IL-12; Th2 con
+
+GATA-3 y STAT6 inducido por IL-yTdjPR5dV      dN6N d dζjij+dκ z Vκz d          djLI- 2d m-6, IL-21 o
+
+IL-23; y las Treg se polarizan con TGF- 3dmx dζjijd     d    é x d    éd édH     H   κ x dxdtravés
+
+de la vía de señalización de la tercera señal. Ojo: dijo que la selección positiva sirve "para
+
+elegir CD4 o CD8"; lo que hace es seleccionar los timocitos cuyo TCR reconoce el MHC
+
+propio, y según reconozcan MHC de clase I o II, quedan como CD8 o CD4.
+
+࠹ Examen: La activación de los T CD4 en Th1 cayó en febrero 2021 y los Th2 en enero
+
+2019 (se estudian a fondo en un tema posterior).
+
+
+
+
+7
+2.4 Linfocitos de la respuesta innata (ILC) y células NK
+
+El tema recuerda que también hay linfocitos sin receptor específico (Tema 5). Las ILC son
+
+linfocitos no convencionales: no tienen receptor específico de antígeno, participan en
+
+la respuesta innata (defensa temprana frente a microbios, reconocimiento de células
+
+estresadas, dañadas o infectadas) e influyen en la respuesta adaptativa posterior. Se
+
+originan en la médula ósea a partir del CLP, con Id2: el precursor de las NK (NKP) da las
+
+NK, y el precursor de las ILC (ILCP) da las ILC1 (T-bet, IFN- r2dILC2 (GATA-3; IL-4, IL-5, IL-9, IL-
+
+13) e ILC3 pN6N Td m-22, IL-17).
+
+Las células NK son fenotípica y funcionalmente diversas, con dos subpoblaciones según
+
+CD56 y CD16: las CD56^bright, inmunorreguladoras, con alta producción de citoquinas,
+
+y las CD56^dim, citotóxicas (unas 70 %), con mucho CD16 y gran capacidad de ADCC. Se
+
+diferencian en sus receptores de superficie, su función y su localización en los tejidos.
+
+
+
+
+8
+3. ESTRUCTURA DEL TCR
+
+3.1 Moléculas que participan en el reconocimiento del antígeno
+
+El reconocimiento del antígeno por el linfocito T tiene tres etapas: procesamiento,
+
+presentación y reconocimiento por el TCR. En él participan tres moléculas: el H)é          , la
+
+molécula MHC (en humanos se llama HLA) con su péptido, y el correceptor (CD4 o CD8):
+
+    Ɣ   En los T CD8, el TCR reconoce el péptido en el MHC de clase I pVxzé xd dV     d
+
+        z   κ κ   d R2d 7d d +2d   d xd 7-microglobulina), y el CD8 se une al dominio r.
+
+    Ɣ   En los T CD4, el TCR reconoce el péptido en el MHC de clase II pVxzé x d d d 2dV      d
+
+        z   κ κ   d R2d 72d Rd d 7r2d dé dCD4 se une al dominio E.
+
+
+
+
+9
+rtEαg              α         αH)é    IMP
+
+࠹ Examen: "El receptor TCR: estructura y función" aparece en las recopilaciones (PT1 y
+
+PT2).
+
+El TCR tiene una estructura terciaria semejante a las inmunoglobulinas y el mismo
+
+plegamiento pz         κ κ    dé d   z κVPd 2djé xd4r;d é é éVédxd xdsuperfamilia de las Ig.
+
+Sus características son:
+
+     Ɣ   Es un heterodímero: está formado por dos cadenas polipeptídicas distintas, α α
+
+          , unidas por un puente disulfuro junto a la membrana.
+
+     Ɣ   Cada cadena tiene un dominio variable (V), en el extremo N-terminal, y un
+
+         dominio constante (C)3d, dPé é       z   é   d   d éd x éVédxd      dfragmento Fab de una
+
+         inmunoglobulina.
+
+     Ɣ   Las regiones V de las dos cadenas son las responsables del reconocimiento y
+
+         tienen secuencias muy variables: en ellas están las CDR1, CDR2 y CDR3 (apartado
+
+         4.2).
+
+     Ɣ   Después del dominio C hay un segmento corto (*stalk*) con la secuencia
+
+         conectora, un dominio transmembrana y una cola citoplasmática muy corta.
+
+         Las cadenas llevan carbohidratos unidos.
+
+     Ɣ   Es monovalente: tiene un solo sitio de reconocimiento del antígeno.
+
+Como su cola citoplasmática es tan corta, el TCR no puede enviar la señal al interior por
+
+sí solo3dwéVé κ xdx     Vκx édxd     x d    é x 2dGF+d d 2dV    dx d   édH      xdé dcomplejo TCR.
+
+Las cadenas del TCR interactúan con ellas mediante residuos con carga positiva en su
+
+zona transmembrana.
+
+ͧ En clase: Es un heterodímero de la superfamilia de las inmunoglobulinas, con una
+
+región variable N-terminal, donde están las tres regiones hipervariables CDR1, CDR2 y
+
+CDR3, responsables del reconocimiento específico, y una región constante C-terminal. Su
+
+
+
+
+10
+cola citoplasmática es sumamente corta, de apenas unos pocos aminoácidos, por lo que es
+
+incapaz de transmitir la señal por sí solo.
+
+
+
+
+rtrαg α             α)irα α α                   α IMP
+
+El complejo funcional del TCR tiene dos funciones, repartidas entre sus componentes:
+
+     Ɣ   Reconocimiento: lo hace el heterodímero TCR p       r2d   éd éV   Védé dV      éB d
+
+         péptido-MHC.
+
+     Ɣ   Señalización: la hacen )irα α , que transmiten la señal al núcleo y activan los
+
+         genes de proliferación, diferenciación y función efectora. Son moléculas
+
+         accesorias con motivos ITAM (*immunoreceptor tyrosine-based activation motifs*,
+
+         motivos de activación basados en tirosina), las zonas que se fosforilan para
+
+         encender la señal.
+
+
+
+
+11
+El complejo CD3 está formado por tres cadenas, yα α α , muy homólogas (parecidas)
+
+entre sí, cuyos genes están en el cromosoma 11 humano. Se organizan en dos parejas:
+
+)ir      y )ir   . Cada cadena tiene:
+
+     Ɣ   Un dominio extracelular único de la superfamilia de las Ig.
+
+     Ɣ   Un segmento transmembrana con un residuo aspártico, cargado
+
+         negativamente. Esto le permite unirse al TCR, que tiene tres residuos cargados
+
+         positivamente: la unión es no covalente, por atracción de cargas opuestas.
+
+     Ɣ   Un dominio intracitoplasmático de 44 81 aminoácidos con un ITAM.
+
+gα                 α αc   a está formado por      α           α α        unidas por un puente
+
+disulfuro. Cada cadena tiene un dominio extracelular muy corto (9 aminoácidos), un
+
+segmento transmembrana con un residuo aspártico cargado negativamente, y una cola
+
+intracitoplasmática larga (113 aminoácidos) con 3 ITAM.
+
+Sumando: 1 ITAM por cadena de CD3 pz           dGF+ 2d     dGF+ d d   dGF+ 2dé dzéVκ 2dyd jiárd d3
+
+     α       α (2 cadenas, 6 ITAM) dan 10 ITAM por complejo funcional. )irα α α                 α
+
+idénticos en todos los linfocitos T: lo que cambia de un clon a otro es solo el TCR.
+
+La señalización empieza cuando la cinasa Lck fosforila los ITAM y la cinasa ZAP-70 se une a
+
+los ITAM doblemente fosforilados (apartado 7).
+
+ͧ En clase: Insistió en el recuento: cada cadena de CD3 tiene 1 ITAM y cada cadena d
+
+tiene 3, en total 10 ITAM, fundamentales para la cascada de señalización. La unión entre el
+
+jGNd dGF+) d édPxVédé d xd é"κ     d x      é – x xd ézκx édx κ           Vκz   dV   dVx "x d
+
+opuestas: po κ κ      dé dé djGNd d é"x κ   dé dGF+d d 3
+
+
+
+
+12
+3.4 Analogías y diferencias entre el TCR y el BCR
+
+El TCR y el BCR siguen la misma lógica (receptores específicos de antígeno, con regiones
+
+variables y constantes y dominios de tipo Ig), pero tienen ligandos distintos y
+
+comportamientos diferentes:
+
+     Ɣ   BCR o anticuerpo: reconoce antígenos nativos de cualquier tipo (proteínas,
+
+         polisacáridos, lípidos y otras moléculas), sin necesidad de MHC. Puede secretarse
+
+         como anticuerpo. Tiene dos sitios de unión (es bivalente). Sufre mutaciones de
+
+         maduración de la afinidad (hipermutación somática) y cambio de isotipo.
+
+     Ɣ   TCR: reconoce principalmente péptidos presentados por MHC, es decir, reconoce
+
+         el antígeno en combinación con el MHC. Es monovalente. No se secreta ni
+
+         realiza funciones efectoras: su papel es enviar señales que activan las funciones
+
+         efectoras de la célula T. No cambia de isotipo (su región C no cambia) y no sufre
+
+         maduración de la afinidad tras reconocer el antígeno.
+
+
+13
+rtlαH)é          α αH)é
+
+Existen dos formas de TCR con estructura similar: el H)é                     y el H)é       . Las dos son
+
+heterodímeros con una región variable y una constante en cada cadena, y se parecen a las
+
+inmunoglobulinas. Se deciden en el timo: un timocito doble negativo pGFy dGFA rd                             ézéd
+
+reordenar los segmentos α α y convertirse directamente en un                                  αHα   α         ,o
+
+bien reordenar antes la cadena , expresar el pre-receptor T y después reordenar 8 ,
+
+convirtiéndose en un linfocito doble positivo (CD4+ CD8+) con H)é                       .
+
+     Ɣ     H)é       αc    αjlαRaD predomina en la sangre y los órganos linfoides; lo llevan los
+
+           linfocitos T CD4+ y CD8+; reconoce péptidos unidos a MHC de clase I o II; es la
+
+           base de la respuesta adaptativa celular.
+
+     Ɣ     H)é       αc. 5 %): son células T no convencionales. En el hombre no llegan al 5 % de
+
+           los linfocitos T, y su número varía según el tejido y la especie. Son menos frecuentes
+
+           en la sangre y abundan en los epitelios y mucosas (son el 10 % de los linfocitos
+
+           intraepiteliales intestinales), donde vigilan las barreras y el estrés de los tejidos
+
+           como primera línea de defensa. Dan una respuesta rápida, de tipo innato
+
+           (*innate-like*). La mayoría no expresan CD4 ni CD8. Reconocen ligandos más
+
+           diversos, como antígenos proteicos y no peptídicos (glucolípidos, fosfolípidos), a
+
+           menudo sin restricción por el MHC clásico. Pueden ser citotóxicos, producir IFN-
+
+            α αHF5, y participar en la defensa frente a infecciones y tumores. Algunos expresan
+
+           receptores típicos de las NK, como NKG2D, que reconoce moléculas inducidas por
+
+           estrés como MICA/MICB.
+
+Las estructuras cristalinas de los dos receptores muestran una arquitectura parecida, pero
+
+con distinta orientación entre las regiones V y C (el ángulo del codo): unos 147° en el
+
+H)é        frente a unos ..2 α      α αH)é     .
+
+ͧ En clase: Durante el desarrollo en el timo, a partir de los dobles negativos, la mayoría
+
+é     zé xd d d dp         dzé d−Ddlrd d   xd é     é xd   –   – xVκ        dzédx ézéz       dzé dDdld é    zé xd
+
+ d d 3dm     d   d    é é d é dz – é d é"x κ       2dx     édx "       dé     é x dGFAdé d          V   x Td éd
+
+
+
+14
+localizan sobre todo en epitelios y mucosas, reconocen antígenos no proteicos
+
+(fosfoantígenos, lípidos, moléculas de estrés) sin el procesamiento clásico ni la restricción
+
+por MHC, y actúan como primera línea de defensa rápida.
+
+
+
+
+4. RECONOCIMIENTO DEL ANTÍGENO POR EL TCR
+
+4.1 Características de los epítopos de los linfocitos T
+
+Los epítopos que reconocen los linfocitos T son péptidos oligoméricos (cadenas cortas de
+
+aminoácidos) que tienen que unirse a una molécula MHC. La cavidad del MHC
+
+determina la naturaleza y el tamaño del péptido: los que se unen al MHC de clase I suelen
+
+tener 9 aminoácidos, y los que se unen al MHC de clase II, entre 11 y 17.
+
+Esto explica una diferencia clave con los anticuerpos. Si se compara cómo reconocen una
+
+misma proteína, la lisozima de la clara de huevo: los anticuerpos reconocen epítopos de
+
+
+
+
+15
+su superficie, en su forma plegada (por ejemplo, tres anticuerpos distintos sobre tres
+
+zonas de la superficie). Los epítopos del linfocito T, en cambio, pueden estar en el interior
+
+de la proteína. Para que esos aminoácidos sean accesibles al linfocito T, la proteína tiene
+
+que ser procesada por la APC y presentada en el MHC.
+
+ͧ En clase: El MHC de clase I tiene una hendidura cerrada en los extremos, que aloja
+
+péptidos cortos, y el MHC de clase II un surco abierto en los extremos, que puede alojar
+
+péptidos más largos. En clase dio las cifras de 8 10 aminoácidos para el MHC I y de 13 18
+
+(o incluso más de 20) para el MHC II; las de la diapositiva son 9 y 11 17. Lo importante es
+
+que los del MHC II son más largos.
+
+
+4.2 El complejo trimolecular y las CDR
+
+El TCR reconoce el complejo péptido-MHC como un todo: se forma un complejo
+
+trimolecular (TCR, péptido y MHC). La unión la median las CDR, que permiten distinguir
+
+entre antígenos que se diferencian en muy pocos aminoácidos: eso es la especificidad
+
+del reconocimiento.
+
+Las       α         yα α α , contribuyen a la especificidad. Cada dominio V aporta tres bucles
+
+hipervariables: CDR1, CDR2 y CDR3, igual que en las cadenas V de las inmunoglobulinas.
+
+Así, cada TCR tiene 6 CDR p+dzédδ d d+dzédδ r3dmx dGFNdzé djGNd édx κ éx dzédH                        xd          d
+
+ x éVκzxdxd x dzéd         dx κV é   dp xd d édV     é       zédV       d xdVxzé xd κ"é xd d xd dV         d xd
+
+ é xzxr2dV     d   d κ"é    dzé   x x κé       dzéd xdGFN7dzédδ 3d, d                α8α       α α         α
+
+tiene una cuarta región hipervariable, la HV4, que no parece participar en el
+
+reconocimiento del antígeno: es la zona donde se unen los superantígenos (apartado
+
+4.3). Por otra parte, el dominio ) α       α    α        α     α    α            α         α     α : sus
+
+cadenas no están muy empaquetadas y tiene un segmento corto de                                  α .
+
+Cómo se colocan las CDR sobre el complejo péptido-MHC:
+
+      Ɣ   La CDR3, la más variable, se sitúa en el centro del péptido, que es la parte única
+
+          de cada antígeno.
+
+
+
+16
+     Ɣ   La CDR1 y la CDR2, menos variables, contactan sobre todo con los extremos del
+
+         péptido y con las       α α      αNV), que son la parte menos variable del ligando.
+
+     Ɣ   Los tres bucles CDR establecen cierto contacto con la molécula MHC.
+
+La variabilidad de los receptores T está concentrada, sobre todo, en las CDR3; la CDR1 y la
+
+CDR2 tienen una variabilidad menor.
+
+ͧ En clase: El lazo CDR3 se sitúa directamente sobre el centro del péptido antigénico,
+
+  κé     x d   édGFNRd dGFN7dV   xV x d    éz    κ x é é édV      d x dP κVé d dzéd xd   κxd
+
+molécula MHC. Los primeros estudios cristalográficos de la unión del TCR al complejo
+
+péptido-MHC son de Garboczi en 1996.
+
+
+
+
+4.3 Superantígenos
+
+Los superantígenos son toxinas proteicas producidas por bacterias como los
+
+estafilococos y los estreptococos. Su particularidad es que no necesitan procesamiento
+
+
+17
+ni se colocan en el surco del MHC: se unen intactos y por fuera, haciendo de puente entre
+
+la         α8 α   αH)é (en la zona HV4) y el MHC de clase II. Como no dependen del
+
+     κz 2dxV κ x dxd z   d     d κ H Vκ   djd   éd é "x dé xdδ 2d   éd   ézé d é dhasta el 20 %
+
+de todos los linfocitos T del cuerpo. Esta activación policlonal masiva produce una
+
+tormenta de citoquinas inflamatorias, que causa el síndrome de shock tóxico.
+
+ͧ En clase: Los superantígenos se unen intactos por fuera, puenteando la región V ddel
+
+TCR con el MHC de clase II, y provocan la activación policlonal de hasta un 20 % de los
+
+linfocitos T con una tormenta de citoquinas (síndrome de shock tóxico). Se unen fuera del
+
+surV 2dxd xdVxzé xd dzé dásGd dpé dV x édzκB dnxd xdVxzé xd x é x nr3
+
+
+4.4 Sensibilidad del linfocito T
+
+El linfocito T es muy sensible a la unión de su TCR con el complejo péptido-MHC, lo cual es
+
+necesario porque a veces las APC solo muestran unos pocos complejos con el péptido
+
+extraño, y el resto de sus moléculas MHC están ocupadas por péptidos propios:
+
+     Ɣ   Un linfocito T CD4 virgen puede activarse con una APC que exprese 10 50
+
+         complejos péptido-MHC.
+
+     Ɣ   Un linfocito T CD8 efector puede ser estimulado por una célula diana que exprese
+
+         solo 1 3 complejos.
+
+
+5. LOS CORRECEPTORES CD4 Y CD8
+
+5.1 Estructura de CD4 y CD8
+
+CD4 y CD8 son glucoproteínas de superficie de la familia de las Ig que se expresan en
+
+los linfocitos T y que se unen a las moléculas MHC de la APC. Se llaman correceptores
+
+porque acompañan al TCR en el reconocimiento:
+
+     Ɣ   CD4: es un monómero con cuatro dominios de tipo Ig (D1 a D4), que forman una
+
+         varilla rígida unida por una región flexible, una zona transmembrana hidrófoba y
+
+         una cola citoplasmática de 38 aminoácidos. Se une al dominio Eα           αNV)α   α
+
+
+18
+         clase II pxd   xdPé zκz   xdPκz   H –xdé     éd    dz    κ κ   d 7d d 7rd d édé     é xdé d   d
+
+         linfocitos T cooperadores; también en células fagocíticas y algunas células
+
+         dendríticas.
+
+     Ɣ   CD8: es un heterodímero formado por una cadena                 y una cadena       unidas por un
+
+         puente disulfuro, cada una con un dominio de tipo Ig y una región polipeptídica
+
+         larga, muy glucosilada, de conformación extendida. Su cola citoplasmática tiene 25
+
+         aminoácidos. También existe como                          α)ip       . Se une al dominio rα       α
+
+         MHC de clase I pé d xd–x édzéd      dz     κ κ    d Rd d 7rd d édé     é xdé d    dlinfocitos T
+
+         citotóxicos (CTL).
+
+Los dos llevan unida en su cola citoplasmática la cinasa Lck, que es clave para iniciar la
+
+señalización (apartado 7.1).
+
+
+
+
+19
+5.2 Funciones de CD4 y CD8
+
+Los correceptores tienen dos funciones:
+
+         Ɣ    Estabilizar las interacciones entre los linfocitos T y las APC durante la activación.
+
+         Ɣ    Participar en la transducción de las señales tempranas dentro de la célula tras
+
+              el reconocimiento del antígeno, gracias a la Lck.
+
+Un detalle importante: la secuencia del TCR no decide si se va a combinar con péptidos
+
+en MHC de clase I o de clase II. Esa restricción la determina sobre todo qué correceptor
+
+expresa el linfocito: CD4 o CD8.
+
+ͧ En clase: Repasó que el CD4 es un monómero con cuatro dominios tipo Ig (D1 a D4)
+
+     éd éd          édx dz    κ κ dV       x éd 7dzé dásGdzédV x éd 2d d    édé dGFAdé d   dPé é   z   é   d
+
+     d       κz d      d     é édzκ    H     d   éd éd   édx dz   κ κ dV   x éd +dzé dásGdzédV x éd 3d
+
+Ambos llevan asociada la tirosina cinasa Lck en su cola citoplasmática.
+
+
+6. LA SINAPSIS INMUNOLÓGICA
+
+6.1 Moléculas accesorias y sinapsis inmunológica
+
+La respuesta celular empieza cuando un linfocito T CD4 o CD8 virgen encuentra una APC
+
+que expresa el complejo péptido-MHC específico de su TCR. En la zona de contacto se
+
+forman múltiples interacciones moleculares entre las dos células, que constituyen la
+
+sinapsis inmunológica: una interfaz estable que estabiliza el contacto, concentra las
+
+moléculas de señalización y permite decidir si el linfocito T debe activarse. No es solo
+
+adhesión: es una plataforma de decisión. Tiene tres capas funcionales:
+
+         Ɣ    Reconocimiento: TCR con el complejo péptido-MHC, y el correceptor CD4 o CD8.
+
+         Ɣ    Moléculas accesorias de adhesión: LFA-1 del linfocito T con ICAM-1 (*intercellular
+
+              adhesion molecule*) de la APC, y CD2 con CD58 (LFA-3).
+
+         Ɣ    Coestimulación: CD28 del linfocito T con B7 (CD80/CD86) de la APC, y otros
+
+              módulos reguladores.
+
+
+20
+Estas moléculas se organizan en anillos concéntricos, llamados SMAC (*supramolecular
+
+activation clusters*):
+
+     Ɣ   c-SMAC (central): concentra el H)éyα)iryα , los correceptores CD4/CD8 y la
+
+         coestimulación CD28 CD80/CD86.
+
+     Ɣ   p-SMAC (periférico): anillo que lo rodea, rico en moléculas de adhesión, sobre
+
+         todo LFA-1 ICAM-1, que mantienen la unión firme.
+
+     Ɣ   d-SMAC (distal): anillo externo del que se apartan las moléculas grandes, como
+
+         CD45, que tiene actividad fosfatasa.
+
+ͧ En clase: Explicó la organización en c-SMAC, p-SMAC y d-SMAC: en el centro el complejo
+
+TCR con los correceptores y CD28; en el anillo periférico LFA-1 con ICAM-1 para una unión
+
+mecánica firme; y en el anillo externo las moléculas voluminosas con fosfatasas como
+
+CD45.
+
+
+
+
+21
+7. SEÑALIZACIÓN DEL LINFOCITO T
+
+7.1 Activación de las tirosina cinasas: Lck y ZAP-70
+
+En el linfocito T en reposo2d   d jiádzédGF+d d dno están fosforilados. Cuando el TCR
+
+reconoce el complejo péptido-MHC, el TCR y los correceptores se agrupan dentro de unas
+
+zonas especiales de la membrana llamadas balsas lipídicas, y se produce un cambio
+
+tridimensional que da una interfaz estable. Entonces:
+
+     Ɣ   La Lck, unida a CD4 o CD8, se acerca al complejo TCR y, junto con Fyn (las dos son
+
+         cinasas de la familia Src), fosforila los ITAM zédGF+d d 3
+
+     Ɣ   La cinasa ZAP-70 (de la familia Syk) se une a los ITAM doblemente fosforilados de
+
+         xdVxzé xd d ézκx éd      dz    κ κ   dSH2, y la Lck la fosforila y la activa.
+
+Para que todo esto ocurra, Lck y Fyn tienen que estar activas: la cascada se inicia gracias a
+
+la desfosforilación de un fosfato inhibidor de Lck y Fyn por los dominios fosfatasa de la
+
+cola citoplasmática de CD45, presente en la sinapsis.
+
+
+7.2 LAT y SLP-76
+
+Una vez activada, ZAP-70 fosforila las proteínas adaptadoras LAT y SLP-76, que se unen
+
+entre sí gracias a otra proteína, GADS. Las proteínas adaptadoras no tienen actividad
+
+enzimática: funcionan como plataformas donde se juntan otras moléculas. Así convierten
+
+la señal puntual del TCR en rutas intracelulares coordinadas:
+
+     Ɣ   LAT es una proteína adaptadora de membrana. Al fosforilarse crea puntos de
+
+         anclaje para los complejos señalizadores.
+
+     Ɣ   SLP-76 organiza proteínas citosólicas y favorece la activación de la °1) ., la
+
+         remodelación del citoesqueleto y la activación de Ras/MAPK.
+
+El complejo GADS SLP-76 LAT recluta la fosfolipasa C- .αc°1) .a, que es activada por
+
+fosforilación por la cinasa Itk3dmxd:mG Rd       édé d   κz dzéd é – x xdPIP΍ en dos
+
+segundos mensajeros: el inositol trifosfato (IPΎ) y el diacilglicerol (DAG). Por otro lado,
+
+
+22
+a través de Grb2 y SOS se activa la proteína Ras. Al proceso completo, la cascada de
+
+señales que va desde la sinapsis hasta el núcleo y que acaba en la activación de genes, se
+
+le llama transducción de la señal.
+
+
+
+
+7.3 Las tres vías y la IL-2
+
+El IPΎ se difunde por el citosol y provoca la salida de calcio (Ca²Ά) del retículo
+
+endoplásmico. Al vaciarse esa reserva, se abren los canales CRAC de la membrana
+
+plasmática y entra todavía más calcio en la célula. A partir de aquí, la señal se reparte en
+
+tres vías:
+
+     Ɣ   Vía del calcio: el calcio activa la calmodulina, que activa la fosfatasa calcineurina.
+
+         La calcineurina desfosforila el factor de transcripción NFAT, que así puede entrar
+
+         en el núcleo.
+
+     Ɣ   Vía de la PKC: la acción combinada del calcio y el DAG activa la proteína cinasa C- α
+
+         c°:) a, que activa el factor de transcripción NF- z px dzé" xzx éd    dκ Pκ–κz   2d ur3
+
+
+23
+     Ɣ   Vía de Ras: el DAG activa también la proteína Ras-GRP, que activa Ras, una
+
+         proteína G. Ras pone en marcha la cascada de MAP cinasas (como ERK), que acaba
+
+         activando el factor de transcripción AP-1 (formado por c-Fos y c-Jun).
+
+Las tres vías convergen en el promotor del gen de la IL-2, una zona de unos 300 pares de
+
+bases a la que se unen NFAT, NF- zα α(°-1 (además de Oct1). La IL-2 es la citoquina que
+
+hace proliferar al propio linfocito T; también se activa su receptor de alta afinidad
+
+(CD25).
+
+ͧ En clase: Los factores de transcripción NFAT, NF- B y AP-1 convergen en el núcleo y se
+
+unen al promotor del gen de la interleucina 2 (IL-2) y de su receptor de alta afinidad (CD25),
+
+poniendo en marcha la proliferación clonal y la supervivencia del linfocito T.
+
+
+
+
+7.4 Genes activados tras la activación del linfocito T
+
+La activación del linfocito T enciende genes en tres oleadas:
+
+
+
+24
+     Ɣ   Factores de transcripción: la unión del TCR induce varios factores de transcripción,
+
+         como NFAT, NF- zyα -Fos y c-Myc.
+
+     Ɣ   Genes tempranos (1 2 horas): IL-2, receptor de IL-2, IL-3, IL-6 e IFN. La unión B7
+
+         CD28 (la coestimulación) estabiliza el ARN mensajero de estos genes, por lo que
+
+         se fabrica más proteína.
+
+     Ɣ   Genes tardíos (unos 2 días): moléculas de adhesión.
+
+
+
+
+25
+

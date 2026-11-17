@@ -1,0 +1,1573 @@
+TEMA 8 : MECANISMOS DE GENERACIÓN DE LA
+DIVERSIDAD DE LOS LINFOCITOS B Y T
+
+1. LA IDEA DE DIVERSIDAD Y EL DESARROLLO DEL
+
+LINFOCITO B
+
+1.1 El problema: un receptor distinto en cada linfocito
+
+El sistema inmunitario tiene que poder reconocer millones de antígenos distintos,
+
+muchos de los cuales todavía no existen o nunca llegará a ver. Cada linfocito B lleva en su
+
+superficie un BCR (y cada linfocito T un TCR) con una sola especificidad, es decir, que
+
+reconoce un solo antígeno. Para cubrir todos los antígenos posibles hace falta, por tanto,
+
+una población enorme de linfocitos, cada uno con un receptor diferente.
+
+El problema es que no hay genes suficientes en el genoma para codificar millones de
+
+receptores distintos, uno por gen. La solución es la recombinación V(D)J: el gen de la
+
+región variable del receptor no existe como un gen completo, sino a trozos. En el ADN
+
+hay muchos fragmentos pequeños, llamados segmentos génicos, de tres tipos:
+
+    Ɣ   V (variable): codifica la mayor parte de la región variable.
+
+    Ɣ   D (diversidad): un trocito corto que solo existe en la cadena pesada de las Ig (y en
+
+        S sαSL1 S s s s sL1 s;K/T(
+
+    Ɣ   J (joining, unión): otro trocito corto que une la región variable con la constante.
+
+Cada linfocito, mientras madura, elige al azar un segmento de cada tipo y los empalma
+
+cortando el ADN que hay entre ellos. Como hay muchos V, muchos D y muchos J, las
+
+combinaciones posibles son muchísimas, y cada linfocito acaba con una combinación
+
+propia: un receptor único.
+
+
+
+
+1
+Dos conceptos que se usan en todo el tema:
+
+    Ɣ   Configuración en línea germinal: es el ADN "tal como se hereda", con todos los
+
+        segmentos separados. Así está en todas las células del organismo, excepto en los
+
+        linfocitos B y T.
+
+    Ɣ   ADN reordenado (recombinado): el ADN después de empalmar los segmentos
+
+        elegidos. Es un cambio permanente en el ADN del linfocito y lo heredan todas sus
+
+        células hijas (todo el clon).
+
+Todo esto ocurre antes de que el linfocito vea ningún antígeno: el repertorio se fabrica
+
+"por si acaso".
+
+ͧ En clase: El reordenamiento es aleatorio, pero con una "disciplina": siempre sigue el
+
+mismo orden. Las células B se generan cuando todavía no han visto ningún patógeno, que
+
+puede llegar algún día o no llegar nunca ("puede tardar cien mil años"). Una vez que salen
+
+de la médula ósea, recirculan por la sangre y los órganos linfoides secundarios buscando
+
+su antígeno; si en unos tres meses no lo encuentran, mueren. Por eso se generan
+
+linfocitos B continuamente.
+
+
+1.2 Etapas del desarrollo del linfocito B
+
+El desarrollo del linfocito B en la médula ósea va ligado a los reordenamientos: cada etapa
+
+se define por qué gen está reordenando y qué proteína expresa en la superficie. La
+
+secuencia es pro-B ĺ pre-B ĺ B inmaduro ĺ B maduro:
+
+    Ɣ   Célula pro-B: reordena la cadena pesada (locus IGH). En la pro-B temprana se
+
+        unen los segmentos D y J; en la pro-B tardía se une un V al DJ, con lo que se
+
+        completa la región variable de la pesada y se sintetiza una R6zá;6d<á 6z6d .
+
+    Ɣ   Célula pre-B: tiene una R6zá;6d dh; 6R 6. La pre-B grande forma el pre-BCR δ sRs
+
+        cadena ligera sustituta f< áLI k + ¹ I ¹ ), que induce supervivencia,
+
+        proliferación y exclusión alélica. La pre-B pequeña vuelve a expresar RAG y
+
+        reordena la cadena ligera (V J), primero   y, si no sale bien, .
+
+
+
+2
+    Ɣ   Linfocito B inmaduro: expresa un BCR completo de tipo IgM en la superficie.
+
+    Ɣ   Linfocito B transicional ĺ B maduro virgen: coexpresa IgM e IgD con la misma
+
+        especificidad (por procesamiento alternativo del ARN, apartado 7.2).
+
+En la tabla de la diapositiva se ve que RAG se expresa en dos momentos (pro-B, para la
+
+pesada; pre-B pequeña, para la ligera), que la TdT solo se expresa en la fase pro-B (por eso
+
+la cadena pesada tiene más nucleótidos N que la ligera) y que hay dos fases de
+
+proliferación (pro-B y pre-B grande).
+
+
+
+
+࠹ Examen: "Desarrollo y maduración del linfocito B" cae como pregunta larga (PT1 y PT2,
+
+dos veces); se combina con el Tema 6.
+
+
+1.3 Desarrollo, selección y maduración: visión general
+
+El camino completo del linfocito B tiene cuatro pasos:
+
+
+
+
+3
+    Ɣ   1. Generación del BCR: el precursor B hace la recombinación V(D)J de los genes
+
+        de Ig (apartados 3 y 4).
+
+    Ɣ   2. Tolerancia central: el B inmaduro que reconoce con elevada avidez un
+
+        autoantígeno puede sufrir edición del receptor, deleción clonal o anergia
+
+        (apartado 8).
+
+    Ɣ   3. Maduración periférica: los que superan la tolerancia central salen de la médula
+
+        como B transicionales y terminan de madurar sobre todo en el bazo. Los B
+
+        maduros vírgenes expresan IgM e IgD y recirculan por los órganos linfoides
+
+        secundarios.
+
+    Ɣ   4. Activación y diferenciación: al reconocer su antígeno y recibir las señales
+
+        adecuadas, hacen expansión clonal y se diferencian en plasmablastos y células
+
+        plasmáticas (productoras de anticuerpos) y B de memoria. En esta fase ocurren la
+
+        hipermutación somática y el cambio de isotipo (apartados 6.4 y 7).
+
+
+2. ORGANIZACIÓN DE LOS GENES DE LAS
+
+INMUNOGLOBULINAS
+
+2.1 Los loci de las Ig: cromosomas y segmentos
+
+Un locus (plural, loci) es el sitio del cromosoma donde está un gen o grupo de genes.
+
+Recuerda que un anticuerpo tiene dos cadenas pesadas (H) y dos ligeras (L), y que la
+
+ligera puede ser dt≈6<<6Vd−d dt%6Nζz6V (Tema 6). Cada una se codifica en un locus
+
+distinto:
+
+    Ɣ   Cadena pesada (IGH): cromosoma 14. Tiene segmentos V, D y J y un grupo de
+
+        genes constantes (CH). Segmentos funcionales en humanos: 38 46 V, 23 D, 6 J y 9 C.
+
+    Ɣ   ,6zá;6d%h¹á 6d dt 1éVbdR −N− −N6dβ5 Solo V y J (no tiene D): 34 38 V, 5 J y 1 solo
+
+        ¹á;d, .
+
+
+
+
+4
+    Ɣ   ,6zá;6d%h¹á 6d dt 14VbdR −N− −N6dββ5 Solo V y J: 29 33 V y 4 5 parejas J C (cada J
+
+        va con su propio C).
+
+Delante de cada segmento V hay una secuencia líder (L), que codifica el péptido señal que
+
+lleva la proteína al retículo endoplásmico y luego se corta.
+
+Las secuencias que codifican las regiones V y C están separadas por una gran distancia
+
+en el genoma de todas las células, excepto en los linfocitos B (donde la recombinación las
+
+ha acercado). La región constante no se reordena durante esta etapa.
+
+
+
+
+2.2 Los genes constantes de la cadena pesada
+
+Lo característico del locus IGH es que tiene varios genes C en serie, uno para cada isotipo.
+
+En humanos el orden es: , /d, /d, κ/d, α/dt , /d< á z−¹ ;V/d, α/d, β/d, (/d, /d, β. Al
+
+principio se usan , d d, (los más cercanos al VDJ); tras la activación, el cambio de clase
+
+permite usar otro C sin cambiar la especificidad V(D)J (apartado 7).
+
+
+
+5
+2.3 Origen común de los genes V
+
+Los segmentos V se agrupan en familias según su parecido: los de una misma familia
+
+comparten un 70 80 % de homología de secuencia de ADN. La cadena pesada tiene 7
+
+familias VH)s Ss s7 familias s Ss s8 familias. Las familias VH, a su vez, se agrupan en 3
+
+clanes (I, II y III). Esto indica que todos los genes V vienen de un antepasado común que
+
+se fue duplicando.
+
+
+3. RECOMBINACIÓN V(D)J Y EXPRESIÓN DE LOS GENES DE Ig
+
+IMP
+
+3.1 El orden de los reordenamientos, paso a paso
+
+Este es el punto que más cuesta del tema. La idea clave es que solo se reordena un locus
+
+cada vez, y siempre en el mismo orden: primero la cadena pesada y después la ligera.
+
+Cadena pesada (dos pasos):
+
+    Ɣ   Paso 1, en la pro-B temprana: unión D J. De los 23 D y los 6 J, la célula elige uno
+
+        de cada al azar, por ejemplo D2 y J1. Corta el ADN que hay entre ellos (incluidos los
+
+         1− 1      sFκ)sFλ s sés   1s   skSs1 1−úL Ts s selimina (deleción). Ahora D2 y J1
+
+        quedan pegados: DJ.
+
+    Ɣ   Paso 2, en la pro-B tardía: unión V DJ. Elige un V al azar, por ejemplo V1, y lo une
+
+        al DJ, eliminando de nuevo todo el ADN intermedio. Resultado: un exón VDJ
+
+        completo, que codifica toda la región variable de la pesada, colocado delante de los
+
+        exones constantes (, d d, ).
+
+Cadena ligera (un solo paso), en la pre-B pequeña: como no tiene segmentos D, se une
+
+directamente un V con un J (unión V J). Se intenta primero      y, si no es productiva, .
+
+Un "reordenamiento productivo" es el que da una proteína funcional. Como la unión es
+
+imprecisa (apartado 6.2), a veces se añaden o se quitan nucleótidos que rompen el marco
+
+
+
+6
+de lectura (el ADN se lee de 3 en 3; si sobra o falta un nucleótido, todos los codones
+
+siguientes salen mal y suele aparecer un codón de parada). Eso es un reordenamiento no
+
+productivo, y la célula tiene que volver a intentarlo (apartado 5.4).
+
+
+
+
+3.2 Del ADN reordenado a la proteína
+
+Una vez reordenado el ADN, el gen se expresa como cualquier otro, pero con un detalle: la
+
+región constante no se ha unido en el ADN, se une en el ARN:
+
+    Ɣ   Transcripción: se copia el ADN reordenado en un transcrito de ARN primario,
+
+        que contiene el exón VDJ, los intrones y los exones constantes.
+
+    Ɣ   Procesamiento del ARN (corte y empalme o splicing): se eliminan los intrones y
+
+        se unen el exón V(D)J con los exones C. Se añade la cola de poli-A. Resultado: ARN
+
+        mensajero maduro.
+
+
+
+
+7
+    Ɣ    Traducción en el retículo endoplásmico: se produce la cadena de
+
+         inmunoglobulina, que se glucosila y se ensambla con las demás cadenas.
+
+Resumiendo: V(D)J se une en el ADN (recombinación); V(D)J se une con C en el ARN
+
+(splicing). No hay reordenamiento de C durante la generación inicial del BCR.
+
+ͧ En clase: La glicosilación ocurre en la región constante, que es la que da la función
+
+efectora a la inmunoglobulina: unirse al complemento o a los receptores Fc de células
+
+α       s S sbvsδεα /)sεα / Ts S Ss1 ú ú S s S −1     s sα   S s       S1 (
+
+
+3.3 Regulación transcripcional de los genes de Ig
+
+Cada segmento V tiene su propio promotor (P), pero en la línea germinal está muy lejos
+
+del potenciador (enhancer, secuencia que aumenta la transcripción) y apenas funciona. La
+
+recombinación V(D)J acerca el promotor del V elegido al potenciador, de modo que solo
+
+el V reordenado se transcribe con fuerza. El potenciador coordina así la recombinación
+
+y la expresión durante el desarrollo B.
+
+
+3.4 Inmunoglobulina de membrana frente a secretada
+
+El mismo linfocito B puede fabricar su Ig anclada a la membrana (BCR) o secretada
+
+(anticuerpo), con exactamente la misma especificidad. No hay un nuevo
+
+reordenamiento del ADN: la diferencia se decide en el ARN, por corte y empalme
+
+alternativo y por la elección del sitio de poliadenilación:
+
+    Ɣ    Forma secretada: se usa el sitio de poliadenilación proximal y la secuencia que
+
+         codifica el extremo de la forma secretada (SC), que es hidrófila.
+
+    Ɣ    Forma de membrana: se usa el sitio distal y el ARN incorpora los exones MC1 y
+
+         MC2, que codifican la región transmembrana (hidrófoba) y la cola
+
+         citoplasmática.
+
+Lo que cambia es el procesamiento del ARNm y el destino de la proteína, no su
+
+especificidad.
+
+
+
+8
+4. MECANISMO MOLECULAR DE LA RECOMBINACIÓN V(D)J
+
+IMP
+
+࠹ Examen: La recombinación V(D)J es de las preguntas más repetidas: cayó en enero
+
+2019 (corta) y aparece en las preguntas de desarrollo y en las dos recopilaciones (también
+
+como "función de RAG-1/RAG-2 y mecanismos de diversidad").
+
+
+4.1 Los dos elementos esenciales: RAG y RSS
+
+Para que la célula sepa dónde cortar y qué segmentos puede unir, hacen falta dos cosas:
+
+    Ɣ   Las recombinasas: el complejo RAG1/RAG2. RAG viene de Recombination-
+
+        Activating Genes (genes activadores de la recombinación). Son dos enzimas que
+
+        forman un heterodímero y actúan como endonucleasa (enzima que corta el ADN
+
+        por dentro). Reconocen las RSS y cortan el ADN. RAG1 tiene el centro catalítico
+
+        (la parte que corta) y RAG2 es el componente regulador esencial. Solo se
+
+        expresan en linfocitos en desarrollo: por eso solo los linfocitos reordenan su ADN.
+
+    Ɣ   Las secuencias señal de recombinación (RSS): secuencias de nucleótidos no
+
+        codificantes y muy conservadas (iguales en todos los segmentos) que flanquean
+
+        los segmentos V, D y J. Son las "señales de corte": marcan dónde tiene que actuar
+
+        RAG y deciden qué segmentos pueden unirse entre sí.
+
+Cada RSS tiene tres partes: heptámero     espaciador    nonámero:
+
+    Ɣ   Heptámero: 7 nucleótidos conservados, pegado al segmento codificante. RAG corta
+
+        justo en el límite entre el heptámero y el segmento.
+
+    Ɣ   Espaciador: un trozo de 12 o 23 pares de bases (pb), cuya secuencia no importa; lo
+
+        que importa es su longitud.
+
+    Ɣ   Nonámero: 9 nucleótidos conservados.
+
+
+
+
+9
+Posición de las RSS: en el á    áN−dκ dzádR6z6df, en el á   áN−dk dzádR6z6du y a ambos
+
+lados de cada D. Es decir, siempre en el lado del segmento que "mira" al segmento con el
+
+que se va a unir.
+
+ͧ En clase: El objetivo de todo el mecanismo es que cada linfocito B exprese una única
+
+especificidad antigénica.
+
+
+4.2 La regla 12/23
+
+La recombinación solo funciona si se emparejan una RSS con espaciador de 12 pb y otra
+
+con espaciador de 23 pb. Nunca 12 con 12 ni 23 con 23. Esto es lo que impone el orden
+
+correcto de las uniones.
+
+Ejemplo en la cadena pesada: el V lleva RSS de 23; el D lleva RSS de 12 a ambos lados; el J
+
+lleva RSS de 23. Por tanto:
+
+     Ɣ   D (12) con J (23): permitido.
+
+     Ɣ   V (23) con D (12): permitido.
+
+     Ɣ   V (23) con J (23): prohibido. Así se impide la unión directa V J en la cadena
+
+         pesada y se garantiza que el D quede siempre en medio.
+
+También asegura que un V se una a un D o a un J, y nunca a otro V.
+
+
+
+
+10
+ͧ En clase: En clase lo resumió así: no se empareja 12 con 12 ni 23 con 23; en la cadena
+
+pesada, la regla asegura que primero D se una a J y luego V a DJ, impidiendo uniones
+
+directas V J.
+
+
+4.3 Accesibilidad de la cromatina
+
+Que RAG esté presente no basta: el locus tiene que estar accesible (cromatina abierta). La
+
+accesibilidad de la cromatina, los promotores y los potenciadores controlan qué
+
+segmentos pueden recombinarse en cada momento:
+
+     Ɣ   En el linaje B, el locus IGH se hace accesible antes que IGK e IGL (por eso la pesada
+
+         va primero).
+
+     Ɣ   ; S s   SsαSL1 Ss s   L α ú S)s1 spre-BCR cambia el programa de RAG y de
+
+         accesibilidad para pasar a reordenar la cadena ligera.
+
+
+
+
+11
+4.4 La maquinaria enzimática
+
+Estas son las enzimas que hay que saberse (todas caen):
+
+     Ɣ   RAG1/RAG2 (endonucleasa): reconoce las RSS y corta el ADN.
+
+     Ɣ   Ku70/Ku80 (proteína Ku): heterodímero que se une a los extremos rotos, los
+
+         protege y los organiza.
+
+     Ɣ   ADN-PK (proteína cinasa dependiente de ADN; su subunidad catalítica es ADN-
+
+         PKcs): la recluta Ku y activa a Artemis fosforilándola.
+
+     Ɣ   Artemis (nucleasa): abre las horquillas de los extremos codificantes.
+
+     Ɣ   TdT (desoxinucleotidil transferasa terminal): añade nucleótidos N sin molde;
+
+         aumenta la diversidad de unión. No es la que une los extremos.
+
+     Ɣ   ADN ligasa IV (con XRCC4): hace la ligadura final de los extremos.
+
+Fíjate en que Ku, ADN-PK, Artemis y la ligasa IV no son exclusivas de los linfocitos: son la
+
+maquinaria general de reparación de roturas de doble cadena del ADN (unión de extremos
+
+no homólogos). Lo único específico de los linfocitos es RAG (y la TdT).
+
+
+4.5 Las etapas de la recombinación, paso a paso
+
+Antes de los pasos, dos términos:
+
+     Ɣ   Extremos codificantes: los extremos de los segmentos V, D o J que se van a unir
+
+         (los que acaban en la proteína).
+
+     Ɣ   Extremos de señal: los extremos de las RSS que se cortan junto con el ADN
+
+         intermedio.
+
+1. Alineamiento (sinapsis). Sea cual sea su orientación, los dos segmentos que se van a
+
+unir son alineados por los complejos RAG, que juntan una RSS-12 y una RSS-23. El ADN
+
+que hay entre ellos forma un bucle.
+
+2. Corte. RAG corta un enlace fosfodiéster en el límite entre el heptámero y la
+
+secuencia codificante. Resultado: en los extremos codificantes, las dos hebras quedan
+
+
+12
+unidas formando una horquilla (un "lazo" cerrado de forma covalente); los extremos de
+
+señal quedan romos (cortados rectos).
+
+3. Procesamiento de los extremos. Ku70/Ku80 se une a los extremos rotos y recluta a la
+
+ADN-PKcs. Los extremos de señal, al ser romos, se unen entre sí de forma muy precisa
+
+(unión de señal). Los extremos codificantes siguen en horquilla.
+
+4. Apertura de las horquillas. Artemis, fosforilada y activada por la ADN-PK, actúa como
+
+endonucleasa y abre las horquillas en un punto al azar. Si no corta justo en la punta, el
+
+corte es asimétrico y deja una hebra más larga que la otra. Ese trocito de más es
+
+complementario de la otra hebra (es "un espejo" de ella), así que al rellenarlo aparecen
+
+secuencias palindrómicas: los nucleótidos P. Aquí empieza la diversificación.
+
+5. Diversificación y ligadura. La TdT añade a los extremos nucleótidos N al azar, sin
+
+molde (hasta unos 20). Además, algunas nucleasas pueden quitar nucleótidos. Después
+
+los extremos se aparean por donde coincidan, se rellenan los huecos y la ADN ligasa IV
+
+con XRCC4 sella los extremos. Resultado: unión codificante, imprecisa y distinta en cada
+
+célula.
+
+
+
+
+13
+¿Qué pasa con el ADN de en medio? Depende de la orientación de los segmentos:
+
+     Ɣ   Misma orientación (lo más habitual): el ADN interpuesto se elimina (deleción):
+
+         sale como un círculo de ADN que lleva la unión de señal y que se pierde.
+
+     Ɣ   Orientación transcripcional opuesta: el ADN interpuesto no se pierde, sino que
+
+         se invierte y queda en el cromosoma (inversión); el bucle que se forma es más
+
+         complejo.
+
+En resumen: unión codificante = imprecisa (fuente de diversidad); unión de señal =
+
+precisa.
+
+ͧ En clase: En clase lo explicó en cinco pasos: (1) RAG alinea las RSS compatibles según la
+
+regla 12/23 y corta en el borde del heptámero, formando horquillas en los extremos
+
+codificantes y extremos romos en las uniones de señal; (2) Ku70/Ku80 protege los
+
+extremos y recluta la ADN-PK; (3) Artemis, activada por la ADN-PK, abre las horquillas de
+
+
+
+
+14
+forma asimétrica y aleatoria, generando los nucleótidos P; (4) la TdT añade nucleótidos N
+
+sin molde (hasta 20); (5) la ADN ligasa IV con XRCC4 sella.
+
+࠹ Examen: Para la pregunta de recombinación V(D)J: segmentos V, D, J; RSS (heptámero
+
+espaciador 12/23 nonámero); regla 12/23; RAG1/RAG2; las cinco etapas con Ku70/80, ADN-
+
+PK, Artemis, TdT y ligasa IV:XRCC4; nucleótidos P y N.
+
+
+5. EL RECEPTOR PRE-B Y EL CONTROL DE LOS
+
+REORDENAMIENTOS
+
+5.1 El receptor pre-B (pre-BCR) IMP
+
+࠹ Examen: "Receptor pre-B" aparece en la recopilación PT2.
+
+K S L s SsαSL1 Ss 1 SLSs s1 s             L α ú S)s Ssα    Ss LS Ssno tiene cadena ligera (no la
+
+kSs 1    L1 SL T(sBS Ssα           HS s    1s Ss s9   αú   S)s Ss SαSsSs Ss   1 9úαú1sα   s   Sscadena
+
+ligera provisional. Ese receptor es el pre-BCR, formado por:
+
+     Ɣ   Una R6zá;6d<á 6z6d d< −z R h 6.
+
+     Ɣ   La cadena ligera sustituta (suplente): kdBdf< áL. Son proteínas parecidas a las
+
+         ú−1 S s s s )s 1   sinvariables (iguales en todos los clones).
+
+     Ɣ   Las moléculas señalizadoras ¹ dád ¹ dt,δom6d d,δomζV, con motivos ITAM en sus
+
+         colas (la Ig casi no tiene cola citoplasmática y no puede señalizar sola, Tema 6).
+
+Funciones del pre-BCR:
+
+     Ɣ   Dirige la transición de pro-B a pre-B.
+
+     Ɣ   Confirma que el reordenamiento de IGH es funcional.
+
+     Ɣ   Detiene nuevos reordenamientos de IGH en el otro cromosoma: exclusión
+
+         alélica (apartado 5.3).
+
+     Ɣ   Induce supervivencia y proliferación de la célula pre-B (pre-B grande).
+
+
+
+
+15
+     Ɣ   Después permite reexpresar RAG1/RAG2 y empezar el reordenamiento V J de la
+
+         ligera)s   ú 1   s s s 1− s (
+
+     Ɣ   Cuando el linfocito madura, se inhibe la expresión de las cadenas sustitutas.
+
+Las consecuencias, en orden: (1) exclusión alélica de la pesada; (2) proliferación intensa de
+
+las pre-B grandes; (3) después baja la expresión del pre-NK/s sL1sA        1Nμ g4sδλTs Ssα    Ss
+
+pasa a pre-B pequeña)s 11         1 Ss/ips s 1   L1 Ss Ss ú−1 Ssδ sS 1 s    1s T4sδgTs   Ss ú−1 Ss
+
+productiva forma una IgM completa, el BCR del B inmaduro.
+
+ͧ En clase: Las cadenas sustitutorias y de señalización son invariables, iguales en todos
+
+los clones de linfocitos B. Cuando aparece una cadena ligera funcional, la sustitutoria se
+
+inhibe y se reemplaza, formándose la IgM completa de superficie.
+
+
+
+
+16
+5.2 BTK y agammaglobulinemia de Bruton
+
+La tirosina cinasa de Bruton (Btk) se activa después del pre-BCR y es necesaria para
+
+transmitir sus señales de supervivencia, proliferación y maduración en la fase pre-B y
+
+después.
+
+Las mutaciones de BTK causan la agammaglobulinemia ligada al cromosoma X (XLA, de
+
+Bruton): los linfocitos B se quedan bloqueados en la fase pre-B, no hay B maduros y no
+
+hay anticuerpos circulantes.
+
+
+5.3 Exclusión alélica y exclusión isotípica
+
+Cada linfocito tiene dos copias de cada locus (una del padre y otra de la madre: dos
+
+alelos). Si reordenara los dos, podría tener dos receptores distintos. Para evitarlo:
+
+     Ɣ   Exclusión alélica: cada linfocito B expresa la cadena pesada de un solo alelo.
+
+         K S L s    sS 1 sLSs        Ss s   L α ú S)s Ss 1 S sL1 s   1-BCR impide reordenar el
+
+         otro.
+
+     Ɣ   Exclusión isotípica: cada linfocito B expresa −%−d ;d h<−dzádR6zá;6d%h¹á 6/d d−d ,
+
+             αSs   sL   (sK      s    ú 1   s 1sS− Ss s s     sL1       s 1s S SsSs )skS smás
+
+         %h;P−Rh − dLd d      ád .
+
+Cómo consigue el pre-BCR la exclusión alélica: (1) baja transitoriamente RAG1 y RAG2;
+
+(2) cierra la accesibilidad del locus IGH; (3) induce proliferación, que separa en el tiempo
+
+el reordenamiento de la pesada y el de la ligera; (4) más tarde RAG vuelve a expresarse,
+
+pero ahora es la cromatina de las ligeras la que está accesible. Es una exclusión muy
+
+estricta, aunque no perfecta.
+
+Prueba experimental: en ratones h;d k no se forma el pre-BCR, no llega la señal de
+
+parar, y los precursores B reordenan la pesada en los dos cromosomas: ~10 % de las
+
+células tiene dos VDJH productivos.
+
+
+
+
+17
+De la misma forma, cuando se forma la IgM completa, su señal detiene los
+
+reordenamientos de la ligera (salvo que se active la edición del receptor, apartado 8.2).
+
+Es decir, cada receptor productivo se "prueba" en la superficie y su señal frena
+
+nuevos reordenamientos (retroalimentación).
+
+
+5.4 Intentos de rescate y rendimiento del proceso
+
+La cadena ligera tiene varias oportunidades de rescate3s ús            sA      é s     s1 s    L αú       )s Ss
+
+célula puede usar otro V y otro J del mismo cromosoma (los que quedan); si se agota, pasa
+
+al − −dR −N− −N6d 4s s ús        sα   ú− 1s   Ss s9     αú   S )s S SsS s%−R         d . La célula solo
+
+avanza de etapa cuando consigue un reordenamiento productivo: primero la pesada y
+
+después la ligera.
+
+Como la unión V(D)J es imprecisa, solo una fracción de los reordenamientos queda en el
+
+marco de lectura correcto. Por eso el rendimiento es bajo:
+
+     Ɣ   Probabilidad de llegar a pre-B: menos del 55 %.
+
+     Ɣ   Probabilidad total de llegar a B inmaduro: menos del 50 %.
+
+     Ɣ   Un ratón adulto produce kd dαg dR % %6 dLd6%dz 6, pero solo 1 βd dαg sobreviven y
+
+         pasan a la sangre; el resto muere por apoptosis en la médula. Así se mantiene una
+
+         reserva periférica de 5 × 10¹¹ linfocitos B.
+
+ͧ En clase: En clase dio la cifra de "menos del 50 %" para llegar a pre-B (la diapositiva dice
+
+menos del 55 %) y dijo que sobrevive "alrededor del 5 %" (1 2 millones de 50 millones son
+
+en realidad un 2 4 %).
+
+
+6. MECANISMOS QUE GENERAN LA DIVERSIDAD DE LOS
+
+LINFOCITOS B IMP
+
+࠹ Examen: Los mecanismos de diversidad B entran junto con RAG en la recopilación PT2.
+
+Son tres: combinatoria, de unión e hipermutación somática.
+
+
+
+
+18
+6.1 Diversidad combinatoria
+
+Es la diversidad que sale de combinar piezas. Tiene dos niveles:
+
+     Ɣ   Combinación de segmentos V, D y J elegidos al azar.
+
+     Ɣ   Emparejamiento de cadenas pesadas y ligeras: cada pesada puede emparejarse
+
+         α   s    αkS s ú−1 S s s s sLú ú S )s sαSLSs S 1ISsLSs   s 1α1   sLú ú   (
+
+Existe antes de la exposición al antígeno. Cálculo con los genes funcionales humanos
+
+(multiplicar el número de segmentos):
+
+     Ɣ   Cadenas pesadas: 38 λmsAs s,κsFs smsés s5.244 6.348 combinaciones VDJ.
+
+     Ɣ   ,6zá;6 d b 34 κosAs sgsés s170 190 combinaciones VJ.
+
+     Ɣ   ,6zá;6 d b 29 33 V × 4 gsés s116 165 combinaciones VJ.
+
+     Ɣ   Parejas H L: unas 1,5 β/κd dαg combinaciones, antes de añadir la diversidad de
+
+         unión.
+
+Hay reordenamientos poco frecuentes (~5 %), como uniones D D, que alargan aún más el
+
+CDR3, pero no son el mecanismo principal.
+
+ͧ En clase: En clase dio para la cadena pesada entre 5.140 y 6.300 combinaciones; usa las
+
+cifras de la diapositiva. Comentó que el ~5 % de uniones D D no cumple estrictamente la
+
+regla 12/23.
+
+
+6.2 Diversidad de unión
+
+Es la que más aporta. Las uniones V D, D J y V J no son exactas: el mismo par de
+
+segmentos puede dar secuencias distintas en la unión. Se produce por:
+
+     Ɣ   Nucleótidos P: la apertura de la horquilla por Artemis en un punto al azar deja
+
+         extremos asimétricos; al rellenarlos aparecen nucleótidos palindrómicos.
+
+     Ɣ   Nucleótidos N: la TdT añade nucleótidos al azar y sin molde (hasta 20) en los
+
+         puntos de unión.
+
+
+
+
+19
+     Ɣ   Eliminación de nucleótidos por nucleasas en los extremos.
+
+     Ɣ   Al final, la ADN ligasa IV sella los extremos.
+
+Toda esta variabilidad se concentra en la unión, que es justo donde está el CDR3 (apartado
+
+6.3). Por eso la diversidad de unión multiplica muchísimo el número de receptores
+
+posibles.
+
+
+
+
+6.3 Las CDR y dónde están codificadas
+
+Las CDR (regiones determinantes de complementariedad) son los tres bucles
+
+hipervariables de cada dominio V que tocan el antígeno (Tema 6). Su origen genético
+
+explica por qué la CDR3 es la más variable:
+
+     Ɣ   CDR1 y CDR2: están codificadas dentro del segmento V. Solo varían según qué V
+
+         se elija.
+
+
+
+
+20
+     Ɣ   CDR3: está en la unión entre V y J (en la pesada, codificada en parte por el
+
+         segmento D). Recibe toda la diversidad de unión (P, N, deleciones), por eso tiene la
+
+         variabilidad máxima.
+
+
+
+
+6.4 Hipermutación somática
+
+Es el tercer mecanismo, y es distinto de los otros dos:
+
+     Ɣ   Ocurre después de la activación: en los linfocitos B que responden a un antígeno
+
+         en los órganos linfoides secundarios (en el centro germinal).
+
+     Ɣ   Consiste en mutaciones puntuales (cambios de un nucleótido) en los genes V ya
+
+         reordenados.
+
+     Ɣ   Las mutaciones que aumentan la afinidad se seleccionan: es la base de la
+
+         maduración de la afinidad (Tema 6). La hace la enzima AID (apartado 7.4).
+
+Los TCR no sufren hipermutación somática (apartado 9.6).
+
+
+
+21
+7. CAMBIO DE ISOTIPO Y LA PROTEÍNA AID IMP
+
+࠹ Examen: "Proteína AID y sus funciones" (PT1 y PT2) y "Cambio de isotipo de las Ig"
+
+(PT2).
+
+
+7.1 Por qué se cambia de isotipo
+
+Durante la respuesta humoral el anticuerpo cambia de tres formas: maduración de la
+
+afinidad (mutaciones en V: sube la afinidad, no cambia la función), paso de membrana a
+
+secretado (cambia de receptor a efector) y cambio de isotipo (cambia la función
+
+efectora, no el reconocimiento). El cambio de IgM a otras clases solo ocurre después de
+
+que el linfocito B haya sido estimulado por el antígeno.
+
+La mayoría de las funciones efectoras dependen de la región constante. Los isotipos se
+
+diferencian en: (1) número y posición de los puentes disulfuro entre cadenas; (2) número
+
+y distribución de carbohidratos; (3) número de dominios C; (4) longitud de la bisagra: IgM
+
+e IgE no tienen bisagra, sino un dominio C extra. La IgM y la IgA pueden formar
+
+polímeros.
+
+De la tabla de isotipos, quédate solo con lo que más se pregunta: la IgM es la que mejor
+
+activa la vía clásica del complemento; la IgG (sobre todo IgG1 e IgG3) atraviesa la
+
+placenta y se une a los receptores Fc de los fagocitos; la IgE se une con alta afinidad a
+
+mastocitos y basófilos; la IgA está en las mucosas (dímero).
+
+
+
+
+22
+7.2 Coexpresión de IgM e IgD
+
+El B maduro virgen expresa IgM e IgD a la vez, con la misma especificidad. No es un
+
+cambio de isotipo (no hay recombinación): se fabrica un transcrito primario largo con
+
+VDJ K       K s )s   scorte, poliadenilación y empalme alternativos)s S 1 si/b sα    sK s s
+
+α    sK (
+
+
+7.3 Mecanismo del cambio de isotipo
+
+El cambio de isotipo (recombinación de cambio de clase):
+
+     Ɣ   Ocurre tras el contacto del linfocito B con el antígeno, para adaptar la función
+
+         efectora del anticuerpo.
+
+     Ɣ   Consiste en sustituir la región constante de la cadena pesada, manteniendo el
+
+         mismo VDJ (misma especificidad).
+
+
+
+
+23
+         Ɣ    Se hace por recombinación entre los genes C de la cadena pesada, en respuesta a
+
+              citoquinas liberadas por los linfocitos T.
+
+Es una recombinación de ADN no homóloga guiada por las regiones de cambio (S,
+
+switch)3s9 S− 1             sL1siFbs 1 1 ú ú    s ú SL    sL1 S 1sδ1 sg TsL1sαSLSs−1 sKsδ5 s1 s1 s
+
+ú            s1   1sérs sK )s5 )s5 )s5   T(síSs1 α1 αú   s1 s, , que no tiene región S (se expresa
+
+por splicing, apartado 7.2). Pasos:
+
+         Ɣ    1. Transcripción a través de la región S, desde un promotor situado delante de ella
+
+              (las citoquinas deciden qué región S se transcribe). Se forman lazos R: zonas de
+
+              ADN monocatenario (la hebra que no sirve de molde queda suelta).
+
+         Ɣ    2. La AID, y después la UNG y la APE1, introducen mellas agrupadas en las dos
+
+              hebras de las regiones S.
+
+         Ɣ    3. La ADN-PK y otras proteínas de reparación inician la reparación de rotura de
+
+              doble cadena (DSBR).
+
+         Ɣ    4. La maquinaria de DSBR ;ád%6d á¹h ;dD dR−;d%6d á¹h ;dDdzá%dh − h<−dá%á¹hz−
+
+              δ   s1I1      s5 Ts sescinde todo el ADN intermedio δK )sK )sK       s S 1 sα    s     s
+
+              círculo).
+
+         Ɣ    5. El gen C elegido queda pegado al VDJ: el linfocito fabrica ahora, por ejemplo, IgE
+
+              con la misma región variable.
+
+Como el ADN intermedio se pierde, el cambio es irreversible y solo puede ir "hacia
+
+delante" en el locus.
+
+
+
+
+    24
+7.4 La proteína AID y sus funciones
+
+La AID (Activation-Induced cytidine Deaminase, citidina desaminasa inducida por
+
+activación) es una enzima que solo se expresa en los linfocitos B activados (centro
+
+germinal). Actúa sobre el ADN monocatenario y convierte citosinas (C) en uracilos (U),
+
+un "error" que no debería estar en el ADN. Después la UNG (uracil-ADN glicosilasa) quita el
+
+uracilo y la APE1 corta el esqueleto en ese hueco. Según dónde actúe, tiene dos funciones:
+
+     Ɣ   Hipermutación somática: en los genes V reordenados. La reparación imperfecta
+
+         de esos uracilos deja mutaciones puntuales ĺ maduración de la afinidad.
+
+     Ɣ   Cambio de isotipo: en las regiones S. Las muchas mellas en las dos hebras dan
+
+         roturas de doble cadena, que se reparan uniendo dos regiones S ĺ cambio de
+
+         clase.
+
+
+
+
+25
+࠹ Examen: Pregunta de AID: qué es (citidina desaminasa de los B activados, C ĺ U), con
+
+quién actúa (UNG, APE1) y sus dos funciones (hipermutación somática y cambio de isotipo).
+
+
+8. SELECCIÓN DEL LINFOCITO B Y TOLERANCIA CENTRAL
+
+8.1 El linfocito B inmaduro y su selección
+
+El B inmaduro expresa una IgM completa en la médula y pasa por un proceso de
+
+selección: los autorreactivos (los que reconocen lo propio) se eliminan o se corrigen, y
+
+los demás salen de la médula. Lo que le pase depende de cómo reconozca el antígeno
+
+propio:
+
+     Ɣ   Molécula propia multivalente (muy repetida, une muchos BCR a la vez): deleción
+
+         clonal (apoptosis) o edición del receptor.
+
+     Ɣ   Molécula propia soluble: el B sale a la periferia pero queda anérgico (no
+
+         responde; baja su IgM).
+
+     Ɣ   Molécula propia de baja afinidad, que no entrecruza los BCR: sale y madura,
+
+         pero es clonalmente ignorante (no se entera).
+
+     Ɣ   No reacciona con lo propio: sale a la periferia como B maduro.
+
+
+
+
+26
+8.2 La edición del receptor
+
+Los B autorreactivos pueden rescatarse haciendo nuevos reordenamientos para
+
+sustituir el receptor autorreactivo. Ocurre sobre todo con la cadena ligera. Al unirse
+
+con fuerza al antígeno propio, la IgM de superficie baja, el desarrollo se detiene y la célula
+
+sigue sintetizando RAG y reordena de nuevo la ligera (usando un V y un J que
+
+quedaban). Si el nuevo receptor ya no reconoce lo propio, la célula migra a la periferia y
+
+madura; si sigue siendo autorreactivo, muere por apoptosis.
+
+
+8.3 Destinos de una célula B autorreactiva
+
+Cuatro posibilidades: (1) eliminación por apoptosis (deleción clonal); (2) edición del
+
+receptor; (3) anergia; (4) ignorancia inmunitaria.
+
+
+
+
+27
+8.4 Resumen de las fases de la maduración B
+
+Visto todo junto:
+
+     Ɣ   Célula primordial: pesada y ligera en línea germinal; sin Ig de superficie.
+
+     Ɣ   Pro-B temprana: pesada D J en reordenamiento; sin Ig.
+
+     Ɣ   Pro-B tardía: pesada V DJ en reordenamiento; sin Ig.
+
+     Ɣ   Pre-B grande: VDJ reordenado, ligera en línea germinal; dá;dá%d< á-BCR (sobre
+
+         todo intracelular).
+
+     Ɣ   Pre-B pequeña: V J de la ligera en reordenamiento; dh; 6Rá% %6 .
+
+     Ɣ   B inmaduro: VDJ y VJ reordenados; IgM en superficie. Aquí actúa la selección
+
+         negativa.
+
+     Ɣ   B maduro: IgM e IgD en superficie (splicing alternativo).
+
+
+
+
+28
+La diapositiva de proteínas de la maduración B tiene muchísimas moléculas. Solo merece
+
+la pena recordar: RAG1/RAG2 y TdT (recombinación), CD19 (transducción de señal), el
+
+receptor de IL-7 (supervivencia y proliferación de los precursores) y los factores de
+
+transcripción E2A, EBF y Pax-5 (los que dirigen el linaje B, y los mismos de los Temas 6 y 7).
+
+El resto no suele preguntarse.
+
+
+9. GENERACIÓN DE LA DIVERSIDAD DEL TCR
+
+9.1 Origen y desarrollo del linfocito T
+
+Las células del sistema inmunitario se originan en la médula ósea (hematopoyesis).
+
+Reguladores transcripcionales dirigen la diferenciación hacia el linaje B o T: hacia el linaje T
+
+empujan Notch-1 y GATA-3 (Tema 7). Los precursores T migran de la médula al timo,
+
+donde reordenan los genes del TCR. Los procesos de la maduración T son: migración y
+
+proliferación, diferenciación y selección.
+
+El R−N< −Nh −dá; ád7d       d d7d   depende de la intensidad de la señal del TCR y de la
+
+señalización de Notch.
+
+
+
+
+29
+9.2 Organización de los genes del TCR
+
+La organización es parecida a la de las Ig, con segmentos V, (D), J y C:
+
+     Ɣ   ,6zá;6d bdR −N− −N6dα( (unas 1.000 kb). Solo V y J (como la ligera): 70 lgdf y 61
+
+         u , y un solo C.
+
+     Ɣ   ,6zá;6d bdR −N− −N6do (unas 620 kb). V, D y J (como la pesada): kβdf y dos
+
+         grupos D J C: δ α/d)du α/d, α y δ β/dodu β/d, β.
+
+     Ɣ   ,6zá;6d b está <− dR−N<%á −dzá; −dzá%d%−R                d δα   Ss–λT)s1   1s   sA s s
+
+              sé (s;ú1 1sV, D y J.
+
+     Ɣ   ,6zá;6d bdR −N− −N6do. Solo V y J.
+
+í    s αús    s ú1 1 smenos segmentos y dan CDR poco diversas δ S        s   Ss1 α1 αú   3s Ss )s
+
+que puede usar 2 segmentos D en el mismo gen; las uniones extra D D añaden más
+
+     α 1 úL     sbs sS    1 S s      αk s Ss S úSHú úLSLsL1s T(
+
+
+
+30
+Los segmentos del TCR también están flanqueados por RSS (heptámero espaciador
+
+nonámero) de 12 y 23 pb, homólogas a las de las Ig, y siguen la regla 12/23. La
+
+maquinaria (RAG, Ku, ADN-PK, Artemis, TdT, ligasa IV) es la misma.
+
+
+
+
+9.3 El receptor pre-T (pre-TCR)
+
+Es el equivalente del pre-BCR. Cuando la R6zá;6d es productiva, sale a la superficie con
+
+una R6zá;6d d       h   6dh; 6 h6; á/d%6d<7 dt d< á-T), junto con ,δκd d (Tema 7). Ambos
+
+prerreceptores tienen estructura y funciones análogas.
+
+Consecuencias de la expresión del pre-7,+dt<7 b Vb
+
+     Ɣ   1. Exclusión alélica: inhibe nuevos reordenamientos del locus   en el mismo y en
+
+         el otro cromosoma.
+
+     Ɣ   2. Proliferación: da muchas células hijas con %6dNh N6dR6zá;6d pero que luego
+
+         podrán reordenar R6zá;6 d dzh h; 6 (aumenta el repertorio).
+
+
+
+31
+     Ɣ   3. Expresión de CD4 y CD8, necesarios para la selección (la célula pasa a doble
+
+         positiva).
+
+     Ɣ   (5d,−Nhá; 6dá%d á− zá;6Nhá; −dzá%d%−R            d .
+
+Comparación: el pre-BCR hace lo mismo (exclusión alélica de la pesada, proliferación, inicio
+
+de la ligera, apaga la sustituta); la diferencia es que el pre-TCR induce CD4 y CD8 y luego
+
+zá 6R h 6d%6d<7 .
+
+
+9.4 El reordenamiento de las cadenas del TCR
+
+Igual que en el B, primero la cadena "con D" y después la "sin D":
+
+     Ɣ   ,6zá;6d dtR−N−d%6d<á 6z6Vb dos uniones: primero D J y luego V DJ.
+
+     Ɣ   ,6zá;6d dtR−N−d%6d%h¹á 6Vb una unión, V J.
+
+     Ɣ   Se emparejan b y forman el TCR.
+
+Detalle importante: como los segmentos dá             ;dh; á R6%6z− dá; ád%− df d d%− du ,
+
+cuando se une un f dR−;d ;du se á%hNh;6d −z−dá%d%−R                d (si )s 1     L1 S s simpide
+
+záPh;h h 6Ná; ád á¹ h d<− d%6d 6d          .
+
++á R6 ádzád%6dR6zá;6d b ús      s 1     L1 S ú1     s s     s1 s     L αú       )s Ssα   Ss    1L1s
+
+intentarlo de nuevo α      s       sA s sé (sK     skS s)αdu , el número de intentos sucesivos
+
+es N6 − d      ádá;d%6dR6zá;6d%h¹á 6d .
+
+
+m5kd46dzáRh h ;dá; ád7d            d d7d
+
+El timocito doble negativo (DN) reordena a la vez               s−1 1 s )s s s )s s S sL      s S s
+
+compiten:
+
+     Ɣ   Si consigue antes un 7,+d      funcional, su señal zá há;ádá%d á− zá;6Nhá; −dzád y
+
+         la célula queda como 7d      , que madura y sale a la periferia.
+
+
+
+
+32
+     Ɣ   Si consigue antes una d< −z R h 6, el pre-TCR L1 ú1 1s1 s 1    L1 S ú1    sL1s   4s Ss
+
+         célula reordena f y pasa a z−ζ%ád<− h h 6dtδJVdR−;d7,+        (secuencia DN3 ĺ DN4
+
+         ĺ DPT(si s 1   L1 S s s 1sH   Ss sδS S SL sD(λT(
+
+
+
+
+9.6 Mecanismos que generan la diversidad del TCR y diferencias con las
+
+Ig IMP
+
+࠹ Examen: "Mecanismos que generan la diversidad del TCR" aparece en la recopilación
+
+PT2.
+
+Mecanismos (los mismos que en el B, menos la hipermutación):
+
+     Ɣ   Diversidad combinatoria: de segmentos génicos (V, D, J elegidos al azar) y de
+
+         R6zá;6 d d d (emparejamiento).
+
+     Ɣ   Diversidad de unión (durante el reordenamiento): las uniones son imprecisas; se
+
+         añaden nucleótidos P y N en cada unión V J, V D o D J (hasta 6 al azar en cada
+
+
+
+33
+         punto de unión); además, los segmentos D del TCR pueden leerse en los 3
+
+         marcos de lectura, lo que da tres secuencias de aminoácidos distintas con el
+
+         mismo D.
+
+Aspectos singulares del TCR frente a las Ig:
+
+     Ɣ   La diversidad potencial del TCR es mayor, sobre todo por el mayor número de
+
+         segmentos J δm–sé T(
+
+     Ɣ   El repertorio potencial antes de la selección llega a unas αg dá <áRhPhRhz6zá .
+
+     Ɣ   Los TCR no sufren hipermutación somática (ni cambio de isotipo).
+
+Igual que en el B, CDR1 y CDR2 están en el V y la CDR3 en la unión; el TCR tiene 3 CDR por
+
+cadena y una R 6 6d á¹h ;d⁸h<á        6 h6ζ%ádtψf(Vdá;d%6d , que no participa en reconocer el
+
+péptido (Tema 7).
+
+
+10. MADURACIÓN DE LOS TIMOCITOS EN EL TIMO
+
+10.1 El timo: corteza y médula
+
+Los linfocitos que se están formando en el timo se llaman timocitos. El timo tiene dos
+
+zonas (Tema 3):
+
+     Ɣ   Corteza: cúmulo de timocitos inmaduros en proliferación y células epiteliales
+
+         corticales (abundante citoplasma, en red por todo el timo). Estas producen IL-7,
+
+         clave en la fase temprana del desarrollo T.
+
+     Ɣ   Médula: escasos linfocitos T maduros, macrófagos, células dendríticas y
+
+         células epiteliales medulares (TMEC), que presentan antígenos propios.
+
+         También los corpúsculos de Hassall.
+
+Las células epiteliales forman una malla que rodea a los timocitos en desarrollo.
+
+
+
+
+34
+10.2 Las cuatro fases en la vida del linfocito T
+
+     Ɣ   1. Los precursores migran de la médula ósea al timo, proliferan y reordenan sus
+
+         genes del TCR.
+
+     Ɣ   2. Los T inmaduros pasan la selección: solo sobreviven los que reconocen bien los
+
+         complejos MHC propio + péptido sin ser peligrosos ( kds).
+
+     Ɣ   3. Salen del timo a los órganos linfoides periféricos, donde, si encuentran un
+
+         antígeno extraño, se activan.
+
+     Ɣ   4. Los T activados migran a los tejidos y contribuyen a eliminar la infección.
+
+
+10.3 Fases de la maduración de los timocitos
+
+Los precursores llegan al timo sin los marcadores de linfocito T (sin CD3, CD4 ni CD8) y
+
+van cambiando su fenotipo de superficie:
+
+     Ɣ   δ−ζ%ád;á¹6 h − dtδx–d,δ( d,δl Vb empiezan a reordenar /d d d . Los que forman
+
+         ;K/s   s S 1 sα   s7d   dN6z    − dtCkdsV. Los DN se subdividen por CD44 y CD25:
+
+         DN1 δKFλλRsKF,g T)sDN2 (CD44+ CD25+), DN3 (CD44bajo CD25+; aquí se reordena
+
+          s sS S 1α1s1 spre-TCR) y DN4 δKFλλ sKF,g 4s       ú91 Sαú   T(
+
+     Ɣ   Doble positivos (DP; CD4+ CD8+): grandes y en división al principio; reordenan la
+
+         R6zá;6d y pasan a expresar 7,+      . Aquí ocurre la selección: sobreviven menos
+
+         del 5 %.
+
+     Ɣ   Simple positivos (SP; CD4+ o CD8+): los que sobreviven a la selección tímica
+
+         pierden uno de los dos correceptores, aumentan la expresión del TCR y salen a la
+
+         periferia.
+
+Dentro de los doble negativos del timo: 60 % son timocitos inmaduros que aún no han
+
+1    L1 SL s     )s20 % son T    y 20 % son iNKT (linfocitos NKT invariantes).
+
+
+
+
+35
+De las proteínas de la maduración T, recuerda solo: RAG1/RAG2 y TdT (en DN y, RAG, de
+
+     1   s1 sFBs S Ss T)s<7 (en DN3 DN4), Notch y GATA-3 (compromiso T), CD3, Lck y ZAP-
+
+70 (señalización, Tema 7) y CD4/CD8 al final. El resto (Ikaros, TCF1, Th-B   )sívíε Ts   s   1 1s
+
+preguntarse.
+
+
+
+
+36
+αg5(d4− d%h;P−Rh − d7d
+
+En la ontogenia (desarrollo del embrión), los 7d         d6<6 áRá;d6; á d          ád%− d        , y lo hacen
+
+en oleadas ordenadas: en el ratón, cada oleada usa una región V concreta y coloniza un
+
+tejido distinto (la epidermis, el epitelio del aparato reproductor, el epitelio intestinal T(s
+
+Características:
+
+     Ɣ   Reconocen antígenos distintos L1s           sL1s   s;K/s   sδ9   9       úL     )s      1 S s
+
+         intactas), sin restricción por MHC.
+
+     Ɣ   La mayoría son ,δ( d,δl δS −            sKFoR)s 1      s   1s1 s     s        4sαS ús     αSsSα S s
+
+         como cooperadores).
+
+     Ɣ   Distribución especial: colonizan la epidermis, donde adoptan aspecto de célula
+
+         dendrítica (dETC, dendritic epidermal T cells, que forman una red con las células de
+
+         Langerhans), y el epitelio del aparato reproductor. Solo un 5 % de los linfocitos
+
+           SL      sL1s   s 1IúL   s ú 9 úL1 s   s   (
+
+
+37
+     Ɣ   Funciones efectoras: citotoxicidad (perforina y granzimas), citoquinas (IFN- /d
+
+         TNF- /d 4-17) y regulación de la inflamación.
+
+En sangre periférica3s     s;s   s   s1 s90 99 % L1s S sα   S sKFκRs s   s   s1 s1 10 %4s   s   s
+
+tienen un repertorio V grande s      s   spequeño.
+
+
+11. SELECCIÓN TÍMICA Y TOLERANCIA IMP
+
+࠹ Examen: La maduración T en el timo (selección positiva y negativa, AIRE, Treg
+
+naturales, tolerancia) entra en las preguntas de desarrollo T; el timo cayó en enero 2019
+
+(Tema 3).
+
+
+11.1 Finalidad de la selección tímica
+
+El objetivo es obtener linfocitos T cuyo TCR reconozca péptidos extraños unidos a MHC
+
+propio: que sean útiles (que vean el MHC propio) y seguros (que no ataquen lo propio).
+
+Dos procesos:
+
+     Ɣ   Selección positiva: se quedan los TCR que se unen al MHC propio.
+
+     Ɣ   Selección negativa: se eliminan (apoptosis) los TCR que reconocen con fuerza los
+
+         antígenos propios.
+
+
+11.2 Selección positiva
+
+     Ɣ   Ocurre en la corteza tímica, entre los timocitos DP y las células epiteliales
+
+         corticales.
+
+     Ɣ   Solo sobreviven los timocitos que reconocen con baja afinidad los complejos
+
+         MHC péptido propio. Los que no reconocen el MHC propio mueren por
+
+         apoptosis (no reciben señal de supervivencia).
+
+     Ɣ   Decide CD4 o CD8: si el TCR reconoce MHC II, el timocito deja de expresar CD8 y
+
+         queda CD4+; si reconoce MHC I, queda CD8+.
+
+     Ɣ   La señal previene la muerte y zá há;ád; á − d á− zá;6Nhá; − dzád .
+
+
+
+
+38
+11.3 Selección negativa
+
+     Ɣ   Ocurre entre los timocitos que han superado la selección positiva y las APC (células
+
+         dendríticas, macrófagos, células epiteliales medulares) que presentan péptidos
+
+         propios, sobre todo en la médula y la unión corticomedular.
+
+     Ɣ   Los timocitos que reaccionan con gran avidez frente a MHC péptido propio
+
+         mueren por apoptosis: así se eliminan los autorreactivos.
+
+     Ɣ   Es la base de la tolerancia inmunológica central (la tolerancia es la falta de
+
+         respuesta a un antígeno).
+
+Regla para recordarlo: no reconoce nada ĺ muere; reconoce débilmente ĺ sobrevive;
+
+reconoce con fuerza ĺ muere (o se hace Treg, apartado 11.5).
+
+
+
+
+39
+11.4 AIRE
+
+Para eliminar a los T que reconocen proteínas de otros tejidos (por ejemplo la insulina del
+
+páncreas), el timo tiene que presentarlas. Lo consigue el gen AIRE (Autoimmune
+
+Regulator), que se expresa en las células epiteliales medulares del timo e induce en ellas
+
+la expresión de proteínas propias de otros tejidos. Sus péptidos se presentan a los T en
+
+desarrollo y los que los reconocen se eliminan.
+
+Las mutaciones de AIRE causan el síndrome autoinmune poliglandular tipo I (APS-1),
+
+también llamado APECED (poliendocrinopatía-candidiasis-distrofia ectodérmica
+
+autoinmunitaria).
+
+
+11.5 Linfocitos T reguladores naturales
+
+En el timo se genera también una pequeña población de T CD4+ con función reguladora
+
+(Treg naturales), a partir de timocitos que reconocen lo propio con afinidad intermedia
+
+(Tema 7):
+
+     Ɣ   Su desarrollo depende del factor de transcripción FoxP3.
+
+     Ɣ   Expresan niveles altos de CD25 δαSL1 Ss sL1 s 1α1       sL1s í-2) y de CTLA-4.
+
+     Ɣ   Pueden llegar al 10 15 % de los linfocitos T de la sangre periférica.
+
+     Ɣ   Dependen de la IL-2 y controlan a los linfocitos autorreactivos que hayan
+
+         escapado: inhiben su activación y sus funciones efectoras (tolerancia reguladora o
+
+         supresión).
+
+
+11.6 Salida del timo: S1P
+
+Los T maduros salen del timo (y de los ganglios) siguiendo un lípido, el esfingosina-1-
+
+fosfato (S1P):
+
+     Ɣ   Tiene actividad quimiotáctica, parecida a la de las quimioquinas. Se forma por
+
+         fosforilación de la esfingosina.
+
+     Ɣ   Hay un gradiente: poco S1P en los tejidos linfoides y mucho en la linfa y la sangre.
+
+
+40
+     Ɣ   Los T que expresan su receptor, S1PR1 (acoplado a proteína G, activa 1 h), son
+
+         atraídos fuera de los tejidos linfoides y devueltos a la circulación.
+
+
+11.7 Tolerancia central y tolerancia periférica
+
+Tolerancia central (en el timo): se eliminan los T autorreactivos (selección negativa) y
+
+se generan Treg que controlan a los que escapen.
+
+Tolerancia periférica (fuera del timo): para activar a un T hace falta una APC profesional
+
+con moléculas coestimuladoras (señal 2, Tema 7); y en ciertas circunstancias se generan
+
+Treg en los órganos linfoides. Los mecanismos son:
+
+     Ɣ   Anergia: el T reconoce el antígeno sin coestimulación y queda sin respuesta
+
+         funcional.
+
+     Ɣ   Supresión: un Treg bloquea su activación.
+
+     Ɣ   Deleción: el T muere por apoptosis (muerte celular inducida por activación).
+
+
+
+
+41
+
