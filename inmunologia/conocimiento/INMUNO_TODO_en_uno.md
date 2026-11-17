@@ -237,6 +237,11 @@ otra cosa. Al final ofrece guardar la explicación completa como archivo
      cual**: viñetas cortas y directas, solo lo importante y lo de examen (IMP + 📝), las aclaraciones
      clave del profesor y 2–3 figuras. Mismo formato de Word. Fuentes: `b1.txt` y `r1.txt`, montados con
      `build.py <prefijo> <nombre.docx>`.
+  23. **Tema nuevo = tres PDF directamente** (pedido 2026-11-17, al migrar a la nube): ya no quiere la
+     explicación por bloques en el chat. Con cada tema nuevo entregar (a) los apuntes completos, (b) el
+     resumen y (c) una hoja con **todas las preguntas que han caído de ese tema, resueltas con la
+     información de esos apuntes** (convocatoria, tipo test/desarrollo y apartado donde está la respuesta).
+     La explicación por bloques (reglas 1–8) solo si la pide.
   12. **No narrar las diapositivas ni las figuras.** Nada de "la diapositiva 47 muestra…", "la
      diapositiva 48 es una tabla que…", "en esta figura se ve…", "las tres gráficas de abajo…",
      "arriba a la derecha…". Se explica **el contenido directamente**, como si fuera la clase: el
