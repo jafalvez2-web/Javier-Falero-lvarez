@@ -1,0 +1,1995 @@
+Posibles-preguntas-Inmunologia.pdf
+
+
+        Bioataraxia
+
+
+        Inmunología
+
+        2º Grado en Bioquímica
+
+        Facultad de Biología
+        Universidad de Sevilla
+
+        Accede al documento original
+
+
+
+
+                                           Reservados todos los derechos.
+No se permite la explotación económica ni la transformación de esta obra. Queda permitida la impresión en su totalidad.
+a64b0469ff35958ef4ab887a898bd50bdfbbe91a-9216680
+
+
+
+
+                                                               PREGUNTAS DESARROLLADAS DE EXÁMENES ANTERIORES
+                                                                    -    Agotamiento de los linfocitos T CD8+ → Tema 19-20
+
+                                                                                                                 Son varias las citocinas que contribuyen a la diferencia-
+                                                                                                                 ción de los linfocitos T CD8 + y al mantenimiento de los
+                                                                                                                 linfocitos efectores y memoria de esta línea.
+
+                                                                                                                 La IL-2 producida por los propios linfocitos T CD8+ o los
+                                                                                                                 linfocitos T CD4+ cooperadores promueve la prolifera-
+                                                                                                                 ción de los linfocitos T CD8+ y su diferenciación en CTL y
+                                                                                                                 linfocitos memoria.
+
+                                                                                                                 El término “agotamiento” del linfocito T se produce como
+                                                                                                                 resultado de la exposición persistente al antígeno. Los lin-
+                                                                                                                 focitos T CD8+ agotados tienen numerosos defectos fun-
+                                                                                                                 cionales, como la menor proliferación, la menor produc-
+                                                                                                                 ción de INF-gamma y la menor actividad citotóxica, y por
+                                                                                                                 ello no pueden eliminar las infecciones.
+
+                                                                                                                 El mismo fenómeno de agotamiento del linfocito T puede
+                                                                                                                 contribuir a la cronicidad de algunas infecciones víricas
+                                                                                                                 en los seres humanos, como las producidas por el VIH y
+                                                                                                                 el virus de la hepatitis C (VHC), y a la capacidad de algunos
+                                                                                                                 tumores de evadir la respuesta inmunitaria. El fenómeno
+                                                                                                                 del agotamiento del linfocito T puede haber evolucio-
+                                                               nado como una forma de atenuar las consecuencias lesivas para los tejidos de la infección crónica.
+
+                                                               Los CTL CD8 + eliminan a los microbios intracelulares principalmente matando a las células infecta-
+                                                               das. Además de la muerte celular directa, los linfocitos T CD8 + secretan IFN -γ y en algunos casos IL
+                                                               -17 y así contribuyen a la activación clásica del macrófago y la inflamación en la defensa del hospe-
+                                                               dador y en las reacciones de hipersensibilidad.
+
+
+
+                                                                    -    Describa el procesamiento de presentación cruzada (cross presentation) → Tema 14
+
+                                                               Algunas DC tienen la capacidad de capturar e ingerir células infectadas por virus o células tumorales,
+                                                               y presentar los antígenos víricos o tumorales a linfocitos T CD8 + vírgenes. En esta vía, los antígenos
+                                                               ingeridos se transportan desde las vesículas al citosol, desde donde los péptidos entran en la vía de
+                                                               la clase I. Esta permisividad respecto al tráfico de proteínas procedentes de vesículas endosómicas
+                                                               hacia el citosol es más eficiente en un subgrupo de DC. (Al mismo tiempo, las DC pueden presentar
+                                                               péptidos asociados a la clase II del MHC generados en las vesículas a los linfocitos T CD4 + coopera-
+                                                               dores, que son, a menudo, necesarios para inducir respuestas plenas de linfocitos CD8 +.) Este pro-
+                                                               ceso se llama presentación cruzad a o cebado cruzado, para indicar que un tipo de célula (la DC)
+                                                               puede presentar antígenos de otra célula (la célula infectada por virus o tumoral) y cebar o activar
+
+
+
+
+                                              Reservados todos los derechos. No se permite la explotación económica ni la transformación de esta obra. Queda permitida la impresión en su totalidad.
+a64b0469ff35958ef4ab887a898bd50bdfbbe91a-9216680
+
+
+
+
+                                                               linfocitos T específicos frente a esos antígenos. Aunque pueda parecer que el proceso de presenta-
+                                                               ción cruzada rompe la regla de que los antígenos ingeridos se degradan en los endosomas y los liso-
+                                                               somas y se presentan unidos a moléculas de la clase II del MHC, en esta situación los antígenos inge-
+                                                               ridos se llevan al citosol, se degradan en los proteosomas y entran en la vía de la clase I. La regla
+                                                               fundamental de que los péptidos procedentes de los lisosomas se presentan en moléculas de la clase
+                                                               II del MHC y los derivados del proteosoma se presentan en moléculas de la clase I del MHC nunca se
+                                                               viola.
+
+                                                               La presentación cruzada implica la fusión de los fagosomas que contienen los antígenos ingeridos
+                                                               con el RE. Las proteínas ingeridas se transportan entonces desde el compartimento fusión RE -fago-
+                                                               soma hasta el citosol por medio de vías poco definidas que probablemente participan en la presen-
+                                                               tación de proteínas degradadas en el RE. Las proteínas que se interiorizaron inicialmente en el fago-
+                                                               soma son transportadas, por tanto, al compartimento (el citosol) donde se produce normalmente la
+                                                               proteólisis para la vía de la clase I. Estas proteínas fagocitadas sufren así una degradación proteosó-
+                                                               mica, y los péptidos derivados de ellas son transportados por el TAP de nuevo al RE, donde se en-
+                                                               samblan con moléculas recién sintetizadas de la clase I del MHC. El proceso de la presentación cru-
+                                                               zada es importante para las respuestas del linfocito T CD8 + a los virus, otros microbios citosólicos y
+                                                               los tumores. Estos microbios infectan a menudo a células diferentes a las DC y los tumores surgen
+                                                               de células que no son APC. La defensa frente a estos microorganismos patógenos y tumores exige
+                                                               linfocitos T CD8 +, y la activación de estos linfocitos T se induce mejor cuando las DC presentan los
+                                                               antígenos. La presentación cruzada capacita a las DC a presentar antígenos producidos en otros tipos
+                                                               de células y a mostrar los péptidos derivados de esos antígenos para que sean reconocidos por lin-
+                                                               focitos T CD8 +, lo que inicia respuestas inmunitarias eficaces.
+
+
+
+
+                                                                   - Describa el procesamiento y presentación de antígenos a los linfocitos T CD8+ → Tema
+                                                               Las mismas moléculas de adhesión que intervienen en la adhesión de los linfocitos al tejido de los
+                                                               órganos linfáticos son las que se unen a los linfocitos y a la APC.
+
+                                                               La activación de las células T es iniciada por la interacción del complejo TCR-CD3 con un péptido
+                                                               antigénico procesado unido a una molécula MHC de clase I (células CD8) o clase II (células CD4) en la
+                                                               superficie de una célula presentadora de antígenos. Cuando el linfocito reconozca al antígeno ex-
+                                                               puesto en la molécula MHC de la APC, va a aumentar la afinidad de LFA-1: induce un cambio confor-
+                                                               macional en LFA-1 que aumenta mucho su afinidad por ICAM-1 e ICAM-2, estableciéndose una fuerte
+                                                               unión entre la APC y el linfocito. Las múltiples interacciones moleculares entre el linfocito T y la APC
+                                                               constituyen la sinapsis inmunológica.
+
+
+
+
+                                              Reservados todos los derechos. No se permite la explotación económica ni la transformación de esta obra. Queda permitida la impresión en su totalidad.
+a64b0469ff35958ef4ab887a898bd50bdfbbe91a-9216680
+
+
+
+
+                                                               Por otro lado, la intervención de CD4 y CD8 aumenta en 100 veces la afinidad de la unión. La inter-
+                                                               acción entre B7.1/B7.2 y CD28 es imprescindible y constituye la 2ª señal en la activación del linfocito
+                                                               T (unión de CD28 con moléculas B7), suponiendo una señal coestimuladora cuyo efecto neto es una
+                                                               mayor supervivencia y proliferación de las células T. Si CD4 o CD8 no intervienen en la unión entre
+                                                               las dos células, no hay efecto en la célula T. Si, en cambio, no se produce la 2ª señal, se produce
+                                                               anergia (no se producirá la activación del linfocito T). Es decir, si no hay coestimulación la célula se
+                                                               vuelve anérgica, y es la base de la tolerancia periférica. Cuando se produce la unión de la molécula
+                                                               B7 con CD28 se va a producir la activación del linfocito. Además, en muchos casos no se une CD28
+                                                               sino CTLA-4, una molécula que es prácticamente igual a CD28 pero que emite señales inhibidoras en
+                                                               vez de activadoras, lo que va a controlar la respuesta inmunitaria. La célula T empieza a proliferar
+                                                               gracias a la IL-2, que posteriormente se deja de producir. Cuando CTLA-4 se une a la molécula B7 va
+                                                               a parar la proliferación de IL-2. Otras moléculas coestimuladoras son CD40/CD40-L, y cada una se
+                                                               expresa en diferentes fases. Una vez visto que la primera señal para que el linfocito lleve a cabo su
+                                                               función de forma eficiente la constituye la unión entre el TCR y el complejo MHC-péptido; y que la
+                                                               segunda señal se trata de la unión entre la molécula CD28/CTLA-4 con la molécula B7, según como
+                                                               sea la tercera señal, es decir, según las citocinas que se liberen, se formará un linfocito u otro. Por
+                                                               ejemplo, si una célula T reconoce un péptido vírico en la superficie de una célula dendrítica presen-
+                                                               tadora de antígeno y es activada para proliferar y diferenciarse en una célula efectora, esa célula es
+                                                                                                           capaz de eliminar cualquier otra célula infectada por ese
+                                                                                                           virus. Sin embargo, si una célula T es indiferenciada reco-
+                                                                                                           noce un antígeno en células que no proporcionan señales
+                                                                                                           coestimuladoras, entran en anergia. Estas células anérgi-
+                                                                                                           cas no se diferencian ni podrán ser activadas posterior-
+                                                                                                           mente por células dendríticas incluso si presentan el
+                                                                                                           mismo antígeno.
+
+                                                                                                               Esto constituye un medio para mantener la autotolerancia.
+                                                                                                               Entonces, el requisito de que la misma célula presente el
+                                                                                                               antígeno específico y la señal coestimuladora es impor-
+                                                                                                               tante para prevenir inmunorreacciones destructivas contra
+                                                                                                               tejidos propios. En ausencia de este requisito, la autotole-
+                                                                                                               rancia podría romperse cuando células T autorreactivas in-
+                                                                                                               diferenciadas reconocieran antígenos propios.
+
+
+
+                                                                    -     Describa la función de los macrófagos, las citocinas que segregan y las vías de activación
+                                                                          → Tema 4
+
+                                                               Los macrófagos son células de vida relativamente prolongada y desempeñan varias funciones en to-
+                                                               dos los aspectos de la respuesta inmunitaria innata y la respuesta inmunitaria adaptativa subsi-
+                                                               guiente.
+
+
+
+
+                                              Reservados todos los derechos. No se permite la explotación económica ni la transformación de esta obra. Queda permitida la impresión en su totalidad.
+a64b0469ff35958ef4ab887a898bd50bdfbbe91a-9216680
+
+
+
+
+                                                                1. - Una es fagocitar y matar microorganismos invasores. En esta función fagocítica son una impor-
+                                                               tante primera defensa en la inmunidad innata y eliminan también agentes patógenos
+
+                                                               y células infectadas a los cuales se dirige una respuesta inmunitaria adaptativa. Tanto los monocitos
+                                                               como los macrófagos son fagocíticos, pero casi todas las infecciones ocurren en los tejidos; de esta
+                                                               manera, son principalmente los macrófagos los que realizan esta importante función protectora.
+
+                                                               2. - Una función adicional y crucial de los macrófagos es organizar respuestas inmunitarias secre-
+                                                               tando citocinas y quimiocinas que ayudan a inducir la inflamación, que es un prerrequisito para una
+                                                               respuesta inmunitaria exitosa y además secretan proteínas emisoras de señales que activan otras
+                                                               células del sistema inmunitario y las reclutan hacia una respuesta inmunitaria. Destacan las citocinas
+                                                               IL -1, IL-6, IL-8, IL-12 y el factor de necrosis tumoral (TNF - α )
+
+                                                               3. - Función basurero: Además de su participación especializada en el sistema inmunitario, los ma-
+                                                               crófagos actúan como células recolectoras generales en el cuerpo, eliminan células muertas y restos
+                                                               celulares.
+
+                                                               4. - Actúan como células presentadores de Ag (APC) para los linfocitos T
+
+                                                               5. - Participan en la reparación de tejidos estimulando los vasos sanguíneos y estimulando la síntesis
+                                                               de matriz extracelular.
+
+                                                               La activación de los macrófagos es un proceso complejo y finamente regulado que consiste en una
+                                                               serie de modificaciones morfológicas y bioquímicas que culminan con el aumento de la capacidad de
+                                                               la célula para ejercer sus funciones fisiológicas. Según los estímulos activadores, los macrófagos se
+                                                               activan por dos vías diferentes.
+
+                                                               → Vía clásica:
+
+                                                               - La activación clásica es inducida por citocinas proinflamatorias como el IFN - γ, producido por los
+                                                               linfocitos T H1 (CD4+), también por el TNF -α o por moléculas microbianas (ligandos de TLR) como el
+                                                               LPS.
+
+                                                               - Los macrófagos activados clásicamente, M1 (CD14 ++ y CD16 -), producen óxido nítrico (NO), espe-
+                                                               cies reactivas del oxígeno (ROS) y enzimas lisosomales, que tienen un papel importante en matar a
+                                                               gérmenes fagocitados. También se produce la secreción de citocinas como el TNF - α, la IL -1, la IL -
+                                                               12 o la IL -23, y quimiocinas, que intervienen en la respuesta inflamatoria.
+
+                                                               -A su vez, aumentan la expresión de MHC (en concreto MHC II) y el CD86, potenciando así su capaci-
+                                                               dad presentadora de antígeno y la activación de Linfocitos T. En definitiva, mediante este tipo de
+                                                               activación aumenta su actividad microbicida
+
+                                                               → Vía alternativa:
+
+                                                               -La activación alternativa es inducida por citocinas como la IL -4 y la IL -13, producidas por los linfo-
+                                                               citos T H2 (CD4 +).
+
+                                                               -Los macrófagos activados alternativamente, M2 (CD14 + y CD16 ++), no son capaces de producir NO
+                                                               ni de controlar el desarrollo de patógenos intracelulares. En su lugar producen citocinas como TGF -
+                                                               β o IL -10, que produce efectos antiinflamatorios, la reparación tisular y fibrosis (desarrollo de tejido
+
+
+
+
+                                              Reservados todos los derechos. No se permite la explotación económica ni la transformación de esta obra. Queda permitida la impresión en su totalidad.
+a64b0469ff35958ef4ab887a898bd50bdfbbe91a-9216680
+
+
+
+
+                                                               conectivo fibroso como consecuencia de un proceso reparativo). La activación de la vía alternativa
+                                                               supone la inhibición de la vía clásica.
+
+
+
+
+                                                                    -    Define el receptor pre-B
+
+                                                               Los complejos de cadena pesada μ, el sustituto de las cadenas ligeras y las proteínas transductoras
+                                                               de señal Igα e Igβ forman el prerreceptor para el antígeno de la línea B, conocido como pre -BCR. Las
+                                                               cadenas sustitutas son codificadas por genes que no se están reordenando, separados de los loci de
+                                                               receptor de antígeno, y su expresión es inducida por los factores de transcripción E2A y EBE. Uno se
+                                                               llama λ5 y el otro se llama VpreB.
+
+                                                                                                   La cadena pesada μ se asocia con las proteínas pre -B λ5 y pre -B V,
+                                                                                                   también llamadas sustitutos de cadenas ligeras, porque tienen una
+                                                                                                   estructura homóloga a las cadenas ligeras κ y λ, pero son invariantes
+                                                                                                   (es decir, son idénticas en todos los prelinfocitos B) y se sintetizan
+                                                                                                   solo en los prolinfocitos B y los prelinfocitos B. La expresión de éstas
+                                                                                                   es inducida por los factores de transcripción E2A y EBE. También son
+                                                                                                   necesarias otras proteínas expresadas por la célula pre -B para la for-
+                                                                                                   mación de un complejo receptor funcional, y son esenciales para el
+                                                                                                   desarrollo de célula B. Las proteínas invariables Igα (CD79 α) e Igβ
+                                                                                                   (CD79 β) son componentes del receptor de célula pre -B y de comple-
+                                                                                                   jos de receptor de célula B sobre la superficie celular. Igα e Igβ trans-
+                                                               ducen señales desde estos receptores al interactuar con tirosincinasas intracelulares mediante sus
+                                                               colas citoplásmicas. Ambas se expresan desde la etapa de celula pro -B hasta la muerte celular o
+                                                               hasta que se diferencian en células plasmáticas secretoras de AC.
+
+
+
+
+                                              Reservados todos los derechos. No se permite la explotación económica ni la transformación de esta obra. Queda permitida la impresión en su totalidad.
+a64b0469ff35958ef4ab887a898bd50bdfbbe91a-9216680
+
+
+
+
+                                                                    -    Describe las vías de la apoptosis → Tema 19-20
+
+                                                               → Muerte de la célula mediada por perforina y granzima:
+
+                                                               Las principales proteínas citotóxicas en los gránulos del CTL (y de los linfocitos NK) son las granzimas
+                                                               y la perforina.
+
+                                                                  ▪ Las granzimas A, B y C son serina proteasas. La granzima B escinde las proteínas después de los
+                                                               residuos aspartato y es la única que es inequívocamente necesaria para la citotoxicidad del CTL en
+                                                               vivo. Puede escindir y por tanto activar caspasas que inducen la apoptosis.
+
+                                                                  ▪ La perforina es una molécula perturbadora de la membrana que es homóloga a la proteína del
+                                                               complemento C9.
+
+                                                               1 - La principal función de la perforina es facilitar la liberación de las granzimas en el citosol de la
+                                                               célula diana. La perforina puede polimerizarse y formar poros acuosos en la membrana de la célula
+                                                               diana, pero estos poros pueden no tener el suficiente tamaño para que las granzimas entren. Según
+                                                               un modelo, los complejos de granzima B, perforina y serglicina se depositan desde el CTL sobre la
+                                                               célula diana, y la inserción de la perforina en la membrana de la célula diana desencadena un proceso
+                                                               de reparación de la membrana, lo que interioriza la perforina y las granzimas en los endosomas.
+
+                                                               2 - La perforina puede entonces actuar sobre la membrana del endosoma y facilitar la liberación de
+                                                               las granzimas en el citosol de la célula diana. 3 - Una vez en el citosol, las granzimas escinden varios
+                                                               sustratos, como las caspasas, e inician la muerte apoptósica de la célula.
+
+
+
+                                                               → Muerte de la célula mediada por Fas/FasL:
+
+                                                               Los CTL también usan un mecanismo independiente de los gránulos para matar que está mediado
+                                                               por interacciones de moléculas de membrana situadas en el CTL y en las células diana. Tras la activa-
+                                                               ción, los CTL expresan una proteína de membrana llamada ligando de Fas (FasL) que se une al recep-
+                                                               tor mortal Fas, que se expresa en muchos tipos celulares. Esta interacción también da lugar a la ac-
+                                                               tivación de las caspasas y a la apoptosis de los objetivos que expresan Fas.
+
+                                                               Tras dar el golpe mortal, el CTL se separa de su célula diana, lo que suele ocurrir incluso antes de que
+                                                               la célula diana muera. Los propios CTL no resultan dañados durante la inducción de la muerte de la
+                                                               célula diana, probablemente porque el proceso de exocitosis dirigida del gránulo durante la induc-
+                                                               ción de la muerte mediada por el CTL libera el contenido del gránulo de forma preferente sobre la
+                                                               célula diana y lejos del CTL. Como se muestra en la figura, las células T citotóxicas orientan su aparato
+                                                               de Golgi y su centro organizador de microtúbulos para concentrar la secreción en el punto de con-
+                                                               tacto con la célula blanco.
+
+                                                               Además, los gránulos del CTL contienen una enzima proteolítica llamada catepsina B, que se deposita
+                                                               en la superficie del CTL tras la exocitosis del gránulo, donde degrada moléculas errantes de perforina
+                                                               que se acercan a la membrana del CTL.
+
+
+
+
+                                              Reservados todos los derechos. No se permite la explotación económica ni la transformación de esta obra. Queda permitida la impresión en su totalidad.
+a64b0469ff35958ef4ab887a898bd50bdfbbe91a-9216680
+
+
+
+
+                                                               Las células T citotóxicas pueden destruir sus blancos con rapidez porque almacenan proteínas citotó-
+                                                               xicas preformadas en formas que son inactivas en el ambien te de los gránulos citotóxicos. Las pro-
+                                                               teínas citotóxicas se sintetizan y se cargan en los gránulos durante el primer encuentro de una célula
+                                                               T precursora citotóxica indiferenciada con su antígeno específico. De modo similar, la unión del re-
+                                                               ceptor de la célula T induce la síntesis de novo de perforina y granzimas en linfocitos T CD8 efectores,
+                                                               de manera que se repone el suministro de gránulos citotóxicos. Esto hace posible que una sola célula
+                                                               T CD8 destruya una serie de blancos en sucesión.
+
+                                                               Las células T citotóxicas también actúan liberando citocinas: Inducir la apoptosis de células blanco es
+                                                               el principal modo en que las células T CD8 citotóxicas eliminan la infección. Sin embargo, la mayor
+                                                               parte de dichas células T también liberan citocinas IFN - γ, TNF - α y LT - α, que contribuyen a la
+                                                               defensa del hospedador de varias maneras.
+
+                                                                  ▪ El IFN-γ inhibe en forma directa la multiplicación vírica, e induce una mayor expresión de molé-
+                                                               culas del MHC de clase I y de otras proteínas que intervienen cargando péptidos de estas moléculas
+                                                               del MHC de clase I recién sintetizadas en las células infectadas. Ello incrementa las probabilidades de
+                                                               que éstas sean reconocidas como células blanco para el ataque citotóxico.
+
+                                                                  ▪ El IFN - γ también activa macrófagos, reclutándolos en sitios de infección como células efectoras
+                                                               y como células presentadoras de antígeno.
+
+                                                                  ▪ TNF - α y LT - α pueden actuar de manera sinérgica con IFN - γ en la activación de macrófagos y
+                                                               en la destrucción de algunas células blanco a través de su interacción con TNFR -I, lo que induce la
+                                                               apoptosis.
+
+                                                               Así, las células T CD8 efectoras actúan de diversas maneras para limitar la propagación de patógenos
+                                                               citosólicos.
+
+
+
+
+                                                                    -    Definición y función de las pDC → Tema 17 (también se explica en el tema 4)
+
+                                                               Las células dendríticas se originan de progenitoras mielocíticas y de células linfocíticas dentro de la
+                                                               médula ósea; emergen de ésta para migrar por la sangre a tejidos de todo el cuerpo, y también en
+                                                               forma directa a órganos linfáticos periféricos. Se reconocen cuando menos dos clases amplias de
+                                                               células dendríticas: las llamadas células dendríticas ordinarias o clásicas (cDC), con lo que se hace
+                                                               referencia a aquellas células dendríticas que al parecer participan en forma más directa en la presen-
+                                                               tación de antígeno y la activación de células T indiferenciadas; y células dendríticas plasmocitoides
+                                                               (pDC), un linaje bien definido que genera grandes cantidades de interferones, en particular en res-
+                                                               puesta a infecciones víricas, pero que no parece ser tan importante como las células T indiferencia-
+
+
+
+
+                                              Reservados todos los derechos. No se permite la explotación económica ni la transformación de esta obra. Queda permitida la impresión en su totalidad.
+a64b0469ff35958ef4ab887a898bd50bdfbbe91a-9216680
+
+
+
+
+                                                               das. Estas expresan TLR -7 y 9, que reconocen RNA viral de cadena simple y residuos CpG no metila-
+                                                               dos procedentes de virus ADN. Cuando se activan producen grandes cantidades de IFN de tipo I de
+                                                               gran poder antiviral.
+
+
+
+
+                                                                    -    Defina y nombre los PAMP y PRR → Tema 15
+
+                                                               PAMP → El sistema inmunitario innato reconoce estructuras moleculares que son producidas por los
+                                                               microorganismos patógenos. Las sustancias microbianas que estimulan la inmunidad innata son con
+                                                               frecuencia compartidas por distintas clases de microbios y se llaman patrones moleculares asociados
+                                                               a patógenos. Algunos ejemplos de los PAMP son los ácidos nucleicos (ARNbc, lipopolisacáridos, ácido
+                                                               lipoteicoico, oligosacáridos con manosas terminales)
+
+                                                               PRR → El sistema inmunitario innato usa varios tipos de receptores celulares, presentes en diferentes
+                                                               localizaciones en las células, y moléculas solubles en la sangre y las secreciones mucosas, que reco-
+                                                               nocen PAMP y DAMP. Las moléculas de reconocimiento celulares del sistema inmunitario innato las
+                                                               expresan los fagocitos, las DC, las células epiteliales que componen la interfaz de barrera entre el
+                                                               cuerpo y el ambiente externo, los mastocitos, etc. Los receptores celulares para los patrones mole-
+                                                               culares de los patógenos y para los patrones moleculares asociados a la lesión se llaman receptores
+                                                               para el reconocimiento del patrón. Se expresan en la superficie, en las vesículas fagocíticas y en el
+                                                               citosol de varios tipos celulares (que son localizaciones donde puede haber microbios).
+
+                                                               Cuando estos receptores se unen a PAMP y DAMP, activan la transducción de señales que promue-
+                                                               ven las funciones antimicrobiana y proinflamatoria de las células en las que se expresan. Los recep-
+                                                               tores para el reconocimiento del patrón están ligados a vías intracelulares de transducción de señales
+                                                               que activan varias respuestas celulares. Funcionalmente hay 4 tipos: asociados a las células (TLR, CLR,
+                                                               Receptor basurero), citosólicos (NLR, RLR, CDS), endocíticos (TLR también creo), mediadores solubles
+                                                               (pentraxinas, colectinas, ficolinas, complemento).
+
+
+
+
+                                              Reservados todos los derechos. No se permite la explotación económica ni la transformación de esta obra. Queda permitida la impresión en su totalidad.
+a64b0469ff35958ef4ab887a898bd50bdfbbe91a-9216680
+
+
+
+
+                                                                    -    Proteína AID y sus funciones → Tema 9 y 10
+
+                                                               Esta proteína actúa en el mecanismo molecular del cambio de isotipo (proceso llamado recombina-
+                                                               ción para el cambio), en el que el ADN de la cadena pesada de Ig en los linfocitos B se corta y recom-
+                                                               bina de tal modo que un exón VDJ formado previamente que codifica el dominio V se coloca junto a
+                                                               una región C situada en sentido 3’, y se elimina el ADN intermedio.
+
+                                                               Cuando una célula B cambia de la coexpresión de IgM y de IgD a la expresión de otro subtipo, ocurre
+                                                               recombinación de DNA entre la región Sμ y la región S ubicada justo en flujo ascendente del gen que
+                                                               codifica dicho isotipo. El ADN situado en medio se pierde y el exón VDJ queda entonces adyacente a
+                                                               C ε, C γ, C α. Todos los eventos de recombinación de cambio producen genes que pueden codificar
+                                                               una proteína funcional porque las secuencias de cambio yacen en intrones y por consiguiente no
+                                                               pueden provocar mutaciones por desplazamiento del marco de lectura.
+
+                                                               La enzima clave requerida para el cambio de isotipo es la AID, aunque también destacan las enzimas
+                                                               UNG y APE1. La AID sólo puede actuar sobre el DNA monocatenario. Se sabe que para que haya un
+                                                               cambio de clase eficiente se requiere de transcripción a través de las regiones de cambio, la cual
+                                                               probablemente sea necesaria para abrir el DNA y permitir el acceso de la AID a los residuos de citidina
+                                                               ubicados en las regiones de cambio. Las secuencias de las regiones de cambio tienen características
+                                                               que pueden promover la accesibilidad del DNA desenrollado a la AID cuando se transcriben.
+
+                                                               Se cree que la transcripción produce estructuras parecidas a una burbuja, llamadas lazos R, que se
+                                                               forman cuando el RNA transcrito desplaza la cadena que no funciona como molde del DNA duplohe-
+                                                               licoidal. La cadena no molde se desplaza y adopta una configuración que hace que la región sea un
+                                                               buen sustrato para la AID, que inicia la formación de mellas en una sola cadena en los sitios de los
+                                                               residuos C.
+
+                                                               La AID solo se expresa de manera específica en las células B; no ocurren en genes de receptores de
+                                                               las células T.
+
+                                                                    -    Definición de los linfocitos T CD4, Th2, sus moléculas efectoras y funciones
+
+                                                               Los linfocitos T reciben este nombre debido a que sus precursores proceden de la médula ósea, pero
+                                                               migran y maduran en el timo. Todos ellos expresan CD3. Existen tres subtipos de linfocitos T: (Voy a
+                                                               definir los 3 por si pregunta los demás)
+
+                                                               - Linfocitos T citotóxicos (CTL). Expresan CD8 y liberan gránulos citotóxicos para matar células infec-
+                                                               tadas.
+
+                                                               - Linfocitos T colaboradores (TH). Expresan CD154 y CD4 y se encargan del reconocimiento de antí-
+                                                               geno y activación de otras células como Linfocitos B o macrófagos. Los linfocitos T cooperadores
+                                                               activan a los linfocitos B, los macrófagos y las DC a través de moléculas de superficie como el ligando
+                                                               de CD40 (CD154), que se une al CD40 situado en otras células, y citocinas secretadas que se unen a
+                                                               receptores en estas células.
+
+                                                               - Linfocitos T reguladores (T Reg). Expresan receptores CD4 y CD8 y son los encargados de regular la
+                                                               respuesta inmune. Presentan el factor de transcripción intracelular FoxP3.
+
+
+
+
+                                              Reservados todos los derechos. No se permite la explotación económica ni la transformación de esta obra. Queda permitida la impresión en su totalidad.
+a64b0469ff35958ef4ab887a898bd50bdfbbe91a-9216680
+
+
+
+
+                                                               Los linfocitos T CD4 se pueden dividir en dos grupos Th1 y Th2. En respuesta a la estimulación anti-
+                                                               génica, los linfocitos Th1 producen IL-2 e INF-gamma y estimulan la inmunidad mediada por células.
+                                                               Los linfocitos Th2 segregan IL-4, IL-5 e IL-10, favorecen la inmunidad humoral, e inducen la produc-
+                                                               ción de AC.
+
+
+
+                                                                                                                                       -    Describa el reordenamiento de
+                                                                                                                                       los segmentos V, D y J guiado por se-
+                                                                                                                                       cuencias de señal de recombinación
+                                                                                                                                       y la regla que se aplica en la recombi-
+                                                                                                                                       nación V-(D)-J.
+
+                                                                                                                                       La recombinación de los segmentos
+                                                                                                                                       génicos V, Dy J permite crear la hiper-
+                                                                                                                                       variabilidad de la CDR3 tanto en las in-
+                                                                                                                                       munoglobulinas como en los TCR.
+
+                                                                                                                                       Dichos segmentos génicos están
+                                                                                                                                       siempre flanqueados por una RSS (re-
+                                                                                                                                       combination signal sequence) cuya
+                                                                                                                                       estructura es de heptámero-espacia-
+                                                                                                                                       dor-nonámero. La longitud del espa-
+                                                                                                                                       ciador puede ser de 12 o 23 pares de
+                                                                                                                                       bases y la regla 12/23 dictamina que
+                                                                                                                                       solo se pueden empalmar dos seg-
+                                                                                                                                       mentos con espaciadores de 12 y 23
+                                                                                                                                       pb. Esto es así para hacer que un seg-
+                                                                                                                                       mento V se una con uno D o J pero no
+                                                                                                                                       con otro V, por ejemplo: Los segmen-
+                                                                                                                                       tos V tienen la RSS en su región 3’, los
+                                                                                                                                       D la tienen a ambos lados y la J la tie-
+                                                                                                                                       nen en el extremo 5’.
+
+                                                                                                                                       El proceso de recombinación es el si-
+                                                                                                                                       guiente:
+
+                                                                                                                                       1.   Las proteínas RAG1 y RAG2 reco-
+                                                                                                                                       nocen los espaciadores y provocan el
+                                                                                                                                       alineamiento de los segmentos que se
+                                                                                                                                       van a recombinar.
+
+
+                                                                    2. La actividad endonucleasa de dichas proteínas permite escindir el ADN en un extremo que
+                                                                         queda con la RSS y en otro donde están los segmentos codificantes.
+
+
+
+
+                                              Reservados todos los derechos. No se permite la explotación económica ni la transformación de esta obra. Queda permitida la impresión en su totalidad.
+a64b0469ff35958ef4ab887a898bd50bdfbbe91a-9216680
+
+
+
+
+                                                                    3. Estos extremos rotos son reparados por Ku gracias a la actividad de la protein-cinasa DNA-
+                                                                         PK
+                                                                    4. La proteína Artemis, con actividad endonucleasa, vuelve a escindir al extremo codificador
+                                                                         de manera que deja un extremo de ADN monocatenario más largo que otro.
+                                                                    5. La adición de nucleótidos N y P por parte de la TdT y la reparación del ADN de doble cadena
+                                                                         por parte de la ligasa DNA IV termina con el proceso.
+
+
+
+                                                                    -    Estructura y función del ganglio linfático (y de los folículos linfáticos)
+
+                                                               Antes de hablar de los ganglios linfáticos debemos hablar de los folículos linfoides, los cuales son
+                                                               órganos linfáticos secundarios que aportan la organización anatómica que permite que L-B y L-T in-
+                                                               teractúen de manera conjunta.
+
+                                                               Se trata de agrupaciones celulares intercaladas a lo largo de los vasos linfáticos y en distintos tejidos,
+                                                               siendo abundantes a lo largo del tracto gastrointestinal, bronquios, tracto respiratorio superior y
+                                                               tracto genital. Son zonas poblados sobre todo de linfocitos B a.
+
+                                                               -Folículos primarios: No tienen centros germinales y no existe contacto con los antígenos. Contienen,
+                                                               sobre todo, linfocitos B vírgenes maduros en reposo, aunque también encontramos células dentríti-
+                                                               cas foliculares. b.
+
+                                                               -Folículos secundarios: Tienen centros germinales. Éstos consisten en:
+
+                                                                   -zona oscura: llena de linfocitos B en proliferación (centroblasto)
+
+                                                                   -zona clara: contiene células llamadas centrocitos, que han dejado de proliferar y están siendo
+                                                               seleccionadas para sobrevivir y diferenciarse aún más.
+
+                                                               Los folículos secundarios se forman a partir de los primarios una vez que ha habido contacto con el
+                                                               antígeno. Son lugares con proliferación notable de linfocitos B, selección de L -B productores de AC
+                                                               y generación de L -B de memoria y células plasmáticas de vida larga. También encontramos células
+                                                               dendríticas foliculares, macrófagos y linfocitos Th.
+
+                                                               El ganglio linfático es un órgano linfático secundario vascularizado y encapsulado con características
+                                                               anatómicas que favorecen el inicio de respuestas inmunitarias adaptativas frente al Ag que están
+                                                               siendo transportados desde los tejidos por los vasos linfáticos.
+
+                                                               Se encuentran situados a lo largo de los conductos linfáticos por todo el cuerpo y, por tanto, tienen
+                                                               acceso a antígenos que se encuentran en el epitelio y se originan en la mayoría de los tejidos, que
+                                                               son drenados por los linfáticos.
+
+                                                               Un ganglio linfático está rodeado de una capsula fibrosa, por debajo de la cual encontramos un sis-
+                                                               tema sinusal recubierto de células reticulares unidas por fibrillas de colageno y otras proteínas de la
+                                                               matriz extracelular, y lleno de linfa, macrófagos, células dendríticas… El estroma se encuentra divi-
+                                                               dido en dos regiones:
+
+                                                               -región periférica o corteza parafolicular: donde se encentran los folículos linfoides. Rica en linfocitos
+                                                               T CD4, la mayoría Th. Contienen una red de células reticulares fibroblásticas (FRC) que forman la capa
+
+
+
+
+                                              Reservados todos los derechos. No se permite la explotación económica ni la transformación de esta obra. Queda permitida la impresión en su totalidad.
+a64b0469ff35958ef4ab887a898bd50bdfbbe91a-9216680
+
+
+
+
+                                                               externa de estructuras tubulares llamadas conductos de FRC. Estos conductos comienzan en el seno
+                                                               subcapular y se extienden a los vasos linfáticos del seno medular y los vasos sanguíneos corticales
+                                                               (llamados vénulas de endotelio alto, HEV). Los linfocitos T y B vírgenes entran a través de las HEV
+                                                               (torrente sanguíneo).
+
+                                                               -region central o medula: es el lugar donde se encuentran los macrofagos y las células plasmáticas.
+
+                                                               La linfa llega por el vaso linfático aferente y se vacían en el seno subcapsular. Desde aquí la linfa
+                                                               puede llegar al seno medular y salir del ganglio por el vaso linfático eferente (la linfa entra y sale del
+                                                               ganglio).
+
+
+
+                                                                    -    Estructura y función del timo
+
+                                                               Es el lugar donde maduran los linfocitos T. Los precursores de L -T migran desde MO al timo, donde
+                                                               proliferan y reordenan sun genes de TCR (receptores).
+
+                                                               Es un órgano bilobulado situado en el tórax, detrás del esternón, situado sobre el corazón y los vasos
+                                                               sanguíneos mayores, que involuciona después de la pubertad de modo que no es detectable en los
+                                                               adultos. Cada lóbulo se divide en múltiples lóbulos por medio de tabiques fibrosos, y cada lóbulo
+                                                               consta de una corteza externa y una médula interna:
+
+                                                                - corteza externa: contiene un cúmulo denso de linfocitos T. Las células epiteliales de la corteza
+                                                               producen IL -7, necesaria en fases tempranas del desarrollo del L -T.
+
+                                                               - medula interna: contiene menos L -T que la corteza, aunque también hay macrófagos y células
+                                                               dendríticas derivados de la MO. Encontramos:
+
+                                                                   a. -TMEC (células epitelioides medulares tímicas). Desempeñan una función especial en la pre-
+                                                               sentación de antígenos propios a los linfocitos T en desarrollo y provocan su eliminación. Este es uno
+                                                               de los mecanismos que aseguran que el sistema inmunitario siga tolerando los antígenos propio s
+
+                                                                   b. - corpúsculos de Hassal: Se trata de unas stán compuestos de espirales muy compactadas de
+                                                               células epiteliales en degeneración Los linfocitos en el timo, también llamados timocitos, son L -T en
+                                                               distintos estadios de maduración. Las células más inmaduras entran en el timo y su maduración co-
+                                                               mienza en la corteza. Las células epiteliales del timo forman una malla que rodea a los timocitos en
+                                                               desarrollo. A medida que maduran, migran hacia la médula. Solo salen del timo los linfocitos madu-
+                                                               ros, y entran en la sangre y los tejidos linfáticos periféricos
+
+
+
+                                                                    -    Estructura y función del bazo
+
+                                                               Se trata del órgano linfoide de mayor tamaño (150 g) que se encuentra en el cuadrante superior
+                                                               izquierdo del abdomen. Es un órgano muy vascularizado, pero no presenta vasos linfáticos aferentes.
+                                                               Se diferencian en el parénquima esplénico dos regiones anatómicas con dos funciones diferenciadas
+                                                               respectivamente: 1. - Pulpa roja: compuesta principalmente de sinusoides vasculares llenos de san-
+                                                               gre. Su principal función consiste en el reciclaje de hematíes dañados y la eliminación de células viejas
+                                                               y dañadas + partículas de la circulación (inmunocomplejos y microbios opsonizados). La sangre entra
+
+
+
+
+                                              Reservados todos los derechos. No se permite la explotación económica ni la transformación de esta obra. Queda permitida la impresión en su totalidad.
+a64b0469ff35958ef4ab887a898bd50bdfbbe91a-9216680
+
+
+
+
+                                                               al bazo a traves de una única arteria, llamada arteria esplénica. La pulpa roja consiste en numerosas
+                                                               bifurcaciones de dicha arteria, donde en los sinusoides vasculares se produce el drenaje de la sangre
+                                                               con macrófagos que filtran la sangre (actúan como filtro, eliminando microbios , células dañadas y
+                                                               células/microbios opsonizados). Una vez filtrada, se produce el drenaje a las venas esplénicas que
+                                                               devuelven la sangre desde el bazo a la circulación.
+
+                                                               2. - Pulpa blanca: Zona rica en linfocitos. Contiene las células que median las respuestas inmunes
+                                                               adaptativas a Ag transportados por la sangre. En la pulpa blanca hay muchos grupos de linfocitos
+                                                               muy apretados que aparecen como nódulos blancos contra el fondo de la pulpa roja. La pulpa blanca
+                                                               se organiza alrededor de arterias centrales, que son ramas de la arteria esplénica diferentes de las
+                                                               ramas que forman los sinusoides vasculares.
+
+                                                               -La arquitectura de la pulpa blanca es análoga a la organización de los ganglios linfáticos, con zonas
+                                                               de linfocitos T y B segregadas:
+
+                                                                     -L-T: Se encuentran rodeándolas arterias centrales, y esta zona recibe el nombre de vainas lin-
+                                                               fáticas periarteriolares (PALS). En las zonas ricas en L -T, en el bazo existe una red de conductos com-
+                                                               plejos compuestos de proteínas de la matriz recubiertas de células análogas a las FRC. La zona de
+                                                               linfocitos T también son los lugares de residencia de la célula dendríticas maduras, qué son las APC
+                                                               especializadas en la activación de los linfocitos T vírgenes.
+
+                                                                     -L-B: se encuentran en los folículos y ocupan el espacio que hay entre el seno marginal y la vaina
+                                                               periarteriolar
+
+                                                               -Varias ramas pequeñas de cada arteria central pasan a través de la zona rica en linfocitos y drenan
+                                                               en el seno marginal. Una región de células especializadas que rodea al seno marginal llamada zona
+                                                               marginal forma el límite entre las pulpas blanca y roja. La zona marginal que esta justo fuera del seno
+                                                               marginal es una zona rica en L -B y macrófagos especializados
+
+                                                               -Explica el GALT → Tema 5
+
+                                                               El GALT (Gut-Associated Lymphoid Tissue) es un componente del MALT que está consituido por:
+
+                                                               → Folículos linfoides dispersos
+
+                                                               → Amígdalas
+
+                                                               → Apéndice
+
+                                                               → Placas de Peyer
+
+                                                               → Adenoides
+
+                                                               Su función es proteger al individuo de las invasiones de microorganismos en el intestino. En él en-
+                                                               contramos células epiteliales, como las células M, cuya función principal es el transporte transcelu-
+                                                               lar de sustancias procedentes de la luz del intestino hasta la célula presentadora de antígenos sub-
+                                                               yacente.
+
+                                                               Entonces, las células M captan el contenido del intestino eficientemente, como un proceso de fago-
+                                                               citosis y exocitosis, para que posteriormente sean capturadas por las células dendríticas.
+
+
+
+
+                                              Reservados todos los derechos. No se permite la explotación económica ni la transformación de esta obra. Queda permitida la impresión en su totalidad.
+a64b0469ff35958ef4ab887a898bd50bdfbbe91a-9216680
+
+
+
+
+                                                                      -   Defina con un esquema la fase terminal de la activación del sistema del complemento
+
+                                                                                                               Las tres vías del complemento cnfluyen en la formación de
+                                                                                                               una C5-convertasa (c4b2a3b en el caso de la vía clásica y
+                                                                                                               de las lectinas y c3b2Bb en el caso de la vía alternativa).
+
+                                                                                                               1. -Las C5 -convertasas escinden al C5 en un pequeño frag-
+                                                                                                               mento C5a (estimula la inflamación) que se libera y un
+                                                                                                               fragmento C5b de dos cadenas (que contiene una cadena
+                                                                                                               α y una β) que también se libera, pero se une al C6 del
+                                                                                                               plasma.
+
+                                                                                                               2. -EL C6 sufre un cambio tridimensional y el complejo C5b
+                                                                                                               -C6 se une entonces a la membrana celular a través de in-
+                                                                                                               teracciones iónicas e hidrofóbicas.
+
+                                                                                                               3. - El C7 del plasma se une entonces al C5b y forma el
+                                                                                                               complejo C5b -C6 -C7 (C5b -7).
+
+                                                                                                               4. - EL C7 unido sufre una transición anfifílica y penetra en
+                                                                                                               la membrana y puede contribuir a la liberación de algunas
+                                                                                                               micelas de fosfolípidos de la membrana, pero no forma
+                                                                                                               poros completos.
+
+                                                                                                               5. -La proteína C8 es un trímero compuesto de tres cade-
+                                                                                                               nas distintas, una de las cuales se une al componente C5b
+                                                               del complejo C5b -7, y forma un heterodímero covalente con la segunda cadena; la tercera cadena
+                                                               se inserta en la bicapa lipídica de la membrana. Este complejo C5b,6,7,8 (C5b -8) insertado de forma
+                                                               estable forma poros estables que van de 0,4 a 3 mm de diámetro, y un número muy elevado de estos
+                                                               complejos C5b -8 puede lisar la célula.
+
+                                                               6. - La formación de un MAC completamente activo se consigue mediante la unión del C9 al complejo
+                                                               C5b -8. El C9 es una proteína sérica que polimeriza en el lugar de unión del C5b -8 para formar poros
+                                                               en las membranas plasmáticas que se compone de complejos C5b -9 que contienen C5b, C6, C7, C8
+                                                               y muchas moléculas de C9.
+
+                                                               Estos poros tienen aproximadamente 20 nm de diámetro externo, 1 a 11 nm de diámetro interno,
+                                                               con una altura de alrededor de 15 nm, y forman conductos que permiten el movimiento libre del
+                                                               agua y los iones. El tamaño del conducto varía en función del número de moléculas del complejo C5b
+                                                               -C9.
+
+                                                               También pueden formase complejos tubulares de C9 solo. La entrada de agua da lugar a una tume-
+                                                               facción osmótica y a la rotura de las células en cuya superficie se depositó el MAC. Los poros forma-
+                                                               dos por el C9 polimerizado son similares a los poros de la membrana formados por la perforina, la
+                                                               proteína granular histolítica que se encuentra en los linfocitos T citotóxicos y los linfocitos NK y el C9
+                                                               tiene una estructura homóloga a la perforina
+
+
+
+
+                                              Reservados todos los derechos. No se permite la explotación económica ni la transformación de esta obra. Queda permitida la impresión en su totalidad.
+a64b0469ff35958ef4ab887a898bd50bdfbbe91a-9216680
+
+
+
+
+                                                                    -     Describa la vía de procesamiento de los antígenos por la célula APC y presentación al lin-
+                                                                          focito T CD4.
+
+                                                               Para presentar los Ag a las células T CD4, las APCs procesan y cargan los péptidos en moléculas MHC
+                                                               de clase II, en la conocida como vía endocítica o vesicular. Mediante este proceso se consiguen pre-
+                                                               sentar Ag pertenecientes a patógenos de replicación endosómica o extracelular. El proceso es el si-
+                                                               guiente:
+
+                                                                    1. La célula presentadora de Ag fagocita al patógeno o en caso de ser un linfocito B, endocita
+                                                                          al receptor que haya reconocido a un Ag.
+                                                                    2. La fusión del endosoma con un lisosoma da lugar a un fagosoma acidificado cuyas proteasas
+                                                                          activas van a romper las proteínas del patógeno en péptidos antigénicos.
+                                                                    3. Mientras tanto, en el RE espera la molécula MHC de clase II formando un complejo con la
+                                                                          cadena invariante (Ii), que impide la unión de péptidos a la molécula MHC.
+                                                                    4. Este complejo MHC-cadena invariante va a ser expulsado del RE en una vesícula que se fu-
+                                                                          sionará con el fagosoma. El pH ácido provocará la proteólisis de la cadena invariante, de-
+                                                                          jando solo un fragmento llamado CLIP en la hendidura de unión a péptido del MHC de clase
+                                                                          II.
+                                                                    5. Una molécula similar a MHC llamada HLA-DM va a expulsar a este fragmento CLIP permi-
+                                                                          tiendo la colocación del péptido antígeno.
+                                                                    6. Por último, la molécula MHC clase II llega hasta la membrana carga con el péptido para po-
+                                                                          der ser expresada en la superficie celular.
+
+
+
+
+                                                                    -     Describa los diferentes tipos de linfocitos que participan en la respuesta inmunitaria in-
+                                                                          nata (ILC) y otros tipos de linfocitos: desarrollo, activación, diferenciación a partir del pre-
+                                                                          cursor común linfocitario y función de las moléculas efectoras.
+
+
+
+
+                                              Reservados todos los derechos. No se permite la explotación económica ni la transformación de esta obra. Queda permitida la impresión en su totalidad.
+a64b0469ff35958ef4ab887a898bd50bdfbbe91a-9216680
+
+
+
+
+                                                               Todos los linfocitos proceden de la médula ósea y surgen a partir de un CLP (Progenitor linfoide co-
+                                                               mún), que da lugar a los tres linajes de linfocitos: linfocitos B, linfocitos T y linfocitos NK.
+
+                                                               -Los linfocitos B se diferencian por la acción de factores de transcripción como EBF, E2A y posterior-
+                                                               mente PAX-5. En la médula ósea, las células pro-B necesitan del microambiente para continuar con
+                                                               su maduración, cuyo proceso central es la reordenación de los genes que codifican el BCR. También
+                                                               en la médula ósea tienen lugar los procesos de selección negativa para eliminar del repertorio a los
+                                                               linfocitos autorreactivos. Las células B maduras pasan a la periferia (ganglios, bazo) para encontrar a
+                                                               su antígeno y llevar a cabo la expansión clonal que da como resultado a células plasmáticas o a lin-
+                                                               focitos B de memoria.
+
+                                                               -Los linfocitos T proceden también del progenitor común que ya se ha diferenciado con factores de
+                                                               transcripción como Notch-1 y GATA-3, pero su maduración comienza en el timo, donde van a reor-
+                                                               denar sus genes para el TCR. Tras los procesos de selección positiva (reacción con MHC propios) y
+                                                               negativa (reacción con antígenos propios), los linfocitos T maduros salen a la periferia para ser acti-
+                                                               vados cuando una APC les presente a un antígeno.
+
+                                                               - Por otro lado, el otro linaje de linfocitos comprende a los ILC (Innate Lymphoid Cells) que pueden
+                                                               diferenciarse en tres subtipos diferentes:
+
+                                                                  → ILC1: son el equivalente innato a los Th1 (expresión de T-bet)
+
+                                                                  →ILC2: equivalentes a Th2 (diferenciación dirigida por GATA-3)
+
+                                                                  →ILC3: equivalentes a Th17 (dirigidos por ROR-gamma t)
+
+                                                               Dentro del subtipo ILC1, encontramos a los linfocitos NK, que son los más estudiados. Estos linfocitos
+                                                               tienen funciones citotóxicas, pues liberan gránulos con perforina y granzima y también producen
+                                                               INF-gamma. Otro subtipo de linfocitos serían los iNKT, que expresan un TCR con una cadena α de
+                                                               poca diversidad que interacciona con CD1 de las APCs y permite el reconocimiento de antígenos
+                                                               lipídicos.
+
+
+
+                                                                    -    Ilustra y describa la activación de las células T CD4 en el caso de Th1. Describa con detalle
+                                                                         la acción efectora de las moléculas liberadas por las células Th1.
+
+                                                               Los linfocitos Th surgen a partir de células T CD4 indiferenciadas cuando sobre ellas actúan citoquinas
+                                                               como el INF-gamma y la IL-12. Estas citoquinas son producidas por el sistema inmune innato ante
+                                                               infecciones, por ejemplo, el INF-gamma suele estar producido por linfocitos NK y la IL-12 la producen
+                                                               macrófagos y células dendríticas que han sido infectadas.
+
+                                                               La acción de estas citoquinas activa a los factores de transcripción T-bet, STAT-1 y STAT-4. Así se inicia
+                                                               la expresión de moléculas efectoras del linfocito Th1 como es el INF-gamma, que también amplifica
+                                                               la respuesta inhibiendo el desarrollo de linfocitos Th2 o Th17.
+
+                                                               Esta citoquina actúa activando a los macrófagos, mediante la denominada como activación clásica
+                                                               del macrófago, para que eliminen a los microbios fagocitados; por lo que los linfocitos Th1 suponen
+                                                               una defensa contra microbios intracelulares.
+
+
+
+
+                                              Reservados todos los derechos. No se permite la explotación económica ni la transformación de esta obra. Queda permitida la impresión en su totalidad.
+a64b0469ff35958ef4ab887a898bd50bdfbbe91a-9216680
+
+
+
+
+                                                               El INF-gamma también actúa sobre los linfocitos B para promover el cambio de isotipo a ciertas sub-
+                                                               clases de IgG. Por último, estimula la expresión de varias proteínas diferentes que contribuyen a
+                                                               aumentar la presentación del Ag asociada al MHC (TAP, proteosoma, B7…) y al inicio y amplificación
+                                                               de las respuestas inmunitarias dependientes del linfocito T.
+
+
+
+                                                                    -    ¿Cuál es la función de los linfocitos T citotóxicos CD8? Describa el mecanismo de acción de
+                                                                         las moléculas efectoras liberadas por CTL.
+
+                                                               Los linfocitos T citotóxicos se encargan de eliminar células que estén infectadas por virus o células
+                                                               tumorales. En la apoptosis mediada por perforina y granzimas, al darse la sinapsis inmunológica, el
+                                                               citoesqueleto del linfocito se reorganiza y los gránulos citoplásmicos se concentran en la región de
+                                                               la sinapsis.
+
+                                                               Durante el golpe mortal, estos gránulos citotóxicos que contienen granzimas y perforinas ensambla-
+                                                               das en un complejo con serglicina son liberados.
+
+                                                               - La perforina es una molécula perturbadora de la membrana homóloga de la C9 del complemento y
+                                                               permite que el complejo sea interiorizado hacia la célula en forma de endosoma. Una vez dentro, la
+                                                               perforina facilita la liberación de granzimas desde el endosoma hacia el citosol.
+
+                                                               - Las granzimas son unas serinproteasas que inducen la apoptosis de la célula blanco activando a las
+                                                               proteínas BID y a la caspasa-3.
+
+                                                               - La caspasa-3 activa puede iniciar una cascada proteolítica que termina con la activación de la CAD
+                                                               (Caspase-activated DNase) un nucleasa que degrada el ADN.
+
+                                                               Por otro lado, la proteína BID escindida provoca la liberación del citocromo c desde la mitocondria,
+                                                               lo cual también promueve la apoptosis.
+
+
+
+                                                                    -    ¿Cuáles son las señales de las APC para la expansión clonal y la diferenciación del L-T? (3
+                                                                         señales) → Tema 18
+
+                                                               La iniciación de células T indiferenciadas es controlada por varias señales. Se dividen en tres tipos:
+                                                               señales 1, 2 y 3.
+
+                                                               Las señales 1 comprenden aquellas señales específicas de antígeno derivadas de la interacción de un
+                                                               complejo péptido:MHC específico con el receptor de célula T. El ensamblaje de los receptores de las
+                                                               células T con su antígeno peptídico es esencial para activar una célula T indiferenciada, pero incluso
+                                                               si también el correceptor, CD4 o CD8, se liga, ello no basta para estimular las células T a que prolife-
+                                                               ren y se diferencien en células T efectoras. La expansión clonal específica de antígeno de una célula
+                                                               T indiferenciada implica cuando menos otros dos tipos de señales, que son emitidas en general por
+                                                               la misma célula presentadora de antígeno.
+
+                                                               Posteriormente, podemos decir que la molécula coestimuladora mejor identificada de las que emi-
+                                                               ten la señal 2 es la molécula B7. La vía coestimuladora mejor caracterizada en la activación del linfo-
+                                                               cito T es aquella en que interviene el receptor de superficie del linfocito T llamado CD28, que se une
+
+
+
+
+                                              Reservados todos los derechos. No se permite la explotación económica ni la transformación de esta obra. Queda permitida la impresión en su totalidad.
+a64b0469ff35958ef4ab887a898bd50bdfbbe91a-9216680
+
+
+
+
+                                                               a las moléculas coestimuladoras B7 -1 (CD80) y B7 -2 (CD86) expresadas en la superficie de las APC
+                                                               activadas.
+
+                                                               Las células T en reposo tienen un receptor para IL -2 incompleto, con una afinidad para IL -2 muy
+                                                               baja. Al ser activadas, reingresan en el ciclo celular y se dividen con rapidez para producir las grandes
+                                                               cantidades de progenie que se diferencian en células T efectoras. Su proliferación y diferenciación es
+                                                               impulsada por interleucina 2 (IL -2), una citocina que produce la célula T activada.
+
+                                                               El encuentro inicial con antígenos específicos en presencia de una señal coestimuladora (la coesti-
+                                                               mulación a través de CD28 contribuye a la producción de IL-2) activa la entrada de la célula T en la
+                                                               fase G1 del ciclo celular; al mismo tiempo, también induce la síntesis de IL - 2 junto con el receptor
+                                                               de IL -2 (también conocido como CD25) con n la incorporación de la cadena α, el receptor para IL -2
+                                                               adquiere una gran afinidad para IL – 2.
+
+                                                               Para concluir el apartado de la señal 2, veremos qué ocurre cuando el reconocimiento de antígeno
+                                                               en ausencia de coestimulación causa la desactivación funcional o la deleción clonal de células T pe-
+                                                               riféricas. cuando una célula T reconoce antígenos en ausencia de moléculas coestimuladoras, recibe
+                                                               la señal 1 sola (sin señal 2), es desactivada:
+
+                                                               Las células T indiferenciadas que reconocen péptidos propios en células hísticas que carecen de mo-
+                                                               léculas coestimuladoras no se activan; en cambio, se piensa que entran en un estado de anergia. Una
+                                                               célula T anérgica es resistente a la activación por antígen o específico incluso cuando el antígeno le
+                                                               es presentado después por una célula presentadora de antígeno que expresa moléculas coestimula-
+                                                               doras, y esto constituye un medio para mantener la autotolerancia. Por tanto, el requisito de que la
+                                                               misma célula presente el antígeno específico y la señal coestimuladora es importante para prevenir
+                                                               inmunorreacciones destructivas contra tejidos propios.
+
+
+
+
+                                              Reservados todos los derechos. No se permite la explotación económica ni la transformación de esta obra. Queda permitida la impresión en su totalidad.
+a64b0469ff35958ef4ab887a898bd50bdfbbe91a-9216680
+
+
+
+
+                                                               Posteriormente, se produce la sinapsis inmunológica, que es la señal 3. Cuando el complejo TCR re-
+                                                               conoce los péptidos asociados al MHC en una APC, se movilizan rápidamente varias proteínas de
+                                                               superficie y moléculas intracelulares transmisoras de señales hasta la zona de contacto entre el lin-
+                                                               focito T y la APC. Esta región de contacto físico entre el linfocito T y la APC forma una estructura que
+                                                               se llama sinapsis inmunitaria.
+
+                                                                                                                           Posteriormente, se produce la sinapsis inmuno-
+                                                                                                                           lógica, que es la señal 3. Cuando el complejo TCR
+                                                                                                                           reconoce los péptidos asociados al MHC en una
+                                                                                                                           APC, se movilizan rápidamente varias proteínas
+                                                                                                                           de superficie y moléculas intracelulares transmi-
+                                                                                                                           soras de señales hasta la zona de contacto entre
+                                                                                                                           el linfocito T y la APC. Esta región de contacto
+                                                                                                                           físico entre el linfocito T y la APC forma una es-
+                                                                                                                           tructura que se llama sinapsis inmunitaria.
+
+                                                                                                                           Las moléculas del linfocito T que se mueven al
+                                                                                                                           centro de la sinapsis son:
+
+                                                               • el complejo TCR (el TCR, el CD3 y las cadenas ζ)
+
+                                                               • los correceptores CD4 o CD8
+
+                                                               • receptores para coestimuladores (como CD28)
+
+                                                               • enzimas como PKC-θ
+
+                                                               • proteínas adaptadoras que se asocian a la cola citoplásmicas de los receptores transmembrana.
+
+                                                                Las integrinas permanecen en la periferia de la sinapsis, donde funcionan estabilizando la unión del
+                                                               linfocito T a la APC La sinapsis forma un contacto estable entre un linfocito T específico frente a un
+                                                               antígeno y una APC que presenta ese antígeno y se convierte en el lugar de ensamblaje de la maqui-
+                                                               naria transductora de señales del linfocito T, incluidos el complejo TCR, los correceptores, los recep-
+                                                               tores para los coestimuladores y los adaptadores. La cascada de señales que se producen desde la
+                                                               sinapsis inmunológica hacia el núcleo culmina con la activación de ciertos genes y la producción de
+                                                               proteínas. Al proceso se le denomina transducción de la señal.
+
+
+
+
+                                              Reservados todos los derechos. No se permite la explotación económica ni la transformación de esta obra. Queda permitida la impresión en su totalidad.
+a64b0469ff35958ef4ab887a898bd50bdfbbe91a-9216680
+
+
+
+
+                                                               PREGUNTA DE LAS PRÁCTICAS:
+
+                                                                    -    Explique la técnica de difusión radial doble de Outcherlony
+
+                                                               Proceso experimental:
+
+                                                               Se realizan tres pocillos en un gel de agarosa y rodeamos cada uno de ellos por 6 pocillos. En los
+                                                               pocillos periféricos se colocan los sueros (contienen los antígenos, que en este caso son inmunoglo-
+                                                               bulinas) a concentraciones decrecientes en el sentido de las agujas del reloj.
+
+                                                               Los anticuerpos (que en este caso son anti-inmunoglobulinas) se colocan en los pocillos centrales,
+                                                               utilizando un tipo de anticuerpo (anti-G, anti-A y anti-M) para cada pocillo central.
+
+                                                               Se deja un día entero a temperatura ambiente para que difundan tanto los antígenos como los anti-
+                                                               cuerpos.
+
+                                                               Resultados e interpretación:
+
+                                                               En algunas zonas entre los pocillos observaremos una línea blanca. Estas zonas se llaman zonas de
+                                                               equivalencia (están situadas entre las zonas de exceso de antígeno y de exceso de anticuerpo) pues
+                                                               al difundir el antígeno y anticuerpo y existir reconocimiento (reacción primaria) se forman grandes
+                                                               inmunocomplejos insolubles que dan lugar a precipitados (reacción secundaria) visibles como una
+                                                               línea blanca.
+
+                                                               Dado que la concentración de antígenos varía, hay partes donde esta línea es más visible (donde
+                                                               haya mayor concentración y por tanto se formen complejos mayores) y otras donde la línea casi no
+                                                               es visible debido a la baja concentración, lo cual no implica que no se haya dado la reacción primaria
+                                                               o de reconocimiento entre el Ag y el AC.
+
+                                                                    -    Explique las técnicas de aglutinación
+
+                                                               La técnica de hemaglutinación sirve para determinar el grupo sanguíneo (AB0 y Rh) de un indivi-
+                                                               duo.
+
+                                                               Proceso experimental:
+
+                                                               Se ponen en un porta muestras separadas de anticuerpo anti-A, anti-B para determinar el grupo
+                                                               AB0, y anti-D para determinar el grupo Rh. A continuación se incorpora sangre del individuo a anali-
+                                                               zar en cada una de las muestras y se mezcla bien.
+
+                                                               Resultados e interpretación:
+
+                                                               Si se ha dado reacción de reconocimiento antígeno-anticuerpo entonces se producen unos comple-
+                                                               jos aglutinados que son visibles. Sólo se produce aglutinación cuando los glóbulos rojos posean la
+                                                               especificidad para el antisuero (anticuerpo) añadido.
+
+                                                               Por ejemplo, si tenemos precipitados en las tres muestras, significa que el individuo es AB+ pues
+                                                               presenta antígenos A, antígenos B y factor Rh.
+
+                                                               Si no observásemos aglutinación en ninguna de las gotas, entonces el individuo es 0- pues no tiene
+                                                               ni antígeno A, ni antígeno B ni factor Rh en la membrana de sus eritrocitos.
+
+
+
+
+                                              Reservados todos los derechos. No se permite la explotación económica ni la transformación de esta obra. Queda permitida la impresión en su totalidad.
+a64b0469ff35958ef4ab887a898bd50bdfbbe91a-9216680
+
+
+
+
+                                                               PREGUNTAS POR TEMAS:
+
+                                                               TEMA 3: Propiedades esenciales de la respuesta inmune adaptativa
+
+                                                               TEMA 4: Línea mieloide y células dendríticas
+
+                                                               TEMA 5: Función, estructura y componentes de la médula ósea
+
+                                                               TEMA 6: BCR (ya puesto antes)
+
+                                                               TEMA 7: ¿Qué es la inmunogenicidad? ¿Cuáles son las propiedades que afectan a esta?
+
+                                                               TEMA 8: Sistema del complemento, vías de activación
+
+                                                               TEMA 9: Desarrollo y maduración del linfocito B
+
+                                                               TEMA 10: Función de RAG-1/RAG-2 y mecanismos generadores de la diversidad (recombinación
+                                                               VDJ???)
+
+                                                               TEMA 11: Estructura y función del MHC
+
+                                                               TEMA 12: (esquema general si eso) -> Wuolah elena morilla
+
+                                                               TEMA 13: TCR
+
+                                                               TEMA 14: Presentación cruzada
+
+                                                               TEMA 15, 16, 17: leer por encima
+
+                                                               TEMA 18: Linfocitos Th1, Th2 y Th17
+
+                                                               TEMA 19 y 20: Tipo test
+
+                                                               TEMA 21: ¿Cuáles son las dos señales que se necesita para la activación del linfocito B si es Ag timo-
+                                                               dependiente y timo-independiente? // Papel de CD40L en la activación del linfocito B
+
+                                                               TEMA 22: Tipo test puede caer
+
+
+
+
+                                              Reservados todos los derechos. No se permite la explotación económica ni la transformación de esta obra. Queda permitida la impresión en su totalidad.
+a64b0469ff35958ef4ab887a898bd50bdfbbe91a-9216680
+
+
+
+
+                                                               Tema 3 → ¿Cuáles son las propiedades esenciales de la respuesta inmunitaria adaptativa?
+
+                                                               Las propiedades fundamentales del sistema inmunitario adaptativo reflejan las características de los
+                                                               linfocitos que median estas respuestas
+
+                                                               1. -Especificidad y diversidad. Las respuestas inmunitarias son específicas frente a los distintos antí-
+                                                               genos y a menudo de diferentes porciones de un solo complejo proteínico, de un polisacárido o de
+                                                               cualquier otra macromolécula. Las partes de los antígenos complejos que son reconocidas específi-
+                                                               camente por ciertos linfocitos se denominan determinantes o epítopos. Esta especificidad tan exqui-
+                                                               sita obedece a que cada linfocito expresa receptores de membrana capaces de discernir diferencias
+                                                               sutiles en la estructura de dos epítopos distintos. En las personas sin inmunizar hay clones de linfo-
+                                                               citos dotados de diversas especificidades, que son capaces de reconocer un antígeno extraño y de
+                                                               responder oportunamente. Este concepto fundamental se llama selección clonal: clones específicos
+                                                               frente a los antígenos se desarrollan antes e independientemente de la exposición al antígeno. Un
+                                                               antígeno introducido se une (y selecciona) a las células del clon preexistente específicos frente a él y
+                                                               las activa. El resultado es que las células específicas frente al antígeno proliferan para generar miles
+                                                               de células con la misma especificidad, un proceso llamado expansión clonal. El número total de es-
+                                                               pecificidades antigénicas que presentan los linfocitos de una sola persona, lo que recibe el nombre
+                                                               de repertorio linfocítico, es elevadísimo. Se calcula que el sistema inmunitario de cada individuo es
+                                                               capaz de distinguir entre 10 7 y 10 9 determinantes antigénicos diferentes. Esta propiedad que ca-
+                                                               racteriza al repertorio linfocítico de reconocer un número muy elevado de antígenos, llamada diver-
+                                                               sidad, es el resultado de la variabilidad de las estructuras de los lugares de unión al antígeno que
+                                                               tiene el linfocito
+
+                                                               2. -Memoria. La exposición del sistema inmunitario a un antígeno extraño favorece su capacidad para
+                                                               responder de nuevo a ese mismo antígeno. Las respuestas a esta segunda exposición y a las sucesi-
+                                                               vas, llamadas respuestas inmunitarias secundarias, suelen ser más rápidas, de mayor magnitud y más
+                                                               amplias que la primera respuesta inmunitaria a ese antígeno, o primaria, y a menudo son cualitati-
+                                                               vamente diferentes. La memoria inmunitaria se debe a que cada exposición a un antígeno genera
+                                                               células memoria de larga vida específicas frente al antígeno. Hay dos razones por las que la respuesta
+                                                               secundaria es típicamente más fuerte que la primaria:
+
+                                                                   a. -las células memoria se acumulan y se hacen más numerosas que los linfocitos vírgenes espe-
+                                                               cíficos frente a ese antígeno que había en el momento de la primera exposición al antígeno
+
+                                                                   b. -las células memoria reaccionan con mayor rapidez y fuerza a la exposición al antígeno que los
+                                                               linfocitos vírgenes.
+
+                                                               3. -Falta de reactividad frente a lo propio (tolerancia de lo propio). Una de las propiedades más des-
+                                                               tacadas del sistema inmunitario del sujeto normal es su capacidad para reconocer muchos antígenos
+                                                               extraños (ajenos), responder a ellos y eliminarlos sin reaccionar contra las sustancias antigénicas del
+                                                               mismo individuo (propias). La insensibilidad inmunitaria también se denomina tolerancia. La toleran-
+                                                               cia frente a los antígenos propios, o autotolerancia, se conserva por diversos mecanismos. Entre ellos
+                                                               están la eliminación de linfocitos que expresan receptores específicos para antígenos propios, la
+                                                               inactivación de linfocitos autorreactivos o la supresión de estas células por las acciones de otras cé-
+
+
+
+
+                                              Reservados todos los derechos. No se permite la explotación económica ni la transformación de esta obra. Queda permitida la impresión en su totalidad.
+a64b0469ff35958ef4ab887a898bd50bdfbbe91a-9216680
+
+
+
+
+                                                               lulas (reguladoras). Las respuestas inmunitarias adaptativas constan de pasos distintos; las tres pri-
+                                                               meras son el reconocimiento del antígeno, la activación de los linfocitos y la eliminación del antígeno
+                                                               (la fase efectora). La respuesta se contrae (declina) a medida que los linfocitos estimulados por el
+                                                               antígeno mueren por apoptosis, lo que restaura la homeostasis, y las células específicas frente al
+                                                               antígeno que sobreviven son responsables de la memoria. La duración de cada fase puede variar en
+                                                               diferentes respuestas inmunitarias. Existen dos tipos de respuestas inmunitarias adaptativas, llama-
+                                                               das inmunidad humoral e inmunidad celular, en las que intervienen componentes diferentes del sis-
+                                                               tema inmunitario y que sirven para eliminar microbios de distintos tipos
+
+
+
+                                                               Tema 4 → Explica las células que comprende la línea mieloide y las funciones y tipos de células
+                                                               dendríticas
+
+                                                               La línea mieloide comprende casi todas las células del sistema inmunitario innato. El progenitor mie-
+                                                               loide común es el precursor de los macrófagos, de los granulocitos, de las células cebadas y de las
+                                                               células dendríticas del sistema inmunitario innato, y de megacariocitos y eritrocitos.
+
+                                                               -Los macrófagos residen en casi todos los tejidos, y son la forma madura de los monocitos, que cir-
+                                                               culan en la sangre y migran de modo continuo hacia tejidos, donde se diferencian. Juntos, los mono-
+                                                               citos y los macrófagos constituyen uno de los tres tipos de fagocitos en el sistema inmunitario: los
+                                                               otros son los granulocitos (el término colectivo para los leucocitos llamados neutrófilos, eosinófilos
+                                                               y basófilos) y las células dendríticas.
+
+                                                               Cuando hablamos del desarrollo y maduración, debemos decir que:
+
+                                                               A. - En el estado estable en los adultos y durante las reacciones inflamatorias, los precursores de la
+                                                               médula ósea dan lugar a monocitos circulantes, dirigidos por una citocina llamada factor estimulante
+                                                               de colonias de monocitos (o macrófagos) (M -CSF). Los monocitos entran en los tejidos periféricos,
+                                                               maduran para formar macrófagos y son activados de forma local.
+
+                                                               B. -Al principio del desarrollo, como en la vida fetal, los precursores presentes en el saco vitelino y el
+                                                               hígado fetal dan lugar a células que siembran los tejidos para generar macrófagos especializados
+                                                               residentes en el tejido. Son ejemplos de ellas las células de Kupffer que recubren los sinusoides en el
+                                                               hígado, los macrófagos alveolares en el pulmón, las células microgliales en el encéfalo o los osteo-
+                                                               clastos en el hueso.
+
+                                                               Ahora pasaremos a hablar de las células dendríticas. Las DC son células residentes y circulantes que
+                                                               detectan la presencia de microbios e inician reacciones de defensa inmunitarias innatas y capturan
+                                                               proteínas microbianas para mostrarlas (APC) a los linfocitos T con el fin de comenzar las respuestas
+                                                               inmunitarias adaptativas. La función de las DC las sitúa en una posición única en el sistema inmuni-
+                                                               tario, sirviendo de centinelas de la infección que da comienzo a la respuesta inmunitaria innata pero
+                                                               también ligando las respuestas inmunitarias con el desarrollo de respuestas inmunitarias adaptati-
+                                                               vas. Las funciones de las DC en la inmunidad innata y en la adaptativa son posibles debido a las di-
+                                                               versas características importantes de estas células. Las DC expresan TLR y otros receptores que re-
+                                                               conocen moléculas microbianas, y responden a los microbios secretando citocinas que reclutan y
+
+
+
+
+                                              Reservados todos los derechos. No se permite la explotación económica ni la transformación de esta obra. Queda permitida la impresión en su totalidad.
+a64b0469ff35958ef4ab887a898bd50bdfbbe91a-9216680
+
+
+
+
+                                                               activan células innatas en las zonas de infección. Las DC son sumamente eficientes capturando antí-
+                                                               genos proteínicos de microbios, degradando estos antígenos y mostrando porciones de estos antí-
+                                                               genos para que sean reconocidos por los linfocitos T. La respuesta inmunitaria innata potencia esta
+                                                               capacidad presentadora de antígenos de las DC, y este es un mecanismo importante por el que la
+                                                               inmunidad innata promueve las respuestas inmunitarias adaptativas.
+
+                                                               Las DC se dividen en 4 subgrupos:
+
+                                                               1. - DC CLÁSICAS: Las DC clásicas (también llamadas DC tradicionales) son el principal tipo de DC
+                                                               implicado en la captura de antígenos proteínicos de los microbios que entran a través de los epitelios
+                                                               y en la presentación de los antígenos a los linfocitos T . Son el subgrupo de DC más numeroso en los
+                                                               epitelios y en los órganos linfáticos. La mayoría de ellas derivan de precursores mielocíticos que mi-
+                                                               gran desde la médula ósea para diferenciarse en DC residentes en los tejidos linfáticos y no linfáticos.
+                                                               Similar a los macrófagos tisulares, toman constantemente muestras del ambiente en que residen.
+                                                               Por ejemplo, en el intestino, las DC parecen enviar prolongaciones que atraviesan las células epite-
+                                                               liales y las proyectan en la luz, donde actúan capturando antígenos luminales. Todas las DC clásicas
+                                                               expresan la clase II del MHC y CD11c.
+
+                                                               2. - DC PLASMACITOIDES: Las DC plasmacitoides producen la citocina antivírica interferón (IFN) tipo
+                                                               I en respuesta a virus y pueden capturar microbios transportados por la sangre y llevar sus antígenos
+                                                               al bazo para su presentación a los linfocitos T. Estas DC se llaman así porque, después de activarse,
+                                                               se parecen a las células plasmáticas en su forma. Se producen en la médula ósea a partir de un pre-
+                                                               cursor que también da lugar a las DC clásicas y se encuentran en la sangre y en un pequeño número
+                                                               en los órganos linfáticos. Las DC plasmacitoides son las principales productoras de citocinas llamadas
+                                                               interferones (IFN) tipo I, que tienen actividades antivíricas potentes y desempeñan una función im-
+                                                               portante en la defensa innata frente a los virus.
+
+                                                               3. - CELULAS DE LANGERHANS: Son células dendríticas inmaduras que se encuentran en la epidermis
+                                                               y cuya función más importante es atrapar antígenos en la piel y transportarlos hacia órganos linfoi-
+                                                               des. Durante su migración, estas células maduran a células dendríticas y presentan los antígenos de
+                                                               manera eficaz a los linfocitos T vírgenes.
+
+                                                               4. - DC FOLICULARES: Son un tipo especial de células dendríticas que se encuentran en los centros
+                                                               germinales de los ganglios linfáticos y no derivan de precursores de la médula ósea. Son aquellas que
+                                                               presentan los antígenos a los linfocitos B. Además, contribuyen a la organización estructural del fo-
+                                                               lículo
+
+
+
+                                                               Tema 5 → Función, estructura y componentes de la médula ósea
+
+                                                               Es el lugar de generación de la mayoría de las células sanguíneas e inmunitarias (hematopoyesis)
+                                                               (estimulada por citoquinas) y donde maduran parcialmente los linfocitos B. La generación de todas
+                                                               las células sanguíneas, llamada hematopoyesis, ocurre al principio, durante el desarrollo fetal, en los
+                                                               islotes sanguíneos del saco vitelino y en el mesénquima paraaórtico, después se desplaza al hígado
+                                                               entre el tercer y cuarto mes de gestación, y finalmente pasa a la médula ósea. En el nacimiento, la
+                                                               hematopoyesis tiene lugar en los huesos de todo el esqueleto, pero cada vez se restringe más a la
+
+
+
+
+                                              Reservados todos los derechos. No se permite la explotación económica ni la transformación de esta obra. Queda permitida la impresión en su totalidad.
+a64b0469ff35958ef4ab887a898bd50bdfbbe91a-9216680
+
+
+
+
+                                                               médula de los huesos planos, de manera que, en la pubertad, la hematopoyesis se produce sobre
+                                                               todo en el esternón, las vértebras, los huesos ilíacos y las costillas.
+
+                                                               Esta formada por:
+
+                                                               - Medula roja: La médula roja que se encuentra en estos huesos consta de una estructura reticular
+                                                               espongiforme (“malla ósea”) localizada entre trabéculas óseas largas. Los espacios en esta estructura
+                                                               contienen una red de sinusoides (vasos sanguíneos) llenos de sangre recubiertos de células endote-
+                                                               liales unidas a una membrana basal discontinua. Fuera de los sinusoides hay grupos de precursores
+                                                               de células sanguíneas en varios estadios de desarrollo, así como adipocitos. Los precursores de las
+                                                               células sanguíneas maduran y migran a través de la membrana basal sinusoidal y entre las células
+                                                               endoteliales para entrar en la circulación vascular. Cuando la médula ósea se daña o cuando se pro-
+                                                               duce una demanda excepcional de producción de células sanguíneas nuevas, el hígado y el bazo se
+                                                               convierten a veces en zonas de hematopoyesis extramedular.
+
+                                                               - Espacio intersticial : Fuera de los sinusoides en el espacio intersticial, hay adipocitos maduros y
+                                                               grupos de precursores de células sanguíneas, que maduran y migran a través de la membrana basal
+                                                               y entre las células endoteliales para llegar a la circulación. En el espacio intersticial también se dis-
+                                                               ponen células del estroma, células plasmáticas secretoras de anticuerpo, linfocitos B foliculares y
+                                                               linfocitos T de memoria
+
+
+
+                                                               Tema 7 → Antígenos y su interacción con los anticuerpos.
+
+                                                               Tema 7 → ¿Qué es la inmunogenicidad? ¿Cuáles son las propiedades que afectan a esta?
+
+                                                               La inmunogenicidad es la capacidad de un antígeno para iniciar una respuesta inmune. Propiedades
+                                                               que contribuyen a la inmunogenicidad:
+
+                                                               1. Altericidad (Carácter ajeno o no propio)
+
+                                                               2. Tamaño de la molécula
+
+                                                               3. Grado de complejidad química
+
+                                                               4. Constitución genética del anfitrión
+
+                                                               5. La vía de administración.
+
+                                                               6. Dosis. La magnitud de la respuesta inmunitaria depende de la dosis de inmunógeno administrada.
+                                                               Por debajo de cierta dosis umbral, casi ninguna proteína desencadena respuesta inmunitaria. Por
+                                                               arriba de la dosis umbral, hay un incremento gradual de la respuesta a medida que la dosis de antí-
+                                                               geno se aumenta, hasta que se alcanza una meseta amplia, seguida por una declinación a dosis muy
+                                                               altas de antígeno. Dado que casi todos los agentes infecciosos entran al cuerpo en números peque-
+                                                               ños, las respuestas inmunitarias generalmente sólo son desencadenadas por agentes patógenos que
+                                                               se multiplican hasta una cifra que excede la dosis umbral de antígeno. La amplitud de la respuesta
+                                                               óptima permite que el sistema responda a agentes infecciosos en un amplio rango de dosis. A dosis
+                                                               de antígeno muy altas la respuesta inmunitaria se inhibe, lo que puede ser importante para mante-
+
+
+
+
+                                              Reservados todos los derechos. No se permite la explotación económica ni la transformación de esta obra. Queda permitida la impresión en su totalidad.
+a64b0469ff35958ef4ab887a898bd50bdfbbe91a-9216680
+
+
+
+
+                                                               ner tolerancia a proteínas propias abundantes, como las proteínas plasmáticas. En general, las res-
+                                                               puestas inmunitarias secundaria y subsiguientes ocurren a dosis más bajas de antígeno, y logran va-
+                                                               lores de meseta más altos, lo cual es un signo de memoria inmunitaria. Aun así, en algunas condicio-
+                                                               nes, dosis muy bajas o muy altas de antígeno pueden inducir estados de falta de respuesta específica,
+                                                               conocidos respectivamente como tolerancia de zona baja o de zona alta.
+
+                                                               Una reacción cruzada se define como la unión de un anticuerpo a un antígeno que no es el inmunó-
+                                                               geno; casi todos los anticuerpos muestran reacción cruzada con antígenos estrechamente relaciona-
+                                                               dos pero, en ocasiones, algunos se unen a antígenos que no tienen relación clara con el inmunógeno.
+
+                                                               Tema 8 → ¿Cuáles son las vías de activación del sistema del complemento?
+
+                                                               En la activación del complemento, el punto central es la formación de una C3 convertasa, capaz de
+                                                               convertir catalíticamente el componente C3 en C3a y C3b.
+
+                                                               →En la ruta clásica y en la de las lectinas, la C3 convertasa es el complejo C4bC2a.
+
+                                                               → En la ruta alternativa, la C3 convertasa es el complejo C3bBb.
+
+
+
+                                                               Ambas producen grandes cantidades de C3b, que se va a unir a la superficie del microorganismo,
+                                                               constituyendo un foco para seguir produciendo C3b.
+
+                                                               Por otro lado, cuando una C3 convertasa se une a la molécula C3b, ésta va a dar lugar a la correspon-
+                                                               diente C5 convertasa, fundamental para el primer paso de la cascada que dará lugar al ensamblaje
+                                                               de ataque a la membrana.
+
+
+
+
+                                              Reservados todos los derechos. No se permite la explotación económica ni la transformación de esta obra. Queda permitida la impresión en su totalidad.
+a64b0469ff35958ef4ab887a898bd50bdfbbe91a-9216680
+
+
+
+
+                                                               Activación de la ruta clásica
+
+                                                               La activación del complemento por la vía clásica comienza casi siempre con la unión de un antígeno
+                                                               a un anticuerpo, formando un inmunocomplejo.
+
+                                                               La activación de la ruta clásica comienza con la unión del complejo C1 a los anticuerpos de estos
+                                                               inmunocomplejos. El complejo C1 va a estar formado por una proteína C1q, dos proteínas C1r y otras
+                                                               dos C1s, formando un complejo C1qr2s2. La proteína C1q se va a unir a la región Fab del anticuerpo,
+                                                               y dicha unión va a desencadenar la activación de la proteína C1r por autocatálisis, que va a activar a
+                                                               la otra proteína C1r y esta, a su vez, a las dos proteínas C1s. Ésta última va a tener actividad serín-
+                                                               proteasa, que va a provocar la rotura y activación de los complejos C4 y C2.
+
+                                                               El siguiente paso es la rotura catalítica del complejo C4, que va a dar lugar a las proteínas C4a (en
+                                                               disolución) y C4b (unido covalentemente a la superficie microbiana). El C4b, ahora, va a servir como
+                                                               sitio de unión del complejo C2, que al unirse al C4b va a ser escindido en C2a y C2b. Así, se forma la
+                                                               C3 convertasa (C4bC2a)
+
+                                                               Tras ello, se unirán moléculas C3 a la C3 convertasa, que las romperá dando lugar a C3a (activará una
+                                                               respuesta inflamatoria), y C3b (quedará unido a la superficie del patógeno). Parte de las moléculas
+                                                               de C3b se unirán a la C3 convertasa, dando lugar a la C5 convertasa (C4b2a3b), de forma que escinde
+                                                               el complejo C5 en C5a y C5b. Éste último se va a unir a C6, que posteriormente formará el complejo
+                                                               de ataque a la membrana.
+
+
+
+
+                                                               Activación de la ruta alternativa
+
+                                                               La vía alternativa genera productos parecidos a los de la vía clásica, pero se diferencia en que no es
+                                                               necesaria la presencia de inmunocomplejos. Debido a que no se necesita anticuerpos, la vía alterna
+                                                               es un componente del sistema inmune innato. Además, actúa antes que la vía clásica porque no tiene
+                                                               que esperar a la producción de los anticuerpos.
+
+
+
+
+                                              Reservados todos los derechos. No se permite la explotación económica ni la transformación de esta obra. Queda permitida la impresión en su totalidad.
+a64b0469ff35958ef4ab887a898bd50bdfbbe91a-9216680
+
+
+
+
+                                                               En la vía clásica, el complejo C3 se escinde rápidamente para dar lugar a las proteínas C3a y C3b, sin
+                                                               embargo, en la vía alternativa se va a producir la hidrólisis del complejo C3 espontáneamente, pero
+                                                               ésta va a ser lenta.
+
+                                                               La proteína C3b va a unirse a la superficie del patógeno, o incluso puede unirse a las células del
+                                                               hospedador, pero éstas últimas contienen ácido siálico, que va a inactivar a la proteína y no va a
+                                                               producir daños contra la célula. En las células del patógeno se va a unir el factor B con la proteína
+                                                               C3b, con el objetivo de formar un complejo estabilizado por Mg2+. Esta unión sirve de sustrato para
+                                                               la unión del factor D, que va a provocar la escisión del factor B en Ba y Bb. La proteína Bb se unirá a
+                                                               la proteína C3b, dando lugar a la C3 convertasa (C3bBb).
+
+                                                               El complejo C3Bb es muy inestable, y para estabilizarlo se va a unir el factor P, que va a permitir que
+                                                               el complejo rompa otras moléculas de C3 y que se una, por ende, la proteína C3b a la membrana del
+                                                               patógeno, amplificando la respuesta.
+
+                                                               La unión de C3b a la convertasa de C3 va a originar el complejo C3bBb3b, que es la C5 convertasa.
+                                                               Ésta va a escindir, como en la ruta clásica, el complejo C5 en las proteínas C5a y C5b, siendo ésta
+                                                               última la que comience a formar el complejo de ataque a la membrana para provocar la lisis del
+                                                               microorganismo.
+
+
+
+
+                                                               Activación de la ruta de la lectina
+
+                                                               La ruta de la lectina es, como la ruta alternativa, una ruta independiente de los anticuerpos, es decir,
+                                                               no se necesitan para su activación.
+
+
+
+
+                                              Reservados todos los derechos. No se permite la explotación económica ni la transformación de esta obra. Queda permitida la impresión en su totalidad.
+a64b0469ff35958ef4ab887a898bd50bdfbbe91a-9216680
+
+
+
+
+                                                               La ruta de la lectina se va a activar cuando la lectina de unión a manosas (MBL) se une a los residuos
+                                                               de manosa presentes en glucoproteínas y carbohidratos en la membrana de los microorganismos.
+                                                               Después de que la MBL se una a los residuos de manosa, a ella se fijan las proteasas de serina rela-
+                                                               cionadas con MBL: MASP-1, MASP-2. El complejo activo formado por esta vinculación provoca la
+                                                               escisión de los complejos C4 y C2, por lo que las proteínas MASP-1 y MASP-2 van a tener similitudes
+                                                               con C1r y C1s.
+
+                                                               Al escindirse C4, va a producir las proteínas C4a y C4b, y sobre ésta última se va a unir C2, para
+                                                               escindirse en C2a y C2b. Finalmente, se formará la misma C3 convertasa que en la ruta clásica
+                                                               (C4b2a).
+
+                                                               A la C3 convertasa se unirán moléculas de C3, que se fragmentarán en C3a y C3b. C3b se unirá a la
+                                                               C3 convertasa para dar lugar a la C5 convertasa (C4b2a3b).
+
+
+
+
+                                                                                                    Activación de la C5 convertasa
+
+                                                                                                    A partir de la formación de la convertasa de C3, tanto del complejo
+                                                                                                    C4b2b como del complejo C3bBb, se va a formar la convertasa de
+                                                                                                    C5 tras la unión de la proteína C3b, que se libera tras la rotura del
+                                                                                                    complejo C3. Entonces, las C5 convertasas serían, para la vía clásica
+                                                                                                    y de las lectinas C4b2b3b, y para la vía alternativa C3bBb3b.
+
+                                                                                                    La C5 convertasa va a escindir el complejo C5 para liberar las proteí-
+                                                                                                    nas C5a y C5b por la acción de Bb o C2b.
+
+
+
+
+                                              Reservados todos los derechos. No se permite la explotación económica ni la transformación de esta obra. Queda permitida la impresión en su totalidad.
+a64b0469ff35958ef4ab887a898bd50bdfbbe91a-9216680
+
+
+
+
+                                                               Tema 9 → Desarrollo y maduración del linfocito B
+
+                                                               Los principales pasos en la maduración de los linfocitos B son el reordenamiento y expresión de los
+                                                               genes de Ig en un orden preciso, la selección y proliferación de los linfocitos B en desarrollo en el
+                                                               punto de control del prerreceptor para el antígeno, y la selección del repertorio de linfocitos B ma-
+                                                               duros.
+
+                                                               Las etapas del desarrollo de células B son, en el orden en que ocurren: pro -B temprana, pro -B tardía,
+                                                               pre -B grande, pre -B pequeña, y B madura. Durante su maduración, las células de la línea de linfoci-
+                                                               tos B pasan a través de estadios distinguibles, cada uno caracterizado por diferentes marcadores de
+                                                               superficie celular y un patrón específico de expresión del gen de la Ig.
+
+                                                               1.- Pro-B: No producen Ig, pero pueden distinguirse de otras células inmaduras por la expresión de
+                                                               moléculas de superficie restringidas a la línea B, como CD19 y CD10.
+
+                                                               - Pro-B temprana: Los factores de transcripción E2A y EBF en la célula pro -B temprana inducen la
+                                                               expresión de varias proteínas clave que permiten que ocurra el reordenamiento de gen, como las
+                                                               proteínas Rag -1 y Rag - 2, que son las primeras en expresarse en este estadio. La primera recombi-
+                                                               nación de los genes de Ig ocurre en el locus de la cadena pesada. Esta recombinación acerca un
+                                                               segmento génico D y uno J, eliminando el ADN intermedio. En ausencia de E2A o EBF, no ocurre
+                                                               unión de D a J H. En el momento en el que se produce la unión de D a J H, la célula se convierte en
+                                                               una celula pro -B tardía.
+
+                                                               - Pro-B tardía: Para producir una cadena pesada de inmunoglobulina completa, la célula pro -B tardía
+                                                               ahora procede con un segundo reordenamiento de un segmento de gen V H a una secuencia DJ H.
+                                                               Tras el reordenamiento D a J H, ahora ocurre el reordenamiento V H a DJ H sólo en un cromosoma,
+                                                               lo que da lugar al exón VDJ reordenado. En este estadio, todos los segmentos V y D que hay entre
+                                                               los segmentos génicos V y D reordenados también son eliminados. Un reordenamiento exitoso con-
+                                                               duce a la producción de cadenas pesadas μ intactas, luego de lo cual el reordenamiento V H a DJ H
+                                                               cesa, y la célula se convierte en una célula pre-B. Hay que tener en cuenta que la recombinación
+                                                               V(D)J es muy imprecisa, y que, aunque produce diversidad aumentada en el repertorio de anticuer-
+                                                               pos, también causa reordenamientos fallidos. Por ello, las células pro -B necesitan un mecanismo
+                                                               para comprobar que se ha producido una cadena pesada que sea funcional. Para ello, incorporan la
+                                                               cadena pesada a un receptor que puede emitir señales de su producción exitosa.
+
+                                                               2.- Pre-B: Una vez que se realiza un reordenamiento productivo de μ de Ig, la célula deja de llamarse
+                                                               prolinfocito B y se ha diferenciado a un estadio pre -B. El prelinfocito B expresa la cadena pesada μ
+                                                               en la superficie celular, asociada a otras proteínas, en un complejo llamado pre -BCR. La expresión
+                                                               del pre -BCR es el primer punto de control en la maduración del linfocito B y media la transición entre
+                                                               las células pro -B y pre -B.
+
+                                                               Una cinasa llamada tirosina cinasa de Bruton (Btk) se activa a continuación del pre -BCR y es necesaria
+                                                               para enviar señales de este receptor que median la supervivencia, la proliferación y la maduración
+                                                               en el estadio de prelinfocito B y posteriores.
+
+
+
+
+                                              Reservados todos los derechos. No se permite la explotación económica ni la transformación de esta obra. Queda permitida la impresión en su totalidad.
+a64b0469ff35958ef4ab887a898bd50bdfbbe91a-9216680
+
+
+
+
+                                                               Tema 10 → Función de RAG-1/RAG-2
+
+                                                               El complejo de enzimas que actúan en conjunto para llevar a cabo la recombinación somática V(D)J
+                                                               se denomina recombinasa V(D)J. Los componentes específicos de linfocitos de la recombinasa se
+                                                               llaman RAG-1 y RAG-2, y son codificados por dos genes activadores de recombinación, RAG -1 y RAG
+                                                               - 2. Este par de genes se expresa en linfocitos en desarrollo sólo mientras están ensamblando sus
+                                                               receptores de antígenos y son esenciales para la recombinación V(D)J. Solo RAG-1 posee actividad
+                                                               catalítica.
+
+                                                               RAG-1 y RAG-2 contribuyen a mantener juntos segmentos génicos durante el proceso de pliegue o
+                                                               sinapsis cromosómica.
+
+                                                               RAG-1 y RAG-2, aparte de generar las roturas en la doble cadena, también mantienen los extremos
+                                                               de la horquilla y los extremos romos juntos antes de que empiece la modificación de los extremos
+                                                               codificadores y del proceso de ligadura. Esto ocurre en el acontecimiento de escisión en la recombi-
+                                                               nación V(D)J.
+
+                                                               - ¿Cuál es el mecanismo generador de diversidad?
+
+                                                               Estamos hablando de la recombinación V(D)J, donde, de forma general, las dos RSS se juntan gracias
+                                                               a interacciones que se dan entre proteínas que reconocen de modo específico la longitud del espa-
+                                                               ciador y que por lo tanto cumplen con la regla 12/23 de la recombinación. A continuación, la molé-
+                                                               cula de DNA se rompe en dos lugares y se vuelve a unir en una configuración diferente. Los extremos
+                                                               de las secuencias heptaméricas se unen con precisión en una disposición cabeza a cabeza para for-
+                                                               mar una unión de señal:
+
+                                                                    a- cuando los segmentos de unión están en orientación directa, la articulación de señal es una
+                                                                         pieza circular de DNA extracromosómico que se pierde del genoma cuando la celula se di-
+                                                                         vide.
+
+
+                                                                    b- En el caso de reordenamiento por inversión, la articulación de señal también se retiene den-
+                                                                         tro del cromosoma y la región de DNA ubicada entre el segmento génico V y la RSS del seg-
+                                                                         mento génico J se invierte para formar la unión codificadora.
+
+                                                               Los segmentos génicos V y J, que permanecen en el cromosoma, se unen para formar la unión codi-
+                                                               ficadora. El empalme de la unión codificadora es impreciso y en consecuencia genera mucha varia-
+                                                               bilidad adicional en la secuencia de la región V.
+
+
+
+                                                               -Explica el cambio de isotipo de las Ig
+
+                                                               El cambio de isotipos es el mecanismo molecular que permite cambiar al anticuerpo de una clase a
+                                                               otra. Durante este proceso se cambia la porción de región constante de la cadena pesada del anti-
+                                                               cuerpo, pero la región variable permanece sin cambios. Puesto que ésta no cambia, esta conmuta-
+                                                               ción no afecta a la especificidad de antígeno.
+
+                                                               Durante este proceso, porciones del locus de cadena pesada del anticuerpo son eliminadas del cro-
+                                                               mosoma y los segmentos génicos que rodean la porción destruida empalman para mantener un gen
+
+
+
+
+                                              Reservados todos los derechos. No se permite la explotación económica ni la transformación de esta obra. Queda permitida la impresión en su totalidad.
+a64b0469ff35958ef4ab887a898bd50bdfbbe91a-9216680
+
+
+
+
+                                                               funcional de anticuerpo, pero que produce un
+                                                               isotipo diferente. Esta recombinación no ho-
+                                                               móloga es guiada por las regiones de cambio
+                                                               (S). La recombinación por cambio de clase
+                                                               permite a una unidad VDJ dada unirse a dife-
+                                                               rentes regiones constantes, lo cual determina
+                                                               la función efectora de la molécula de Ig.
+
+                                                               Cuando una célula B cambia de la coexpresión
+                                                               de IgM y de IgD a la expresión de otro subtipo,
+                                                               ocurre recombinación de DNA entre la región
+                                                               Sμ y la región S ubicada justo en flujo ascen-
+                                                               dente del gen que codifica dicho isotipo.
+
+                                                               Lazos R: regiones extendidas de DNA mono-
+                                                               catenario formadas por la cadena que no fun-
+                                                               ciona como molde, que sirven como sustratos
+                                                               para la AID, y después para la UNG y para la
+                                                               APE1. La AID es la mediadora clave de hiper-
+                                                               mutación somática, conversión génica y re-
+                                                               combinación por cambio de clase.
+
+
+
+
+                                                               -Explica el proceso de diferenciación del linfocito B
+
+                                                               1. HSC: La célula troncal hematopoyética (HSC) primero se diferencia en células progenitoras pluri-
+                                                               potenciales, que pueden producir células linfoides y mieloides.
+
+                                                               Los factores de transcripción PU.1 e ikaros expresados en las células progenitoras pluripotenciales
+                                                               van a promover la expresión de FLT3, una tirosina-quinasa que se une al ligando FLT3 y que es nece-
+                                                               saria para la producción de IL-7.
+
+                                                               2. PLC: La señalización mediada por FLT3 y PU.1 van a permitir la diferenciación hacia el progenitor
+                                                               linfoide común (PLC) y la síntesis de IL-7. La IL-7 es esencial para la proliferación y crecimiento de las
+                                                               células B.
+
+                                                               La quimiocina CXCL12 también va a jugar un papel fundamental en el desarrollo de las células, ya
+                                                               que va a promover el mantenimiento de células B en desarrollo por el microambiente de la médula
+                                                               ósea.
+
+                                                               La CLP se va a adherir a las células del estroma de la médula ósea mediante moléculas de adhesión
+                                                               celular, como CAM o VCAM-1.
+
+                                                               3. Célula Pro-B: Las interacciones con las células del estroma de la médula ósea van a hacer que el
+                                                               progenitor linfoide común se una a la célula del estroma de la médula ósea mediante el factor de
+                                                               células primordiales (SCF), que va a estimular el crecimiento del progenitor linfoide.
+
+
+
+
+                                              Reservados todos los derechos. No se permite la explotación económica ni la transformación de esta obra. Queda permitida la impresión en su totalidad.
+a64b0469ff35958ef4ab887a898bd50bdfbbe91a-9216680
+
+
+
+
+                                                               Ahora, estamos ante la célula de la línea B más temprana: célula Pro-B, en la cual empieza el reorde-
+                                                               namiento del gen que codifica para la inmunoglobina.
+
+                                                               La señalización de IL-7 va a promover la expresión de E2A (factor de transcripción específico para la
+                                                               línea B) y EBF (factor de célula B temprano), que conjuntamente van a impulsar la expresión de pro-
+                                                               teínas que determinan el estado de la célula Pro-B, contribuyendo a la expresión del promotor Pax-
+                                                               5, que induce la expresión de las proteínas específicas de la célula B.
+
+                                                               Los marcadores que expresan el precursor de linfocito B va a determinar cada etapa del proceso.
+
+                                                               Las células estromales de la médula ósea son esenciales para el desarrollo de las células B. Ambos
+                                                               tipos celulares están conectados a través de moléculas de adhesión como CAM. Las células estroma-
+                                                               les van a proporcional a las células B factores de crecimiento como el SCF y la IL-7, entre otros. Pos-
+                                                               teriormente, la IL-7 estimula la producción de dos factores de transcripción: E2A y EBF. Estos dos
+                                                               factores de transcripción codifican enzimas que llevan a cabo un papel importante en la reordena-
+                                                               ción y recombinación de los genes de la inmunoglobulina en el proceso de recombinación V(D)J.
+
+
+
+                                                               Tema 11 → Estructura y función del MHC
+
+                                                               Las moléculas del MHC son glucoproteínas codificadas en la agrupación grande de genes conocida
+                                                               como el complejo principal de histocompatibilidad (MHC).
+
+                                                               Los linfocitos T reconocen y responden a los antígenos asociados a células y no a antígenos solubles
+                                                               de fuera de las células. Una función importante de los linfocitos T es eliminar microbios que sobrevi-
+                                                               ven dentro de las células. Además, los linfocitos T interactúan con otras células activadas, como los
+                                                               linfocitos B y los macrófagos. Para asegurar que los linfocitos T reconozcan antígenos asociados a
+                                                               células y no antígenos libres han evolucionado receptores del linfocito T para el antígeno para ver
+                                                               antígenos derivados de antígenos que están dentro de las células y presentados por moléculas de la
+                                                               superficie de las células. Esto contrasta vivamente con los linfocitos B, cuyos receptores para el antí-
+                                                               geno y productos secretados, los anticuerpos, pueden reconocer antígenos en las superficies micro-
+                                                               bianas y de las células del hospedador, así como antígenos solubles fuera de las células. La tarea de
+                                                               presentar los antígenos asociados a la célula del hospedador a los linfocitos T CD4 + y CD8 + la realizan
+                                                               proteínas especializadas llamadas moléculas del complejo principal de histocompatibilidad (MHC,
+                                                               major histocompatibility complex ), que se expresan en las superficies de las células del hospedador.
+
+                                                               Las moléculas de reconocimiento de antígenos de células T están hechas únicamente como proteínas
+                                                               de unión a membrana y sólo funcionan para emitir señales hacia células T para activación. Estos
+                                                               receptores de células T (TCR) se relacionan con inmunoglobulinas en su estructura de proteína (tie-
+                                                               nen regiones V y C) y en el mecanismo genético que produce su gran variabilidad. Sin embargo, los
+                                                               receptores de células T difieren de los de células B de modo importante: no reconocen ni se unen a
+                                                               antígenos de manera directa, sino que reconocen fragmentos peptídicos cortos de antígenos proteí-
+                                                               nicos, que están unidos a proteínas conocidas como moléculas del MHC sobre la superficie de células.
+
+                                                               Las moléculas del MHC también muestran antígenos de diferentes compartimentos celulares a dife-
+                                                               rentes clases de linfocitos T, asegurando que el tipo «correcto» de linfocito T reconozca el tipo de
+                                                               microbio que el linfocito T es mejora capaz de eliminar.
+
+
+
+
+                                              Reservados todos los derechos. No se permite la explotación económica ni la transformación de esta obra. Queda permitida la impresión en su totalidad.
+a64b0469ff35958ef4ab887a898bd50bdfbbe91a-9216680
+
+
+
+
+                                                               Tema 21 → ¿Cuáles son las dos señales que se necesita para la activación del linfocito B si es Ag
+                                                               timo-dependiente y timo-independiente?
+
+                                                                                                        El reconocimiento del antígeno por los linfocitos B va a darse gra-
+                                                                                                        cias al receptor BCR. El antígeno puede ser timo -dependiente, si
+                                                                                                        necesita de los linfocitos T CD4 para la activación de los linfocitos
+                                                                                                        B; o timo - independiente, si no necesita la colaboración de los
+                                                                                                        linfocitos T CD4:
+
+                                                                                                        - Antígenos timo-dependientes: En el proceso de secreción de an-
+                                                                                                        ticuerpos van a participar las células T CD4, que van a estimular
+                                                                                                        la producción de los anticuerpos implicando la diferenciación de
+                                                                                                        célula B virgen a células plasmáticas y a células B de memoria,
+                                                                                                        mediante el reconocimiento de la molécula MHC de clase II y del
+                                                                                                        ligando CD40 presentes en el linfocito B, y la posterior producción
+                                                                                                        de citocinas. Es el denominado reconocimiento encadenado.
+
+
+
+                                                                                                        -Antígenos timo -independientes: Son productos bacterianos
+                                                                                                        como polisacáridos, proteínas poliméricas y lipopolisacáridos que
+                                                                                                        tienen la capacidad de estimular a las células B en ausencia de
+                                                                                                        cooperación de células T. La primera señal la constituye el entre-
+                                                                                                        cruzamiento entre las células B maduras, y la segunda señal la
+                                                               proporciona la unión del antígeno al PRR del linfocito B (antígenos TI -1) o la del correceptor
+                                                               (CR2/CD21) del linfocito B a fragmentos del sistema del complemento (antígenos TI -2). Va a propor-
+                                                               cionar una respuesta rápida contra el antígeno :
+
+                                                                   - Antígenos TI - 1: A altas concentraciones se comportan como activadores policlonales de linfo-
+                                                               citos B (mitógenos de B), debido a que interaccionan con moléculas de la célula B diferentes de la Ig
+                                                               M, eludiendo las dos señales tradicionales (contactos entre moléculas de membrana de T y B, y cito-
+                                                               quinas de T H). Inducen la secreción de IgM, pero sin provocar maduración de afinidad, ni memoria,
+                                                               ni cambio de clase. A bajas concentraciones producen una respuesta específica rápida, anterior a la
+                                                               respuesta timo -dependiente.
+
+
+
+
+                                              Reservados todos los derechos. No se permite la explotación económica ni la transformación de esta obra. Queda permitida la impresión en su totalidad.
+a64b0469ff35958ef4ab887a898bd50bdfbbe91a-9216680
+
+
+
+
+                                                                   - Antígenos TI -2: Son macromoléculas altamente repetitivas, que al ser multivalentes provocan
+                                                               un gran entrecruzamiento de muchos recepto-
+                                                               res BCR del linfocito B que va a implicar la acti-
+                                                               vación monoclonal de un tipo de linfocitos lla-
+                                                               mados células B CD5. Por otra parte, el antígeno
+                                                               puede ser presentado por medio de una célula
+                                                               dendrítica, que va a liberar la citocina BAFF y
+                                                               que va a incrementar la producción de anticuer-
+                                                               pos contra antígenos TI -2 y va a promover el
+                                                               cambio de clase.
+
+
+
+
+                                                               Tema 21 → Papel de CD40L en la activación del linfocito B
+
+                                                               Primero se produce un reconocimiento encadenado, donde una vez que el BCR reconoce el antígeno,
+                                                               es capaz de internalizarlo y procesarlo. Al igual que las células dendríticas o macrófagos, es capaz de
+                                                               presentar un péptido en una molécula MHC de clase II, que va a reconocer a un linfocito T CD4. El
+                                                               reconocimiento del linfocito T CD4 va a implicar que libere citocinas que impliquen la activación del
+                                                               linfocito B y su posterior diferenciación.
+
+                                                               La interacción se establece principalmente entre el receptor CD40 del linfocito B con el ligando CD40L
+                                                               del linfocito T CD4.
+
+                                                               Posteriormente, se produce la cooperación del linfocito T con el linfocito B en la producción de anti-
+                                                               cuerpos; donde las células B foliculares activadas en los órganos linfáticos secundarios por la presen-
+                                                               cia del antígeno expresan el receptor CCR7 y migran al límite del folículo para acercarse a la zona de
+                                                               los linfocitos T. Las células T van a migrar hacia el folículo al expresar CXCR5 (son atraídas por la
+                                                               quimiocina CCL21, que se unirá al receptor CCR7 de los linfocitos B), para contactar con los linfocitos
+                                                               B. Una vez que se ha activado el linfocito B va a formar un primer foco de linfocitos B maduros, que
+                                                               se diferenciarán en plasmoblastos.
+
+                                                               Al activarse los linfocitos B, van a producir una serie de modificaciones:
+
+                                                               • Aumento de la supervivencia y proliferación: Expresión de proteínas que fomentan la superviven-
+                                                               cia y el ciclo celular, como Bcl-2.
+
+                                                               • Interacción con los linfocitos T CD4: Aumento de la expresión de B7, para actuar como célula pre-
+                                                               sentadora de antígenos.
+
+                                                               • Respuesta a las citocinas: Aumento de la expresión de los receptores para citocinas.
+
+                                                               • Migración desde el folículo hasta las zonas de linfocito T: Aumento de la expresión del receptor
+                                                                         CCR7 para su unión con CCL21.
+
+
+
+
+                                              Reservados todos los derechos. No se permite la explotación económica ni la transformación de esta obra. Queda permitida la impresión en su totalidad.
+a64b0469ff35958ef4ab887a898bd50bdfbbe91a-9216680
+
+
+
+
+                                                               Entonces, como los antígenos timo-dependientes suelen ser proteicos, la respuesta frente a este
+                                                               antígeno depende de que los linfocitos B y T interactúen. Los linfocitos TH2 eran los linfocitos espe-
+                                                               cializados en la activación de las células B indiferenciadas y de inducir el cambio de clase de linfocitos
+                                                               B activados para producir isotipos de anticuerpos específicos. Así pues, estos linfocitos junto con los
+                                                               TFH van a llevar a cabo la unión CD40- CD40L junto con la acción de la IL-4. La unión de CD40L con
+                                                               CD40 es fundamental para que se produzca la proliferación de los linfocitos B, el cambio de isotipo y
+                                                               la hipermutación somática de los genes de inmunoglobulinas de los linfocitos B activados. No obs-
+                                                               tante, en la interacción B-T participa también el combinado CD30 (linfocito B) - CD30L (linfocito T).
+                                                               Recordamos que el cambio de isotipo de inmunoglobulina se produce por modificaciones en las re-
+                                                               giones constantes de las cadenas pesadas, y esto depende de las citocinas. El tipo de citocina produ-
+                                                               cida por el linfocito T efector determina el isotipo definitivo de la inmunoglobulina en el ratón.
+
+                                                               Tenemos que hablar también de la enzima AID. La unión CD40-CD40L induce la expresión de la pro-
+                                                               teína AID, una proteína esencial para el cambio de isotipo y maduración de la afinidad (para la gene-
+                                                               ración de linfocitos B de memoria).
+
+                                                               • Cambio de isotipo: El cambio de isotipo se producía mediante un corte en el ADN de la cadena
+                                                               pesada de Ig y el posterior empalme con otra región del ADN de forma que origina un nuevo exón
+                                                               VDJ, que codifica para otro isotipo. En este proceso de corte y empalme interviene la enzima AID.
+
+                                                               • Maduración de la afinidad: Debido a que la hipermutación somática sucede de forma aleatoria,
+                                                               genera unas cuantas células con receptores de afinidad más alta y muchas células con receptores de
+                                                               la misma afinidad o inferior. Por consiguiente, es necesaria la selección para generar una población
+                                                               de células con mayor afinidad. El sitio de la selección es la zona clara del centro germinal, y las células
+                                                               B que tienen receptores de afinidad alta por el antígeno se seleccionan de manera positiva (expresan
+                                                               el gen bcl-xL e inhibe la apoptosis) y dejan el centro germinal, sufriendo entonces las de afinidad baja
+                                                               una selección negativa (mueren por apoptosis en el centro germinal). El factor más importante que
+                                                               influye en la selección es la capacidad de las moléculas de Ig en la membrana del centrocito de reco-
+                                                               nocer y unir al antígeno exhibido por células dendríticas foliculares (FDC). Debido a que la cantidad
+                                                               de antígeno es limitada, es más probable que los centrocitos con receptores de afinidad alta tengan
+                                                               más éxito para unir antígeno que los de afinidad baja.
+
+                                                               Y finalmente, se da la producción de célu-
+                                                               las plasmáticas. Tenemos que saber que el
+                                                               proceso de diferenciación de los linfocitos
+                                                               B en células plasmáticas es controlado por
+                                                               la proteína reguladora BLIMP-1, que es un
+                                                               represor transcripcional que apaga los ge-
+                                                               nes necesarios para la proliferación celu-
+                                                               lar, el cambio de isotipo y la maduración
+                                                               de la afinidad. Entonces, se produce un
+                                                               cese de la proliferación celular y se incre-
+                                                               menta la síntesis de inmunoglobulinas.
+
+                                                               También se inducen cambios en la membrana celular: deja de expresarse CXCR5 y se expresa CXCR4,
+                                                               que permite que la célula plasmática abandone el centro germinal.
+
+
+
+
+                                              Reservados todos los derechos. No se permite la explotación económica ni la transformación de esta obra. Queda permitida la impresión en su totalidad.
+a64b0469ff35958ef4ab887a898bd50bdfbbe91a-9216680
+
+
+
+
+                                                               -Explica los términos de afinidad y avidez:
+
+                                                               Afinidad y avidez: La interacción antígeno-anticuerpo se estabiliza mediante enlaces débiles. Existe
+                                                               una interacción estable entre el lugar de unión del anticuerpo (parátopo) y el lugar de unión del
+                                                               antígeno (epítopo), que deben presentar estructuras complementarias para obtener una energía de
+                                                               unión suficiente. La suma de estas fuerzas de atracción y de repulsión se conoce como afinidad del
+                                                               anticuerpo, mientras que en los anticuerpos multivalentes la suma de las afinidades de los distintos
+                                                               lugares de unión con el antígeno se denomina avidez.
+
+                                                               -ESTRUCTURA órganos
+
+                                                               -Explica los siguientes términos: isotipo, idiotipo y alotipo
+
+                                                               -Tema 4 → Explica las células DC plasmocitoides (de foto Hugo)
+
+                                                               Las DC plasmacitoides producen la citocina antivírica interferón (IFN) tipo I en respuesta a virus y
+                                                               pueden capturar microbios transportados por la sangre y llevar sus antígenos al bazo para su prese-
+                                                               tación a los linfocitos T. Estas DC se llaman así porque, después de activarse, se parecen a las células
+                                                               plasmáticas en su forma.
+
+                                                               Se producen en la médula ósea a partir de un precursor que también da lugar a las DC clásicas y se
+                                                               encuentran en la sangre y en un pequeño número en los órganos linfáticos. Las DC plasmacitoides
+                                                               son las principales productoras de citocinas llamadas interferones (IFN) tipo I, que tienen actividades
+                                                               antivíricas potentes y desempeñan una función importante en la defensa innata frente a los virus.
+
+                                                               -Tema 12 → Mecanismos que generan la diversidad del TCR
+
+                                                               • Diversidad combinatoria: La unión combinatoria de los segmentos génicos de la región variable da
+                                                               por resultado un gran número de combinaciones génicas aleatorias para todas las cadenas de TCR.
+                                                               Por ejemplo, en el ratón los 79 segmentos génicos funcionales Vα y 38Jα pueden generar 3,0x103
+                                                               posibles combinaciones VJ para la cadena α del TCR. De modo similar, 21 segmentos génicos Vβ, dos
+                                                               Dβ y 11Jβ pueden dar 4,6x102 posibles combinaciones para la cadena β. Además, la vinculación alea-
+                                                               toria de una de las cadenas α con una de las cadenas β puede generar 1,4x106 posibles combinacio-
+                                                               nes para el receptor de célula T αβ. Es por ello que la diversidad combinatoria es tanto de segmentos
+                                                               génicos como de cadenas α/β.
+
+                                                               • Diversidad de unión: La diversidad combinatoria se incrementa al introducir cambios en la secuen-
+                                                               cia de nucleótidos en las uniones de los segmentos V, D y J. Puede producirse la unión de hasta 20
+                                                               nucleótidos al azar por las enzimas TdT, que son nucleótidos no codificados por la plantilla y deno-
+                                                               minados nucleótidos N. Por otro lado, la variación en la escisión por endonucleasa conduce a la adi-
+                                                               ción de más nucleótidos complementarios en la cadena más corta utilizando la cadena más larga
+                                                               como molde. Las uniones VDJ son imprecisas, de manera que un mismo grupo de segmentos VDJ de
+                                                               la línea germinal puede generar diferentes secuencias de aminoácidos en las uniones. Los segmentos
+                                                               D del TCR suelen ofrecer 3 marcos de lectura.
+
+                                                               En comparación con las Ig:
+
+
+
+
+                                              Reservados todos los derechos. No se permite la explotación económica ni la transformación de esta obra. Queda permitida la impresión en su totalidad.
+a64b0469ff35958ef4ab887a898bd50bdfbbe91a-9216680
+
+
+
+
+                                                               • La diversidad potencial del TCR es mayor debido, sobre todo, al mayor número de segmentos J.
+                                                               • El tamaño potencial del repertorio antes de los procesos de selección alcanza las 1018 especifici-
+                                                               dades.
+                                                               • Los TCR no se someten al proceso de la hipermutación somática.
+
+
+
+                                                               -Tema 4 → ¿Cuáles son las principales citoquinas secretadas por los macrófagos?
+
+                                                               • IL-1: Su función es la activación del endotelio vascular y los linfocitos. Es la responsable
+                                                               de la fiebre.
+                                                               • IL-6: Activación de linfocitos y aumento de anticuerpos.
+                                                               • TNF-α: Activa la permeabilidad de los vasos sanguíneos permitiendo su dilatación.
+                                                               • IL-12: Induce la diferenciación de células NK
+
+
+                                                               -Tema 8 → Explica la formación del complejo MAC
+
+                                                               La fase final de activación y fijación del complemento consiste en la formación de una C5 convertasa
+                                                               que, al romper enzimáticamente el complejo C5 en las proteínas C5a y C5b desencadena el ensam-
+                                                               blaje del complejo de ataque a la membrana (MAC).
+
+                                                                                                                                           A partir de la formación
+                                                                                                                                           de C5b, todas las rutas
+                                                                                                                                           convergen en la forma-
+                                                                                                                                           ción de los complejos
+                                                                                                                                           C6, C7, C8 y C9, que in-
+                                                                                                                                           teractúan de manera se-
+                                                                                                                                           cuencial para formar el
+                                                                                                                                           complejo de ataque a la
+                                                                                                                                           membrana. Este com-
+                                                                                                                                           plejo forma un poro
+                                                                                                                                           grande en la membrana
+                                                                                                                                           del patógeno, que va a
+                                                                                                                                           provocar el libre paso de
+                                                                                                                                           iones y moléculas a tra-
+                                                                                                                                           vés de él, provocando la
+                                                                                                                                           lisis celular.
+                                                               Una vez unida la proteína C5b a la membrana del microorganismo, se van a unir C6 y C7. Posterior-
+                                                               mente y, tras la formación de complejo C5b67, este complejo va a experimentar una transición hi-
+                                                               drófoba que va a hacer que el complejo se sumerja en la membrana. Posteriormente se va a unir el
+                                                               complejo C8, que va a servir de sitio de unión para la unión de 14 subunidades de C9, generando una
+                                                               notable estructura poli-9 en forma de canal hueco que atraviesa la membrana de lado a lado, for-
+                                                               mando el poro.
+
+                                                               El conjunto C5b678poli-9 es lo que constituye el MAC, con el objetivo de producir un notable des-
+                                                               equilibro osmótico en el microorganismo que conduce a la lisis.
+
+
+
+
+                                              Reservados todos los derechos. No se permite la explotación económica ni la transformación de esta obra. Queda permitida la impresión en su totalidad.
+
