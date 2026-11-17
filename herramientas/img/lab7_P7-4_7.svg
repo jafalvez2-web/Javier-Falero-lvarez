@@ -1,0 +1,36 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 680 410' width='680' height='410'>
+<defs><marker id='ar' viewBox='0 0 10 10' refX='8' refY='5' markerWidth='6' markerHeight='6' orient='auto-start-reverse'><path d='M2 1L8 5L2 9' fill='none' stroke='context-stroke' stroke-width='1.6'/></marker></defs>
+<rect width='680' height='410' fill='#fff'/>
+<text x='108.66666666666667' y='20' text-anchor='middle' font-size='11.5' font-weight='bold' fill='#7209b9' font-family='Open Sans, Arial, sans-serif'>1. Antiácido + HCl</text>
+<rect x='35.66666666666667' y='140' width='146' height='140' fill='#DCEBFA'/>
+<path d='M33.66666666666667 112 V277 Q33.66666666666667 282 38.66666666666667 282 H178.66666666666669 Q183.66666666666669 282 183.66666666666669 277 V112' fill='none' stroke='#555' stroke-width='1.6'/>
+<ellipse cx='69.66666666666667' cy='160.0' rx='14' ry='13' fill='#FAEEDA' stroke='#BA7517' stroke-width='1'/><text x='69.66666666666667' y='164.0' text-anchor='middle' font-size='10.5' fill='#633806' font-family='Open Sans, Arial, sans-serif'>H⁺</text>
+<ellipse cx='147.66666666666669' cy='160.0' rx='14.8' ry='13' fill='#E1F5EE' stroke='#1D9E75' stroke-width='1'/><text x='147.66666666666669' y='164.0' text-anchor='middle' font-size='10.5' fill='#085041' font-family='Open Sans, Arial, sans-serif'>Cl⁻</text>
+<ellipse cx='69.66666666666667' cy='264.0' rx='18.4' ry='13' fill='#EEEDFE' stroke='#7F77DD' stroke-width='1'/><text x='69.66666666666667' y='268.0' text-anchor='middle' font-size='10.5' fill='#3C3489' font-family='Open Sans, Arial, sans-serif'>Al³⁺</text>
+<ellipse cx='147.66666666666669' cy='264.0' rx='18.4' ry='13' fill='#EEEDFE' stroke='#7F77DD' stroke-width='1'/><text x='147.66666666666669' y='268.0' text-anchor='middle' font-size='10.5' fill='#3C3489' font-family='Open Sans, Arial, sans-serif'>Mg²⁺</text>
+<text x='108.66666666666667' y='304' text-anchor='middle' font-size='10.2' font-weight='normal' fill='#333' font-family='Open Sans, Arial, sans-serif'>0,600 g + 50,0 mL HCl</text>
+<text x='108.66666666666667' y='319' text-anchor='middle' font-size='10.2' font-weight='normal' fill='#333' font-family='Open Sans, Arial, sans-serif'>Al(OH)₃ y Mg(OH)₂ se disuelven</text>
+<line x1='203.33333333333334' y1='197.0' x2='235.33333333333334' y2='197.0' stroke='#7209b9' stroke-width='1.6' marker-end='url(#ar)'/>
+<text x='340.0' y='20' text-anchor='middle' font-size='11.5' font-weight='bold' fill='#7209b9' font-family='Open Sans, Arial, sans-serif'>2. Valoro el HCl que sobra</text>
+<path d='M271.0 280 L295.0 217.4 H385.0 L409.0 280 Z' fill='#DCEBFA'/>
+<path d='M332.0 112 V171.5 L265.0 278 Q265.0 282 270.0 282 H410.0 Q415.0 282 415.0 278 L348.0 171.5 V112' fill='none' stroke='#555' stroke-width='1.6'/>
+<ellipse cx='340.0' cy='264' rx='14' ry='13' fill='#FCEBEB' stroke='#E24B4A' stroke-width='1'/><text x='340.0' y='268' text-anchor='middle' font-size='10.5' fill='#791F1F' font-family='Open Sans, Arial, sans-serif'>H⁺</text>
+<rect x='334.0' y='42' width='12' height='62' fill='#FFF6E8' stroke='#555'/>
+<path d='M337.0 104 L340.0 114 L343.0 104' fill='none' stroke='#555'/>
+<text x='350.0' y='60' text-anchor='start' font-size='10' font-weight='bold' fill='#633806' font-family='Open Sans, Arial, sans-serif'>NaOH 0,377 M</text>
+<text x='340.0' y='304' text-anchor='middle' font-size='10.2' font-weight='normal' fill='#333' font-family='Open Sans, Arial, sans-serif'>16,5 mL → OH⁻ totales</text>
+<text x='340.0' y='319' text-anchor='middle' font-size='10.2' font-weight='normal' fill='#333' font-family='Open Sans, Arial, sans-serif'>del antiácido</text>
+<line x1='434.6666666666667' y1='197.0' x2='466.6666666666667' y2='197.0' stroke='#7209b9' stroke-width='1.6' marker-end='url(#ar)'/>
+<text x='571.3333333333334' y='20' text-anchor='middle' font-size='11.5' font-weight='bold' fill='#7209b9' font-family='Open Sans, Arial, sans-serif'>3. Gravimetría del Mg</text>
+<rect x='502.33333333333337' y='252' width='138' height='26' rx='4' fill='#F1EFE8' stroke='#555'/>
+<rect x='545.3333333333334' y='257' width='52' height='14' rx='2' fill='#fff' stroke='#888'/>
+<text x='571.3333333333334' y='268' text-anchor='middle' font-size='9.5' font-weight='bold' fill='#222' font-family='Open Sans, Arial, sans-serif'>303 mg</text>
+<line x1='512.3333333333334' y1='248' x2='630.3333333333334' y2='248' stroke='#555' stroke-width='2'/>
+<path d='M545.3333333333334 246 Q571.3333333333334 218 597.3333333333334 246 Z' fill='#E8E6DE' stroke='#888780'/>
+<text x='571.3333333333334' y='239' text-anchor='middle' font-size='10' font-weight='bold' fill='#444' font-family='Open Sans, Arial, sans-serif'>Mg₂P₂O₇</text>
+<text x='571.3333333333334' y='304' text-anchor='middle' font-size='10.2' font-weight='normal' fill='#333' font-family='Open Sans, Arial, sans-serif'>→ mol de Mg(OH)₂</text>
+<rect x='20' y='344' width='640' height='46' rx='8' fill='#EEEDFE' stroke='#7F77DD'/>
+<text x='340.0' y='363' text-anchor='middle' font-size='11.5' font-weight='bold' fill='#3C3489' font-family='Open Sans, Arial, sans-serif'>Gravimetría → Mg(OH)₂ · Retrovaloración → OH⁻ totales</text>
+<text x='340.0' y='380' text-anchor='middle' font-size='10.5' font-weight='normal' fill='#3C3489' font-family='Open Sans, Arial, sans-serif'>OH⁻ del Al(OH)₃ = totales − 2·mol Mg(OH)₂ → ÷ 3 → mol Al(OH)₃</text>
+<text x='668' y='404' text-anchor='end' font-size='8.5' font-weight='normal' fill='#888' font-family='Open Sans, Arial, sans-serif'>ámbar = reacciona · verde = espectador · morado = producto · rojo = sobra (exceso)</text>
+</svg>

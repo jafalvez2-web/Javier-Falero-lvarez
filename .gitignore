@@ -1,0 +1,5 @@
+# Archivos que se regeneran al montar los PDF
+herramientas/out/
+herramientas/*.html
+herramientas/img/sol_*.jpg
+__pycache__/

@@ -1,0 +1,30 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 680 410' width='680' height='410'>
+<defs><marker id='ar' viewBox='0 0 10 10' refX='8' refY='5' markerWidth='6' markerHeight='6' orient='auto-start-reverse'><path d='M2 1L8 5L2 9' fill='none' stroke='context-stroke' stroke-width='1.6'/></marker></defs>
+<rect width='680' height='410' fill='#fff'/>
+<text x='108.66666666666667' y='20' text-anchor='middle' font-size='11.5' font-weight='bold' fill='#7209b9' font-family='Open Sans, Arial, sans-serif'>1. Óxido de Fe</text>
+<rect x='39.66666666666667' y='252' width='138' height='26' rx='4' fill='#F1EFE8' stroke='#555'/>
+<rect x='82.66666666666667' y='257' width='52' height='14' rx='2' fill='#fff' stroke='#888'/>
+<text x='108.66666666666667' y='268' text-anchor='middle' font-size='9.5' font-weight='bold' fill='#222' font-family='Open Sans, Arial, sans-serif'>0,2729 g</text>
+<line x1='49.66666666666667' y1='248' x2='167.66666666666669' y2='248' stroke='#555' stroke-width='2'/>
+<path d='M82.66666666666667 246 Q108.66666666666667 218 134.66666666666669 246 Z' fill='#E8E6DE' stroke='#888780'/>
+<text x='108.66666666666667' y='239' text-anchor='middle' font-size='10' font-weight='bold' fill='#444' font-family='Open Sans, Arial, sans-serif'>FeₓOᵧ</text>
+<text x='108.66666666666667' y='304' text-anchor='middle' font-size='10.2' font-weight='normal' fill='#333' font-family='Open Sans, Arial, sans-serif'>se disuelve → Fe²⁺</text>
+<line x1='203.33333333333334' y1='197.0' x2='235.33333333333334' y2='197.0' stroke='#7209b9' stroke-width='1.6' marker-end='url(#ar)'/>
+<text x='340.0' y='20' text-anchor='middle' font-size='11.5' font-weight='bold' fill='#7209b9' font-family='Open Sans, Arial, sans-serif'>2. Valoro el Fe²⁺</text>
+<path d='M271.0 280 L295.0 217.4 H385.0 L409.0 280 Z' fill='#DCEBFA'/>
+<path d='M332.0 112 V171.5 L265.0 278 Q265.0 282 270.0 282 H410.0 Q415.0 282 415.0 278 L348.0 171.5 V112' fill='none' stroke='#555' stroke-width='1.6'/>
+<ellipse cx='340.0' cy='264' rx='18.4' ry='13' fill='#FAEEDA' stroke='#BA7517' stroke-width='1'/><text x='340.0' y='268' text-anchor='middle' font-size='10.5' fill='#633806' font-family='Open Sans, Arial, sans-serif'>Fe²⁺</text>
+<rect x='334.0' y='42' width='12' height='62' fill='#FFF6E8' stroke='#555'/>
+<path d='M337.0 104 L340.0 114 L343.0 104' fill='none' stroke='#555'/>
+<text x='350.0' y='60' text-anchor='start' font-size='10' font-weight='bold' fill='#633806' font-family='Open Sans, Arial, sans-serif'>KMnO₄ 0,01621 M</text>
+<text x='340.0' y='304' text-anchor='middle' font-size='10.2' font-weight='normal' fill='#333' font-family='Open Sans, Arial, sans-serif'>gasta 42,17 mL</text>
+<line x1='434.6666666666667' y1='197.0' x2='466.6666666666667' y2='197.0' stroke='#7209b9' stroke-width='1.6' marker-end='url(#ar)'/>
+<text x='571.3333333333334' y='20' text-anchor='middle' font-size='11.5' font-weight='bold' fill='#7209b9' font-family='Open Sans, Arial, sans-serif'>3. Fórmula</text>
+<rect x='500.33333333333337' y='112' width='142' height='170' rx='8' fill='#F6FBF6' stroke='#9bc79b'/>
+<text x='571.3333333333334' y='179.0' text-anchor='middle' font-size='11' font-weight='bold' fill='#0a5d0a' font-family='Open Sans, Arial, sans-serif'>g Fe (valoración)</text>
+<text x='571.3333333333334' y='197.0' text-anchor='middle' font-size='11' font-weight='normal' fill='#333' font-family='Open Sans, Arial, sans-serif'>g O = total − Fe</text>
+<text x='571.3333333333334' y='215.0' text-anchor='middle' font-size='11' font-weight='normal' fill='#333' font-family='Open Sans, Arial, sans-serif'>O/Fe = 1,5 → Fe₂O₃</text>
+<rect x='20' y='344' width='640' height='46' rx='8' fill='#EEEDFE' stroke='#7F77DD'/>
+<text x='340.0' y='363' text-anchor='middle' font-size='11.5' font-weight='bold' fill='#3C3489' font-family='Open Sans, Arial, sans-serif'>1 MnO₄⁻ oxida 5 Fe²⁺ → mol Fe; el O es lo que falta hasta 0,2729 g</text>
+<text x='668' y='404' text-anchor='end' font-size='8.5' font-weight='normal' fill='#888' font-family='Open Sans, Arial, sans-serif'>ámbar = reacciona · verde = espectador · morado = producto · rojo = sobra (exceso)</text>
+</svg>

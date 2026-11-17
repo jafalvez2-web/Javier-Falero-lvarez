@@ -1,0 +1,33 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 680 410' width='680' height='410'>
+<defs><marker id='ar' viewBox='0 0 10 10' refX='8' refY='5' markerWidth='6' markerHeight='6' orient='auto-start-reverse'><path d='M2 1L8 5L2 9' fill='none' stroke='context-stroke' stroke-width='1.6'/></marker></defs>
+<rect width='680' height='410' fill='#fff'/>
+<text x='108.66666666666667' y='20' text-anchor='middle' font-size='11.5' font-weight='bold' fill='#7209b9' font-family='Open Sans, Arial, sans-serif'>1. Cu²⁺ + KI</text>
+<rect x='35.66666666666667' y='140' width='146' height='140' fill='#DCEBFA'/>
+<path d='M33.66666666666667 112 V277 Q33.66666666666667 282 38.66666666666667 282 H178.66666666666669 Q183.66666666666669 282 183.66666666666669 277 V112' fill='none' stroke='#555' stroke-width='1.6'/>
+<path d='M41.66666666666667 279 Q108.66666666666667 252 175.66666666666669 279 Z' fill='#E8E6DE' stroke='#888780'/>
+<text x='108.66666666666667' y='273' text-anchor='middle' font-size='10' font-weight='bold' fill='#444' font-family='Open Sans, Arial, sans-serif'>CuI</text>
+<ellipse cx='69.66666666666667' cy='160.0' rx='18.4' ry='13' fill='#FAEEDA' stroke='#BA7517' stroke-width='1'/><text x='69.66666666666667' y='164.0' text-anchor='middle' font-size='10.5' fill='#633806' font-family='Open Sans, Arial, sans-serif'>Cu²⁺</text>
+<ellipse cx='147.66666666666669' cy='160.0' rx='14' ry='13' fill='#FAEEDA' stroke='#BA7517' stroke-width='1'/><text x='147.66666666666669' y='164.0' text-anchor='middle' font-size='10.5' fill='#633806' font-family='Open Sans, Arial, sans-serif'>I⁻</text>
+<ellipse cx='69.66666666666667' cy='242.0' rx='14' ry='13' fill='#E1F5EE' stroke='#1D9E75' stroke-width='1'/><text x='69.66666666666667' y='246.0' text-anchor='middle' font-size='10.5' fill='#085041' font-family='Open Sans, Arial, sans-serif'>K⁺</text>
+<text x='108.66666666666667' y='304' text-anchor='middle' font-size='10.2' font-weight='normal' fill='#333' font-family='Open Sans, Arial, sans-serif'>2 Cu²⁺ → 1 I₂</text>
+<line x1='203.33333333333334' y1='197.0' x2='235.33333333333334' y2='197.0' stroke='#7209b9' stroke-width='1.6' marker-end='url(#ar)'/>
+<text x='340.0' y='20' text-anchor='middle' font-size='11.5' font-weight='bold' fill='#7209b9' font-family='Open Sans, Arial, sans-serif'>2. Se forma I₂</text>
+<rect x='267.0' y='140' width='146' height='140' fill='#F5E1B8'/>
+<path d='M265.0 112 V277 Q265.0 282 270.0 282 H410.0 Q415.0 282 415.0 277 V112' fill='none' stroke='#555' stroke-width='1.6'/>
+<ellipse cx='301.0' cy='212.0' rx='14' ry='13' fill='#EEEDFE' stroke='#7F77DD' stroke-width='1'/><text x='301.0' y='216.0' text-anchor='middle' font-size='10.5' fill='#3C3489' font-family='Open Sans, Arial, sans-serif'>I₂</text>
+<ellipse cx='379.0' cy='212.0' rx='14' ry='13' fill='#E1F5EE' stroke='#1D9E75' stroke-width='1'/><text x='379.0' y='216.0' text-anchor='middle' font-size='10.5' fill='#085041' font-family='Open Sans, Arial, sans-serif'>K⁺</text>
+<text x='340.0' y='304' text-anchor='middle' font-size='10.2' font-weight='normal' fill='#333' font-family='Open Sans, Arial, sans-serif'>(color pardo)</text>
+<line x1='434.6666666666667' y1='197.0' x2='466.6666666666667' y2='197.0' stroke='#7209b9' stroke-width='1.6' marker-end='url(#ar)'/>
+<text x='571.3333333333334' y='20' text-anchor='middle' font-size='11.5' font-weight='bold' fill='#7209b9' font-family='Open Sans, Arial, sans-serif'>3. Valoro el I₂</text>
+<path d='M502.33333333333337 280 L526.3333333333334 217.4 H616.3333333333334 L640.3333333333334 280 Z' fill='#DCEBFA'/>
+<path d='M563.3333333333334 112 V171.5 L496.33333333333337 278 Q496.33333333333337 282 501.33333333333337 282 H641.3333333333334 Q646.3333333333334 282 646.3333333333334 278 L579.3333333333334 171.5 V112' fill='none' stroke='#555' stroke-width='1.6'/>
+<ellipse cx='571.3333333333334' cy='264' rx='14' ry='13' fill='#FAEEDA' stroke='#BA7517' stroke-width='1'/><text x='571.3333333333334' y='268' text-anchor='middle' font-size='10.5' fill='#633806' font-family='Open Sans, Arial, sans-serif'>I₂</text>
+<rect x='565.3333333333334' y='42' width='12' height='62' fill='#FFF6E8' stroke='#555'/>
+<path d='M568.3333333333334 104 L571.3333333333334 114 L574.3333333333334 104' fill='none' stroke='#555'/>
+<text x='581.3333333333334' y='60' text-anchor='start' font-size='10' font-weight='bold' fill='#633806' font-family='Open Sans, Arial, sans-serif'>S₂O₃²⁻ 0,200 M</text>
+<text x='571.3333333333334' y='304' text-anchor='middle' font-size='10.2' font-weight='normal' fill='#333' font-family='Open Sans, Arial, sans-serif'>gasta 76,5 mL</text>
+<text x='571.3333333333334' y='319' text-anchor='middle' font-size='10.2' font-weight='normal' fill='#333' font-family='Open Sans, Arial, sans-serif'>1 I₂ gasta 2 S₂O₃²⁻</text>
+<rect x='20' y='344' width='640' height='46' rx='8' fill='#EEEDFE' stroke='#7F77DD'/>
+<text x='340.0' y='363' text-anchor='middle' font-size='11.5' font-weight='bold' fill='#3C3489' font-family='Open Sans, Arial, sans-serif'>El I₂ es solo un intermediario: 2 Cu²⁺ → 1 I₂ → 2 S₂O₃²⁻ ⇒ 1 Cu por cada S₂O₃²⁻</text>
+<text x='668' y='404' text-anchor='end' font-size='8.5' font-weight='normal' fill='#888' font-family='Open Sans, Arial, sans-serif'>ámbar = reacciona · verde = espectador · morado = producto · rojo = sobra (exceso)</text>
+</svg>

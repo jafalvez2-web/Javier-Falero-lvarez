@@ -1,0 +1,132 @@
+ahora te paso la siguiente transcripción:
+
+<pasted_content id="789b">
+Bueno... Ayer lo último que vimos era que empezamos a ver reacciones en disolución acuosa, ¿vale? Lo que vimos primero eran reacciones ácido-base. No estamos considerando que se formen equilibrios todavía, simplemente un ácido neutraliza una base, se forma la sal y agua, ¿vale?, eso es más fácil de trabajar.
+Entonces... también os dije que una de las opciones de utilizar ese tipo de reacciones es en valoraciones volumétricas ácido-base. Sabiendo la concentración de uno de los reactivos y qué volumen has gastado, determinas cuántos moles has gastado, y con la estequiometría determinas cuántos moles tenías inicialmente. La idea es aplicarlo.
+(Escribe o proyecta un problema en la pizarra).
+Problema de aplicación. Tiene un problema: es complicado. Os doy dos pistas:
+Primera pista: el clorhídrico está en exceso.
+La segunda pista... esto es equivalente a... ¿Habéis echado alguna vez o habéis visto echar aguafuerte sobre mármol?
+— Alumnos: Sí.
+— Profesor: ¿Y qué pasa cuando echas aguafuerte sobre mármol? Que salen burbujitas. El carbonato cálcico reacciona con los ácidos y forma $\text{CO}_2$, agua y cloruro cálcico en este caso, ¿vale? Pero ni el cloruro cálcico ni el $\text{CO}_2$ tienen carácter ácido en este caso, no es el ácido realmente.
+Pensad, leed el problema. Lo más fácil es pensar que eso lo tenéis que hacer en un laboratorio: te montas mentalmente qué haces en el laboratorio —te llevas un recipiente, te montas tu experimento— y vas intentando averiguar qué es lo que está pasando ahí. Cuando averigüéis lo que está pasando, son tres cuentas, ¿vale? El común de todos estos problemas es entender el problema y averiguar qué está pasando.
+Os dejo ahí un rato, me podéis preguntar lo que queráis.
+(04:15 - 11:30: Los alumnos trabajan en grupos debatiendo el enunciado, las reacciones y los volúmenes. El profesor pasea por las mesas atendiendo dudas).
+Profesor:
+¿Entendéis todos el problema?
+— Alumnos: No... No...
+— Profesor: ¿Qué no entendéis?
+— Alumna: Nada.
+— Profesor: A ver: un trozo de mármol reacciona con 2 litros de clorhídrico, ¿en exceso?
+— Alumnos: Sí, en exceso.
+— Profesor: Reacciona disolviéndose. El mármol es carbonato cálcico ($\text{CaCO}_3$); cuando entra en contacto con el clorhídrico va a dar una reacción que es la que acabo de decir: forma $\text{CO}_2$, agua por un lado y cloruro cálcico por otro, ¿vale? Lo que va a hacer es burbujear, como si fuera una efervescencia, y se disuelve.
+Ahora, si se ha disuelto, ¿qué es lo que me queda? Yo tengo un barreño de 2 litros de clorhídrico, le echo un poquito de mármol, se disuelve... ¿Con qué me quedo? Sigo teniendo un barreño enorme de ácido clorhídrico, ¿vale? Pues lo que hago es coger $10\text{ mL}$ de eso y valorarlo en una valoración ácido-base, ¿vale?, y lo valoro con sosa ($\text{NaOH}$).
+¿Para qué lo valoro?
+— Alumna: Para saber la concentración.
+— Profesor: ¿Pero la concentración no era $2{,}52\text{ molar}$? ¿Por qué la valoro?
+— Alumna: Porque ha reaccionado con el carbonato cálcico, entonces es como que tiene menos... menos ácido.
+— Profesor: Vale. Si yo echo ahí un trozo de mármol que reacciona con el ácido, la concentración del ácido va a cambiar. ¿Va a ser mayor o menor? Menor. Entonces, si ahora ha cambiado esa concentración, ¿por qué ha cambiado esa concentración? Porque parte del ácido ha reaccionado con el mármol y ha desaparecido, ¿vale? Entonces, ¿puedo determinar cuánto clorhídrico ha reaccionado con el mármol? Ya más pistas no puedo dar; con lo que ya sabéis, intentad calcularlo.
+— Alumno: Profe, ¿cuál es la última pregunta que has puesto?
+— Profesor: Que si puedo saber cuánto mármol ha reaccionado.
+(14:40 - 20:55: Los alumnos continúan realizando los cálculos numéricos en grupos y consultándose entre sí).
+Profesor:
+La idea es que vosotros este tipo de pensamiento de «¿qué está pasando?, ahora ¿qué hago?, ¿para qué estoy haciendo esto?», esto lo tenéis que tener bastante más suelto, ¿vale? ¿Cómo se consigue esto? Haciendo problemas. Haciendo muchos, muchos, muchos problemas.
+Entonces, ¿en qué consiste lo que voy a hacer? Yo parto de un matraz grande lleno con $2\text{ litros}$ de ácido clorhídrico relativamente concentrado. De hecho te dice que está en exceso. ¿Qué significa que está en exceso? Que cuando yo eche el mármol, lo que va a sobrar es clorhídrico; el reactivo limitante es el mármol.
+Entonces, cuando yo eche el trocito de mármol —una arveja, por ejemplo—, este mármol va a empezar a reaccionar. ¿Qué reacción se está dando?
+$$\text{CaCO}_3 + 2\text{HCl} \longrightarrow \text{CaCl}_2 + \text{H}_2\text{O} + \text{CO}_2 \text{[cite: 4]}$$
+Ya ha reaccionado, ya no queda mármol. Aquí tengo cloruro cálcico (cloruro por un lado, calcio por otro), el $\text{CO}_2$ ya habrá dejado de burbujear, con lo cual se ha ido, ¿vale? ¿Y qué es lo que queda mayoritariamente? Ácido clorhídrico. ¿$2{,}52\text{ molar}$? No. Ha bajado su concentración porque parte de ese clorhídrico se ha utilizado para formar cloruro cálcico, $\text{CO}_2$, etcétera, etcétera. Así que tengo una nueva concentración, ¿vale?
+Muy bien. ¿Puedo calcular esa nueva concentración? Sí, porque hago una valoración. Entonces me cojo un poquito de aquí, me lo llevo a un matraz Erlenmeyer, le pongo un sistema de una bureta y hago una valoración.
+En una valoración siempre lo más importante es qué reacción se va a dar ahí. ¿Con quién va a reaccionar la sosa? Con el ácido clorhídrico. Ni ácido carbónico, ni cloruro cálcico, ni nada por el estilo: con el ácido más fuerte que en ese momento esté ahí, que es el ácido clorhídrico. Entonces, a partir de aquí lo que voy a tener es una reacción de:
+$$\text{NaOH} + \text{HCl} \longrightarrow \text{NaCl} + \text{H}_2\text{O} \text{[cite: 4]}$$
+¿Estequiometría? $1:1$.
+¿Para qué quiero esa reacción? Para saber la concentración una vez que ha terminado de reaccionar. ¿Eso lo veis?
+Entonces, ¿cómo puedo determinar esa concentración? Muy sencillo: yo sé que he gastado $24{,}87\text{ mL}$ de sosa, y yo sé que la concentración de la sosa es $0{,}9987\text{ mol por litro}$. Si esto lo paso a litros me daría directamente moles. Y la otra cosa importante es que, según mi reacción, $1\text{ mol}$ de clorhídrico reacciona con $1\text{ mol}$ de sosa. Si esto lo hubiese pasado a litros, ya tendría directamente los moles de clorhídrico.
+Pero no me interesan solo los moles de clorhídrico en la muestra: en una valoración al final tú lo que determinas son cuántos moles de tu analito están ahí. ¿Pero cómo he pasado yo ese clorhídrico aquí? ¿En cuánto volumen? En $10\text{ mL}$. Así que si divido por $10\text{ mL}$, lo que me va a dar directamente es la concentración del clorhídrico. Y ni siquiera me hace falta pasar estos mililitros a litros porque los sigo manteniendo en mililitros arriba y abajo: me ahorro un paso de litros aquí y otro paso de litros allá, y lo que me sale son directamente $\text{mol por litro}$.
+Es lógico que haya bajado la concentración respecto a la inicial: parte del ácido ha reaccionado y habrá quedado menos. Esta concentración es la concentración en los $10\text{ mL}$ que yo he pasado ahí, pero es la misma concentración que queda en el recipiente grande. Porque la concentración es una propiedad intensiva: he cogido un poquito y lo valoro, pero la cantidad de moles que hay en $10\text{ mL}$ es distinta a la de los $2\text{ litros}$, mientras que la concentración es la misma.
+¿Qué pasa? Que ha habido un cambio de concentración. Para no trabajar directamente con restas de concentraciones, lo que yo haría sería:
+
+1. Moles iniciales de clorhídrico: eran $2\text{ litros}$ multiplicado por $2{,}52\text{ M}$.
+2. Moles finales de clorhídrico (una vez que ha reaccionado, suponemos que el volumen es el mismo, $2\text{ litros}$): serían $2\text{ litros}$ por la nueva concentración calculada.
+3. La diferencia: ¿qué sería la diferencia en moles? ¿Por qué hay una diferencia en moles? Porque ha reaccionado. Entonces, la diferencia en moles es el clorhídrico que ha reaccionado con el mármol.
+
+Determinando la concentración final, a partir de ahí puedo saber cuántos moles de clorhídrico han reaccionado. ¿Y qué hago con esos moles? Sé que la reacción es $2\text{ moles}$ de clorhídrico por cada mol de carbonato cálcico: divido por 2 y me da los moles de carbonato cálcico ($\text{CaCO}_3$). Y una vez que yo sepa los moles de carbonato cálcico, lo multiplico por la masa molecular del carbonato cálcico y saco los gramos.
+Este yo reconozco que es un problema difícil, sobre todo porque es el primero que os encontráis de este tipo. Es para que sepáis más o menos cómo hay que razonar: pensar qué es lo que pasa, qué reacciones se pueden estar dando, cuál es la importante, para qué está haciendo cada parte. Cuando tú sabes eso, este problema es relativamente fácil, porque en realidad es una cuenta, una resta y una multiplicación. La dificultad del problema es entender lo que pasa. De nuevo, esto se aprende practicando: diez problemas en el Petrucci, diez problemas en el Chang, diez problemas en no sé dónde... y ya cuando tengas los problemas encima, me vienes a preguntar.
+(26:40: El profesor pasa al siguiente apartado teórico: reacciones de precipitación y gravimetría).
+Otro tipo de reacciones que se pueden dar en disolución son reacciones de precipitación, ¿vale? Esas reacciones se dan porque, por ejemplo, si yo tengo bromuro potásico ($\text{KBr}$), que es un electrolito fuerte, y lo echo en agua, el bromuro se va por un lado y el potasio se va por otro, y ninguno de ellos precipita, es completamente soluble. Si tengo nitrato de plata ($\text{AgNO}_3$), que también es completamente soluble, el nitrato se va por un lado y la plata se va por otro.
+Ahí tengo otras posibles combinaciones: pueden volver, de vez en cuando los iones se ven, se saludan, se juntan y después se vuelven a separar, porque están más estables separados... salvo cuando tenga algún compuesto que sea insoluble, ¿vale? Eso me pasa aquí con la combinación: no entre nitrato y potasio —que el nitrato potásico también es completamente soluble—, pero sí entre la plata y el bromuro. El bromuro de plata ($\text{AgBr}$) resulta que es insoluble en agua, así que inmediatamente lo que va a formar es un precipitado. Bromuro potásico más nitrato de plata: cuando los juntes, se me forma un precipitado amarillento. Esto el jueves que viene, que no hay seminario, os traigo un ejemplo de eso y hacemos un experimento.
+Este tipo de reacciones también se pueden utilizar para hacer medidas cuantitativas, ¿vale? En este caso, lo que me interesa —como estoy obteniendo un precipitado que puedo retirar del medio de reacción—, lo que me interesa no es el volumen, sino el peso, la masa de ese precipitado, ¿vale? Como me interesa la masa, eso son gravimetrías, ¿vale?
+Entonces, en una gravimetría yo lo que he hecho es retirar algún compuesto de la disolución, pesar cuánto se ha formado —si yo sé el compuesto que se ha formado, perfecto— y a partir de ese peso determinar cuánto había en disolución, ¿vale? Como pesar es mucho más sensible y mucho más preciso que medir un volumen, pues las gravimetrías se prefieren cuando es posible; bueno, tienen sus problemas, pero te darían un dato bastante más preciso que una volumetría, ¿vale?
+Entonces, con una gravimetría lo que voy a hacer es una serie de reacciones en las que consigo que el producto que me interesa se convierta en algo sólido, peso lo que se ha conseguido y a partir de ahí determino cuál es la cantidad o la concentración que había de eso en la disolución original, ¿vale?
+(30:15: Proyecta un segundo problema aplicado sobre gravimetría de magnesio en agua mineral).
+Ahí tenéis otro ejemplo. Lo mismo: lo que hay que hacer antes de empezar a hacer cuentas es pensar qué está pasando ahí. Cuando sepa qué está pasando, se hace en una cuenta.
+(31:00 - 36:25: Los alumnos trabajan en el problema del magnesio en el agua mineral).
+Profesor:
+A ver... aquí hay mucha gente rogándome por Dios que pase el seminario a la semana que viene.
+— Alumnos: ¡Sí, por favor!
+— Profesor: El problema de hacer esto —esto es como el seminario anterior, ¿os acordáis que en el seminario anterior dije: «Lo que pasa es que a cambio os vais a llevar lo más grande en teoría»?—: lo que pasa si yo cambio el seminario es que vais a tener el seminario muy cerca del propio examen, no sé si os va a dar tiempo a entenderlo bien.
+— Alumnos: Sí, sí nos da tiempo.
+— Profesor: ¿Quién está de acuerdo en pasar el seminario a la semana que viene? (Votación a mano alzada). ¿Alguien que diga «no, por Dios»? Nadie. Vale, pues lo pasamos a la semana que viene. Pero luego no vengáis llorando.
+(39:15: El profesor resuelve el problema de gravimetría en la pizarra).
+Profesor:
+Vamos a ver cómo se haría este problema, ¿vale? Yo tengo magnesio ($\text{Mg}^{2+}$) en agua mineral, ¿vale?, y quiero determinar cuánto hay. Entonces, yo lo que hago es: precipito primero ese magnesio; de alguna manera lo transformo en un fosfato de amonio y magnesio ($\text{MgNH}_4\text{PO}_4$), ¿vale? El reactivo en realidad me da exactamente igual.
+Ese precipitado yo lo retiro, lo trato —lo trato significa calentar— de modo que al calentarlo se transforma todo en este compuesto de aquí: pirofosfato de magnesio ($\text{Mg}_2\text{P}_2\text{O}_7$), ¿vale? Y tengo el peso de este.
+¿Dónde ha acabado el magnesio que yo tenía aquí? En el pirofosfato de magnesio. Todo está allí, ¿verdad?
+¿Sé cuánto pesa? Sí. ¿Sé la masa molecular? Sí. ¿Sé cuántos moles tengo? Sí.
+¿Cuántos moles de magnesio tengo si tengo $1\text{ mol}$ de aquello ($\text{Mg}_2\text{P}_2\text{O}_7$)? Dos. Pues si lo paso a gramos, ya sé cuántos gramos de magnesio tengo.
+Pensad: aquí el problema es el proceso, la cuenta es más tonta que explicar. Yo tengo magnesio; todo el magnesio precipita en forma de esto ($\text{MgNH}_4\text{PO}_4$), y esto cuando lo caliento se descompone y da pirofosfato de magnesio ($\text{Mg}_2\text{P}_2\text{O}_7$). Pero todo el magnesio que estaba aquí ha acabado aquí.
+Entonces, si yo sé cuánto pesa y sé la masa molecular porque sé la fórmula, puedo saber cuántos moles hay de eso. Y si yo sé que tengo, imagínate, $5\text{ moles}$ de esto, automáticamente sé que tengo $10\text{ moles}$ de magnesio, porque sé la fórmula ($\text{Mg}_2\text{P}_2\text{O}_7$). Y entonces, una vez que yo sepa cuántos moles de magnesio tengo... ¿de dónde viene todo ese magnesio? De la muestra de agua mineral.
+Entonces acabo de saber cuántos moles —o lo que es lo mismo, cuántos gramos de magnesio— había aquí, porque todo el magnesio ha acabado aquí. Si ahora lo quiero expresar como $\text{ppm}$ o lo que quiera, pues ya es una cuestión de cambio de unidades.
+Pero en el proceso, lo que ha pasado es: en una gravimetría cojo el compuesto que me interesa, lo retiro de la disolución y llego a un compuesto que yo conozco con una cierta masa. Pero como yo sé lo que es y sé la masa, sé los moles. Los moles de lo que yo estoy interesado es lo que estaba inicialmente en disolución, así que determino directamente los gramos de lo que estoy analizando y después lo expreso como me pidan. ¿Lo entendéis? ¿Sí?
+Es una relación muy simple y simplemente ni siquiera me hace falta ajustar cada propia reacción intermedia: me hace falta el camino de conservación que ha ido siguiendo el magnesio en qué se ha ido convirtiendo.
+(45:30 - 46:55: Los alumnos comprueban sus resultados finales en partes por millón —$\text{ppm}$— y cifras significativas mientras termina la sesión).»
+2. Versión Limpia y Estructurada
+(Apuntes organizados por conceptos clave, metodologías de resolución y ejercicios aplicados)
+A. Avisos Docentes y Organización
+
+* Aplazamiento del seminario: Por votación unánime de la clase, el próximo seminario se pospone una semana. El profesor advierte que esto acercará la sesión práctica a la fecha del examen, por lo que recomienda llevar los ejercicios trabajados de antemano.
+* Demostración experimental: El jueves siguiente (sin seminario) se realizará una demostración práctica en el aula sobre reacciones de precipitación.
+
+B. Reacciones Ácido-Base y Valoraciones por Retroceso
+En las valoraciones volumétricas ordinarias se determina la cantidad de analito midiendo el volumen necesario de un reactivo valorante de concentración conocida. Cuando un reactivo sólido reacciona lentamente o se trata con un exceso de ácido o base, se emplea una valoración por retroceso (retrovaloración).
+Problema Aplicado 1: Determinación de Carbonato Cálcico ($\text{CaCO}_3$) en Mármol
+
+* Planteamiento físico-químico del proceso:
+   1. Ataque ácido con exceso de $\text{HCl}$: Se introduce una muestra de mármol ($\text{CaCO}_3$, reactivo limitante) en $2{,}00\text{ L}$ de una disolución de $\text{HCl}$ $2{,}52\text{ M}$ (en exceso):
+$$\text{CaCO}_3(s) + 2\text{HCl}(aq) \longrightarrow \text{CaCl}_2(aq) + \text{H}_2\text{O}(l) + \text{CO}_2(g)\uparrow \text{[cite: 4]}$$
+El $\text{CO}_2$ escapa en forma de gas y el mármol se disuelve por completo. Parte del $\text{HCl}$ se consume, por lo que su concentración en el recipiente disminuye.
+   2. Toma de alícuota y valoración: Se extrae una alícuota de $10{,}0\text{ mL}$ de la disolución resultante y se valora el $\text{HCl}$ sobrante con $\text{NaOH}$ $0{,}9987\text{ M}$, gastándose $24{,}87\text{ mL}$ hasta el punto de equivalencia:
+$$\text{HCl}(aq) + \text{NaOH}(aq) \longrightarrow \text{NaCl}(aq) + \text{H}_2\text{O}(l) \quad (\text{relación } 1:1) \text{[cite: 4]}$$
+* Metodología de resolución paso a paso:
+   1. Concentración de $\text{HCl}$ remanente tras la reacción: Como la concentración es una propiedad intensiva, la molaridad en los $10\text{ mL}$ valorados es idéntica a la de los $2\text{ L}$ del recipiente:
+$$[\text{HCl}]_{\text{final}} = \frac{24{,}87\text{ mL NaOH} \times 0{,}9987\ \frac{\text{mol NaOH}}{\text{L}} \times \frac{1\text{ mol HCl}}{1\text{ mol NaOH}}}{10{,}0\text{ mL}} = 2{,}484\text{ M} \text{[cite: 4]}$$
+   2. Balance de moles de $\text{HCl}$ en el volumen total ($2{,}00\text{ L}$):
+      * Moles iniciales de $\text{HCl}$: $n_{\text{inicial}} = 2{,}00\text{ L} \times 2{,}52\text{ M} = 5{,}04\text{ mol}$.
+      * Moles finales (sin reaccionar): $n_{\text{final}} = 2{,}00\text{ L} \times 2{,}484\text{ M} = 4{,}968\text{ mol}$.
+      * Moles consumidos por el mármol: $n_{\text{reaccionado}} = n_{\text{inicial}} - n_{\text{final}} = 0{,}072\text{ mol HCl}$.
+   3. Cálculo de la masa de $\text{CaCO}_3$:
+$$n_{\text{CaCO}_3} = 0{,}072\text{ mol HCl} \times \frac{1\text{ mol CaCO}_3}{2\text{ mol HCl}} = 0{,}036\text{ mol CaCO}_3 \text{[cite: 4]}$$
+$$m_{\text{CaCO}_3} = 0{,}036\text{ mol} \times 100{,}09\text{ g/mol} \approx 3{,}6\text{ g} \text{[cite: 4]}$$
+
+C. Reacciones de Precipitación
+
+* Fundamento: Al mezclar dos disoluciones acuosas de electrolitos fuertes solubles, sus iones se encuentran disociados y libres. Si alguna combinación de catión y anión da lugar a un compuesto insoluble en agua, se forma inmediatamente una fase sólida que precipita.
+* Ejemplo ilustrativo:
+$$\text{KBr}(aq) + \text{AgNO}_3(aq) \longrightarrow \text{AgBr}(s)\downarrow + \text{KNO}_3(aq) \text{[cite: 4]}$$
+   * Ecuación iónica neta:
+$$\text{Ag}^+(aq) + \text{Br}^-(aq) \longrightarrow \text{AgBr}(s)\downarrow \quad (\text{precipitado amarillento}) \text{[cite: 4]}$$
+
+D. Análisis Gravimétrico (Gravimetría)
+
+* Definición y ventajas: Técnica analítica cuantitativa en la que el analito se separa de la disolución mediante precipitación, se aísla, se purifica (o calcina hasta una forma química de composición conocida y estable) y se pesa[cite: 4].
+* Precisión frente a volumetría: Las balanzas analíticas ofrecen mayor sensibilidad y exactitud que el material volumétrico, por lo que la gravimetría suele proporcionar resultados más precisos[cite: 4].
+
+Problema Aplicado 2: Determinación Gravimétrica de Magnesio ($\text{Mg}^{2+}$) en Agua Mineral
+
+* Secuencia de transformación química (conservación de materia):
+$$\text{Mg}^{2+}(aq,\text{ muestra}) \xrightarrow{\text{precipitación}} \text{MgNH}_4\text{PO}_4(s) \xrightarrow{\Delta\text{ (calcinación)}} \text{Mg}_2\text{P}_2\text{O}_7(s)\text{ (pesado)} \text{[cite: 4]}$$
+* Clave estequiométrica: No es necesario ajustar todas las reacciones intermedias; basta con rastrear la conservación atómica del elemento analizado[cite: 4]. Cada mol de pirofosfato de magnesio ($\text{Mg}_2\text{P}_2\text{O}_7$) contiene exactamente $2\text{ moles}$ de magnesio ($\text{Mg}$)[cite: 4]:
+   1. A partir de la masa pesada de $\text{Mg}_2\text{P}_2\text{O}_7$ y su masa molar ($222{,}57\text{ g/mol}$), se obtienen los moles de precipitado calcinado[cite: 4].
+   2. Se multiplica por el factor estequiométrico $\frac{2\text{ mol Mg}}{1\text{ mol Mg}_2\text{P}_2\text{O}_7}$ para obtener los moles totales de $\text{Mg}$ procedentes del agua mineral[cite: 4].
+   3. Se convierte a gramos o miligramos de $\text{Mg}$ ($M_{\text{Mg}} = 24{,}305\text{ g/mol}$) y se expresa la concentración en partes por millón ($\text{ppm}$) respecto a la masa total de la muestra de agua ($109{,}772\text{ g}$)[cite: 4]:
+$$\text{ppm Mg} = \frac{\text{mg de Mg}}{\text{kg de disolución}} = \frac{m_{\text{Mg}}\text{ (g)}}{m_{\text{agua}}\text{ (g)}} \times 10^6 \text{[cite: 4]}$$
+</pasted_content id="789b">

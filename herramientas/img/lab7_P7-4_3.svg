@@ -1,0 +1,37 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 680 342' width='680' height='342'>
+<defs><marker id='ar' viewBox='0 0 10 10' refX='8' refY='5' markerWidth='6' markerHeight='6' orient='auto-start-reverse'><path d='M2 1L8 5L2 9' fill='none' stroke='context-stroke' stroke-width='1.6'/></marker></defs>
+<rect width='680' height='342' fill='#fff'/>
+<text x='108.66666666666667' y='20' text-anchor='middle' font-size='11.5' font-weight='bold' fill='#7209b9' font-family='Open Sans, Arial, sans-serif'>1. Hidrato</text>
+<rect x='39.66666666666667' y='184' width='138' height='26' rx='4' fill='#F1EFE8' stroke='#555'/>
+<rect x='82.66666666666667' y='189' width='52' height='14' rx='2' fill='#fff' stroke='#888'/>
+<text x='108.66666666666667' y='200' text-anchor='middle' font-size='9.5' font-weight='bold' fill='#222' font-family='Open Sans, Arial, sans-serif'>5,012 g</text>
+<line x1='49.66666666666667' y1='180' x2='167.66666666666669' y2='180' stroke='#555' stroke-width='2'/>
+<path d='M82.66666666666667 178 Q108.66666666666667 150 134.66666666666669 178 Z' fill='#E8E6DE' stroke='#888780'/>
+<text x='108.66666666666667' y='171' text-anchor='middle' font-size='10' font-weight='bold' fill='#444' font-family='Open Sans, Arial, sans-serif'>FeClₓ·nH₂O</text>
+<text x='108.66666666666667' y='236' text-anchor='middle' font-size='10.2' font-weight='normal' fill='#333' font-family='Open Sans, Arial, sans-serif'>pesado tal cual</text>
+<line x1='203.33333333333334' y1='129.0' x2='235.33333333333334' y2='129.0' stroke='#7209b9' stroke-width='1.6' marker-end='url(#ar)'/>
+<text x='219.33333333333334' y='119.0' text-anchor='middle' font-size='9.5' font-weight='bold' fill='#7209b9' font-family='Open Sans, Arial, sans-serif'>− H₂O</text>
+<text x='340.0' y='20' text-anchor='middle' font-size='11.5' font-weight='bold' fill='#7209b9' font-family='Open Sans, Arial, sans-serif'>2. Seco en el horno</text>
+<path d='M310.0 164 L318.0 194 H362.0 L370.0 164 Z' fill='#F1EFE8' stroke='#555' stroke-width='1.5'/>
+<path d='M320.0 190 Q340.0 168 360.0 190 Z' fill='#E8E6DE' stroke='#888780'/>
+<text x='340.0' y='156' text-anchor='middle' font-size='10' font-weight='bold' fill='#444' font-family='Open Sans, Arial, sans-serif'>FeClₓ</text>
+<path d='M323.0 216 Q328.0 198 333.0 216 Z' fill='#EF9F27' stroke='#D85A30'/>
+<path d='M335.0 216 Q340.0 198 345.0 216 Z' fill='#EF9F27' stroke='#D85A30'/>
+<path d='M347.0 216 Q352.0 198 357.0 216 Z' fill='#EF9F27' stroke='#D85A30'/>
+<text x='340.0' y='236' text-anchor='middle' font-size='10.2' font-weight='normal' fill='#333' font-family='Open Sans, Arial, sans-serif'>se va el agua</text>
+<text x='340.0' y='251' text-anchor='middle' font-size='10.2' font-weight='normal' fill='#333' font-family='Open Sans, Arial, sans-serif'>queda 3,195 g</text>
+<line x1='434.6666666666667' y1='129.0' x2='466.6666666666667' y2='129.0' stroke='#7209b9' stroke-width='1.6' marker-end='url(#ar)'/>
+<text x='571.3333333333334' y='20' text-anchor='middle' font-size='11.5' font-weight='bold' fill='#7209b9' font-family='Open Sans, Arial, sans-serif'>3. Disuelvo + AgNO₃</text>
+<rect x='498.33333333333337' y='72' width='146' height='140' fill='#DCEBFA'/>
+<path d='M496.33333333333337 44 V209 Q496.33333333333337 214 501.33333333333337 214 H641.3333333333334 Q646.3333333333334 214 646.3333333333334 209 V44' fill='none' stroke='#555' stroke-width='1.6'/>
+<path d='M504.33333333333337 211 Q571.3333333333334 184 638.3333333333334 211 Z' fill='#E8E6DE' stroke='#888780'/>
+<text x='571.3333333333334' y='205' text-anchor='middle' font-size='10' font-weight='bold' fill='#444' font-family='Open Sans, Arial, sans-serif'>AgCl 7,225 g</text>
+<ellipse cx='532.3333333333334' cy='92.0' rx='14.8' ry='13' fill='#FAEEDA' stroke='#BA7517' stroke-width='1'/><text x='532.3333333333334' y='96.0' text-anchor='middle' font-size='10.5' fill='#633806' font-family='Open Sans, Arial, sans-serif'>Cl⁻</text>
+<ellipse cx='610.3333333333334' cy='92.0' rx='14.8' ry='13' fill='#FAEEDA' stroke='#BA7517' stroke-width='1'/><text x='610.3333333333334' y='96.0' text-anchor='middle' font-size='10.5' fill='#633806' font-family='Open Sans, Arial, sans-serif'>Ag⁺</text>
+<ellipse cx='532.3333333333334' cy='174.0' rx='18.4' ry='13' fill='#E1F5EE' stroke='#1D9E75' stroke-width='1'/><text x='532.3333333333334' y='178.0' text-anchor='middle' font-size='10.5' fill='#085041' font-family='Open Sans, Arial, sans-serif'>Fe²⁺</text>
+<text x='571.3333333333334' y='236' text-anchor='middle' font-size='10.2' font-weight='normal' fill='#333' font-family='Open Sans, Arial, sans-serif'>todo el Cl⁻ → AgCl</text>
+<rect x='20' y='276' width='640' height='46' rx='8' fill='#EEEDFE' stroke='#7F77DD'/>
+<text x='340.0' y='295' text-anchor='middle' font-size='11.5' font-weight='bold' fill='#3C3489' font-family='Open Sans, Arial, sans-serif'>agua = 5,012 − 3,195 g · Cl = del AgCl · Fe = anhidro − Cl</text>
+<text x='340.0' y='312' text-anchor='middle' font-size='10.5' font-weight='normal' fill='#3C3489' font-family='Open Sans, Arial, sans-serif'>divido todos los moles entre los de Fe → FeCl₂·4 H₂O</text>
+<text x='668' y='336' text-anchor='end' font-size='8.5' font-weight='normal' fill='#888' font-family='Open Sans, Arial, sans-serif'>ámbar = reacciona · verde = espectador · morado = producto · rojo = sobra (exceso)</text>
+</svg>
