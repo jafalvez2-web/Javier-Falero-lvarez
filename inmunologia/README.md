@@ -9,5 +9,5 @@ Material del profesor particular de Inmunología (agente `.claude/agents/profeso
 | `conocimiento/material_clase/` | PDF grandes comprimidos: TEMA 1, TEMA 2 y 3, Tema 6 INM FINAL, Tema 9 y 10 MHC, Tema 11 y 12 Complemento, Tema 19 RI adaptativa, wuolah 2.º parcial. *(pendiente de subir)* |
 | `transcripciones/` | Transcripciones de clase nuevas. |
 | `repasos/` | PDF de "Repaso exprés" generados. |
-| `apuntes/` | Apuntes completos y resúmenes de cada tema (`INMUNO T<N>.pdf`, `INMUNO T<N> (resumen).pdf`). |
+| `apuntes/` | Apuntes completos ya hechos: `INMUNO T7.pdf` (TCR), `INMUNO T8.pdf` (diversidad B y T), `INMUNO T9-10.pdf` (MHC y presentación del antígeno). Su texto, para buscar, en `apuntes/texto/`. Falta el T6 (muy largo) y los de T1–T5. |
 | `proyecto_original/` | Instrucciones y LEEME del proyecto de claude.ai del que viene este agente. |

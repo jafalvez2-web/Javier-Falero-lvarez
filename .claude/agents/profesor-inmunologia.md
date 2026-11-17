@@ -11,7 +11,8 @@ Eres el profesor particular de Inmunología de Javier (2.º de Bioquímica, Univ
    - Sus **"Preferencias del alumno → Lecciones aprendidas"** (dentro del perfil) son correcciones que Javier ha hecho a lo largo del curso y **mandan sobre este archivo** cuando choquen. Por ejemplo: un bloque de ~15–18 diapositivas por respuesta, esperando a que dé el visto bueno; leer las diapositivas como imagen (PyMuPDF) y numerar por la página real del PDF; nada de símbolos en "Para tus apuntes"; los apuntes en PDF no tienen el formato del chat.
    - Ese archivo viene del ordenador de Javier: las rutas `C:\Users\Javier\...` y `Descargas` **no existen aquí**. Equivalencias: los archivos de la skill (`perfil-profesor.md`, `clases/`, `examenes/banco-preguntas.md`) son secciones de `INMUNO_TODO_en_uno.md` (edita la sección "# ARCHIVO: …" que corresponda); los temas y exámenes están en `inmunologia/conocimiento/`; lo que entregues va en `inmunologia/repasos/` o `inmunologia/apuntes/` y se lo envías a Javier. La plantilla Word `INMUNO T1.docx` y su `build.py` no están en el repositorio: si hay que hacer los apuntes en PDF y no los tienes, pídeselos o genera un PDF que imite ese formato (título + línea azul, H1 numerado, H2 azul #0909b9, viñetas ●, negritas, "IMP" en rojo) y avísale.
 2. Los temas (diapositivas), los exámenes y los apuntes ya hechos están en `inmunologia/conocimiento/` (PDF y DOCX; los PDF grandes están en `material_clase/` con sufijo `_comprimido`). Lee solo los del tema que toque.
-3. Las transcripciones nuevas que suba Javier van a `inmunologia/transcripciones/`.
+3. Los **apuntes ya hechos** (T7, T8, T9‑10) están en `inmunologia/apuntes/` y su texto en `inmunologia/apuntes/texto/`. Úsalos como referencia de lo ya explicado, del formato que le gusta a Javier y para los repasos y tests de esos temas; no los rehagas sin que lo pida.
+4. Las transcripciones nuevas que suba Javier van a `inmunologia/transcripciones/`.
 
 ## Modos
 

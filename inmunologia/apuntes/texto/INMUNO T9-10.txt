@@ -1,0 +1,1113 @@
+TEMAS 9 Y 10: COMPLEJO PRINCIPAL DE
+HISTOCOMPATIBILIDAD (MHC) Y PRESENTACIÓN
+DEL ANTÍGENO
+
+1. QUÉ ES EL MHC Y CÓMO SE DESCUBRIÓ
+
+1.1 El MHC se descubrió por el trasplante
+
+El MHC (Major Histocompatibility Complex, complejo principal de histocompatibilidad)
+
+es un grupo de genes que codifica unas proteínas de membrana, las moléculas MHC. Su
+
+nombre viene de cómo se descubrieron: por su papel en el rechazo de injertos ("histo-
+
+compatibilidad" = compatibilidad entre tejidos).
+
+    Ɣ   Los estudios con tumores trasplantados en ratones permitieron establecer las
+
+        "leyes del trasplante".
+
+    Ɣ   Peter Medawar estudió los injertos de piel y tejidos (la base de los trasplantes de
+
+        órganos) y descubrió la tolerancia inmunológica adquirida.
+
+    Ɣ   George Snell, Jean Dausset y Baruj Benacerraf identificaron los sistemas
+
+        genéticos que regulan la histocompatibilidad y la respuesta inmunitaria (Premio
+
+        Nobel 1980).
+
+La observación clave: los injertos entre individuos con el mismo MHC se aceptan con
+
+mayor facilidad, mientras que si el MHC es distinto se desencadena una respuesta T muy
+
+intensa y el injerto se rechaza. Por eso en los trasplantes se busca un donante "HLA-
+
+compatible".
+
+
+
+
+1
+1.2 La restricción por MHC propio
+
+Rolf Zinkernagel y Peter Doherty (Premio Nobel 1996) descubrieron para qué sirve
+
+realmente el MHC:
+
+    Ɣ   Los linfocitos α       convencionales no reconocen el antígeno solo: reconocen una
+
+        superficie formada por un péptido + una molécula MHC propia.
+
+    Ɣ   El mismo péptido presentado por una molécula MHC distinta puede no ser
+
+        reconocido por ese TCR.
+
+    Ɣ   Esta restricción por MHC propio se establece durante la selección tímica (Tema 8,
+
+        selección positiva).
+
+
+1.3 Función fisiológica: presentar péptidos a los linfocitos T
+
+Las moléculas MHC son moléculas de membrana cuya función fisiológica es presentar
+
+péptidos a los linfocitos T. Esos péptidos proceden de proteínas que la célula ha
+
+procesado (troceado). La principal célula presentadora de antígeno (APC) es la célula
+
+dendrítica (DC).
+
+Un ejemplo son las células de Langerhans, DC especializadas de la epidermis. Captan el
+
+antígeno en la piel, reciben señales de activación y migran a los ganglios linfáticos de
+
+drenaje. Por el camino aumentan la expresión de MHC y de moléculas
+
+coestimuladoras, y en el ganglio pueden activar linfocitos T vírgenes.
+
+
+2. EL ANTÍGENO QUE VE EL LINFOCITO T: EPITOPOS Y
+
+AGRETOPOS
+
+2.1 Epitopo y agretopo
+
+Cuando un péptido está metido en el surco del MHC, no todos sus aminoácidos miran
+
+hacia el mismo sitio:
+
+
+
+
+2
+    Ɣ   Agretopo (residuos de anclaje): los aminoácidos que se orientan hacia el surco
+
+        del MHC y lo sujetan ahí. Suelen ser hidrofóbicos.
+
+    Ɣ   Epitopo (residuos expuestos): los aminoácidos que quedan hacia fuera, en
+
+        contacto con el TCR. Suelen ser hidrofílicos.
+
+Por eso los epitopos T:
+
+    Ɣ   Deben tener dos sitios de interacción: uno con el TCR (epitopo) y otro con el MHC
+
+        (agretopo).
+
+    Ɣ   Suelen ser anfipáticos (una cara hidrofóbica que se ancla y otra hidrofílica que se
+
+        expone).
+
+    Ɣ   Las moléculas MHC del individuo deciden qué trozos de una proteína compleja
+
+        serán los epitopos inmunodominantes: solo se presentarán los péptidos que
+
+        encajen en sus MHC.
+
+
+
+
+3
+2.2 Diferencias entre el epitopo B y el epitopo T
+
+Esta comparación se entiende bien si recuerdas que el BCR ve el antígeno "tal cual" y el TCR
+
+ve un trozo de proteína presentado por el MHC:
+
+    Ɣ   Interacción: el epitopo B forma un complejo binario Ig antígeno; el T, un
+
+        complejo trimolecular antígeno TCR MHC.
+
+    Ɣ   Antígenos solubles: el B sí los reconoce; el T no.
+
+    Ɣ   Participación del MHC: en el B no; en el T sí.
+
+    Ɣ   Naturaleza química: el B reconoce proteínas, polisacáridos y lípidos; el T, solo
+
+        proteínas (péptidos).
+
+    Ɣ   Propiedades: el epitopo B es accesible, hidrofílico y a menudo conformacional
+
+        (depende de la forma 3D). El epitopo T es interno, desnaturalizado, anfipático y
+
+        un péptido lineal capaz de unirse al MHC.
+
+
+3. LAS MOLÉCULAS MHC: TIPOS Y DISTRIBUCIÓN IMP
+
+࠹ Examen: "Estructura y función del MHC" (PT2): apartados 3, 4 (resumido), 5 y 6.
+
+
+3.1 Clase I y clase II: la idea general
+
+    Ɣ   Están en las células nucleadas.
+
+    Ɣ   Hay dos tipos fundamentales, clase I y clase II, que se diferencian por su
+
+        estructura, su distribución celular y su función.
+
+    Ɣ   Las reconoce el r       junto con un correceptor: el MHC de clase I lo reconocen los
+
+        T CD8 (citotóxicos, Tc) y el MHC de clase II, los T CD4 (colaboradores, Th). Regla
+
+        para no confundirlos: 1 × 8 = 8 y 2 × 4 = 8 (clase I con CD8, clase II con CD4).
+
+    Ɣ   El MHC humano se llama HLA (Human Leucocyte Antigens). Está en el brazo corto
+
+        del cromosoma 6 y ocupa más de 4 millones de pares de bases.
+
+
+
+
+4
+3.2 Distribución tisular
+
+Las dos clases no están en las mismas células, y eso tiene sentido funcional:
+
+    Ɣ   HLA de clase I: en casi todas las células nucleadas, y también en las plaquetas.
+
+        No está en los eritrocitos maduros (no tienen núcleo). Así, cualquier célula
+
+        infectada por un virus puede enseñar sus péptidos a los T CD8 y ser eliminada.
+
+    Ɣ   HLA de clase II: solo de forma constitutiva en las APC profesionales: células
+
+        dendríticas, linfocitos B, monocitos/macrófagos y el epitelio tímico (que la
+
+        necesita para la selección). Es inducible por IFN- en otros tipos celulares. Los T
+
+        humanos activados también pueden expresar HLA-II.
+
+    Ɣ   Caso particular: en el cerebro, la microglía aumenta su HLA-II con la activación o la
+
+        inflamación.
+
+
+
+
+5
+4. ORGANIZACIÓN GENÉTICA DEL MHC
+
+4.1 El locus HLA humano y el H-2 del ratón
+
+El MHC tiene tres regiones: clase II, clase III y clase I. En el humano (HLA) el orden en el
+
+cromosoma 6 es clase II (DP, DQ, DR) ĺ clase III ĺ clase I (B, C, A).
+
+    Ɣ   Las cadenas α α α     α      α están codificadas dentro del MHC.
+
+    Ɣ   La o-microglobulina de la clase I está fuera del MHC: en el humano, en el
+
+        cromosoma 15 (en el ratón, en el 2).
+
+    Ɣ   En el ratón el MHC se llama H-2 y está en el cromosoma 17; uno de sus genes de
+
+        clase I (K) está translocado al otro lado de la clase II.
+
+    Ɣ   Hay una alta homología estructural y funcional entre especies (ratón y humano).
+
+
+
+
+6
+4.2 Genes de clase I y de clase II
+
+    Ɣ   Clase IA (clásicos): HLA-A, -B y -C.
+
+    Ɣ   Clase IB (no clásicos): HLA-E, -F y -G.
+
+    Ɣ   Clase IC (parecidos a la clase I): MIC-A y MIC-B (son los ligandos de NKG2D,
+
+        apartado 8.6).
+
+    Ɣ   Clase II: HLA-DR, -DP y -DQ.
+
+
+4.3 Otros genes "relevantes" dentro del MHC
+
+Dentro del MHC hay también genes de proteínas que sirven para cargar los péptidos.
+
+Son los mismos que verás en las vías de presentación (apartados 10 y 12):
+
+    Ɣ   Para la clase I: TAP (TAP1 y TAP2, el transportador de péptidos), LMP (subunidades
+
+        del proteasoma) y la tapasina (TAPBP).
+
+    Ɣ   Para la clase II: HLA-DM (y HLA-DO).
+
+
+7
+4.4 La región de clase III
+
+No codifica moléculas presentadoras, sino otras proteínas del sistema inmunitario:
+
+    Ɣ   Factores del complemento (C4A, C4B, C2, factor B).
+
+    Ɣ   Genes de moléculas que actúan en eventos tempranos de la presentación del
+
+        antígeno.
+
+    Ɣ   Genes de enzimas y citocinas: TNF- α α               (LT).
+
+
+5. ESTRUCTURA DE LAS MOLÉCULAS MHC IMP
+
+5.1 MHC de clase I
+
+Ejemplo de la diapositiva: HLA-A2.
+
+    Ɣ   Es un heterodímero: una           α αextα pc, que atraviesa la membrana, unida de
+
+        forma no covalente a la o-microglobulina (12 kD), que no atraviesa la
+
+        membrana.
+
+    Ɣ                                   / fsα oα α t.
+
+    Ɣ    tα α α o-microglobulina son los dominios cercanos a la membrana. Tienen un
+
+        plegamiento como el de las Ig (se parecen a la región C de las Ig).
+
+    Ɣ    fα α o forman entre los dos el surco o hendidura de unión al péptido: dos
+
+                α (las "paredes") apoyadas sobre una         α   αkα      α α
+
+        (el "suelo").
+
+    Ɣ   Son altamente polimórficos (muchos alelos en cada locus).
+
+
+
+
+8
+5.2 MHC de clase II
+
+Ejemplo de la diapositiva: HLA-DR1.
+
+    Ɣ   Es un complejo no covalente de      α            sα α α , y las dos atraviesan la
+
+        membrana.
+
+    Ɣ   Cada cadena tiene dos dominios/ β         .: β     .y
+
+    Ɣ    oα α o (los de la membrana) pertenecen a la superfamilia de las Ig.
+
+    Ɣ    fα α f forman la hendidura. Como vienen de cadenas distintas, la hendidura
+
+        queda abierta por ambos extremos.
+
+    Ɣ   Son altamente polimórficos, con la excepción del gen DRA                  r
+
+        de DR es prácticamente igual en todos).
+
+
+
+
+9
+5.3 Comparación: hendidura cerrada frente a hendidura abierta
+
+La diferencia clave entre las dos clases está en la forma del surco, y de ella depende el
+
+tamaño del péptido:
+
+     Ɣ   Clase I: la hendidura está cerrada en ambos extremos (la forman dos dominios de
+
+         la misma cadena) ĺ solo caben péptidos cortos, de 8 10 aminoácidos. Ejemplo
+
+         de la diapositiva: péptidos de la transcriptasa inversa del VIH.
+
+     Ɣ   Clase II: la hendidura está abierta en ambos extremos ĺ caben péptidos más
+
+         largos, de 13 18 aminoácidos, que pueden sobresalir por los lados. Ejemplo:
+
+         péptidos de la hemaglutinina de la gripe.
+
+En los dos casos, el TCR reconoce el complejo péptido + MHC, no el péptido solo.
+
+
+
+
+10
+6. CÓMO SE UNE EL PÉPTIDO AL MHC
+
+6.1 Los residuos de anclaje
+
+El péptido encaja en la hendidura porque los aminoácidos de ciertas posiciones se meten
+
+en huecos (oquedades) del MHC. Esos aminoácidos se llaman de anclaje.
+
+Si un péptido no tiene el aminoácido adecuado para los huecos de ese alelo del MHC, la
+
+unión no se produce. Por eso cada alelo presenta un conjunto distinto de péptidos.
+
+
+6.2 Clase I: péptidos cortos, sujetos por los extremos
+
+En la clase I, el péptido se sujeta por sus dos extremos: los grupos amino (N-terminal) y
+
+carboxilo (C-terminal) libres del péptido forman enlaces de hidrógeno e interacciones
+
+iónicas con sitios invariables que hay en cada extremo de la hendidura, iguales en todas
+
+las moléculas de clase I.
+
+
+11
+Los residuos de anclaje de los péptidos que se unen a un mismo alelo no tienen por qué
+
+ser idénticos, pero sí parecidos. Por ejemplo, un alelo acepta en una posición aromáticos
+
+(F o Y) y otro acepta hidrofóbicos grandes (V, L o I).
+
+
+
+
+6.3 Clase II: péptidos largos, sujetos a lo largo del surco
+
+En la clase II los extremos del péptido quedan libres. El péptido se sujeta por enlaces de
+
+hidrógeno e interacciones iónicas a lo largo de todo el surco, con residuos muy
+
+conservados de la molécula de clase II.
+
+Los péptidos son de longitud variable (al menos 13 aminoácidos). En el ejemplo de HLA-
+
+DR3, todos comparten un residuo hidrofóbico en la posición 1 y uno con carga negativa
+
+en la posición 4. No hace falta memorizar las posiciones: basta con saber que hay un
+
+patrón de anclaje propio de cada alelo.
+
+
+
+
+12
+7. RESTRICCIÓN, ALORREACTIVIDAD Y SUPERANTÍGENOS
+
+7.1 La restricción por MHC
+
+El TCR reconoce a la vez el péptido extraño y el MHC (restricción por MHC). Esta
+
+restricción puede deberse a un contacto directo entre el TCR y el MHC, o ser un efecto
+
+indirecto del polimorfismo del MHC sobre qué péptidos se unen o sobre la forma en
+
+que se unen.
+
+
+7.2 La alorreactividad: por qué se rechazan los trasplantes
+
+Si el TCR está restringido por el MHC propio, ¿por qué responde con tanta fuerza a un MHC
+
+extraño (alogénico, de otra persona)? Porque hay reactividad cruzada: un MHC extraño
+
+puede "parecerse" al complejo péptido extraño + MHC propio. Hay dos modos:
+
+
+
+
+13
+     Ɣ   Unión dependiente de péptido: el TCR reconoce el MHC extraño junto con el
+
+         péptido que lleva, y el conjunto se parece al complejo propio + péptido extraño.
+
+     Ɣ   Unión independiente de péptido: el TCR reconoce directamente el MHC
+
+         extraño, sea cual sea el péptido.
+
+Como hay muchísimos clones T con reactividad cruzada frente a cualquier MHC extraño, la
+
+respuesta al trasplante es muy intensa.
+
+
+
+
+7.3 Superantígenos
+
+Los superantígenos (SAG) son proteínas de microbios que son potentes mitógenos
+
+(activan muchísimos linfocitos T a la vez). Ejemplos: la enterotoxina estafilocócica (SE) y
+
+la TSST-1 (toxina 1 del síndrome del shock tóxico).
+
+     Ɣ   No se procesan a péptidos: se unen enteros.
+
+
+
+
+14
+     Ɣ   Se unen por fuera del MHC II (lejos del sitio de unión al péptido) y al         α   α
+
+         del TCR (lejos de las CDR que reconocen el péptido).
+
+     Ɣ   H                               lazo CDR2, en menor grado al CDR1 y al HV4 (la
+
+         cuarta región hipervariable del Tema 8).
+
+Como solo miran el        y no el péptido, activan      α   α α     α    α   α     (un
+
+porcentaje enorme del total), lo que provoca una liberación masiva de citocinas (shock).
+
+
+
+
+8. POLIMORFISMO Y DIVERSIDAD DEL MHC
+
+8.1 Conceptos: fenotipo, haplotipo y genotipo
+
+     Ɣ   Fenotipo: la lista de alelos MHC que tiene un individuo.
+
+     Ɣ   Haplotipo: la combinación de alelos que viene en un solo cromosoma (la que se
+
+         hereda de un progenitor, porque el MHC se hereda casi en bloque).
+
+
+
+
+15
+     Ɣ   Genotipo: los alelos ordenados por cromosoma, es decir, la suma de los dos
+
+         haplotipos.
+
+
+8.2 Por qué interesa que el MHC sea tan diverso
+
+La función del MHC es unir péptidos de patógenos y presentarlos para que los
+
+reconozcan los T. Eso tiene consecuencias dramáticas para los microbios, así que hay una
+
+fuerte presión selectiva a favor de los patógenos que muten para no ser presentados, o
+
+que inhiban los pasos de la presentación (las inmunoevasinas, apartado 10.6). Cuanto
+
+más diverso sea el MHC en una población, más difícil es que un patógeno escape a todos
+
+los alelos.
+
+
+8.3 Nomenclatura HLA
+
+Cada alelo se nombra con el locus, un asterisco y unos números: primero el grupo alélico
+
+y después el alelo concreto. Ejemplos:
+
+     Ɣ   A*0302: locus A, grupo 3, alelo 2.
+
+     Ɣ   DRB3*0202: locus DRB3, grupo 2, alelo 2.
+
+Al final puede ir una letra que indica cambios de expresión: N "nulo", L "bajo", S
+
+"secretado", C "citoplasmático", A "aberrante" y Q "cuestionable".
+
+
+8.4 Polimorfismo de los genes de clase I y II
+
+Las proteínas del MHC humano son muy polimórficas. La excepción es el locus p         ,
+
+funcionalmente monomórfico. Lo que más se pregunta de cada clase:
+
+     Ɣ   Clase I clásicos (HLA-A, -B y -C): muy polimórficos, presentan péptidos a los T
+
+         CD8 y además los reconocen receptores de las NK.
+
+     Ɣ   Clase I no clásicos: HLA-E y HLA-G son oligomórficos, no presentan a CD8, pero sí
+
+         los reconocen receptores NK. HLA-F es monomórfico y no hace ninguna de las dos
+
+         cosas.
+
+
+
+
+16
+     Ɣ   Clase II DR, DQ y DP: muy polimórficos, presentan péptidos a los T CD4.
+
+     Ɣ   HLA-DM y HLA-DO: oligomórficos, no presentan: regulan el procesamiento del
+
+         antígeno (apartado 12.4).
+
+
+8.5 Fuentes de la diversidad del MHC
+
+Dos propiedades explican la diversidad:
+
+     Ɣ   Polimorfismo: hay múltiples alelos de cada gen. Los genes MHC son los más
+
+         polimórficos que se conocen. Pero cada individuo no puede expresar más de
+
+         dos alelos de un mismo locus (uno de cada cromosoma).
+
+     Ɣ   Poligenia: hay varios genes distintos de clase I y de clase II, parecidos y con
+
+         funciones similares. Así, aunque solo tengas dos alelos de cada uno, tienes muchas
+
+         moléculas distintas con diferentes espectros de unión de péptidos.
+
+La variación alélica no está repartida por toda la molécula: se concentra en los dominios
+
+amino-terminales que forman la hendidura r β2 .                       : β2 β               sy H
+
+decir, los alelos se diferencian justo en qué péptidos pueden unir.
+
+En resumen, la diversidad del MHC se debe a cinco cosas:
+
+     Ɣ   1. Polimorfismo muy amplio.
+
+     Ɣ   2. Elevada poligenia.
+
+     Ɣ   3. Expresión codominante: se expresan a la vez los alelos del padre y de la madre.
+
+     Ɣ   4. Heterocigosis frecuente (con tantos alelos, lo normal es tener dos distintos en
+
+         cada locus).
+
+     Ɣ   5. En la clase II,            α   α        α α α α   α        α              r
+
+                                                                  :                               sy
+
+
+8.6 El MHC de clase I controla la actividad NK
+
+Las células NK (Tema 5) usan el MHC de clase I para saber si una célula está sana. De la
+
+tabla de receptores, solo merece la pena recordar tres:
+
+
+17
+     Ɣ   KIR (de tipo inhibidor) ĺ reconocen HLA-A, -B y -C ĺ inhiben a la NK.
+
+     Ɣ   NKG2A/CD94 ĺ reconoce HLA-E ĺ inhibe.
+
+     Ɣ   NKG2D (activador) ĺ reconoce MIC-A y MIC-B (y ULBP), que aparecen en células
+
+         estresadas (infectadas o tumorales) ĺ la NK mata a esa célula.
+
+Una célula sana enseña su MHC-I y frena a la NK. Si la célula pierde el MHC-I (algo que
+
+hacen muchos virus para escapar de los CD8) o expresa MIC, la NK la mata.
+
+
+
+
+9. PROCESAMIENTO Y PRESENTACIÓN DEL ANTÍGENO:
+
+VISIÓN GENERAL
+
+
+
+
+18
+9.1 Dos vías según dónde esté el antígeno
+
+Procesar el antígeno es trocear la proteína en péptidos; presentarlo es cargar esos
+
+péptidos en el MHC y llevarlos a la superficie. La regla básica: dónde está el antígeno
+
+decide la vía.
+
+     Ɣ   Antígeno en el citosol (proteínas propias, virus que se replican dentro de la célula):
+
+         se degrada en el citosol (proteasoma) ĺ se une al MHC de clase I ĺ se presenta a
+
+         los T CD8 efectores ĺ muerte de la célula que lo presenta. Lo hace cualquier
+
+         célula nucleada.
+
+     Ɣ   Antígeno en vesículas (bacterias que viven en vesículas, microbios o toxinas
+
+         captados del exterior): se degrada en vesículas endocíticas de pH bajo ĺ se une al
+
+         MHC de clase II ĺ se presenta a los T CD4 efectores. En el macrófago, eso lo activa
+
+         para matar a las bacterias que tiene dentro; en el linfocito B, lo activa para
+
+         secretar anticuerpos.
+
+     Ɣ   Excepción: presentación cruzada. Un antígeno captado del exterior pasa al citosol
+
+         (retrotranslocación) ĺ MHC de clase I ĺ se presenta a T CD8 vírgenes. La hace
+
+         sobre todo la célula dendrítica (apartado 11).
+
+
+
+
+19
+9.2 Las dos vías de un vistazo
+
+En los apartados siguientes se ve cada vía paso a paso. Para no perderte, cada una tiene
+
+cuatro etapas parecidas: captación del antígeno ĺ procesamiento (degradación) ĺ
+
+síntesis del MHC ĺ unión péptido MHC y salida a la superficie.
+
+
+
+
+20
+10. VÍA DE CLASE I: PRESENTACIÓN A LOS LINFOCITOS T
+
+CD8 IMP
+
+࠹ Examen: "Describa el procesamiento y presentación de antígenos a los linfocitos T
+
+CD8" (F21, PT1, PT2). Contesta con los pasos de 10.1 a 10.5 en orden.
+
+
+10.1 Origen de los péptidos
+
+Los péptidos que presenta el HLA de clase I a los T CD8 proceden de proteínas que están
+
+en el citosol:
+
+     Ɣ   Proteínas propias de la célula (en una célula sana, el MHC-I enseña péptidos
+
+         propios y no pasa nada).
+
+     Ɣ   Proteínas de virus (o bacterias) que se replican dentro de la célula, o proteínas
+
+         tumorales.
+
+
+
+21
+     Ɣ   Proteínas de antígenos fagocitados que pasan al citosol por retrotranslocación
+
+         (presentación cruzada).
+
+
+10.2 Paso 1: degradación en el proteasoma
+
+Las proteínas del citosol se marcan con ubiquitina y se degradan en el proteasoma, un
+
+complejo de muchas enzimas (multicatalítico). Su estructura:
+
+     Ɣ   Un barril (núcleo cilíndrico hueco) de 28 subunidades: 4 anillos de 7
+
+         subunidades apilados en el orden - - - .
+
+     Ɣ   Los        α tienen la actividad proteolítica (cortan dentro del barril).
+
+     Ɣ   Los        α sirven de anclaje a las partículas reguladoras y de puerta, para que
+
+         no entren proteínas al azar.
+
+     Ɣ   Dos casquetes en los extremos con función reguladora.
+
+
+
+
+22
+El IFN- modifica el proteasoma para que produzca péptidos de la longitud justa para el
+
+MHC-I (es el inmunoproteasoma):
+
+     Ɣ   Induce las subunidades LMP2 y LMP7 (codificadas en el MHC, apartado 4.3), que
+
+         sustituyen a subunidades normales.
+
+     Ɣ   Hace que se una a ambos extremos el activador del proteasoma PA28. Este abre
+
+         los extremos del barril y aumenta la velocidad a la que salen los péptidos.
+
+
+
+
+10.3 Paso 2: transporte al retículo por TAP
+
+Los péptidos están en el citosol, pero el MHC-I se fabrica en el retículo endoplásmico (RE).
+
+Hay que pasarlos al RE, y eso lo hace TAP (Transportador Asociado al Procesamiento del
+
+antígeno):
+
+     Ɣ   Es un heterodímero (TAP1 + TAP2) de la membrana del RE, con cajas de unión de
+
+         ATP: el transporte gasta ATP.
+
+
+
+
+23
+     Ɣ    Prefiere péptidos con residuos hidrofóbicos o básicos en el extremo carboxilo,
+
+          que son justo los que mejor se unen al MHC-I.
+
+
+10.4 Paso 3: carga del péptido en el RE
+
+Mientras tanto, en el RE se fabrica la molécula de clase I:
+
+     Ɣ    La        α recién sintetizada se pliega con ayuda de la chaperona calnexina y se
+
+          une a la o-microglobulina.
+
+     Ɣ    El MHC-I todavía vacío se incorpora al complejo de carga de péptidos (PLC,
+
+          peptide-loading complex): TAP tapasina calreticulina (con ERp57). La tapasina
+
+          sujeta el MHC-I pegado a TAP, justo donde salen los péptidos.
+
+     Ɣ    Si el péptido es algo largo, la aminopeptidasa del RE (ERAP) lo recorta a la longitud
+
+          adecuada (8 10 aminoácidos).
+
+     Ɣ    Cuando un péptido encaja en la hendidura, el MHC-I se estabiliza, se suelta del
+
+          complejo de carga y sale del RE.
+
+
+10.5 Paso 4: salida a la superficie y reconocimiento por el T CD8
+
+El complejo péptido MHC-I viaja por el aparato de Golgi y llega en vesículas exocíticas a
+
+la membrana. Allí lo reconoce el TCR de un T CD8, ayudado por el correceptor CD8, que se
+
+                   h         3-I. Si el péptido es viral o tumoral, el T CD8 citotóxico mata a la
+
+célula.
+
+
+
+
+24
+En resumen: proteína del citosol ĺ ubiquitina ĺ proteasoma ĺ péptidos ĺ TAP ĺ RE
+
+ĺ complejo de carga (tapasina, calreticulina, ERAP) ĺ MHC-I cargado ĺ Golgi ĺ
+
+superficie ĺ T CD8.
+
+
+10.6 Inmunoevasinas: cómo escapan los virus
+
+Algunos virus han desarrollado proteínas que bloquean la carga de péptidos en el MHC-I,
+
+para que la célula infectada no se vea:
+
+     Ɣ   ICP47 (virus del herpes simple 1) y US6 (citomegalovirus humano, HCMV): se
+
+         unen a TAP y lo inhiben, así que los péptidos no entran al RE.
+
+     Ɣ   E19 (adenovirus): se une a las moléculas MHC-I, compite con la tapasina y las
+
+         retiene en el RE.
+
+
+
+
+25
+11. PRESENTACIÓN CRUZADA ("CROSS-PRESENTATION")
+
+IMP
+
+࠹ Examen: Es la pregunta más repetida del tema: "Defina en qué consiste el mecanismo
+
+de la Cross Presentation o Presentación cruzada" (E19, PT1) y "Describa el procesamiento
+
+de presentación cruzada (cross presentation)" (PT2). Contesta con 11.1 y 11.2.
+
+
+11.1 El problema que resuelve
+
+Para activar a un T CD8 virgen hace falta una célula dendrítica (es la única APC que lo
+
+activa bien, porque tiene muchas moléculas coestimuladoras). Pero imagina un virus que
+
+no infecta a las dendríticas, sino solo, por ejemplo, a las células del hígado. Según la regla
+
+del apartado 9.1, la dendrítica solo vería ese virus "desde fuera" (lo captaría por fagocitosis)
+
+
+
+
+26
+y lo presentaría en MHC-II, a los CD4. Nunca activaría a los CD8, que son justo los que
+
+hacen falta para matar las células infectadas.
+
+La presentación cruzada soluciona esto: la dendrítica ingiere células infectadas por virus
+
+(o células tumorales) y presenta sus antígenos en MHC de clase I a los T CD8 vírgenes. Se
+
+llama "cruzada" porque una célula (la dendrítica) presenta antígenos de otra célula (la
+
+infectada), y porque el antígeno, siendo extracelular, "se cruza" a la vía de clase I.
+
+
+11.2 Mecanismo, paso a paso
+
+     Ɣ   1. Captación: la célula dendrítica fagocita células infectadas por virus (o células
+
+         tumorales, o restos de ellas) o antígenos víricos.
+
+     Ɣ   2. Paso al citosol (retrotranslocación): en vez de degradarse en los lisosomas, las
+
+         proteínas víricas del fagosoma salen al citosol.
+
+     Ɣ   3. Degradación en el proteasoma: en el citosol se trocean en péptidos, como
+
+         cualquier proteína citosólica (apartado 10.2).
+
+     Ɣ   4. Transporte por TAP al RE y carga en MHC de clase I recién sintetizado
+
+         (apartados 10.3 y 10.4).
+
+     Ɣ   5. Presentación del complejo péptido MHC-I en la superficie, junto con moléculas
+
+         coestimuladoras, a un T CD8 virgen específico del virus.
+
+     Ɣ   6. El T CD8 se activa, prolifera y se convierte en CTL, que irá a matar a las células
+
+         infectadas.
+
+La misma dendrítica puede presentar también péptidos de ese antígeno en MHC de
+
+clase II a los T CD4 colaboradores, que a menudo hacen falta para una respuesta CD8
+
+completa.
+
+
+
+
+27
+Resumen en una línea: antígeno extracelular ĺ fagosoma ĺ citosol
+
+(retrotranslocación) ĺ proteasoma ĺ TAP ĺ MHC-I ĺ T CD8 virgen. Es la excepción a
+
+la regla "lo de fuera va por MHC-II".
+
+
+11.3 Presentación por linfocitos T CD4 (transfagocitosis)
+
+Las diapositivas incluyen un artículo de Cruz-Adalia y colaboradores (Nature
+
+Communications, 2017). Demuestra que también los T CD4 convencionales pueden
+
+captar bacterias de dendríticas infectadas (transfagocitosis) y presentar antígenos
+
+bacterianos a T CD8 vírgenes. Estos T CD8 proliferan, se hacen citotóxicos y generan
+
+memoria central. Es un dato de ampliación; lo importante para el examen es la
+
+presentación cruzada por la dendrítica.
+
+
+
+
+28
+12. VÍA DE CLASE II: PRESENTACIÓN A LOS LINFOCITOS T
+
+CD4 IMP
+
+࠹ Examen: "Describa la vía de procesamiento de los antígenos por la célula APC y la
+
+presentación al linfocito T CD4" (PT1, PT2). Contesta con los pasos de 12.1 a 12.5, sin
+
+olvidar cadena invariante, CLIP y HLA-DM.
+
+
+12.1 Origen de los péptidos
+
+Los péptidos que se unen al MHC-II proceden de antígenos que están dentro de vesículas:
+
+     Ɣ   Micobacterias u otros microbios que proliferan en vesículas intracelulares.
+
+     Ɣ   Microbios fagocitados por un macrófago.
+
+     Ɣ   Proteínas captadas e interiorizadas por un linfocito B a través de su BCR.
+
+
+12.2 Paso 1: captación y degradación en vesículas ácidas
+
+     Ɣ   El antígeno entra desde el exterior en una vesícula (endocitosis o fagocitosis).
+
+     Ɣ   En los endosomas tempranos, de pH neutro, las proteasas están inactivas.
+
+     Ɣ   Las vesículas se acidifican (baja el pH), y eso activa las proteasas (catepsinas),
+
+         que degradan el antígeno en péptidos.
+
+     Ɣ   Estas vesículas con péptidos se fusionan con las vesículas que llevan el MHC-II.
+
+Caso especial del linfocito B: su BCR (Ig de superficie) une el antígeno específico, lo
+
+interioriza muy eficazmente (endocitosis mediada por receptor) y lo procesa. Por eso el B
+
+presenta una densidad muy alta de péptidos de su antígeno, aunque haya muy poco
+
+antígeno.
+
+
+
+
+29
+12.3 Paso 2: síntesis del MHC-II y la cadena invariante
+
+El MHC-II se fabrica en el RE, igual que el MHC-I. Pero el RE está lleno de péptidos (los que
+
+trae TAP para la clase I). Si el MHC-II los cogiera, presentaría lo que no le toca. Para evitarlo
+
+existe la cadena invariante (Ii):
+
+     Ɣ                              3-II se ensamblan en el RE (con la chaperona calnexina) y
+
+         se unen a la cadena invariante, una proteína trimérica unida de forma no
+
+         covalente.
+
+     Ɣ   La cadena invariante tiene dos funciones: (1) tapa la hendidura, evitando que se
+
+         ocupe antes de tiempo por los péptidos del RE; (2) dirige la molécula MHC-II desde
+
+         el RE y el Golgi hacia los endosomas, donde cargará el péptido.
+
+
+
+
+12.4 Paso 3: CLIP y HLA-DM
+
+Este es el paso que más se pregunta. Va en tres tiempos:
+
+
+
+30
+     Ɣ   1. Corte de la cadena invariante: en la vesícula acidificada, las catepsinas (L y S)
+
+         digieren la cadena invariante. Queda solo un fragmento pequeño metido en la
+
+         hendidura: CLIP (Class II-associated Invariant chain Peptide).
+
+     Ɣ   2. CLIP sigue tapando el surco: mientras siga ahí, los péptidos del antígeno no
+
+         pueden entrar.
+
+     Ɣ   3. HLA-DM cambia CLIP por el péptido: HLA-DM, una molécula parecida al MHC-II
+
+         pero que no presenta, se une al MHC-II y cataliza la liberación de CLIP, dejando
+
+         sitio a un péptido antigénico que se una con alta afinidad.
+
+HLA-DO es el inhibidor de HLA-DM: frena la liberación de CLIP. El IFN- α              αóF8-
+
+DM.
+
+
+
+
+31
+12.5 Paso 4: salida a la superficie y reconocimiento por el T CD4
+
+El complejo péptido MHC-II viaja en vesículas exocíticas a la membrana. Allí lo reconoce
+
+el TCR de un T CD4, ayudado por el correceptor CD4:                              .      3-II.
+
+El T CD4 activado coopera: activa al macrófago para que destruya lo que ha fagocitado, o
+
+activa al linfocito B para que secrete anticuerpos.
+
+En resumen: antígeno extracelular ĺ endocitosis ĺ vesícula ácida (catepsinas) ĺ
+
+péptidos ‫ ۅ‬MHC-II + cadena invariante en el RE ĺ endosoma ĺ cadena invariante
+
+cortada ĺ CLIP ĺ HLA-DM cambia CLIP por péptido ĺ superficie ĺ T CD4.
+
+Diferencias con la vía de clase I que conviene tener claras: en la clase II no hay
+
+proteasoma ni TAP (degradan las catepsinas, en vesículas ácidas), y el surco lo protege la
+
+cadena invariante en lugar de cargarse directamente en el RE.
+
+
+13. REGULACIÓN DE LA EXPRESIÓN DEL MHC Y TIPOS DE
+
+APC
+
+13.1 Los interferones aumentan el MHC
+
+Durante una infección, las citocinas aumentan la expresión del MHC y, con ello, la
+
+presentación del antígeno y la respuesta T. El IFN- lo producen las NK (pronto, en la
+
+inmunidad innata) y los T CD4 activados. Una APC en reposo tiene poco MHC; una APC
+
+activada tiene mucho.
+
+
+
+
+32
+     Ɣ   Clase II: el IFN- induce los genes de clase II a través del activador transcripcional
+
+         CIITA (transactivador de MHC de clase II). Si falta CIITA aparece el síndrome del
+
+         linfocito desnudo (SLD): no hay MHC-II, y es una inmunodeficiencia primaria
+
+         muy grave (sin MHC-II no se activan los T CD4).
+
+     Ɣ   Clase I: los IFN- sα q - α α q - aumentan la transcripción de la           α α   α      α
+
+         I, la o-microglobulina, las subunidades del proteasoma LMP2 y LMP7, la
+
+         tapasina y TAP. Así la célula procesa mejor las proteínas víricas y presenta más
+
+         péptidos.
+
+
+13.2 Regulación negativa
+
+Algunos microbios bajan el MHC para escapar. Ejemplo de las diapositivas: los antígenos
+
+de las micobacterias, al interaccionar con TLR2, hacen que la célula responda menos al
+
+IFN-     disminuya el MHC-II.
+
+
+
+
+33
+13.3 Los tres tipos de APC profesionales
+
+Hay tres APC profesionales (que expresan MHC-II y coestimuladores). Lo que hay que saber
+
+de cada una:
+
+     Ɣ   Célula dendrítica: capta antígeno por macropinocitosis y fagocitosis y se infecta
+
+         por virus; tiene MHC-II bajo en los tejidos y alto en los órganos linfoides; tiene
+
+         coestimuladores de forma constitutiva (++++). Presenta péptidos, antígenos
+
+         víricos y alérgenos. Está en todo el cuerpo. Es la única que activa a los T
+
+         vírgenes.
+
+     Ɣ   Macrófago: capta por fagocitosis; MHC y coestimuladores inducibles (por
+
+         bacterias y citocinas). Presenta antígenos particulados y patógenos intra y
+
+         extracelulares. Está en tejido linfoide, tejido conjuntivo y cavidades.
+
+     Ɣ   Linfocito B: capta mediante un receptor específico (Ig); MHC-II constitutivo, que
+
+         aumenta al activarse; coestimuladores inducibles. Presenta antígenos solubles,
+
+         toxinas y virus. Está en tejido linfoide y sangre periférica.
+
+
+
+
+34
+35
+
