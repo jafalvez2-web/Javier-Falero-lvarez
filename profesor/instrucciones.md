@@ -116,6 +116,8 @@ Son instrucciones explícitas suyas. Cuando no se han cumplido, se ha enfadado.
 
     **Las flechas son lo más importante** (lo pidió así): el plan en flechas numeradas (①, ②…) va en un recuadro destacado, con muy poca explicación alrededor, y la resolución sigue las mismas flechas con los mismos números.
 
+    **Antes del recuadro de flechas, "Lo que vamos a hacer":** un párrafo que cuenta el plan con palabras, en el mismo orden y citando los mismos números (①, ②…), para que al ver el esquema ya sepa qué está mirando (lo pidió él).
+
     **Todo muy poco a poco.** Ninguna ecuación aparece de golpe. Si hay una x, se construye **pieza a pieza** (3a, 3b, 3c…): qué llamo x → de dónde sale el otro trozo (la balanza) → paso cada trozo a moles → cuántos de lo común da cada uno → la suma = el dato → hago las divisiones → junto las x → paso los números al otro lado → despejo. Lo dijo así: *"me plantas toda la ecuación ahí puesta… me gustaría saber desde dónde va sacando cada cosa, poquito a poquito"*.
 
     **Las flechas se AÑADEN, no sustituyen nada.** Error cometido: al hacer el documento de flechas se quitaron los dibujos, las explicaciones largas y la teoría, y Javier se enfadó (*"eso es lo que más me viene bien, además de las flechas… no te he dicho que lo quites"*). Cada ficha lleva TODO: enunciado, dibujo de laboratorio, Datos / ¿Qué pasa? / reacción con su ajuste explicado, el recuadro de flechas (sin desarrollarlo de más), la resolución flecha a flecha y "Lo que tienes que llevarte". Y la teoría y las preguntas de teoría de cada apartado se mantienen. **No quitar nada que no haya pedido quitar.**

@@ -7,6 +7,7 @@ Encima: de herramientas/fuentes_md/tema7_planteamientos/*.md se toman, para cada
 el tipo, el plan en flechas [[PLAN]] y la resolución flecha a flecha (①, ②…, con las
 ecuaciones de x construidas pieza a pieza). Sustituyen a los "Paso k" antiguos.
 00_intro.md (la receta y los retoques) se inserta después de la caja de herramientas.
+05_explica.md: el párrafo "Lo que vamos a hacer" de cada ficha, que va justo antes de sus flechas.
 
 Macro [[PLAN ... ]]: cada línea es una fila de cajas unidas por flechas.
     caja --[① etiqueta]--> caja --[② ...]--> !caja final
@@ -93,7 +94,8 @@ TAIL = re.compile(r'^(\*\*Lo que tienes que llevarte|\*\*Cifras|\*\*Resumen|\*\*
 def main():
     base = open(BASE, encoding='utf-8').read()
     new_txt = '\n\n'.join(open(f, encoding='utf-8').read()
-                          for f in sorted(glob.glob(os.path.join(SRC, '*.md'))) if not f.endswith('00_intro.md'))
+                          for f in sorted(glob.glob(os.path.join(SRC, '*.md'))) if not f.endswith(('00_intro.md', '05_explica.md')))
+    exp = dict(re.findall(r'^@@ (.+?)\n(.+?)(?=\n\n@@ |\Z)', open(os.path.join(SRC, '05_explica.md'), encoding='utf-8').read(), flags=re.M | re.S))
     nf = fichas(new_txt)
     hechas = []
     for code, (a, b) in sorted(fichas(base).items(), key=lambda kv: -kv[1][0]):   # de atrás adelante
@@ -110,6 +112,10 @@ def main():
         tm = TAIL.search(seg, pe.start())
         tail = seg[tm.start():].strip() if tm else ''
         plan, res = parts
+        if code in exp:
+            plan = plan.replace('[[PLAN', '**Lo que vamos a hacer:** ' + exp[code].strip() + '\n\n[[PLAN', 1)
+        else:
+            print('sin explicación:', code)
         seg2 = f'{pre}\n\n{plan}\n\n{res}\n\n{tail}\n'
         base = base[:a] + seg2 + base[b:]
         hechas.append(code)
