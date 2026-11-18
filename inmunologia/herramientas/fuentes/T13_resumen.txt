@@ -1,0 +1,209 @@
+# Fuente de "INMUNO T13 (resumen).pdf". Misma numeración y títulos que los apuntes completos.
+T: TEMA 13 : CITOCINAS, QUIMIOCINAS Y SUS RECEPTORES (RESUMEN)
+N: Lo que hay que saberse tal cual. Las cajas que venían en blanco en las diapositivas están completadas con contenido estándar; compruébalas con lo que diga la profesora.
+
+H1: 1. LA COMUNICACIÓN EN EL SISTEMA INMUNITARIO
+H2: 1.1 Recibir información, reconocer el peligro y comunicar la respuesta
+B: La célula recibe **señales del entorno**, **señales de peligro** (PAMP, DAMP, que reconocen los **PRR**) y **señales de otras células**.
+B: En el sistema inmunitario, la comunicación entre células se hace sobre todo con **citocinas y quimiocinas**.
+H2: 1.2 Por qué necesita comunicarse el sistema inmunitario
+B: Tres pasos: **detectar** (PRR), **comunicar** (TNF, IL-1, IL-6) y **coordinar** (cada diana responde de forma distinta).
+B: **El contexto define el resultado**: la misma citocina no produce el mismo efecto en todas las células.
+B: Citocina no es sinónimo de inflamación: hay citocinas **activadoras, reguladoras e inhibitorias**; las **quimiocinas** dirigen la migración.
+H2: 1.3 Una red de comunicación
+B: Participan la **inmunidad innata** (señales rápidas), la **adaptativa** (los linfocitos activados expanden y especializan la respuesta) y el **tejido** (epitelio, endotelio, fibroblastos).
+B: El **linfocito Th** está en el centro de la red.
+H2: 1.4 Un ejemplo de la red en acción: "¡Alerta, infección!"
+B: El macrófago detecta las bacterias y libera **TNF, IL-1 y CXCL8**; **TNF e IL-1 activan el endotelio** y **CXCL8 guía a los neutrófilos** hacia el foco.
+B: En el ganglio, el Th activado produce **IL-2** y prolifera; los **Treg (CD25 alto)** captan IL-2 y, con la **IL-10**, regulan.
+B: **Solo responde la célula que tiene el receptor adecuado.**
+
+H1: 2. LAS CITOCINAS: DEFINICIÓN, PROPIEDADES Y FUNCIONES
+H2: 2.1 Definición y características
+B: Las citocinas son **proteínas o glicoproteínas reguladoras solubles**, de **bajo peso molecular (menos de 30 kDa)**, de la inmunidad **innata y adaptativa**.
+B: Características: **secreción breve y autolimitada**, **concentraciones bajas**, **acción local o sistémica**, **receptores específicos**, **receptores regulados** y **cambio funcional** de la célula diana.
+H2: 2.2 Modos de acción: la distancia decide
+B: **Endocrina** (por la sangre, a distancia), **paracrina** (células vecinas, lo más habitual), **autocrina** (la propia célula, como la IL-2) y **por contacto** (ligando de membrana: CD40L–CD40, FasL–Fas).
+B: Solo hay efecto donde hay **receptor funcional**. Si sube la concentración o persiste, una citocina local se vuelve **sistémica**.
+H2: 2.3 Propiedades de las citocinas: la red decide el resultado
+B: **Pleiotropismo**: una citocina, efectos distintos en células distintas (IL-4 sobre B, timocitos y mastocitos).
+B: **Redundancia**: varias citocinas, el mismo efecto (IL-2, IL-4 e IL-5 hacen proliferar al B).
+B: **Sinergia**: juntas hacen más que la suma (IL-4 + IL-5 inducen el cambio a IgE).
+B: **Antagonismo**: una inhibe a otra (el IFN-γ bloquea el cambio a IgE de la IL-4).
+B: **Cascada**: una induce a otra (IFN-γ activa al macrófago, que produce IL-12, que actúa sobre los Th).
+H2: 2.4 Las "puertas" que controlan la respuesta a las citocinas
+B: **Expresión del receptor**, **concentración y gradiente**, **vida media corta** y **antagonistas y frenos** (IL-1Ra, receptores señuelo, IL-10, SOCS).
+H2: 2.5 Funciones: activación, fase efectora y regulación
+B: **Activación** (TNF, IL-1, IL-12, IL-2), **fase efectora** (IFN-γ activa macrófagos; IL-2, IL-4, IFN-γ actúan sobre B y CD8) y **regulación y clínica** (IL-10, TGF-β; fármacos anti-citocinas).
+
+H1: 3. NOMENCLATURA Y CLASIFICACIÓN DE LAS CITOCINAS
+H2: 3.1 El nombre orienta, pero no define la función
+B: Nombres por la célula (linfocinas, monocinas), por el primer efecto observado (**TNF, interferones**), **interleucinas** (numeradas por orden de descubrimiento) o funcionales (**CSF**).
+H2: 3.2 Clasificación funcional
+B: **Inflamatorias** (TNF, IL-1, IL-6), **antivirales** (IFN-I, IFN-γ), **de regulación de linfocitos** (IL-2, IL-4, IL-12, IL-17), **de regulación y reparación** (IL-10, TGF-β), **hematopoyéticas** (IL-3, IL-7, GM-CSF) y **quimiocinas**.
+H2: 3.3 Clasificación por la familia del receptor
+B: La familia del receptor es la clasificación **más útil**, porque predice la vía de señalización.
+B: **Tipo I (hematopoyetinas)**: WSXWS, **JAK–STAT**. **Tipo II (interferones, IL-10)**: sin WSXWS, **JAK–STAT**.
+B: **Superfamilia TNFR**: dominios ricos en cisteína, **TRAF/TRADD**. **IL-17R**: SEFIR, **ACT1–TRAF6**. **IL-1R**: dominio **TIR**, **MyD88–IRAK**. **Quimiocinas**: **GPCR** de 7 hélices.
+IMG: inmunologia/herramientas/fuentes/fig_T13/d12.png | Familias de receptores de citocinas. | 15
+
+H1: 4. HEMATOPOYETINAS: CITOCINAS DE CLASE I
+H2: 4.1 Generalidades
+B: Las primeras caracterizadas. Estructura de **cuatro hélices α**. Receptor tipo I **sin actividad quinasa**, con **JAK–STAT**, y a veces con cadenas compartidas **γc (CD132), βc (CD131) o gp130 (CD130)**.
+H2: 4.2 El receptor de clase I: CHR, cisteínas conservadas y WSXWS
+B: **CHR**: dos dominios de tipo fibronectina III que unen la citocina. **Cuatro cisteínas conservadas** y motivo **WSXWS**. **JAK** asociada a la cola.
+H2: 4.3 La vía JAK–STAT
+B: **Aproximar** (la citocina junta las cadenas), **fosforilar** (las JAK se activan y fosforilan el receptor), **activar STAT** (se unen por SH2, se fosforilan y dimerizan) y **entrar al núcleo** (transcripción).
+B: **El receptor reconoce, la JAK fosforila y el STAT lleva la información al núcleo.**
+H2: 4.4 Cadenas compartidas: γc, βc y gp130
+B: **γc**: IL-2, IL-4, IL-7, IL-9, IL-15, IL-21 (se asocia a **JAK3**).
+B: **βc**: IL-3, IL-5, GM-CSF.
+B: **gp130**: IL-6, IL-11, IL-27, LIF, CNTF (STAT3).
+B: Compartir cadena **no es responder igual**, pero explica la redundancia.
+H2: 4.5 La IL-2 y su receptor: el ensamblaje regula la sensibilidad IMP
+X: Relacionado con "Las 3 señales de las APC" (PT1, PT2).
+B: Cadenas **α (CD25), β (CD122) y γc**. **α sola: baja afinidad**, sin señal. **βγc: intermedia** (NK, T en reposo). **αβγc: alta** (T y B activados, Treg).
+B: El T activado expresa **CD25** y produce IL-2. Señal: **JAK1 + JAK3, STAT5**: proliferación, supervivencia y programa Treg.
+B: Acción **cis** (autocrina, sobre el propio T) y **trans** (paracrina); los **Treg** consumen IL-2.
+H2: 4.6 La cadena γc y la inmunodeficiencia X-SCID
+B: Un defecto en **γc** (gen ligado al X) inutiliza **seis citocinas** a la vez: es la **X-SCID**.
+B: Sin **IL-7 no hay linfocitos T**; sin **IL-15 no hay NK**; hay B pero no funcionan.
+H2: 4.7 IL-6: señalización clásica y trans-señalización
+B: Receptor: **IL-6R** (solo en hepatocitos y algunos leucocitos) + **gp130** (en casi todas las células); vía **JAK1–STAT3**.
+B: **Clásica** (IL-6R de membrana): antiinflamatoria. **Trans-señalización** (IL-6 + **IL-6R soluble** sobre la gp130 de cualquier célula): **proinflamatoria**, amplía las dianas. La **sgp130** es un señuelo que la bloquea.
+B: **Tocilizumab**: anticuerpo anti-IL-6R; bloquea las dos vías.
+H2: 4.8 IL-12: el puente entre la inmunidad innata y el programa tipo 1 IMP
+X: Relacionado con "Activación de T CD4 en Th1" (F21, DES, PT1, PT2).
+B: La producen **macrófagos y DC**; receptor **IL-12Rβ1/β2**, **TYK2/JAK2**, **STAT4**; induce **Th1 e IFN-γ** (en Th1 y NK).
+B: Es un **puente**: la innata (DC) instruye a la adaptativa (T CD4). Bucle positivo **IL-12 e IFN-γ**.
+H2: 4.9 Citocinas hematopoyéticas: el suministro de células desde la médula ósea
+B: **SCF** (células madre), **IL-3** y **GM-CSF** (progenitores), **G-CSF** (neutrófilos), **M-CSF** (monocitos), **IL-7** (linfocitos), **EPO** (riñón, hematíes).
+
+H1: 5. INTERFERONES Y FAMILIA DE LA IL-10: CITOCINAS DE CLASE II
+H2: 5.1 Generalidades
+B: IFN-I (antiviral amplio), IFN-γ (activa fagocitos, tipo 1), IFN-λ (antiviral en barreras), IL-10 (limita la inflamación). Proteínas **helicoidales**; vía **JAK–STAT**.
+H2: 5.2 El receptor de clase II
+B: **Heterodímero sin WSXWS**, con **JAK/TYK** asociadas; **el STAT activado selecciona el programa**.
+H2: 5.3 Tres tipos de interferón y la familia de la IL-10
+B: **Tipo I** (IFN-α/β): **IFNAR1/2**, **TYK2 + JAK1**, **ISGF3** (STAT1 + STAT2 + IRF9), **ISRE**.
+B: **Tipo II** (IFN-γ): **IFNGR1/2**, **JAK1 + JAK2**, **homodímero de STAT1 (GAF)**, **GAS**.
+B: **Tipo III** (IFN-λ): **IFNLR1 + IL-10R2**, **JAK1 + TYK2**, ISGF3; receptor solo en **epitelios**.
+B: **Familia IL-10**: comparten IL-10R2; **STAT3**.
+H2: 5.4 IFN tipo I: el estado antiviral
+B: Lo producen **pDC, macrófagos y células infectadas** al detectar ácidos nucleicos víricos; actúa de forma **autocrina y paracrina**.
+B: Vía: IFNAR, TYK2/JAK1, STAT1/STAT2, + **IRF9 = ISGF3**, núcleo, **ISRE**, **ISG**.
+B: Estado antiviral: **PKR** (fosforila **eIF2α**: frena la traducción), **OAS** (activa la **ARNasa L**: degrada el ARN viral) y **Mx** (bloquea el ensamblaje). Además sube el **MHC-I** y activa NK.
+B: Uso clínico: **hepatitis víricas**.
+H2: 5.5 IFN tipo II: el IFN-γ activa al macrófago IMP
+X: Relacionado con "Activación de T CD4 en Th1" y "Vías de activación del macrófago".
+B: Lo producen **NK, ILC1, Th1 y CD8**; **IFNGR1/2, JAK1/JAK2, STAT1**.
+B: Cuatro efectos: **activar macrófagos (M1**, NO y ROS), **potenciar la presentación (MHC I y II)**, **reforzar Th1** (e inhibir Th2) y **apoyar la citotoxicidad**.
+H2: 5.6 IFN tipo III: el IFN-λ en las barreras
+B: Receptor **restringido a epitelios**; misma **vía antiviral** que el IFN-I; **defensa de barrera** sin tanta inflamación sistémica.
+H2: 5.7 IL-10: el freno activo de la inflamación
+B: La producen **Treg/Tr1, macrófagos, DC y B**. Receptor **IL-10R1 + IL-10R2**, **JAK1/TYK2**, **STAT3** y **SOCS3**.
+B: Actúa sobre las presentadoras: **baja IL-12, TNF, IL-1, IL-6, MHC-II y coestimulación**; por tanto, menos Th1 y menos daño.
+H2: 5.8 Combinaciones JAK–STAT y frenos intracelulares
+B: IFN-I: JAK1/TYK2, STAT1/2. IFN-γ: JAK1/JAK2, STAT1. **IL-2: JAK1/JAK3, STAT5**. **IL-4: STAT6**. **IL-6: STAT3**. IL-7: STAT5. **IL-12: STAT4**.
+B: Frenos: **SOCS** (retroalimentación negativa inducida por los propios STAT), **fosfatasas** (desfosforilan) y **PIAS** (impiden que STAT se una al ADN).
+
+H1: 6. SUPERFAMILIA DEL TNF
+H2: 6.1 Generalidades
+B: **Ligandos triméricos**, de membrana (tipo II) y solubles. Miembros: TNF-α, LT-α, LT-β, FasL, CD40L, BAFF, APRIL.
+B: No es solo proinflamatoria: **inflamación, supervivencia, cooperación y muerte**.
+B: Receptores con **dominios ricos en cisteína (CRD)**; adaptadores **TRADD, TRAF, FADD**.
+H2: 6.2 Ligandos de membrana y solubles, y sus receptores
+B: **TNF-α** (macrófagos; TNFR1/2): proinflamatorio. **LT-β** (LTβR): organiza los órganos linfoides. **FasL** (Fas): apoptosis. **CD40L** (CD40): cooperación T–B. **BAFF/APRIL** (BAFF-R, TACI, BCMA): supervivencia de B y células plasmáticas.
+H2: 6.3 Los receptores TNF: TNFR1 y TNFR2
+B: **TNFR1**: expresión **amplia**, con **dominio de muerte**. **TNFR2**: expresión **restringida**, **sin dominio de muerte**.
+H2: 6.4 TNFR1 y la decisión entre supervivencia y muerte
+B: **Complejo I** (membrana: **TRADD, RIPK1, TRAF2, cIAP**): **NF-κB y MAPK**: inflamación y supervivencia.
+B: **Complejo II** (citosol: **FADD, procaspasa-8**): **apoptosis**; si la caspasa-8 está bloqueada, **necroptosis** (RIPK1, RIPK3, MLKL).
+H2: 6.5 TNF: la dosis separa la inflamación protectora del daño sistémico
+B: **Baja**: inflamación local (activa el endotelio). **Moderada**: efectos sistémicos (fiebre, fase aguda, médula ósea). **Alta**: **shock séptico** (bajo gasto cardíaco, trombosis y CID, hipotensión, hipoglucemia). **Persistente**: **caquexia**.
+B: **TNF, IL-1 e IL-6 cooperan en los efectos sistémicos.**
+H2: 6.6 Fas–FasL: apoptosis extrínseca de los linfocitos activados IMP
+X: Relacionado con "Vías de la apoptosis" (PT1, PT2).
+B: **FasL trimeriza Fas**; los **dominios de muerte** reclutan **FADD**; los **DED** de FADD reclutan la **procaspasa-8** (complejo **DISC**); la **caspasa-8** activa las caspasas efectoras: **apoptosis**.
+B: Sirve para la **contracción de la respuesta**. Las mutaciones de Fas o FasL producen **síndromes linfoproliferativos**.
+H2: 6.7 CD40L y BAFF/APRIL: el lado cooperativo y trófico de la familia TNF IMP
+X: Relacionado con "Papel de CD40L en la activación del linfocito B" (PT2).
+B: **CD40L** (T CD4/Tfh) sobre **CD40** (B): proliferación, **centro germinal, cambio de isotipo** y maduración.
+B: **BAFF** sobre **BAFF-R**: supervivencia y maduración del B; **BAFF/APRIL** sobre **TACI**: B activado; **APRIL** sobre **BCMA**: supervivencia de las **células plasmáticas**.
+
+H1: 7. FAMILIA DE LA IL-17
+H2: 7.1 Generalidades
+B: **Dímeros** (IL-17A a IL-17F). IL-17A/F los producen **Th17, T γδ e ILC3**; actúan sobre las **células del tejido**, que reclutan **neutrófilos**.
+B: Receptor **IL-17RA/RC**, dominio **SEFIR**, **ACT1** y **TRAF6**. **No usan JAK–STAT.**
+H2: 7.2 Ligandos y receptores
+B: **IL-17A e IL-17F**: Th17 e ILC3, receptor IL-17RA/RC, neutrófilos. **IL-17C**: epitelio. **IL-17E (IL-25)**: epitelio, IL-17RA/RB, **tipo 2**.
+H2: 7.3 La señalización de IL-17A: ACT1 y TRAF6
+B: **Unir** (IL-17RA/RC), **reclutar ACT1** (SEFIR), **organizar TRAF6** (NF-κB, MAPK y estabilización de ARNm) y **expresar** (quimiocinas para neutrófilos, G-CSF, péptidos antimicrobianos).
+B: **Doble cara**: defensa de barrera frente a **Candida y S. aureus**, pero patología si persiste.
+H2: 7.4 Bloquear la IL-17 en clínica
+B: El eje Th17–IL-17 sostiene **psoriasis, artritis psoriásica y espondiloartritis**. **Secukinumab** neutraliza IL-17A; **brodalumab** bloquea IL-17RA. Coste: más **candidiasis**.
+H2: 7.5 IL-25 (IL-17E): misma familia, respuesta tipo 2
+B: Epitelio, IL-17RA/RB, activa **ILC2** (IL-5, IL-13): **helmintos, moco y alergia**.
+
+H1: 8. FAMILIA DE LA IL-1
+H2: 8.1 Generalidades y miembros
+B: Alarminas e inflamación. Receptores con dominios Ig y dominio **TIR**; vía **MyD88–IRAK–TRAF6**.
+B: IL-1α/β sobre **IL-1R1 + IL-1RAcP**; IL-18 sobre IL-18Rα/β; IL-33 sobre **ST2** + IL-1RAcP.
+H2: 8.2 Quién es quién en la familia IL-1
+B: **IL-1α**: alarmina de daño, activa como precursor. **IL-1β**: precursor inducido que necesita **caspasa-1**; fiebre. **IL-18**: precursor constitutivo, caspasa-1; con IL-12 induce **IFN-γ**. **IL-33**: alarmina nuclear, ST2, **tipo 2**. **IL-1Ra**: **antagonista**.
+B: Intensidad: baja, local; moderada, sistémica protectora (fiebre, fase aguda); alta, patológica.
+H2: 8.3 IL-1: de la detección del peligro a la inflamación local y sistémica
+B: Producción **temprana**; inflamación local (endotelio); efecto sistémico (**fiebre**, fase aguda); control por IL-1Ra y señuelos.
+B: **Misma lógica que los TLR** (dominio TIR, MyD88).
+H2: 8.4 El inflamasoma: peligro citosólico, citocinas maduras y piroptosis
+B: **Canónico**: sensor (**NLRP3**, NLRC4, AIM2) + **ASC** + **procaspasa-1**; la **caspasa-1** madura **IL-1β e IL-18** y corta la **gasdermina D**.
+B: **No canónico**: el LPS citosólico activa las **caspasas-4/5** (11 en ratón), que cortan la gasdermina D.
+B: **Salida común**: poros de **gasdermina D**: salida de IL-1β/IL-18 y **piroptosis**.
+B: Pasos: **preparar, ensamblar, perforar y liberar**.
+H2: 8.5 NLRP3: dos señales antes de liberar IL-1β
+B: **Señal 1 (primado)**: TLR, IL-1R o TNFR activan **NF-κB**: se fabrican **pro-IL-1β y NLRP3**.
+B: **Señal 2 (activación)**: **salida de K⁺** (ATP/P2X7, toxinas), **cristales** y rotura lisosomal, **ROS**: se ensambla el inflamasoma.
+B: NLRP3 (pirina) + **ASC/PYCARD** (pirina y CARD) + **caspasa-1** (CARD).
+B: Dos señales = **doble barrera de seguridad**. "**Criopirina**": sus mutaciones causan **CAPS** (urticaria familiar **por frío** con fiebre).
+H2: 8.6 Cómo traduce el receptor de IL-1 la señal hasta el núcleo
+B: IL-1, **IL-1R1 + IL-1RAcP**, **MyD88**, **IRAK4 e IRAK1/2**, **TRAF6** (ubiquitina), **TAK1–TAB**, que activa **IKK (NF-κB)** y **MAPK (AP-1)**: genes inflamatorios.
+H2: 8.7 Regulación de la IL-1: antagonistas y receptores señuelo
+B: **IL-1Ra** (compite por IL-1RI sin reclutar IL-1RAcP; reactante de fase aguda), **IL-1RII** (señuelo sin TIR), **sIL-1RII** (soluble) y **sIL-1RAcP** (cofactor soluble).
+H2: 8.8 Bloquear la IL-1 en clínica
+B: **Anakinra** (IL-1Ra recombinante) y **canakinumab** (anti-IL-1β): **artritis reumatoide**, CAPS, gota.
+
+H1: 9. QUIMIOCINAS Y SUS RECEPTORES
+H2: 9.1 Generalidades
+B: Citocinas **quimioatrayentes**, de **8–12 kDa**, más de 50. **Quimiocinesis** (motilidad) y **quimiotaxis** (dirección).
+B: **Inflamatorias** (inducidas) y **homeostáticas** (constitutivas en estroma y endotelio).
+B: Receptores **GPCR de 7 hélices**: proteína G, PI3K/PLC/GTPasas, polaridad, **integrinas** y migración.
+H2: 9.2 Familias estructurales y nomenclatura
+B: Según las **dos primeras cisteínas**: **CC** (juntas), **CXC** (un aminoácido entre ellas), **CX3C** (tres; **fractalcina**, anclada a membrana por un tallo mucina) y **XC/C** (una cisteína menos).
+B: **L = ligando, R = receptor**: CCL2 y CCR2; **CXCL8 (IL-8)** y **CXCR1/2**.
+H2: 9.3 Los receptores forman una red, no parejas exclusivas
+B: **CCL2/CCR2**: monocitos. **CCL11/CCR3**: eosinófilos. **CXCL8/CXCR1-2: neutrófilos**. **CXCL12/CXCR4**: nichos de la médula. **CX3CL1/CX3CR1**: monocitos, NK, T. **XCL1/XCR1**: cDC1.
+B: Funciones: **quimiocinesis, quimiotaxis, inflamación y homeostasis** (CCL19/21 y CCR7 en la zona T; CXCL13 y CXCR5 en los folículos B).
+H2: 9.4 Los receptores de quimiocinas: GPCR de siete hélices
+B: **Reconocer**, **activar Gi** (el motivo **DRY** participa en el cambio de conformación), **reorganizar** (polaridad, integrinas) y **migrar**.
+H2: 9.5 Inflamación, homeostasis y control del gradiente
+B: Receptores inflamatorios, homeostáticos, **red solapada** y **ACKR** (receptores atípicos: unen quimiocinas sin señalizar y **regulan el gradiente**).
+
+H1: 10. CLASIFICACIÓN FUNCIONAL: LA RED DE CITOCINAS EN ACCIÓN
+H2: 10.1 Inmunidad innata: contener el foco y activar efectores IMP
+X: Relacionado con "¿Cuáles son las principales citoquinas secretadas por los macrófagos?" (PT1, PT2).
+B: **Inflamar** (TNF, IL-1, IL-6), **bloquear virus** (IFN-I), **activar efectores** (IL-12, IL-18, IL-15) y **reclutar** (quimiocinas: CXCL8, CCL2). La **IL-10** pone el freno.
+H2: 10.2 Inmunidad adaptativa: expandir clones y asignar funciones efectoras
+B: **Expandir** (IL-2). **Polarizar**: IL-12 hacia **Th1**, IL-4 hacia **Th2**, TGF-β + IL-6 hacia **Th17**, TGF-β + IL-2 hacia **Treg**. **Ayudar a B** (IL-4, IL-5, IL-13, CD40L). **Ejecutar** (IFN-γ, IL-17, IL-4/5/13).
+H2: 10.3 Hematopoyesis: supervivencia, expansión y compromiso de linaje
+B: **Ampliar precursores** (SCF, IL-3, GM-CSF), **granulocitos** (G-CSF, IL-5), **monocitos** (M-CSF) y **linfoide** (IL-7).
+H2: 10.4 Quimiotaxis: la extravasación del leucocito
+B: **Rodamiento** (selectinas y sialil-Lewis X), **detección** de **CXCL8** por **CXCR1/2**, **adhesión firme** (integrina **LFA-1** con **ICAM-1**), **diapédesis** (**CD31/PECAM-1**) y **migración** por el gradiente.
+IMG: inmunologia/herramientas/fuentes/fig_T13/d62.png | Extravasación del neutrófilo. | 12
+
+H1: 11. CASOS PARA PENSAR Y CIERRE
+H2: 11.1 Durante la gripe, las citocinas explican parte del malestar
+B: **IL-1, TNF e IL-6** pasan a la sangre: **fiebre** (hipotálamo, PGE2), **malestar** (cansancio, somnolencia, anorexia) y **fase aguda** (la **IL-6** hace que el hígado produzca **proteína C reactiva**).
+H2: 11.2 Un pequeño foco cutáneo revela cómo CXCL8 recluta neutrófilos
+B: TNF e IL-1 activan el endotelio; **CXCL8** atrae neutrófilos con **CXCR1/2**; el **pus** son neutrófilos, bacterias y restos de tejido; **solo migran los leucocitos con el receptor adecuado**.
+H2: 11.3 Cierre: una conversación inmunitaria bajo control
+B: **Hablar** (citocinas), **escuchar** (receptor funcional) y **regular** (IL-10, SOCS, antagonistas). Vías: **JAK–STAT, NF-κB, ACT1, GPCR**.

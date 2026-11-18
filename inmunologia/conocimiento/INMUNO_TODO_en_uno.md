@@ -242,6 +242,11 @@ otra cosa. Al final ofrece guardar la explicación completa como archivo
      resumen y (c) una hoja con **todas las preguntas que han caído de ese tema, resueltas con la
      información de esos apuntes** (convocatoria, tipo test/desarrollo y apartado donde está la respuesta).
      La explicación por bloques (reglas 1–8) solo si la pide.
+  24. **Extensión de los apuntes completos: como los de T7 y T9-10** (feedback 2026-11-18, Tema 13: "te has
+     pasado bastante de extensión"; la 1.ª versión tenía 59 páginas y ~11.700 palabras). Objetivo: **unas
+     5.000 palabras (25–35 páginas)** aunque el tema tenga 60+ diapositivas. Frases directas, pocas
+     ampliaciones, 10–15 figuras como mucho, y la nota de "cajas en blanco completadas" una sola vez al
+     principio, no en cada apartado. Antes de entregar, contar palabras (`pdftotext … | wc -w`).
   12. **No narrar las diapositivas ni las figuras.** Nada de "la diapositiva 47 muestra…", "la
      diapositiva 48 es una tabla que…", "en esta figura se ve…", "las tres gráficas de abajo…",
      "arriba a la derecha…". Se explica **el contenido directamente**, como si fuera la clase: el
@@ -280,6 +285,7 @@ otra cosa. Al final ofrece guardar la explicación completa como archivo
 - 2026-09-26 · Tema 4 (1.ª clase): macrófagos y receptores (diap. reales 2–23 de 60) → clases/04-fagocitos-macrofagos-receptores.md
 - 2026-10-02 · Tema 4 (2.ª clase): funciones, M1/M2, inflamación, citoquinas, EGC, péptidos antimicrobianos (diap. reales 41–60) → mismo archivo + inicio del Tema 5 (NK, CAR-T) → clases/05-celulas-nk.md
 - 2026-10-02 · Tema 5 (diap. 31–38: mecanismos efectores, memory-like, NK frente a T, NKT) → clases/05-celulas-nk.md + Tema 6 (diap. 1–21: historia, estructura de la Ig, Fab/Fc, κ/λ) → clases/06-bcr-anticuerpos.md
+- 2026-11-18 · Tema 13 (citocinas, quimiocinas y receptores; 65 diap.; **Prof. Gema Méndez Lagares**, no el profesor del perfil). Sin transcripción: muchas cajas venían en blanco y se completaron con contenido estándar. Apuntes, resumen y preguntas en `inmunologia/apuntes/INMUNO T13*.pdf`; fuentes en `inmunologia/herramientas/fuentes/T13_*.txt`. En el banco no hay pregunta propia de este tema (solo relacionadas: citocinas del macrófago, Th1, Th2, Fas, CD40L, 3 señales).
 - Falta la clase de las diap. 3–30 del Tema 5.
 - Pendiente: transcripción del Tema 3 (Tejidos) y de las diap. reales 44–55 del Tema 2. Del Tema 4, las diap. 24–40 y 43–45 no salen en ninguna transcripción.
 

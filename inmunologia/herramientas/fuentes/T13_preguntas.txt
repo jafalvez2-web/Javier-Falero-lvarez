@@ -1,0 +1,99 @@
+# Fuente de "INMUNO T13 (preguntas de examen).pdf"
+T: TEMA 13 : PREGUNTAS DE EXAMEN RESUELTAS
+N: Fuentes revisadas: exámenes oficiales de enero 2019/20 (E19) y febrero 2020/21 (F21), PREGUNTAS DESARROLLO (DES) y las recopilaciones PREGUNTAS POR TEMAS 1 y 2 (PT1, PT2). En ninguna hay una pregunta dedicada solo a citocinas y quimiocinas, pero varias preguntas que sí han caído se responden, entera o en parte, con este tema; están en el bloque 1. Los exámenes oficiales no traen las preguntas tipo test, así que el bloque 2 son preguntas de práctica que NO han caído.
+
+H1: 1. PREGUNTAS QUE HAN CAÍDO Y SE RESPONDEN CON ESTE TEMA
+H2: 1.1 ¿Cuáles son las principales citoquinas secretadas por los macrófagos?
+X: Ha caído en: PT2 (desarrollo corta); y dentro de "Función de los macrófagos, citocinas que segregan y vías de activación" en PT1 y PT2 (3 veces en total). Las recopilaciones la ponen en el tema de fagocitos (Tema 4).
+N: En los apuntes: 1.4, 6.5, 8.3, 4.7, 4.8, 9.3 y 10.1.
+P: Cuando el macrófago reconoce un microbio con sus PRR, secreta citocinas que inician la inflamación y conectan con la inmunidad adaptativa:
+B: **TNF-α**: activa el **endotelio** (moléculas de adhesión, quimiocinas) y a los leucocitos; a concentración moderada produce fiebre y fase aguda, y en exceso, **shock séptico**.
+B: **IL-1 (IL-1β)**: activa el endotelio; en el hipotálamo produce **fiebre**. La IL-1β se sintetiza como precursor y necesita el **inflamasoma** (caspasa-1) para madurar.
+B: **IL-6**: actúa sobre el **hígado**, que produce **proteínas de fase aguda** (proteína C reactiva); también activa linfocitos y favorece la producción de anticuerpos.
+B: **IL-12**: activa a las **NK** y diferencia los T CD4 en **Th1**, que producen **IFN-γ**, que a su vez activa más al macrófago (bucle).
+B: **Quimiocinas**, sobre todo **CXCL8** (IL-8), que recluta **neutrófilos**, y CCL2, que recluta monocitos.
+B: El macrófago también produce **IL-18** (con la IL-12 induce IFN-γ), **IL-23** y, en su perfil regulador, **IL-10** y TGF-β, que frenan la inflamación.
+N: Para la parte de "vías de activación" (M1 con IFN-γ de Th1; M2 con IL-4 e IL-13 de Th2) usa los apuntes del Tema 4; aquí el IFN-γ y la activación clásica están en 5.5.
+H2: 1.2 Ilustra y describe la activación de células T CD4 en el caso de Th1 y la acción efectora de sus moléculas
+X: Ha caído en: F21 (corta), DES, PT1, PT2 (4–5 veces). Es de las que más se repiten.
+N: En los apuntes: 4.8 (IL-12), 5.5 (IFN-γ), 10.2. La activación por TCR y coestimulación está en el Tema 7.
+P: **Diferenciación**: cuando el T CD4 virgen reconoce el antígeno en una DC (señales 1 y 2), las citocinas presentes deciden en qué se convierte (señal 3). Ante microbios intracelulares, la DC y el macrófago producen **IL-12**, y las NK producen **IFN-γ**.
+B: La **IL-12** se une a **IL-12Rβ1/β2**, activa **TYK2/JAK2** y **STAT4**.
+B: El **IFN-γ** se une a **IFNGR1/2**, activa **JAK1/JAK2** y **STAT1**, que induce **T-bet**.
+B: T-bet y STAT4 activan el gen del IFN-γ y la expresión de la cadena IL-12Rβ2: el T se compromete como **Th1** y se forma un bucle de retroalimentación positiva.
+P: **Acción efectora de sus moléculas**:
+B: **IFN-γ**: **activa al macrófago** (activación clásica, M1: más óxido nítrico y ROS para matar a los microbios fagocitados), **aumenta el MHC I y II** y la presentación, refuerza la diferenciación Th1 e **inhibe la Th2**, y en el linfocito B favorece el cambio a **IgG opsonizantes** y fijadoras de complemento. También apoya la citotoxicidad de CTL y NK.
+B: **CD40L**: el Th1 activa al macrófago también por contacto (CD40L sobre CD40).
+B: **IL-2**: favorece la proliferación de los T (incluidos los CD8).
+B: **TNF y linfotoxina**: activan el endotelio y reclutan leucocitos al foco.
+N: El esquema que se pide se puede hacer con la figura de 4.8 y 5.5 (DC o macrófago con IL-12, T CD4 que pasa a Th1, IFN-γ que vuelve al macrófago).
+H2: 1.3 Definición de los linfocitos T CD4 Th2, sus moléculas efectoras y funciones
+X: Ha caído en: E19 (corta), PT1, PT2 (3 veces).
+N: En los apuntes: 2.3, 5.8, 7.5, 8.2 y 10.2. La parte de definición está más en el tema de subpoblaciones T.
+P: Los **Th2** son linfocitos T CD4 que se diferencian cuando el T virgen se activa en presencia de **IL-4**. La IL-4 activa **JAK1/JAK3 y STAT6**, que induce **GATA-3**, el factor de transcripción del linaje Th2. Las señales del epitelio como la **IL-25 (IL-17E)** y la **IL-33** (que actúa por ST2) favorecen el inicio de la respuesta tipo 2 activando a las **ILC2**.
+B: **IL-4**: cambio de isotipo a **IgE** (junto con IL-5, por **sinergia**); además favorece su propio linaje. El **IFN-γ** la **antagoniza**.
+B: **IL-5**: activa a los **eosinófilos**.
+B: **IL-13**: producción de **moco** y reparación (activación alternativa del macrófago, M2).
+P: **Funciones**: defensa frente a **helmintos** (IgE, eosinófilos, mastocitos, moco) y, si se descontrola, **alergia**.
+H2: 1.4 Vías de la apoptosis (Fas/FasL)
+X: Ha caído en: PT1, PT2 (2 veces), junto con la vía de perforina y granzimas.
+N: En los apuntes: 6.6 y 6.4. La vía de perforina y granzimas está en los temas de NK y CTL.
+P: La **vía extrínseca** se inicia en un receptor de muerte de la superficie, Fas (CD95), de la familia TNFR:
+B: El **FasL** trimérico (en un T activado o un CTL) se une a **Fas** y lo trimeriza.
+B: Los **dominios de muerte** de Fas reclutan al adaptador **FADD**.
+B: Los **dominios efectores de muerte (DED)** de FADD reclutan a la **procaspasa-8**, formando el **DISC**.
+B: La **caspasa-8** se activa y activa a las **caspasas efectoras** (caspasa-3): **apoptosis**.
+P: Función: **contracción de la respuesta** (eliminar los linfocitos activados cuando ya no hacen falta) y muerte de células diana por los CTL. Las mutaciones de Fas o FasL producen **síndromes linfoproliferativos**. El TNFR1 también puede inducir apoptosis por el **complejo II** (FADD y procaspasa-8).
+H2: 1.5 Papel de CD40L en la activación del linfocito B
+X: Ha caído en: PT2 (1 vez).
+N: En los apuntes: 2.2 y 6.7.
+P: El **CD40L (CD154)** es un ligando de la familia TNF que expresan los **T CD4 activados**, sobre todo los **Tfh**. Actúa **por contacto** sobre **CD40** del linfocito B que ha reconocido el antígeno y se lo presenta al T. Induce **proliferación**, formación del **centro germinal**, **cambio de isotipo** y **maduración de la afinidad**; el T aporta además citocinas (IL-4, IL-5, IL-6). Sin CD40L no hay cambio de isotipo: solo se produce IgM (síndrome de hiper-IgM ligado al X, ampliación). Las respuestas a antígenos timo-independientes no lo necesitan.
+H2: 1.6 Las 3 señales de las APC para la expansión clonal y la diferenciación del T
+X: Ha caído en: PT1, PT2 (2 veces).
+N: En los apuntes: 4.5 (IL-2) y 10.2 (polarizar). Las señales 1 y 2 (TCR y coestimulación) están en el Tema 7.
+P: **Señal 1**: reconocimiento del péptido-MHC por el TCR. **Señal 2**: coestimulación (B7 sobre CD28). **Señal 3**: las **citocinas** del ambiente, que deciden la diferenciación: **IL-12** hacia **Th1** (STAT4), **IL-4** hacia **Th2** (STAT6), **TGF-β con IL-6** (o IL-21, IL-23) hacia **Th17** (STAT3) y **TGF-β con IL-2** hacia **Treg**.
+P: La **expansión clonal** depende de la **IL-2**: el T activado la produce y expresa **CD25**, que forma el receptor de **alta afinidad (αβγc)**; la señal **JAK1/JAK3 y STAT5** impulsa la proliferación y la supervivencia de forma **autocrina**.
+
+H1: 2. PREGUNTAS DE PRÁCTICA (NO HAN CAÍDO)
+H2: 2.1 Preguntas de desarrollo
+P: **a) Describe la vía JAK–STAT y cómo se regula.** (Apuntes 4.3 y 5.8.)
+B: La citocina **aproxima** las cadenas del receptor; las **JAK** asociadas se fosforilan entre sí y fosforilan el receptor; los **STAT** se unen por SH2, se fosforilan, **dimerizan** y entran al núcleo, donde activan la transcripción.
+B: Regulación: **SOCS** (inducidos por los propios STAT; retroalimentación negativa), **fosfatasas** (desfosforilan JAK y STAT) y **PIAS** (impiden la unión de STAT al ADN).
+P: **b) Propiedades de las citocinas, con un ejemplo de cada una.** (Apuntes 2.3.) Pleiotropismo (IL-4 sobre B, timocitos y mastocitos), redundancia (IL-2, IL-4, IL-5 sobre la proliferación del B), sinergia (IL-4 + IL-5 para la IgE), antagonismo (IFN-γ frente a IL-4) y cascada (IFN-γ, macrófago, IL-12, Th).
+P: **c) El inflamasoma NLRP3: componentes, señales de activación y consecuencias.** (Apuntes 8.4 y 8.5.)
+B: Componentes: **NLRP3** (sensor) + **ASC** (adaptador) + **procaspasa-1**.
+B: **Señal 1** (primado por TLR, IL-1R, TNFR y NF-κB): síntesis de pro-IL-1β y NLRP3. **Señal 2**: salida de K⁺, cristales, ROS: ensamblaje.
+B: Consecuencias: la **caspasa-1** madura **IL-1β e IL-18** y corta la **gasdermina D**, que forma poros: liberación de citocinas y **piroptosis**.
+P: **d) Quimiocinas: estructura, clasificación, receptores y papel en la extravasación del neutrófilo.** (Apuntes 9 y 10.4.) Proteínas de 8–12 kDa con cisteínas conservadas; familias **CC, CXC, CX3C y XC** según las dos primeras cisteínas; receptores **GPCR** de 7 hélices; extravasación: **rodamiento** (selectinas), **activación** por **CXCL8–CXCR1/2**, **adhesión firme** (**LFA-1–ICAM-1**), **diapédesis** (CD31) y migración por el gradiente.
+P: **e) Receptor de la IL-2 y X-SCID.** (Apuntes 4.5 y 4.6.) Cadenas α (CD25), β y γc; afinidad baja, intermedia y alta; JAK1/JAK3 y STAT5; la γc es compartida por IL-2, -4, -7, -9, -15 y -21; su defecto (X-SCID) impide el desarrollo de T (IL-7) y NK (IL-15).
+H2: 2.2 Preguntas tipo test
+P: **1. ¿Qué propiedad describe que IL-2, IL-4 e IL-5 induzcan todas la proliferación del linfocito B?** a) Pleiotropismo. b) Redundancia. c) Sinergia. d) Antagonismo. e) Cascada.
+B: **Respuesta: b.** Varias citocinas distintas con el mismo efecto es redundancia. El pleiotropismo es al revés: una citocina con efectos distintos en células distintas.
+P: **2. Los receptores de citocinas de clase I se caracterizan por:** a) Tener actividad tirosina quinasa propia. b) Tener el motivo WSXWS y usar JAK–STAT. c) Tener dominio TIR. d) Ser GPCR de siete hélices. e) Tener dominio de muerte.
+B: **Respuesta: b.** No tienen actividad quinasa propia (dependen de JAK); el TIR es de la familia IL-1R, los GPCR son de quimiocinas y el dominio de muerte es del TNFR1.
+P: **3. ¿Qué cadena comparten los receptores de IL-2, IL-4, IL-7, IL-9, IL-15 e IL-21?** a) gp130. b) βc. c) γc. d) IL-2Rα. e) IL-1RAcP.
+B: **Respuesta: c.** La γc (CD132); su defecto causa la X-SCID. La βc es de IL-3, IL-5 y GM-CSF; la gp130, de la familia IL-6.
+P: **4. El receptor de IL-2 de alta afinidad está formado por:** a) Solo la cadena α. b) Las cadenas β y γc. c) Las cadenas α, β y γc. d) Las cadenas α y γc. e) IL-2Rα y gp130.
+B: **Respuesta: c.** La α sola es de baja afinidad y no señaliza; βγc es de afinidad intermedia (NK, T en reposo).
+P: **5. El complejo ISGF3, característico de la señalización del IFN tipo I, está formado por:** a) STAT1 + STAT1. b) STAT1 + STAT2 + IRF9. c) STAT3 + SOCS3. d) STAT4 + T-bet. e) STAT5 + STAT6.
+B: **Respuesta: b.** El homodímero de STAT1 (GAF) es el del IFN-γ, que se une a GAS; ISGF3 se une a ISRE.
+P: **6. ¿Cuál de estas proteínas inducidas por interferón degrada el ARN vírico?** a) PKR. b) GTPasas Mx. c) ARNasa L (activada por OAS). d) Caspasa-1. e) SOCS1.
+B: **Respuesta: c.** La PKR bloquea la traducción (fosforila eIF2α) y las Mx bloquean el ensamblaje del virión.
+P: **7. Sobre la IL-10, es correcto que:** a) Activa la producción de IL-12 en las DC. b) Usa STAT4. c) Reduce el MHC-II y la coestimulación de las presentadoras. d) Usa un receptor de clase I con WSXWS. e) La producen sobre todo los Th1.
+B: **Respuesta: c.** La IL-10 usa un receptor de clase II, STAT3 y SOCS3, baja la IL-12, y la producen sobre todo Treg, macrófagos y DC.
+P: **8. ¿Qué diferencia a TNFR1 de TNFR2?** a) Solo TNFR2 tiene dominio de muerte. b) Solo TNFR1 tiene dominio de muerte y expresión amplia. c) TNFR1 usa JAK–STAT. d) TNFR2 se expresa en todas las células. e) Solo TNFR2 une TNF soluble.
+B: **Respuesta: b.** Por eso solo TNFR1 puede formar el complejo II (FADD, procaspasa-8) y llevar a la apoptosis.
+P: **9. ¿Qué miembro de la familia IL-1 es un precursor inducido que necesita la caspasa-1 para ser activo?** a) IL-1α. b) IL-1β. c) IL-33. d) IL-1Ra. e) IL-17A.
+B: **Respuesta: b.** La IL-1α ya es activa como precursor; la IL-18 también necesita caspasa-1, pero es un precursor constitutivo.
+P: **10. La segunda señal del inflamasoma NLRP3 es, típicamente:** a) La unión de LPS a TLR4. b) La salida de K⁺ de la célula. c) La activación de NF-κB. d) La síntesis de pro-IL-1β. e) La unión de IL-1 a su receptor.
+B: **Respuesta: b.** TLR4, NF-κB y la síntesis de pro-IL-1β forman la señal 1 (primado).
+P: **11. La vía de señalización de la IL-17A se caracteriza por:** a) JAK1/JAK3 y STAT5. b) MyD88 e IRAK. c) Dominios SEFIR, ACT1 y TRAF6. d) Proteína Gi. e) TRADD y FADD.
+B: **Respuesta: c.** MyD88/IRAK es la vía de la IL-1; Gi, la de las quimiocinas.
+P: **12. En las quimiocinas CXC:** a) Las dos primeras cisteínas están juntas. b) Las dos primeras cisteínas están separadas por un aminoácido. c) Hay tres aminoácidos entre las cisteínas. d) Falta una cisteína. e) Están ancladas a la membrana por un tallo mucina.
+B: **Respuesta: b.** Juntas es CC; tres aminoácidos y tallo mucina es CX3C (fractalcina); una cisteína menos es XC.
+P: **13. ¿Qué par ligando–receptor recluta neutrófilos al foco inflamatorio?** a) CCL19–CCR7. b) CXCL13–CXCR5. c) CXCL8–CXCR1/2. d) CXCL12–CXCR4. e) XCL1–XCR1.
+B: **Respuesta: c.** CCL19–CCR7 y CXCL13–CXCR5 son homeostáticas (ganglio); CXCL12–CXCR4, nichos de la médula; XCL1–XCR1, DC cDC1.
+P: **14. En la extravasación del neutrófilo, la adhesión firme se debe a:** a) E-selectina y sialil-Lewis X. b) LFA-1 e ICAM-1. c) CD31 (PECAM-1). d) CXCL8 y CXCR1. e) TNF y TNFR1.
+B: **Respuesta: b.** Las selectinas hacen el rodamiento, CD31 la diapédesis y CXCL8 la activación de las integrinas.
+P: **15. La trans-señalización de la IL-6:** a) Requiere IL-6R de membrana. b) Usa IL-6R soluble y activa gp130 en células sin IL-6R. c) Es antiinflamatoria. d) Se potencia con sgp130. e) Usa STAT4.
+B: **Respuesta: b.** La clásica usa IL-6R de membrana y es antiinflamatoria; la sgp130 bloquea la trans-señalización; la IL-6 usa STAT3.
