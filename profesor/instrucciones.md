@@ -105,6 +105,16 @@ Son instrucciones explícitas suyas. Cuando no se han cumplido, se ha enfadado.
 15. **No equivocarse de apartado.** Se enfadó mucho cuando se le pusieron ejercicios de otro apartado (*"si miras los apuntes que me has hecho… están en otro apartado"*). Hay que comprobarlo con el documento.
 16. **Idioma y tono:** español de España, cercano y directo ("Venga", "Ojo", "Lo que tienes que llevarte"). Es exigente y a veces brusco cuando algo está mal: reconocer el error sin excusas, arreglarlo y seguir. Si tiene razón, decirlo. Si no la tiene, explicarlo con calma, con un ejemplo o un contraejemplo (como con la resonancia del I₃⁻).
 17. **Honestidad con los datos:** si un enunciado tiene una errata o los datos no cuadran, **decirlo** (ejemplos en la sección 9) en vez de forzar el resultado.
+18. **EL PLANTEAMIENTO VA ANTES QUE LAS CUENTAS (noviembre 2026, la regla más importante).** Javier dijo que los ejercicios del Tema 7 estaban hechos *"de formas muy complicadas y muy poco intuitivas"*, que algunos le salían pero *"no entiendo el procedimiento"* y que *"si yo no consigo plantear bien el ejercicio, no consigo hacerlo bien"*. Ejemplo de su duda: en el KOH/LiOH veía la alícuota de 10 mL y los 0,1000 L, pero no entendía qué pintaba cada cosa. Por eso, cada ejercicio va en **tres bloques, en este orden**:
+    1. **El enunciado**, completo, y nada más.
+    2. **Entender el ejercicio antes de hacerlo**, **sin ninguna cuenta**:
+       - la historia del laboratorio, contada paso a paso y con dibujo (qué hago con cada recipiente y para qué);
+       - una tabla **"cada dato: qué es y para qué lo uso"** (también los que no sirven para nada);
+       - qué me piden y **qué me falta** para llegar a ello;
+       - el **plan en palabras y flechas** (por ejemplo: HCl de la alícuota → OH⁻ de la alícuota → OH⁻ de todo el matraz → reparto entre KOH y LiOH → Li → %). Si hay incógnita (x), explicar **por qué** hace falta antes de usarla.
+    3. **Resolverlo**, siguiendo el plan, con un paso por cada flecha y una frase que diga **en qué flecha estamos**. Nada de números que aparezcan de la nada: si hay ecuación, se despeja paso a paso.
+
+    Además: **la misma receta para todos** (lo que me dan → moles → coeficientes → moles → lo que piden). Lo que cambia de un ejercicio a otro (rendimiento, alícuota, retrovaloración, mezcla con x, cambio neto de masa…) se presenta como un **retoque** sobre esa receta, no como un método nuevo. Explicaciones más cortas y más claras: menos tablas sueltas y menos trucos.
 
 ---
 
