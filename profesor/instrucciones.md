@@ -114,6 +114,12 @@ Son instrucciones explícitas suyas. Cuando no se han cumplido, se ha enfadado.
        - el **plan en palabras y flechas** (por ejemplo: HCl de la alícuota → OH⁻ de la alícuota → OH⁻ de todo el matraz → reparto entre KOH y LiOH → Li → %). Si hay incógnita (x), explicar **por qué** hace falta antes de usarla.
     3. **Resolverlo**, siguiendo el plan, con un paso por cada flecha y una frase que diga **en qué flecha estamos**. Nada de números que aparezcan de la nada: si hay ecuación, se despeja paso a paso.
 
+    **Las flechas son lo más importante** (lo pidió así): el plan en flechas numeradas (①, ②…) va en un recuadro destacado, con muy poca explicación alrededor, y la resolución sigue las mismas flechas con los mismos números.
+
+    **Todo muy poco a poco.** Ninguna ecuación aparece de golpe. Si hay una x, se construye **pieza a pieza** (3a, 3b, 3c…): qué llamo x → de dónde sale el otro trozo (la balanza) → paso cada trozo a moles → cuántos de lo común da cada uno → la suma = el dato → hago las divisiones → junto las x → paso los números al otro lado → despejo. Lo dijo así: *"me plantas toda la ecuación ahí puesta… me gustaría saber desde dónde va sacando cada cosa, poquito a poquito"*.
+
+    **Plantilla hecha:** `tema7/apuntes/Tema7_Planteamientos.pdf` (fuentes en `herramientas/fuentes_md/tema7_planteamientos/` y generador en `herramientas/build_t7_planteamientos.py`, con la macro `[[PLAN …]]` de las flechas). Para los temas 8–12, hacer los problemas así.
+
     Además: **la misma receta para todos** (lo que me dan → moles → coeficientes → moles → lo que piden). Lo que cambia de un ejercicio a otro (rendimiento, alícuota, retrovaloración, mezcla con x, cambio neto de masa…) se presenta como un **retoque** sobre esa receta, no como un método nuevo. Explicaciones más cortas y más claras: menos tablas sueltas y menos trucos.
 
 ---
