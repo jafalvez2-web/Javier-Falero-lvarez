@@ -215,8 +215,8 @@ def caja(x, y, w, h, lineas, color='#7209b9', fondo='#f6effb'):
     o = [f"<rect x='{x}' y='{y}' width='{w}' height='{h}' rx='7' fill='{fondo}' stroke='{color}' stroke-width='1.4'/>"]
     n = len(lineas)
     for i, l in enumerate(lineas):
-        o.append(texto(x + w / 2, y + h / 2 - (n - 1) * 7.5 + i * 15 + 4, l, 11 if i == 0 else 10.5,
-                       'bold' if i == 0 else 'normal', color if i == 0 else '#333'))
+        o.append(texto(x + w / 2, y + h / 2 - (n - 1) * 8.5 + i * 17 + 4.5, l, 12.5 if i == 0 else 12,
+                       'bold', color if i == 0 else '#1d1d1d'))
     return ''.join(o)
 
 
@@ -293,6 +293,16 @@ def draw2(panels, arrows=(), bottom=None):
     alto = any(p.get('gas') or p.get('bar') for p in panels)
     base = 300 if hay_bureta else (232 if alto else 200)
     o = []
+    arrows = list(arrows)
+    extra = []
+    for i, a in enumerate(arrows):
+        if a and '→' in a and '+' in a:
+            r = a.replace('|', ' ').replace('→ ', '→ ').strip()
+            if r.replace(' ', '') not in (bottom or '').replace(' ', ''):
+                extra.append(r)
+            arrows[i] = 'reacciona'
+    if extra:
+        bottom = '|'.join(([bottom.split('|')[0]] if bottom else []) + extra + (bottom.split('|')[1:] if bottom else []))
     for i, p in enumerate(panels):
         cx = 10 + pw / 2 + i * pw
         t = p.get('title', '')
@@ -358,7 +368,7 @@ def draw2(panels, arrows=(), bottom=None):
     y = base + 34 + 14 * nb + (12 if any(p.get('solid') and p.get('kind', 'beaker') != 'balance' for p in panels) else 0)
     if bottom:
         bl = bottom.split('|')
-        bh = 18 + 16 * len(bl)
+        bh = 20 + 18 * len(bl)
         o.append(caja(30, y, W - 60, bh, bl))
         y += bh + 14
     o.append(leyenda(W - 330, y + 2))

@@ -124,6 +124,8 @@ Son instrucciones explícitas suyas. Cuando no se han cumplido, se ha enfadado.
 
     **Dibujos de laboratorio, estilo nuevo (lo pidió con un boceto suyo del P7-3.5):** material de verdad (balanza digital con vidrio de reloj, pipeta, erlenmeyer, vaso, bureta con llave, gota y soporte, crisol con mechero), con los iones dentro y viñetas numeradas. Código: `herramientas/lab2.py` (piezas y `draw2`, que traduce las fichas de `labspecs7.py`) y `herramientas/labspecs7_v2.py` (dibujos hechos a mano, como el P7-3.5, y correcciones de datos).
 
+    **Reacciones bien visibles** (lo pidió: *"que se vean bien las reacciones químicas… muchas veces las pones medio escondidas"*): nunca metidas en un párrafo con "·". Cada reacción va en su recuadro, una por línea y en letra grande (`.reac` en `build_t7_planteamientos.py`), con las notas como "(1 : 1)" debajo, en pequeño. En los dibujos, las reacciones van completas en el recuadro de abajo, en letra grande, nunca en letra pequeña sobre una flecha.
+
     **Plantilla hecha:** `tema7/apuntes/Tema7_Planteamientos.pdf` (fuentes en `herramientas/fuentes_md/tema7_planteamientos/` y generador en `herramientas/build_t7_planteamientos.py`, con la macro `[[PLAN …]]` de las flechas). Para los temas 8–12, hacer los problemas así.
 
     Además: **la misma receta para todos** (lo que me dan → moles → coeficientes → moles → lo que piden). Lo que cambia de un ejercicio a otro (rendimiento, alícuota, retrovaloración, mezcla con x, cambio neto de masa…) se presenta como un **retoque** sobre esa receta, no como un método nuevo. Explicaciones más cortas y más claras: menos tablas sueltas y menos trucos.

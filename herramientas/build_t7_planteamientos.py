@@ -41,6 +41,11 @@ build2.CSS += """
 .paso { font-weight: 700; color: #7209b9; margin: 8px 0 0; page-break-after: avoid; }
 .res { border: 1.5px solid #09b909; background: #f2fbf2; border-radius: 4px; padding: 3px 10px; margin: 8px 0 4px; font-weight: 700; }
 .tipo { font-size: 9pt; color: #555; margin: 6px 0 2px; }
+.reac { margin: 4px 0 10px; page-break-inside: avoid; }
+.reac .eq { display: block; background: #fff6dc; border-left: 5px solid #e0a100; border-radius: 4px; padding: 5px 12px; margin: 4px 0;
+            font-size: 11.8pt; font-weight: 700; color: #1d1d1d; letter-spacing: .2px; }
+.reac .nt { font-size: 9.2pt; color: #555; font-weight: 400; margin-left: 10px; }
+.rx { background: #fff1c9; border-radius: 3px; padding: 0 4px; font-weight: 700; white-space: nowrap; }
 """
 
 ARROW = re.compile(r'\s*--\[(.*?)\]-->\s*')
@@ -92,6 +97,61 @@ PRE_END = re.compile(r'^(\*\*Paso|\$\$\\text\{Paso\}|\*\*Na₂CO₃:\*\*|\*\*Sul
 TAIL = re.compile(r'^(\*\*Lo que tienes que llevarte|\*\*Cifras|\*\*Resumen|\*\*Comprobación|\*\*Trampa|\*\*Por qué es buen|\*\*Neutra)', re.M)
 
 
+def _es_ec(s):
+    return '→' in s and '+' in s
+
+
+def _b(s):
+    return re.sub(r'\*\*(.+?)\*\*', r'<b>\1</b>', html.escape(s, quote=False))
+
+
+def _caja_reac(items):
+    out = []
+    for it in items:
+        segs = [s for s in re.findall(r'\*\*(.+?)\*\*', it) if _es_ec(s)]
+        if segs:
+            resto = re.sub(r'\*\*(.+?)\*\*', lambda m: '' if _es_ec(m.group(1)) else m.group(0), it).strip(' ·.:')
+            for s in segs:
+                out.append(f'<div class="eq">{html.escape(s, quote=False)}</div>')
+            if resto and resto not in ('→',):
+                out.append(f'<div class="nt">{_b(resto)}</div>')
+        elif _es_ec(it):
+            m = re.match(r'^(.*?)\s*(\((?:[^()]|\([^()]*\))*\))?\s*[.]?$', it)
+            ec, nota = (m.group(1), m.group(2)) if m else (it, None)
+            out.append(f'<div class="eq">{_b(ec).replace("<b>", "").replace("</b>", "")}</div>')
+            if nota:
+                out.append(f'<div class="nt">{_b(nota)}</div>')
+        else:
+            out.append(f'<div class="nt">{_b(it)}</div>')
+    return '<div class="reac">' + ''.join(out) + '</div>'
+
+
+def reacciones(text):
+    """Saca las reacciones de los párrafos y las pone en recuadros, una por línea."""
+    out = []
+    lab = re.compile(r'^(\*\*(?:Reacci[oó]n(?:es)?(?: redox)?|Neutra|Reacción neutra)\*\*(?:\s*\([^)]*(?:\([^)]*\)[^)]*)*\))?:?|\*\*(?:Reacci[oó]n(?:es)?(?: redox)?|Neutra)[^*]*:\*\*)\s*(.*)$')
+    for line in text.split('\n'):
+        s = line.rstrip()
+        m = lab.match(s)
+        if m and m.group(2) and '→' in m.group(2):
+            items = [i.strip() for i in m.group(2).split(' · ') if i.strip()]
+            out += [m.group(1).rstrip(':') + ':', '', _caja_reac(items), '']
+            continue
+        m2 = re.match(r'^\s*\*\*([^*]+)\*\*\s*(→.*)?$', s)
+        if m2 and _es_ec(m2.group(1)) and not s.lstrip().startswith('-'):
+            out += ['', _caja_reac([s.strip()]), '']
+            continue
+        m3 = re.match(r'^- \*\*([^*]+)\*\*(.*)$', s)
+        if m3 and _es_ec(m3.group(1)):
+            out += ['', _caja_reac([s[2:].strip()]), '']
+            continue
+        # resto: resalto las ecuaciones en negrita dentro del texto
+        if '$$' not in s and not s.lstrip().startswith(('<', '|', '[[')):
+            s = re.sub(r'\*\*([^*]+)\*\*', lambda mm: f'<span class="rx">{html.escape(mm.group(1), quote=False)}</span>' if _es_ec(mm.group(1)) else mm.group(0), s)
+        out.append(s)
+    return '\n'.join(out)
+
+
 def main():
     base = open(BASE, encoding='utf-8').read()
     # dibujos de laboratorio con el estilo nuevo (lab2.py / labspecs7_v2.py)
@@ -138,6 +198,7 @@ def main():
     k = base.index('<div class="newpage"></div>\n\n## 1.')
     base = base[:k] + intro + '\n\n' + base[k:]
 
+    base = reacciones(base)
     text = re.sub(r'\[\[PLAN\n(.*?)\n\]\]', lambda m: plan_html(m.group(1)), base, flags=re.S)
     text = re.sub(r'^\*\*([①-⑳][^*]*)\*\*(.*)$',
                   lambda m: f'<p class="paso">{m.group(1)}<span style="font-weight:400;color:#111">{m.group(2)}</span></p>', text, flags=re.M)

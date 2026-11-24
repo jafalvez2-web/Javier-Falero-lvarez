@@ -24,10 +24,11 @@ def p7_3_5():
     o.append(erlenmeyer(560, 262, 120, 100, 'acido', .5, iones=[('H⁺', 'x'), ('X⁺', 'p'), ('SO₄²⁻', 'e')]))
     o.append(rotulo(560, 282, ['El OH⁻ neutraliza', 'solo el H⁺ que sobra'], 10.5))
     # idea
-    o.append(caja(60, 318, 580, 46, ['mol de X₂CO₃ = mol de H₂SO₄ añadidos − mol de H₂SO₄ que sobran',
-                                     'X₂CO₃ + H₂SO₄ → X₂SO₄ + H₂O + CO₂ (1 : 1) · H₂SO₄ + 2 NaOH → Na₂SO₄ + 2 H₂O']))
-    o.append(leyenda(390, 380))
-    return svg(700, 392, ''.join(o))
+    o.append(caja(50, 312, 600, 76, ['mol de X₂CO₃ = mol de H₂SO₄ añadidos − mol de H₂SO₄ que sobran',
+                                     'X₂CO₃ + H₂SO₄ → X₂SO₄ + H₂O + CO₂   (1 : 1)',
+                                     'H₂SO₄ + 2 NaOH → Na₂SO₄ + 2 H₂O']))
+    o.append(leyenda(390, 404))
+    return svg(700, 416, ''.join(o))
 
 
 D['P7-3.5'] = p7_3_5
@@ -41,6 +42,16 @@ SPEC['P7-6.3'] = ([{'title': '1. Sangre + oxalato', 'ions': [('Ca²⁺', 'r'), (
                   ['filtro', ''], 'Camino: Ca²⁺ → CaC₂O₄ → H₂C₂O₄ → gasta MnO₄⁻|2 MnO₄⁻ por cada 5 oxálicos → mol de Ca → μg/mL')
 
 
+# reacciones de las flechas antiguas que estaban a medias (pasan completas al recuadro)
+COMPLETA = {
+    'metal + H⁺ →|catión + H₂': 'reacciona',
+    'CaCO₃ + 2 HCl →': 'CaCO₃ + 2 HCl → CaCl₂ + H₂O + CO₂',
+    'XCO₃ + 2 HCl →': 'XCO₃ + 2 HCl → XCl₂ + H₂O + CO₂',
+    'Sn + 4 HNO₃ →': 'Sn + 4 HNO₃ → SnO₂ + 4 NO₂ + 2 H₂O',
+    'MnO₂ + H₂C₂O₄ →': 'MnO₂ + H₂C₂O₄ + 2 H⁺ → Mn²⁺ + 2 CO₂ + 2 H₂O',
+}
+
+
 def todos():
     """id -> SVG de todos los dibujos del Tema 7 en el estilo nuevo"""
     import labspecs7
@@ -49,5 +60,7 @@ def todos():
         if k in D:
             out[k] = D[k]()
         else:
-            out[k] = draw2(*SPEC.get(k, spec))
+            pn, ar, bt = SPEC.get(k, spec)
+            ar = [COMPLETA.get(a, a) for a in ar]
+            out[k] = draw2(pn, ar, bt)
     return out
