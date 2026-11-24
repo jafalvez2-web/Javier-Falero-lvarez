@@ -118,8 +118,9 @@ def vaso(x, y, w=100, h=110, liquido='agua', nivel=.6, iones=(), solido=None, ga
         o.append(f"<path d='M{x-w*.3} {y-1} Q{x} {y-18} {x+w*.3} {y-1} Z' fill='#f3f1ea' stroke='#8d8a80'/>")
         o.append(texto(x, y + 13, solido, 9.5, 'bold', '#5c5a52'))
     pos = [(-.25, .3), (.22, .3), (0, .62), (-.28, .78), (.28, .72), (0, .1)]
+    zt = min(ly, y - 62)
     for (t, rol), (fx, fy) in zip(iones, pos):
-        o.append(ion(x + fx * w, ly + (y - 12 - ly) * fy + 6, t, rol))
+        o.append(ion(x + fx * w, zt + (y - 12 - zt) * fy + 6, t, rol))
     if gas:
         o.append(burbujas(x, ly - 2, 5, 40, gas))
     if etiqueta:
@@ -237,3 +238,128 @@ def svg(w, h, cuerpo):
             "<defs><marker id='pta' viewBox='0 0 10 10' refX='8' refY='5' markerWidth='7' markerHeight='7' orient='auto-start-reverse'>"
             "<path d='M0 0 L10 5 L0 10 z' fill='#7209b9'/></marker></defs>"
             f"<rect width='{w}' height='{h}' fill='white'/>{cuerpo}</svg>")
+
+
+def mechero(x, y):
+    """mechero Bunsen: x centro, y = base"""
+    return (f"<rect x='{x-16}' y='{y-6}' width='32' height='6' rx='2' fill='#7d868e'/>"
+            f"<rect x='{x-5}' y='{y-34}' width='10' height='28' fill='#a7b0b8' stroke='{GLASS}'/>"
+            f"<path d='M{x-6} {y-36} Q{x} {y-66} {x+6} {y-36} Z' fill='#9cc3ee' stroke='#4f86c2'/>"
+            f"<path d='M{x-3} {y-37} Q{x} {y-54} {x+3} {y-37} Z' fill='#f5b041'/>")
+
+
+def crisol(x, y, solido=None):
+    """crisol sobre triángulo y trípode, con mechero debajo. y = base del mechero"""
+    cy = y - 80
+    o = [f"<line x1='{x-34}' y1='{cy+12}' x2='{x-26}' y2='{y}' stroke='#7d868e' stroke-width='2.5'/>",
+         f"<line x1='{x+34}' y1='{cy+12}' x2='{x+26}' y2='{y}' stroke='#7d868e' stroke-width='2.5'/>",
+         f"<line x1='{x-40}' y1='{cy+12}' x2='{x+40}' y2='{cy+12}' stroke='#7d868e' stroke-width='3'/>",
+         f"<path d='M{x-24} {cy-20} L{x-16} {cy+14} H{x+16} L{x+24} {cy-20} Z' fill='#f4f1ea' stroke='{GLASS}' stroke-width='1.6'/>",
+         f"<path d='M{x-15} {cy+10} Q{x} {cy-4} {x+15} {cy+10} Z' fill='#e8e4d8' stroke='#8d8a80'/>",
+         mechero(x, y)]
+    if solido:
+        o.append(texto(x, cy - 28, solido, 10, 'bold', '#5c5a52'))
+    return ''.join(o)
+
+
+def barra(x, ytop, h, txt, recubierta=False):
+    o = []
+    if recubierta:
+        o.append(f"<rect x='{x-17}' y='{ytop+h*.45}' width='34' height='{h*.55}' rx='3' fill='#d9d9d9' stroke='#8f8f8f'/>")
+        for i in range(6):
+            o.append(f"<circle cx='{x-13+(i%3)*13}' cy='{ytop+h*.55+(i//3)*h*.22}' r='2' fill='#b8b8b8'/>")
+    o.append(f"<rect x='{x-12}' y='{ytop}' width='24' height='{h}' rx='2' fill='#9a9893' stroke='#5F5E5A'/>")
+    o.append(f"<line x1='{x-6}' y1='{ytop+4}' x2='{x-6}' y2='{ytop+h-4}' stroke='white' stroke-width='2' opacity='.5'/>")
+    o.append(texto(x, ytop - 6, txt, 10.5, 'bold', '#444'))
+    return ''.join(o)
+
+
+# --------- traductor de los dibujos antiguos (labspecs7) al estilo nuevo ---------
+OLDCOL = {'#FFF6E8': 'acido', '#DCEBFA': 'base'}
+
+
+def _liq(p):
+    c = p.get('color')
+    if c:
+        return OLDCOL.get(c, c)
+    return 'agua'
+
+
+def draw2(panels, arrows=(), bottom=None):
+    n = len(panels)
+    W = 700
+    pw = (W - 20) / n
+    hay_bureta = any(p.get('burette') for p in panels)
+    alto = any(p.get('gas') or p.get('bar') for p in panels)
+    base = 300 if hay_bureta else (232 if alto else 200)
+    o = []
+    for i, p in enumerate(panels):
+        cx = 10 + pw / 2 + i * pw
+        t = p.get('title', '')
+        num, _, tt = t.partition('. ')
+        if num.isdigit():
+            o.append(numero(cx - pw / 2 + 14, 22, num, ''))
+            o.append(texto(cx - pw / 2 + 28, 26, tt, 11, 'bold', '#7209b9', 'start'))
+        else:
+            o.append(texto(cx, 26, t, 11, 'bold', '#7209b9'))
+        k = p.get('kind', 'beaker')
+        eq_w = min(pw - 40, 120)
+        bot = base
+        if k == 'balance':
+            o.append(balanza(cx, base, p.get('mass', ''), None))
+            o.append(texto(cx, base - 84, p.get('solid', ''), 11, 'bold', '#222'))
+        elif k == 'crucible':
+            o.append(crisol(cx, base, p.get('solid')))
+        elif k == 'text':
+            lines = p.get('lines', [])
+            hh = 22 + 17 * len(lines)
+            o.append(caja(cx - pw / 2 + 30, base - 70 - hh / 2, pw - 60, hh, lines, '#0a5d0a', '#f2fbf2'))
+        elif k == 'flask':
+            if p.get('burette'):
+                o.append(bureta(cx, base - 236, base - 128, None, None, y_base=base + 1))
+                o.append(rotulo(cx + 10, base - 252, [p['burette']], 10.5, 'middle'))
+            o.append(erlenmeyer(cx, base, eq_w, 105 if p.get('burette') else 125, _liq(p),
+                                0 if p.get('liquid') is False else .5, p.get('ions', []), p.get('solid'), (p['gas'] + ' ↑') if p.get('gas') else None))
+        else:  # beaker
+            h = 125
+            if p.get('heat'):
+                o.append(f"<line x1='{cx-eq_w/2}' y1='{base-62}' x2='{cx+eq_w/2}' y2='{base-62}' stroke='#7d868e' stroke-width='3'/>")
+                o.append(f"<line x1='{cx-eq_w/2+8}' y1='{base-62}' x2='{cx-eq_w/2+2}' y2='{base}' stroke='#7d868e' stroke-width='2.5'/>")
+                o.append(f"<line x1='{cx+eq_w/2-8}' y1='{base-62}' x2='{cx+eq_w/2-2}' y2='{base}' stroke='#7d868e' stroke-width='2.5'/>")
+                o.append(mechero(cx, base))
+                vb, h = base - 64, 95
+            else:
+                vb = base
+            if p.get('bar'):
+                bt, rec = p['bar']
+                o.append(vaso(cx, vb, eq_w, h, _liq(p), 0 if p.get('liquid') is False else .62,
+                              [ii for ii in p.get('ions', [])][:4], None, None))
+                o.append(barra(cx, vb - h - 22, h + 8, bt, rec))
+                if p.get('gas'):
+                    o.append(burbujas(cx + eq_w * .3, vb - h * .62 - 4, 4, 36, p['gas'] + ' ↑'))
+            else:
+                if p.get('burette'):
+                    o.append(bureta(cx, base - 236, base - 128, None, None, y_base=base + 1))
+                    o.append(rotulo(cx + 10, base - 252, [p['burette']], 10.5, 'middle'))
+                    h = 100
+                o.append(vaso(cx, vb, eq_w, h, _liq(p), 0 if p.get('liquid') is False else .62,
+                              p.get('ions', []), p.get('solid'), (p['gas'] + ' ↑') if p.get('gas') else None))
+            if p.get('solid'):
+                bot += 12
+        notes = p.get('note', [])
+        for j, l in enumerate(notes):
+            o.append(texto(cx, bot + 22 + j * 14, l, 10.3, 'bold' if j == 0 else 'normal', '#222'))
+        if i < n - 1:
+            ax = cx + pw / 2
+            yy = base - 70
+            lab = arrows[i] if i < len(arrows) else ''
+            o.append(flecha(ax - 16, yy, ax + 16, yy, lab or None, txt_dy=-10))
+    nb = max(len(p.get('note', [])) for p in panels)
+    y = base + 34 + 14 * nb + (12 if any(p.get('solid') and p.get('kind', 'beaker') != 'balance' for p in panels) else 0)
+    if bottom:
+        bl = bottom.split('|')
+        bh = 18 + 16 * len(bl)
+        o.append(caja(30, y, W - 60, bh, bl))
+        y += bh + 14
+    o.append(leyenda(W - 330, y + 2))
+    return svg(W, y + 12, ''.join(o))

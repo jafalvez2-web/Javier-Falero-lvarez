@@ -31,3 +31,23 @@ def p7_3_5():
 
 
 D['P7-3.5'] = p7_3_5
+
+
+# Correcciones de datos sobre las fichas antiguas (labspecs7.S), dibujadas con lab2.draw2
+SPEC = {}
+SPEC['P7-6.3'] = ([{'title': '1. Sangre + oxalato', 'ions': [('Ca²⁺', 'r'), ('C₂O₄²⁻', 'r')], 'solid': 'CaC₂O₄', 'note': ['10,0 mL de sangre', 'todo el Ca precipita']},
+                   {'title': '2. Disuelvo en ácido', 'ions': [('H₂C₂O₄', 'r'), ('Ca²⁺', 'e'), ('SO₄²⁻', 'e')], 'note': ['1 Ca → 1 oxalato']},
+                   {'title': '3. Valoro el oxalato', 'kind': 'flask', 'burette': 'KMnO₄ 9,76·10⁻⁴ M', 'ions': [('H₂C₂O₄', 'r')], 'color': '#F4C0D1', 'note': ['gasta 2,12 mL (vira a rosa)']}],
+                  ['filtro', ''], 'Camino: Ca²⁺ → CaC₂O₄ → H₂C₂O₄ → gasta MnO₄⁻|2 MnO₄⁻ por cada 5 oxálicos → mol de Ca → μg/mL')
+
+
+def todos():
+    """id -> SVG de todos los dibujos del Tema 7 en el estilo nuevo"""
+    import labspecs7
+    out = {}
+    for k, spec in labspecs7.S.items():
+        if k in D:
+            out[k] = D[k]()
+        else:
+            out[k] = draw2(*SPEC.get(k, spec))
+    return out

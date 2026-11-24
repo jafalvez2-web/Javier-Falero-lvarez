@@ -13,6 +13,7 @@ Macro [[PLAN ... ]]: cada línea es una fila de cajas unidas por flechas.
     caja --[① etiqueta]--> caja --[② ...]--> !caja final
   "Etiqueta :: ..." pone título a la fila; una caja que empieza por "!" es el resultado.
 
+Dibujos: lab2.py + labspecs7_v2.py (material de laboratorio) -> img/lab7v2_*.svg
 Salida: tema7/apuntes/Tema7_Planteamientos.pdf
 Uso:    python herramientas/build_t7_planteamientos.py
 """
@@ -93,6 +94,12 @@ TAIL = re.compile(r'^(\*\*Lo que tienes que llevarte|\*\*Cifras|\*\*Resumen|\*\*
 
 def main():
     base = open(BASE, encoding='utf-8').read()
+    # dibujos de laboratorio con el estilo nuevo (lab2.py / labspecs7_v2.py)
+    import labspecs7_v2
+    for k, s in labspecs7_v2.todos().items():
+        fn = 'lab7v2_' + k.replace(' ', '_').replace('.', '_') + '.svg'
+        open(os.path.join(H, 'img', fn), 'w', encoding='utf-8').write(s)
+    base = base.replace('img/lab7_', 'img/lab7v2_')
     new_txt = '\n\n'.join(open(f, encoding='utf-8').read()
                           for f in sorted(glob.glob(os.path.join(SRC, '*.md'))) if not f.endswith(('00_intro.md', '05_explica.md')))
     exp = dict(re.findall(r'^@@ (.+?)\n(.+?)(?=\n\n@@ |\Z)', open(os.path.join(SRC, '05_explica.md'), encoding='utf-8').read(), flags=re.M | re.S))
