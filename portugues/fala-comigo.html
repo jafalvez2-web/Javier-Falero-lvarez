@@ -1,0 +1,663 @@
+<title>Fala Comigo</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap">
+<style>
+/* Layout: one mobile-first column (max 560px); home = path of lessons, lesson = full-screen card with a sticky check bar. */
+:root{
+  --bg:#EEF5F1; --surface:#FFFFFF; --surface-2:#E2EEE8; --line:#C9DDD3;
+  --fg:#0F2A22; --muted:#4D6A60;
+  --jade:#0E7A57; --jade-deep:#0A5C42; --jade-soft:#D3EEE3;
+  --mango:#F2A900; --mango-soft:#FFF1CC;
+  --coral:#D9433B; --coral-soft:#FBE1DE;
+  --sky:#2C6FB7; --hero:#0E7A57;
+  --display:"Fredoka","Baloo 2","Trebuchet MS",system-ui,sans-serif;
+  --body:"Inter",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --r:16px;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0C1915; --surface:#13251F; --surface-2:#1A3029; --line:#294539;
+  --fg:#E6F2EC; --muted:#9CB8AD;
+  --jade:#2FBF8A; --jade-deep:#1E9A6D; --jade-soft:#123B2E;
+  --mango:#FFC233; --mango-soft:#3A2F10;
+  --coral:#FF6A60; --coral-soft:#3D1A18; --sky:#6FA8E8; --hero:#13573F; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0C1915; --surface:#13251F; --surface-2:#1A3029; --line:#294539;
+  --fg:#E6F2EC; --muted:#9CB8AD;
+  --jade:#2FBF8A; --jade-deep:#1E9A6D; --jade-soft:#123B2E;
+  --mango:#FFC233; --mango-soft:#3A2F10;
+  --coral:#FF6A60; --coral-soft:#3D1A18; --sky:#6FA8E8; --hero:#13573F; color-scheme:dark}
+*{box-sizing:border-box}
+html,body{height:100%}
+body{background:var(--bg);color:var(--fg);font-family:var(--body);font-size:16px;line-height:1.5;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+button{font:inherit;color:inherit;cursor:pointer}
+button:focus-visible,input:focus-visible,textarea:focus-visible{outline:3px solid var(--sky);outline-offset:2px}
+.wrap{max-width:560px;margin:0 auto;padding-block:12px 110px;display:flex;flex-direction:column;gap:16px}
+h1,h2,h3{font-family:var(--display);font-weight:600;margin:0;text-wrap:balance;line-height:1.2}
+h1{font-size:1.9rem} h2{font-size:1.4rem} h3{font-size:1.1rem}
+p{margin:0}
+.muted{color:var(--muted)}
+.top{display:flex;align-items:center;gap:8px;justify-content:space-between}
+.brand{font-family:var(--display);font-weight:700;font-size:1.35rem;color:var(--jade);display:flex;align-items:center;gap:8px}
+.pills{display:flex;gap:6px;flex-wrap:wrap;justify-content:flex-end}
+.pill{display:inline-flex;align-items:center;gap:5px;padding:4px 10px;border-radius:999px;background:var(--surface);border:1px solid var(--line);font-weight:600;font-size:.9rem;font-variant-numeric:tabular-nums}
+.pill svg{width:16px;height:16px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:18px;display:flex;flex-direction:column;gap:12px}
+.hero{background:var(--hero);color:#fff;border:none}
+.hero .muted{color:#D7F3E7}
+.btn{border:none;border-radius:14px;padding:14px 18px;font-weight:700;font-size:1rem;letter-spacing:.02em;
+  background:var(--jade);color:#fff;box-shadow:0 4px 0 var(--jade-deep);transition:transform .08s}
+.btn:active{transform:translateY(3px);box-shadow:0 1px 0 var(--jade-deep)}
+.btn.light{background:#fff;color:var(--jade-deep);box-shadow:0 4px 0 #BFE3D3}
+.btn.ghost{background:transparent;color:var(--jade);box-shadow:none;border:2px solid var(--line)}
+.btn.coral{background:var(--coral);box-shadow:0 4px 0 #9E2C26}
+.btn[disabled]{background:var(--surface-2);color:var(--muted);box-shadow:none;cursor:default}
+.btn.block{width:100%}
+.row{display:flex;gap:10px;flex-wrap:wrap}
+.row>.btn{flex:1 1 160px}
+/* path */
+.unit-head{font-family:var(--display);font-size:.85rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-top:6px}
+.path{display:flex;flex-direction:column;gap:10px}
+.node{display:flex;align-items:center;gap:14px;background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:12px 14px;text-align:left;width:100%}
+.node .dot{flex:0 0 46px;height:46px;border-radius:50%;display:grid;place-items:center;font-family:var(--display);font-weight:700;font-size:1.1rem;background:var(--surface-2);color:var(--muted);border:3px solid var(--line)}
+.node.done .dot{background:var(--jade);color:#fff;border-color:var(--jade-deep)}
+.node.next{border:2px solid var(--jade);box-shadow:0 0 0 4px var(--jade-soft)}
+.node.next .dot{background:var(--mango);color:#3A2A00;border-color:#C98C00}
+.node.locked{opacity:.55}
+.node .meta{min-width:0;display:flex;flex-direction:column}
+.node .meta b{font-weight:600}
+.node .meta span{font-size:.85rem;color:var(--muted)}
+.tag{font-size:.72rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;padding:2px 8px;border-radius:6px;background:var(--mango-soft);color:var(--fg);align-self:flex-start}
+/* tabs */
+.tabs{position:fixed;left:0;right:0;bottom:0;background:var(--surface);border-top:1px solid var(--line);display:flex;justify-content:center;gap:4px;
+  padding:8px max(16px,env(safe-area-inset-right,0px)) calc(8px + env(safe-area-inset-bottom,0px)) max(16px,env(safe-area-inset-left,0px));z-index:5}
+.tabs button{flex:0 1 180px;background:none;border:none;border-radius:12px;padding:8px;display:flex;flex-direction:column;align-items:center;gap:2px;font-size:.8rem;font-weight:600;color:var(--muted)}
+.tabs button svg{width:24px;height:24px}
+.tabs button[aria-current="page"]{color:var(--jade);background:var(--jade-soft)}
+/* lesson */
+.lesson{max-width:560px;margin:0 auto;min-height:100%;display:flex;flex-direction:column;padding-block:12px 0}
+.lbar{display:flex;align-items:center;gap:12px}
+.x{background:none;border:none;padding:6px;color:var(--muted)}
+.x svg{width:24px;height:24px}
+.prog{flex:1;height:14px;background:var(--surface-2);border-radius:999px;overflow:hidden}
+.prog i{display:block;height:100%;width:0;background:var(--jade);border-radius:999px;transition:width .3s}
+.stage{flex:1;display:flex;flex-direction:column;gap:16px;padding-block:22px 24px}
+.kicker{font-size:.8rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--jade)}
+.prompt{font-family:var(--display);font-size:1.45rem;font-weight:600;line-height:1.3}
+.saybox{display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+.spk{width:64px;height:64px;border-radius:18px;border:none;background:var(--sky);color:#fff;display:grid;place-items:center;box-shadow:0 4px 0 #1D4E85}
+.spk.small{width:44px;height:44px;border-radius:12px}
+.spk.slow{background:var(--surface-2);color:var(--fg);box-shadow:0 4px 0 var(--line)}
+.spk svg{width:28px;height:28px}
+.spk.small svg{width:20px;height:20px}
+.ptline{font-size:1.2rem;font-weight:600}
+.opts{display:flex;flex-direction:column;gap:10px}
+.opt{text-align:left;background:var(--surface);border:2px solid var(--line);border-bottom-width:4px;border-radius:14px;padding:14px 16px;font-size:1.02rem}
+.opt[aria-pressed="true"]{border-color:var(--sky);background:color-mix(in srgb,var(--sky) 12%,var(--surface))}
+textarea,input[type=text]{width:100%;font:inherit;font-size:1.05rem;color:var(--fg);background:var(--surface);border:2px solid var(--line);border-radius:14px;padding:14px;resize:vertical}
+textarea{min-height:110px}
+.bank,.answer{display:flex;flex-wrap:wrap;gap:8px;min-height:56px;align-content:flex-start}
+.answer{border-bottom:2px solid var(--line);padding-bottom:10px}
+.chip{background:var(--surface);border:2px solid var(--line);border-bottom-width:4px;border-radius:12px;padding:8px 12px;font-size:1.02rem;font-weight:500}
+.chip.used{visibility:hidden}
+.mic{width:88px;height:88px;border-radius:50%;border:none;background:var(--coral);color:#fff;display:grid;place-items:center;box-shadow:0 5px 0 #9E2C26;align-self:center}
+.mic.on{animation:pulse 1.2s infinite}
+.mic svg{width:38px;height:38px}
+@keyframes pulse{0%{box-shadow:0 0 0 0 color-mix(in srgb,var(--coral) 60%,transparent)}100%{box-shadow:0 0 0 22px transparent}}
+@media (prefers-reduced-motion: reduce){.mic.on{animation:none}.prog i{transition:none}}
+.heard{text-align:center;min-height:1.5em;font-size:1.1rem}
+.teach h3{color:var(--jade)}
+.teach .para{color:var(--fg)}
+.tbl{overflow-x:auto}
+.tbl table{border-collapse:collapse;width:100%;font-size:.98rem}
+.tbl td{padding:8px 10px;border-bottom:1px solid var(--line)}
+.tbl td:first-child{color:var(--muted)}
+.tbl td:last-child{font-weight:600}
+.ex{display:flex;align-items:center;gap:10px;padding:8px 0;border-bottom:1px dashed var(--line)}
+.ex>div{min-width:0}
+.ex .es{font-size:.88rem;color:var(--muted)}
+.tip{background:var(--mango-soft);border-radius:12px;padding:12px 14px}
+.checkbar{position:sticky;bottom:0;background:var(--bg);border-top:1px solid var(--line);padding-block:14px calc(14px + env(safe-area-inset-bottom,0px));display:flex;flex-direction:column;gap:10px;margin-inline:calc(-1 * max(16px,env(safe-area-inset-left,0px)));padding-inline:max(16px,env(safe-area-inset-left,0px))}
+.checkbar.ok{background:var(--jade-soft);border-color:transparent}
+.checkbar.bad{background:var(--coral-soft);border-color:transparent}
+.fb{display:flex;flex-direction:column;gap:4px}
+.fb h3{display:flex;align-items:center;gap:8px}
+.checkbar.ok h3{color:var(--jade)} .checkbar.bad h3{color:var(--coral)}
+.fb .sol{font-weight:600}
+.skip{background:none;border:none;color:var(--muted);font-weight:600;text-decoration:underline;align-self:center;padding:4px}
+/* chat */
+.chat{display:flex;flex-direction:column;gap:10px}
+.msg{max-width:88%;padding:10px 14px;border-radius:16px;display:flex;flex-direction:column;gap:6px}
+.msg.bot{background:var(--surface);border:1px solid var(--line);align-self:flex-start;border-bottom-left-radius:4px}
+.msg.me{background:var(--jade);color:#fff;align-self:flex-end;border-bottom-right-radius:4px}
+.msg .tr{font-size:.85rem;color:var(--muted)}
+.msg .fix{font-size:.88rem;background:var(--mango-soft);border-radius:10px;padding:8px 10px;color:var(--fg)}
+.msg .acts{display:flex;gap:6px}
+.msg .acts button{background:var(--surface-2);border:none;border-radius:8px;padding:4px 10px;font-size:.8rem;font-weight:600}
+.composer{position:fixed;left:0;right:0;bottom:calc(64px + env(safe-area-inset-bottom,0px));background:var(--bg);border-top:1px solid var(--line);
+  padding:10px max(16px,env(safe-area-inset-right,0px)) 10px max(16px,env(safe-area-inset-left,0px));z-index:4}
+.composer form{max-width:560px;margin:0 auto;display:flex;gap:8px;align-items:center}
+.composer input{flex:1;min-width:0;padding:12px}
+.composer .round{flex:0 0 48px;height:48px;border-radius:50%;border:none;display:grid;place-items:center;background:var(--jade);color:#fff}
+.composer .round.mic2{background:var(--coral)}
+.composer .round.on{animation:pulse 1.2s infinite}
+.composer .round svg{width:22px;height:22px}
+.avatar{width:52px;height:52px;flex:0 0 52px}
+.bia{display:flex;gap:12px;align-items:center}
+.stat{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+.stat div{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:12px;text-align:center}
+.stat b{display:block;font-family:var(--display);font-size:1.5rem;font-variant-numeric:tabular-nums}
+.stat span{font-size:.8rem;color:var(--muted)}
+.big-level{font-family:var(--display);font-size:4rem;font-weight:700;color:var(--jade);line-height:1}
+.bars{display:flex;flex-direction:column;gap:8px}
+.bars .b{display:grid;grid-template-columns:36px 1fr 44px;gap:10px;align-items:center;font-variant-numeric:tabular-nums;font-size:.9rem}
+.bars .t{height:10px;background:var(--surface-2);border-radius:99px;overflow:hidden}
+.bars .t i{display:block;height:100%;background:var(--jade)}
+.note{font-size:.85rem;color:var(--muted)}
+.loading{display:flex;align-items:center;gap:10px;color:var(--muted)}
+.spin{width:22px;height:22px;border:3px solid var(--line);border-top-color:var(--jade);border-radius:50%;animation:sp 0.9s linear infinite}
+@keyframes sp{to{transform:rotate(360deg)}}
+</style>
+
+<div id="app"></div>
+
+<script>
+/* ======================= CONTENIDO ======================= */
+const LEVELS=["A0","A1","A2","B1","B2","C1"];
+const LEVEL_NAMES={A0:"Principiante",A1:"Inicial",A2:"Básico",B1:"Intermedio",B2:"Intermedio alto",C1:"Avanzado"};
+
+/* Ruta de lecciones: las 6 primeras están escritas a mano; el resto las prepara la Profe Bia (Claude) siguiendo el mismo orden. */
+const COURSE=[
+ {id:1,unit:"Unidad 1 · El presente",title:"Eu falo português",topic:"Pronombres personales en Brasil (você, a gente) y presente de los verbos regulares en -AR (falar, morar, estudar, trabalhar, gostar de)"},
+ {id:2,unit:"Unidad 1 · El presente",title:"Eu sou o Javier",topic:"El verbo SER en presente: identidad, origen y profesión"},
+ {id:3,unit:"Unidad 1 · El presente",title:"Estou com fome",topic:"El verbo ESTAR, ser frente a estar, 'estar com fome/sede/frio' y 'ficar' para ubicaciones"},
+ {id:4,unit:"Unidad 1 · El presente",title:"A gente come e aprende",topic:"Presente de los verbos regulares en -ER e -IR (comer, beber, aprender, entender, abrir, assistir)"},
+ {id:5,unit:"Unidad 1 · El presente",title:"Tem que ter",topic:"El verbo TER, 'ter que' (obligación) y 'tem' con el sentido de 'hay'"},
+ {id:6,unit:"Unidad 1 · El presente",title:"Vou fazer isso",topic:"El verbo IR y el futuro con ir + infinitivo (sin 'a'), ir à / para"},
+ {id:7,unit:"Unidad 2 · Irregulares clave",title:"Fazer, poder, querer",topic:"Presente de los irregulares fazer, poder, querer, saber, dizer"},
+ {id:8,unit:"Unidad 2 · Irregulares clave",title:"Estou fazendo",topic:"Estar + gerundio en Brasil (estou fazendo), contraste con Portugal"},
+ {id:9,unit:"Unidad 3 · El pasado",title:"Ontem eu falei",topic:"Pretérito perfeito de los verbos en -AR (falei, falou, falamos, falaram)"},
+ {id:10,unit:"Unidad 3 · El pasado",title:"Eu fui e fiz",topic:"Pretérito perfeito de -ER/-IR y de los irregulares ser/ir (fui), fazer (fiz), ter (tive), estar (estive)"},
+ {id:11,unit:"Unidad 3 · El pasado",title:"Quando eu era criança",topic:"Pretérito imperfeito (falava, comia, era, tinha) y su contraste con el perfeito"},
+ {id:12,unit:"Unidad 3 · El pasado",title:"Fiquei feliz",topic:"El verbo FICAR y sus usos: quedarse, ponerse/volverse, estar situado, quedar con alguien"},
+ {id:13,unit:"Unidad 4 · Planes y cortesía",title:"Eu falaria",topic:"Futuro do presente (falarei) frente a ir + infinitivo y futuro do pretérito / condicional (falaria) y 'ia falar'"},
+ {id:14,unit:"Unidad 5 · El subjuntivo",title:"Espero que você venha",topic:"Presente do subjuntivo (que eu fale, que você venha, que seja, que esteja) tras expresiones de deseo, duda y emoción"},
+ {id:15,unit:"Unidad 5 · El subjuntivo",title:"Se eu tivesse",topic:"Imperfeito do subjuntivo (se eu tivesse, se fosse) y oraciones condicionales"},
+ {id:16,unit:"Unidad 5 · El subjuntivo",title:"Quando você chegar",topic:"Futuro do subjuntivo (quando você chegar, se puder, quem quiser), que no existe en el español actual"},
+ {id:17,unit:"Unidad 6 · Hablar como nativo",title:"Pra gente estudar",topic:"Infinitivo pessoal (para nós estudarmos, é melhor vocês saírem)"},
+ {id:18,unit:"Unidad 6 · Hablar como nativo",title:"Vi ele ontem",topic:"Pronombres de objeto en el habla brasileña (te vi, vi ele, me dá), colocación del pronombre y 'lhe' frente a 'você'"},
+ {id:19,unit:"Unidad 6 · Hablar como nativo",title:"Tipo, né?",topic:"Marcadores y expresiones del día a día en Brasil: né, tipo, então, beleza, valeu, tá, cadê, a gente se vê"},
+ {id:20,unit:"Unidad 6 · Hablar como nativo",title:"Falsos amigos",topic:"Falsos amigos frecuentes entre español y portugués (esquisito, polvo, apelido, exquisito, propina, borracha, oficina, ligar)"}
+];
+const START_BY_LEVEL={A0:1,A1:1,A2:5,B1:9,B2:13,C1:17};
+
+const L={};
+L[1]=[
+ {t:"teach",title:"Quién habla: los pronombres",
+  body:["En Brasil casi nadie usa **tu**: se dice **você**, y va con el verbo en 3.ª persona, igual que 'usted' en español.","Para 'nosotros', al hablar se usa muchísimo **a gente**, también con el verbo en 3.ª persona. **Nós** existe, pero suena más formal."],
+  table:[["yo","eu"],["tú","você"],["él / ella","ele / ela"],["nosotros","a gente / nós"],["vosotros, ustedes","vocês"],["ellos / ellas","eles / elas"]]},
+ {t:"teach",title:"Verbos en -AR: falar",
+  body:["En la práctica te bastan tres formas: **falo**, **fala**, **falam**."],
+  table:[["eu","falo"],["você / ele / a gente","fala"],["nós","falamos"],["vocês / eles","falam"]],
+  examples:[{pt:"Eu falo espanhol.",es:"Hablo español."},{pt:"A gente fala português.",es:"Hablamos portugués."},{pt:"Eles falam rápido.",es:"Ellos hablan rápido."}],
+  tip:"Pronunciación: la -o final suena 'u' (falo → FA-lu) y -am suena nasal, 'ãu' (falam → FA-lãu)."},
+ {t:"mc",q:"¿Cómo se dice 'tú' en Brasil?",opts:["você","tu","vós","ele"],a:0,why:"'Você' es el 'tú' normal en casi todo Brasil, y el verbo va en 3.ª persona: você fala."},
+ {t:"mc",q:"¿Qué significa?",say:"Eu falo espanhol.",opts:["Yo hablo español.","Él habla español.","Hablamos español."],a:0,why:"'Falo' es la forma de 'eu'."},
+ {t:"fill",q:"Eles ___ no Brasil.",hint:"morar",a:["moram"],why:"Eles → -am: moram. 'Morar' es vivir en un sitio."},
+ {t:"fill",q:"A gente ___ todos os dias.",hint:"estudar",a:["estuda"],why:"'A gente' va con 3.ª persona del singular: a gente estuda."},
+ {t:"teach",title:"Gostar DE",body:["Cuidado: en portugués no se dice 'me gusta'. Quien gusta es la persona, y siempre se añade **de**.","**de + o = do**, **de + a = da**."],
+  examples:[{pt:"Eu gosto de café.",es:"Me gusta el café."},{pt:"Você gosta da música?",es:"¿Te gusta la música?"},{pt:"A gente gosta do Brasil.",es:"Nos gusta Brasil."}]},
+ {t:"build",q:"Me gusta el café.",words:["Eu","gosto","de","café","me","o"],a:"Eu gosto de café",why:"Literalmente 'yo gusto de café'."},
+ {t:"listen",say:"Você trabalha aqui?",a:["você trabalha aqui"],why:"'Trabalha' = trabajas. La 'lh' suena como la 'll' de 'calle' bien pronunciada."},
+ {t:"tr",q:"Nosotros hablamos portugués.",a:["A gente fala português","Nós falamos português"],why:"Las dos valen; 'a gente fala' es lo más natural hablando."},
+ {t:"mc",q:"Elige la frase correcta:",opts:["Me gosta a música.","Eu gosto da música.","Eu gosto a música."],a:1,why:"Gostar + de, y de + a = da."},
+ {t:"speak",say:"Eu moro em Madri e estudo química.",why:"Fíjate en 'moro' (MÓ-ru) y 'estudo' (es-TU-du)."},
+ {t:"tr",q:"¿Tú trabajas?",a:["Você trabalha?","Você trabalha"],why:"Você + 3.ª persona: trabalha."}
+];
+L[2]=[
+ {t:"teach",title:"El verbo SER",body:["SER sirve para lo que eres: identidad, origen, profesión, características.","Ojo: igual que en español, la profesión va sin artículo: **Eu sou estudante**."],
+  table:[["eu","sou"],["você / ele / a gente","é"],["nós","somos"],["vocês / eles","são"]],
+  examples:[{pt:"Eu sou espanhol.",es:"Soy español."},{pt:"Ela é professora.",es:"Ella es profesora."},{pt:"Vocês são de onde?",es:"¿De dónde sois?"}],
+  tip:"'É' lleva acento abierto: suena como 'e' de 'perro'. 'São' es nasal: 'sãu'."},
+ {t:"fill",q:"Eu ___ espanhol.",hint:"ser",a:["sou"],why:"Eu sou."},
+ {t:"fill",q:"Vocês ___ brasileiros?",hint:"ser",a:["são"],why:"Vocês → são."},
+ {t:"mc",q:"¿Qué significa?",say:"Ela é professora.",opts:["Ella es profesora.","Ella está en clase.","Ella tiene una profesora."],a:0,why:"'É' = es."},
+ {t:"mc",q:"¿Cómo preguntas '¿De dónde eres?'",opts:["De onde você é?","Onde você está?","De onde você está?"],a:0,why:"El origen va con SER. 'Onde você está?' = ¿dónde estás?"},
+ {t:"listen",say:"Eu sou de Madri.",a:["eu sou de madri"],why:"En portugués se escribe 'Madri', sin d final."},
+ {t:"fill",q:"A gente ___ estudante.",hint:"ser",a:["é"],why:"'A gente' + 3.ª persona: a gente é."},
+ {t:"build",q:"Somos amigos.",words:["Nós","somos","amigos","são","é","os"],a:"Nós somos amigos",why:"Nós → somos. También podrías oír 'a gente é amigo'."},
+ {t:"tr",q:"Él es médico.",a:["Ele é médico"],why:"Profesión sin artículo, como en español."},
+ {t:"speak",say:"Prazer, eu sou o Javier.",why:"'Prazer' = encantado. En Brasil se suele poner artículo delante del nombre: o Javier, a Ana."},
+ {t:"tr",q:"Soy estudiante de química.",a:["Eu sou estudante de química","Sou estudante de química"],why:"Estudante sirve para chico o chica."}
+];
+L[3]=[
+ {t:"teach",title:"El verbo ESTAR",body:["ESTAR se usa como en español: estados pasajeros y dónde está alguien o algo que se mueve."],
+  table:[["eu","estou"],["você / ele / a gente","está"],["nós","estamos"],["vocês / eles","estão"]],
+  examples:[{pt:"Estou cansado.",es:"Estoy cansado."},{pt:"Ela está em casa.",es:"Ella está en casa."},{pt:"Tudo bem? Tô bem!",es:"¿Qué tal? ¡Bien!"}],
+  tip:"Al hablar, los brasileños recortan ESTAR: tô, tá, tamo, tão. 'Tá bom' = vale."},
+ {t:"teach",title:"Dos trampas para hispanohablantes",body:["1) Hambre, sed, frío y miedo van con **estar com**: Estou com fome (tengo hambre).","2) Para sitios que no se mueven (calles, edificios, ciudades) se usa **ficar**: Onde fica o banheiro? (¿dónde está el baño?)"]},
+ {t:"fill",q:"Eu ___ cansado.",hint:"estar",a:["estou","tô"],why:"Eu estou (o 'tô' hablando)."},
+ {t:"mc",q:"¿Cómo se dice 'Tengo hambre'?",opts:["Estou com fome.","Sou com fome.","Estou fome."],a:0,why:"Estar com + fome/sede/frio/medo."},
+ {t:"fill",q:"Onde ___ o metrô?",hint:"ficar",a:["fica"],why:"Un lugar fijo: 'fica'."},
+ {t:"mc",q:"Ela ___ brasileira.",opts:["é","está","fica"],a:0,why:"La nacionalidad es identidad: SER."},
+ {t:"mc",q:"Ela ___ em casa agora.",opts:["é","está","são"],a:1,why:"Dónde está una persona ahora: ESTAR."},
+ {t:"listen",say:"Tudo bem? Estou bem, e você?",a:["tudo bem estou bem e você","tudo bem tô bem e você"],why:"El saludo más típico de Brasil."},
+ {t:"tr",q:"Estamos en Río.",a:["A gente está no Rio","Nós estamos no Rio"],why:"em + o = no. Rio lleva artículo: o Rio."},
+ {t:"build",q:"¿Dónde está el baño?",words:["Onde","fica","o","banheiro","está","a"],a:"Onde fica o banheiro",why:"Baño = banheiro, y al ser un lugar fijo se usa 'fica'."},
+ {t:"speak",say:"Estou com sede.",why:"'Sede' = sed. La 'de' final suena 'dyi': SÊ-dji."}
+];
+L[4]=[
+ {t:"teach",title:"Verbos en -ER e -IR",body:["Funcionan casi igual que en español. Solo cambia la forma de 'nós': -emos / -imos."],
+  table:[["eu","como / abro"],["você / ele / a gente","come / abre"],["nós","comemos / abrimos"],["vocês / eles","comem / abrem"]],
+  examples:[{pt:"Eu como arroz e feijão.",es:"Como arroz y frijoles."},{pt:"Você entende?",es:"¿Entiendes?"},{pt:"Eles abrem cedo.",es:"Abren temprano."}],
+  tip:"Falso amigo: **assistir** = ver (la tele, una peli). Eu assisto TV = veo la tele."},
+ {t:"fill",q:"Eu ___ arroz e feijão.",hint:"comer",a:["como"],why:"Eu → -o: como."},
+ {t:"fill",q:"Vocês ___ a janela?",hint:"abrir",a:["abrem"],why:"Vocês → -em: abrem. Janela = ventana."},
+ {t:"mc",q:"¿Qué significa?",say:"Eu assisto TV à noite.",opts:["Veo la tele por la noche.","Ayudo en la tele por la noche.","Asisto a la tele."],a:0,why:"Assistir = ver un programa o una película."},
+ {t:"fill",q:"A gente ___ português.",hint:"aprender",a:["aprende"],why:"A gente aprende."},
+ {t:"tr",q:"No entiendo.",a:["Eu não entendo","Não entendo"],why:"'Não' va delante del verbo y suena nasal: 'nãu'."},
+ {t:"listen",say:"Você bebe café?",a:["você bebe café"],why:"Bebe = bebes."},
+ {t:"build",q:"Ellos escriben mucho.",words:["Eles","escrevem","muito","escribem","muitos"],a:"Eles escrevem muito",why:"Escrever, con v: escrevem."},
+ {t:"mc",q:"Nosotros vivimos en Madrid.",opts:["Nós vivemos em Madri.","Nós vivimos em Madri.","Nós vive em Madri."],a:0,why:"Viver es -ER: vivemos. (También: A gente mora em Madri.)"},
+ {t:"speak",say:"A gente aprende rápido.",why:"'Rápido' se dice RRA-pi-du: la r inicial suena como una j suave."}
+];
+L[5]=[
+ {t:"teach",title:"El verbo TER",body:["TER = tener. **Ter que** + infinitivo = tener que.","En Brasil, **tem** también significa 'hay': Tem muita gente aqui. (Há es más formal.)"],
+  table:[["eu","tenho"],["você / ele / a gente","tem"],["nós","temos"],["vocês / eles","têm"]],
+  examples:[{pt:"Eu tenho vinte anos.",es:"Tengo veinte años."},{pt:"Tenho que trabalhar.",es:"Tengo que trabajar."},{pt:"Tem pão?",es:"¿Hay pan?"}],
+  tip:"'Tenho' suena 'TÊ-nyu'; 'nh' es como la ñ."},
+ {t:"fill",q:"Eu ___ vinte anos.",hint:"ter",a:["tenho"],why:"Eu tenho."},
+ {t:"mc",q:"¿Cómo dices 'Hay mucha gente aquí'?",opts:["Tem muita gente aqui.","Tenho muita gente aqui.","Está muita gente aqui."],a:0,why:"Tem = hay. 'Há muita gente' también es correcto, pero más formal."},
+ {t:"fill",q:"A gente ___ que estudar.",hint:"ter",a:["tem"],why:"A gente tem que..."},
+ {t:"tr",q:"Tengo que trabajar.",a:["Eu tenho que trabalhar","Tenho que trabalhar"],why:"Ter que + infinitivo."},
+ {t:"listen",say:"Tem um mercado perto daqui?",a:["tem um mercado perto daqui"],why:"Perto daqui = cerca de aquí."},
+ {t:"build",q:"Ellos tienen dos hijos.",words:["Eles","têm","dois","filhos","tem","duas"],a:"Eles têm dois filhos",why:"Eles têm, con acento circunflejo. Hijos = filhos."},
+ {t:"mc",q:"¿Cuántos años tienes?",opts:["Quantos anos você tem?","Quantos anos tem você tenho?","Quanto ano você é?"],a:0,why:"Quantos anos você tem?"},
+ {t:"fill",q:"Vocês ___ tempo?",hint:"ter",a:["têm"],why:"Vocês têm (se pronuncia igual que 'tem')."},
+ {t:"speak",say:"Eu tenho que ir agora.",why:"Frase muy útil para despedirte."}
+];
+L[6]=[
+ {t:"teach",title:"IR y el futuro",body:["El futuro más usado en Brasil es **ir + infinitivo**, y sin 'a' en medio: **Vou estudar** (voy a estudiar).","Para ir a un sitio: **vou à praia**, **vou para casa** (hablando, 'pra casa')."],
+  table:[["eu","vou"],["você / ele / a gente","vai"],["nós","vamos"],["vocês / eles","vão"]],
+  examples:[{pt:"Vou estudar amanhã.",es:"Voy a estudiar mañana."},{pt:"A gente vai à praia.",es:"Vamos a la playa."},{pt:"O que você vai fazer?",es:"¿Qué vas a hacer?"}],
+  tip:"El error más típico de un hispanohablante es decir 'vou a comer'. Lo correcto es 'vou comer'."},
+ {t:"fill",q:"Eu ___ estudar amanhã.",hint:"ir",a:["vou"],why:"Eu vou + infinitivo."},
+ {t:"mc",q:"Voy a comer.",opts:["Vou comer.","Vou a comer.","Vou de comer."],a:0,why:"Sin 'a' entre ir y el infinitivo."},
+ {t:"fill",q:"Eles ___ viajar.",hint:"ir",a:["vão"],why:"Eles vão."},
+ {t:"tr",q:"Vamos a la playa.",a:["A gente vai à praia","Vamos à praia","Nós vamos à praia","A gente vai para a praia","Vamos para a praia","A gente vai pra praia","Vamos pra praia"],why:"a + a = à."},
+ {t:"listen",say:"O que você vai fazer hoje?",a:["o que você vai fazer hoje"],why:"Pregunta típica para hacer planes."},
+ {t:"build",q:"Mañana voy a trabajar.",words:["Amanhã","eu","vou","trabalhar","a","vai"],a:"Amanhã eu vou trabalhar",why:"Sin 'a' delante de trabalhar."},
+ {t:"mc",q:"¿Qué significa?",say:"Vou pra casa.",opts:["Me voy a casa.","Voy por casa.","Vengo de casa."],a:0,why:"'Pra' es 'para' recortado, y se oye a todas horas."},
+ {t:"fill",q:"A gente ___ ligar para você.",hint:"ir",a:["vai"],why:"A gente vai. Ligar = llamar por teléfono."},
+ {t:"speak",say:"Amanhã a gente vai sair.",why:"Sair = salir."}
+];
+
+const PLACEMENT=[
+ {lv:"A1",t:"mc",q:"¿Qué significa 'Obrigado'?",opts:["Gracias","Obligado","Perdón","Adiós"],a:0},
+ {lv:"A1",t:"tr",q:"Me llamo Javier.",a:["Eu me chamo Javier","Me chamo Javier","Meu nome é Javier","Eu sou o Javier","Sou o Javier"]},
+ {lv:"A1",t:"listen",say:"Eu moro em Madri.",a:["eu moro em madri"]},
+ {lv:"A1",t:"mc",q:"¿Qué significa 'Estou com fome'?",opts:["Tengo hambre","Estoy con fama","Estoy cansado","Tengo sueño"],a:0},
+ {lv:"A2",t:"fill",q:"Ontem eu ___ à praia.",hint:"ir",a:["fui"]},
+ {lv:"A2",t:"mc",q:"¿Qué significa 'Eu assisto TV à noite'?",opts:["Veo la tele por la noche","Ayudo en la tele por la noche","Asisto a una cena"],a:0},
+ {lv:"A2",t:"fill",q:"Eu moro ___ cidade.",hint:"em + a",a:["na"]},
+ {lv:"A2",t:"listen",say:"A gente vai viajar amanhã.",a:["a gente vai viajar amanhã"]},
+ {lv:"B1",t:"mc",q:"¿Qué significa 'esquisito'?",opts:["Raro, extraño","Exquisito, delicioso","Esquiador","Pequeño"],a:0},
+ {lv:"B1",t:"fill",q:"Quando eu era criança, eu ___ futebol todo dia.",hint:"jogar",a:["jogava"]},
+ {lv:"B1",t:"tr",q:"Estoy estudiando.",a:["Estou estudando","Eu estou estudando","Tô estudando","Eu tô estudando"]},
+ {lv:"B1",t:"mc",q:"Espero que você ___ bem.",opts:["esteja","está","estar","estava"],a:0},
+ {lv:"B2",t:"fill",q:"Se eu ___ dinheiro, viajaria para Lisboa.",hint:"ter",a:["tivesse"]},
+ {lv:"B2",t:"fill",q:"Quando você ___ em casa, me liga.",hint:"chegar",a:["chegar"]},
+ {lv:"B2",t:"mc",q:"¿Qué significa 'Ele pagou o pato'?",opts:["Pagó los platos rotos","Pagó la cena","Compró un pato","Se fue sin pagar"],a:0},
+ {lv:"C1",t:"fill",q:"É importante nós ___ todos os dias.",hint:"estudar, infinitivo personal",a:["estudarmos"]},
+ {lv:"C1",t:"mc",q:"¿Qué es 'fazer uma vaquinha'?",opts:["Juntar dinero entre varios","Ordeñar una vaca","Hacer el tonto","Echarse la siesta"],a:0},
+ {lv:"C1",t:"mc",q:"¿Cuál suena más natural en una conversación en Brasil?",opts:["Eu vi ele ontem.","Vi-o ontem.","Eu o vi ontem, pois."],a:0},
+ {lv:"W",t:"free",q:"Escribe 3–5 frases en portugués: qué hiciste ayer o por qué quieres aprender portugués. Da igual si tiene errores."}
+];
+
+/* ======================= ESTADO ======================= */
+const DEFAULT={placementDone:false,level:null,levelDetail:null,completed:[],xp:0,streak:0,best:0,lastDay:null,mistakes:[],generated:{},chat:[],createdAt:null};
+let S=JSON.parse(JSON.stringify(DEFAULT));
+let cap={tts:null,dict:null,sample:null,db:null,user:null,progressRef:null};
+let view="home";
+let saveTimer=null;
+
+function lsGet(){try{return JSON.parse(localStorage.getItem("fala-comigo")||"null")}catch(e){return null}}
+function lsSet(){try{localStorage.setItem("fala-comigo",JSON.stringify(S))}catch(e){}}
+function merge(o){S=Object.assign(JSON.parse(JSON.stringify(DEFAULT)),o||{})}
+function save(){lsSet();if(!cap.progressRef)return;clearTimeout(saveTimer);
+  saveTimer=setTimeout(()=>{cap.progressRef.set(JSON.parse(JSON.stringify(S))).catch(()=>{})},600)}
+function today(){const d=new Date();return d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0")+"-"+String(d.getDate()).padStart(2,"0")}
+function yesterday(){const d=new Date();d.setDate(d.getDate()-1);return d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0")+"-"+String(d.getDate()).padStart(2,"0")}
+function streakNow(){return (S.lastDay===today()||S.lastDay===yesterday())?S.streak:0}
+function nextLessonId(){const done=new Set(S.completed);const start=S.level?START_BY_LEVEL[S.level]||1:1;
+  for(const c of COURSE){if(c.id>=start&&!done.has(c.id))return c.id}
+  for(const c of COURSE){if(!done.has(c.id))return c.id}return null}
+
+/* ======================= UTILIDADES ======================= */
+const $=(s,r=document)=>r.querySelector(s);
+function h(tag,attrs={},...kids){const e=document.createElement(tag);
+  for(const[k,v]of Object.entries(attrs||{})){if(v==null||v===false)continue;
+    if(k==="class")e.className=v;else if(k.startsWith("on"))e.addEventListener(k.slice(2),v);
+    else if(k==="html")e.innerHTML=v;else e.setAttribute(k,v===true?"":v)}
+  for(const k of kids.flat()){if(k==null||k===false)continue;e.append(k.nodeType?k:document.createTextNode(String(k)))}return e}
+function rich(str){const f=document.createDocumentFragment();String(str).split("**").forEach((p,i)=>f.append(i%2?h("strong",{},p):document.createTextNode(p)));return f}
+const ICON={
+ spk:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9v6h4l5 4V5L8 9H4z" fill="currentColor"/><path d="M16.5 8.5a5 5 0 0 1 0 7M19 6a8.5 8.5 0 0 1 0 12"/></svg>',
+ slow:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 17h13a4 4 0 0 0 4-4 6 6 0 0 0-12 0"/><path d="M20 13h1.5M6 17l-1 2M14 17l1 2"/><circle cx="19" cy="10" r=".8" fill="currentColor"/></svg>',
+ mic:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><rect x="9" y="3" width="6" height="11" rx="3" fill="currentColor"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3"/></svg>',
+ x:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg>',
+ flame:'<svg viewBox="0 0 24 24"><path d="M12 2c1 4 5 5.5 5 11a5 5 0 0 1-10 0c0-2.5 1.2-3.8 2.3-5 .3 1.6 1 2.5 2 3C11 8 11.5 5 12 2z" fill="var(--mango)"/></svg>',
+ bolt:'<svg viewBox="0 0 24 24"><path d="M13 2L4 14h7l-1 8 9-12h-7l1-8z" fill="var(--sky)"/></svg>',
+ path:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="7" cy="5" r="2.5"/><circle cx="17" cy="12" r="2.5"/><circle cx="7" cy="19" r="2.5"/><path d="M9 6.5l6 4M15 13.5l-6 4"/></svg>',
+ chat:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M4 5h16v11H9l-5 4V5z"/></svg>',
+ me:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="4"/><path d="M4 21c1.5-4 4.5-6 8-6s6.5 2 8 6"/></svg>',
+ send:'<svg viewBox="0 0 24 24" fill="currentColor"><path d="M3 20l18-8L3 4l2 7 9 1-9 1z"/></svg>',
+ check:'<svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5 9-10"/></svg>'
+};
+function icon(n){const s=h("span",{style:"display:contents"});s.innerHTML=ICON[n];return s}
+const AVATAR='<svg class="avatar" viewBox="0 0 52 52" aria-hidden="true"><circle cx="26" cy="26" r="26" fill="var(--mango)"/><circle cx="26" cy="22" r="11" fill="#7A4A2A"/><path d="M13 21c0-9 6-13 13-13s13 4 13 13c-2-4-6-6-13-6s-11 2-13 6z" fill="#2A1A10"/><circle cx="22" cy="22" r="1.6" fill="#fff"/><circle cx="30" cy="22" r="1.6" fill="#fff"/><path d="M21.5 27c2.5 2.2 6.5 2.2 9 0" stroke="#fff" stroke-width="1.8" fill="none" stroke-linecap="round"/><path d="M10 50c2-9 8-13 16-13s14 4 16 13" fill="var(--jade)"/></svg>';
+
+function norm(s){return String(s).toLowerCase().replace(/[“”"«»¿?¡!.,;:…()\-]/g," ").replace(/\s+/g," ").trim()}
+function noAcc(s){return s.normalize("NFD").replace(/[̀-ͯ]/g,"")}
+function lev(a,b){const m=a.length,n=b.length;if(!m)return n;if(!n)return m;let p=Array.from({length:n+1},(_,i)=>i);
+  for(let i=1;i<=m;i++){const c=[i];for(let j=1;j<=n;j++)c[j]=Math.min(p[j]+1,c[j-1]+1,p[j-1]+(a[i-1]===b[j-1]?0:1));p=c}return p[n]}
+function grade(input,answers){const u=norm(input);if(!u)return{ok:false};
+  for(const a of answers){if(u===norm(a))return{ok:true}}
+  for(const a of answers){if(noAcc(u)===noAcc(norm(a)))return{ok:true,note:"Cuidado con los acentos: "+a}}
+  for(const a of answers){const t=noAcc(norm(a));if(t.length>6&&lev(noAcc(u),t)<=1)return{ok:true,note:"Tienes una errata. Se escribe: "+a}}
+  return{ok:false}}
+function similarity(a,b){a=noAcc(norm(a));b=noAcc(norm(b));const d=lev(a,b);return 1-d/Math.max(a.length,b.length,1)}
+function shuffle(a){a=a.slice();for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a}
+
+/* ======================= VOZ ======================= */
+let speakRate=1;
+async function say(text,rate){rate=rate||speakRate;
+  if(cap.tts){try{await cap.tts.speak(text,{language:"pt-BR",rate,voice:"airy"});return}catch(e){if(e&&e.code==="not_granted")cap.tts=null;else if(e&&(e.code==="stopped"||e.code==="replaced"))return}}
+  try{const ss=window.speechSynthesis;if(!ss)return;ss.cancel();const u=new SpeechSynthesisUtterance(text);u.lang="pt-BR";u.rate=rate<1?0.7:0.95;
+    const v=ss.getVoices().find(v=>/pt[-_]BR/i.test(v.lang))||ss.getVoices().find(v=>/^pt/i.test(v.lang));if(v)u.voice=v;ss.speak(u)}catch(e){}}
+let actx=null;
+function beep(ok){try{actx=actx||new (window.AudioContext||window.webkitAudioContext)();const t=actx.currentTime;
+  (ok?[660,880]:[300,220]).forEach((f,i)=>{const o=actx.createOscillator(),g=actx.createGain();o.frequency.value=f;o.type=ok?"sine":"triangle";
+  g.gain.setValueAtTime(.0001,t+i*.11);g.gain.exponentialRampToValueAtTime(.18,t+i*.11+.02);g.gain.exponentialRampToValueAtTime(.0001,t+i*.11+.18);
+  o.connect(g).connect(actx.destination);o.start(t+i*.11);o.stop(t+i*.11+.2)})}catch(e){}}
+function speakerBtns(text){return h("div",{class:"saybox"},
+  h("button",{class:"spk","aria-label":"Escuchar",onclick:()=>say(text,1)},icon("spk")),
+  h("button",{class:"spk small slow","aria-label":"Escuchar despacio",onclick:()=>say(text,.7)},icon("slow")))}
+
+/* Dictado: una sesión por pulsación */
+let dictUnsub=[];
+function dictListen(onText,onStateUI){const d=cap.dict;if(!d)return Promise.reject({code:"unavailable"});
+  dictUnsub.forEach(f=>f());let finalT="";
+  dictUnsub=[d.onPartial(({text})=>onText((finalT+" "+text).trim(),false)),d.onFinal(({text})=>{finalT+=text;onText(finalT.trim(),true)}),d.onState(({state,reason})=>onStateUI(state,reason))];
+  const p=d.start({language:"pt-BR"});return p}
+
+/* ======================= CLAUDE (Profe Bia) ======================= */
+function learnerSummary(){const m=S.mistakes.slice(-8).map(x=>x.q||x.say||"").filter(Boolean);
+  return `Alumno: Javier, hispanohablante (España), estudia química. Nivel estimado: ${S.level||"desconocido"}. Lecciones hechas: ${S.completed.join(", ")||"ninguna"}. Fallos recientes: ${m.join(" | ")||"ninguno"}.`}
+
+async function genLesson(c){
+  const prompt=`Eres "Profe Bia", profesora nativa de portugués de Brasil para hispanohablantes. Prepara UNA lección de unos 5 minutos.
+${learnerSummary()}
+Tema de la lección ${c.id} ("${c.title}"): ${c.topic}.
+Las lecciones anteriores del curso fueron, en orden: ${COURSE.filter(x=>x.id<c.id).map(x=>x.title).join("; ")}. Puedes reutilizar su vocabulario y repasar algo de ellas.
+Portugués de Brasil, coloquial pero correcto. Explicaciones en español de España, breves y claras, centradas en los errores típicos de un hispanohablante.
+Devuelve SOLO un array JSON de 12 a 14 elementos. Empieza con 1 o 2 tarjetas "teach" y luego ejercicios variados (al menos 2 "fill", 2 "mc", 1 "build", 1 "listen", 1 "speak", 2 "tr"). Formatos exactos:
+{"t":"teach","title":"...","body":["párrafo, usa **negrita** para lo clave"],"table":[["eu","falei"],["você","falou"]],"examples":[{"pt":"...","es":"..."}],"tip":"..."}  (table, examples y tip son opcionales)
+{"t":"mc","q":"pregunta en español o frase en portugués","say":"opcional: frase pt que se reproduce en audio","opts":["...","...","..."],"a":0,"why":"explicación breve"}
+{"t":"fill","q":"Frase en portugués con ___ en el hueco","hint":"verbo en infinitivo","a":["respuesta","variante aceptada"],"why":"..."}
+{"t":"tr","q":"Frase en español para traducir","a":["traducción pt-BR","otras variantes naturales"],"why":"..."}
+{"t":"build","q":"Frase en español","words":["palabras","de","la","respuesta","más","2-3","distractores"],"a":"Respuesta exacta en portugués sin punto final","why":"..."}
+{"t":"listen","say":"Frase en portugués que el alumno oirá y escribirá","a":["la frase en minúsculas sin signos"],"why":"..."}
+{"t":"speak","say":"Frase en portugués para que el alumno la diga en voz alta","why":"pista de pronunciación"}
+Reglas: en "build", las palabras de "a" deben estar todas en "words". En "mc", "a" es el índice de la opción correcta. Ofrece varias variantes aceptadas en "a" cuando haya varias respuestas naturales.`;
+  const out=await cap.sample.json(prompt,{modelTier:"default"});
+  const arr=Array.isArray(out)?out:(out&&Array.isArray(out.lesson)?out.lesson:[]);
+  return arr.filter(validEx)}
+function validEx(e){if(!e||typeof e!=="object")return false;const s=x=>typeof x==="string"&&x.trim();const arrS=x=>Array.isArray(x)&&x.length&&x.every(s);
+  switch(e.t){case"teach":return s(e.title)&&arrS(e.body);
+   case"mc":return s(e.q)&&arrS(e.opts)&&Number.isInteger(e.a)&&e.a>=0&&e.a<e.opts.length;
+   case"fill":case"tr":return s(e.q)&&arrS(e.a);
+   case"build":return s(e.q)&&arrS(e.words)&&s(e.a)&&norm(e.a).split(" ").every(w=>e.words.map(norm).includes(w));
+   case"listen":return s(e.say)&&arrS(e.a);
+   case"speak":return s(e.say);default:return false}}
+
+async function gradeWriting(text){
+  const prompt=`Eres profesora de portugués de Brasil. Un hispanohablante ha escrito este texto en una prueba de nivel:
+"""${text}"""
+Evalúalo según el MCER. Devuelve SOLO JSON: {"level":"A0|A1|A2|B1|B2|C1","corrected":"el texto corregido en portugués de Brasil natural","comments":["2-4 observaciones breves en español sobre sus errores y lo que hace bien"]}. Si está en español o casi vacío, level "A0".`;
+  return cap.sample.json(prompt,{modelTier:"default"})}
+
+/* ======================= RENDER: CASA ======================= */
+const app=$("#app");
+function topBar(){return h("div",{class:"top"},
+  h("div",{class:"brand"},h("span",{html:AVATAR.replace('class="avatar"','width="34" height="34"')}),"Fala Comigo"),
+  h("div",{class:"pills"},
+    h("span",{class:"pill",title:"Racha de días"},icon("flame"),String(streakNow())),
+    h("span",{class:"pill",title:"Puntos de experiencia"},icon("bolt"),S.xp+" XP"),
+    S.level?h("span",{class:"pill",title:"Tu nivel"},S.level):null))}
+function tabs(){const b=(id,label,ic)=>h("button",{"aria-current":view===id?"page":null,onclick:()=>{view=id;render()}},icon(ic),label);
+  return h("nav",{class:"tabs"},b("home","Aprender","path"),b("chat","Hablar con Bia","chat"),b("me","Mi progreso","me"))}
+
+function render(){stopAudio();app.replaceChildren();
+  if(view==="home")renderHome();else if(view==="chat")renderChat();else if(view==="me")renderMe()}
+function stopAudio(){try{cap.tts&&cap.tts.stop()}catch(e){}try{window.speechSynthesis&&speechSynthesis.cancel()}catch(e){}}
+
+function renderHome(){const w=h("div",{class:"wrap"});w.append(topBar());
+  if(!S.placementDone){
+    w.append(h("div",{class:"card hero"},
+      h("div",{class:"bia"},h("span",{html:AVATAR}),h("div",{},h("h2",{},"Oi, Javier! Eu sou a Bia."),h("p",{class:"muted"},"Tu profe de portugués de Brasil."))),
+      h("p",{},"Primero vemos tu nivel: 18 preguntas que van de fácil a difícil, con audio, más un texto corto que corrijo yo. Son unos 6 minutos."),
+      h("div",{class:"row"},h("button",{class:"btn light",onclick:startPlacement},"Hacer la prueba de nivel"),
+        h("button",{class:"btn ghost",style:"color:#fff;border-color:#ffffff66",onclick:()=>{S.placementDone=true;S.level="A0";save();render()}},"Empezar desde cero"))))}
+  else{const nid=nextLessonId();const c=COURSE.find(x=>x.id===nid);const doneToday=S.lastDay===today();
+    w.append(h("div",{class:"card hero"},
+      h("span",{class:"tag",style:"background:#ffffff26;color:#fff"},doneToday?"Objetivo de hoy cumplido":"Lección de hoy · 5 min"),
+      c?h("h2",{},c.title):h("h2",{},"¡Has terminado el curso!"),
+      c?h("p",{class:"muted"},c.topic):h("p",{class:"muted"},"Sigue hablando con Bia para soltarte."),
+      c?h("button",{class:"btn light",onclick:()=>startLesson(c.id)},doneToday?"Hacer otra lección":"Empezar"):null,
+      S.mistakes.length?h("button",{class:"btn ghost",style:"color:#fff;border-color:#ffffff66",onclick:startReview},"Repasar mis fallos ("+S.mistakes.length+")"):null));}
+  const done=new Set(S.completed);const nid=nextLessonId();let unit="";const path=h("div",{class:"path"});
+  for(const c of COURSE){if(c.unit!==unit){unit=c.unit;path.append(h("div",{class:"unit-head"},unit))}
+    const st=done.has(c.id)?"done":c.id===nid?"next":(S.placementDone?"open":"locked");
+    path.append(h("button",{class:"node "+st,onclick:()=>{if(S.placementDone)startLesson(c.id)}},
+      h("span",{class:"dot"},done.has(c.id)?icon("check"):String(c.id)),
+      h("span",{class:"meta"},h("b",{},c.title),h("span",{},c.id<=6?"Lección guiada":"Preparada por Bia según tu nivel"))))}
+  w.append(h("h2",{},"Tu ruta"),path);app.append(w,tabs())}
+
+function renderMe(){const w=h("div",{class:"wrap"});w.append(topBar(),h("h1",{},"Mi progreso"));
+  w.append(h("div",{class:"stat"},h("div",{},h("b",{},String(streakNow())),h("span",{},"días seguidos")),
+    h("div",{},h("b",{},String(S.xp)),h("span",{},"XP total")),h("div",{},h("b",{},S.completed.length+"/"+COURSE.length),h("span",{},"lecciones"))));
+  const lc=h("div",{class:"card"},h("h3",{},"Nivel"),h("p",{},S.level?`${S.level} · ${LEVEL_NAMES[S.level]}`:"Todavía no has hecho la prueba."));
+  if(S.levelDetail&&S.levelDetail.bars){const bars=h("div",{class:"bars"});
+    for(const[lv,p]of Object.entries(S.levelDetail.bars))bars.append(h("div",{class:"b"},h("span",{},lv),h("span",{class:"t"},h("i",{style:`width:${Math.round(p*100)}%`})),h("span",{},Math.round(p*100)+"%")));lc.append(bars)}
+  lc.append(h("button",{class:"btn ghost",onclick:startPlacement},S.placementDone?"Repetir la prueba de nivel":"Hacer la prueba de nivel"));w.append(lc);
+  if(S.mistakes.length){const m=h("div",{class:"card"},h("h3",{},"Para repasar"));
+    S.mistakes.slice(-10).reverse().forEach(x=>m.append(h("p",{},x.q||x.say)));m.append(h("button",{class:"btn",onclick:startReview},"Repasar ahora"));w.append(m)}
+  w.append(h("div",{class:"card"},h("h3",{},"Dónde se guarda"),h("p",{class:"note"},cap.progressRef?"Tu progreso se guarda en tu cuenta, así que lo verás igual en cualquier dispositivo donde abras esta página.":"Tu progreso se guarda en este navegador.")));
+  app.append(w,tabs())}
+
+/* ======================= MOTOR DE EJERCICIOS ======================= */
+let RUN=null;
+function startPlacement(){runSession({kind:"placement",title:"Prueba de nivel",items:PLACEMENT.map(x=>Object.assign({},x)),noRequeue:true})}
+async function startLesson(id){let items=L[id];
+  if(!items){items=S.generated[id];
+    if(!items){if(!cap.sample){toastScreen("Esta lección la prepara Bia en el momento y necesita conexión con Claude. Abre la página en claude.ai para hacerla.");return}
+      loadingScreen("Bia está preparando tu lección…");
+      try{items=await genLesson(COURSE.find(c=>c.id===id));if(items.length<6)throw new Error("short");S.generated[id]=items;save()}
+      catch(e){toastScreen(e&&e.code==="rate_limited"?"Has llegado al límite de uso por ahora. Inténtalo un poco más tarde.":"No he podido preparar la lección. Inténtalo otra vez.");return}}}
+  const rev=S.mistakes.slice(-2).map(x=>Object.assign({},x,{review:true}));
+  runSession({kind:"lesson",id,title:COURSE.find(c=>c.id===id).title,items:items.map(x=>Object.assign({},x)).concat(rev)})}
+function startReview(){if(!S.mistakes.length)return;runSession({kind:"review",title:"Repaso",items:shuffle(S.mistakes).slice(0,10).map(x=>Object.assign({},x,{review:true}))})}
+function loadingScreen(msg){app.replaceChildren(h("div",{class:"wrap"},topBar(),h("div",{class:"card"},h("div",{class:"loading"},h("span",{class:"spin"}),msg))))}
+function toastScreen(msg){app.replaceChildren(h("div",{class:"wrap"},topBar(),h("div",{class:"card"},h("p",{},msg),h("button",{class:"btn",onclick:()=>{view="home";render()}},"Volver"))),tabs())}
+
+function runSession(cfg){RUN={...cfg,i:0,total:cfg.items.length,correct:0,answered:0,results:[],xp:0,start:Date.now()};showItem()}
+function quitSession(){RUN=null;view="home";render()}
+
+function showItem(){stopAudio();const r=RUN;if(r.i>=r.items.length)return finish();
+  const it=r.items[r.i];const prog=Math.min(1,r.i/r.total);
+  const stage=h("div",{class:"stage"});const bar=h("div",{class:"checkbar"});
+  const root=h("div",{class:"lesson"},h("div",{class:"lbar"},h("button",{class:"x","aria-label":"Salir",onclick:quitSession},icon("x")),h("div",{class:"prog"},h("i",{style:`width:${prog*100}%`}))),stage,bar);
+  app.replaceChildren(root);
+  const checkBtn=h("button",{class:"btn block",disabled:true},"Comprobar");
+  let getAnswer=null;const enable=v=>{checkBtn.disabled=!v};
+  if(it.review)stage.append(h("span",{class:"tag"},"Repaso de un fallo"));
+  switch(it.t){
+   case"teach":{stage.classList.add("teach");stage.append(h("span",{class:"kicker"},"Bia te explica"),h("h2",{},it.title));
+     (it.body||[]).forEach(p=>stage.append(h("p",{class:"para"},rich(p))));
+     if(it.table&&it.table.length){const tb=h("tbody");it.table.forEach(row=>tb.append(h("tr",{},row.map(c=>h("td",{},String(c))))));stage.append(h("div",{class:"tbl"},h("table",{},tb)))}
+     if(it.examples&&it.examples.length){const ex=h("div");it.examples.forEach(e=>ex.append(h("div",{class:"ex"},h("button",{class:"spk small","aria-label":"Escuchar",onclick:()=>say(e.pt)},icon("spk")),h("div",{},h("div",{},e.pt),h("div",{class:"es"},e.es)))));stage.append(ex)}
+     if(it.tip)stage.append(h("div",{class:"tip"},rich(it.tip)));
+     bar.append(h("button",{class:"btn block",onclick:()=>{r.i++;showItem()}},"Entendido"));return}
+   case"mc":{stage.append(h("span",{class:"kicker"},"Elige la respuesta"));
+     if(it.say){stage.append(speakerBtns(it.say),h("p",{class:"ptline"},it.say));setTimeout(()=>say(it.say),250)}
+     stage.append(h("p",{class:"prompt"},it.q));const box=h("div",{class:"opts"});let sel=null;
+     const order=shuffle(it.opts.map((o,i)=>i));
+     order.forEach(i=>{const b=h("button",{class:"opt","aria-pressed":"false",onclick:()=>{box.querySelectorAll(".opt").forEach(x=>x.setAttribute("aria-pressed","false"));b.setAttribute("aria-pressed","true");sel=i;enable(true)}},it.opts[i]);box.append(b)});
+     stage.append(box);getAnswer=()=>({ok:sel===it.a,sol:it.opts[it.a]});break}
+   case"fill":{stage.append(h("span",{class:"kicker"},"Completa el hueco"),h("p",{class:"prompt"},it.q),it.hint?h("p",{class:"muted"},"Pista: "+it.hint):null);
+     const inp=h("input",{type:"text",id:"ans-"+r.i,autocomplete:"off",autocapitalize:"off",spellcheck:"false",placeholder:"Escribe la palabra",oninput:()=>enable(inp.value.trim())});
+     stage.append(inp);setTimeout(()=>inp.focus(),50);getAnswer=()=>{const g=grade(inp.value,it.a);return{...g,sol:it.q.replace("___",it.a[0])}};break}
+   case"tr":{stage.append(h("span",{class:"kicker"},"Traduce al portugués"),h("p",{class:"prompt"},it.q));
+     const ta=h("textarea",{id:"ans-"+r.i,placeholder:"Escribe en portugués",spellcheck:"false",oninput:()=>enable(ta.value.trim())});
+     stage.append(ta);getAnswer=()=>({...grade(ta.value,it.a),sol:it.a[0]});break}
+   case"listen":{stage.append(h("span",{class:"kicker"},"Escucha y escribe"),speakerBtns(it.say));setTimeout(()=>say(it.say),300);
+     const ta=h("textarea",{id:"ans-"+r.i,placeholder:"Escribe lo que oyes",spellcheck:"false",oninput:()=>enable(ta.value.trim())});
+     stage.append(ta);getAnswer=()=>({...grade(ta.value,it.a.concat([it.say])),sol:it.say});break}
+   case"build":{stage.append(h("span",{class:"kicker"},"Ordena la frase"),h("p",{class:"prompt"},it.q));
+     const ans=h("div",{class:"answer"}),bank=h("div",{class:"bank"});const picked=[];
+     shuffle(it.words.map((w,i)=>i)).forEach(i=>{const c=h("button",{class:"chip"},it.words[i]);
+       c.onclick=()=>{if(c.classList.contains("used"))return;c.classList.add("used");const p=h("button",{class:"chip"},it.words[i]);
+         p.onclick=()=>{p.remove();c.classList.remove("used");picked.splice(picked.indexOf(i),1);enable(picked.length)};ans.append(p);picked.push(i);enable(true)};bank.append(c)});
+     stage.append(ans,bank);getAnswer=()=>{const sent=[...ans.children].map(x=>x.textContent).join(" ");return{...grade(sent,[it.a]),sol:it.a}};break}
+   case"speak":{stage.append(h("span",{class:"kicker"},"Dilo en voz alta"),speakerBtns(it.say),h("p",{class:"prompt"},it.say));
+     const heard=h("p",{class:"heard muted"},cap.dict?"Pulsa el micro y lee la frase":"El micrófono no está disponible aquí. Escúchala, repítela en voz alta y continúa.");
+     let said="";
+     if(cap.dict){const mic=h("button",{class:"mic","aria-label":"Hablar"},icon("mic"));
+       mic.onclick=()=>{if(cap.dict.active()){cap.dict.stop();return}said="";
+         dictListen((t,fin)=>{said=t;heard.textContent=t;heard.classList.remove("muted");if(fin)enable(true)},(st,reason)=>{mic.classList.toggle("on",st==="listening");
+           if(st==="idle"&&said)enable(true);if(reason==="not_granted"||reason==="unavailable"){heard.textContent="No puedo usar el micro. Repite la frase en voz alta y continúa.";enable(true)}})
+         .catch(e=>{if(e.code==="not_granted"||e.code==="unavailable"){cap.dict=e.code==="unavailable"?cap.dict:null;heard.textContent="No puedo usar el micro. Repite la frase en voz alta y continúa.";enable(true)}})};
+       stage.append(mic)}else enable(true);
+     stage.append(heard);
+     getAnswer=()=>{try{cap.dict&&cap.dict.active()&&cap.dict.stop()}catch(e){}if(!said)return{ok:true,neutral:true,sol:it.say};
+       const s=similarity(said,it.say);return{ok:s>=.72,sol:it.say,note:s>=.72?(s>.92?"¡Pronunciación muy clara!":"Bien. Te he entendido casi todo."):"He entendido: «"+said+"»"}};
+     bar.append(h("button",{class:"skip",onclick:()=>{r.i++;showItem()}},"Ahora no puedo hablar"));break}
+   case"free":{stage.append(h("span",{class:"kicker"},"Escribe"),h("p",{class:"prompt"},it.q));
+     const ta=h("textarea",{id:"ans-free",placeholder:"Escreva aqui…",spellcheck:"false",oninput:()=>enable(ta.value.trim().length>8)});
+     stage.append(ta);if(!cap.sample)stage.append(h("p",{class:"note"},"Para corregir este texto hace falta Claude; si no está disponible, la prueba se puntúa solo con lo anterior."));
+     checkBtn.textContent="Enviar";
+     checkBtn.onclick=async()=>{checkBtn.disabled=true;r.writing=ta.value;
+       if(cap.sample){checkBtn.textContent="Bia está leyendo…";try{r.writingGrade=await gradeWriting(ta.value)}catch(e){r.writingGrade=null}}
+       r.i++;showItem()};
+     bar.append(checkBtn,h("button",{class:"skip",onclick:()=>{r.i++;showItem()}},"Saltar"));return}
+  }
+  checkBtn.onclick=()=>{const res=getAnswer();feedback(it,res,bar,stage)};
+  bar.prepend(checkBtn);
+  stage.addEventListener("keydown",e=>{if(e.key==="Enter"&&!e.shiftKey&&!checkBtn.disabled&&it.t!=="tr"&&it.t!=="listen"){e.preventDefault();checkBtn.click()}})}
+
+function feedback(it,res,bar,stage){const r=RUN;stage.querySelectorAll("button,input,textarea").forEach(x=>x.disabled=true);
+  if(!res.neutral){r.answered++;if(res.ok)r.correct++;}
+  r.results.push({lv:it.lv,ok:!!res.ok});
+  const isPlacement=r.kind==="placement";
+  if(res.ok){r.xp+=it.review?3:2;if(it.review)S.mistakes=S.mistakes.filter(m=>(m.q||m.say)!==(it.q||it.say))}
+  else if(!isPlacement){const key=it.q||it.say;if(!S.mistakes.some(m=>(m.q||m.say)===key)){const c=Object.assign({},it);delete c.review;S.mistakes.push(c);S.mistakes=S.mistakes.slice(-30)}
+    if(!r.noRequeue&&!it.requeued)r.items.push(Object.assign({},it,{requeued:true}))}
+  bar.replaceChildren();
+  if(isPlacement){r.i++;showItem();return}
+  beep(!!res.ok);bar.className="checkbar "+(res.ok?"ok":"bad");
+  const fb=h("div",{class:"fb"},h("h3",{},res.ok?(res.neutral?"Sigue así":"¡Muy bien!"):"Casi…"),
+    !res.ok?h("p",{},"Respuesta correcta: ",h("span",{class:"sol"},res.sol)):null,
+    res.note?h("p",{},res.note):null,it.why?h("p",{class:"muted"},rich(it.why)):null);
+  const ptSol=(it.t==="tr"||it.t==="fill"||it.t==="build"||it.t==="listen"||it.t==="speak")?res.sol:(it.say||null);
+  bar.append(fb);
+  const row=h("div",{class:"row"});if(ptSol)row.append(h("button",{class:"btn ghost",style:"flex:0 0 auto",onclick:()=>say(ptSol)},"Escuchar"));
+  row.append(h("button",{class:"btn"+(res.ok?"":" coral"),onclick:()=>{r.i++;showItem()}},"Continuar"));bar.append(row);
+  if(!res.ok&&ptSol)setTimeout(()=>say(ptSol),200)}
+
+function finish(){const r=RUN;stopAudio();
+  if(r.kind==="placement")return finishPlacement();
+  const t=today();if(S.lastDay!==t){S.streak=S.lastDay===yesterday()?S.streak+1:1;S.lastDay=t}
+  S.best=Math.max(S.best||0,S.streak);
+  const bonus=r.kind==="lesson"?10:5;S.xp+=r.xp+bonus;
+  if(r.kind==="lesson"&&!S.completed.includes(r.id))S.completed.push(r.id);save();
+  const pct=r.answered?Math.round(r.correct/r.answered*100):100;const mins=Math.max(1,Math.round((Date.now()-r.start)/60000));
+  beep(true);
+  app.replaceChildren(h("div",{class:"wrap"},
+    h("div",{class:"card hero"},h("div",{class:"bia"},h("span",{html:AVATAR}),h("div",{},h("h2",{},pct>=80?"Arrasou, Javier!":"Muito bem, Javier!"),h("p",{class:"muted"},r.title+" · lección terminada"))),
+      h("p",{},"Bia: «"+(pct>=80?"Você mandou muito bem. Amanhã tem mais!":"Os erros fazem parte. Amanhã a gente revisa.")+"»")),
+    h("div",{class:"stat"},h("div",{},h("b",{},"+"+(r.xp+bonus)),h("span",{},"XP")),h("div",{},h("b",{},pct+"%"),h("span",{},"aciertos")),h("div",{},h("b",{},mins+" min"),h("span",{},"tiempo"))),
+    h("div",{class:"card"},h("h3",{},"Racha: "+S.streak+(S.streak===1?" día":" días")),h("p",{class:"muted"},"Vuelve mañana para mantenerla. Los fallos de hoy aparecerán en el repaso.")),
+    h("div",{class:"row"},h("button",{class:"btn",onclick:()=>{RUN=null;view="home";render()}},"Continuar"),
+      h("button",{class:"btn ghost",onclick:()=>{RUN=null;view="chat";render()}},"Practicar hablando con Bia"))))}
+
+function finishPlacement(){const r=RUN;const by={};
+  for(const x of r.results){if(!x.lv||x.lv==="W")continue;by[x.lv]=by[x.lv]||{c:0,n:0};by[x.lv].n++;if(x.ok)by[x.lv].c++}
+  const bars={};let lvl="A0";for(const lv of["A1","A2","B1","B2","C1"]){const b=by[lv]||{c:0,n:1};bars[lv]=b.c/b.n;}
+  for(const lv of["A1","A2","B1","B2","C1"]){if(bars[lv]>=.6)lvl=lv;else break}
+  const wg=r.writingGrade;let final=lvl;
+  if(wg&&LEVELS.includes(wg.level)){const a=LEVELS.indexOf(lvl),b=LEVELS.indexOf(wg.level);if(b<a-1)final=LEVELS[b+1];if(b>a)final=LEVELS[Math.min(a+1,b)]}
+  S.placementDone=true;S.level=final;S.levelDetail={bars,test:lvl,writing:wg?wg.level:null,date:today()};save();
+  const start=COURSE.find(c=>c.id===START_BY_LEVEL[final]);
+  const w=h("div",{class:"wrap"},topBar(),
+    h("div",{class:"card"},h("span",{class:"kicker"},"Tu nivel"),h("div",{class:"big-level"},final),h("h2",{},LEVEL_NAMES[final]),
+      h("p",{class:"muted"},"Empiezas por la lección "+start.id+": «"+start.title+"». Puedes hacer cualquier lección anterior como repaso.")));
+  const bc=h("div",{class:"card"},h("h3",{},"Aciertos por nivel"));const bs=h("div",{class:"bars"});
+  for(const[lv,p]of Object.entries(bars))bs.append(h("div",{class:"b"},h("span",{},lv),h("span",{class:"t"},h("i",{style:`width:${Math.round(p*100)}%`})),h("span",{},Math.round(p*100)+"%")));
+  bc.append(bs);w.append(bc);
+  if(wg){const c=h("div",{class:"card"},h("h3",{},"Tu texto, corregido por Bia"),h("p",{class:"muted"},"Nivel del texto: "+wg.level));
+    if(wg.corrected)c.append(h("div",{class:"ex"},h("button",{class:"spk small","aria-label":"Escuchar",onclick:()=>say(String(wg.corrected))},icon("spk")),h("div",{},String(wg.corrected))));
+    (Array.isArray(wg.comments)?wg.comments:[]).forEach(x=>c.append(h("p",{},"• "+String(x))));w.append(c)}
+  w.append(h("button",{class:"btn block",onclick:()=>{RUN=null;startLesson(start.id)}},"Empezar la lección "+start.id),
+    h("button",{class:"btn ghost block",onclick:()=>{RUN=null;view="home";render()}},"Ver mi ruta"));
+  app.replaceChildren(w)}
+
+/* ======================= CHAT CON BIA ======================= */
+let chatBusy=false;
+function renderChat(){const w=h("div",{class:"wrap",style:"padding-bottom:150px"});w.append(topBar());
+  w.append(h("div",{class:"card"},h("div",{class:"bia"},h("span",{html:AVATAR}),h("div",{},h("h2",{},"Conversa com a Bia"),
+    h("p",{class:"muted"},"Háblale o escríbele en portugués. Te contesta en voz alta y te corrige en español.")))));
+  const list=h("div",{class:"chat",id:"chatlist"});
+  if(!S.chat.length)S.chat=[{role:"bot",pt:"Oi, Javier! Tudo bem? Me conta: o que você fez hoje?",es:"¡Hola, Javier! ¿Qué tal? Cuéntame: ¿qué has hecho hoy?"}];
+  S.chat.forEach(m=>list.append(msgEl(m)));w.append(list);
+  if(!cap.sample)w.append(h("p",{class:"note"},"Para conversar con Bia hace falta abrir esta página en claude.ai con tu cuenta."));
+  if(S.chat.length>1)w.append(h("button",{class:"skip",onclick:()=>{S.chat=[];save();render()}},"Empezar una conversación nueva"));
+  const inp=h("input",{type:"text",id:"chat-input",placeholder:"Escreva em português…",autocomplete:"off",spellcheck:"false"});
+  const micB=cap.dict?h("button",{type:"button",class:"round mic2","aria-label":"Hablar"},icon("mic")):null;
+  if(micB)micB.onclick=()=>{if(cap.dict.active()){cap.dict.stop();return}const base=inp.value?inp.value+" ":"";
+    dictListen((t)=>{inp.value=base+t},(st)=>{micB.classList.toggle("on",st==="listening");if(st==="idle"&&inp.value.trim())form.requestSubmit()}).catch(()=>{})};
+  const form=h("form",{onsubmit:e=>{e.preventDefault();const t=inp.value.trim();if(!t||chatBusy||!cap.sample)return;inp.value="";sendChat(t)}},
+    inp,micB,h("button",{class:"round","aria-label":"Enviar"},icon("send")));
+  app.append(w,h("div",{class:"composer"},form),tabs());
+  setTimeout(()=>window.scrollTo(0,document.body.scrollHeight),30)}
+function msgEl(m){if(m.role==="me")return h("div",{class:"msg me"},m.text);
+  const el=h("div",{class:"msg bot"},h("div",{},m.pt));
+  if(m.fix)el.append(h("div",{class:"fix"},rich("**Corrección:** "+m.fix)));
+  const tr=h("div",{class:"tr",hidden:true},m.es||"");
+  el.append(tr,h("div",{class:"acts"},h("button",{onclick:()=>say(m.pt)},"Escuchar"),h("button",{onclick:()=>say(m.pt,.7)},"Despacio"),m.es?h("button",{onclick:()=>{tr.hidden=!tr.hidden}},"Traducir"):null));return el}
+async function sendChat(text){chatBusy=true;S.chat.push({role:"me",text});const list=$("#chatlist");list.append(msgEl({role:"me",text}));
+  const wait=h("div",{class:"msg bot"},h("div",{class:"loading"},h("span",{class:"spin"}),"Bia está escribiendo…"));list.append(wait);window.scrollTo(0,document.body.scrollHeight);
+  const hist=S.chat.slice(-12).map(m=>m.role==="me"?"Javier: "+m.text:"Bia: "+m.pt).join("\n");
+  const prompt=`Eres "Bia", una profesora carioca simpática que conversa en portugués de Brasil con Javier para que llegue a hablar como un nativo.
+${learnerSummary()}
+Ajusta tu portugués a su nivel (si es A0-A1, frases muy cortas y sencillas). Habla con naturalidad brasileña (a gente, né, tá), haz UNA pregunta al final para seguir la conversación, y saca a menudo los verbos y temas que está estudiando. Si escribe en español, respóndele en portugués sencillo y anímale a intentarlo en portugués.
+Conversación hasta ahora:
+${hist}
+Devuelve SOLO JSON: {"pt":"tu respuesta en portugués de Brasil, 1-3 frases","es":"traducción al español de tu respuesta","fix":"si el último mensaje de Javier tiene errores, la versión correcta y una explicación muy breve en español; si está perfecto o suena natural, cadena vacía"}`;
+  try{const out=await cap.sample.json(prompt,{modelTier:"quick",cache:false});
+    const m={role:"bot",pt:String(out.pt||"…"),es:String(out.es||""),fix:String(out.fix||"")};S.chat.push(m);S.chat=S.chat.slice(-40);save();
+    wait.replaceWith(msgEl(m));S.xp+=1;say(m.pt)}
+  catch(e){wait.replaceWith(h("div",{class:"msg bot"},e&&e.code==="rate_limited"?"Has llegado al límite de uso por ahora. Inténtalo un poco más tarde.":"No me ha llegado tu mensaje. Inténtalo otra vez."));S.chat.pop()}
+  chatBusy=false;window.scrollTo(0,document.body.scrollHeight)}
+
+/* ======================= ARRANQUE ======================= */
+merge(lsGet());render();
+(async()=>{if(!window.claude||!window.claude.use)return;
+  const [tts,dict,sample,db,user]=await Promise.all(["tts","dictation","sample","db","user"].map(n=>window.claude.use(n).catch(()=>null)));
+  cap.tts=tts;cap.dict=dict;cap.sample=sample;cap.db=db;cap.user=user;
+  if(db&&user){try{const id=await user.id();if(id){cap.progressRef=db.collection("data/users/"+id).doc("progress");
+    const snap=await cap.progressRef.get();if(snap.exists){const remote=snap.data();
+      if(!S.createdAt||(remote.xp||0)>=(S.xp||0))merge(remote);else save()}else{S.createdAt=S.createdAt||Date.now();save()}}}catch(e){cap.progressRef=null}}
+  if(!RUN)render()})();
+</script>
