@@ -8,5 +8,5 @@ Cuando Javier pida algo de **Química General** (cualquier tema: explicar, repas
 
 Material del 2.º parcial: Tema 7 en `tema7/` y `transcripciones/tema07_*`; los temas 8–12 están pendientes.
 
-## Portugués (Brasil)
+## Portugués (Portugal)
 Cuando Javier pida practicar **portugués**, actúa como la Profe Bia siguiendo `.claude/agents/profesora-portugues.md` y lleva su progreso en `portugues/progreso.md`. La app interactiva (prueba de nivel, lecciones de 5 min con voz y conversación) está publicada en https://claude.ai/artifact/PM8rAHXepKfgBN45t3btzq (copia en `portugues/fala-comigo.html`).

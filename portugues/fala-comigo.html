@@ -167,156 +167,156 @@ textarea{min-height:110px}
 const LEVELS=["A0","A1","A2","B1","B2","C1"];
 const LEVEL_NAMES={A0:"Principiante",A1:"Inicial",A2:"Básico",B1:"Intermedio",B2:"Intermedio alto",C1:"Avanzado"};
 
-/* Ruta de lecciones: las 6 primeras están escritas a mano; el resto las prepara la Profe Bia (Claude) siguiendo el mismo orden. */
+/* Ruta de lecciones (portugués de Portugal): las 6 primeras están escritas a mano; el resto las prepara la Profe Bia (Claude) siguiendo el mismo orden. */
 const COURSE=[
- {id:1,unit:"Unidad 1 · El presente",title:"Eu falo português",topic:"Pronombres personales en Brasil (você, a gente) y presente de los verbos regulares en -AR (falar, morar, estudar, trabalhar, gostar de)"},
- {id:2,unit:"Unidad 1 · El presente",title:"Eu sou o Javier",topic:"El verbo SER en presente: identidad, origen y profesión"},
- {id:3,unit:"Unidad 1 · El presente",title:"Estou com fome",topic:"El verbo ESTAR, ser frente a estar, 'estar com fome/sede/frio' y 'ficar' para ubicaciones"},
- {id:4,unit:"Unidad 1 · El presente",title:"A gente come e aprende",topic:"Presente de los verbos regulares en -ER e -IR (comer, beber, aprender, entender, abrir, assistir)"},
- {id:5,unit:"Unidad 1 · El presente",title:"Tem que ter",topic:"El verbo TER, 'ter que' (obligación) y 'tem' con el sentido de 'hay'"},
+ {id:1,unit:"Unidad 1 · El presente",title:"Eu falo português",topic:"Pronombres en Portugal (tu, você, o senhor / a senhora, vocês) y presente de los verbos regulares en -AR (falar, morar, estudar, trabalhar, gostar de)"},
+ {id:2,unit:"Unidad 1 · El presente",title:"Eu sou o Javier",topic:"El verbo SER en presente (sou, és, é, somos, são): identidad, origen y profesión"},
+ {id:3,unit:"Unidad 1 · El presente",title:"Estou cansado",topic:"El verbo ESTAR, ser frente a estar, y 'ficar' para ubicaciones (onde fica a casa de banho?)"},
+ {id:4,unit:"Unidad 1 · El presente",title:"Não percebo",topic:"Presente de los verbos regulares en -ER e -IR (comer, beber, aprender, perceber, abrir) y 'apanhar' (coger el autobús/comboio)"},
+ {id:5,unit:"Unidad 1 · El presente",title:"Tenho de ir",topic:"El verbo TER, 'ter de' para la obligación y 'há' con el sentido de 'hay'"},
  {id:6,unit:"Unidad 1 · El presente",title:"Vou fazer isso",topic:"El verbo IR y el futuro con ir + infinitivo (sin 'a'), ir à / para"},
- {id:7,unit:"Unidad 2 · Irregulares clave",title:"Fazer, poder, querer",topic:"Presente de los irregulares fazer, poder, querer, saber, dizer"},
- {id:8,unit:"Unidad 2 · Irregulares clave",title:"Estou fazendo",topic:"Estar + gerundio en Brasil (estou fazendo), contraste con Portugal"},
- {id:9,unit:"Unidad 3 · El pasado",title:"Ontem eu falei",topic:"Pretérito perfeito de los verbos en -AR (falei, falou, falamos, falaram)"},
- {id:10,unit:"Unidad 3 · El pasado",title:"Eu fui e fiz",topic:"Pretérito perfeito de -ER/-IR y de los irregulares ser/ir (fui), fazer (fiz), ter (tive), estar (estive)"},
- {id:11,unit:"Unidad 3 · El pasado",title:"Quando eu era criança",topic:"Pretérito imperfeito (falava, comia, era, tinha) y su contraste con el perfeito"},
- {id:12,unit:"Unidad 3 · El pasado",title:"Fiquei feliz",topic:"El verbo FICAR y sus usos: quedarse, ponerse/volverse, estar situado, quedar con alguien"},
- {id:13,unit:"Unidad 4 · Planes y cortesía",title:"Eu falaria",topic:"Futuro do presente (falarei) frente a ir + infinitivo y futuro do pretérito / condicional (falaria) y 'ia falar'"},
- {id:14,unit:"Unidad 5 · El subjuntivo",title:"Espero que você venha",topic:"Presente do subjuntivo (que eu fale, que você venha, que seja, que esteja) tras expresiones de deseo, duda y emoción"},
- {id:15,unit:"Unidad 5 · El subjuntivo",title:"Se eu tivesse",topic:"Imperfeito do subjuntivo (se eu tivesse, se fosse) y oraciones condicionales"},
- {id:16,unit:"Unidad 5 · El subjuntivo",title:"Quando você chegar",topic:"Futuro do subjuntivo (quando você chegar, se puder, quem quiser), que no existe en el español actual"},
- {id:17,unit:"Unidad 6 · Hablar como nativo",title:"Pra gente estudar",topic:"Infinitivo pessoal (para nós estudarmos, é melhor vocês saírem)"},
- {id:18,unit:"Unidad 6 · Hablar como nativo",title:"Vi ele ontem",topic:"Pronombres de objeto en el habla brasileña (te vi, vi ele, me dá), colocación del pronombre y 'lhe' frente a 'você'"},
- {id:19,unit:"Unidad 6 · Hablar como nativo",title:"Tipo, né?",topic:"Marcadores y expresiones del día a día en Brasil: né, tipo, então, beleza, valeu, tá, cadê, a gente se vê"},
- {id:20,unit:"Unidad 6 · Hablar como nativo",title:"Falsos amigos",topic:"Falsos amigos frecuentes entre español y portugués (esquisito, polvo, apelido, exquisito, propina, borracha, oficina, ligar)"}
+ {id:7,unit:"Unidad 2 · Irregulares clave",title:"Fazer, poder, querer",topic:"Presente de los irregulares fazer, poder, querer, saber, dizer, vir, ver (con la forma de 'tu')"},
+ {id:8,unit:"Unidad 2 · Irregulares clave",title:"Estou a fazer",topic:"Estar a + infinitivo (estou a estudar), la forma de Portugal para el progresivo en lugar del gerundio"},
+ {id:9,unit:"Unidad 3 · El pasado",title:"Ontem falei",topic:"Pretérito perfeito de los verbos en -AR (falei, falaste, falou, falámos, falaram), incluido el acento de 'falámos'"},
+ {id:10,unit:"Unidad 3 · El pasado",title:"Fui e fiz",topic:"Pretérito perfeito de -ER/-IR y de los irregulares ser/ir (fui, foste), fazer (fiz), ter (tive), estar (estive)"},
+ {id:11,unit:"Unidad 3 · El pasado",title:"Quando era miúdo",topic:"Pretérito imperfeito (falava, comia, era, tinha) y su contraste con el perfeito"},
+ {id:12,unit:"Unidad 3 · El pasado",title:"Fiquei contente",topic:"El verbo FICAR y sus usos: quedarse, ponerse/volverse, estar situado, quedar bien (fica-te bem)"},
+ {id:13,unit:"Unidad 4 · Planes y cortesía",title:"Eu gostava de…",topic:"Futuro (falarei) frente a ir + infinitivo, condicional (falaria) y el imperfeito de cortesía tan típico de Portugal (eu gostava de, podia ajudar-me?)"},
+ {id:14,unit:"Unidad 5 · El conjuntivo",title:"Espero que venhas",topic:"Presente do conjuntivo (que eu fale, que tu venhas, que seja, que esteja) tras deseo, duda y emoción"},
+ {id:15,unit:"Unidad 5 · El conjuntivo",title:"Se eu tivesse",topic:"Pretérito imperfeito do conjuntivo (se eu tivesse, se fosse) y oraciones condicionales"},
+ {id:16,unit:"Unidad 5 · El conjuntivo",title:"Quando chegares",topic:"Futuro do conjuntivo (quando chegares, se puderes, quem quiser), que no existe en el español actual"},
+ {id:17,unit:"Unidad 6 · Hablar como nativo",title:"Para estudarmos",topic:"Infinitivo pessoal (para estudarmos, é melhor saíres, antes de vocês chegarem)"},
+ {id:18,unit:"Unidad 6 · Hablar como nativo",title:"Chamo-me Javier",topic:"Colocación de los pronombres en Portugal: ênclise (chamo-me, vi-o, dá-me), próclise tras não/que/já/também (não me chamo), y o/a → lo/la, no/na (fá-lo, dão-na)"},
+ {id:19,unit:"Unidad 6 · Hablar como nativo",title:"Fixe, pá!",topic:"Expresiones del día a día en Portugal: pá, fixe, porreiro, bué, ya, pois, então, tá bem, giro, chato, uma bica, um fino"},
+ {id:20,unit:"Unidad 6 · Hablar como nativo",title:"Falsos amigos",topic:"Falsos amigos entre español y portugués europeo (esquisito, polvo, apelido, propinas, borracha, oficina, talho, rato, embaraçada, constipado)"}
 ];
 const START_BY_LEVEL={A0:1,A1:1,A2:5,B1:9,B2:13,C1:17};
 
 const L={};
 L[1]=[
  {t:"teach",title:"Quién habla: los pronombres",
-  body:["En Brasil casi nadie usa **tu**: se dice **você**, y va con el verbo en 3.ª persona, igual que 'usted' en español.","Para 'nosotros', al hablar se usa muchísimo **a gente**, también con el verbo en 3.ª persona. **Nós** existe, pero suena más formal."],
-  table:[["yo","eu"],["tú","você"],["él / ella","ele / ela"],["nosotros","a gente / nós"],["vosotros, ustedes","vocês"],["ellos / ellas","eles / elas"]]},
+  body:["En Portugal el 'tú' es **tu**, con su propia forma del verbo, igual que en español: **tu falas** (tú hablas).","**Você** existe, pero dicho a la cara puede sonar distante o incluso brusco. Con desconocidos se usa **o senhor / a senhora**. Para 'vosotros' o 'ustedes' se dice **vocês**."],
+  table:[["yo","eu"],["tú","tu"],["usted","o senhor / a senhora"],["él / ella","ele / ela"],["nosotros","nós"],["vosotros, ustedes","vocês"],["ellos / ellas","eles / elas"]]},
  {t:"teach",title:"Verbos en -AR: falar",
-  body:["En la práctica te bastan tres formas: **falo**, **fala**, **falam**."],
-  table:[["eu","falo"],["você / ele / a gente","fala"],["nós","falamos"],["vocês / eles","falam"]],
-  examples:[{pt:"Eu falo espanhol.",es:"Hablo español."},{pt:"A gente fala português.",es:"Hablamos portugués."},{pt:"Eles falam rápido.",es:"Ellos hablan rápido."}],
-  tip:"Pronunciación: la -o final suena 'u' (falo → FA-lu) y -am suena nasal, 'ãu' (falam → FA-lãu)."},
- {t:"mc",q:"¿Cómo se dice 'tú' en Brasil?",opts:["você","tu","vós","ele"],a:0,why:"'Você' es el 'tú' normal en casi todo Brasil, y el verbo va en 3.ª persona: você fala."},
+  body:["Funciona casi como en español. La única diferencia es que 'vosotros' y 'ellos' comparten forma: **vocês falam**."],
+  table:[["eu","falo"],["tu","falas"],["ele / ela / o senhor","fala"],["nós","falamos"],["vocês / eles","falam"]],
+  examples:[{pt:"Eu falo espanhol.",es:"Hablo español."},{pt:"Tu falas muito bem!",es:"¡Hablas muy bien!"},{pt:"Nós falamos português.",es:"Hablamos portugués."}],
+  tip:"Pronunciación de Portugal: las vocales sin acento casi desaparecen y la -s final suena 'sh' (falas → 'FA-lash'). La -o final suena 'u' (falo → 'FA-lu')."},
+ {t:"mc",q:"¿Cómo le dices 'tú hablas' a un amigo en Portugal?",opts:["Tu falas","Você fala","Tu fala","Vós falais"],a:0,why:"Con amigos se usa 'tu' + 2.ª persona: tu falas."},
  {t:"mc",q:"¿Qué significa?",say:"Eu falo espanhol.",opts:["Yo hablo español.","Él habla español.","Hablamos español."],a:0,why:"'Falo' es la forma de 'eu'."},
- {t:"fill",q:"Eles ___ no Brasil.",hint:"morar",a:["moram"],why:"Eles → -am: moram. 'Morar' es vivir en un sitio."},
- {t:"fill",q:"A gente ___ todos os dias.",hint:"estudar",a:["estuda"],why:"'A gente' va con 3.ª persona del singular: a gente estuda."},
+ {t:"fill",q:"Eles ___ em Lisboa.",hint:"morar",a:["moram"],why:"Eles → -am: moram. 'Morar' es vivir en un sitio."},
+ {t:"fill",q:"Tu ___ todos os dias?",hint:"estudar",a:["estudas"],why:"Tu → -as: estudas."},
  {t:"teach",title:"Gostar DE",body:["Cuidado: en portugués no se dice 'me gusta'. Quien gusta es la persona, y siempre se añade **de**.","**de + o = do**, **de + a = da**."],
-  examples:[{pt:"Eu gosto de café.",es:"Me gusta el café."},{pt:"Você gosta da música?",es:"¿Te gusta la música?"},{pt:"A gente gosta do Brasil.",es:"Nos gusta Brasil."}]},
+  examples:[{pt:"Eu gosto de café.",es:"Me gusta el café."},{pt:"Gostas da música?",es:"¿Te gusta la música?"},{pt:"Nós gostamos do Porto.",es:"Nos gusta Oporto."}]},
  {t:"build",q:"Me gusta el café.",words:["Eu","gosto","de","café","me","o"],a:"Eu gosto de café",why:"Literalmente 'yo gusto de café'."},
- {t:"listen",say:"Você trabalha aqui?",a:["você trabalha aqui"],why:"'Trabalha' = trabajas. La 'lh' suena como la 'll' de 'calle' bien pronunciada."},
- {t:"tr",q:"Nosotros hablamos portugués.",a:["A gente fala português","Nós falamos português"],why:"Las dos valen; 'a gente fala' es lo más natural hablando."},
+ {t:"listen",say:"Tu trabalhas aqui?",a:["tu trabalhas aqui"],why:"'Trabalhas' = trabajas. La 'lh' suena como la 'll' de 'calle' bien pronunciada."},
+ {t:"tr",q:"Nosotros hablamos portugués.",a:["Nós falamos português","Falamos português"],why:"Como en español, el pronombre se puede quitar."},
  {t:"mc",q:"Elige la frase correcta:",opts:["Me gosta a música.","Eu gosto da música.","Eu gosto a música."],a:1,why:"Gostar + de, y de + a = da."},
- {t:"speak",say:"Eu moro em Madri e estudo química.",why:"Fíjate en 'moro' (MÓ-ru) y 'estudo' (es-TU-du)."},
- {t:"tr",q:"¿Tú trabajas?",a:["Você trabalha?","Você trabalha"],why:"Você + 3.ª persona: trabalha."}
+ {t:"speak",say:"Eu moro em Madrid e estudo química.",why:"En Portugal 'estudo' suena casi 'shtúdu': la e inicial apenas se oye y la s delante de consonante es 'sh'."},
+ {t:"tr",q:"¿Tú trabajas?",a:["Tu trabalhas?","Trabalhas?"],why:"Tu trabalhas. En Portugal, como en español, se suele omitir el 'tu'."}
 ];
 L[2]=[
- {t:"teach",title:"El verbo SER",body:["SER sirve para lo que eres: identidad, origen, profesión, características.","Ojo: igual que en español, la profesión va sin artículo: **Eu sou estudante**."],
-  table:[["eu","sou"],["você / ele / a gente","é"],["nós","somos"],["vocês / eles","são"]],
-  examples:[{pt:"Eu sou espanhol.",es:"Soy español."},{pt:"Ela é professora.",es:"Ella es profesora."},{pt:"Vocês são de onde?",es:"¿De dónde sois?"}],
-  tip:"'É' lleva acento abierto: suena como 'e' de 'perro'. 'São' es nasal: 'sãu'."},
+ {t:"teach",title:"El verbo SER",body:["SER sirve para lo que eres: identidad, origen, profesión, características.","Igual que en español, la profesión va sin artículo: **Eu sou estudante**."],
+  table:[["eu","sou"],["tu","és"],["ele / ela / o senhor","é"],["nós","somos"],["vocês / eles","são"]],
+  examples:[{pt:"Eu sou espanhol.",es:"Soy español."},{pt:"De onde és?",es:"¿De dónde eres?"},{pt:"Ela é professora.",es:"Ella es profesora."}],
+  tip:"'És' (tú eres) suena 'ésh'. 'São' es nasal: 'sãu'."},
  {t:"fill",q:"Eu ___ espanhol.",hint:"ser",a:["sou"],why:"Eu sou."},
- {t:"fill",q:"Vocês ___ brasileiros?",hint:"ser",a:["são"],why:"Vocês → são."},
+ {t:"fill",q:"Vocês ___ portugueses?",hint:"ser",a:["são"],why:"Vocês → são."},
  {t:"mc",q:"¿Qué significa?",say:"Ela é professora.",opts:["Ella es profesora.","Ella está en clase.","Ella tiene una profesora."],a:0,why:"'É' = es."},
- {t:"mc",q:"¿Cómo preguntas '¿De dónde eres?'",opts:["De onde você é?","Onde você está?","De onde você está?"],a:0,why:"El origen va con SER. 'Onde você está?' = ¿dónde estás?"},
- {t:"listen",say:"Eu sou de Madri.",a:["eu sou de madri"],why:"En portugués se escribe 'Madri', sin d final."},
- {t:"fill",q:"A gente ___ estudante.",hint:"ser",a:["é"],why:"'A gente' + 3.ª persona: a gente é."},
- {t:"build",q:"Somos amigos.",words:["Nós","somos","amigos","são","é","os"],a:"Nós somos amigos",why:"Nós → somos. También podrías oír 'a gente é amigo'."},
+ {t:"mc",q:"¿Cómo le preguntas a un amigo '¿De dónde eres?'",opts:["De onde és?","Onde estás?","De onde estás?"],a:0,why:"El origen va con SER, y con un amigo, forma de 'tu': és."},
+ {t:"listen",say:"Eu sou de Madrid.",a:["eu sou de madrid"],why:"En Portugal se escribe 'Madrid', igual que en español."},
+ {t:"fill",q:"Tu ___ muito simpático.",hint:"ser",a:["és"],why:"Tu és, con acento."},
+ {t:"build",q:"Somos amigos.",words:["Nós","somos","amigos","são","és","os"],a:"Nós somos amigos",why:"Nós → somos."},
  {t:"tr",q:"Él es médico.",a:["Ele é médico"],why:"Profesión sin artículo, como en español."},
- {t:"speak",say:"Prazer, eu sou o Javier.",why:"'Prazer' = encantado. En Brasil se suele poner artículo delante del nombre: o Javier, a Ana."},
+ {t:"speak",say:"Muito prazer, eu sou o Javier.",why:"En Portugal se suele poner artículo delante del nombre: o Javier, a Ana."},
  {t:"tr",q:"Soy estudiante de química.",a:["Eu sou estudante de química","Sou estudante de química"],why:"Estudante sirve para chico o chica."}
 ];
 L[3]=[
  {t:"teach",title:"El verbo ESTAR",body:["ESTAR se usa como en español: estados pasajeros y dónde está alguien o algo que se mueve."],
-  table:[["eu","estou"],["você / ele / a gente","está"],["nós","estamos"],["vocês / eles","estão"]],
-  examples:[{pt:"Estou cansado.",es:"Estoy cansado."},{pt:"Ela está em casa.",es:"Ella está en casa."},{pt:"Tudo bem? Tô bem!",es:"¿Qué tal? ¡Bien!"}],
-  tip:"Al hablar, los brasileños recortan ESTAR: tô, tá, tamo, tão. 'Tá bom' = vale."},
- {t:"teach",title:"Dos trampas para hispanohablantes",body:["1) Hambre, sed, frío y miedo van con **estar com**: Estou com fome (tengo hambre).","2) Para sitios que no se mueven (calles, edificios, ciudades) se usa **ficar**: Onde fica o banheiro? (¿dónde está el baño?)"]},
- {t:"fill",q:"Eu ___ cansado.",hint:"estar",a:["estou","tô"],why:"Eu estou (o 'tô' hablando)."},
- {t:"mc",q:"¿Cómo se dice 'Tengo hambre'?",opts:["Estou com fome.","Sou com fome.","Estou fome."],a:0,why:"Estar com + fome/sede/frio/medo."},
- {t:"fill",q:"Onde ___ o metrô?",hint:"ficar",a:["fica"],why:"Un lugar fijo: 'fica'."},
- {t:"mc",q:"Ela ___ brasileira.",opts:["é","está","fica"],a:0,why:"La nacionalidad es identidad: SER."},
+  table:[["eu","estou"],["tu","estás"],["ele / ela / o senhor","está"],["nós","estamos"],["vocês / eles","estão"]],
+  examples:[{pt:"Estou cansado.",es:"Estoy cansado."},{pt:"Ela está em casa.",es:"Ella está en casa."},{pt:"Como estás? Estou bem, obrigado.",es:"¿Qué tal estás? Bien, gracias."}],
+  tip:"Al hablar se oye mucho 'tou' y 'tá': tou cansado, tá bem (vale). Para dar las gracias, un chico dice 'obrigado' y una chica 'obrigada'."},
+ {t:"teach",title:"Dos cosas que cambian respecto al español",body:["1) Para sitios que no se mueven (calles, edificios, ciudades) se usa **ficar**: Onde fica a estação? (¿dónde está la estación?)","2) El baño es **a casa de banho**, y el metro, **o metro**. Hambre, sed y frío van con TER, como en español: **tenho fome**."]},
+ {t:"fill",q:"Eu ___ cansado.",hint:"estar",a:["estou","tou"],why:"Eu estou (o 'tou' al hablar)."},
+ {t:"mc",q:"¿Cómo se dice 'Tengo hambre'?",opts:["Tenho fome.","Sou com fome.","Estou fome."],a:0,why:"Como en español: tenho fome. También se oye 'estou com fome'."},
+ {t:"fill",q:"Onde ___ o metro?",hint:"ficar",a:["fica"],why:"Un lugar fijo: 'fica'."},
+ {t:"mc",q:"Ela ___ portuguesa.",opts:["é","está","fica"],a:0,why:"La nacionalidad es identidad: SER."},
  {t:"mc",q:"Ela ___ em casa agora.",opts:["é","está","são"],a:1,why:"Dónde está una persona ahora: ESTAR."},
- {t:"listen",say:"Tudo bem? Estou bem, e você?",a:["tudo bem estou bem e você","tudo bem tô bem e você"],why:"El saludo más típico de Brasil."},
- {t:"tr",q:"Estamos en Río.",a:["A gente está no Rio","Nós estamos no Rio"],why:"em + o = no. Rio lleva artículo: o Rio."},
- {t:"build",q:"¿Dónde está el baño?",words:["Onde","fica","o","banheiro","está","a"],a:"Onde fica o banheiro",why:"Baño = banheiro, y al ser un lugar fijo se usa 'fica'."},
- {t:"speak",say:"Estou com sede.",why:"'Sede' = sed. La 'de' final suena 'dyi': SÊ-dji."}
+ {t:"listen",say:"Olá, como estás? Estou bem, obrigado.",a:["olá como estás estou bem obrigado"],why:"El saludo más típico entre amigos."},
+ {t:"tr",q:"Estamos en Oporto.",a:["Nós estamos no Porto","Estamos no Porto"],why:"em + o = no. La ciudad lleva artículo: o Porto."},
+ {t:"build",q:"¿Dónde está el baño?",words:["Onde","fica","a","casa","de","banho","está","o"],a:"Onde fica a casa de banho",why:"Baño = casa de banho, y al ser un sitio fijo se usa 'fica'."},
+ {t:"speak",say:"Tenho sede e estou cansado.",why:"En Portugal la -e final casi no suena: 'sede' ≈ 'sêd'."}
 ];
 L[4]=[
  {t:"teach",title:"Verbos en -ER e -IR",body:["Funcionan casi igual que en español. Solo cambia la forma de 'nós': -emos / -imos."],
-  table:[["eu","como / abro"],["você / ele / a gente","come / abre"],["nós","comemos / abrimos"],["vocês / eles","comem / abrem"]],
-  examples:[{pt:"Eu como arroz e feijão.",es:"Como arroz y frijoles."},{pt:"Você entende?",es:"¿Entiendes?"},{pt:"Eles abrem cedo.",es:"Abren temprano."}],
-  tip:"Falso amigo: **assistir** = ver (la tele, una peli). Eu assisto TV = veo la tele."},
- {t:"fill",q:"Eu ___ arroz e feijão.",hint:"comer",a:["como"],why:"Eu → -o: como."},
+  table:[["eu","como / abro"],["tu","comes / abres"],["ele / ela / o senhor","come / abre"],["nós","comemos / abrimos"],["vocês / eles","comem / abrem"]],
+  examples:[{pt:"Eu como bacalhau.",es:"Como bacalao."},{pt:"Percebes?",es:"¿Entiendes?"},{pt:"Eles abrem cedo.",es:"Abren temprano."}],
+  tip:"Muy de Portugal: para 'entender' se dice **perceber** (não percebo = no entiendo), y **apanhar** es 'coger': apanhar o autocarro, apanhar o comboio."},
+ {t:"fill",q:"Eu ___ bacalhau ao domingo.",hint:"comer",a:["como"],why:"Eu → -o: como."},
  {t:"fill",q:"Vocês ___ a janela?",hint:"abrir",a:["abrem"],why:"Vocês → -em: abrem. Janela = ventana."},
- {t:"mc",q:"¿Qué significa?",say:"Eu assisto TV à noite.",opts:["Veo la tele por la noche.","Ayudo en la tele por la noche.","Asisto a la tele."],a:0,why:"Assistir = ver un programa o una película."},
- {t:"fill",q:"A gente ___ português.",hint:"aprender",a:["aprende"],why:"A gente aprende."},
- {t:"tr",q:"No entiendo.",a:["Eu não entendo","Não entendo"],why:"'Não' va delante del verbo y suena nasal: 'nãu'."},
- {t:"listen",say:"Você bebe café?",a:["você bebe café"],why:"Bebe = bebes."},
+ {t:"mc",q:"¿Qué significa?",say:"Eu apanho o autocarro às oito.",opts:["Cojo el autobús a las ocho.","Pierdo el autobús a las ocho.","Espero el autobús a las ocho."],a:0,why:"Apanhar = coger. Autocarro = autobús."},
+ {t:"fill",q:"Tu ___ português?",hint:"aprender",a:["aprendes"],why:"Tu → -es: aprendes."},
+ {t:"tr",q:"No entiendo.",a:["Não percebo","Eu não percebo","Não entendo","Eu não entendo"],why:"Las dos valen, pero 'não percebo' es lo más portugués. 'Não' suena nasal: 'nãu'."},
+ {t:"listen",say:"Tu bebes café?",a:["tu bebes café"],why:"En Portugal un café solo es 'uma bica' (en Lisboa) o 'um cimbalino' (en Oporto)."},
  {t:"build",q:"Ellos escriben mucho.",words:["Eles","escrevem","muito","escribem","muitos"],a:"Eles escrevem muito",why:"Escrever, con v: escrevem."},
- {t:"mc",q:"Nosotros vivimos en Madrid.",opts:["Nós vivemos em Madri.","Nós vivimos em Madri.","Nós vive em Madri."],a:0,why:"Viver es -ER: vivemos. (También: A gente mora em Madri.)"},
- {t:"speak",say:"A gente aprende rápido.",why:"'Rápido' se dice RRA-pi-du: la r inicial suena como una j suave."}
+ {t:"mc",q:"Nosotros vivimos en Madrid.",opts:["Nós vivemos em Madrid.","Nós vivimos em Madrid.","Nós vive em Madrid."],a:0,why:"Viver es -ER: vivemos. (También: moramos em Madrid.)"},
+ {t:"speak",say:"Nós aprendemos depressa.",why:"'Depressa' = rápido, muy usado en Portugal."}
 ];
 L[5]=[
- {t:"teach",title:"El verbo TER",body:["TER = tener. **Ter que** + infinitivo = tener que.","En Brasil, **tem** también significa 'hay': Tem muita gente aqui. (Há es más formal.)"],
-  table:[["eu","tenho"],["você / ele / a gente","tem"],["nós","temos"],["vocês / eles","têm"]],
-  examples:[{pt:"Eu tenho vinte anos.",es:"Tengo veinte años."},{pt:"Tenho que trabalhar.",es:"Tengo que trabajar."},{pt:"Tem pão?",es:"¿Hay pan?"}],
-  tip:"'Tenho' suena 'TÊ-nyu'; 'nh' es como la ñ."},
+ {t:"teach",title:"El verbo TER",body:["TER = tener. Para la obligación, en Portugal se dice sobre todo **ter de** + infinitivo (también se oye 'ter que').","'Hay' es **há**: Há muita gente aqui."],
+  table:[["eu","tenho"],["tu","tens"],["ele / ela / o senhor","tem"],["nós","temos"],["vocês / eles","têm"]],
+  examples:[{pt:"Tenho vinte anos.",es:"Tengo veinte años."},{pt:"Tenho de trabalhar.",es:"Tengo que trabajar."},{pt:"Há pão?",es:"¿Hay pan?"}],
+  tip:"'Nh' suena como la ñ: tenho ≈ 'TÊ-ñu'. 'Têm' (ellos tienen) se escribe con circunflejo y suena distinto de 'tem': algo como 'tãi-ãi'."},
  {t:"fill",q:"Eu ___ vinte anos.",hint:"ter",a:["tenho"],why:"Eu tenho."},
- {t:"mc",q:"¿Cómo dices 'Hay mucha gente aquí'?",opts:["Tem muita gente aqui.","Tenho muita gente aqui.","Está muita gente aqui."],a:0,why:"Tem = hay. 'Há muita gente' también es correcto, pero más formal."},
- {t:"fill",q:"A gente ___ que estudar.",hint:"ter",a:["tem"],why:"A gente tem que..."},
- {t:"tr",q:"Tengo que trabajar.",a:["Eu tenho que trabalhar","Tenho que trabalhar"],why:"Ter que + infinitivo."},
- {t:"listen",say:"Tem um mercado perto daqui?",a:["tem um mercado perto daqui"],why:"Perto daqui = cerca de aquí."},
+ {t:"mc",q:"¿Cómo dices 'Hay mucha gente aquí'?",opts:["Há muita gente aqui.","Tenho muita gente aqui.","Está muita gente aqui."],a:0,why:"Há = hay."},
+ {t:"fill",q:"Nós ___ de estudar.",hint:"ter",a:["temos"],why:"Nós temos de..."},
+ {t:"tr",q:"Tengo que trabajar.",a:["Tenho de trabalhar","Eu tenho de trabalhar","Tenho que trabalhar","Eu tenho que trabalhar"],why:"En Portugal lo más típico es 'ter de'."},
+ {t:"listen",say:"Há um supermercado perto daqui?",a:["há um supermercado perto daqui"],why:"Perto daqui = cerca de aquí."},
  {t:"build",q:"Ellos tienen dos hijos.",words:["Eles","têm","dois","filhos","tem","duas"],a:"Eles têm dois filhos",why:"Eles têm, con acento circunflejo. Hijos = filhos."},
- {t:"mc",q:"¿Cuántos años tienes?",opts:["Quantos anos você tem?","Quantos anos tem você tenho?","Quanto ano você é?"],a:0,why:"Quantos anos você tem?"},
- {t:"fill",q:"Vocês ___ tempo?",hint:"ter",a:["têm"],why:"Vocês têm (se pronuncia igual que 'tem')."},
- {t:"speak",say:"Eu tenho que ir agora.",why:"Frase muy útil para despedirte."}
+ {t:"mc",q:"¿Cuántos años tienes?",opts:["Quantos anos tens?","Quantos anos tem tu?","Quanto ano és?"],a:0,why:"Tu tens."},
+ {t:"fill",q:"Tu ___ tempo?",hint:"ter",a:["tens"],why:"Tu tens."},
+ {t:"speak",say:"Tenho de ir embora.",why:"'Ir embora' = irse. Muy útil para despedirte."}
 ];
 L[6]=[
- {t:"teach",title:"IR y el futuro",body:["El futuro más usado en Brasil es **ir + infinitivo**, y sin 'a' en medio: **Vou estudar** (voy a estudiar).","Para ir a un sitio: **vou à praia**, **vou para casa** (hablando, 'pra casa')."],
-  table:[["eu","vou"],["você / ele / a gente","vai"],["nós","vamos"],["vocês / eles","vão"]],
-  examples:[{pt:"Vou estudar amanhã.",es:"Voy a estudiar mañana."},{pt:"A gente vai à praia.",es:"Vamos a la playa."},{pt:"O que você vai fazer?",es:"¿Qué vas a hacer?"}],
+ {t:"teach",title:"IR y el futuro",body:["Al hablar, el futuro más usado es **ir + infinitivo**, y sin 'a' en medio: **Vou estudar** (voy a estudiar).","Para ir a un sitio: **vou à praia**, **vou para casa**."],
+  table:[["eu","vou"],["tu","vais"],["ele / ela / o senhor","vai"],["nós","vamos"],["vocês / eles","vão"]],
+  examples:[{pt:"Vou estudar amanhã.",es:"Voy a estudiar mañana."},{pt:"Vamos à praia.",es:"Vamos a la playa."},{pt:"O que vais fazer?",es:"¿Qué vas a hacer?"}],
   tip:"El error más típico de un hispanohablante es decir 'vou a comer'. Lo correcto es 'vou comer'."},
  {t:"fill",q:"Eu ___ estudar amanhã.",hint:"ir",a:["vou"],why:"Eu vou + infinitivo."},
  {t:"mc",q:"Voy a comer.",opts:["Vou comer.","Vou a comer.","Vou de comer."],a:0,why:"Sin 'a' entre ir y el infinitivo."},
  {t:"fill",q:"Eles ___ viajar.",hint:"ir",a:["vão"],why:"Eles vão."},
- {t:"tr",q:"Vamos a la playa.",a:["A gente vai à praia","Vamos à praia","Nós vamos à praia","A gente vai para a praia","Vamos para a praia","A gente vai pra praia","Vamos pra praia"],why:"a + a = à."},
- {t:"listen",say:"O que você vai fazer hoje?",a:["o que você vai fazer hoje"],why:"Pregunta típica para hacer planes."},
- {t:"build",q:"Mañana voy a trabajar.",words:["Amanhã","eu","vou","trabalhar","a","vai"],a:"Amanhã eu vou trabalhar",why:"Sin 'a' delante de trabalhar."},
- {t:"mc",q:"¿Qué significa?",say:"Vou pra casa.",opts:["Me voy a casa.","Voy por casa.","Vengo de casa."],a:0,why:"'Pra' es 'para' recortado, y se oye a todas horas."},
- {t:"fill",q:"A gente ___ ligar para você.",hint:"ir",a:["vai"],why:"A gente vai. Ligar = llamar por teléfono."},
- {t:"speak",say:"Amanhã a gente vai sair.",why:"Sair = salir."}
+ {t:"tr",q:"Vamos a la playa.",a:["Vamos à praia","Nós vamos à praia","Vamos para a praia","Nós vamos para a praia"],why:"a + a = à."},
+ {t:"listen",say:"O que vais fazer hoje?",a:["o que vais fazer hoje"],why:"Pregunta típica para hacer planes."},
+ {t:"build",q:"Mañana voy a trabajar.",words:["Amanhã","eu","vou","trabalhar","a","vais"],a:"Amanhã eu vou trabalhar",why:"Sin 'a' delante de trabalhar."},
+ {t:"mc",q:"¿Qué significa?",say:"Vou para casa.",opts:["Me voy a casa.","Voy por casa.","Vengo de casa."],a:0,why:"Ir para = ir a (un destino)."},
+ {t:"fill",q:"Tu ___ ligar-me amanhã?",hint:"ir",a:["vais"],why:"Tu vais. Ligar = llamar por teléfono. Fíjate en 'ligar-me': en Portugal el pronombre suele ir detrás, con guion."},
+ {t:"speak",say:"Amanhã vamos sair à noite.",why:"Sair = salir. 'À noite' = por la noche."}
 ];
 
 const PLACEMENT=[
  {lv:"A1",t:"mc",q:"¿Qué significa 'Obrigado'?",opts:["Gracias","Obligado","Perdón","Adiós"],a:0},
- {lv:"A1",t:"tr",q:"Me llamo Javier.",a:["Eu me chamo Javier","Me chamo Javier","Meu nome é Javier","Eu sou o Javier","Sou o Javier"]},
- {lv:"A1",t:"listen",say:"Eu moro em Madri.",a:["eu moro em madri"]},
- {lv:"A1",t:"mc",q:"¿Qué significa 'Estou com fome'?",opts:["Tengo hambre","Estoy con fama","Estoy cansado","Tengo sueño"],a:0},
+ {lv:"A1",t:"tr",q:"Me llamo Javier.",a:["Chamo-me Javier","Eu chamo-me Javier","O meu nome é Javier","Meu nome é Javier","Sou o Javier","Eu sou o Javier"]},
+ {lv:"A1",t:"listen",say:"Eu moro em Madrid.",a:["eu moro em madrid"]},
+ {lv:"A1",t:"mc",q:"¿Qué significa 'Tenho fome'?",opts:["Tengo hambre","Tengo fama","Estoy cansado","Tengo sueño"],a:0},
  {lv:"A2",t:"fill",q:"Ontem eu ___ à praia.",hint:"ir",a:["fui"]},
- {lv:"A2",t:"mc",q:"¿Qué significa 'Eu assisto TV à noite'?",opts:["Veo la tele por la noche","Ayudo en la tele por la noche","Asisto a una cena"],a:0},
+ {lv:"A2",t:"mc",q:"¿Qué significa 'Apanho o comboio às oito'?",opts:["Cojo el tren a las ocho","Pierdo el autobús a las ocho","Como a las ocho"],a:0},
  {lv:"A2",t:"fill",q:"Eu moro ___ cidade.",hint:"em + a",a:["na"]},
- {lv:"A2",t:"listen",say:"A gente vai viajar amanhã.",a:["a gente vai viajar amanhã"]},
+ {lv:"A2",t:"listen",say:"Amanhã vamos viajar.",a:["amanhã vamos viajar"]},
  {lv:"B1",t:"mc",q:"¿Qué significa 'esquisito'?",opts:["Raro, extraño","Exquisito, delicioso","Esquiador","Pequeño"],a:0},
- {lv:"B1",t:"fill",q:"Quando eu era criança, eu ___ futebol todo dia.",hint:"jogar",a:["jogava"]},
- {lv:"B1",t:"tr",q:"Estoy estudiando.",a:["Estou estudando","Eu estou estudando","Tô estudando","Eu tô estudando"]},
- {lv:"B1",t:"mc",q:"Espero que você ___ bem.",opts:["esteja","está","estar","estava"],a:0},
- {lv:"B2",t:"fill",q:"Se eu ___ dinheiro, viajaria para Lisboa.",hint:"ter",a:["tivesse"]},
- {lv:"B2",t:"fill",q:"Quando você ___ em casa, me liga.",hint:"chegar",a:["chegar"]},
- {lv:"B2",t:"mc",q:"¿Qué significa 'Ele pagou o pato'?",opts:["Pagó los platos rotos","Pagó la cena","Compró un pato","Se fue sin pagar"],a:0},
+ {lv:"B1",t:"fill",q:"Quando eu era miúdo, ___ futebol todos os dias.",hint:"jogar",a:["jogava"]},
+ {lv:"B1",t:"tr",q:"Estoy estudiando.",a:["Estou a estudar","Eu estou a estudar","Tou a estudar"]},
+ {lv:"B1",t:"mc",q:"Espero que tu ___ bem.",opts:["estejas","estás","estar","estavas"],a:0},
+ {lv:"B2",t:"fill",q:"Se eu ___ dinheiro, viajava para Lisboa.",hint:"ter",a:["tivesse"]},
+ {lv:"B2",t:"fill",q:"Quando ___ a casa, liga-me.",hint:"chegar, tu",a:["chegares"]},
+ {lv:"B2",t:"mc",q:"¿Qué significa 'Quem pagou as favas fui eu'?",opts:["El que pagó los platos rotos fui yo","El que pagó la cena fui yo","El que compró las habas fui yo","El que se fue sin pagar fui yo"],a:0},
  {lv:"C1",t:"fill",q:"É importante nós ___ todos os dias.",hint:"estudar, infinitivo personal",a:["estudarmos"]},
- {lv:"C1",t:"mc",q:"¿Qué es 'fazer uma vaquinha'?",opts:["Juntar dinero entre varios","Ordeñar una vaca","Hacer el tonto","Echarse la siesta"],a:0},
- {lv:"C1",t:"mc",q:"¿Cuál suena más natural en una conversación en Brasil?",opts:["Eu vi ele ontem.","Vi-o ontem.","Eu o vi ontem, pois."],a:0},
+ {lv:"C1",t:"mc",q:"¿Qué significa 'Hoje ele está com os azeites'?",opts:["Hoy está de mal humor","Hoy está cocinando","Hoy está muy contento","Hoy tiene prisa"],a:0},
+ {lv:"C1",t:"mc",q:"¿Cuál suena natural en Portugal?",opts:["Vi-o ontem.","Eu vi ele ontem.","Eu o vi ontem."],a:0},
  {lv:"W",t:"free",q:"Escribe 3–5 frases en portugués: qué hiciste ayer o por qué quieres aprender portugués. Da igual si tiene errores."}
 ];
 
 /* ======================= ESTADO ======================= */
-const DEFAULT={placementDone:false,level:null,levelDetail:null,completed:[],xp:0,streak:0,best:0,lastDay:null,mistakes:[],generated:{},chat:[],createdAt:null};
+const DEFAULT={variant:"pt-PT",placementDone:false,level:null,levelDetail:null,completed:[],xp:0,streak:0,best:0,lastDay:null,mistakes:[],generated:{},chat:[],createdAt:null};
 let S=JSON.parse(JSON.stringify(DEFAULT));
 let cap={tts:null,dict:null,sample:null,db:null,user:null,progressRef:null};
 let view="home";
@@ -324,7 +324,7 @@ let saveTimer=null;
 
 function lsGet(){try{return JSON.parse(localStorage.getItem("fala-comigo")||"null")}catch(e){return null}}
 function lsSet(){try{localStorage.setItem("fala-comigo",JSON.stringify(S))}catch(e){}}
-function merge(o){S=Object.assign(JSON.parse(JSON.stringify(DEFAULT)),o||{})}
+function merge(o){S=Object.assign(JSON.parse(JSON.stringify(DEFAULT)),o||{});if(S.variant!=="pt-PT"){S.variant="pt-PT";S.generated={};S.chat=[];S.mistakes=[]}}
 function save(){lsSet();if(!cap.progressRef)return;clearTimeout(saveTimer);
   saveTimer=setTimeout(()=>{cap.progressRef.set(JSON.parse(JSON.stringify(S))).catch(()=>{})},600)}
 function today(){const d=new Date();return d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0")+"-"+String(d.getDate()).padStart(2,"0")}
@@ -373,9 +373,9 @@ function shuffle(a){a=a.slice();for(let i=a.length-1;i>0;i--){const j=Math.floor
 /* ======================= VOZ ======================= */
 let speakRate=1;
 async function say(text,rate){rate=rate||speakRate;
-  if(cap.tts){try{await cap.tts.speak(text,{language:"pt-BR",rate,voice:"airy"});return}catch(e){if(e&&e.code==="not_granted")cap.tts=null;else if(e&&(e.code==="stopped"||e.code==="replaced"))return}}
-  try{const ss=window.speechSynthesis;if(!ss)return;ss.cancel();const u=new SpeechSynthesisUtterance(text);u.lang="pt-BR";u.rate=rate<1?0.7:0.95;
-    const v=ss.getVoices().find(v=>/pt[-_]BR/i.test(v.lang))||ss.getVoices().find(v=>/^pt/i.test(v.lang));if(v)u.voice=v;ss.speak(u)}catch(e){}}
+  if(cap.tts){try{await cap.tts.speak(text,{language:"pt-PT",rate,voice:"airy"});return}catch(e){if(e&&e.code==="not_granted")cap.tts=null;else if(e&&(e.code==="stopped"||e.code==="replaced"))return}}
+  try{const ss=window.speechSynthesis;if(!ss)return;ss.cancel();const u=new SpeechSynthesisUtterance(text);u.lang="pt-PT";u.rate=rate<1?0.7:0.95;
+    const v=ss.getVoices().find(v=>/pt[-_]PT/i.test(v.lang))||ss.getVoices().find(v=>/^pt/i.test(v.lang));if(v)u.voice=v;ss.speak(u)}catch(e){}}
 let actx=null;
 function beep(ok){try{actx=actx||new (window.AudioContext||window.webkitAudioContext)();const t=actx.currentTime;
   (ok?[660,880]:[300,220]).forEach((f,i)=>{const o=actx.createOscillator(),g=actx.createGain();o.frequency.value=f;o.type=ok?"sine":"triangle";
@@ -386,27 +386,27 @@ function speakerBtns(text){return h("div",{class:"saybox"},
   h("button",{class:"spk small slow","aria-label":"Escuchar despacio",onclick:()=>say(text,.7)},icon("slow")))}
 
 /* Dictado: una sesión por pulsación */
-let dictUnsub=[];
+let dictUnsub=[];let dictLang="pt-PT";
 function dictListen(onText,onStateUI){const d=cap.dict;if(!d)return Promise.reject({code:"unavailable"});
   dictUnsub.forEach(f=>f());let finalT="";
   dictUnsub=[d.onPartial(({text})=>onText((finalT+" "+text).trim(),false)),d.onFinal(({text})=>{finalT+=text;onText(finalT.trim(),true)}),d.onState(({state,reason})=>onStateUI(state,reason))];
-  const p=d.start({language:"pt-BR"});return p}
+  const p=d.start({language:dictLang});return p}
 
 /* ======================= CLAUDE (Profe Bia) ======================= */
 function learnerSummary(){const m=S.mistakes.slice(-8).map(x=>x.q||x.say||"").filter(Boolean);
   return `Alumno: Javier, hispanohablante (España), estudia química. Nivel estimado: ${S.level||"desconocido"}. Lecciones hechas: ${S.completed.join(", ")||"ninguna"}. Fallos recientes: ${m.join(" | ")||"ninguno"}.`}
 
 async function genLesson(c){
-  const prompt=`Eres "Profe Bia", profesora nativa de portugués de Brasil para hispanohablantes. Prepara UNA lección de unos 5 minutos.
+  const prompt=`Eres "Profe Bia", profesora nativa de portugués europeo (de Lisboa) para hispanohablantes. Prepara UNA lección de unos 5 minutos.
 ${learnerSummary()}
 Tema de la lección ${c.id} ("${c.title}"): ${c.topic}.
 Las lecciones anteriores del curso fueron, en orden: ${COURSE.filter(x=>x.id<c.id).map(x=>x.title).join("; ")}. Puedes reutilizar su vocabulario y repasar algo de ellas.
-Portugués de Brasil, coloquial pero correcto. Explicaciones en español de España, breves y claras, centradas en los errores típicos de un hispanohablante.
+Portugués de Portugal (norma europea, Acordo Ortográfico de 1990): tu con su forma verbal, estar a + infinitivo, pronombres enclíticos (chamo-me), vocabulario de Portugal (autocarro, comboio, casa de banho, pequeno-almoço, telemóvel). Nunca uses formas brasileñas. Explicaciones en español de España, breves y claras, centradas en los errores típicos de un hispanohablante.
 Devuelve SOLO un array JSON de 12 a 14 elementos. Empieza con 1 o 2 tarjetas "teach" y luego ejercicios variados (al menos 2 "fill", 2 "mc", 1 "build", 1 "listen", 1 "speak", 2 "tr"). Formatos exactos:
-{"t":"teach","title":"...","body":["párrafo, usa **negrita** para lo clave"],"table":[["eu","falei"],["você","falou"]],"examples":[{"pt":"...","es":"..."}],"tip":"..."}  (table, examples y tip son opcionales)
+{"t":"teach","title":"...","body":["párrafo, usa **negrita** para lo clave"],"table":[["eu","falei"],["tu","falaste"]],"examples":[{"pt":"...","es":"..."}],"tip":"..."}  (table, examples y tip son opcionales)
 {"t":"mc","q":"pregunta en español o frase en portugués","say":"opcional: frase pt que se reproduce en audio","opts":["...","...","..."],"a":0,"why":"explicación breve"}
 {"t":"fill","q":"Frase en portugués con ___ en el hueco","hint":"verbo en infinitivo","a":["respuesta","variante aceptada"],"why":"..."}
-{"t":"tr","q":"Frase en español para traducir","a":["traducción pt-BR","otras variantes naturales"],"why":"..."}
+{"t":"tr","q":"Frase en español para traducir","a":["traducción pt-PT","otras variantes naturales"],"why":"..."}
 {"t":"build","q":"Frase en español","words":["palabras","de","la","respuesta","más","2-3","distractores"],"a":"Respuesta exacta en portugués sin punto final","why":"..."}
 {"t":"listen","say":"Frase en portugués que el alumno oirá y escribirá","a":["la frase en minúsculas sin signos"],"why":"..."}
 {"t":"speak","say":"Frase en portugués para que el alumno la diga en voz alta","why":"pista de pronunciación"}
@@ -423,9 +423,9 @@ function validEx(e){if(!e||typeof e!=="object")return false;const s=x=>typeof x=
    case"speak":return s(e.say);default:return false}}
 
 async function gradeWriting(text){
-  const prompt=`Eres profesora de portugués de Brasil. Un hispanohablante ha escrito este texto en una prueba de nivel:
+  const prompt=`Eres profesora de portugués de Portugal. Un hispanohablante ha escrito este texto en una prueba de nivel:
 """${text}"""
-Evalúalo según el MCER. Devuelve SOLO JSON: {"level":"A0|A1|A2|B1|B2|C1","corrected":"el texto corregido en portugués de Brasil natural","comments":["2-4 observaciones breves en español sobre sus errores y lo que hace bien"]}. Si está en español o casi vacío, level "A0".`;
+Evalúalo según el MCER. Devuelve SOLO JSON: {"level":"A0|A1|A2|B1|B2|C1","corrected":"el texto corregido en portugués europeo natural","comments":["2-4 observaciones breves en español sobre sus errores y lo que hace bien"]}. Si está en español o casi vacío, level "A0".`;
   return cap.sample.json(prompt,{modelTier:"default"})}
 
 /* ======================= RENDER: CASA ======================= */
@@ -446,7 +446,7 @@ function stopAudio(){try{cap.tts&&cap.tts.stop()}catch(e){}try{window.speechSynt
 function renderHome(){const w=h("div",{class:"wrap"});w.append(topBar());
   if(!S.placementDone){
     w.append(h("div",{class:"card hero"},
-      h("div",{class:"bia"},h("span",{html:AVATAR}),h("div",{},h("h2",{},"Oi, Javier! Eu sou a Bia."),h("p",{class:"muted"},"Tu profe de portugués de Brasil."))),
+      h("div",{class:"bia"},h("span",{html:AVATAR}),h("div",{},h("h2",{},"Oi, Javier! Eu sou a Bia."),h("p",{class:"muted"},"Tu profe de portugués de Portugal."))),
       h("p",{},"Primero vemos tu nivel: 18 preguntas que van de fácil a difícil, con audio, más un texto corto que corrijo yo. Son unos 6 minutos."),
       h("div",{class:"row"},h("button",{class:"btn light",onclick:startPlacement},"Hacer la prueba de nivel"),
         h("button",{class:"btn ghost",style:"color:#fff;border-color:#ffffff66",onclick:()=>{S.placementDone=true;S.level="A0";save();render()}},"Empezar desde cero"))))}
@@ -538,14 +538,14 @@ function showItem(){stopAudio();const r=RUN;if(r.i>=r.items.length)return finish
        mic.onclick=()=>{if(cap.dict.active()){cap.dict.stop();return}said="";
          dictListen((t,fin)=>{said=t;heard.textContent=t;heard.classList.remove("muted");if(fin)enable(true)},(st,reason)=>{mic.classList.toggle("on",st==="listening");
            if(st==="idle"&&said)enable(true);if(reason==="not_granted"||reason==="unavailable"){heard.textContent="No puedo usar el micro. Repite la frase en voz alta y continúa.";enable(true)}})
-         .catch(e=>{if(e.code==="not_granted"||e.code==="unavailable"){cap.dict=e.code==="unavailable"?cap.dict:null;heard.textContent="No puedo usar el micro. Repite la frase en voz alta y continúa.";enable(true)}})};
+         .catch(e=>{if(e.code==="unavailable"&&dictLang==="pt-PT"){dictLang="pt";heard.textContent="Vuelve a pulsar el micro.";return}if(e.code==="not_granted"||e.code==="unavailable"){cap.dict=e.code==="unavailable"?cap.dict:null;heard.textContent="No puedo usar el micro. Repite la frase en voz alta y continúa.";enable(true)}})};
        stage.append(mic)}else enable(true);
      stage.append(heard);
      getAnswer=()=>{try{cap.dict&&cap.dict.active()&&cap.dict.stop()}catch(e){}if(!said)return{ok:true,neutral:true,sol:it.say};
        const s=similarity(said,it.say);return{ok:s>=.72,sol:it.say,note:s>=.72?(s>.92?"¡Pronunciación muy clara!":"Bien. Te he entendido casi todo."):"He entendido: «"+said+"»"}};
      bar.append(h("button",{class:"skip",onclick:()=>{r.i++;showItem()}},"Ahora no puedo hablar"));break}
    case"free":{stage.append(h("span",{class:"kicker"},"Escribe"),h("p",{class:"prompt"},it.q));
-     const ta=h("textarea",{id:"ans-free",placeholder:"Escreva aqui…",spellcheck:"false",oninput:()=>enable(ta.value.trim().length>8)});
+     const ta=h("textarea",{id:"ans-free",placeholder:"Escreve aqui…",spellcheck:"false",oninput:()=>enable(ta.value.trim().length>8)});
      stage.append(ta);if(!cap.sample)stage.append(h("p",{class:"note"},"Para corregir este texto hace falta Claude; si no está disponible, la prueba se puntúa solo con lo anterior."));
      checkBtn.textContent="Enviar";
      checkBtn.onclick=async()=>{checkBtn.disabled=true;r.writing=ta.value;
@@ -585,8 +585,8 @@ function finish(){const r=RUN;stopAudio();
   const pct=r.answered?Math.round(r.correct/r.answered*100):100;const mins=Math.max(1,Math.round((Date.now()-r.start)/60000));
   beep(true);
   app.replaceChildren(h("div",{class:"wrap"},
-    h("div",{class:"card hero"},h("div",{class:"bia"},h("span",{html:AVATAR}),h("div",{},h("h2",{},pct>=80?"Arrasou, Javier!":"Muito bem, Javier!"),h("p",{class:"muted"},r.title+" · lección terminada"))),
-      h("p",{},"Bia: «"+(pct>=80?"Você mandou muito bem. Amanhã tem mais!":"Os erros fazem parte. Amanhã a gente revisa.")+"»")),
+    h("div",{class:"card hero"},h("div",{class:"bia"},h("span",{html:AVATAR}),h("div",{},h("h2",{},pct>=80?"Arrasaste, Javier!":"Muito bem, Javier!"),h("p",{class:"muted"},r.title+" · lección terminada"))),
+      h("p",{},"Bia: «"+(pct>=80?"Estiveste muito bem. Amanhã há mais!":"Os erros fazem parte. Amanhã revemos isto.")+"»")),
     h("div",{class:"stat"},h("div",{},h("b",{},"+"+(r.xp+bonus)),h("span",{},"XP")),h("div",{},h("b",{},pct+"%"),h("span",{},"aciertos")),h("div",{},h("b",{},mins+" min"),h("span",{},"tiempo"))),
     h("div",{class:"card"},h("h3",{},"Racha: "+S.streak+(S.streak===1?" día":" días")),h("p",{class:"muted"},"Vuelve mañana para mantenerla. Los fallos de hoy aparecerán en el repaso.")),
     h("div",{class:"row"},h("button",{class:"btn",onclick:()=>{RUN=null;view="home";render()}},"Continuar"),
@@ -616,14 +616,14 @@ function finishPlacement(){const r=RUN;const by={};
 /* ======================= CHAT CON BIA ======================= */
 let chatBusy=false;
 function renderChat(){const w=h("div",{class:"wrap",style:"padding-bottom:150px"});w.append(topBar());
-  w.append(h("div",{class:"card"},h("div",{class:"bia"},h("span",{html:AVATAR}),h("div",{},h("h2",{},"Conversa com a Bia"),
+  w.append(h("div",{class:"card"},h("div",{class:"bia"},h("span",{html:AVATAR}),h("div",{},h("h2",{},"Fala com a Bia"),
     h("p",{class:"muted"},"Háblale o escríbele en portugués. Te contesta en voz alta y te corrige en español.")))));
   const list=h("div",{class:"chat",id:"chatlist"});
-  if(!S.chat.length)S.chat=[{role:"bot",pt:"Oi, Javier! Tudo bem? Me conta: o que você fez hoje?",es:"¡Hola, Javier! ¿Qué tal? Cuéntame: ¿qué has hecho hoy?"}];
+  if(!S.chat.length)S.chat=[{role:"bot",pt:"Olá, Javier! Tudo bem? Conta-me: o que fizeste hoje?",es:"¡Hola, Javier! ¿Qué tal? Cuéntame: ¿qué has hecho hoy?"}];
   S.chat.forEach(m=>list.append(msgEl(m)));w.append(list);
   if(!cap.sample)w.append(h("p",{class:"note"},"Para conversar con Bia hace falta abrir esta página en claude.ai con tu cuenta."));
   if(S.chat.length>1)w.append(h("button",{class:"skip",onclick:()=>{S.chat=[];save();render()}},"Empezar una conversación nueva"));
-  const inp=h("input",{type:"text",id:"chat-input",placeholder:"Escreva em português…",autocomplete:"off",spellcheck:"false"});
+  const inp=h("input",{type:"text",id:"chat-input",placeholder:"Escreve em português…",autocomplete:"off",spellcheck:"false"});
   const micB=cap.dict?h("button",{type:"button",class:"round mic2","aria-label":"Hablar"},icon("mic")):null;
   if(micB)micB.onclick=()=>{if(cap.dict.active()){cap.dict.stop();return}const base=inp.value?inp.value+" ":"";
     dictListen((t)=>{inp.value=base+t},(st)=>{micB.classList.toggle("on",st==="listening");if(st==="idle"&&inp.value.trim())form.requestSubmit()}).catch(()=>{})};
@@ -639,12 +639,12 @@ function msgEl(m){if(m.role==="me")return h("div",{class:"msg me"},m.text);
 async function sendChat(text){chatBusy=true;S.chat.push({role:"me",text});const list=$("#chatlist");list.append(msgEl({role:"me",text}));
   const wait=h("div",{class:"msg bot"},h("div",{class:"loading"},h("span",{class:"spin"}),"Bia está escribiendo…"));list.append(wait);window.scrollTo(0,document.body.scrollHeight);
   const hist=S.chat.slice(-12).map(m=>m.role==="me"?"Javier: "+m.text:"Bia: "+m.pt).join("\n");
-  const prompt=`Eres "Bia", una profesora carioca simpática que conversa en portugués de Brasil con Javier para que llegue a hablar como un nativo.
+  const prompt=`Eres "Bia", una profesora lisboeta simpática que conversa en portugués de Portugal con Javier para que llegue a hablar como un nativo.
 ${learnerSummary()}
-Ajusta tu portugués a su nivel (si es A0-A1, frases muy cortas y sencillas). Habla con naturalidad brasileña (a gente, né, tá), haz UNA pregunta al final para seguir la conversación, y saca a menudo los verbos y temas que está estudiando. Si escribe en español, respóndele en portugués sencillo y anímale a intentarlo en portugués.
+Ajusta tu portugués a su nivel (si es A0-A1, frases muy cortas y sencillas). Háblale de tu, con naturalidad portuguesa (pá, pois, então, tá bem, fixe) y solo con formas de Portugal (estar a + infinitivo, chamo-me, autocarro…), nunca brasileñas, haz UNA pregunta al final para seguir la conversación, y saca a menudo los verbos y temas que está estudiando. Si escribe en español, respóndele en portugués sencillo y anímale a intentarlo en portugués.
 Conversación hasta ahora:
 ${hist}
-Devuelve SOLO JSON: {"pt":"tu respuesta en portugués de Brasil, 1-3 frases","es":"traducción al español de tu respuesta","fix":"si el último mensaje de Javier tiene errores, la versión correcta y una explicación muy breve en español; si está perfecto o suena natural, cadena vacía"}`;
+Devuelve SOLO JSON: {"pt":"tu respuesta en portugués de Portugal, 1-3 frases","es":"traducción al español de tu respuesta","fix":"si el último mensaje de Javier tiene errores, la versión correcta y una explicación muy breve en español; si está perfecto o suena natural, cadena vacía"}`;
   try{const out=await cap.sample.json(prompt,{modelTier:"quick",cache:false});
     const m={role:"bot",pt:String(out.pt||"…"),es:String(out.es||""),fix:String(out.fix||"")};S.chat.push(m);S.chat=S.chat.slice(-40);save();
     wait.replaceWith(msgEl(m));S.xp+=1;say(m.pt)}
