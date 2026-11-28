@@ -13,4 +13,5 @@ Material del profesor particular de Inmunología (agente `.claude/agents/profeso
 | `apuntes/` | Apuntes completos ya hechos: `INMUNO T7.pdf` (TCR), `INMUNO T8.pdf` (diversidad B y T), `INMUNO T9-10.pdf` (MHC y presentación del antígeno), `INMUNO T11-12.pdf` (complemento), `INMUNO T13.pdf` (citocinas y quimiocinas), cada uno con su resumen y su hoja de preguntas resueltas. Su texto, para buscar, en `apuntes/texto/`. Falta el T6 (muy largo) y los de T1–T5. |
 | `plantilla/` | `INMUNO T1.docx` (plantilla de formato de los apuntes) y `fuentes/` (Economica, Open Sans) para que el PDF salga igual. |
 | `herramientas/` | `build.py` (monta los PDF con la plantilla) y `fuentes/` (texto fuente de cada PDF y figuras recortadas). |
+| `tests/` | `tests_inmuno.html`: tests estilo NotebookLM por punto (página interactiva publicada en https://claude.ai/artifact/SBAvQ2LdNMTmx8aze3fEEa). |
 | `proyecto_original/` | Instrucciones y LEEME del proyecto de claude.ai del que viene este agente. |

@@ -261,6 +261,14 @@ otra cosa. Al final ofrece guardar la explicación completa como archivo
      ayuda, una imagen cotidiana) y después va el texto con el lenguaje del examen, donde **cada término
      técnico lleva entre paréntesis lo que significa la primera vez** ("opsonización (recubrir al
      microbio para que los fagocitos se lo coman)"). Con esto los apuntes rondan las 5.000–6.500 palabras (T11-12: 5.050; T13, que es más largo: 6.650). El resumen lleva una línea "En sencillo:" al principio de cada apartado grande y el significado de los términos entre paréntesis.
+  27. **Tests estilo NotebookLM por punto, en una página interactiva** (pedido 2026-11-28: "que sean
+     exactamente del mismo estilo… preguntas que podría generar esa IA, porque me las puede coger el
+     profesor de ahí… de 5 opciones… un test de cada punto"). Van en `inmunologia/tests/tests_inmuno.html`,
+     publicado como artifact (https://claude.ai/artifact/SBAvQ2LdNMTmx8aze3fEEa); cada tema es una pestaña y
+     cada punto (H1 de los apuntes) un test. Cada pregunta: enunciado conceptual, **5 opciones** (las
+     opciones se barajan solas), **pista** y **explicación de por qué cada opción es correcta o no**;
+     4–7 preguntas por punto según su longitud; nada de trivialidades ni distractores que cambien en una
+     palabra. Para añadir un tema: nueva entrada en `DATA` y volver a publicar el mismo archivo.
   12. **No narrar las diapositivas ni las figuras.** Nada de "la diapositiva 47 muestra…", "la
      diapositiva 48 es una tabla que…", "en esta figura se ve…", "las tres gráficas de abajo…",
      "arriba a la derecha…". Se explica **el contenido directamente**, como si fuera la clase: el
