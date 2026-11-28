@@ -1,293 +1,328 @@
 TEMAS 11 Y 12 : EL SISTEMA DEL
 COMPLEMENTO
-Sin transcripción de estas clases: el contenido sale de las diapositivas, explicado para partir de cero. Lo que va más
+Cómo leer estos apuntes: cada apartado empieza con "En sencillo", que explica la idea con palabras normales;
 
-allá de ellas lleva la etiqueta (ampliación). Nomenclatura de las diapositivas: el fragmento grande y activo de C2 se
+después viene el texto con el lenguaje del examen, y cada término técnico lleva entre paréntesis lo que significa la
 
-llama C2a (convertasa C4b2a).
+primera vez que sale. Sin transcripción de estas clases; lo que va más allá de las diapositivas lleva la etiqueta
+
+(ampliación). En las diapositivas, el fragmento activo de C2 se llama C2a (convertasa C4b2a).
 
 
 1. INTRODUCCIÓN AL SISTEMA DEL COMPLEMENTO
 
 1.1 Descubrimiento y nombre
 
+En sencillo: en la sangre hay unas proteínas que, cuando los anticuerpos marcan a una
+
+bacteria, se encargan de "rematarla" agujereándola. Como ayudan, "complementan", a los
+
+anticuerpos, se les llamó complemento.
+
 El complemento lo descubrió Jules Bordet (Premio Nobel en 1919) como un componente
 
-termolábil del plasma normal (se destruye al calentar el suero) que causaba la
+termolábil (que se destruye con el calor) del plasma (la parte líquida de la sangre) que
 
-opsonización y destrucción de las bacterias. Se detectó por la capacidad hemolítica
+causaba la opsonización (recubrir al microbio para que los fagocitos lo reconozcan y se lo
 
-del suero frente a eritrocitos, por las pruebas de aglutinación de bacterias y por las
+coman) y la destrucción de las bacterias. Se detectó por la capacidad hemolítica del
 
-pruebas de fijación del complemento.
+suero (el suero rompía glóbulos rojos de otro animal), por pruebas de aglutinación (las
 
-Se llamó así porque es el componente del suero que complementaba la función lítica de
+bacterias se apelotonan) y por pruebas de fijación del complemento.
 
-los anticuerpos: el anticuerpo solo se une al microbio, y es el complemento el que lo
+Se llamó así porque es el componente del suero que complementaba la función lítica
 
-rompe. Hoy sabemos que hace mucho más: organiza procesos inmunológicos e
+(de romper células) de los anticuerpos: el anticuerpo solo se pega al microbio, y es el
 
-inflamatorios. Es a la vez:
+complemento el que lo rompe. Hoy se sabe que hace mucho más y que pertenece a las dos
 
-    ● Un elemento de la inmunidad innata (se activa directamente sobre microbios).
+ramas del sistema inmunitario:
 
-    ● Un mecanismo efector de la respuesta inmunitaria adaptativa (lo activan los
+    ● Es un elemento de la inmunidad innata (la defensa rápida con la que nacemos),
 
-         anticuerpos).
+         porque puede activarse directamente sobre los microbios.
 
+    ● Es un mecanismo efector de la respuesta adaptativa (la defensa específica, la de
 
-1.2 Qué es y cómo se activa
-
-El complemento está formado por más de 30 proteínas plasmáticas que normalmente
-
-están inactivas. Se activa por microbios o por anticuerpos unidos a microbios.
-
-
+         los anticuerpos), porque los anticuerpos lo activan.
 
 
 1
-Su activación es una proteólisis secuencial: una proteína corta a la siguiente, que se
+1.2 Qué es y cómo se activa
 
-convierte a su vez en una enzima que corta a la siguiente. Es un proceso enzimático en
+En sencillo: son unas 30 proteínas que van por la sangre "apagadas". Cuando una se
 
-cascada, y por eso una señal pequeña se amplifica mucho.
+enciende, enciende a la siguiente, y así en cadena, como fichas de dominó; por eso un
 
-El complemento activado se une covalentemente a superficies microbianas, a
+pequeño estímulo acaba en una respuesta enorme.
 
-anticuerpos unidos a microbios, a cuerpos apoptóticos y a otros antígenos. Su actividad
+El complemento está formado por más de 30 proteínas plasmáticas que normalmente
 
-está regulada por proteínas de las células normales del anfitrión, que minimizan el
+están inactivas. Se activa por microbios o por anticuerpos unidos a microbios. Su
 
-daño sobre lo propio (apartado 7).
+activación es una proteólisis secuencial (cada proteína corta a la siguiente y, al cortarla, la
+
+convierte en una enzima que corta a otra): es un proceso enzimático en cascada, y por
+
+eso la señal se amplifica.
+
+El complemento activado se une covalentemente (con un enlace químico fuerte, no se
+
+suelta) a superficies microbianas, a anticuerpos unidos a microbios, a cuerpos
+
+apoptóticos (restos de células que han muerto de forma programada) y a otros antígenos.
+
+Está regulado por proteínas de las células normales del anfitrión (de nuestro cuerpo),
+
+que impiden que nos dañe (apartado 7).
 
 
 1.3 Componentes y nomenclatura
 
-    ● Vía clásica: C1, C4, C2, C3, C5, C6, C7, C8 y C9 (se numeraron por orden de
+En sencillo: las proteínas se llaman C y un número (C1, C2…). Cuando se cortan dan un
 
-       descubrimiento, no por orden de actuación).
+trozo pequeño, que se suelta y va a avisar, y uno grande, que se queda pegado trabajando.
+
+    ● Vía clásica: C1, C4, C2, C3, C5, C6, C7, C8 y C9. Se numeraron por orden de
+
+       descubrimiento, no por el orden en que actúan.
 
     ● Vía alternativa: C3 y los factores B, D y P (properdina).
 
-    ● Productos proteolíticos: al cortarse, cada componente da un fragmento pequeño
+    ● Productos proteolíticos (los trozos que salen al cortar): cada componente da un
 
-       "a" y uno grande "b": C2a y C2b, C3a y C3b, Ba y Bb. Los fragmentos b suelen
+       fragmento pequeño "a" y uno grande "b" (C3a y C3b, Ba y Bb). Los b se quedan en la
 
-       quedarse en la superficie; los a pequeños se liberan y son mediadores de
+       superficie; los a se liberan y causan inflamación. Excepción: en C2, el trozo que se
 
-       inflamación (excepción: en C2, el fragmento activo que se queda es C2a).
+       queda y trabaja es C2a.
 
-    ● Receptores: CR1, CR2, CR3, CR4 y C1qR.
+    ● Receptores (las proteínas de las células que reconocen los trozos del
 
-
-1.4 Tres vías de activación y tres consecuencias IMP
-
-📝 Ha caído (vías de activación del complemento): PT1, PT2. Ver la hoja de preguntas.
-Hay tres vías que se diferencian en cómo empiezan:
-
-    ● Vía clásica: la inician los complejos antígeno–anticuerpo (C1q).
-
-    ● Vía de las lectinas: la inicia la unión de lectinas (MBL, ficolinas) a azúcares de la
-
-       superficie del patógeno.
-
-    ● Vía alternativa: se activa directamente en la superficie del patógeno, sin
-
-       anticuerpos.
-
-
+       complemento): CR1, CR2, CR3, CR4 y C1qR.
 
 
 2
-Las tres vías convergen en la producción de una C3-convertasa, que corta C3 en C3a y
+1.4 Tres vías de activación y tres consecuencias IMP
 
-C3b. A partir de ahí el camino es común y tiene tres consecuencias principales:
+📝 Ha caído (vías de activación del complemento): PT1, PT2. Ver la hoja de preguntas.
+En sencillo: hay tres maneras de encender el complemento: que un anticuerpo marque al
 
-    ● Opsonización de los patógenos (C3b los cubre y los fagocitos los reconocen).
+microbio, que una proteína reconozca los azúcares típicos del microbio, o que el
 
-    ● Reclutamiento de células inflamatorias e inmunocompetentes (C3a, C5a).
+complemento se pegue al microbio "por casualidad". Las tres acaban igual: el microbio
 
-    ● Destrucción directa de los microorganismos por el complejo de ataque a la
+queda recubierto para que se lo coman, se avisa a otras células y se le hacen agujeros.
 
-       membrana (CAM o MAC).
+    ● Vía clásica: la inician los complejos antígeno–anticuerpo (anticuerpos pegados a
+
+       su antígeno).
+
+    ● Vía de las lectinas: la inicia la unión de lectinas (proteínas que reconocen
+
+       azúcares), como la MBL y las ficolinas, a los azúcares de la superficie del patógeno.
+
+    ● Vía alternativa: se activa directamente sobre la superficie del patógeno, sin
+
+       anticuerpos.
+
+Las tres vías convergen en la producción de una C3-convertasa (la enzima que corta C3
+
+en C3a y C3b). A partir de ahí el camino es común y tiene tres consecuencias:
+
+    ● Opsonización: el C3b recubre al microbio y los fagocitos lo reconocen y se lo
+
+       comen.
+
+    ● Reclutamiento de células inflamatorias: C3a y C5a atraen y activan leucocitos.
+
+    ● Destrucción directa del microorganismo por el complejo de ataque a la
+
+       membrana (CAM o MAC), que le hace un agujero.
 
 
 
 
-                       Tres vías de activación que convergen en tres consecuencias.
+3
+                        Tres vías de activación que convergen en tres consecuencias.
 
 
 2. RECEPTORES DEL COMPLEMENTO Y PRR SOLUBLES
 
 2.1 Receptores para los fragmentos de C3
 
-Las células reconocen los fragmentos de C3 depositados sobre los microbios mediante
+En sencillo: cuando el microbio queda cubierto de trozos de C3, las células tienen
 
-cuatro receptores:
+"lectores" para esos trozos. Según el lector, la célula se come el microbio, se pega a él o, en
 
-    ● CR1 (CD35): une C3b y C4b (y menos iC3b). Está en fagocitos mononucleares,
+el caso del linfocito B, se activa mejor.
 
-       neutrófilos, linfocitos B y T, eritrocitos, eosinófilos y células dendríticas foliculares
+    ● CR1 (CD35): reconoce C3b y C4b. Está en fagocitos, linfocitos, eritrocitos (glóbulos
 
-       (FDC). Funciones: fagocitosis, eliminación de inmunocomplejos y regulación:
+       rojos) y células dendríticas foliculares (FDC, células del ganglio que guardan
 
-       favorece la disociación de las convertasas de C3 y actúa como cofactor del corte de
+       antígenos). Sirve para la fagocitosis, para retirar inmunocomplejos (grupos de
 
-       C3b y C4b.
+       antígenos con anticuerpos pegados) y para regular: ayuda a deshacer las
 
+       convertasas y es cofactor (ayudante) de la enzima que corta C3b y C4b.
 
+    ● CR2 (CD21): reconoce C3d y C3dg (los trozos que quedan cuando se degrada C3b).
 
+       Está en linfocitos B y FDC. Es correceptor del linfocito B (le ayuda a activarse
 
-3
-    ● CR2 (CD21): une C3d y C3dg (fragmentos que quedan tras degradar C3b). Está en
+       cuando reconoce un antígeno cubierto de complemento), atrapa antígenos en los
 
-       linfocitos B, FDC y epitelio nasofaríngeo. Funciones: correceptor para la
-
-       activación del B, atrapar antígenos en los centros germinales y es el receptor
-
-       del virus de Epstein-Barr.
-
-    ● CR3 (Mac-1, CD11b/CD18): es una integrina; une iC3b, ICAM-1 y también microbios
-
-       directamente. Está en fagocitos mononucleares, neutrófilos y NK. Funciones:
-
-       fagocitosis y adhesión de leucocitos al endotelio (vía ICAM-1).
-
-    ● CR4 (p150,95, CD11c/CD18): integrina que une iC3b; fagocitos y NK. Función:
-
-       fagocitosis y adhesión.
-
-
-
-
-                          Receptores para los fragmentos de C3 (CR1 a CR4).
-
-
-2.2 Receptores de carbohidratos y PRR solubles
+       centros germinales y es la puerta de entrada del virus de Epstein-Barr.
 
 
 
 
 4
-Los macrófagos y las DC tienen además receptores de lectina tipo C que reconocen
+    ● CR3 (Mac-1, CD11b/CD18): es una integrina (molécula de adhesión) que reconoce
 
-azúcares de los microbios (receptor de manosa, DC-SIGN, dectina-1, que reconoce β-1,3-
+       iC3b, ICAM-1 y algunos microbios. Está en fagocitos y NK. Sirve para la fagocitosis y
 
-glucanos, etc.); el CR3 también tiene dominios de unión a carbohidratos. Y en la sangre
+       para que los leucocitos se peguen al endotelio (la pared interna de los vasos).
 
-circulan lectinas solubles que funcionan como PRR solubles: MBL, ficolinas,
+    ● CR4 (p150,95, CD11c/CD18): integrina que reconoce iC3b; fagocitosis y adhesión.
 
-surfactantes pulmonares y pentraxinas (proteína C reactiva). Algunas de ellas activan el
 
-complemento (vía de las lectinas, apartado 4).
+
+
+                           Receptores para los fragmentos de C3 (CR1 a CR4).
+
+
+2.2 Receptores de carbohidratos y PRR solubles
+
+En sencillo: los microbios tienen en su superficie azúcares distintos a los nuestros, y el
+
+cuerpo tiene proteínas que los reconocen, unas pegadas a las células y otras sueltas por la
+
+sangre.
+
+Los macrófagos y las DC tienen receptores de lectina tipo C (reconocen azúcares
+
+microbianos), como el receptor de manosa, DC-SIGN o la dectina-1. En la sangre circulan
+
+
+
+5
+además lectinas solubles que funcionan como PRR solubles (receptores de patrones de
+
+peligro que no están en una célula, sino libres): MBL, ficolinas, surfactantes pulmonares
+
+y pentraxinas como la proteína C reactiva. Algunas activan el complemento (apartado 4).
 
 
 3. LA VÍA CLÁSICA
 
 3.1 Qué inicia la vía clásica
 
-La inicia C1q al unirse a una superficie. Hay tres formas de unión de C1q:
+En sencillo: la vía clásica la enciende una proteína, C1q, cuando se pega a anticuerpos que
 
-    ● A componentes de la superficie de algunas bacterias.
+ya han atrapado a un microbio.
 
-    ● A complejos antígeno–anticuerpo (la forma principal; por eso es la vía de la
+La inicia C1q al unirse a una superficie, de tres formas: a componentes de la superficie
 
-       inmunidad adaptativa humoral).
+de algunas bacterias; a complejos antígeno–anticuerpo, que es la principal y por eso es
 
-    ● A la proteína C reactiva (PCR), que se une a residuos de fosfocolina de los
+la vía de la inmunidad humoral (la de los anticuerpos); o a la proteína C reactiva (PCR),
 
-       polisacáridos bacterianos.
+que se pega a la fosfocolina (un componente) de los polisacáridos bacterianos.
 
 
 3.2 El complejo C1 y la estructura de C1q
 
+En sencillo: C1 es como un ramo de seis tulipanes: las flores (cabezas) se pegan a los
+
+anticuerpos y entre los tallos lleva dos tijeras apagadas (C1r y C1s). Cuando varias flores se
+
+pegan a la vez, las tijeras se encienden.
+
 El complejo C1 está formado por C1q, dos C1r y dos C1s (C1q:C1r2:C1s2). C1r y C1s son
 
-zimógenos (proteasas de serina inactivas).
+zimógenos (enzimas fabricadas en forma inactiva; en este caso, proteasas de serina,
 
-C1q es un hexámero: seis subunidades idénticas, cada una con una cabeza globular (que
+enzimas que cortan proteínas).
 
-se une al anticuerpo) y una cola larga parecida al colágeno; tiene forma de "ramo de
+C1q es un hexámero (formado por seis piezas iguales): cada subunidad tiene una cabeza
 
-tulipanes". Su construcción:
+globular (que se une al anticuerpo) y una cola larga parecida al colágeno. Tiene tres
 
-    ● Hay tres tipos de cadenas (A, B y C). Los enlaces disulfuro entre cadenas forman
+tipos de cadenas (A, B y C) unidas por enlaces disulfuro; la región parecida al colágeno
 
-       dímeros A–B y C–C.
+(CLR) forma una triple hélice que es la unidad estructural, y seis unidades se unen por
 
-    ● La región parecida al colágeno (CLR) forma una triple hélice con una cadena A,
-
-       una B y una C: esa es la unidad estructural.
+enlaces no covalentes. Resultado: 460 kDa y 18 cadenas.
 
 
 
 
-5
-    ● Seis unidades se juntan por fuertes enlaces no covalentes en la porción central
+6
+Cuando C1q se une con fuerza a un inmunocomplejo (anticuerpos pegados al antígeno),
 
-       (tipo fibrilla). Resultado: una molécula hexamérica de 460 kDa con 18 cadenas
+cambia de forma, C1r se activa a sí mismo y luego activa C1s. El ADN o la heparina solo lo
 
-       polipeptídicas.
-
-El dímero catalítico C1r–C1s se coloca entre los "tallos" de C1q. Cuando C1q se une con
-
-fuerza a un inmunocomplejo de IgG, el cambio de conformación separa el dímero
-
-catalítico de C1r, que se activa a sí mismo y luego activa el zimógeno C1s. El ADN o la
-
-heparina solo producen una activación débil.
+activan débilmente.
 
 
 
 
-                 Complejo C1: C1q (cabezas globulares y región de colágeno) con C1r y C1s.
+                   Complejo C1: C1q (cabezas globulares y región de colágeno) con C1r y C1s.
 
 
 3.3 Unión de C1q a IgM e IgG
 
-C1q solo se activa si varias de sus cabezas globulares se unen a la vez a regiones Fc de
+En sencillo: C1q necesita agarrarse a la vez a varios anticuerpos. La IgM es un "pulpo" con
 
-anticuerpos unidos al antígeno (los anticuerpos libres en el plasma no lo activan):
+cinco brazos, así que con una sola basta; las IgG son sueltas y hacen falta dos juntas.
 
-    ● IgM: en el plasma es un pentámero "plano". Al unirse al antígeno de la superficie
+C1q solo se activa si varias cabezas se unen a la vez a las regiones Fc (la "cola" del
 
-       adopta forma de "grapa" y expone sus sitios de unión: basta una sola IgM para
+anticuerpo) de anticuerpos unidos al antígeno. Los anticuerpos libres en la sangre no lo
 
-       activar C1q.
+activan.
 
-    ● IgG: hacen falta al menos dos moléculas de IgG unidas cerca sobre la superficie.
+    ● IgM: es un pentámero (cinco anticuerpos unidos). Al pegarse al antígeno cambia de
 
-       Por eso la IgM es mucho más eficaz activando el complemento.
+       forma "plana" a forma de "grapa" y deja a la vista sus sitios de unión: basta una
+
+       sola IgM.
+
+    ● IgG: hacen falta al menos dos IgG pegadas cerca sobre la superficie. Por eso la IgM
+
+       activa el complemento mucho mejor.
 
 
 3.4 Los pasos de la vía clásica IMP
 
 📝 Ha caído "Vía clásica del complemento" (PT1). Ver la hoja de preguntas.
 
-6
-    ● 1. La unión de C1q a la inmunoglobulina (o a componentes microbianos) activa
 
-       C1r, por actividad autocatalítica.
+7
+En sencillo: una cadena de tijeras: C1 corta a C4 y a C2; sus trozos grandes se juntan y
 
-    ● 2. La C1r activada corta y activa C1s.
+forman una tijera nueva, la que corta C3; con ella se fabrican montones de C3b, que forran
 
-    ● 3. La proteasa de serina C1s corta C4 en C4a (pequeño, se libera) y C4b, que se une
+el microbio.
 
-       a la superficie microbiana. Después C2 se une a C4b y C1s lo corta en C2b (se libera)
+    ● 1. La unión de C1q al anticuerpo activa C1r (se activa a sí mismo: autocatálisis).
 
-       y C2a.
+    ● 2. C1r corta y activa C1s.
 
-    ● 4. C4b y C2a unidos (C4b2a) son la convertasa de C3. C2a es la proteasa de serina
+    ● 3. C1s corta C4 en C4a (pequeño, se suelta) y C4b, que se pega a la superficie.
 
-       activa.
+       Luego C2 se une a C4b y C1s lo corta en C2b (se suelta) y C2a.
 
-    ● 5. La C4b2a corta C3 en C3a y C3b. Una sola convertasa puede cortar hasta 1.000
+    ● 4. C4b2a (C4b y C2a juntos) es la convertasa de C3. C2a es la parte que corta.
 
-       moléculas de C3, y muchas C3b se unen covalentemente a la superficie y
+    ● 5. C4b2a corta C3 en C3a y C3b. Una sola convertasa corta hasta 1.000 moléculas
 
-       opsonizan la bacteria (amplificación).
+       de C3, y muchos C3b se pegan al microbio y lo opsonizan (amplificación).
 
-    ● 6. Una C3b se une a la propia convertasa y forma C4b2a3b, la convertasa de C5.
+    ● 6. Un C3b se une a la propia convertasa y forma C4b2a3b, la convertasa de C5.
 
 
 
@@ -297,46 +332,48 @@ anticuerpos unidos al antígeno (los anticuerpos libres en el plasma no lo activ
 
 3.5 El enlace tioéster: cómo se pegan C4b y C3b
 
-C3 y C4 tienen en su interior un enlace tioéster escondido (entre una cisteína y una
+En sencillo: C3 y C4 llevan dentro un "pegamento" escondido. Al cortarlos, el pegamento
 
-glutamina de una secuencia Gly-Cys-Gly-Glu-Gln). Al cortarlos, el fragmento grande (C4b o
+queda al aire un instante: si hay un microbio al lado, se pega a él para siempre; si solo hay
 
-C3b) cambia de forma y el tioéster queda expuesto y muy reactivo durante un momento
+agua, el pegamento se estropea y el trozo deja de servir. Así el complemento solo se queda
 
-muy corto. Puede reaccionar con:
+donde se ha encendido.
 
 
-7
-    ● Grupos hidroxilo de proteínas o azúcares de la superficie: forma un enlace éster y
 
-       el fragmento queda pegado covalentemente a la membrana.
 
-    ● Grupos amino: forma un enlace amida, también covalente.
+8
+C3 y C4 tienen en su interior un enlace tioéster (un enlace químico muy reactivo, entre
 
-    ● Agua: si no encuentra una superficie cerca, se hidroliza y el fragmento queda
+una cisteína y una glutamina) escondido. Al cortarlos, el fragmento grande cambia de
 
-       inactivo en el plasma.
+forma y el tioéster queda expuesto durante muy poco tiempo. Puede reaccionar con
 
-Gracias a esto, el complemento solo se deposita sobre la superficie donde se activa y no
+grupos hidroxilo (–OH) de proteínas o azúcares de la superficie, formando un enlace
 
-se extiende por la sangre.
+éster, o con grupos amino (–NH2), formando un enlace amida; en ambos casos el
+
+fragmento queda pegado covalentemente. Si reacciona con el agua, se hidroliza y queda
+
+inactivo en el plasma.
 
 
 3.6 Proteínas de la vía clásica
 
-    ● C1q: se une directa o indirectamente (vía anticuerpos) a los patógenos y permite la
+    ● C1q: se une al patógeno o a los anticuerpos y permite que C1r se active. C1r: activa
 
-       autoactivación de C1r. C1r: activa C1s. C1s: corta C4 y C2.
+       C1s. C1s: corta C4 y C2.
 
-    ● C4b: se une covalentemente al patógeno y lo opsoniza; une C2 para que C1s lo
+    ● C4b: se pega covalentemente al patógeno y lo opsoniza; une C2 para que C1s lo
 
        corte. C4a: mediador de inflamación (actividad débil).
 
-    ● C2a: enzima activa de la convertasa de C3 y de C5 (corta C3 y C5). C2b: precursor de
+    ● C2a: la parte que corta en las convertasas de C3 y de C5. C2b: precursor de la cinina
 
-       la cinina C2 vasoactiva.
+       C2 (una molécula que dilata los vasos).
 
-    ● C3b: se une en gran cantidad al patógeno y actúa como opsonina; inicia la
+    ● C3b: se pega en gran cantidad al patógeno y es la principal opsonina; inicia la
 
        amplificación por la vía alternativa; se une a C5 para que se corte. C3a: mediador
 
@@ -347,27 +384,32 @@ se extiende por la sangre.
 
 4.1 C1q, MBL y ficolinas
 
-Tres proteínas parecidas (C1q, MBL y ficolina) pueden iniciar el complemento al unirse a
+En sencillo: hay otras dos proteínas con la misma forma de ramo que C1q, pero en vez de
 
-sus ligandos en la superficie bacteriana. Las tres tienen cabezas de reconocimiento y colas
+agarrarse a anticuerpos, se agarran directamente a los azúcares típicos de los microbios.
 
-de colágeno, y llevan asociadas proteasas de serina:
+Llevan sus propias tijeras, las MASP.
 
-    ● C1q: lleva C1r y C1s; se une a anticuerpos (IgM, IgG) unidos al antígeno.
+Tres proteínas parecidas pueden iniciar el complemento al unirse a la superficie
 
-    ● Lectina fijadora de manosa (MBL): lleva MASP-1 y MASP-2; se une a manosa y
+bacteriana. Las tres tienen cabezas de reconocimiento, colas de colágeno y proteasas de
 
-       fucosa con el espaciamiento correcto.
+serina asociadas:
 
 
-8
-    ● Ficolinas: llevan MASP-1 y MASP-2; sus cabezas globulares, parecidas al fibrinógeno,
 
-       se unen a N-acetilglucosamina de la pared bacteriana.
+9
+     ● C1q: lleva C1r y C1s; se une a anticuerpos (IgM, IgG) pegados al antígeno.
 
-La unión produce un cambio de conformación que activa la proteasa asociada (C1r/C1s
+     ● Lectina fijadora de manosa (MBL): lleva MASP-1 y MASP-2; se une a manosa y
 
-en C1q, MASP en MBL y ficolinas).
+        fucosa (azúcares) con el espaciamiento correcto.
+
+     ● Ficolinas: llevan MASP-1 y MASP-2; sus cabezas, parecidas al fibrinógeno, se unen a
+
+        N-acetilglucosamina (otro azúcar) de la pared bacteriana.
+
+Al unirse cambian de forma y activan la proteasa asociada.
 
 
 
@@ -377,173 +419,178 @@ en C1q, MASP en MBL y ficolinas).
 
 4.2 Estructura de la MBL y reconocimiento de los microbios
 
-La MBL es una glicoproteína sintetizada en el hígado y secretada a la sangre. Cada
+En sencillo: la MBL tiene muchas "manos" que se agarran muy flojo a un azúcar. Solo se
 
-polipéptido (de 25 kDa) tiene una región tipo colágeno (CLR) y una cabeza con el dominio
+queda pegada cuando muchas manos encuentran azúcares colocados justo a la distancia
 
-de reconocimiento de carbohidratos (CRD). Tres polipéptidos forman un trímero por la
+típica de las bacterias. Nuestras células tienen los azúcares colocados de otra forma, así
 
-triple hélice del colágeno (la subunidad), y seis subunidades forman la MBL hexamérica,
+que no se pega a ellas.
 
-con 18 CRD.
+La MBL es una glicoproteína (proteína con azúcares) fabricada en el hígado y secretada a
 
-¿Cómo distingue lo propio de lo microbiano? La afinidad de un CRD por un azúcar es
+la sangre. Cada polipéptido (25 kDa) tiene una región tipo colágeno (CLR) y una cabeza
 
-muy débil (y depende de calcio). Pero la MBL tiene muchos CRD con una orientación fija,
+con el dominio de reconocimiento de carbohidratos (CRD). Tres polipéptidos forman un
 
-así que solo se une con fuerza cuando varios CRD encuentran a la vez azúcares con el
+trímero (la subunidad), y seis subunidades forman la MBL hexamérica, con 18 CRD.
 
-espaciamiento correcto, que es el típico de las superficies bacterianas: aumenta la avidez
 
-de la unión. Las células propias tienen manosas con otro espaciamiento (y cubiertas de
 
-ácido siálico), y la MBL no se une a ellas.
+
+10
+La afinidad (la fuerza de unión) de un CRD por un azúcar es muy débil. Pero como hay
+
+muchos CRD con una orientación fija, solo se une con fuerza cuando varios encuentran a la
+
+vez azúcares con el espaciamiento de las superficies bacterianas: aumenta la avidez (la
+
+fuerza total que suman muchas uniones débiles).
 
 
 4.3 Los pasos de la vía de las lectinas IMP
 
+📝 Ha caído "Vía de la lectina del complemento" (PT1). Ver la hoja de preguntas.
+En sencillo: es igual que la vía clásica, pero sin anticuerpos: la MBL o la ficolina se pega al
 
-9
-📝 Ha caído "Vía de la lectina del complemento" (PT1). Ver la hoja de preguntas.
-     ● En la sangre circulan cuatro PRR que reconocen carbohidratos: MBL y las ficolinas
+microbio, su tijera MASP-2 corta C4 y C2, y se forma la misma tijera de C3 (C4b2a).
 
-        1, 2 y 3.
+     ● En la sangre hay cuatro PRR que reconocen azúcares: MBL y las ficolinas 1, 2 y 3.
 
-     ● En el plasma, MBL y ficolinas forman complejos con dos proteasas de serina: MASP-
-
-        1 y MASP-2.
-
-     ● Cuando hay infección, MBL o las ficolinas se unen a la pared bacteriana y se activa
+     ● En el plasma, MBL y ficolinas van unidas a dos proteasas de serina: MASP-1 y
 
         MASP-2.
 
-     ● MASP-2 corta C4 y C2, igual que C1s, y se forma C4b2a, la misma convertasa de
+     ● Cuando hay infección, MBL o las ficolinas se pegan a la pared bacteriana y se activa
 
-        C3 que en la vía clásica. A partir de aquí todo sigue igual (C3b, C4b2a3b y C5).
+        MASP-2.
 
-     ● Las proteínas surfactantes SP-A y SP-D del pulmón también se unen a las
+     ● MASP-2 corta C4 y C2 y se forma C4b2a, la misma convertasa de C3 que en la vía
 
-        bacterias y facilitan su fagocitosis.
+        clásica. A partir de aquí todo sigue igual.
 
-Es una vía de la inmunidad innata: no necesita anticuerpos. La MBL es además una
+     ● Las proteínas surfactantes SP-A y SP-D (proteínas del pulmón) también se pegan a
 
-proteína de fase aguda (apartado 8.5).
+        las bacterias y ayudan a que se las coman.
+
+Es una vía de la inmunidad innata (no necesita anticuerpos). La MBL es además una
+
+proteína de fase aguda (el hígado fabrica más cuando hay infección; apartado 8.5).
 
 
 
 
-                          Vía de las lectinas: MASP-2 genera la convertasa C4b2a.
+11
+                         Vía de las lectinas: MASP-2 genera la convertasa C4b2a.
 
 
 5. LA VÍA ALTERNATIVA
 
 5.1 El inicio: la hidrólisis espontánea de C3
 
+En sencillo: el C3 de la sangre se rompe solo, poquito a poco, todo el rato. Esos trozos se
 
-10
-La vía alternativa no necesita anticuerpos ni lectinas. Se inicia a partir de C3b presente
+estropean enseguida si no hay nada cerca, pero si hay un microbio al lado se le pegan y
 
-en la membrana microbiana. Ese C3b puede venir de dos sitios:
+encienden la cascada. Es como un vigilante que está siempre tocando todo lo que pasa.
 
-     ● Del C3b generado por cualquiera de las otras vías (por eso la alternativa funciona
+La vía alternativa no necesita anticuerpos ni lectinas. Empieza con C3b pegado a la
 
-        como amplificación de todas).
+membrana del microbio, que puede venir de dos sitios:
 
-     ● De la producción espontánea de C3b en el plasma: el C3 hidroliza
+     ● Del C3b fabricado por las otras vías: por eso la alternativa funciona como
 
-        espontáneamente su enlace tioéster a un ritmo bajo y constante (en inglés, "tick-
+        amplificador de todas.
 
-        over") y forma C3(H2O), que se comporta como C3b. El C3(H2O) se une al factor B,
+     ● De la producción espontánea de C3b: el C3 hidroliza espontáneamente su
 
-        que el factor D corta, y se forma una pequeña convertasa de fase fluida,
+        tioéster (reacciona con el agua por sí solo) a un ritmo bajo y constante ("tick-over")
 
-        C3(H2O)Bb, que genera algo de C3b continuamente.
+        y forma C3(H2O), que se porta como C3b: se une al factor B y forma una pequeña
 
-El C3b recién formado tiene su tioéster expuesto. En el plasma se hidroliza y queda
+        convertasa en la sangre, C3(H2O)Bb, que fabrica algo de C3b continuamente.
 
-inactivo; sobre una superficie microbiana se une covalentemente (enlace éster o
+El C3b recién formado tiene el tioéster al aire. En el plasma reacciona con el agua y queda
 
-amida) y la vía arranca. Así el complemento está siempre "vigilando" con un nivel bajo de
-
-activación.
+inactivo; sobre un microbio se pega covalentemente y la vía arranca.
 
 
+12
+              Vía alternativa: C3b en fase fluida (se inactiva) o sobre el microbio (se forma C3bBb).
 
 
-              Vía alternativa: C3b en fase fluida (se inactiva) o sobre el microbio (se forma C3bBb).
-
-
-
-
-11
-5.2 Los pasos de la vía alternativa IMP
+5.2 Los pasos de la vía alternativa IMP
 
 📝 Ha caído "Describa la vía alternativa del complemento acompañándola con un
 esquema": F21 (corta), PT1, PT2 (3 veces).
 
-     ● 1. El C3b queda depositado en la superficie del microbio (por cualquiera de los dos
+En sencillo: el C3b pegado al microbio se junta con el factor B; el factor D lo corta y queda
 
-        orígenes).
+la tijera C3bBb, que fabrica más C3b, que fabrica más tijeras (un círculo que se acelera). Esa
 
-     ● 2. El C3b se une a la proteína plasmática factor B.
+tijera es muy frágil y la properdina la sujeta.
 
-     ● 3. El factor D, una proteasa de serina del plasma, corta el factor B unido a C3b en
+     ● 1. El C3b queda pegado a la superficie del microbio.
 
-        Ba (se libera) y Bb (se queda).
+     ● 2. El C3b se une al factor B (una proteína de la sangre).
 
-     ● 4. El complejo C3bBb es la convertasa de C3 de la vía alternativa: corta muchas
+     ● 3. El factor D (una proteasa de serina de la sangre) corta el factor B en Ba (se
 
-        moléculas de C3 en C3a y C3b, y las nuevas C3b se depositan en la superficie
+        suelta) y Bb (se queda).
 
-        (opsonización) y forman más convertasas (bucle de amplificación).
+     ● 4. C3bBb es la convertasa de C3 de la vía alternativa: corta muchas C3, los
 
-     ● 5. La C3bBb es muy inestable y tiene una vida media muy corta. La properdina
-
-        (factor P), producida por los neutrófilos, se une a ella y la estabiliza en la
-
-        superficie microbiana.
-
-     ● 6. Cuando se une otra C3b, se forma C3b2Bb (C3bBb3b), la convertasa de C5 de la
-
-        vía alternativa.
-
-¿Por qué se activa sobre los microbios y no sobre nuestras células? Porque los
-
-patógenos carecen de las proteínas reguladoras del complemento que tienen nuestras
-
-células (apartado 7). Sobre una célula propia, el C3b se inactiva enseguida; sobre un
-
-microbio, la properdina estabiliza la convertasa y la cascada sigue.
+        nuevos C3b se pegan y forman más convertasas (bucle de amplificación).
 
 
 
 
-12
-                       Vía alternativa: C3b, factor B, factor D y la convertasa C3bBb.
+13
+     ● 5. C3bBb es muy inestable (dura muy poco). La properdina (factor P), que
+
+        fabrican los neutrófilos, se une a ella y la estabiliza.
+
+     ● 6. Cuando se une otro C3b se forma C3b2Bb, la convertasa de C5 de esta vía.
+
+¿Por qué solo sobre microbios? Porque nuestras células tienen proteínas reguladoras
+
+que inactivan el C3b (apartado 7), y los patógenos no las tienen.
+
+
+
+
+                       Vía alternativa: C3b, factor B, factor D y la convertasa C3bBb.
 
 
 5.3 Convertasas parecidas y genes en el MHC
 
-Las convertasas de C3 de ambas vías (C4b2a y C3bBb) son estructuralmente similares:
+En sencillo: las tijeras de C3 de las dos vías son casi iguales porque sus piezas son "primas"
 
-C4b se parece a C3b, y C2 se parece al factor B. De hecho, los genes de C4, C2 y factor B
+y sus genes están uno al lado del otro.
 
-están juntos en la región de clase III del MHC (         🔗 Tema 9-10).
+Las convertasas C4b2a y C3bBb son estructuralmente similares: C4b se parece a C3b y
+
+C2 se parece al factor B. Los genes de C4, C2 y factor B están juntos en la región de clase
+
+III del MHC (   🔗 Tema 9-10).
 5.4 Proteínas de la vía alternativa
 
-     ● C3b: se une a la superficie del patógeno y une el factor B para que D lo corte. C3bBb
+     ● C3b: se pega al patógeno y une el factor B. C3bBb es la convertasa de C3; C3b2Bb, la
 
-        es la convertasa de C3 y C3b2Bb la de C5.
+        de C5.
 
-     ● Ba: fragmento pequeño del factor B, de función desconocida. Bb: enzima activa de
+     ● Bb: la parte que corta de las dos convertasas. Ba: trozo pequeño, de función
 
-        las convertasas C3bBb y C3b2Bb.
+        desconocida.
 
-     ● Factor D: proteasa de serina del plasma que corta B cuando está unido a C3b.
+     ● Factor D: proteasa de la sangre que corta B cuando está unido a C3b.
 
-     ● Properdina (P): proteína plasmática que se une a las superficies bacterianas y
 
-        estabiliza la convertasa C3bBb.
+
+14
+     ● Properdina (P): se une a las superficies bacterianas y estabiliza la convertasa
+
+        C3bBb.
 
 
 6. CONVERTASAS DE C5 Y FASE TERMINAL: EL COMPLEJO DE
@@ -552,436 +599,399 @@ ATAQUE A LA MEMBRANA
 
 6.1 Las convertasas de C3 y C5
 
+En sencillo: cuando la tijera de C3 recibe un C3b más, se convierte en la tijera de C5. Al
+
+cortar C5 sale un trozo que avisa (C5a) y otro (C5b) que empieza a montar el agujero.
+
      ● Convertasa de C3: C4b2a en las vías de las lectinas y clásica; C3bBb en la
 
-        alternativa; C3(H2O)Bb en fase fluida.
+        alternativa; C3(H2O)Bb en la sangre (fase fluida).
 
      ● Convertasa de C5: C4b2a3b en las vías de las lectinas y clásica; C3b2Bb en la
 
-        alternativa (dos C3b y un Bb).
+        alternativa.
 
-En las dos convertasas de C5, C5 se une al componente C3b, y la parte enzimática (C2a o
+C5 se une a la pieza C3b de la convertasa, y la parte que corta (C2a o Bb) lo parte en C5a
 
-Bb) lo corta en C5a (se libera; potente mediador de inflamación) y C5b. El C5b
+(se libera; es un potente mediador de inflamación) y C5b. El C5b desencadena los eventos
 
-desencadena los eventos tardíos: los componentes terminales se ensamblan para
-
-
-
-
-13
-formar el complejo de ataque a la membrana, capaz de dañar la membrana de ciertos
-
-patógenos.
+tardíos: el montaje del complejo de ataque a la membrana.
 
 
 
 
-                               Convertasas de C3 y de C5 de cada vía.
+                                Convertasas de C3 y de C5 de cada vía.
 
 
-6.2 Montaje del complejo de ataque a la membrana (CAM o MAC) IMP
+
+15
+6.2 Montaje del complejo de ataque a la membrana (CAM o MAC) IMP
 
 📝 Ha caído "Defina con un esquema la fase terminal de la activación del sistema del
 complemento": E19 (corta), DES, PT1, PT2 (5 veces). Es la pregunta del complemento que
 
 más se repite.
 
-A diferencia de los pasos anteriores, la fase terminal no es proteolítica: las proteínas se
+En sencillo: C5b va reuniendo piezas (C6, C7, C8). Algunas tienen una parte "aceitosa" que
 
-van uniendo y cambiando de forma:
+se mete en la membrana del microbio como un clavo. Al final llegan muchas C9 que se
 
-     ● 1. C5b se une a C6 y C7. El C5b recién formado se une a C6 y luego a C7.
+colocan en círculo y forman un tubo: un agujero. Por el agujero entra agua, el microbio se
 
-     ● 2. Los complejos C5b67 se unen a la membrana por medio de C7. C7 sufre un
+hincha y revienta.
 
-        cambio conformacional y expone dominios hidrófobos que se insertan en la
+A diferencia de los pasos anteriores, la fase terminal no es proteolítica (aquí ya no se
 
-        bicapa lipídica.
+corta nada: las proteínas se van uniendo y cambiando de forma):
 
-     ● 3. C8 se une al complejo y se inserta en la membrana. C8 tiene dos partes: C8β
+     ● 1. C5b se une a C6 y C7.
 
-        se une al complejo y C8αγ se introduce en la membrana. El complejo C5b-8 ya
+     ● 2. El complejo C5b67 se une a la membrana por medio de C7. C7 sufre un
 
-        forma un poro pequeño y produce un daño moderado.
+        cambio conformacional (cambia de forma) y expone dominios hidrófobos (partes
 
+        "aceitosas", que huyen del agua), que se meten en la bicapa lipídica (la membrana).
 
+     ● 3. C8 se une y se inserta en la membrana. C8β se une al complejo y C8αγ se mete
 
-14
-     ● 4. Moléculas de C9 se unen al complejo y se polimerizan. El complejo C5b-8
+        en la membrana. El C5b-8 ya hace un poro pequeño: daño moderado.
 
-        induce la polimerización de C9.
+     ● 4. Moléculas de C9 se unen y se polimerizan (se encadenan unas con otras).
 
-     ● 5. De 10 a 16 moléculas de C9 forman un poro en la membrana, un tubo de unos
+     ● 5. De 10 a 16 moléculas de C9 forman un poro en forma de tubo, de unos 100 Å
 
-        100 Å (10 nm) de diámetro.
+        (10 nm).
 
 Consecuencia: por el poro entran agua e iones, la célula pierde su equilibrio osmótico, se
 
-hincha y se rompe: lisis osmótica. En microscopía electrónica se ven como anillos vistos
+hincha y se rompe: lisis osmótica. Al microscopio electrónico se ven anillos de frente y
 
-de frente y como tubos vistos de lado.
-
-
+tubos de lado.
 
 
-            Montaje del complejo de ataque a la membrana: C5b, C6, C7, C8 y polimerización de C9.
+
+
+16
+           Montaje del complejo de ataque a la membrana: C5b, C6, C7, C8 y polimerización de C9.
 
 
 6.3 Estructura del poro y relación con la perforina
 
-El modelo del CAM es un tubo formado por 12 a 16 moléculas de C9, más una molécula
+En sencillo: los linfocitos que matan células usan un arma casi igual, la perforina, que
 
-de C6, C7, C8α-γ; las cadenas C5bα, C5bβ y C8β forman un apéndice que sobresale. En los
+también hace agujeros.
 
-eritrocitos se ven poros de 100 Å formados por poli-C9. Las lesiones que inducen los CTL y
+El modelo del CAM es un tubo de 12 a 16 moléculas de C9 más una de C6, C7 y C8α-γ;
 
-las NK (de unos 160 Å) las forma la perforina, una proteína homóloga a C9 que también
+C5bα, C5bβ y C8β forman un apéndice que sobresale. Las lesiones que hacen los CTL
 
-polimeriza en la membrana (      🔗 temas de NK y CTL).
-15
-7. REGULACIÓN DEL COMPLEMENTO IMP
+(linfocitos T citotóxicos) y las NK (unos 160 Å) las forma la perforina, una proteína
+
+homóloga a C9 (de la misma familia, con estructura parecida) que también se polimeriza
+
+en la membrana (   🔗 temas de NK y CTL).
+7. REGULACIÓN DEL COMPLEMENTO IMP
 
 📝 Ha caído "Diga las funciones de los siguientes inhibidores del complemento (RCA): C1
 INH, MCP, DAF, factor H, factor I, C4BP, receptor CR1 y CD59" (PT1). En la diapositiva 45
 
 están rodeados en rojo.
 
-Como el C3 se activa continuamente y el C3b se puede pegar a cualquier superficie, el
-
-complemento necesita frenos que eviten el ataque a nuestras células y que lo paren
-
-cuando se ha eliminado el patógeno. Son las proteínas reguladoras, presentes en el
-
-plasma y en la membrana de las células normales del anfitrión (ampliación: las funciones
-
-de cada una no se detallan en las diapositivas; están explicadas según el libro y la
-
-respuesta del banco de preguntas):
-
-     ● C1-INH (inhibidor de C1): imita el sustrato de C1r, C1s y las MASP; al cortarlo,
-
-        queda unido a ellas y las bloquea. Frena el inicio de las vías clásica y de las
-
-        lectinas.
-
-     ● C4bp (proteína de unión a C4b), CR1, MCP (proteína cofactor de membrana,
-
-        CD46), DAF (factor acelerador de la disociación, CD55) y factor H: se unen a C4b
-
-        o C3b e impiden que se formen las convertasas o aceleran su disociación
-
-        (separan C2a o Bb). C4bp actúa sobre C4b; el factor H, sobre C3b (vía alternativa);
-
-        CR1 y DAF, sobre los dos.
-
-     ● Factor I: proteasa de serina que degrada C3b y C4b (C3b pasa a iC3b y luego a
-
-        C3dg y C3d). Necesita cofactores: CR1, MCP, C4bp o factor H.
-
-     ● CD59: está en la membrana de las células propias e impide la polimerización de
-
-        C9, es decir, la formación del CAM sobre ellas.
-
-     ● Properdina (P): en la lista de la diapositiva aparece junto a los reguladores, pero su
-
-        efecto es el contrario: es un regulador positivo, porque estabiliza la convertasa
-
-        C3bBb.
 
 
+17
+En sencillo: como el C3 se rompe solo todo el rato y se puede pegar a cualquier cosa,
 
+nuestras células llevan "frenos" que apagan el complemento si se les pega. Los microbios
 
-16
-La idea clave: estas proteínas las tienen las células del hospedador, pero no los
+no tienen esos frenos, así que el complemento solo sigue adelante sobre ellos.
 
-microbios, así que el complemento se apaga sobre lo propio y sigue sobre lo extraño.
+Estas son las proteínas reguladoras, del plasma y de la membrana de nuestras células
+
+(ampliación: las diapositivas solo las nombran; la explicación es del libro y de la respuesta
+
+del banco de preguntas):
+
+     ● C1-INH (inhibidor de C1): se hace pasar por el sustrato (lo que cortan) de C1r, C1s
+
+        y las MASP; al cortarlo, se queda enganchado y las bloquea. Frena el inicio de las
+
+        vías clásica y de las lectinas.
+
+     ● C4bp, CR1, MCP (CD46), DAF (CD55) y factor H: se unen a C4b o C3b e impiden
+
+        que se formen las convertasas o aceleran su disociación (las desmontan,
+
+        separando C2a o Bb). C4bp actúa sobre C4b; el factor H, sobre C3b; CR1 y DAF,
+
+        sobre los dos.
+
+     ● Factor I: proteasa que degrada (rompe en trozos inútiles) C3b y C4b. Necesita
+
+        cofactores (ayudantes): CR1, MCP, C4bp o factor H.
+
+     ● CD59: está en la membrana de nuestras células e impide la polimerización de C9,
+
+        es decir, que se forme el CAM sobre ellas.
+
+     ● Properdina (P): aparece en la lista, pero hace lo contrario: es un regulador
+
+        positivo, porque estabiliza la convertasa C3bBb.
 
 
 
 
-               Clases de proteínas funcionales del complemento; las reguladoras, rodeadas en rojo.
+18
+             Clases de proteínas funcionales del complemento; las reguladoras, rodeadas en rojo.
 
 
 8. FUNCIONES EFECTORAS DEL COMPLEMENTO
 
-Las funciones efectoras se pueden resumir en cinco: regulan la respuesta humoral,
+En sencillo: el complemento sirve para cinco cosas: marcar microbios para que se los
 
-eliminan inmunocomplejos circulantes, propician la respuesta inflamatoria,
+coman, avisar y atraer a otras células, agujerearlos, limpiar la sangre de grupos de
 
-producen la lisis bacteriana y opsonizan virus y bacterias, haciéndolos sensibles a la
+antígenos con anticuerpos, y ayudar a los linfocitos B a hacer anticuerpos.
 
-fagocitosis.
+Las funciones efectoras son: regular la respuesta humoral, eliminar inmunocomplejos
+
+circulantes, propiciar la respuesta inflamatoria, producir la lisis bacteriana y
+
+opsonizar virus y bacterias para hacerlos sensibles a la fagocitosis.
 
 
 8.1 Opsonización y fagocitosis
 
-El C3b (o C4b) se une al microbio y el fagocito lo reconoce con su receptor de C3b (CR1), y
+En sencillo: el C3b es como una etiqueta de "cómeme".
 
-también con CR3 y CR4 a través de iC3b. Así el microbio se fagocita: queda dentro del
+El C3b (o C4b) se pega al microbio y el fagocito lo reconoce con su receptor CR1 (y con CR3
 
-fagosoma, que se une al lisosoma (fagolisosoma), y se mata con especies reactivas de
-
-
+y CR4 a través de iC3b). El microbio se fagocita: queda dentro de una vesícula, el
 
 
-17
-oxígeno (ROS), óxido nítrico (NO, producido por la iNOS a partir de arginina) y enzimas
+
+
+19
+fagosoma, que se une al lisosoma (bolsa de enzimas) formando el fagolisosoma, donde
+
+se mata con especies reactivas de oxígeno (ROS), óxido nítrico (NO) y enzimas
 
 lisosomales.
 
 
 8.2 Inflamación: las anafilatoxinas
 
-Los fragmentos pequeños C3a, C5a y C4a se llaman anafilatoxinas. Actúan sobre los
+En sencillo: los trozos pequeños C3a, C5a y C4a hacen que los vasos "se abran": sale
 
-vasos sanguíneos y aumentan la permeabilidad vascular y la expresión de moléculas de
+líquido con anticuerpos y complemento, y salen leucocitos al tejido.
 
-adhesión. Resultado:
+C3a, C5a y C4a se llaman anafilatoxinas. Actúan sobre los vasos y aumentan la
 
-     ● Sale más líquido de los vasos, y con él IgG, IgM y componentes del complemento.
+permeabilidad vascular (los vasos dejan pasar más cosas) y la expresión de moléculas de
 
-     ● Aumenta la migración de macrófagos, neutrófilos y linfocitos al tejido, y la
+adhesión. Así sale más líquido con IgG, IgM y complemento, y aumentan la migración de
 
-        actividad microbicida de macrófagos y neutrófilos (C5a es además
+macrófagos, neutrófilos y linfocitos al tejido y su actividad microbicida. C5a es la más
 
-        quimiotáctico).
-
-Su potencia es distinta: C5a es la más potente, C3a intermedia y C4a débil (ampliación).
-
-Producen una respuesta inflamatoria local.
+potente (y además es quimiotáctica: atrae células), C3a intermedia y C4a débil.
 
 
 8.3 Lisis de los microbios
 
 El C3b depositado activa los componentes tardíos, se forma el CAM y la bacteria muere por
 
-lisis osmótica. Esta vía es sobre todo importante frente a bacterias de pared fina como
+lisis osmótica. Es importante sobre todo frente a bacterias de pared fina como Neisseria
 
-Neisseria (apartado 9.2).
-
-
+(apartado 9.2).
 
 
-18
+
+
+20
                           Funciones efectoras: opsonización, inflamación y lisis.
 
 
 8.4 Eliminación de inmunocomplejos
 
-La unión de C3b a los agregados antígeno–anticuerpo (inmunocomplejos, IC) es la base
+En sencillo: cuando muchos anticuerpos atrapan antígenos se forman "pelotas" que
 
-de la "inhibición de la inmunoprecipitación": el C3b impide que los complejos crezcan y
+podrían atascarse en los tejidos. El complemento las recubre para que no crezcan, y los
 
-precipiten en los tejidos. Después:
+glóbulos rojos las llevan al hígado y al bazo para tirarlas.
 
-     ● Los eritrocitos, con su CR1, transportan los IC por la sangre hasta el hígado y el
+La unión de C3b a los inmunocomplejos (IC) es la base de la "inhibición de la
 
-        bazo, donde los macrófagos los retiran.
+inmunoprecipitación" (impide que los complejos crezcan y precipiten en los tejidos).
 
-     ● Los macrófagos los fagocitan a través de CR3 y FcR.
+Después: los eritrocitos, con CR1, los llevan al hígado y el bazo, donde los macrófagos los
 
-     ● El factor I (con H y CR1) degrada C3b a fragmentos como C3dg, que reconocen el
+retiran; los macrófagos los fagocitan por CR3 y FcR; y el factor I degrada el C3b a C3dg,
 
-        CR2 del linfocito B (regula la respuesta de anticuerpos) y las FDC (retención del
+que reconocen el CR2 del linfocito B (regula la respuesta de anticuerpos) y las FDC
 
-        antígeno en los folículos).
-
-
+(guardan el antígeno en los folículos).
 
 
-19
-              Inmunocomplejos con C3b: transporte por eritrocitos, fagocitosis, linfocito B y FDC.
+
+
+21
+             Inmunocomplejos con C3b: transporte por eritrocitos, fagocitosis, linfocito B y FDC.
 
 
 8.5 Complemento y respuesta de fase aguda
 
-Durante la respuesta de fase aguda, las bacterias inducen a los macrófagos a producir IL-
+En sencillo: cuando hay infección, el hígado fabrica más proteínas de defensa, algunas de
 
-6, que actúa sobre los hepatocitos. El hígado produce moléculas que actúan como PRR
+las cuales encienden el complemento.
 
-solubles: MBL, ficolinas 1, 2 y 3, proteínas surfactantes SP-A y SP-D, además de
+En la respuesta de fase aguda, las bacterias hacen que los macrófagos produzcan IL-6,
 
-fibrinógeno y amiloide sérico.
+que actúa sobre los hepatocitos (células del hígado). El hígado fabrica PRR solubles: MBL,
 
-     ● La proteína C reactiva se une a la fosfocolina de las superficies bacterianas, actúa
+ficolinas 1, 2 y 3, SP-A y SP-D, además de fibrinógeno y amiloide sérico. La proteína C
 
-        como opsonina y activa el complemento (vía clásica, por C1q).
+reactiva se pega a la fosfocolina bacteriana, opsoniza y activa el complemento por C1q;
 
-     ● La MBL se une a los residuos de manosa bacterianos, actúa como opsonina y
-
-        activa el complemento (vía de las lectinas).
+la MBL se pega a la manosa, opsoniza y activa el complemento por la vía de las lectinas.
 
 
 8.6 Complemento y anticuerpos
 
 Gracias al complemento, los anticuerpos pueden provocar la lisis de las bacterias. Un
 
-anticuerpo puede actuar de tres formas: neutralizar toxinas, opsonizar bacterias para
+anticuerpo actúa de tres formas: neutralizando (tapando) toxinas, opsonizando bacterias
 
-que las ingiera el macrófago, o activar el complemento, lo que lleva a la lisis y a la
+para que las coma el macrófago o activando el complemento.
 
-ingestión.
+Ejemplo de las diapositivas: la neutralización del virus vaccinia con anticuerpos anti-B5
+
+depende del complemento. En la gráfica, quitar C3 es lo que más reduce el efecto y quitar
 
 
 
 
-20
-Ejemplo de investigación de las diapositivas: la neutralización del virus vaccinia por
+22
+C5 influye poco, así que importa más el recubrimiento con C3b que el agujero del CAM
 
-anticuerpos monoclonales anti-B5 depende del complemento: sin suero con
-
-complemento apenas neutralizan. En la gráfica, quitar C3 es lo que más reduce el efecto,
-
-mientras que quitar C5 influye poco, lo que indica que importa más el recubrimiento con
-
-C3b que la lisis por el CAM (lectura de la gráfica; ampliación).
+(lectura de la gráfica; ampliación).
 
 
 8.7 La interfase entre la inmunidad innata y la adaptativa
 
-El sistema del complemento constituye la interfase entre la inmunidad innata y la
+En sencillo: el complemento es el "puente" entre la defensa rápida y la de los anticuerpos,
 
-adaptativa:
+y además funciona como un vigilante que sabe distinguir entre una célula sana, una célula
 
-     ● Inmunidad innata: opsonización, lisis de patógenos, quimiotaxis, inflamación y
+muerta y un microbio.
 
-        activación celular.
+El complemento es la interfase entre la inmunidad innata y la adaptativa. En la innata
 
-     ● Sistema de eliminación: retira inmunocomplejos y células apoptóticas:
+opsoniza, lisa patógenos, atrae células e inflama. Como sistema de limpieza retira
 
-        homeostasis celular.
+inmunocomplejos y células apoptóticas. En la adaptativa aumenta la respuesta de
 
-     ● Inmunidad adaptativa: aumenta la respuesta de anticuerpos (CR2 como
+anticuerpos (CR2 como correceptor del B), promueve la respuesta T y refuerza la
 
-        correceptor del B), promueve la respuesta T, elimina los B autorreactivos y
+memoria. También interviene en la reparación, la coagulación y la médula ósea.
 
-        refuerza la memoria inmunológica.
+Actúa como sistema de vigilancia que ajusta su respuesta: sobre una célula sana hay
 
-Además interviene en la resolución de la inflamación y la reparación, la coagulación, la
+activación baja constante ("tick-over") pero los reguladores la frenan; sobre un microbio,
 
-movilización de células de la médula ósea y la interacción con los TLR.
+activación fuerte, opsonización, amplificación y lisis; sobre una célula apoptótica, la
 
-Un sistema de vigilancia: el complemento discrimina entre el tejido sano del huésped,
+opsoniza para retirarla sin inflamar; y sobre una célula dañada cuya regulación falla,
 
-los desechos celulares y las células apoptóticas, y los intrusos, y ajusta su respuesta:
+produce inflamación y lesión (enfermedades inmunitarias e inflamatorias). Por último,
 
-     ● Célula humana sana: hay una activación baja constante ("tick-over"), pero sus
+C3 y C5 también los pueden cortar proteasas de la coagulación (trombina, calicreína)
 
-        reguladores la frenan.
-
-     ● Microbio: activación fuerte, opsonización, amplificación, señales de peligro y lisis.
-
-     ● Célula apoptótica: se opsoniza para que se elimine, con poca inflamación y poca
-
-        lisis.
-
-
-
-
-21
-     ● Célula humana dañada (enfermedad): si la regulación es insuficiente, el
-
-        complemento produce señales proinflamatorias y lesión: enfermedades
-
-        inmunitarias e inflamatorias.
-
-Además de las tres vías clásicas, la C3 y la C5 también pueden cortarlas proteasas de la
-
-coagulación (trombina, calicreína): es la llamada vía extrínseca (ampliación). El
-
-complemento "hace honor a su nombre": complementa, e incluso organiza, procesos que
-
-van mucho más allá de la simple eliminación del peligro.
+(ampliación).
 
 
 9. PATOLOGÍA DEL COMPLEMENTO
 
 9.1 Enfermedades en las que participa el complemento
 
-Una activación errónea o una regulación insuficiente hacen que el sistema inmunitario
+En sencillo: si el complemento se enciende cuando no debe, o los frenos fallan, ataca a
 
-ataque los tejidos propios. Muchas enfermedades autoinmunes, inflamatorias y de
+nuestros propios tejidos.
 
-isquemia-reperfusión están relacionadas con el complemento: sepsis, anafilaxia,
+La activación errónea o la regulación insuficiente del complemento participa en
 
-hemoglobinuria paroxística nocturna, psoriasis, miastenia gravis, lupus eritematoso
-
-sistémico, esclerosis múltiple, rechazo de trasplantes, infarto de miocardio e ictus,
-
-Alzheimer, degeneración macular asociada a la edad, asma, síndrome hemolítico urémico
-
-atípico, Crohn y artritis reumatoide. Además, algunos patógenos han aprendido a evadir o
-
-aprovechar el complemento.
-
-
-9.2 Deficiencias del complemento
-
-Entre las unas 300 inmunodeficiencias primarias están las deficiencias del complemento
-
-(hipocomplementemia). Lo que se pierde depende de qué componente falta:
-
-     ● Vía clásica temprana (C1, C2, C4): enfermedad por inmunocomplejos (como el
-
-        lupus), porque no se eliminan bien los inmunocomplejos ni las células apoptóticas.
-
-     ● Vía de las lectinas (MBL, MASP-1, MASP-2, C2, C4): infecciones bacterianas,
-
-        sobre todo en la infancia.
-
-
-
-
-22
-     ● Vía alternativa (factor D, factor P): infecciones por bacterias piógenas y
-
-        Neisseria, sin enfermedad por inmunocomplejos.
-
-     ● C3: infecciones por bacterias piógenas y Neisseria, y a veces enfermedad por
-
-        inmunocomplejos. Es la más grave, porque C3 es el punto donde convergen todas
-
-        las vías.
-
-     ● Componentes del CAM (C5 a C9): infecciones solo por Neisseria (meningitis,
-
-        gonorrea). Esto indica que la lisis por el CAM es importante sobre todo frente a
-
-        estas bacterias.
-
-
-
-
-                    Consecuencias de los defectos de cada componente del complemento.
-
-
-9.3 Fármacos que actúan sobre el complemento
-
-     ● Inhibidores de proteasas: C1-INH purificado o recombinante, para el angioedema
-
-        hereditario (ampliación: es la enfermedad por falta de C1-INH).
-
-     ● Reguladores solubles: la parte extracelular de CR1 (sCR1) o quimeras de DAF y
-
-        MCP.
-
+muchas enfermedades autoinmunes (el sistema inmunitario ataca lo propio),
 
 
 
 23
-     ● Anticuerpos terapéuticos: el eculizumab, un anticuerpo humanizado contra C5,
+inflamatorias y de isquemia-reperfusión (daño cuando vuelve la sangre a un tejido que
 
-        está aprobado para la hemoglobinuria paroxística nocturna (HPN).
+se había quedado sin riego): sepsis, anafilaxia, hemoglobinuria paroxística nocturna,
 
-     ● Inhibidores de componentes: la compstatina (inhibe C3) y los antagonistas del
+psoriasis, miastenia gravis, lupus, esclerosis múltiple, rechazo de trasplantes, infarto e
 
-        receptor de C5a.
+ictus, Alzheimer, degeneración macular, asma, síndrome hemolítico urémico atípico, Crohn
 
-     ● MBL recombinante, como tratamiento de sustitución en la deficiencia de MBL.
+y artritis reumatoide. Algunos patógenos han aprendido a evadir el complemento o a
+
+aprovecharlo.
+
+
+9.2 Deficiencias del complemento
+
+En sencillo: según la pieza que falte, falla una función distinta, y eso se nota en el tipo de
+
+enfermedad.
+
+Entre las unas 300 inmunodeficiencias primarias (defectos de nacimiento del sistema
+
+inmunitario) están las deficiencias del complemento (hipocomplementemia):
+
+     ● Vía clásica temprana (C1, C2, C4): enfermedad por inmunocomplejos (como el
+
+        lupus), porque no se limpian bien los inmunocomplejos ni las células apoptóticas.
+
+     ● Vía de las lectinas (MBL, MASP-1, MASP-2): infecciones bacterianas, sobre todo
+
+        en la infancia.
+
+     ● Vía alternativa (factor D, factor P): infecciones por bacterias piógenas (que
+
+        producen pus) y Neisseria.
+
+     ● C3: infecciones por bacterias piógenas y Neisseria, y a veces enfermedad por
+
+        inmunocomplejos. Es la más grave, porque en C3 se juntan todas las vías.
+
+     ● Componentes del CAM (C5 a C9): infecciones solo por Neisseria (meningitis,
+
+        gonorrea): el agujero importa sobre todo frente a estas bacterias.
 
 
 
 
 24
+                   Consecuencias de los defectos de cada componente del complemento.
+
+
+9.3 Fármacos que actúan sobre el complemento
+
+     ● C1-INH purificado o recombinante: para el angioedema hereditario (la
+
+        enfermedad por falta de C1-INH; ampliación).
+
+     ● Reguladores solubles: la parte extracelular de CR1 (sCR1) o mezclas de DAF y MCP.
+
+     ● Eculizumab: anticuerpo contra C5, aprobado para la hemoglobinuria paroxística
+
+        nocturna (HPN).
+
+     ● Compstatina (inhibe C3), antagonistas del receptor de C5a y MBL recombinante
+
+        para quien no tiene MBL.
+
+
+
+
+25
 

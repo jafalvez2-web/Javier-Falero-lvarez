@@ -254,6 +254,13 @@ otra cosa. Al final ofrece guardar la explicación completa como archivo
      primer lugar", "a continuación", "por último") y cierre con la función o la importancia clínica.
      **Nada de viñetas ni pasos numerados**; negrita solo en los términos clave. Las viñetas solo se
      admiten en las preguntas tipo test (respuesta y explicación).
+  26. **Los apuntes en PDF también parten de cero: "En sencillo" + término técnico explicado** (feedback
+     2026-11-28, T11-12: "tiene un lenguaje muy académico… el anterior agente me lo explicaba como para
+     tontitos y después ponía ese lenguaje, o ponía ese lenguaje y entre paréntesis lo que significaba").
+     Cada subapartado empieza con un párrafo "**En sencillo:**" (la idea con palabras normales y, si
+     ayuda, una imagen cotidiana) y después va el texto con el lenguaje del examen, donde **cada término
+     técnico lleva entre paréntesis lo que significa la primera vez** ("opsonización (recubrir al
+     microbio para que los fagocitos se lo coman)"). Con esto los apuntes rondan las 5.000–5.500 palabras.
   12. **No narrar las diapositivas ni las figuras.** Nada de "la diapositiva 47 muestra…", "la
      diapositiva 48 es una tabla que…", "en esta figura se ve…", "las tres gráficas de abajo…",
      "arriba a la derecha…". Se explica **el contenido directamente**, como si fuera la clase: el
