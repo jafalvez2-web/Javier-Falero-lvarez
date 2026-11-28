@@ -1,0 +1,366 @@
+TEMAS 11 Y 12 : PREGUNTAS DE EXAMEN
+RESUELTAS
+Fuentes revisadas: exámenes oficiales de enero 2019/20 (E19) y febrero 2020/21 (F21), PREGUNTAS DESARROLLO
+
+(DES) y las recopilaciones PREGUNTAS POR TEMAS 1 y 2 (PT1, PT2). Las recopilaciones usan la numeración antigua
+
+(ponen el complemento en el "Tema 8"). Bloque 1: preguntas que han caído, resueltas con los apuntes. Bloque 2: tipo
+
+test de práctica (los exámenes oficiales no traen el test, así que estas NO han caído).
+
+
+1. PREGUNTAS QUE HAN CAÍDO
+
+1.1 Defina con un esquema la fase terminal de la activación del sistema
+
+del complemento (formación del MAC)
+
+📝 Ha caído en: E19 (corta), DES, PT1, PT2 dos veces (5 veces). Es la pregunta del
+complemento que más se repite.
+
+En los apuntes: 6.1, 6.2 y 6.3. Esquema: figura de 6.2 (de C5b al poro de C9).
+
+
+Las tres vías convergen en una convertasa de C5: C4b2a3b en las vías clásica y de las
+
+lectinas, y C3b2Bb en la alternativa. La convertasa corta C5 en C5a, que se libera y estimula
+
+la inflamación, y C5b, que inicia la fase terminal. Esta fase no es proteolítica: los
+
+componentes se van uniendo y cambiando de forma.
+
+    ● 1. El C5b se une a C6 y luego a C7.
+
+    ● 2. El complejo C5b67 se une a la membrana: C7 cambia de conformación y expone
+
+         dominios hidrófobos que se insertan en la bicapa lipídica.
+
+    ● 3. Se une C8: C8β se une al complejo y C8αγ se inserta en la membrana. El C5b-8 ya
+
+         forma un poro pequeño (daño moderado).
+
+    ● 4. El C5b-8 induce la unión y polimerización de C9: de 10 a 16 moléculas de C9
+
+         forman un tubo, el complejo de ataque a la membrana (CAM o MAC), con un
+
+         poro de unos 100 Å (10 nm).
+
+
+
+
+1
+    ● 5. Por el poro entran agua e iones: el microbio pierde el equilibrio osmótico y se
+
+         produce la lisis osmótica.
+
+Detalles para subir nota: en microscopía se ven anillos de frente y tubos de lado; la
+
+perforina de CTL y NK es homóloga a C9; en nuestras células, la CD59 impide la
+
+polimerización de C9; los déficits de C5–C9 dan infecciones solo por Neisseria.
+
+
+1.2 Describa la vía alternativa del complemento acompañándola con un
+
+esquema
+
+📝 Ha caído en: F21 (corta), PT1, PT2 (3 veces).
+En los apuntes: 5.1 a 5.4. Esquema: figura de 5.2 (C3b, factor B, factor D, C3bBb).
+
+
+Es una vía de la inmunidad innata: se activa sobre la superficie de los patógenos sin
+
+anticuerpos.
+
+    ● Inicio: el C3 del plasma hidroliza espontáneamente su enlace tioéster a un ritmo
+
+         bajo y constante ("tick-over") y genera algo de C3b (a través de C3(H2O)Bb). El C3b
+
+         también puede venir de las otras vías. En el plasma el C3b se hidroliza y queda
+
+         inactivo; sobre un microbio se une covalentemente (enlaces éster o amida con
+
+         grupos –OH o –NH2).
+
+    ● 1. El C3b unido a la superficie se une al factor B.
+
+    ● 2. El factor D (proteasa de serina del plasma) corta el factor B en Ba, que se libera, y
+
+         Bb, que se queda.
+
+    ● 3. C3bBb es la convertasa de C3 de la vía alternativa: corta muchas C3 en C3a y
+
+         C3b, y las nuevas C3b forman más convertasas (bucle de amplificación; también
+
+         amplifica las otras vías).
+
+    ● 4. C3bBb es muy inestable; la properdina (factor P), producida por los
+
+         neutrófilos, la estabiliza sobre la superficie microbiana.
+
+
+
+
+2
+    ● 5. Al unirse otra C3b se forma C3b2Bb, la convertasa de C5, que corta C5 en C5a y
+
+         C5b (inicio del CAM).
+
+Por qué solo sobre microbios: nuestras células tienen proteínas reguladoras (factor H,
+
+DAF, MCP, CR1 y factor I) que inactivan el C3b y deshacen la convertasa; los microbios no
+
+las tienen. Productos: C3a y C5a (inflamación), C3b (opsonización), C5b (CAM, lisis).
+
+
+1.3 Vía clásica del complemento
+
+📝 Ha caído en: PT1 (1 vez); y dentro de "vías de activación del complemento" en PT2.
+En los apuntes: 3.1 a 3.6.
+
+
+Es la vía de la inmunidad adaptativa humoral: la inician los complejos antígeno–
+
+anticuerpo (IgM o IgG). También la puede iniciar la proteína C reactiva (unida a
+
+fosfocolina) o algunos componentes bacterianos.
+
+    ● El complejo C1: C1q (hexámero de 460 kDa con cabezas globulares y colas de
+
+         colágeno) con C1r2 y C1s2, proteasas de serina en forma de zimógeno.
+
+    ● 1. C1q se une a las regiones Fc de los anticuerpos unidos al antígeno: basta una
+
+         IgM, o hacen falta al menos dos IgG cercanas. Esto activa C1r, que corta y activa
+
+         C1s.
+
+    ● 2. C1s corta C4 en C4a y C4b; el C4b expone su tioéster y se une covalentemente a
+
+         la superficie.
+
+    ● 3. C2 se une a C4b y C1s lo corta en C2b y C2a: C4b2a = convertasa de C3.
+
+    ● 4. C4b2a corta C3 en C3a y C3b; una C3b se une a la convertasa: C4b2a3b =
+
+         convertasa de C5, que corta C5 en C5a y C5b.
+
+Funciones de los fragmentos: C3a, C4a y C5a son anafilatoxinas (inflamación); C3b
+
+opsoniza y amplifica por la vía alternativa; C5b inicia el CAM (lisis).
+
+
+1.4 Vía de la lectina del complemento
+
+
+
+3
+📝 Ha caído en: PT1 (1 vez).
+En los apuntes: 4.1 a 4.3 y 8.5.
+
+
+Es una vía de la inmunidad innata. La inician la lectina fijadora de manosa (MBL), que
+
+une manosa y fucosa, y las ficolinas, que unen N-acetilglucosamina, cuando reconocen
+
+el espaciamiento particular de los azúcares de los microbios (la MBL tiene muchos CRD
+
+de afinidad débil, y solo une con fuerza por avidez).
+
+     ● 1. En la respuesta de fase aguda, la IL-6 de los macrófagos hace que los
+
+         hepatocitos produzcan MBL, ficolinas y las proteínas surfactantes SP-A y SP-D.
+
+     ● 2. En el plasma, MBL y ficolinas forman complejos con las proteasas MASP-1 y
+
+         MASP-2.
+
+     ● 3. Al unirse a la pared bacteriana se activa MASP-2, que corta C4 (C4b se une a la
+
+         superficie) y C2.
+
+     ● 4. Se forma C4b2a, la convertasa de C3 (igual que en la vía clásica), y después
+
+         C4b2a3b, la convertasa de C5.
+
+Los fragmentos tienen las mismas funciones que en la vía clásica. La deficiencia de MBL
+
+se asocia a infecciones bacterianas en la infancia.
+
+
+1.5 Funciones de los inhibidores del complemento (RCA): C1-INH, MCP,
+
+DAF, factor H, factor I, C4BP, CR1 y CD59
+
+📝 Ha caído en: PT1 (1 vez).
+En los apuntes: apartado 7. Las diapositivas solo los nombran (rodeados en rojo en la 45); la explicación es de
+
+ampliación.
+
+
+El complemento se regula para que no ataque a las células propias y para pararlo
+
+cuando se ha eliminado el patógeno. Lo hacen proteínas del plasma y de la membrana de
+
+nuestras células:
+
+
+
+
+ 4
+    ● C1-INH: imita el sustrato de C1r, C1s y las MASP, se queda unido a ellas y las
+
+         inactiva: frena el inicio de las vías clásica y de las lectinas.
+
+    ● DAF (CD55), CR1, C4BP, MCP (CD46) y factor H: se unen a C4b (DAF, CR1, C4BP) o a
+
+         C3b (DAF, CR1, MCP, factor H) e impiden la formación de las convertasas o las
+
+         disocian, porque desplazan a C2a o a Bb.
+
+    ● Factor I: proteasa de serina que degrada C3b y C4b; necesita cofactores: CR1,
+
+         C4BP, MCP o factor H.
+
+    ● CD59: en la membrana de las células propias, impide la polimerización de C9 y,
+
+         por tanto, la formación del CAM.
+
+Como estas proteínas están en las células del hospedador y no en los microbios, el
+
+complemento se apaga sobre lo propio.        🩺 La falta de C1-INH produce el angioedema
+hereditario.
+
+
+2. PREGUNTAS TIPO TEST DE PRÁCTICA (NO HAN CAÍDO)
+
+1. Las tres vías del complemento convergen en: a) La activación de C1. b) La formación
+
+de una C3-convertasa. c) La activación de MASP-2. d) La unión del factor B. e) La
+
+polimerización de C9.
+
+    ● Respuesta: b. C1 y MASP-2 son de vías concretas; C9 es el final.
+
+2. La convertasa de C3 de la vía clásica es: a) C3bBb. b) C4b2a. c) C4b2a3b. d) C3b2Bb. e)
+
+C5b67.
+
+    ● Respuesta: b. C3bBb es la alternativa; C4b2a3b y C3b2Bb son convertasas de C5.
+
+3. Para activar C1q hace falta: a) Una IgG libre en el plasma. b) Una sola IgG unida al
+
+antígeno. c) Al menos dos IgG unidas al antígeno, o una IgM unida al antígeno. d) Una IgA
+
+dimérica. e) Una IgM libre en el plasma.
+
+    ● Respuesta: c. Los anticuerpos libres no lo activan; varias cabezas de C1q tienen que
+
+         unirse a la vez.
+
+
+
+5
+4. El enlace tioéster de C3b y C4b sirve para: a) Unirse a su receptor CR1. b) Unirse
+
+covalentemente a la superficie microbiana. c) Cortar C5. d) Activar el factor D. e) Unirse a la
+
+properdina.
+
+    ● Respuesta: b. Forma enlaces éster o amida con la superficie; si reacciona con agua,
+
+        se inactiva.
+
+5. En la vía de las lectinas, la proteasa que corta C4 y C2 es: a) C1s. b) Factor D. c) MASP-
+
+2. d) Factor I. e) Bb.
+
+    ● Respuesta: c. C1s lo hace en la clásica; el factor D corta el factor B en la alternativa.
+
+6. La MBL distingue a los microbios de las células propias porque: a) Cada CRD une con
+
+alta afinidad cualquier manosa. b) Reconoce el espaciamiento de los azúcares de la
+
+superficie bacteriana gracias a la avidez de sus múltiples CRD. c) Reconoce ácido siálico. d)
+
+Se une a anticuerpos. e) Solo se produce durante la infección.
+
+    ● Respuesta: b. Un solo CRD tiene una afinidad muy débil.
+
+7. La properdina (factor P): a) Corta el factor B. b) Inhibe la convertasa C3bBb. c) Estabiliza
+
+la convertasa C3bBb. d) Degrada C3b. e) Impide la polimerización de C9.
+
+    ● Respuesta: c. El factor D corta B; el factor I degrada C3b; CD59 impide la
+
+        polimerización de C9.
+
+8. El inicio "espontáneo" de la vía alternativa se debe a: a) La unión de C1q a la PCR. b)
+
+La hidrólisis lenta y espontánea del tioéster de C3. c) La activación de MASP-1. d) La
+
+liberación de C5a. e) La unión de IgM.
+
+    ● Respuesta: b. Es el "tick-over" de C3, que forma C3(H2O).
+
+9. ¿Qué componente forma el poro del complejo de ataque a la membrana? a) C5b. b)
+
+C6. c) C7. d) C8. e) C9 polimerizado.
+
+    ● Respuesta: e. Entre 10 y 16 C9; la perforina es homóloga a C9.
+
+
+
+
+6
+10. La proteína que impide la formación del CAM sobre las células propias es: a) DAF.
+
+b) Factor H. c) CD59. d) C1-INH. e) Factor I.
+
+    ● Respuesta: c. DAF y factor H actúan sobre las convertasas; C1-INH sobre C1r/C1s; el
+
+       factor I degrada C3b.
+
+11. El receptor CR2 (CD21): a) Es una integrina que une iC3b. b) Es correceptor del linfocito
+
+B y receptor del virus de Epstein-Barr. c) Transporta inmunocomplejos en los eritrocitos. d)
+
+Une C1q. e) Es receptor de C5a.
+
+    ● Respuesta: b. El transporte por eritrocitos lo hace CR1; las integrinas que unen iC3b
+
+       son CR3 y CR4.
+
+12. La anafilatoxina más potente es: a) C3a. b) C4a. c) C5a. d) C2b. e) Ba.
+
+    ● Respuesta: c. C3a es intermedia y C4a débil.
+
+13. Una deficiencia de C1, C2 o C4 se asocia sobre todo a: a) Infecciones solo por
+
+Neisseria. b) Enfermedad por inmunocomplejos (como el lupus). c) Angioedema
+
+hereditario. d) Hemoglobinuria paroxística nocturna. e) Ausencia de linfocitos T.
+
+    ● Respuesta: b. Los déficits de C5–C9 dan infecciones por Neisseria; el angioedema
+
+       es por falta de C1-INH.
+
+14. Los genes de C4, C2 y factor B se encuentran en: a) El cromosoma X. b) La región de
+
+clase III del MHC. c) La región de clase I del MHC. d) El locus de las inmunoglobulinas. e) El
+
+cromosoma Y.
+
+    ● Respuesta: b. Por eso las convertasas C4b2a y C3bBb se parecen.
+
+15. El eculizumab, usado en la hemoglobinuria paroxística nocturna, es un
+
+anticuerpo: a) Anti-C3. b) Anti-C5. c) Anti-C1q. d) Anti-factor B. e) Anti-C5aR.
+
+    ● Respuesta: b. Impide el corte de C5 y la formación del CAM.
+
+
+
+
+7
+

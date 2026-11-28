@@ -286,6 +286,7 @@ otra cosa. Al final ofrece guardar la explicación completa como archivo
 - 2026-10-02 · Tema 4 (2.ª clase): funciones, M1/M2, inflamación, citoquinas, EGC, péptidos antimicrobianos (diap. reales 41–60) → mismo archivo + inicio del Tema 5 (NK, CAR-T) → clases/05-celulas-nk.md
 - 2026-10-02 · Tema 5 (diap. 31–38: mecanismos efectores, memory-like, NK frente a T, NKT) → clases/05-celulas-nk.md + Tema 6 (diap. 1–21: historia, estructura de la Ig, Fab/Fc, κ/λ) → clases/06-bcr-anticuerpos.md
 - 2026-11-18 · Tema 13 (citocinas, quimiocinas y receptores; 65 diap.; **Prof. Gema Méndez Lagares**, no el profesor del perfil). Sin transcripción: muchas cajas venían en blanco y se completaron con contenido estándar. Apuntes, resumen y preguntas en `inmunologia/apuntes/INMUNO T13*.pdf`; fuentes en `inmunologia/herramientas/fuentes/T13_*.txt`. En el banco no hay pregunta propia de este tema (solo relacionadas: citocinas del macrófago, Th1, Th2, Fas, CD40L, 3 señales).
+- 2026-11-28 · Temas 11 y 12 (complemento; 59 diap.). Sin transcripción. Apuntes, resumen y preguntas en `inmunologia/apuntes/INMUNO T11-12*.pdf`; fuentes en `inmunologia/herramientas/fuentes/T11_*.txt`. La diap. 45 tiene rodeadas en rojo las proteínas reguladoras (C1INH, C4bp, CR1, MCP, DAF, H, I, P, CD59), aunque no se explican en otras diapositivas.
 - Falta la clase de las diap. 3–30 del Tema 5.
 - Pendiente: transcripción del Tema 3 (Tejidos) y de las diap. reales 44–55 del Tema 2. Del Tema 4, las diap. 24–40 y 43–45 no salen en ninguna transcripción.
 
@@ -1565,12 +1566,13 @@ fuentes indica **cuánto se repite** una pregunta, no exámenes independientes.
   AIRE, Treg naturales, tolerancia central y periférica (diap. 91–125). 🔗 T3 (timo, cayó en E19).
 
 ### Temas posteriores (aún sin PDF; numeración por confirmar)
-**Complemento**
+**Complemento** (Temas 11 y 12, PDF "Tema 11 y 12 Complemento", 59 diap.)
 - **Fase terminal del complemento con esquema / formación del MAC** — **E19** (corta), DES, PT1,
   PT2 ×2. **(5)** ⭐⭐⭐
 - **Vía alternativa del complemento con esquema** — **F21** (corta), PT1, PT2 ("vías de
   activación"). **(3)** ⭐
 - Vía clásica — PT1. **(1)**
+- Vía de la lectina (MBL, ficolinas, MASP-2; IL-6 y fase aguda) — PT1. **(1)**
 - Inhibidores del complemento (RCA: C1-INH, MCP…) — PT1. **(1)**
 
 **MHC y presentación de antígenos**
