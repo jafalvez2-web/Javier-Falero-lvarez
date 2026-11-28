@@ -260,7 +260,7 @@ otra cosa. Al final ofrece guardar la explicación completa como archivo
      Cada subapartado empieza con un párrafo "**En sencillo:**" (la idea con palabras normales y, si
      ayuda, una imagen cotidiana) y después va el texto con el lenguaje del examen, donde **cada término
      técnico lleva entre paréntesis lo que significa la primera vez** ("opsonización (recubrir al
-     microbio para que los fagocitos se lo coman)"). Con esto los apuntes rondan las 5.000–5.500 palabras.
+     microbio para que los fagocitos se lo coman)"). Con esto los apuntes rondan las 5.000–6.500 palabras (T11-12: 5.050; T13, que es más largo: 6.650). El resumen lleva una línea "En sencillo:" al principio de cada apartado grande y el significado de los términos entre paréntesis.
   12. **No narrar las diapositivas ni las figuras.** Nada de "la diapositiva 47 muestra…", "la
      diapositiva 48 es una tabla que…", "en esta figura se ve…", "las tres gráficas de abajo…",
      "arriba a la derecha…". Se explica **el contenido directamente**, como si fuera la clase: el

@@ -7,11 +7,20 @@ estándar; compruébalas con lo que diga la profesora.
 
 1. LA COMUNICACIÓN EN EL SISTEMA INMUNITARIO
 
+En sencillo: las células del sistema inmunitario se hablan con mensajes de proteína
+
+(citocinas); detectan el peligro, avisan y se coordinan.
+
+
 1.1 Recibir información, reconocer el peligro y comunicar la respuesta
 
-    ● La célula recibe señales del entorno, señales de peligro (PAMP, DAMP, que
+    ● La célula recibe señales del entorno, señales de peligro (los PAMP, moléculas
 
-        reconocen los PRR) y señales de otras células.
+        típicas de los microbios, y los DAMP, moléculas que sueltan las células dañadas, que
+
+        reconocen los PRR, receptores de reconocimiento de patrones) y señales de otras
+
+        células.
 
     ● En el sistema inmunitario, la comunicación entre células se hace sobre todo con
 
@@ -35,21 +44,22 @@ estándar; compruébalas con lo que diga la profesora.
 
 1.3 Una red de comunicación
 
-    ● Participan la inmunidad innata (señales rápidas), la adaptativa (los linfocitos
 
-        activados expanden y especializan la respuesta) y el tejido (epitelio, endotelio,
 
-        fibroblastos).
+
+1
+    ● Participan la inmunidad innata (señales rápidas), la adaptativa (los linfocitos
+
+       activados expanden y especializan la respuesta) y el tejido (epitelio, endotelio,
+
+       fibroblastos).
 
     ● El linfocito Th está en el centro de la red.
 
 
 1.4 Un ejemplo de la red en acción: "¡Alerta, infección!"
 
-
-
-1
-    ● El macrófago detecta las bacterias y libera TNF, IL-1 y CXCL8; TNF e IL-1 activan el
+    ● El macrófago detecta las bacterias y libera TNF, IL-1 y CXCL8; TNF e IL-1 activan el
 
        endotelio y CXCL8 guía a los neutrófilos hacia el foco.
 
@@ -63,6 +73,11 @@ estándar; compruébalas con lo que diga la profesora.
 2. LAS CITOCINAS: DEFINICIÓN, PROPIEDADES Y
 
 FUNCIONES
+
+En sencillo: mensajes breves, potentes y muy controlados; cada célula los "lee" según los
+
+receptores que tenga.
+
 
 2.1 Definición y características
 
@@ -85,38 +100,44 @@ FUNCIONES
 
        CD40L–CD40, FasL–Fas).
 
-    ● Solo hay efecto donde hay receptor funcional. Si sube la concentración o persiste,
+
+
+2
+    ● Solo hay efecto donde hay receptor funcional. Si sube la concentración o persiste,
 
        una citocina local se vuelve sistémica.
 
 
 2.3 Propiedades de las citocinas: la red decide el resultado
 
-    ● Pleiotropismo: una citocina, efectos distintos en células distintas (IL-4 sobre B,
+    ● Pleiotropismo (una citocina, efectos distintos): una citocina, efectos distintos en
 
-       timocitos y mastocitos).
+       células distintas (IL-4 sobre B, timocitos y mastocitos).
 
-    ● Redundancia: varias citocinas, el mismo efecto (IL-2, IL-4 e IL-5 hacen proliferar al
+    ● Redundancia (varias citocinas, mismo efecto): varias citocinas, el mismo efecto (IL-
 
-       B).
+       2, IL-4 e IL-5 hacen proliferar al B).
 
+    ● Sinergia (juntas hacen más que la suma): juntas hacen más que la suma (IL-4 + IL-5
 
+       inducen el cambio a IgE).
 
-2
-    ● Sinergia: juntas hacen más que la suma (IL-4 + IL-5 inducen el cambio a IgE).
+    ● Antagonismo (una bloquea a otra): una inhibe a otra (el IFN-γ bloquea el cambio a
 
-    ● Antagonismo: una inhibe a otra (el IFN-γ bloquea el cambio a IgE de la IL-4).
+       IgE de la IL-4).
 
-    ● Cascada: una induce a otra (IFN-γ activa al macrófago, que produce IL-12, que actúa
+    ● Cascada (una induce a otra): una induce a otra (IFN-γ activa al macrófago, que
 
-       sobre los Th).
+       produce IL-12, que actúa sobre los Th).
 
 
 2.4 Las "puertas" que controlan la respuesta a las citocinas
 
-    ● Expresión del receptor, concentración y gradiente, vida media corta y
+    ● Expresión del receptor, concentración y gradiente (diferencia de concentración),
 
-       antagonistas y frenos (IL-1Ra, receptores señuelo, IL-10, SOCS).
+       vida media corta y antagonistas y frenos (IL-1Ra, receptores señuelo, IL-10,
+
+       SOCS).
 
 
 2.5 Funciones: activación, fase efectora y regulación
@@ -130,7 +151,15 @@ FUNCIONES
 
 3. NOMENCLATURA Y CLASIFICACIÓN DE LAS CITOCINAS
 
-3.1 El nombre orienta, pero no define la función
+En sencillo: lo más útil es clasificarlas por su receptor, porque la forma del receptor dice
+
+qué camino sigue la señal dentro de la célula.
+
+
+
+
+3
+3.1 El nombre orienta, pero no define la función
 
     ● Nombres por la célula (linfocinas, monocinas), por el primer efecto observado (TNF,
 
@@ -154,13 +183,9 @@ FUNCIONES
 
        señalización.
 
+    ● Tipo I (hematopoyetinas): WSXWS, JAK–STAT (la JAK pone fosfatos y el STAT lleva la
 
-
-
-3
-    ● Tipo I (hematopoyetinas): WSXWS, JAK–STAT. Tipo II (interferones, IL-10): sin
-
-       WSXWS, JAK–STAT.
+       señal al núcleo). Tipo II (interferones, IL-10): sin WSXWS, JAK–STAT.
 
     ● Superfamilia TNFR: dominios ricos en cisteína, TRAF/TRADD. IL-17R: SEFIR, ACT1–
 
@@ -169,18 +194,26 @@ FUNCIONES
 
 
 
-                                Familias de receptores de citocinas.
+                                 Familias de receptores de citocinas.
 
 
-4. HEMATOPOYETINAS: CITOCINAS DE CLASE I
+
+
+4
+4. HEMATOPOYETINAS: CITOCINAS DE CLASE I
+
+En sencillo: familia grande de cuatro hélices que usa el "cable" JAK–STAT; muchas
+
+comparten piezas del receptor.
+
 
 4.1 Generalidades
 
     ● Las primeras caracterizadas. Estructura de cuatro hélices α. Receptor tipo I sin
 
-       actividad quinasa, con JAK–STAT, y a veces con cadenas compartidas γc (CD132),
+       actividad quinasa (no puede poner fosfatos por sí mismo), con JAK–STAT, y a veces
 
-       βc (CD131) o gp130 (CD130).
+       con cadenas compartidas γc (CD132), βc (CD131) o gp130 (CD130).
 
 
 4.2 El receptor de clase I: CHR, cisteínas conservadas y WSXWS
@@ -192,11 +225,7 @@ FUNCIONES
 
 4.3 La vía JAK–STAT
 
-
-
-
-4
-    ● Aproximar (la citocina junta las cadenas), fosforilar (las JAK se activan y fosforilan
+    ● Aproximar (la citocina junta las cadenas), fosforilar (las JAK se activan y fosforilan
 
        el receptor), activar STAT (se unen por SH2, se fosforilan y dimerizan) y entrar al
 
@@ -219,7 +248,9 @@ FUNCIONES
 4.5 La IL-2 y su receptor: el ensamblaje regula la sensibilidad IMP
 
 📝 Relacionado con "Las 3 señales de las APC" (PT1, PT2).
-    ● Cadenas α (CD25), β (CD122) y γc. α sola: baja afinidad, sin señal. βγc: intermedia
+
+5
+    ● Cadenas α (CD25), β (CD122) y γc. α sola: baja afinidad, sin señal. βγc: intermedia
 
        (NK, T en reposo). αβγc: alta (T y B activados, Treg).
 
@@ -232,7 +263,9 @@ FUNCIONES
 
 4.6 La cadena γc y la inmunodeficiencia X-SCID
 
-    ● Un defecto en γc (gen ligado al X) inutiliza seis citocinas a la vez: es la X-SCID.
+    ● Un defecto en γc (gen ligado al X) inutiliza seis citocinas a la vez: es la X-SCID
+
+       (inmunodeficiencia grave: sin linfocitos T ni NK).
 
     ● Sin IL-7 no hay linfocitos T; sin IL-15 no hay NK; hay B pero no funcionan.
 
@@ -243,15 +276,13 @@ FUNCIONES
 
        células); vía JAK1–STAT3.
 
+    ● Clásica (IL-6R de membrana): antiinflamatoria. Trans-señalización (con el receptor
 
+       suelto en la sangre, llega a cualquier célula) (IL-6 + IL-6R soluble sobre la gp130 de
 
+       cualquier célula): proinflamatoria, amplía las dianas. La sgp130 es un señuelo que
 
-5
-    ● Clásica (IL-6R de membrana): antiinflamatoria. Trans-señalización (IL-6 + IL-6R
-
-       soluble sobre la gp130 de cualquier célula): proinflamatoria, amplía las dianas. La
-
-       sgp130 es un señuelo que la bloquea.
+       la bloquea.
 
     ● Tocilizumab: anticuerpo anti-IL-6R; bloquea las dos vías.
 
@@ -268,7 +299,10 @@ FUNCIONES
        IFN-γ.
 
 
-4.9 Citocinas hematopoyéticas: el suministro de células desde la médula
+
+
+6
+4.9 Citocinas hematopoyéticas: el suministro de células desde la médula
 
 ósea
 
@@ -280,6 +314,9 @@ FUNCIONES
 5. INTERFERONES Y FAMILIA DE LA IL-10: CITOCINAS DE
 
 CLASE II
+
+En sencillo: los interferones defienden de los virus y activan al macrófago; la IL-10 frena.
+
 
 5.1 Generalidades
 
@@ -297,9 +334,9 @@ CLASE II
 
 5.3 Tres tipos de interferón y la familia de la IL-10
 
+    ● Tipo I (IFN-α/β): IFNAR1/2, TYK2 + JAK1, ISGF3 (STAT1 + STAT2 + IRF9) (STAT1 +
 
-6
-    ● Tipo I (IFN-α/β): IFNAR1/2, TYK2 + JAK1, ISGF3 (STAT1 + STAT2 + IRF9), ISRE.
+       STAT2 + IRF9), ISRE.
 
     ● Tipo II (IFN-γ): IFNGR1/2, JAK1 + JAK2, homodímero de STAT1 (GAF), GAS.
 
@@ -316,7 +353,9 @@ CLASE II
 
     ● Vía: IFNAR, TYK2/JAK1, STAT1/STAT2, + IRF9 = ISGF3, núcleo, ISRE, ISG.
 
-    ● Estado antiviral: PKR (fosforila eIF2α: frena la traducción), OAS (activa la ARNasa L:
+
+7
+    ● Estado antiviral: PKR (fosforila eIF2α: frena la traducción), OAS (activa la ARNasa L:
 
        degrada el ARN viral) y Mx (bloquea el ensamblaje). Además sube el MHC-I y activa
 
@@ -348,11 +387,7 @@ CLASE II
 
        JAK1/TYK2, STAT3 y SOCS3.
 
-
-
-
-7
-    ● Actúa sobre las presentadoras: baja IL-12, TNF, IL-1, IL-6, MHC-II y
+    ● Actúa sobre las presentadoras: baja IL-12, TNF, IL-1, IL-6, MHC-II y
 
        coestimulación; por tanto, menos Th1 y menos daño.
 
@@ -369,6 +404,12 @@ CLASE II
 
 
 6. SUPERFAMILIA DEL TNF
+
+
+
+8
+En sencillo: mensajes de tres piezas que inflaman, ayudan a sobrevivir o mandan morir.
+
 
 6.1 Generalidades
 
@@ -405,11 +446,9 @@ CLASE II
 
        supervivencia.
 
+    ● Complejo II (citosol: FADD, procaspasa-8): apoptosis (muerte celular programada);
 
-8
-    ● Complejo II (citosol: FADD, procaspasa-8): apoptosis; si la caspasa-8 está
-
-       bloqueada, necroptosis (RIPK1, RIPK3, MLKL).
+       si la caspasa-8 está bloqueada, necroptosis (RIPK1, RIPK3, MLKL).
 
 
 6.5 TNF: la dosis separa la inflamación protectora del daño sistémico
@@ -418,23 +457,25 @@ CLASE II
 
        fase aguda, médula ósea). Alta: shock séptico (bajo gasto cardíaco, trombosis y
 
-       CID, hipotensión, hipoglucemia). Persistente: caquexia.
+       CID, hipotensión, hipoglucemia). Persistente: caquexia (adelgazamiento extremo).
 
     ● TNF, IL-1 e IL-6 cooperan en los efectos sistémicos.
 
 
-6.6 Fas–FasL: apoptosis extrínseca de los linfocitos activados IMP
+
+9
+6.6 Fas–FasL: apoptosis extrínseca de los linfocitos activados IMP
 
 📝 Relacionado con "Vías de la apoptosis" (PT1, PT2).
-    ● FasL trimeriza Fas; los dominios de muerte reclutan FADD; los DED de FADD
+     ● FasL trimeriza Fas; los dominios de muerte reclutan FADD; los DED de FADD
 
-       reclutan la procaspasa-8 (complejo DISC); la caspasa-8 activa las caspasas
+        reclutan la procaspasa-8 (complejo DISC); la caspasa-8 activa las caspasas
 
-       efectoras: apoptosis.
+        efectoras: apoptosis.
 
-    ● Sirve para la contracción de la respuesta. Las mutaciones de Fas o FasL producen
+     ● Sirve para la contracción de la respuesta. Las mutaciones de Fas o FasL producen
 
-       síndromes linfoproliferativos.
+        síndromes linfoproliferativos.
 
 
 6.7 CD40L y BAFF/APRIL: el lado cooperativo y trófico de la familia TNF
@@ -442,23 +483,25 @@ CLASE II
 IMP
 
 📝 Relacionado con "Papel de CD40L en la activación del linfocito B" (PT2).
-    ● CD40L (T CD4/Tfh) sobre CD40 (B): proliferación, centro germinal, cambio de
+     ● CD40L (T CD4/Tfh) sobre CD40 (B): proliferación, centro germinal, cambio de
 
-       isotipo y maduración.
+        isotipo y maduración.
 
-    ● BAFF sobre BAFF-R: supervivencia y maduración del B; BAFF/APRIL sobre TACI: B
+     ● BAFF sobre BAFF-R: supervivencia y maduración del B; BAFF/APRIL sobre TACI: B
 
-       activado; APRIL sobre BCMA: supervivencia de las células plasmáticas.
+        activado; APRIL sobre BCMA: supervivencia de las células plasmáticas.
 
 
 7. FAMILIA DE LA IL-17
 
+En sencillo: la IL-17 de los Th17 hace que la piel y las mucosas llamen a los neutrófilos; útil
+
+contra bacterias y hongos, dañina si no se apaga.
+
+
 7.1 Generalidades
 
-
-
-9
-     ● Dímeros (IL-17A a IL-17F). IL-17A/F los producen Th17, T γδ e ILC3; actúan sobre las
+     ● Dímeros (IL-17A a IL-17F). IL-17A/F los producen Th17, T γδ e ILC3; actúan sobre las
 
         células del tejido, que reclutan neutrófilos.
 
@@ -467,7 +510,11 @@ IMP
 
 7.2 Ligandos y receptores
 
-     ● IL-17A e IL-17F: Th17 e ILC3, receptor IL-17RA/RC, neutrófilos. IL-17C: epitelio. IL-
+
+
+
+10
+     ● IL-17A e IL-17F: Th17 e ILC3, receptor IL-17RA/RC, neutrófilos. IL-17C: epitelio. IL-
 
         17E (IL-25): epitelio, IL-17RA/RB, tipo 2.
 
@@ -501,6 +548,9 @@ IMP
 
 8. FAMILIA DE LA IL-1
 
+En sencillo: las alarmas de daño e infección; la IL-1β necesita el inflamasoma para salir.
+
+
 8.1 Generalidades y miembros
 
      ● Alarminas e inflamación. Receptores con dominios Ig y dominio TIR; vía MyD88–
@@ -510,12 +560,13 @@ IMP
      ● IL-1α/β sobre IL-1R1 + IL-1RAcP; IL-18 sobre IL-18Rα/β; IL-33 sobre ST2 + IL-1RAcP.
 
 
+8.2 Quién es quién en la familia IL-1
 
 
-10
-8.2 Quién es quién en la familia IL-1
 
-     ● IL-1α: alarmina de daño, activa como precursor. IL-1β: precursor inducido que
+
+11
+     ● IL-1α: alarmina de daño, activa como precursor. IL-1β: precursor inducido que
 
         necesita caspasa-1; fiebre. IL-18: precursor constitutivo, caspasa-1; con IL-12 induce
 
@@ -545,7 +596,9 @@ IMP
 
         gasdermina D.
 
-     ● Salida común: poros de gasdermina D: salida de IL-1β/IL-18 y piroptosis.
+     ● Salida común: poros de gasdermina D: salida de IL-1β/IL-18 y piroptosis (muerte
+
+        celular inflamatoria: la célula revienta).
 
      ● Pasos: preparar, ensamblar, perforar y liberar.
 
@@ -565,12 +618,11 @@ IMP
         CAPS (urticaria familiar por frío con fiebre).
 
 
+8.6 Cómo traduce el receptor de IL-1 la señal hasta el núcleo
 
 
-11
-8.6 Cómo traduce el receptor de IL-1 la señal hasta el núcleo
-
-     ● IL-1, IL-1R1 + IL-1RAcP, MyD88, IRAK4 e IRAK1/2, TRAF6 (ubiquitina), TAK1–TAB,
+12
+     ● IL-1, IL-1R1 + IL-1RAcP, MyD88, IRAK4 e IRAK1/2, TRAF6 (ubiquitina), TAK1–TAB,
 
         que activa IKK (NF-κB) y MAPK (AP-1): genes inflamatorios.
 
@@ -591,6 +643,9 @@ IMP
 
 9. QUIMIOCINAS Y SUS RECEPTORES
 
+En sencillo: el "olor" que siguen los leucocitos para llegar donde hacen falta.
+
+
 9.1 Generalidades
 
      ● Citocinas quimioatrayentes, de 8–12 kDa, más de 50. Quimiocinesis (motilidad) y
@@ -599,9 +654,9 @@ IMP
 
      ● Inflamatorias (inducidas) y homeostáticas (constitutivas en estroma y endotelio).
 
-     ● Receptores GPCR de 7 hélices: proteína G, PI3K/PLC/GTPasas, polaridad, integrinas
+     ● Receptores GPCR de 7 hélices (receptores acoplados a proteína G): proteína G,
 
-        y migración.
+        PI3K/PLC/GTPasas, polaridad, integrinas y migración.
 
 
 9.2 Familias estructurales y nomenclatura
@@ -620,7 +675,7 @@ IMP
 
 
 
-12
+13
      ● CCL2/CCR2: monocitos. CCL11/CCR3: eosinófilos. CXCL8/CXCR1-2: neutrófilos.
 
         CXCL12/CXCR4: nichos de la médula. CX3CL1/CX3CR1: monocitos, NK, T.
@@ -650,6 +705,11 @@ IMP
 
 ACCIÓN
 
+En sencillo: para qué sirven las citocinas en cada fase: inflamar, activar, multiplicar
+
+linfocitos, fabricar células y mover leucocitos.
+
+
 10.1 Inmunidad innata: contener el foco y activar efectores IMP
 
 📝 Relacionado con "¿Cuáles son las principales citoquinas secretadas por los
@@ -664,17 +724,18 @@ macrófagos?" (PT1, PT2).
 
 efectoras
 
-     ● Expandir (IL-2). Polarizar: IL-12 hacia Th1, IL-4 hacia Th2, TGF-β + IL-6 hacia Th17,
+
+
+
+14
+     ● Expandir (IL-2). Polarizar: IL-12 hacia Th1, IL-4 hacia Th2, TGF-β + IL-6 hacia Th17,
 
         TGF-β + IL-2 hacia Treg. Ayudar a B (IL-4, IL-5, IL-13, CD40L). Ejecutar (IFN-γ, IL-17,
 
         IL-4/5/13).
 
 
-
-
-13
-10.3 Hematopoyesis: supervivencia, expansión y compromiso de linaje
+10.3 Hematopoyesis: supervivencia, expansión y compromiso de linaje
 
      ● Ampliar precursores (SCF, IL-3, GM-CSF), granulocitos (G-CSF, IL-5), monocitos (M-
 
@@ -683,23 +744,30 @@ efectoras
 
 10.4 Quimiotaxis: la extravasación del leucocito
 
-     ● Rodamiento (selectinas y sialil-Lewis X), detección de CXCL8 por CXCR1/2,
+     ● Rodamiento (las selectinas del endotelio frenan al neutrófilo y le hacen rodar),
 
-        adhesión firme (integrina LFA-1 con ICAM-1), diapédesis (CD31/PECAM-1) y
+        detección de CXCL8 por CXCR1/2, adhesión firme (integrina LFA-1 con ICAM-1),
 
-        migración por el gradiente.
-
-
+        diapédesis (CD31/PECAM-1) y migración por el gradiente.
 
 
-                                   Extravasación del neutrófilo.
+
+
+                                     Extravasación del neutrófilo.
 
 
 11. CASOS PARA PENSAR Y CIERRE
 
+En sencillo: las mismas citocinas explican la fiebre de la gripe y el pus de una herida.
+
+
 11.1 Durante la gripe, las citocinas explican parte del malestar
 
-     ● IL-1, TNF e IL-6 pasan a la sangre: fiebre (hipotálamo, PGE2), malestar (cansancio,
+
+
+
+15
+     ● IL-1, TNF e IL-6 pasan a la sangre: fiebre (hipotálamo, PGE2), malestar (cansancio,
 
         somnolencia, anorexia) y fase aguda (la IL-6 hace que el hígado produzca proteína
 
@@ -708,11 +776,7 @@ efectoras
 
 11.2 Un pequeño foco cutáneo revela cómo CXCL8 recluta neutrófilos
 
-
-
-
-14
-     ● TNF e IL-1 activan el endotelio; CXCL8 atrae neutrófilos con CXCR1/2; el pus son
+     ● TNF e IL-1 activan el endotelio; CXCL8 atrae neutrófilos con CXCR1/2; el pus son
 
         neutrófilos, bacterias y restos de tejido; solo migran los leucocitos con el receptor
 
@@ -728,5 +792,5 @@ efectoras
 
 
 
-15
+16
 
