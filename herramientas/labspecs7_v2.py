@@ -62,5 +62,7 @@ def todos():
         else:
             pn, ar, bt = SPEC.get(k, spec)
             ar = [COMPLETA.get(a, a) for a in ar]
+            if k.startswith('P7-6') and bt:
+                bt = bt + '|(esta reacción se ajusta paso a paso, desde cero, más abajo)'
             out[k] = draw2(pn, ar, bt)
     return out

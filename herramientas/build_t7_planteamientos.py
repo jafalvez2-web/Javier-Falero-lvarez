@@ -45,6 +45,8 @@ build2.CSS += """
 .reac .eq { display: block; background: #fff6dc; border-left: 5px solid #e0a100; border-radius: 4px; padding: 5px 12px; margin: 4px 0;
             font-size: 11.8pt; font-weight: 700; color: #1d1d1d; letter-spacing: .2px; }
 .reac .nt { font-size: 9.2pt; color: #555; font-weight: 400; margin-left: 10px; }
+.ajt { background: #0a5d0a; color: #fff; font-weight: 700; font-size: 11pt; padding: 3px 8px; border-radius: 3px; margin: 14px 0 6px; page-break-after: avoid; }
+h6 { font-size: 10.5pt; color: #0a5d0a; border-left: 4px solid #09b909; padding-left: 6px; margin: 12px 0 4px; page-break-after: avoid; }
 .rx { background: #fff1c9; border-radius: 3px; padding: 0 4px; font-weight: 700; white-space: nowrap; }
 """
 
@@ -152,6 +154,22 @@ def reacciones(text):
     return '\n'.join(out)
 
 
+def limpia_reaccion(pre):
+    """quita de la ficha antigua la reacción que se daba por ajustada (y sus listas)"""
+    out, saltando = [], False
+    cab = re.compile(r'^\*\*(Reacci|Ajuste|Electrones|Neutra)')
+    for l in pre.split('\n'):
+        s = l.strip()
+        if cab.match(s):
+            saltando = True
+            continue
+        if saltando and (s.startswith(('- ', '*Comprobación', '*Con la iónica', 'CrO₄', 'S₂O₄', '2 CrO₄', '**2 CrO₄')) or l.startswith('  ')):
+            continue
+        saltando = False
+        out.append(l)
+    return '\n'.join(out).rstrip()
+
+
 def main():
     base = open(BASE, encoding='utf-8').read()
     # dibujos de laboratorio con el estilo nuevo (lab2.py / labspecs7_v2.py)
@@ -161,7 +179,8 @@ def main():
         open(os.path.join(H, 'img', fn), 'w', encoding='utf-8').write(s)
     base = base.replace('img/lab7_', 'img/lab7v2_')
     new_txt = '\n\n'.join(open(f, encoding='utf-8').read()
-                          for f in sorted(glob.glob(os.path.join(SRC, '*.md'))) if not f.endswith(('00_intro.md', '05_explica.md')))
+                          for f in sorted(glob.glob(os.path.join(SRC, '*.md'))) if not f.endswith(('00_intro.md', '05_explica.md', '62_ajustes.md', '63_redox_cero.md')))
+    aj = dict(re.findall(r'^@@ (.+?)\n(.+?)(?=\n@@ |\Z)', open(os.path.join(SRC, '62_ajustes.md'), encoding='utf-8').read(), flags=re.M | re.S))
     exp = dict(re.findall(r'^@@ (.+?)\n(.+?)(?=\n\n@@ |\Z)', open(os.path.join(SRC, '05_explica.md'), encoding='utf-8').read(), flags=re.M | re.S))
     nf = fichas(new_txt)
     hechas = []
@@ -179,6 +198,13 @@ def main():
         tm = TAIL.search(seg, pe.start())
         tail = seg[tm.start():].strip() if tm else ''
         plan, res = parts
+        if code in aj:   # redox: fuera la reacción «dada»; dentro el ajuste desde cero
+            pre = limpia_reaccion(pre)
+            tail = '\n'.join(l for l in tail.split('\n') if not l.startswith('**Neutra'))
+            bloque = aj[code].strip().replace('\n#### ', '\n###### ')
+            if bloque.startswith('#### '):
+                bloque = '#' * 2 + bloque
+            pre += '\n\n<p class="ajt">Ajuste de la reacción, paso a paso (desde cero)</p>\n\n' + bloque
         if code in exp:
             plan = plan.replace('[[PLAN', '**Lo que vamos a hacer:** ' + exp[code].strip() + '\n\n[[PLAN', 1)
         else:
@@ -194,6 +220,10 @@ def main():
                         '4. **El planteamiento en flechas** (recuadro morado): en qué orden voy de los datos al resultado.')
     base = base.replace('5. **Los cálculos, uno por paso**, cada uno con **por qué** lo hago.',
                         '5. **Los cálculos, uno por flecha** (①, ②…), cada uno con **por qué** lo hago; si hay una x, la ecuación se construye pieza a pieza.')
+    cero = open(os.path.join(SRC, '63_redox_cero.md'), encoding='utf-8').read()
+    kk = base.index('### Ajuste por el método del ion-electrón')
+    kk2 = base.index('### Las semirreacciones que más caen')
+    base = base[:kk] + cero + '\n\n' + base[kk2:]
     intro = open(os.path.join(SRC, '00_intro.md'), encoding='utf-8').read()
     k = base.index('<div class="newpage"></div>\n\n## 1.')
     base = base[:k] + intro + '\n\n' + base[k:]
