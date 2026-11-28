@@ -269,6 +269,11 @@ otra cosa. Al final ofrece guardar la explicación completa como archivo
      opciones se barajan solas), **pista** y **explicación de por qué cada opción es correcta o no**;
      4–7 preguntas por punto según su longitud; nada de trivialidades ni distractores que cambien en una
      palabra. Para añadir un tema: nueva entrada en `DATA` y volver a publicar el mismo archivo.
+  28. **Esquema para copiar en el examen en cada pregunta de desarrollo donde encaje** (pedido 2026-11-28:
+     "que las preguntas de desarrollo en las que se pueda hicieses un dibujo para yo poner en el examen, así
+     me da más puntos"). Debajo de la respuesta redactada va una nota "Esquema para dibujar en el examen" y
+     un esquema sencillo de cajas, flechas y membranas, reproducible a mano en 1–2 minutos. Se generan con
+     `inmunologia/herramientas/esquemas.py` (una función por esquema; salida en `fuentes/esquemas/`).
   12. **No narrar las diapositivas ni las figuras.** Nada de "la diapositiva 47 muestra…", "la
      diapositiva 48 es una tabla que…", "en esta figura se ve…", "las tres gráficas de abajo…",
      "arriba a la derecha…". Se explica **el contenido directamente**, como si fuera la clase: el

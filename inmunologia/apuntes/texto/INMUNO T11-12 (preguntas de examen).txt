@@ -21,7 +21,7 @@ del complemento (formación del MAC)
 📝 Ha caído en: E19 (corta), DES, PT1, PT2 dos veces (5 veces). Es la pregunta del
 complemento que más se repite.
 
-En los apuntes: 6.1, 6.2 y 6.3. Esquema que acompaña la respuesta: el de 6.2, de C5b hasta el poro de C9.
+En los apuntes: 6.1, 6.2 y 6.3..
 
 
 Las tres vías de activación del complemento (clásica, de las lectinas y alternativa) convergen
@@ -48,7 +48,7 @@ complejo C5b67 se inserta en la bicapa lipídica de la membrana del patógeno. A
 
 
 
-1
+ 1
 continuación se une C8: su subunidad C8β se une al complejo y la subunidad C8αγ se
 
 introduce en la membrana. El complejo C5b-8 resultante ya forma un poro pequeño y
@@ -77,15 +77,20 @@ polimerización de C9. La importancia de esta vía se ve en las personas con dé
 
 componentes C5 a C9, que sufren infecciones de repetición por Neisseria.
 
+Esquema para dibujar en el examen (cópialo a mano junto a la respuesta):
+
+
+
 
 1.2 Describa la vía alternativa del complemento acompañándola con un
 
 esquema
 
-📝 Ha caído en: F21 (corta), PT1, PT2 (3 veces).
-En los apuntes: 5.1 a 5.4. Esquema que acompaña la respuesta: el de 5.2 (C3b, factor B, factor D, C3bBb y
 
-properdina).
+
+2
+📝 Ha caído en: F21 (corta), PT1, PT2 (3 veces).
+En los apuntes: 5.1 a 5.4..
 
 
 La vía alternativa es una vía de activación del complemento propia de la inmunidad
@@ -102,10 +107,7 @@ también puede proceder de las otras dos vías, por lo que la vía alternativa a
 
 como amplificadora de todas ellas.
 
-
-
-2
-El C3b recién formado expone un tioéster muy reactivo durante un tiempo muy corto. Si se
+El C3b recién formado expone un tioéster muy reactivo durante un tiempo muy corto. Si se
 
 encuentra en el plasma, reacciona con el agua y queda inactivo; en cambio, si está junto a
 
@@ -142,6 +144,12 @@ activación se producen C3a y C5a, que inducen inflamación; C3b, que opsoniza a
 patógeno, y C5b, que inicia el CAM y la lisis.
 
 
+ 3
+Esquema para dibujar en el examen (cópialo a mano junto a la respuesta):
+
+
+
+
 1.3 Vía clásica del complemento
 
 📝 Ha caído en: PT1 (1 vez); y dentro de "vías de activación del complemento" en PT2.
@@ -156,17 +164,15 @@ por IgM o IgG. También puede iniciarse por la unión directa a algunas superfic
 
 bacterianas o a la proteína C reactiva unida a la fosfocolina de los microbios.
 
-
-
-
-3
-El elemento que inicia la vía es el complejo C1, formado por C1q y por dos moléculas de
+El elemento que inicia la vía es el complejo C1, formado por C1q y por dos moléculas de
 
 C1r y dos de C1s, que son proteasas de serina en forma de zimógeno. C1q es un hexámero
 
 de 460 kDa con seis cabezas globulares y colas de tipo colágeno. Para activarse necesita
 
-unirse a la vez por varias cabezas a las regiones Fc de anticuerpos unidos al antígeno, por
+
+4
+unirse a la vez por varias cabezas a las regiones Fc de anticuerpos unidos al antígeno, por
 
 lo que basta una molécula de IgM o hacen falta al menos dos de IgG próximas entre sí;
 
@@ -192,8 +198,13 @@ patógeno y amplifica la activación a través de la vía alternativa, y C5b ini
 
 complejo de ataque a la membrana, que provoca la lisis celular.
 
+Esquema para dibujar en el examen (cópialo a mano junto a la respuesta):
 
-1.4 Vía de la lectina del complemento
+
+
+
+5
+1.4 Vía de la lectina del complemento
 
 📝 Ha caído en: PT1 (1 vez).
 En los apuntes: 4.1 a 4.3 y 8.5.
@@ -213,16 +224,15 @@ cada dominio de reconocimiento de carbohidratos (CRD) tiene una afinidad muy dé
 
 pero al unirse varios a la vez aumenta mucho la avidez de la unión.
 
-
-
- 4
-Durante la respuesta de fase aguda, los macrófagos activados por las bacterias secretan
+Durante la respuesta de fase aguda, los macrófagos activados por las bacterias secretan
 
 IL-6, que actúa sobre los hepatocitos y hace que produzcan moléculas que funcionan
 
 como PRR solubles, entre ellas la MBL, las ficolinas y las proteínas surfactantes SP-A y SP-D.
 
-En el plasma, la MBL y las ficolinas forman complejos con dos proteasas de serina, MASP-1
+
+ 6
+En el plasma, la MBL y las ficolinas forman complejos con dos proteasas de serina, MASP-1
 
 y MASP-2.
 
@@ -242,13 +252,18 @@ las bacterias y facilitan su fagocitosis. La importancia de esta vía se refleja
 
 deficiencia de MBL se asocia a infecciones bacterianas en la infancia.
 
+Esquema para dibujar en el examen (cópialo a mano junto a la respuesta):
+
+
+
 
 1.5 Funciones de los inhibidores del complemento (RCA): C1-INH, MCP,
 
 DAF, factor H, factor I, C4BP, CR1 y CD59
 
 📝 Ha caído en: PT1 (1 vez).
-En los apuntes: apartado 7. Las diapositivas solo los nombran (rodeados en rojo en la 45); la explicación es de
+7
+En los apuntes: apartado 7. Las diapositivas solo los nombran (rodeados en rojo en la 45); la explicación es de
 
 ampliación.
 
@@ -267,11 +282,7 @@ El inhibidor de C1 (C1-INH) actúa al principio de la cascada: imita el sustrato
 
 las MASP y, al ser cortado por ellas, queda unido covalentemente y las inactiva, de modo
 
-
-
-
-5
-que frena el inicio de las vías clásica y de las lectinas. Su déficit produce el angioedema
+que frena el inicio de las vías clásica y de las lectinas. Su déficit produce el angioedema
 
 hereditario.
 
@@ -295,8 +306,13 @@ presentes en las células del hospedador pero no en los microbios, el complement
 
 apaga sobre los tejidos propios y continúa actuando sobre los patógenos.
 
+Esquema para dibujar en el examen (cópialo a mano junto a la respuesta):
 
-2. PREGUNTAS TIPO TEST DE PRÁCTICA (NO HAN CAÍDO)
+
+
+
+8
+2. PREGUNTAS TIPO TEST DE PRÁCTICA (NO HAN CAÍDO)
 
 1. Las tres vías del complemento convergen en: a) La activación de C1. b) La formación
 
@@ -322,10 +338,7 @@ dimérica. e) Una IgM libre en el plasma.
 
          unirse a la vez.
 
-
-
-6
-4. El enlace tioéster de C3b y C4b sirve para: a) Unirse a su receptor CR1. b) Unirse
+4. El enlace tioéster de C3b y C4b sirve para: a) Unirse a su receptor CR1. b) Unirse
 
 covalentemente a la superficie microbiana. c) Cortar C5. d) Activar el factor D. e) Unirse a la
 
@@ -333,13 +346,15 @@ properdina.
 
     ● Respuesta: b. Forma enlaces éster o amida con la superficie; si reacciona con agua,
 
-        se inactiva.
+         se inactiva.
 
-5. En la vía de las lectinas, la proteasa que corta C4 y C2 es: a) C1s. b) Factor D. c) MASP-
+
+9
+5. En la vía de las lectinas, la proteasa que corta C4 y C2 es: a) C1s. b) Factor D. c) MASP-
 
 2. d) Factor I. e) Bb.
 
-    ● Respuesta: c. C1s lo hace en la clásica; el factor D corta el factor B en la alternativa.
+     ● Respuesta: c. C1s lo hace en la clásica; el factor D corta el factor B en la alternativa.
 
 6. La MBL distingue a los microbios de las células propias porque: a) Cada CRD une con
 
@@ -349,13 +364,13 @@ superficie bacteriana gracias a la avidez de sus múltiples CRD. c) Reconoce ác
 
 Se une a anticuerpos. e) Solo se produce durante la infección.
 
-    ● Respuesta: b. Un solo CRD tiene una afinidad muy débil.
+     ● Respuesta: b. Un solo CRD tiene una afinidad muy débil.
 
 7. La properdina (factor P): a) Corta el factor B. b) Inhibe la convertasa C3bBb. c) Estabiliza
 
 la convertasa C3bBb. d) Degrada C3b. e) Impide la polimerización de C9.
 
-    ● Respuesta: c. El factor D corta B; el factor I degrada C3b; CD59 impide la
+     ● Respuesta: c. El factor D corta B; el factor I degrada C3b; CD59 impide la
 
         polimerización de C9.
 
@@ -365,39 +380,39 @@ La hidrólisis lenta y espontánea del tioéster de C3. c) La activación de MAS
 
 liberación de C5a. e) La unión de IgM.
 
-    ● Respuesta: b. Es el "tick-over" de C3, que forma C3(H2O).
+     ● Respuesta: b. Es el "tick-over" de C3, que forma C3(H2O).
 
 9. ¿Qué componente forma el poro del complejo de ataque a la membrana? a) C5b. b)
 
 C6. c) C7. d) C8. e) C9 polimerizado.
 
-    ● Respuesta: e. Entre 10 y 16 C9; la perforina es homóloga a C9.
+     ● Respuesta: e. Entre 10 y 16 C9; la perforina es homóloga a C9.
 
-
-
-
-7
-10. La proteína que impide la formación del CAM sobre las células propias es: a) DAF.
+10. La proteína que impide la formación del CAM sobre las células propias es: a) DAF.
 
 b) Factor H. c) CD59. d) C1-INH. e) Factor I.
 
-    ● Respuesta: c. DAF y factor H actúan sobre las convertasas; C1-INH sobre C1r/C1s; el
+     ● Respuesta: c. DAF y factor H actúan sobre las convertasas; C1-INH sobre C1r/C1s; el
 
-       factor I degrada C3b.
+        factor I degrada C3b.
 
-11. El receptor CR2 (CD21): a) Es una integrina que une iC3b. b) Es correceptor del linfocito
+
+
+
+10
+11. El receptor CR2 (CD21): a) Es una integrina que une iC3b. b) Es correceptor del linfocito
 
 B y receptor del virus de Epstein-Barr. c) Transporta inmunocomplejos en los eritrocitos. d)
 
 Une C1q. e) Es receptor de C5a.
 
-    ● Respuesta: b. El transporte por eritrocitos lo hace CR1; las integrinas que unen iC3b
+     ● Respuesta: b. El transporte por eritrocitos lo hace CR1; las integrinas que unen iC3b
 
-       son CR3 y CR4.
+        son CR3 y CR4.
 
 12. La anafilatoxina más potente es: a) C3a. b) C4a. c) C5a. d) C2b. e) Ba.
 
-    ● Respuesta: c. C3a es intermedia y C4a débil.
+     ● Respuesta: c. C3a es intermedia y C4a débil.
 
 13. Una deficiencia de C1, C2 o C4 se asocia sobre todo a: a) Infecciones solo por
 
@@ -405,9 +420,9 @@ Neisseria. b) Enfermedad por inmunocomplejos (como el lupus). c) Angioedema
 
 hereditario. d) Hemoglobinuria paroxística nocturna. e) Ausencia de linfocitos T.
 
-    ● Respuesta: b. Los déficits de C5–C9 dan infecciones por Neisseria; el angioedema
+     ● Respuesta: b. Los déficits de C5–C9 dan infecciones por Neisseria; el angioedema
 
-       es por falta de C1-INH.
+        es por falta de C1-INH.
 
 14. Los genes de C4, C2 y factor B se encuentran en: a) El cromosoma X. b) La región de
 
@@ -415,16 +430,16 @@ clase III del MHC. c) La región de clase I del MHC. d) El locus de las inmunogl
 
 cromosoma Y.
 
-    ● Respuesta: b. Por eso las convertasas C4b2a y C3bBb se parecen.
+     ● Respuesta: b. Por eso las convertasas C4b2a y C3bBb se parecen.
 
 15. El eculizumab, usado en la hemoglobinuria paroxística nocturna, es un
 
 anticuerpo: a) Anti-C3. b) Anti-C5. c) Anti-C1q. d) Anti-factor B. e) Anti-C5aR.
 
-    ● Respuesta: b. Impide el corte de C5 y la formación del CAM.
+     ● Respuesta: b. Impide el corte de C5 y la formación del CAM.
 
 
 
 
-8
+11
 
