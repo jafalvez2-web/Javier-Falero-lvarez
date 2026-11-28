@@ -247,6 +247,13 @@ otra cosa. Al final ofrece guardar la explicación completa como archivo
      5.000 palabras (25–35 páginas)** aunque el tema tenga 60+ diapositivas. Frases directas, pocas
      ampliaciones, 10–15 figuras como mucho, y la nota de "cajas en blanco completadas" una sola vez al
      principio, no en cada apartado. Antes de entregar, contar palabras (`pdftotext … | wc -w`).
+  25. **Las respuestas a preguntas de desarrollo, REDACTADAS** (feedback 2026-11-28, hojas de preguntas de
+     T11-12 y T13: "no me gusta que haya los puntos esos… en el examen eso no lo puedo poner, lo tengo que
+     redactar"). En la hoja de preguntas de examen, cada respuesta de desarrollo va **en párrafos de texto
+     corrido**, como se escribiría en el examen: introducción que define, desarrollo con conectores ("en
+     primer lugar", "a continuación", "por último") y cierre con la función o la importancia clínica.
+     **Nada de viñetas ni pasos numerados**; negrita solo en los términos clave. Las viñetas solo se
+     admiten en las preguntas tipo test (respuesta y explicación).
   12. **No narrar las diapositivas ni las figuras.** Nada de "la diapositiva 47 muestra…", "la
      diapositiva 48 es una tabla que…", "en esta figura se ve…", "las tres gráficas de abajo…",
      "arriba a la derecha…". Se explica **el contenido directamente**, como si fuera la clase: el
